@@ -1,0 +1,13 @@
+UPDATE specifications SET description='MB1002B merupakan IMB Automatic Shirt Pocket Setter yang digunakan untuk proses pemasangan atau penjahitan saku kemeja secara otomatis.' WHERE id=299;
+UPDATE specifications SET description='Kapasitas produksi rata-rata mesin adalah 150–180 pcs per jam berdasarkan data IMB.' WHERE id=300;
+UPDATE specifications SET description='Mesin melakukan proses folding, feeding, sewing, dan stacking secara otomatis sesuai konfigurasi MB1002B.' WHERE id=301;
+UPDATE specifications SET description='Aplikasi utama mesin adalah shirt pocket setting untuk memasang atau menjahit saku pada kemeja.' WHERE id=302;
+UPDATE specifications SET description='Kecepatan jahit maksimum mesin tercatat sebesar 2.800 rpm berdasarkan manual teknis MB1002B.' WHERE id=1065;
+UPDATE specifications SET description='Tegangan kerja mesin adalah 220 V berdasarkan manual teknis MB1002B.' WHERE id=1066;
+UPDATE specifications SET description='Tekanan udara kerja mesin tercatat sebesar 0,5 MPa berdasarkan manual teknis MB1002B.' WHERE id=1067;
+UPDATE specifications SET description='Kontrol utama dan gerakan sumbu X-Y menggunakan AC servo motor untuk mengendalikan posisi proses secara presisi.' WHERE id=1068;
+UPDATE specifications SET description='Panjang jahitan dapat diatur pada rentang 1–4 mm sesuai pengaturan proses jahit.' WHERE id=1069;
+UPDATE specifications SET description='Sistem quick mold change memungkinkan cetakan atau mold diganti dengan lebih cepat sesuai kebutuhan produksi.' WHERE id=1070;
+UPDATE specifications SET description='Dimensi mesin adalah 2000 × 1300 × 1550 mm berdasarkan manual teknis MB1002B.' WHERE id=1071;
+UPDATE specifications SET description='Berat mesin tercatat sebesar 395 kg berdasarkan manual teknis MB1002B.' WHERE id=1072;
+UPDATE specifications SET description='Mesin menggunakan jarum DB×1 sesuai manual teknis MB1002B.' WHERE id=1073;

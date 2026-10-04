@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tambah Catatan Teknisi</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<header>
+    <h1>📝 Tambah Catatan Teknisi</h1>
+</header>
+
+<main>
+
+    <section class="machine-card">
+
+        <h2>
+            {{ machine["brand_name"] }} — {{ machine["model"] }}
+        </h2>
+
+        <form method="POST">
+
+            <label for="problem">
+                Masalah
+            </label>
+
+            <textarea
+                id="problem"
+                name="problem"
+                rows="3"
+                placeholder="Masalah yang ditemukan..."
+            ></textarea>
+
+            <label for="diagnosis">
+                Diagnosis
+            </label>
+
+            <textarea
+                id="diagnosis"
+                name="diagnosis"
+                rows="4"
+                placeholder="Hasil pemeriksaan atau diagnosis..."
+            ></textarea>
+
+            <label for="action_taken">
+                Tindakan
+            </label>
+
+            <textarea
+                id="action_taken"
+                name="action_taken"
+                rows="4"
+                placeholder="Tindakan yang dilakukan..."
+            ></textarea>
+
+            <label for="result">
+                Hasil
+            </label>
+
+            <textarea
+                id="result"
+                name="result"
+                rows="3"
+                placeholder="Hasil setelah perbaikan..."
+            ></textarea>
+
+            <label for="technician">
+                Teknisi
+            </label>
+
+            <input
+                type="text"
+                id="technician"
+                name="technician"
+                placeholder="Nama teknisi"
+            >
+
+            <br>
+
+            <button type="submit" class="add-button">
+                💾 Simpan Catatan
+            </button>
+
+            <a
+                href="/machine/{{ machine['id'] }}"
+                class="add-button"
+            >
+                ↩️ Kembali
+            </a>
+
+        </form>
+
+    </section>
+
+</main>
+
+</body>
+</html>

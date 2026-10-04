@@ -1,0 +1,32 @@
+BEGIN;
+
+UPDATE specifications SET description='AMS-221EN merupakan mesin cycle sewing terkomputerisasi seri JUKI untuk proses jahit pola dengan feeding frame yang dikendalikan secara elektronik.' WHERE id=926;
+UPDATE specifications SET description='Mesin bertipe computer-controlled cycle sewing machine yang menjalankan pola jahitan secara terprogram.' WHERE id=927;
+UPDATE specifications SET description='Area jahit tersedia dalam dua konfigurasi: 250 × 160 mm untuk varian 2516 dan 300 × 200 mm untuk varian 3020.' WHERE id=928;
+UPDATE specifications SET description='Kecepatan jahit maksimum 2.800 sti/min berlaku untuk stitch pitch hingga 3,5 mm. Untuk G type tercantum maksimum 2.500 sti/min.' WHERE id=929;
+UPDATE specifications SET description='Panjang jahitan dapat diatur dari 0,1 hingga 12,7 mm dengan resolusi minimum 0,05 mm.' WHERE id=930;
+UPDATE specifications SET description='Feeding frame menggunakan intermittent feed dengan penggerak stepping motor dua poros untuk mengontrol pergerakan material.' WHERE id=931;
+UPDATE specifications SET description='Needle bar stroke yang tercantum untuk AMS-221EN adalah 41,2 mm.' WHERE id=932;
+UPDATE specifications SET description='Pilihan jarum meliputi GROZ-BECKERT 134/135×17 dan ORGAN DP×5/DP×17, dengan pemilihan mengikuti konfigurasi mesin.' WHERE id=933;
+UPDATE specifications SET description='Feeding frame dapat diangkat hingga maksimum 30 mm pada konfigurasi pneumatic feeding frame.' WHERE id=934;
+UPDATE specifications SET description='Stroke intermediate presser standar adalah 4 mm dan dapat diatur pada rentang 0–10 mm.' WHERE id=935;
+UPDATE specifications SET description='Lift intermediate presser yang tercantum adalah 20 mm.' WHERE id=936;
+UPDATE specifications SET description='Posisi bawah intermediate presser dapat diatur 0–3,5 mm sebagai standar, dengan maksimum 0–7,0 mm.' WHERE id=937;
+UPDATE specifications SET description='Needle thread tension menggunakan active tension untuk mengontrol tegangan benang secara elektronik.' WHERE id=938;
+UPDATE specifications SET description='Mesin menggunakan double-capacity shuttle hook dengan konfigurasi hook semi-rotary.' WHERE id=939;
+UPDATE specifications SET description='Pattern memory memiliki kapasitas 500.000 stitches dan hingga 999 patterns, dengan maksimum 50.000 stitches untuk setiap pattern.' WHERE id=940;
+UPDATE specifications SET description='External media memory memiliki kapasitas hingga 50.000.000 stitches dan hingga 999 patterns, dengan maksimum 50.000 stitches untuk setiap pattern.' WHERE id=941;
+UPDATE specifications SET description='Pola dapat diperbesar atau diperkecil pada rentang 1–400% dengan langkah penyesuaian 0,1%.' WHERE id=942;
+UPDATE specifications SET description='Counter bobbin dan sewing menyediakan penghitungan Up/Down dengan rentang 0–9.999.' WHERE id=943;
+UPDATE specifications SET description='Sistem pelumasan menggunakan konfigurasi semi-dry dengan minute-quantity lubrication pada bagian hook.' WHERE id=944;
+UPDATE specifications SET description='Oli pelumas yang ditentukan adalah JUKI New Defrix Oil No.2 dengan spesifikasi setara ISO VG32.' WHERE id=945;
+UPDATE specifications SET description='Mesin menggunakan AC servo motor 550 W dengan sistem direct drive.' WHERE id=946;
+UPDATE specifications SET description='Konsumsi daya yang tercantum adalah 450 VA.' WHERE id=947;
+UPDATE specifications SET description='Konfigurasi 2516 mencakup AMS-221EN-SS2516, HS2516, SL2516, dan HL2516. Konfigurasi tersebut menggunakan area jahit 250 × 160 mm dengan kelas material dan feeding frame yang berbeda.' WHERE id=948;
+UPDATE specifications SET description='Pada konfigurasi 2516, pilihan jarum dan benang bergantung pada konfigurasi: DP×5 #14 dengan benang #80–#20 atau DP×17 #18 dengan benang #50–#2.' WHERE id=949;
+UPDATE specifications SET description='Konfigurasi 3020 adalah AMS-221EN-HS3020 dengan area jahit 300 × 200 mm dan ditujukan untuk material medium-heavy weight.' WHERE id=950;
+UPDATE specifications SET description='Konfigurasi HS3020 menggunakan jarum DP×17 #18 dengan ukuran benang #50–#2.' WHERE id=951;
+UPDATE specifications SET description='Kebutuhan compressed air untuk 2516 adalah 0,5–0,55 MPa, sedangkan 3020 adalah 0,35–0,4 MPa. Tekanan maksimum 0,55 MPa dengan konsumsi 1,8 dm³/min ANR.' WHERE id=952;
+UPDATE specifications SET description='Dimensi tanpa thread stand adalah 1.200 × 1.000 × 1.200 mm. Berat konfigurasi 2516 adalah 197 kg, sedangkan konfigurasi 3020 adalah 207 kg.' WHERE id=953;
+
+COMMIT;

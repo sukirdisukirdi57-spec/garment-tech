@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        {{ machine["brand_name"] }} {{ machine["model"] }}
+        - Garment Machine Tech Database
+    </title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<header>
+    <h1>🔎 DETAIL MESIN</h1>
+    <p>Garment Machine Tech Database</p>
+</header>
+
+<main>
+
+    <section class="welcome">
+
+        <h2>
+            {{ machine["brand_name"] or "Merek belum ada" }}
+            — {{ machine["model"] }}
+        </h2>
+
+        <p>
+            <strong>Jenis Mesin:</strong>
+            {{ machine["type_name"] or "Belum ditentukan" }}
+        </p>
+
+        <p>
+            <strong>Fungsi:</strong>
+            {{ machine["function"] or "Belum ada data" }}
+        </p>
+
+        <p>
+            <strong>Deskripsi:</strong><br>
+            {{ machine["description"] or "Belum ada deskripsi" }}
+        </p>
+
+    </section>
+
+    {% if machine["brand_name"] == "JUKI" and machine["model"] == "DDL-8700" %}
+    <section>
+        <p>
+            <form method="POST"
+              action="/import-juki/{{ machine['id'] }}"
+              style="display:inline;">
+            <button type="submit" class="add-button">
+                🔄 Ambil Data Resmi JUKI
+            </button>
+        </form>
+        </p>
+        <p>
+            <small>
+                Mengambil spesifikasi DDL-8700 dari halaman resmi JUKI.
+            </small>
+        </p>
+    </section>
+    {% endif %}
+
+
+    <section>
+
+        <h2>📚 Dokumen & Referensi</h2>
+
+        {% if documents %}
+
+            {% for document in documents %}
+
+            <div class="machine-card">
+
+                <h3>{{ document["title"] }}</h3>
+
+                {% if document["document_type"] %}
+                <p>
+                    <strong>Jenis:</strong>
+                    {{ document["document_type"] }}
+                </p>
+                {% endif %}
+
+                {% if document["notes"] %}
+                <p>
+                    <strong>Keterangan:</strong><br>
+                    {{ document["notes"] }}
+                </p>
+                {% endif %}
+
+                {% if document["source_url"] %}
+                <p>
+                    <a
+                        href="{{ document["source_url"] }}"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="add-button"
+                    >
+                        🔗 Buka Dokumen
+                    </a>
+                </p>
+                {% endif %}
+
+                {% if document["local_file"] %}
+                <p>
+                    <a
+                        href="{{ url_for('local_file', filename=document['local_file']) }}"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="add-button"
+                    >
+                        📄 Buka File Lokal
+                    </a>
+                </p>
+                {% endif %}
+
+            </div>
+
+            {% endfor %}
+
+        {% else %}
+
+            <p>Belum ada dokumen atau referensi.</p>
+
+        {% endif %}
+
+    </section>
+
+
+    <section>
+
+        <h2>🔧 Troubleshooting Mesin</h2>
+
+        {% if troubleshooting_data %}
+
+            {% for item in troubleshooting_data %}
+
+            <div class="machine-card">
+
+                <h3>
+                    {{ item["problem"] }}
+                </h3>
+
+                {% if item["symptoms"] %}
+                <p>
+                    <strong>Gejala:</strong><br>
+                    {{ item["symptoms"] }}
+                </p>
+                {% endif %}
+
+                {% if item["possible_cause"] %}
+                <p>
+                    <strong>Kemungkinan Penyebab:</strong><br>
+                    {{ item["possible_cause"] }}
+                </p>
+                {% endif %}
+
+                {% if item["solution"] %}
+                <p>
+                    <strong>Solusi:</strong><br>
+                    {{ item["solution"] }}
+                </p>
+                {% endif %}
+
+                {% if item["safety_notes"] %}
+                <p>
+                    <strong>⚠️ Catatan Keselamatan:</strong><br>
+                    {{ item["safety_notes"] }}
+                </p>
+                {% endif %}
+
+                {% if item["source"] %}
+                <p>
+                    <strong>Sumber:</strong><br>
+                    {{ item["source"] }}
+                </p>
+                {% endif %}
+
+            </div>
+
+            {% endfor %}
+
+        {% else %}
+
+            <p>
+                Belum ada data troubleshooting untuk mesin ini.
+            </p>
+
+        {% endif %}
+
+    </section>
+
+
+<section>
+
+    <h2>⚙️ Spesifikasi</h2>
+
+<p>
+    <a href="/add-specification/{{ machine['id'] }}" class="add-button">
+        ➕ Tambah Spesifikasi
+    </a>
+</p>
+
+    {% if specifications %}
+
+        {% for spec in specifications %}
+
+        <div class="machine-card">
+
+            <h3>
+                {{ spec["specification"] }}
+            </h3>
+
+            <p>
+                <strong>Nilai:</strong>
+                {{ spec["value"] or "Belum ada nilai" }}
+            </p>
+
+            {% if spec["notes"] %}
+            <p>
+                <strong>Catatan:</strong><br>
+                {{ spec["notes"] }}
+            </p>
+            {% endif %}
+
+            {% if spec["description"] %}
+            <p>
+                <strong>Deskripsi:</strong><br>
+                {{ spec["description"] }}
+            </p>
+            {% endif %}
+
+            <p>
+                <a
+                    href="/edit-specification/{{ spec['id'] }}"
+                    class="add-button"
+                >
+                    ✏️ Edit
+                </a>
+
+                <form
+                    method="POST"
+                    action="/delete-specification/{{ spec['id'] }}"
+                    style="display:inline;"
+                    onsubmit="return confirm('Hapus spesifikasi ini?');"
+                >
+                    <button type="submit" class="add-button">
+                        🗑️ Hapus
+                    </button>
+                </form>
+            </p>
+
+        </div>
+
+        {% endfor %}
+
+    {% else %}
+
+        <p>
+            Belum ada data spesifikasi.
+        </p>
+
+    {% endif %}
+
+</section>
+
+
+    <section>
+
+        <h2>🔩 Komponen</h2>
+
+        <p>
+            <a href="/add-component/{{ machine['id'] }}" class="add-button">
+                ➕ Tambah Komponen
+            </a>
+        </p>
+
+        {% if components %}
+
+            {% for component in components %}
+
+            <div class="machine-card">
+
+                <h3>
+                    {{ component["component_name"] }}
+                </h3>
+
+                {% if component["part_number"] %}
+                <p>
+                    <strong>Nomor Part:</strong>
+                    {{ component["part_number"] }}
+                </p>
+                {% endif %}
+
+                {% if component["catalog_ref"] %}
+                <p>
+                    <strong>📖 Ref. Katalog:</strong>
+                    {{ component["catalog_ref"] }}
+                </p>
+                {% endif %}
+
+                {% if component["diagram_page"] %}
+                <p>
+                    <strong>📄 Halaman Diagram:</strong>
+                    {{ component["diagram_page"] }}
+                </p>
+                {% endif %}
+
+                {% if component["location"] %}
+                <p>
+                    <strong>Lokasi:</strong>
+                    {{ component["location"] }}
+                </p>
+                {% endif %}
+
+                {% if component["function"] %}
+                <p>
+                    <strong>Fungsi:</strong><br>
+                    {{ component["function"] }}
+                </p>
+                {% endif %}
+
+                {% if component["notes"] %}
+                <p>
+                    <strong>Catatan:</strong><br>
+                    {{ component["notes"] }}
+                </p>
+                {% endif %}
+
+                {% set component_subparts = component_parts
+                    | selectattr("component_id", "equalto", component["id"])
+                    | list %}
+
+                {% if component_subparts %}
+                <div class="component-subparts">
+                    <strong>🔩 Sub-part:</strong>
+                    <ul>
+                        {% for subpart in component_subparts %}
+                        <li>
+                            <strong>{{ subpart["part_number"] }}</strong>
+                            — {{ subpart["part_name"] }}
+
+                            {% if subpart["relation_type"] %}
+                            <small>
+                                ({{ subpart["relation_type"] }})
+                            </small>
+                            {% endif %}
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+
+                <p>
+                    <a
+                        href="/edit-component/{{ component['id'] }}"
+                        class="add-button"
+                    >
+                        ✏️ Edit
+                    </a>
+
+                    <form
+                        method="POST"
+                        action="/delete-component/{{ component['id'] }}"
+                        style="display:inline;"
+                        onsubmit="return confirm('Hapus komponen ini?');"
+                    >
+                        <button type="submit" class="add-button">
+                            🗑️ Hapus
+                        </button>
+                    </form>
+                </p>
+
+            </div>
+
+            {% endfor %}
+
+        {% else %}
+
+            <p>
+                Belum ada data komponen.
+            </p>
+
+        {% endif %}
+
+    </section>
+
+
+    <section id="parts-list">
+
+        <h2>📦 Parts List</h2>
+
+        {% if parts %}
+
+        <div class="machine-card">
+
+            <p>
+                <strong>Total Parts:</strong>
+                <span id="parts-total">{{ parts|length }}</span>
+            </p>
+
+            <p>
+                <label for="parts-search">
+                    🔎 <strong>Cari Part:</strong>
+                </label>
+                <input
+                    type="search"
+                    id="parts-search"
+                    placeholder="Nomor part atau nama part..."
+                    style="width:100%; padding:10px; margin-top:5px;"
+                >
+            </p>
+
+            <p>
+                <label for="parts-catalog">
+                    📖 <strong>Ref. Katalog:</strong>
+                </label>
+                <select
+                    id="parts-catalog"
+                    style="width:100%; padding:10px; margin-top:5px;"
+                >
+                    <option value="">Semua Ref. Katalog</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="parts-page">
+                    📄 <strong>Halaman Diagram:</strong>
+                </label>
+                <select
+                    id="parts-page"
+                    style="width:100%; padding:10px; margin-top:5px;"
+                >
+                    <option value="">Semua Halaman</option>
+                </select>
+            </p>
+
+            <p>
+                <strong>Hasil:</strong>
+                <span id="parts-result-count">{{ parts|length }}</span>
+            </p>
+
+        </div>
+
+        <div style="overflow-x:auto;">
+
+            <table id="parts-table"
+                   style="width:100%; border-collapse:collapse;">
+
+                <thead>
+                    <tr>
+                        <th style="padding:8px; text-align:left;">No</th>
+                        <th style="padding:8px; text-align:left;">Nomor Part</th>
+                        <th style="padding:8px; text-align:left;">Nama Part</th>
+                        <th style="padding:8px; text-align:center;">Qty</th>
+                        <th style="padding:8px; text-align:center;">Ref.</th>
+                        <th style="padding:8px; text-align:center;">Page</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    {% for part in parts %}
+                    <tr
+                        class="part-row"
+                        data-search="{{ part['part_number'] }} {{ part['part_name'] }}"
+                        data-catalog="{{ part['catalog_ref'] or '' }}"
+                        data-page="{{ part['diagram_page'] or '' }}"
+                    >
+
+                        <td style="padding:8px;">
+                            {{ loop.index }}
+                        </td>
+
+                        <td style="padding:8px;">
+                            <strong>{{ part["part_number"] }}</strong>
+                        </td>
+
+                        <td style="padding:8px;">
+                            {{ part["part_name"] }}
+                        </td>
+
+                        <td style="padding:8px; text-align:center;">
+                            {{ part["quantity"] or "" }}
+                        </td>
+
+                        <td style="padding:8px; text-align:center;">
+                            {{ part["catalog_ref"] or "" }}
+                        </td>
+
+                        <td style="padding:8px; text-align:center;">
+                            {{ part["diagram_page"] or "" }}
+                        </td>
+
+                    </tr>
+                    {% endfor %}
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+        <p id="parts-empty"
+           style="display:none;">
+            Tidak ada Parts yang sesuai dengan filter.
+        </p>
+
+        <script>
+        (function () {
+
+            const searchInput = document.getElementById("parts-search");
+            const catalogSelect = document.getElementById("parts-catalog");
+            const pageSelect = document.getElementById("parts-page");
+            const resultCount = document.getElementById("parts-result-count");
+            const emptyMessage = document.getElementById("parts-empty");
+            const rows = Array.from(
+                document.querySelectorAll("#parts-table .part-row")
+            );
+
+            function addOptions(select, values, label) {
+                [...values]
+                    .sort(function(a, b) {
+                        return Number(a) - Number(b);
+                    })
+                    .forEach(function(value) {
+                        const option = document.createElement("option");
+                        option.value = value;
+                        option.textContent = label + " " + value;
+                        select.appendChild(option);
+                    });
+            }
+
+            const catalogs = new Set();
+            const pages = new Set();
+
+            rows.forEach(function(row) {
+                if (row.dataset.catalog) {
+                    catalogs.add(row.dataset.catalog);
+                }
+
+                if (row.dataset.page) {
+                    pages.add(row.dataset.page);
+                }
+            });
+
+            addOptions(catalogSelect, catalogs, "Ref.");
+            addOptions(pageSelect, pages, "Halaman");
+
+            function filterParts() {
+
+                const search = searchInput.value
+                    .trim()
+                    .toLowerCase();
+
+                const catalog = catalogSelect.value;
+                const page = pageSelect.value;
+
+                let visible = 0;
+
+                rows.forEach(function(row) {
+
+                    const text = row.dataset.search.toLowerCase();
+
+                    const matchSearch =
+                        !search || text.includes(search);
+
+                    const matchCatalog =
+                        !catalog ||
+                        row.dataset.catalog === catalog;
+
+                    const matchPage =
+                        !page ||
+                        row.dataset.page === page;
+
+                    const show =
+                        matchSearch &&
+                        matchCatalog &&
+                        matchPage;
+
+                    row.style.display = show ? "" : "none";
+
+                    if (show) {
+                        visible++;
+                    }
+                });
+
+                resultCount.textContent = visible;
+
+                emptyMessage.style.display =
+                    visible === 0 ? "block" : "none";
+            }
+
+            searchInput.addEventListener(
+                "input",
+                filterParts
+            );
+
+            catalogSelect.addEventListener(
+                "change",
+                filterParts
+            );
+
+            pageSelect.addEventListener(
+                "change",
+                filterParts
+            );
+
+        })();
+        </script>
+
+        {% else %}
+
+        <p>
+            Belum ada Parts List untuk mesin ini.
+        </p>
+
+        {% endif %}
+
+    </section>
+
+
+
+
+
+
+
+    <section>
+
+        <h2>📝 Catatan Teknisi</h2>
+
+        <p>
+            <a href="/add-technician-note/{{ machine['id'] }}" class="add-button">
+                ➕ Tambah Catatan Teknisi
+            </a>
+        </p>
+
+        {% if technician_notes %}
+
+            {% for note in technician_notes %}
+
+            <div class="machine-card">
+
+                {% if note["problem"] %}
+                <p>
+                    <strong>Masalah:</strong><br>
+                    {{ note["problem"] }}
+                </p>
+                {% endif %}
+
+                {% if note["diagnosis"] %}
+                <p>
+                    <strong>Diagnosis:</strong><br>
+                    {{ note["diagnosis"] }}
+                </p>
+                {% endif %}
+
+                {% if note["action_taken"] %}
+                <p>
+                    <strong>Tindakan:</strong><br>
+                    {{ note["action_taken"] }}
+                </p>
+                {% endif %}
+
+                {% if note["result"] %}
+                <p>
+                    <strong>Hasil:</strong><br>
+                    {{ note["result"] }}
+                </p>
+                {% endif %}
+
+                {% if note["technician"] %}
+                <p>
+                    <strong>Teknisi:</strong>
+                    {{ note["technician"] }}
+                </p>
+                {% endif %}
+
+                {% if note["created_at"] %}
+                <p>
+                    <strong>Waktu:</strong>
+                    {{ note["created_at"] }}
+                </p>
+                {% endif %}
+
+            </div>
+
+            {% endfor %}
+
+        {% else %}
+
+            <p>
+                Belum ada catatan teknisi.
+            </p>
+
+        {% endif %}
+
+    </section>
+
+
+    <section>
+
+        <a href="/" class="back-button">
+            ← Kembali ke Database
+        </a>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>Garment Machine Tech Database — Local System</p>
+</footer>
+
+</body>
+</html>

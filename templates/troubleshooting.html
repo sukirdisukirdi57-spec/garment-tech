@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Troubleshooting - Garment Machine Tech Database</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<header>
+    <h1>🔧 TROUBLESHOOTING</h1>
+    <p>Database Teknisi Mesin Garment</p>
+</header>
+
+<main>
+
+    <section class="welcome">
+
+        <h2>Data Troubleshooting</h2>
+
+        <p><strong>📊 Jumlah hasil:</strong> {{ troubleshooting_data|length }} data troubleshooting</p>
+
+<form method="POST"
+      action="/import-troubleshooting-csv"
+      style="margin-bottom: 20px;">
+    <button type="submit" class="add-button">
+        📥 Import Troubleshooting CSV
+    </button>
+</form>
+
+<form method="GET" action="/troubleshooting" style="margin-bottom: 20px;">
+
+            <input
+                type="text"
+                name="search"
+                value="{{ search or '' }}"
+                placeholder="Cari masalah, gejala, penyebab, solusi, atau mesin..."
+                style="width: 100%; box-sizing: border-box;"
+            >
+
+            <br><br>
+
+            <label for="machine_id">
+                <strong>Filter Mesin:</strong>
+            </label>
+
+            <select
+                id="machine_id"
+                name="machine_id"
+                style="width: 100%; box-sizing: border-box; padding: 10px;"
+            >
+                <option value="">Semua Mesin</option>
+
+                {% for machine in machines %}
+                <option
+                    value="{{ machine['id'] }}"
+                    {% if machine_id == machine['id']|string %}selected{% endif %}
+                >
+                    {{ machine['brand_name'] }} — {{ machine['model'] }}
+                </option>
+                {% endfor %}
+            </select>
+
+            <br><br>
+
+            <button type="submit" class="add-button">
+                🔎 Cari Troubleshooting
+            </button>
+
+            {% if search or machine_id %}
+            <a href="/troubleshooting" class="back-button">
+                ✖️ Hapus Pencarian
+            </a>
+            {% endif %}
+
+        </form>
+
+        {% if troubleshooting_data %}
+
+            {% for item in troubleshooting_data %}
+
+            <div class="machine-card">
+
+                <h3>
+                    {{ item['problem'] }}
+                </h3>
+
+                {% if item['brand_name'] or item['machine_model'] %}
+                <p>
+                    <strong>Mesin:</strong>
+                    {{ item['brand_name'] or '' }}
+                    {{ item['machine_model'] or '' }}
+                </p>
+                {% endif %}
+
+                {% if item['symptoms'] %}
+                <p>
+                    <strong>Gejala:</strong><br>
+                    {{ item['symptoms'] }}
+                </p>
+                {% endif %}
+
+                {% if item['possible_cause'] %}
+                <p>
+                    <strong>Kemungkinan Penyebab:</strong><br>
+                    {{ item['possible_cause'] }}
+                </p>
+                {% endif %}
+
+                {% if item['solution'] %}
+                <p>
+                    <strong>Solusi:</strong><br>
+                    {{ item['solution'] }}
+                </p>
+                {% endif %}
+
+                {% if item['safety_notes'] %}
+                <p>
+                    <strong>⚠️ Catatan Keselamatan:</strong><br>
+                    {{ item['safety_notes'] }}
+                </p>
+                {% endif %}
+
+                {% if item['source'] %}
+                <p>
+                    <strong>Sumber:</strong><br>
+                    {{ item['source'] }}
+                </p>
+                {% endif %}
+
+            </div>
+
+            {% endfor %}
+
+        {% else %}
+
+            <p>
+                Belum ada data troubleshooting.
+            </p>
+
+        {% endif %}
+
+        <br>
+
+        <a href="/" class="back-button">
+            ← Kembali ke Database
+        </a>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>Garment Machine Tech Database — Local System</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+UPDATE specifications SET description='UAM-04 merupakan mesin MAICA sleeve placket setter untuk melipat dan menjahit sleeve placket secara otomatis.' WHERE id=272;
+UPDATE specifications SET description='Power supply mesin adalah 380 V / 50 Hz sesuai spesifikasi MAICA UAM-04.' WHERE id=273;
+UPDATE specifications SET description='Kebutuhan tekanan udara kerja mesin adalah 7 bar.' WHERE id=274;
+UPDATE specifications SET description='Konsumsi udara tercatat sebesar 1 L/pc untuk setiap unit proses.' WHERE id=275;
+UPDATE specifications SET description='Kapasitas produksi mesin tercatat sebesar 250 pcs per jam.' WHERE id=276;
+UPDATE specifications SET description='Berat mesin tercatat sebesar 555 kg.' WHERE id=277;
+UPDATE specifications SET description='Dimensi packing mesin adalah 210 × 140 × 210 cm berdasarkan data MAICA UAM-04.' WHERE id=1088;
+UPDATE specifications SET description='Lebar sleeve placket yang dapat diproses berada pada rentang 15–30 mm.' WHERE id=1089;
+UPDATE specifications SET description='Panjang maksimum sleeve placket yang dapat diproses adalah 180 mm.' WHERE id=1090;
+UPDATE specifications SET description='Mesin dilengkapi vacuum system yang digunakan untuk membantu proses folding sleeve placket.' WHERE id=1091;
+UPDATE specifications SET description='Mesin menggunakan dua stacker otomatis untuk mengikuti proses dan memindahkan hasil setelah proses selesai.' WHERE id=1092;
+UPDATE specifications SET description='UAM-04 menggunakan computer controlled system untuk mengendalikan proses kerja mesin secara terprogram.' WHERE id=1093;
+UPDATE specifications SET description='Laser alignment membantu penempatan dan alignment kain agar posisi material sesuai selama proses sleeve placket.' WHERE id=1094;
+UPDATE specifications SET description='Kecepatan jahit mesin tercatat hingga 3.500 rpm berdasarkan data teknis MAICA UAM-04.' WHERE id=1095;

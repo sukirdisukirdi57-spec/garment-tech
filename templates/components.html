@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Database Komponen - Garment Machine Tech Database</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<header>
+    <h1>🔩 DATABASE KOMPONEN</h1>
+    <p>Database Teknisi Mesin Garment</p>
+</header>
+
+<main>
+
+    <section class="welcome">
+
+        <h2>Data Komponen & Spare Part</h2>
+
+        <form method="GET"
+              action="/components"
+              style="margin-bottom: 20px;">
+
+            <input
+                type="text"
+                name="search"
+                value="{{ search or '' }}"
+                placeholder="Cari komponen, nomor part, mesin, fungsi..."
+                style="width: 100%; box-sizing: border-box; margin-bottom: 10px;"
+            >
+
+            <button type="submit" class="add-button">
+                🔎 Cari Komponen
+            </button>
+
+            {% if search %}
+            <a href="/components" class="back-button">
+                ✖️ Hapus Pencarian
+            </a>
+            {% endif %}
+
+        </form>
+
+        <p>
+            <strong>📊 Jumlah hasil:</strong>
+            {{ components_data|length }} komponen
+        </p>
+
+    </section>
+
+
+    {% if components_data %}
+
+        {% for component in components_data %}
+
+        <section class="machine-card">
+
+            <h3>🔩 {{ component["component_name"] }}</h3>
+
+            {% if component["image_path"] %}
+            <p>
+                <img
+                    src="{{ url_for('static', filename=component['image_path']) }}"
+                    alt="{{ component['component_name'] }}"
+                    style="max-width: 100%; width: 320px; height: auto; border-radius: 10px; margin: 10px 0;"
+                >
+            </p>
+            {% endif %}
+
+            <p>
+                <strong>🏭 Mesin:</strong>
+                {{ component["brand_name"] or "" }}
+                {{ component["machine_model"] or "" }}
+            </p>
+
+            {% if component["part_number"] %}
+            <p>
+                <strong>🔢 Nomor Part:</strong>
+                {{ component["part_number"] }}
+            </p>
+            {% endif %}
+
+            {% if component["catalog_ref"] %}
+            <p>
+                <strong>📖 Ref. Katalog:</strong>
+                {{ component["catalog_ref"] }}
+            </p>
+            {% endif %}
+
+            {% if component["source_url"] %}
+            <p>
+                <a href="{{ component["source_url"] }}" target="_blank" rel="noopener">
+                    📄 Parts List Resmi JUKI
+                </a>
+            </p>
+            {% endif %}
+
+            {% if component["location"] %}
+            <p>
+                <strong>📍 Lokasi:</strong><br>
+                {{ component["location"] }}
+            </p>
+            {% endif %}
+
+            {% if component["function"] %}
+            <p>
+                <strong>⚙️ Fungsi:</strong><br>
+                {{ component["function"] }}
+            </p>
+            {% endif %}
+
+            {% if component["notes"] %}
+            <p>
+                <strong>📝 Catatan:</strong><br>
+                {{ component["notes"] }}
+            </p>
+            {% endif %}
+
+            <p>
+                <a href="/component/{{ component['id'] }}"
+                   class="add-button">
+                    🔍 Detail Component
+                </a>
+
+                <a href="/machine/{{ component['machine_id'] }}"
+                   class="back-button">
+                    🏭 Buka Mesin
+                </a>
+            </p>
+
+        </section>
+
+        {% endfor %}
+
+    {% else %}
+
+        <section class="welcome">
+            <h3>🔍 Tidak ada komponen</h3>
+            <p>Belum ada komponen yang sesuai dengan pencarian.</p>
+        </section>
+
+    {% endif %}
+
+
+    <section class="welcome">
+
+        <a href="/" class="back-button">
+            ← Kembali ke Database
+        </a>
+
+    </section>
+
+</main>
+
+</body>
+</html>

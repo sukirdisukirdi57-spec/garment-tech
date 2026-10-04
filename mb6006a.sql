@@ -1,0 +1,18 @@
+UPDATE specifications SET description='MB6006A merupakan IMB Button Setter Indexer untuk proses pemasangan dan penjahitan kancing pada pakaian secara otomatis.' WHERE id=310;
+UPDATE specifications SET description='Mesin menggunakan power supply 220–240 V, 1 phase, 50–60 Hz sesuai data katalog IMB.' WHERE id=311;
+UPDATE specifications SET description='Daya listrik mesin tercatat sebesar 0.80 kW berdasarkan data katalog IMB MB6006A.' WHERE id=312;
+UPDATE specifications SET description='Kebutuhan tekanan udara kerja mesin adalah 5.5 bar berdasarkan data katalog IMB MB6006A.' WHERE id=313;
+UPDATE specifications SET description='Konsumsi udara mesin tercatat sebesar 1.80 L/min berdasarkan data katalog IMB MB6006A.' WHERE id=314;
+UPDATE specifications SET description='Aplikasi utama mesin adalah button setting, button sewing, dan indexing untuk proses pemasangan kancing secara otomatis.' WHERE id=315;
+UPDATE specifications SET description='Kecepatan jahit maksimum mesin tercatat sebesar 2.700 rpm berdasarkan data katalog IMB MB6006A.' WHERE id=1096;
+UPDATE specifications SET description='Mesin dapat memproses kancing dengan diameter pada rentang 9–20 mm.' WHERE id=1097;
+UPDATE specifications SET description='Ketebalan kancing yang dapat diproses berada pada rentang 1,8–4 mm.' WHERE id=1098;
+UPDATE specifications SET description='Rentang jahit atau indexing dapat mencapai maksimum 660 mm sesuai data katalog IMB MB6006A.' WHERE id=1099;
+UPDATE specifications SET description='Interval antar kancing dapat diatur hingga maksimum 51 mm.' WHERE id=1100;
+UPDATE specifications SET description='Dimensi mesin adalah 2300 × 1500 × 1200 mm berdasarkan data katalog IMB MB6006A.' WHERE id=1101;
+UPDATE specifications SET description='Berat mesin tercatat sebesar 322 kg berdasarkan data katalog IMB MB6006A.' WHERE id=1102;
+UPDATE specifications SET description='Dimensi packing mesin adalah 2220 × 1120 × 1480 mm.' WHERE id=1103;
+UPDATE specifications SET description='Berat packing mesin tercatat sebesar 414 kg.' WHERE id=1104;
+UPDATE specifications SET description='Mesin dilengkapi laser positioning untuk membantu penempatan material dan posisi proses secara presisi.' WHERE id=1105;
+UPDATE specifications SET description='Mesin dilengkapi stacker untuk menata atau menumpuk hasil proses secara otomatis setelah operasi selesai.' WHERE id=1106;
+UPDATE specifications SET description='Thread monitor tersedia untuk memantau kondisi benang selama proses jahit.' WHERE id=1107;

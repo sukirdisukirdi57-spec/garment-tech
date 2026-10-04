@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ machine_type["name"] }} - Garment Machine Tech Database</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f5f5f5;
+            color: #222;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .back {
+            display: inline-block;
+            margin-bottom: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        h1 {
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 25px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+        }
+
+        .card {
+            display: block;
+            background: white;
+            padding: 18px;
+            border-radius: 10px;
+            text-decoration: none;
+            color: inherit;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+        }
+
+        .card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            margin-bottom: 8px;
+        }
+
+        .brand {
+            color: #666;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .function {
+            margin-top: 10px;
+        }
+
+        .empty {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+
+    <a href="{{ url_for('index') }}" class="back">← Kembali ke Menu Utama</a>
+
+    <h1>⚙️ {{ machine_type["name"] }}</h1>
+
+    <p class="subtitle">
+        {{ machine_type["description"] or "Daftar mesin berdasarkan jenis" }}
+    </p>
+
+    {% if machines %}
+    <div class="grid">
+
+        {% for machine in machines %}
+        <a href="{{ url_for('machine_detail', machine_id=machine['id']) }}"
+           class="card">
+
+            <div class="brand">
+                {{ machine["brand_name"] }}
+            </div>
+
+            <h3>🔧 {{ machine["model"] }}</h3>
+
+            {% if machine["function"] %}
+            <div class="function">
+                {{ machine["function"] }}
+            </div>
+            {% endif %}
+
+        </a>
+        {% endfor %}
+
+    </div>
+
+    {% else %}
+
+    <div class="empty">
+        Belum ada data mesin untuk jenis ini.
+    </div>
+
+    {% endif %}
+
+</div>
+</body>
+</html>

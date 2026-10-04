@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Edit Spesifikasi</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<header>
+    <h1>✏️ Edit Spesifikasi</h1>
+</header>
+
+<main>
+
+    <section class="machine-card">
+
+        <h2>
+            {{ specification["brand_name"] }} — {{ specification["model"] }}
+        </h2>
+
+        <form method="POST">
+
+            <label for="specification">
+                Spesifikasi
+            </label>
+
+            <input
+                type="text"
+                id="specification"
+                name="specification"
+                value="{{ specification['specification'] }}"
+                required
+            >
+
+            <label for="value">
+                Nilai
+            </label>
+
+            <input
+                type="text"
+                id="value"
+                name="value"
+                value="{{ specification['value'] or '' }}"
+            >
+
+            <label for="notes">
+                Catatan
+            </label>
+
+            <textarea
+                id="notes"
+                name="notes"
+                rows="4"
+            >{{ specification['notes'] or '' }}</textarea>
+
+              <label for="description">
+                  Deskripsi
+              </label>
+
+              <textarea
+                  id="description"
+                  name="description"
+                  rows="5"
+              >{{ specification["description"] or "" }}</textarea>
+
+            <br>
+
+            <button type="submit" class="add-button">
+                💾 Simpan Perubahan
+            </button>
+
+            <a
+                href="/machine/{{ specification['machine_id'] }}"
+                class="add-button"
+            >
+                ↩️ Kembali
+            </a>
+
+        </form>
+
+    </section>
+
+</main>
+
+</body>
+</html>

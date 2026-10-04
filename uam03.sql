@@ -1,0 +1,13 @@
+UPDATE specifications SET description='UAM-03 merupakan mesin MAICA untuk proses menjahit collar dan cuff secara otomatis, termasuk trimming dan stacking.' WHERE id=266;
+UPDATE specifications SET description='Power supply mesin adalah 380 V / 50 Hz sesuai spesifikasi MAICA UAM-03.' WHERE id=267;
+UPDATE specifications SET description='Konsumsi daya mesin tercatat sebesar 5 kW sesuai spesifikasi MAICA UAM-03.' WHERE id=268;
+UPDATE specifications SET description='Kebutuhan tekanan udara kerja mesin adalah 7 bar.' WHERE id=269;
+UPDATE specifications SET description='Konsumsi udara tercatat sebesar 1 L/pc untuk setiap unit proses.' WHERE id=270;
+UPDATE specifications SET description='Berat mesin tercatat sebesar 555 kg.' WHERE id=271;
+UPDATE specifications SET description='Kapasitas produksi cuff tercatat hingga 2.800 cuff per hari berdasarkan data MAICA UAM-03.' WHERE id=1081;
+UPDATE specifications SET description='Kapasitas produksi collar tercatat hingga 1.600 collar per hari berdasarkan data MAICA UAM-03.' WHERE id=1082;
+UPDATE specifications SET description='Dimensi packing mesin adalah 320 × 150 × 190 cm.' WHERE id=1083;
+UPDATE specifications SET description='UAM-03 menggunakan sistem computer controlled / electronic untuk mengendalikan proses kerja mesin secara terprogram.' WHERE id=1084;
+UPDATE specifications SET description='Mesin dilengkapi fungsi trimming otomatis untuk memotong bagian yang diperlukan setelah proses jahit.' WHERE id=1085;
+UPDATE specifications SET description='Mesin dilengkapi fungsi stacking otomatis untuk menata hasil proses setelah operasi selesai.' WHERE id=1086;
+UPDATE specifications SET description='Mesin mendukung automatic size change sehingga perubahan ukuran dapat dilakukan secara otomatis sesuai pengaturan proses.' WHERE id=1087;

@@ -1,0 +1,14 @@
+UPDATE specifications SET description='JTK10-90A merupakan Automatic Pattern Sewing Machine dari JUITA untuk proses jahit pola secara otomatis.' WHERE id=242;
+UPDATE specifications SET description='Sistem kontrol menggunakan computerized control system untuk mengendalikan proses jahit dan gerakan mesin secara terprogram.' WHERE id=243;
+UPDATE specifications SET description='Jenis jahitan yang digunakan adalah lockstitch untuk membentuk pola jahitan secara terprogram.' WHERE id=244;
+UPDATE specifications SET description='Area jahit pada sumbu X mencapai 130 cm sebagai effective sewing range.' WHERE id=245;
+UPDATE specifications SET description='Area jahit pada sumbu Y mencapai 85 cm sebagai effective sewing range.' WHERE id=246;
+UPDATE specifications SET description='Kecepatan jahit berada pada rentang 200–3.500 rpm dan dapat dipengaruhi oleh material serta kondisi jahitan.' WHERE id=247;
+UPDATE specifications SET description='Panjang jahitan dapat diatur dari 0,5 hingga 12,7 mm sesuai kebutuhan pola dan material.' WHERE id=248;
+UPDATE specifications SET description='Sistem penggerak menggunakan servo motor dengan computer-controlled servo drive untuk mengatur gerakan mesin secara presisi.' WHERE id=249;
+UPDATE specifications SET description='Mesin dilengkapi automatic thread trimming untuk melakukan pemotongan benang secara otomatis setelah proses jahit.' WHERE id=250;
+UPDATE specifications SET description='Bottom thread detection tersedia untuk mendeteksi kondisi atau keberadaan benang bawah selama pengoperasian.' WHERE id=251;
+UPDATE specifications SET description='Panel operasi menggunakan touch screen sebagai antarmuka pengoperasian mesin yang terkomputerisasi.' WHERE id=252;
+UPDATE specifications SET description='Program pola dapat dimasukkan dan ditransfer menggunakan USB atau U-disk.' WHERE id=253;
+UPDATE specifications SET description='Pola jahitan disimpan pada memory internal mesin sebagai penyimpanan program.' WHERE id=254;
+UPDATE specifications SET description='Mesin menggunakan power supply 220 V sebagai catu daya sesuai spesifikasi yang tercantum.' WHERE id=255;

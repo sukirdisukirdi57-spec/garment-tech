@@ -1,0 +1,14 @@
+UPDATE specifications SET description='MB5009A merupakan IMB Automatic Sleeve Placket Setter untuk proses pembentukan dan penjahitan sleeve placket secara otomatis.' WHERE id=285;
+UPDATE specifications SET description='Mesin menggunakan power supply 220–240 V, 1 phase, 50–60 Hz sesuai data katalog IMB.' WHERE id=286;
+UPDATE specifications SET description='Daya listrik mesin tercatat sebesar 0.55 kW berdasarkan data katalog IMB.' WHERE id=287;
+UPDATE specifications SET description='Kebutuhan tekanan udara kerja mesin adalah 5.5 bar berdasarkan data katalog IMB.' WHERE id=288;
+UPDATE specifications SET description='Konsumsi udara mesin tercatat sebesar 10 L/min berdasarkan data katalog IMB.' WHERE id=289;
+UPDATE specifications SET description='Kapasitas produksi mesin adalah sekitar 3–4 sleeve placket per menit berdasarkan data katalog IMB.' WHERE id=290;
+UPDATE specifications SET description='Kecepatan jahit maksimum mesin tercatat sebesar 2500 rpm.' WHERE id=291;
+UPDATE specifications SET description='Panjang jahitan dapat diatur dari 0.1 hingga 6 mm sesuai kebutuhan proses jahit.' WHERE id=292;
+UPDATE specifications SET description='Mesin mendukung sleeve vent width 19, 22, 25, 28, dan 31 mm sesuai konfigurasi yang tercantum pada katalog IMB.' WHERE id=293;
+UPDATE specifications SET description='Panjang sleeve vent maksimum yang dapat diproses adalah 200 mm.' WHERE id=294;
+UPDATE specifications SET description='Mesin menggunakan jarum DB×1 dengan rentang ukuran #9–#16 sesuai data katalog IMB.' WHERE id=295;
+UPDATE specifications SET description='Sewing head dapat menggunakan Brother 7300 atau Juki DDL9000 sesuai konfigurasi mesin yang tercantum pada katalog IMB.' WHERE id=296;
+UPDATE specifications SET description='Berat bersih mesin tercatat sebesar 280 kg berdasarkan data katalog IMB.' WHERE id=297;
+UPDATE specifications SET description='Dimensi mesin adalah 1330 × 1230 × 1390 mm sesuai data katalog IMB.' WHERE id=298;

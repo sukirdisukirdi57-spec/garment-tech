@@ -1,0 +1,1524 @@
+   UAM 02
+
+
+  Applicazione
+ Etichette pince
+
+
+
+
+Removable stays
+Label application
+                                                                                                                                 5   11
+
+
+
+
+                                                                                   7
+
+
+
+
+                                                     2
+                                                                                                                                          4
+
+
+                                                                                                                                          3
+
+
+                                                     9
+
+
+
+
+                                                                                                                                          1
+
+                                                                                                                                          10
+
+
+
+
+                                                         11    CGUAM12004    DIMA CUCITURA ETICHETTA SU 2/4 LATI                               1
+                                                         10    CGUAM11004    DIMA POSIZIONAMENTO ETICHETTA                                     1
+                                                         11    CGUAM20003    ASSIEME PULSANTIERA UAM01 UAM02                                   1
+                                                                                                                                                      PROPRIETÀ RISERVATA vietata la riproduzione a terzi senza autorizzazione scritta
+                                                         10    CGUAM19004    ASSIEME QUADRO ELETTRICO UAM 02                                   1
+                                                                                                                                                      Ogni infrazione sarà punita a termini di legge
+                                                          9    CGUAM10004    ASSIEME PARTI ELETTRICHE / ELETTRONICHE                           1      È assolutamente vietato modificare i disegni eseguiti con il cad, se non con lo stesso
+                                                          8    CGUAM09004    ASSIEME CARTER                                                    1
+                                                                                                                                                       GRUPPO:        MACCHINA AUTOMATICA PER ETICHETTE UAM02
+
+
+
+
+Nome File : C:\_Vault\Disegni\UAM02\CGUAM00004.iam
+                                                          7    CGUAM08004    ASSIEME ASPIRAFILO                                                1
+                                                          6    CGUAM08001    ASSIEME TESTA A CUCIRE                                            1
+                                                          5    CGUAM07004    ASSIEME TRAVERSA ASSE X E PINZA                                   1       SOTTOGRUPPO:          ASSIEME GENERALE
+                                                          4    CGUAM06002    ASSIEME CROCHET UAM04-02-01                                       1
+                                                                                                                                                                                                       CODICE VECCHIO          SCALA      FORMATO
+                                                          3    CGUAM03004    ASSIEME SCARICATORE                                               1             MODELLO 3D        TAVOLA 2D
+                                                          2    CGUAM02004    ASSIEME POSIZIONATORE ETICHETTA                                   1             24/09/2015        20/05/2016
+                                                                                                                                                                                                                              1:10             A3
+                                                                                                                                                      DATA
+                                                                                                                                                                                                                                                    REV.
+                                                                                                                                                                                                                  CGUAM00004
+                                                          1    CGUAM01004    ASSIEME TELAIO E ASPIRAZIONE                                      1
+                                                         POS    COD. NUOVO                                         DESCRIZIONE                 Q.TÀ   FIRMA Moretti            Moretti           CODICE:
+                                                                                                                                                                                                                                                                                                   63
+                                                                                                                                                                                             73    2   55        73    30   80    35            47   81        79    62
+
+
+                                                                                                                                                                         45
+                                                                                                                                                                                                                            14
+                                                                                                                                                                                                                                                                    15
+                                                                                                                                                                         12
+                                                                                                                                                                                                                                                                    59
+                                                                                                                                                                         88
+
+                                                                                                                                                                         48                                                                                                             101
+
+                                                                                                                             20   17 78   82    77   36   40   13
+                                                                                                                                                                         83                                                                                                             86
+
+                                                                                                                                                                                         8
+                                                                                                                                                                                                                                                                                        87    46   96
+                                                                                                                                                                                             85
+
+                                                                                                                                                                    71                       43                                             1
+                                                                     99    103   38   11        50   46    107   42                                                                                                                                                                     11
+                                                                                                                                                                                                                                       52       51   10        76        68
+                                                                                                                                                                                             28
+                                                                                                                                                                    12                                                                                                                                                   107
+
+                                                                                                                                                                                             26
+                                                                                                                                                                    45   5    100
+                                                                                                                                                                                                                                                                                                                                   89    64        73
+
+
+
+                                                                                                                                                                                                                                                                                                                   90   91     92
+                                                                                                                                                                                    84
+                                                          95
+                                                                                                                                                                                    3
+
+                                                                                                                       76   21     27
+                                                                                                                                                                                    57
+
+                                                                                                                                                                                    75
+
+                                                                          49                                                                                                                                                                                                                                                                    4
+                                                                                                                                                                                    56
+
+                                                               19                          33
+                                                                                                                                                                                    53                      44
+
+                                                     97   72    20        33           34        7    72   105   106   9                                                                                                                                                                                94   93   102   18     6        41     5
+                                                                                                                                                                                                            16
+                                                                                                                                                                                    67
+                                                                                                                                          104
+
+                                                                                      39                                                                                            70
+                                                                                                                                                                                                                                                          66                     69
+
+                                                                                                                                                                                    58
+
+                                                                                                                                                                                    54
+                                                                                                                                                                                                                                                                                                                                         74
+
+                                                                                                                                                                                                                                                                                                                                         24
+                                                                                                                                                                                                                                                23
+
+                                                                                                                                                                                                                                                                                                                                         61
+
+                                                                                                                                                                                                  29                             98             32
+                                                                                                                                                                                                                                                                                                                                         60
+                                                                                                                                                                                                                                                45
+
+                                                                                                                                                                                                                                                65                                                                                       25
+
+
+                                                                                                                                                                                                            GRUPPO:              2&((-.3&&:942&9.(&5*7*9.(-*99*:&2
+
+
+
+
+Nome File : C:\_Vault\Disegni\UAM02\CGUAM01004.iam
+                                                                                                                                                                                                            SOTTOGRUPPO:                             &88.*2*9*1&.4*&85.7&?.43*
+                                                                                                                                                                                                                                                      TAVOLA 2D                   CODICE VECCHIO        SCALA       FORMATO
+                                                                                                                                                                                                                      MODELLO 3D
+                                                                                                                                                                                                                                                                                                                       &
+                                                                                                                                                                                                       DATA                                 
+                                                                                                                                                                                                                                                                                                                                             REV.
+                                                                                                                                                                                                       FIRMA 2TWJYYN                                  2TWJYYN                 CODICE:         (,:&2
+                                                     107   PFUAM00623    UAM02-52          LAMIERA ASPIRAZIONE                                INOX 304                  1
+                                                     106   PFUAM00622    UAM01-176         GUARNIZIONE IN SILICONE                            Silicone                  1       53    MC00001359    17204B.B.C      FILTRO DEPURATORE 17204B.B.C                                                           1
+                                                     105   PFUAM00621    UAM02-02          PIASTRA ASPIRAZIONE                                Alluminio 6082            1       52    MC00001339    N371.3          ELETTR. COM. DIRETTO N371.3 PNEUMAX                                  Commercio         1
+                                                     104   PFUAM00618    UAM02-            MENSOLA LATERALE                                   S235JR-FE360B             1       51    MC00001331    395.02          BASE MULTIPLA 395.01                                                 Commercio         1
+                                                     103   PFUAM00617    UAM02-            MENSOLA LATERALE                                   S235JR-FE360B             1       50    MC00001243                    RONDELLA C40 SPES. UNI 7845 - 8,5 x 20 x 4                           Commercio         4
+                                                     102   PFUAM00567    UAM02-50          COLLETTORE ARIA UAM02                              Acciaio, Dolce, Saldato   1       49    MC00001238                    RONDELLA C40 SPES. UNI 7845 - 5,2 x 15 x 3                           Commercio         4
+                                                     101   PFUAM00565    UAM01-            TRAVE TESTA CUCIRE                                 Acciaio, Dolce, Saldato   1       48    MC00001137                    VITE TSPEI UNI 5933 Zincata - M5 x 12                                Commercio         2
+                                                     100   PFUAM00564    HGR 15 R          GUIDA HIWIN HGR 15 R                               Commercio                 2       47    MC00001131                    VITE TSPEI UNI 5933 Zincata - M4 x 10                                Commercio         2
+                                                     99    PFUAM00563    UAM01-00          PIANO DI LAVORO                                    Alluminio AW 5083         1       46    MC00001126                    VITE TSPEI UNI 5933 Zincata - M3 x 10                                Commercio         4
+                                                     98    PFUAM00562                      TELAIO MACCHINA UAM 02                             S235JR-FE360B             1       45    MC00001103                    Rondella D.Est. Maggiorato UNI 6593 - 9 x 24                         Commercio         8
+                                                     97    PFUAM00421    UAM01-206         TASSELLO                                           Ottone OT 58              2       44    MC00001101                    Rondella D.Est. Maggiorato UNI 6593 - 5,5 x 15                       Commercio         6
+                                                     96    PFUAM00420    UAM01-208         LAMIERA BLOCCO ASPIRAZIONE                         INOX 430 CRUDO            1       43    MC00001072                    Rondella UNI 6592 - 8,4 x 17                                         Commercio         2
+                                                     95    PFUAM00419    UAM01-207         CORPO ASPIRAZIONE                                  Ottone OT 58              1       42    MC00001069                    Rondella UNI 6592 - 5,3 x 10                                         Commercio         2
+                                                     94    PFUAM00334    UAM01-153         ANELLO                                             S235JR-FE360B             1       41    MC00001068                    Rondella UNI 6592 - 4,3 x 9                                          Commercio         3
+                                                     93    PFUAM00333    UAM01-152         TUBO                                               S235JR-FE360B             1       40    MC00001067                    Rondella UNI 6592 - 3,2 x 7                                          Commercio         2
+                                                     92    PFUAM00331                      GUARNIZIONE IN SILICONE                            Silicone                  1       39    MC00000814                    Grano esagono incassato P. Piatta UNI 5923-67 - M8 x 25              Commercio         4
+                                                     91    PFUAM00330    UAM01-180         TAPPO CHIUSURA ASPIRAZIONE                         Alluminio 2011            3       38    MC00000793                    Grano esagono incassato P. Piatta UNI 5923-67 - M5 x 25              Commercio         4
+                                                     90    PFUAM00328                      TENUTA GOMMA                                       Gomma                     3       37    MC00000778                    Grano esagono incassato P. Piatta UNI 5923-67 - M4 x 10              Commercio         1
+                                                     89    PFUAM00327    UAM01-176         PIASTRA AGGANCIO CILINDRI                          S235JR-FE360B             1       36    MC00000775                    Grano esagono incassato P. Piatta UNI 5923-67 - M3 x 5               Commercio         1
+                                                     88    PFUAM00298                      PERNO BLOCCA PC                                    Ottone OT 58              2       35    MC00000770                    Grano esagono incassato P. Piatta UNI 5923-67 - M3 x 12              Commercio         1
+                                                     87    PFUAM00295                      BUSSOLA                                            S235JR-FE360B             1       34    MC00000750                    Dado esagonale Basso UNI 5589 Zincato - M(8)                         Commercio         4
+                                                     86    PFUAM00294                      SUPPORTO PORTA SPOLE                               S235JR-FE360B             1       33    MC00000748                    Dado esagonale Basso UNI 5589 Zincato - M(6)                         Commercio         16
+                                                     85    PFUAM00284    UAM04-130         SUPPORTO ASTA PC                                   Acciaio, Dolce, Saldato   1       32    MC00000725                    Dado esagonale Medio UNI 5588 Zincato - M(8)                         Commercio         4
+                                                     84    PFUAM00283                      ASTA PORTA COMPUTER                                S235JR-FE360B             1       31    MC00000722                    Dado esagonale Medio UNI 5588 Zincato - M(5)                         Commercio         1
+                                                     83    PFUAM00278    UAM04-133         PORTA COMPUTER                                     INOX 304                  1       30    MC00000720                    Dado esagonale Medio UNI 5588 Zincato - M(3)                         Commercio         2
+                                                     82    PFUAM00105    PZ452             PERNO SPOLETTA                                     Commercio                 1       29    MC00000702                    Dado esagonale Alto UNI 5587 Zincato - M(16)                         Commercio         4
+                                                     81    PFUAM00104    UAM03-152         PORTA DISCO SWITCH                                 Alluminio 2011            1       28    MC00000698                    Dado esagonale Alto UNI 5587 Zincato - M(8)                          Commercio         1
+                                                     80    PFUAM00103    UAM03-153         DISCO SWITCH                                       Alluminio 2011            1       27    MC00000696                    Dado esagonale Alto UNI 5587 Zincato - M(6)                          Commercio         4
+                                                     79    PFUAM00102    UAM03-150         BASETTA SPOLINA                                    Alluminio 2011            1       26    MC00000664                    Dado esagonale Autobloc. Zincato con inserto in nylon - M8           Commercio         1
+                                                     78    PFUAM00101    UAM03-151         TASTATORE SPOLINA                                  S235JR-FE360B             1       25    MC00000651                    Gomito zincato DIN EN 10242 - (1 1/2)                                Commercio         1
+                                                     77    PFUAM00100    UAM03-154         PERNO AVVOLGI SPOLINA                              S235JR-FE360B             1       24    MC00000638                    Nipplo esagonale zincato ISO 4145-(1 1/2)                            Commercio         1
+                                                     76    PFUAM00098    UAM01-128         DOPPIO PONTE                                       Alluminio 2011            2       23    MC00000622                    POMPA FPZ K04-MS                                                                       1
+                                                     75    MC00005263                      Vite TCEI Parz.Fil. Zincata UNI 5931 (M 4 x 60)    Commercio                 2       22    MC00000284                    Vite T.E.Zincata Gambo Total. Filettato UNI 5739 - M8 x 40           Commercio         1
+                                                     74    MC00005261                      PIEDINO ANTIVIBRANTE D.80 M16X125                  Generico                  4       21    MC00000273                    Vite T.E.Zincata Gambo Total. Filettato UNI 5739 - M6 x 35           Commercio         4
+                                                     73    MC00005043    RC54              *Varia*                                            Commercio                 10      20    MC00000267                    Vite T.E.Zincata Gambo Total. Filettato UNI 5739 - M5 x 50           Commercio         5
+                                                     72    MC00004589    PG25 3/4"         RACCORDO PG25 3/4"                                 Commercio                 2       19    MC00000261                    Vite T.E.Zincata Gambo Total. Filettato UNI 5739 - M5 x 20           Commercio         4
+                                                     71    MC00004389                      MOTORE RS 248-3671                                 Commercio                 1       18    MC00000260                    Vite T.E.Zincata Gambo Total. Filettato UNI 5739 - M5 x 16           Commercio         2
+                                                     70    MC00004327                      RACCORDO RIDUZIONE NIPLO 3/8 - 1/4 1201438         Commercio                 1       17    MC00000259                    Vite T.E.Zincata Gambo Total. Filettato UNI 5739 - M5 x 12           Commercio         2
+                                                     69    MC00003370                      SERBATOIO OLIO LUBETOOL + POMPA                    Commercio                 1       16    MC00000258                    Vite T.E.Zincata Gambo Total. Filettato UNI 5739 - M5 x 10           Commercio         4
+                                                     68    MC00003362                      GRUPPO ELETTROVALVOLE MULTIPOLARI 0PXB1005                                   1       15    MC00000246                    Vite T.E.Zincata Gambo Total. Filettato UNI 5739 - M3 x 20           Commercio         1
+                                                     67    MC00003359                      RACCORDO A L M.F. 3-8 2110003                      Commercio                 1       14    MC00000245                    Vite T.E.Zincata Gambo Total. Filettato UNI 5739 - M3 x 16           Commercio         2
+                                                     66    MC00003356                      GRUPPO ELETTROVALVOLE MULTIPOLARE 0PXB101B5                                  1       13    MC00000244                    Vite T.E.Zincata Gambo Total. Filettato UNI 5739 - M3 x 12           Commercio         3
+                                                     65    MC00003351                      ANTIVIBRANTE D.30 M8-M8                            Commercio                 4       12    MC00000048                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 8 x 20)                      Commercio         4
+                                                     64    MC00003347    1581-16-0015-01   CIL.1581-16-0015-01-1                                                        3       11    MC00000047                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 8 x 16)                      Commercio         6
+                                                     63    MC00003317                      PORTA SPOLE 2 POSTI SIMB.1017                      Commercio                 1       10    MC00000030                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 5 x 35)                      Commercio         1
+                                                     62    MC00003316    A9105657891000    TENDIFILO A9105657891000                           Commercio                 1        9    MC00000026                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 5 x 16)                      Commercio         4
+                                                     61    MC00003267    PG 40 - 1-1/2"    RACCORDO PG.40 - 1-1/2"                            Commercio                 1        8    MC00000025                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 5 x 12)                      Commercio         4
+                                                     60    MC00002189                      DIN EN 10242 Gomito maschio e femmina      1 1/2   Commercio                 1        7    MC00000024                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 5 x 10)                      Commercio         4
+                                                     59    MC00001948    V 16 1A6          MICRO OMRON V-16-1A6                               Commercio                 1        6    MC00000021                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 4 x 35)                      Commercio         3
+                                                     58    MC00001398                      VALVOLA A CORSOIO DA 1/4                           Commercio                 1        5    MC00000018                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 4 x 20)                      Commercio         52
+                                                     57    MC00001397                      RACCORDO 90° 3/8 D.8 T220838                       Commercio                 1        4    MC00000016                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 4 x 12)                      Commercio         8
+                                                     56    MC00001396                      MANOMETRO D.40 17070A.C                            Commercio                 1        3    MC00000014                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 4 x 8)                       Commercio         2
+                                                     55    MC00001387    17502AAC          RIDUTTORE DI PRESSIONE 17502A.A.C.                 Commercio                 1        2    MC00000010                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 3 x 25)                      Commercio         2
+                                                     54    MC00001365                      RAC. AUTOMAT. IN OTTONE 010814                     Commercio                 1        1    MC00000006                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 3 x 16)                      Commercio         4
+                                                     POS    COD. NUOVO    COD. VECCHIO                             DESCRIZIONE                       MATERIALE          Q.TÀ   POS     COD. NUOVO   COD. VECCHIO                             DESCRIZIONE                                      MATERIALE    Q.TÀ
+
+                                                                                                                                                                                GRUPPO:        MACCHINA AUTOMATICA PER ETICHETTE UAM02
+
+
+
+
+Nome File : C:\_Vault\Disegni\UAM02\CGUAM01004.iam
+                                                                                                                                                                                SOTTOGRUPPO:            ASSIEME TELAIO E ASPIRAZIONE
+                                                                                                                                                                                                                                            CODICE VECCHIO                       SCALA         FORMATO
+                                                                                                                                                                                      MODELLO 3D             TAVOLA 2D
+                                                                                                                                                                               DATA   02/04/2015             21/09/2015                                                                              A3
+                                                                                                                                                                                                                                                                                                          REV.
+                                                                                                                                                                               FIRMA Moretti                 Moretti              CODICE:                   CGUAM01004
+                                                                                                                                           26        7       19                   13
+
+                                                                                                                                                                                  14
+                                                                               CODICE SOLO
+                                                                               MICROELETTROVALVOLA (SOLENOIDE)                                                                    22
+                                                                               MC00006143                                                                                         28
+
+                                                                                                                                                                                  24
+
+
+                                                                          27      1           23        4                                                                    15
+
+
+
+
+                                                                                                                                                                             17
+
+
+
+
+                                                                                                                                                                             20
+                                                                                                                                                                                       28    MC00005046                   RAC.90° GIR 1-8 D.8                                      Commercio          1
+                                                                                                                                                                                       27    MC00005037                   RACCORDO T D8 TECNOPOLIMERO 2L22004                      Generico           1
+                                                                                                                                                                                       26    MC00004231                   RAC. AUTOM. IN OTTONE 010818                             Commercio          2
+                                                                                                                                                                             16        25    MC00003355                   RACCORDO 90° 8-8 2L21004                                 Commercio          2
+                                                                                                                                                                                       24    MC00003354                   NIPPLO CONICO 1/8 - 1/8 2102001                          Commercio          1
+                                                                                                                                                                                       23    MC00003353                   CONNETTORE PONTE IP65 25 POLI 2400_25_10                 Commercio          1
+                                                                                                                                                                             12        22    MC00003352                   MANICOTTO PASSANTE 1/8 1/8      2103001                  Commercio          1
+                                                                                                                                                                                       21    MC00003324                   BASE MODULARE 2430.06                                    Commercio          1
+                                                                                                                                                                                       20    MC00003323    SC14           SILENZIATORE SC14 1/4BSP                                 Commercio          4
+                                                                                                                                17                                                     19    MC00003322    2400.15.00     PIASTRA DI CHIUSURA POSTO ELETTRICO 2400.15.00           Commercio          1
+                                                                                                                                                                                       18    MC00003320    2400.04.10     MODULO CONNESSIONE 4 POSTI SX 2400.04.10                 Commercio          4
+                                                                                                                           25        25                                                17    MC00003319    10718          TAPPO DA 1/8" 10718                                      Commercio          5
+                                                                                                                                                                                       16    MC00002311                   NIPLO RIDUZIONE 1/4 1/8                                  Commercio          1
+                                                                                                                                                                                       15    MC00002309                   REGOLATORE DI PRESSIONE NORGREN-R07-100-RNKG             Commercio          1
+                                                                                                                                                                                       14    MC00002306                   RACCORDO A L M.F. 1/8 2110001                            Commercio          1
+                                                                                                                                                                                       13    MC00001396                   MANOMETRO D.40 17070A.C                                  Commercio          1
+                                                                                                                                                                                       12    MC00001373                   RIDUZIONE M/F 1/4                                        Commercio          1
+                                                                                                                                                                                       11    MC00001372                   PIASTRA DI CHIUSURA 2400_00                              Commercio          1
+
+                                                                                      6   3   2    20        9                                                                         10    MC00001370                   TERMINALE INGRESSO SX 2430_03                            Commercio          1
+                                                                                                                                                                                        9    MC00001369                   TERMINALE DI INGRESSO DESTRO 2430_02                     Commercio          1
+                                                                                                                                                                                        8    MC00001367                   PIASTRA DI SOSTEGNO FLAT 2430_50                         Commercio          4
+                                                                                                                                                                                        7    MC00001366                   RAC. DIRITTO D.4 1/8 010418                              Commercio          24
+                                                                                                                                                                                        6    MC00001365                   RAC. AUTOMAT. IN OTTONE 010814                           Commercio          1
+                                                                                                                                                                                        5    MC00001358                   BASE MODULARE 2430_01                                    Commercio          14
+                                                                                                                                                                                        4    MC00001355                   MICROSOLENOIDE 2435_52_00_36_12                          Commercio          15
+                                                                                                                                                                                        3    MC00001344                   RACCORDO STANDARD TM.F.F 11314                           Commercio          1
+                                                                                                                                                                                        2    MC00001335                   PRESSOSTATO N.A. 1/8 1-10                                Commercio          1
+                                                                                                                                                                                        1    MC00001334                   CAPPUCCIO PRESSOSTATO 3015001                            Commercio          1
+                                                                                                                                                                                       POS    COD. NUOVO   COD. VECCHIO                         DESCRIZIONE                              MATERIALE    Q.TÀ
+
+
+
+
+                                                                                                                                                                                  PROPRIETÀ RISERVATA vietata la riproduzione a terzi senza autorizzazione scritta
+
+
+
+
+Nome File : C:\_Vault\Disegni\COMMERCIO\PNEUMAX\0PXB101B5\0PXB101B5.iam
+                                                                                                                                                                                  Ogni infrazione sarà punita a termini di legge
+                                                                                                                                                                                  È assolutamente vietato modificare i disegni eseguiti con il cad, se non con lo stesso
+                                                                                                                                                                                       GRUPPO:
+
+                                                                                                                                                                                       SOTTOGRUPPO:            GRUPPO ELETTROVALVOLE                             MULTIPOLARE 0PXB101B5
+                                                                                                                                                                                                                                                CODICE VECCHIO             SCALA          FORMATO
+                                                                                                                                                                                             MODELLO 3D            TAVOLA 2D
+                                                                                                                                                                                             07/04/2015            27/04/2016
+                                                                                                                                                                                                                                                                           1:3                 A3
+                                                                                  27               6    23                                                                         DATA
+                                                                                                                 18   8   18              18    8   18   5    21   11   10
+                                                                                                                                                                                                                                                                                                     REV.
+                                                                                                                                                                                   FIRMA Moretti                   Moretti            CODICE:                MC00003356
+                                                                                                                             CODICE SOLO
+                                                                                                                             MICROELETTROVALVOLA (SOLENOIDE)
+                                                                                                                             MC00001339
+
+
+
+
+                                                                                                    1
+
+
+
+
+                                                                                                               6
+
+
+
+
+                                                                        3
+                                                                                            2
+
+
+
+
+                                                                                                                   3
+                                                                                            5
+
+
+
+
+                                                                                    4
+
+
+                                                                                                        6   MC00005272                   ELETTR. SOLENOIDE DIFFERENZIALE 2141.52.00.36.22                             3
+                                                                                                        5   MC00003368                   ADATTATORI PER GUIDA DIN 2130_16                           Commercio         2
+                                                                                                        4   MC00003367                   BASE MODULARE 2144.01 PER VAL. BASE                        Commercio         3
+                                                                                                        3   MC00003366                   TERMINA LE INGRESSO SINISTRO 2140_02                       Commercio         1
+                                                                                        6
+                                                                                                        2   MC00003365                   TERMINALE DI INGRESSO DESTRO 2140_03                       Commercio         1
+                                                                                                        1   MC00003364                   MORSETTO 371                                               Commercio         3
+                                                                                                     POS     COD. NUOVO   COD. VECCHIO                       DESCRIZIONE                                 MATERIALE    Q.TÀ
+
+                                                                            1
+
+
+
+
+                                                                                                2   PROPRIETÀ RISERVATA vietata la riproduzione a terzi senza autorizzazione scritta
+
+
+
+
+Nome File : C:\_Vault\Disegni\COMMERCIO\PNEUMAX\0PXB1005\0PXB1005.iam
+                                                                                                    Ogni infrazione sarà punita a termini di legge
+                                                                                                    È assolutamente vietato modificare i disegni eseguiti con il cad, se non con lo stesso
+                                                                                                5
+                                                                                                        GRUPPO:
+
+                                                                                                        SOTTOGRUPPO:         GRUPPO ELETTROVALVOLE MULTIPOLARI 0PXB1005
+                                                                                                                                                            CODICE VECCHIO                  SCALA         FORMATO
+                                                                                                            MODELLO 3D         TAVOLA 2D
+                                                                                                            20/04/2015         21/04/2015
+                                                                                                                                                                                            1.5:1               A3
+                                                                                                4   DATA
+                                                                                5
+                                                                                                                                                                                                                     REV.
+                                                                                                    FIRMA Moretti              Moretti               CODICE:             MC00003362
+                                                                              1         16   18    19
+
+
+
+
+                                                                                                                           5
+
+
+
+
+                                                                                                                           21
+
+                                                                                                                           4
+
+
+
+
+                                                                                                                           20
+
+                                                                                                                           14
+                                                                  10
+                                                                                                                           8
+
+
+                                                                                                                           3
+
+                                                                                                                           13
+                                                                   9
+
+
+
+
+                                                                   6                                                       2
+
+
+
+
+                                                                                                                           17
+
+
+
+
+                                                                   7
+
+
+
+
+                                                                                                                           15
+
+
+
+
+                                                                  11
+
+                                                                                                                           12
+
+                                                                   9
+
+
+
+
+                                                      GRUPPO:        MACCHINA AUTOMATICA PER ETICHETTE UAM02
+
+
+
+
+Nome File : C:\_Vault\Disegni\UAM02\CGUAM02004.iam
+                                                      SOTTOGRUPPO:        ASSIEME POSIZIONATORE ETICHETTA
+                                                                                                  CODICE VECCHIO   SCALA   FORMATO
+                                                            MODELLO 3D     TAVOLA 2D
+                                                     DATA   14/04/2015     18/09/2015                                           A4
+                                                                                                                                     REV.
+                                                     FIRMA Moretti         Moretti           CODICE:         CGUAM02004
+                                                      21    PFUAM00577    UAM01-57        SUPPORTO PORTA DIMA ETICHETTA                             Alluminio 6082     1
+                                                      20    PFUAM00576    UAM02-          AGGANCIO SUPPORTO                                         Alluminio 6082     1
+                                                      19    PFUAM00575    UAM02-06        SUPPORTO AGGANCIO CILINDRO                                Alluminio 6082     1
+                                                      18    PFUAM00574    UAM02-04        STAFFA CILINDRO                                           Alluminio 6082     1
+                                                      17    PFUAM00572    UAM02-03        BLOCCHETTO PORTA GUIDA                                    Alluminio 6082     1
+                                                      16    MC00003268    458 KV          BOCCOLA AUTOLUBRIFICANTE A SECCO 06-08-5.5 KU             Commercio          1
+                                                      15    MC00002317                    CIL.1260 16 0200 AM                                                          1
+                                                      14    MC00001826                    SPINA CILINDRICA DI COLLEGAMENTO UNI 1707 DIN 7 Toll.     Commercio          2
+                                                                                          h8 600N/mm2 - 4 x 18
+                                                      13    MC00001403    B120810         BUSSOLA DIN 179 De7 Di4 L12                               Commercio          2
+                                                      12    MC00001362    1260.20F        FASCETTA SENSORE         1260.16F                         Commercio          2
+                                                      11    MC00001360    RS.UAC1         SENSORE CON CAVO RS.UAC1                                  Commercio          2
+                                                      10    MC00001350    1200.16.04/1    FORCELLA PER CILINDRO COD. 1200.16.04/1                   Commercio          1
+                                                       9    MC00001337    2904M5P         REGOLATORE DI FLUSSO 2904M5P                              Commercio          2
+                                                       8    MC00001133                    VITE TSPEI UNI 5933 Zincata - M4 x 16                     Commercio          4
+                                                       7    MC00000606                    GUIDA MGN-9-R                                             Commercio          1
+                                                       6    MC00000603    MGN9C           CARRELLO HIWIN MGN 9C                                                        1
+                                                       5    MC00000034                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 6 x 10)           Commercio          3
+                                                       4    MC00000021                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 4 x 35)           Commercio          2
+                                                       3    MC00000018                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 4 x 20)           Commercio          2
+                                                       2    MC00000007                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 3 x 20)           Commercio          4
+                                                       1    MC00000005                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 3 x 12)           Commercio          2
+                                                     POS     COD. NUOVO    COD. VECCHIO                           DESCRIZIONE                             MATERIALE    Q.TÀ
+
+                                                      GRUPPO:        MACCHINA AUTOMATICA PER ETICHETTE UAM02
+
+
+
+
+Nome File : C:\_Vault\Disegni\UAM02\CGUAM02004.iam
+                                                      SOTTOGRUPPO:            ASSIEME POSIZIONATORE ETICHETTA
+                                                                                                                 CODICE VECCHIO             SCALA          FORMATO
+                                                            MODELLO 3D             TAVOLA 2D
+                                                     DATA   14/04/2015             18/09/2015                                                                   A4
+                                                                                                                                                                      REV.
+                                                     FIRMA Moretti                 Moretti              CODICE:                   CGUAM02004
+                                                          28        42   6   41       1   4   2       23             44             24        42   28   42    5           32
+
+
+
+
+                                                                                                                                                                               3   29     22    27
+                                                                                                  1        43             1
+
+
+
+
+                                                                                                                          41              42                 32
+
+
+                                                                                                                                                                                                           25
+
+                                                                                                                                                                                                           5
+                                                                                                                                         34
+                                                                                                                                                                                                                          38
+
+                                                                                                                                         26
+                                                                                                                                                                                                                          39
+
+
+                                                                                                                                         33
+
+                                                                                                                                                                                                                          40
+
+
+                                                                                                                                                                                                      31
+                                                     45                                               14
+
+
+                                                                                                      9                                                                                               30         35
+
+                                                                                                      45
+
+
+                                                                                                                                                                                                                                                   17
+
+
+                                                                                                                                                                                                                                               17
+
+
+                                                                                                                                                              12                                                                                   18
+                                                                                                      47
+                                                                                                                                                                                                                                                   16
+                                                               46                 8
+
+                                                                                                                                                                                                                                                   10
+                                                                                                      15
+
+                                                                                                                                                                                                                                                   19
+                                                                                                      7
+
+                                                                                                                                                              13
+                                                                                                                                                                                     21          36
+                                                                                                                                                                   30                                                                              37
+
+
+                                                                                                                                                                                                            20
+
+
+
+                                                                                                                                                              GRUPPO:              MACCHINA AUTOMATICA PER ETICHETTE UAM02
+
+
+
+
+Nome File : C:\_Vault\Disegni\UAM02\CGUAM03004.iam
+                                                                                                                11             13
+                                                                                                                                                              SOTTOGRUPPO:                     ASSIEME SCARICATORE
+                                                                                                                                                                                                                          CODICE VECCHIO   SCALA        FORMATO
+                                                                                                                                                                        MODELLO 3D              TAVOLA 2D
+                                                                                                                                                             DATA       15/04/2015              16/09/2015                                                A3
+                                                                                                                                                                                                                                                                  REV.
+                                                                                                                                                             FIRMA Moretti                      Moretti               CODICE:        CGUAM03004
+                                                      47    PFUAM00619                      LAMIERA PROTEZIONE                                               S235JR-FE360B      1
+                                                      46    PFUAM00600    UAM02-36          PIATTO RACCOLTA                                                  Alluminio 6082     1
+                                                      45    PFUAM00599                      PIATTO TRAFILATO ALLUMINIO UNI 6082                              Alluminio 6082     1
+                                                      44    PFUAM00598    UAM02-34          COLLETTORE ARIA                                                  Alluminio 6082     1
+                                                      43    PFUAM00597    UAM02-47          STAFFETTA CENTRALE TUBETTO ASPIRAZIONE                           Alluminio 6082     1
+                                                      42    PFUAM00596    UAM02-48          TUBETTO ASPIRAZIONE                                              Alluminio 6082     5
+                                                      41    PFUAM00595    UAM02-46          SUPPORTO TUBI VUOTO                                              Alluminio 6082     2
+                                                      40    PFUAM00594    BR 8-12-12        BOCCOLA AUTOLUBRIFICANTE BR 8-12-12                              Commercio          1
+                                                      39    PFUAM00593                      DADO                                                             S235JR-FE360B      1
+                                                      38    PFUAM00592    UAM02-42          PERNO                                                            S235JR-FE360B      1
+                                                      37    PFUAM00591                      PERNO LEVA CILINDRO                                              S235JR-FE360B      1
+                                                      36    PFUAM00590    UAM02-40          PERNO CILINDRO                                                   S235JR-FE360B      1
+                                                      35    PFUAM00589    UAM02-39          PERNO CILINDRO                                                   S235JR-FE360B      1
+                                                      34    PFUAM00588                      PIASTRA PORTA ELETTROVALVOLA                                     Alluminio 6082     1
+                                                      33    PFUAM00587                      GUIDA HIWIN HGR 15 R                                             Commercio          1
+                                                      32    PFUAM00585    UAM02-45          ASTA REGOLAZIONE                                                 Alluminio 6082     1
+                                                      31    PFUAM00584    UAM02-38          LEVA                                                             S235JR-FE360B      1
+                                                      30    PFUAM00583    UAM02-37          STAFFA CILINDRO                                                  S235JR-FE360B      1
+                                                      29    MC00005046                      RAC.90° GIR 1-8 D.8                                              Commercio          2
+                                                      28    MC00005043                      RAC.90° GIR M5 D.4 2L31001                                       Commercio          5
+                                                      27    MC00005042                      RAC.90° GIREVOLE 1-8 D.4                                         Commercio          1
+                                                      26    MC00004674    BRH15A            CARRELLO HIWIN HGW-15-CC                                                            1
+                                                      25    MC00004477                      SILENZIATORE 1/8                                                 Commercio          1
+                                                      24    MC00004231                      RAC. AUTOM. IN OTTONE 010818                                     Commercio          1
+                                                      23    MC00004225    RDR5.40           RACCORDO DIRITTO M5 D.4                                          Commercio          5
+                                                      22    MC00003361    UKC8/12           VALVOLA WAIRCOM UKC8/12                                          Commercio          1
+                                                      21    MC00003350    BR 8-12-12        BOCCOLA BR 8-12-12                                               Commercio          1
+                                                      20    MC00001412                      SNODO SIKAC 8 M                                                                     1
+                                                      19    MC00001361    1260.20F          FASCETTA SENSORE         1260.20F                                Commercio          2
+                                                      18    MC00001360    RS.UAC1           SENSORE CON CAVO RS.UAC1                                         Commercio          2
+                                                      17    MC00001336    300418P           REGOLATORE DI FLUSSO 290418P                                     Commercio          2
+                                                      16    MC00001324    1260-20-70 A.M.   CILINDRO 1260.20.70.A.M                                                             1
+                                                      15    MC00001102                      Rondella D.Est. Maggiorato UNI 6593 - 6,6 x 18                   Commercio          2
+                                                      14    MC00001101                      Rondella D.Est. Maggiorato UNI 6593 - 5,5 x 15                   Commercio          2
+                                                      13    MC00001072                      Rondella UNI 6592 - 8,4 x 17                                     Commercio          2
+                                                      12    MC00000750                      Dado esagonale Basso UNI 5589 Zincato - M(8)                     Commercio          1
+                                                      11    MC00000725                      Dado esagonale Medio UNI 5588 Zincato - M(8)                     Commercio          1
+                                                      10    MC00000664                      Dado esagonale Autobloc. Zincato con inserto in nylon - M8       Commercio          1
+                                                       9    MC00000038                      Vite TCEI Parz.Fil. Zincata UNI 5931 (M 6 x 25)                  Commercio          2
+                                                       8    MC00000037                      Vite TCEI Parz.Fil. Zincata UNI 5931 (M 6 x 20)                  Commercio          2
+                                                       7    MC00000035                      Vite TCEI Parz.Fil. Zincata UNI 5931 (M 6 x 12)                  Commercio          2
+                                                       6    MC00000027                      Vite TCEI Parz.Fil. Zincata UNI 5931 (M 5 x 20)                  Commercio          2
+                                                       5    MC00000026                      Vite TCEI Parz.Fil. Zincata UNI 5931 (M 5 x 16)                  Commercio          6
+                                                       4    MC00000025                      Vite TCEI Parz.Fil. Zincata UNI 5931 (M 5 x 12)                  Commercio          2
+                                                       3    MC00000019                      Vite TCEI Parz.Fil. Zincata UNI 5931 (M 4 x 25)                  Commercio          2
+                                                       2    MC00000009                      Vite TCEI Parz.Fil. Zincata UNI 5931 (M 3 x 25)                  Commercio          2
+                                                       1    MC00000007                      Vite TCEI Parz.Fil. Zincata UNI 5931 (M 3 x 20)                  Commercio          10
+                                                     POS     COD. NUOVO    COD. VECCHIO                             DESCRIZIONE                                    MATERIALE    Q.TÀ
+
+                                                      GRUPPO:        MACCHINA AUTOMATICA PER ETICHETTE UAM02
+
+
+
+
+Nome File : C:\_Vault\Disegni\UAM02\CGUAM03004.iam
+                                                      SOTTOGRUPPO:            ASSIEME SCARICATORE
+                                                                                                                   CODICE VECCHIO                    SCALA          FORMATO
+                                                            MODELLO 3D           TAVOLA 2D
+                                                     DATA   15/04/2015           16/09/2015                                                                              A4
+                                                                                                                                                                               REV.
+                                                     FIRMA Moretti               Moretti                  CODICE:                  CGUAM03004
+                                 51   39        52
+                                                          44
+43
+
+                                                           2        33    55   57    45     4     62    25
+60
+
+61
+
+3
+
+36
+
+29
+
+
+
+3
+
+
+17
+                                                                                                                                                59        18                 17
+
+63
+
+
+38                                                                  41         30     48         40    19        47   1   21
+             37
+
+
+
+9
+                                                     5     42
+
+
+
+                                                                                                                                                                                   60
+                                           32
+
+                  35   46                                                                                                                                                                   26
+    7
+                            51
+
+ 10     27                  52                                                                                                                                                              4
+
+ 66                         2                                                                                                         12                                                    69
+
+ 18                         49                                                                                                                                                              58
+
+                            54
+ 64                                                                                                                       4
+
+                            28                                                                                   50
+ 26
+
+                            14                                                                                   3
+
+                                                                                                                 67
+                            55
+
+                            56
+
+
+
+                            34
+
+
+                            16
+
+
+
+                             8
+
+                                                     6         24    23   31    24         20     53        17                   22        68        11    15   13    16     65
+
+
+                                                          GRUPPO:              MACCHINA AUTOMATICA PER FESSINI UAM-04
+
+                                                          SOTTOGRUPPO:                          ASSIEME CROCHET UAM04-02-01
+                                                                                                                                  CODICE VECCHIO                     SCALA        FORMATO
+                                                                    MODELLO 3D                   TAVOLA 2D
+                                                                    06/06/2014                   19/05/2016
+                                                                                                                                                                     1:2.5          A3
+                                                         DATA
+                                                                                                                                                                                                 REV.
+                                                         FIRMA Moretti                           Moretti                      CODICE:           CGUAM06002
+69    PFUAM00816                     ALBERO CROCHET                                    Acciaio C40          1
+68    PFUAM00306                     ANGOLARI SOSTEGNO                                 S235JR-FE360B        2       34    MC00002108                    Rondella di arresto UNI 7434 - 6 - 6                                 Commercio          1
+67    PFUAM00303    UAM01-116        TASSELLO SENSORE                                  Alluminio 2011       1       33    MC00001956                    SNODO ANGOLARE 31 280 5                                              Commercio          1
+66    PFUAM00240    UAM01-111        PULEGGIA MOTORE                                   Commercio            1       32    MC00001955                    MOTORE SANYO DENKI_R2AA06040FXH11M                                   Commercio          1
+65    PFUAM00192    UAM03-116        PIATTO TIRAGGIO CINGHIA                           S235JR-FE360B        1       31    MC00001862                    SPINA CILINDRICA UNI 8734 - 6 x 40                                   Commercio          1
+64    PFUAM00191    UAM03-117        SUPPORTO MOTORE                                   Alluminio 6082       1       30    MC00001709                    VITE UNI 6109 TSTC OTTONE - M3 x 4                                   Commercio          2
+63    PFUAM00189    UAM01-112        PULEGGIA ALBERINO Z16                             Commercio            1       29    MC00001669                    SEEGER PER INTERNI UNI 7437                                          Acciaio, Dolce     1
+62    PFUAM00188    UAM03-210        PROLUNGA LUBRIFICAZIONE CROCHET                   Ottone OT 58         1       28    MC00001604                    SEEGER PER ESTERNI UNI 7435 - D.10                                   Commercio          1
+61    PFUAM00187    UAM03-104        COPERCHIETTO CUSCINETTO                           Acciaio C40          1       27    MC00001578    T5-340          CINGHIA POLIURETANO T5-340                                           Commercio          1
+60    PFUAM00186    UAM03-106        ANELLO DI CENTRAGGIO                              Acciaio C40          1       26    MC00001415                    Cuscinetti a sfere 2RS1 - SKF 6000-2RS1(10x26x8)                     Commercio          3
+59    PFUAM00185    UAM03-107        DISTANZIALE                                       Acciaio C40          1       25    MC00001364                    RAC. AUTOM. IN OTTONE 010618                                         Commercio          1
+58    PFUAM00184    UAM03-103        SUPPORTO CUSCINETTI                               Alluminio 2011       1       24    MC00001337    2904M5P         REGOLATORE DI FLUSSO 2904M5P                                         Commercio          2
+57    PFUAM00182    UAM01-173        PIASTRINA SENSORE                                 INOX 304             1       23    MC00001312    1260.16.10      CILINDRO PNEUM. PN08126-0010 SPEC.                                   Commercio          1
+56    PFUAM00181    UAM03-115        LEVA RASAFILO                                     Acciaio Saldato      1       22    MC00001240                    RONDELLA C40 SPES. UNI 7845 - 8,5 x 25 x 4                           Commercio          8
+55    PFUAM00180    UAM03-119        PERNO LEVA RASAFILO                               Acciaio C40          1       21    MC00001138                    VITE TSPEI UNI 5933 Zincata - M5 x 16                                Commercio          4
+54    PFUAM00179    UAM03-120        SUPPORTO PERNO                                    S235JR-FE360B        1       20    MC00001069                    Rondella UNI 6592 - 5,3 x 10                                         Commercio          2
+53    PFUAM00178    UAM03-113        SQUADRETTA FISSAGGIO CILINDRO                     S235JR-FE360B        1       19    MC00001067                    Rondella UNI 6592 - 3,2 x 7                                          Commercio          1
+52    PFUAM00177    UAM03-112DX      PIATTINO GUIDA RASAFILO                           Acciaio K100         1       18    MC00000798                    Grano esagono incassato P. Piatta UNI 5923-67 - M6 x 10              Commercio          2
+51    PFUAM00176    UAM03-112SX      PIATTINO GUIDA RASAFILO                           Acciaio K100         1       17    MC00000785                    Grano esagono incassato P. Piatta UNI 5923-67 - M4 x 5               Commercio          2
+50    PFUAM00175    UAM03-110        SUPPORTO FERMA CROCHET                            S235JR-FE360B        1       16    MC00000722                    Dado esagonale Medio UNI 5588 Zincato - M(5)                         Commercio          3
+49    PFUAM00174    UAM03-111        BARRETTA FERMA CROCHET                            Acciaio K100         1       15    MC00000280                    Vite T.E.Zincata Gambo Total. Filettato UNI 5739 - M8 x 20           Commercio          4
+48    PFUAM00173    UAM03-109        PLACCA                                            90MnCrV8             1       14    MC00000268                    Vite T.E.Zincata Gambo Total. Filettato UNI 5739 - M6 x 12           Commercio          1
+47    PFUAM00172    UAM03-108        SUPPORTO PLACCA                                   Acciaio K460 RETT.   1       13    MC00000262                    Vite T.E.Zincata Gambo Total. Filettato UNI 5739 - M5 x 25           Commercio          2
+46    PFUAM00170    UAM03-102        SUPPORTO CROCHET                                  Alluminio 2219       1       12    MC00000260                    Vite T.E.Zincata Gambo Total. Filettato UNI 5739 - M5 x 16           Commercio          2
+45    MC00005806    BERO 8M          SENSORE BERO 8M SIEMENS                           Commercio            1       11    MC00000048                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 8 x 20)                      Commercio          4
+44    MC00004163    130.09.256       CROCHET COD.130.09.256                            Commercio            1       10    MC00000040                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 6 x 35)                      Commercio          2
+43    MC00003398    C.2037           O-RING 2037                                       Commercio            1        9    MC00000039                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 6 x 30)                      Commercio          1
+42    MC00003310    A9170024915000   VITE MOD.A9170024915000                           Commercio            1        8    MC00000037                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 6 x 20)                      Commercio          1
+41    MC00003309    A9572119391000   LINGUETTA COD.A9572119391000                      Commercio            1        7    MC00000036                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 6 x 16)                      Commercio          1
+40    MC00003308    A9116849815000   CONTROLAMA COD.A9116849815000                     Commercio            1        6    MC00000027                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 5 x 20)                      Commercio          2
+39    MC00003307    A9116849905000   LAMA COD. A9116849905000                          Commercio            1        5    MC00000026                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 5 x 16)                      Commercio          4
+38    MC00003303                     Dado esagonale Medio UNI 5588 Zincato - M(8) SX   Commercio            2        4    MC00000016                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 4 x 12)                      Commercio          7
+37    MC00002314                     Chiavetta parallela UNI 6604 - A - A 3 x 3 x 16   Commercio            1        3    MC00000005                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 3 x 12)                      Commercio          5
+36    MC00002234                     Guarnizioni a labbro per albero rotante TC17254   Commercio            1        2    MC00000003                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 3 x 8)                       Commercio          4
+35    MC00002213                     Guarnizioni a labbro per albero rotante TC10197   Commercio            1        1    MC00000002                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 3 x 6)                       Commercio          2
+POS    COD. NUOVO   COD. VECCHIO                              DESCRIZIONE                    MATERIALE      Q.TÀ   POS     COD. NUOVO   COD. VECCHIO                              DESCRIZIONE                                      MATERIALE    Q.TÀ
+
+                                                                                                                    GRUPPO:        MACCHINA AUTOMATICA PER FESSINI UAM-04
+
+                                                                                                                    SOTTOGRUPPO:            ASSIEME CROCHET UAM04-02-01
+                                                                                                                                                                                CODICE VECCHIO                       SCALA           FORMATO
+                                                                                                                          MODELLO 3D             TAVOLA 2D
+                                                                                                                   DATA   06/06/2014             19/05/2016                                                                              A3
+                                                                                                                                                                                                                                               REV.
+                                                                                                                   FIRMA Moretti                 Moretti               CODICE:                  CGUAM06002
+                                                                                                                         1
+                                                                                                                                                                                                                                                                      33        11
+                                                                                                                         54
+
+
+                                                                                                                                                                                                                        66    7    52
+                                                                                                      18                                                                                                                 14   70    65
+                                                                                                                         25
+                                                                                                                                                                28                         69
+                                                                                                                         36                                                       6                               71
+                                                               32                                                                                                                          28
+                                                     9
+                                                                                                                                                                                      63   67                 3
+                                                                                                                         26                                                                                        52
+                                                                                                                                                                                                                                                                                           13
+                                                     43                                                                  4
+
+                                                               27                                                                                 55
+                                                                                                                2        53                                                                                                                                                                 3
+                                                     16
+
+                                                     17        44                                                                                                                                                                                                                          48
+                                                                         57       38                                                                                                                                    34
+                                                                                                       11
+                                                     20                                                                                                                                                                                                                                     2
+                                                                                                                                                                                                                                   64
+
+                                                     42                                                                                                                                     5        2                                   15                                                30
+                                                          27                                                                                                           68                                                                  62
+                                                                    5
+                                                                                                                                                                                                                                                                                           29
+                                                                                                                                                 23                         38
+                                                          61        22                                                                 40
+                                                                                                                                                                                                                                                                                           47
+                                                                                                                                                                                                                                                                           72
+                                                                    45
+                                                                                                                                                                                                                                                                           41
+                                                                              5        57   22   46                                                                                                                                                      8
+                                                                    4                                                                                                                                                                                                      10
+                                                                                                                                                                                                59       49
+
+                                                          35                                                                                                      3     24       19                                                                                                        31
+
+                                                                                                                                                                                                                                                                           33
+
+
+
+
+                                                                                                           58       39       37   39        56    21       12
+
+
+
+
+                                                                                                                                       51                                                                                                                        27
+                                                                                                                                                                                      38
+                                                                                                                                                                                                                                                                 60
+
+
+                                                                                                                                                      50                    8              73
+                                                                                                                                                                                                                                                                 6
+
+
+
+
+                                                                                                                                                            GRUPPO:                   MACCHINA AUTOMATICA PER ETICHETTE UAM02
+
+
+
+
+Nome File : C:\_Vault\Disegni\UAM02\CGUAM07004.iam
+                                                                                                                                                            SOTTOGRUPPO:                             ASSIEME TRAVERSA ASSE X E PINZA
+                                                                                                                                                                                                                                                CODICE VECCHIO         SCALA    FORMATO
+                                                                                                                                                                  MODELLO 3D                             TAVOLA 2D
+                                                                                                                                                           DATA       12/05/2015                         20/05/2015                                                                  A3
+                                                                                                                                                                                                                                                                                          REV.
+                                                                                                                                                           FIRMA Moretti                                 Moretti                        CODICE:              CGUAM07004
+                                                     73    PFUAM00651    UAM02           PIATTO BLOCCA CINGHIA AT 5                    Alluminio 6082    2       36    MC00003371    PN03321.30       CILINDRO PN03321.30                                                                    1
+                                                     72    PFUAM00650    UAM02-25        STAFFA CANALINA PORTA CAVI                    Alluminio 6082    1       35    MC00003270    AT5-25           CINGHIA A ROTOLO AT5-25 SV. A MONTAGGIO                              Commercio         1
+                                                     71    PFUAM00649    UAM02-27        PIATTINO SENSORE                              S235JR-FE360B     1       34    MC00003269    AT5-660-20       CINGHIA AT5-660-20 SV.660                                            Commercio         1
+                                                     70    PFUAM00648    UAM02-33        RONDELLA MOTORE                               S235JR-FE360B     1       33    MC00001957    R2AAB8100HX...   MOTORE SANYO DENKI_R2AAB8100HXH29M                                   Commercio         2
+                                                     69    PFUAM00647    UAM02-18        RONDELLA                                      S235JR-FE360B     1       32    MC00001897                     SPINA CILINDRICA UNI 8734 - 10 x 60                                  Commercio         1
+                                                     68    PFUAM00646    UAM02-16        ALBERO CINGHIA                                S235JR-FE360B     1       31    MC00001886                     SPINA CILINDRICA DI COLLEGAMENTO UNI 1707 DIN 7 Toll.                Commercio         1
+                                                     67    PFUAM00645    UAM02-33        PULEGGIA AT5-20                               Commercio         1                                            h8 600N/mm2 - 10 x 35
+                                                     66    PFUAM00644    UAM02-11        SQUADRETTA BLOCCA CINGHIA                     Alluminio 6082    1       30    MC00001596                     FINECORSA FA4515-2DN                                                 Commercio         1
+                                                     65    PFUAM00643    UAM02-33        PULEGGIA AT5-20                               Commercio         1       29    MC00001595                     PROXIMITI PEPPERL FUCHS 3RG4011-OAG33-PF                             Commercio         2
+                                                     64    PFUAM00642    UAM02-12        BLOCCHETTO FERMA CINGHIA                      Alluminio 6082    1       28    MC00001442                     Cuscinetti a sfere 2RS1 - SKF 608-2RS1(8x22x7)                       Commercio         2
+                                                     63    PFUAM00641    UAM02-26        STAFFA CATENA PORTA CAVI                      Alluminio 6082    1       27    MC00001415                     Cuscinetti a sfere 2RS1 - SKF 6000-2RS1(10x26x8)                     Commercio         3
+                                                     62    PFUAM00640    UAM02-30        PULEGGIA 20 AT 5                              Commercio         1       26    MC00001363    1580.U           SENSORE 1580.U 2.5 Mt CAVO                                           Commercio         1
+                                                     61    PFUAM00639    UAM02-09        SLITTA TENSIONATURA                           Alluminio 6082    1       25    MC00001336    300418P          REGOLATORE DI FLUSSO 290418P                                         Commercio         2
+                                                     60    PFUAM00638    UAM02-31        COPERCHIETTO                                  Alluminio 2011    1       24    MC00001073                     Rondella UNI 6592 - 10,5 x 21                                        Commercio         1
+                                                     59    PFUAM00637                    ASTA LETTURA SENSORE                          S235JR-FE360B     1       23    MC00001070                     Rondella UNI 6592 - 6,4 x 12,5                                       Commercio         2
+                                                     58    PFUAM00636                    BARRA QUADRA ALLUMINIO 2011                   Alluminio 6082    1       22    MC00000813                     Grano esagono incassato P. Piatta UNI 5923-67 - M8 x 20              Commercio         4
+                                                     57    PFUAM00635    UAM02-23L       SUPPORTO DIMA                                 Alluminio 6082    1       21    MC00000750                     Dado esagonale Basso UNI 5589 Zincato - M(8)                         Commercio         1
+                                                     56    PFUAM00633    UAM02-14        TASSELLO CILINDRO                             Alluminio 6082    1       20    MC00000748                     Dado esagonale Basso UNI 5589 Zincato - M(6)                         Commercio         3
+                                                     55    PFUAM00632    UAM02-13        STAFFA GUIDA                                  Alluminio 6082    4       19    MC00000667                     Dado esagonale Autobloc. Zincato con inserto in nylon - M10          Commercio         1
+                                                     54    PFUAM00631    UAM02-29        COPERCHIO                                     Alluminio 6082    1       18    MC00000664                     Dado esagonale Autobloc. Zincato con inserto in nylon - M8           Commercio         1
+                                                     53    PFUAM00630    HGR 15 R        GUIDA HIWIN HGR 15 R                          Commercio         4       17    MC00000277                     Vite T.E.Zincata Gambo Total. Filettato UNI 5739 - M6 x 55           Commercio         1
+                                                     52    PFUAM00629    UAM02-10L       PIASTRA TRASLAZIONE                           Alluminio 6082    1       16    MC00000268                     Vite T.E.Zincata Gambo Total. Filettato UNI 5739 - M6 x 12           Commercio         2
+                                                     51    PFUAM00628    UAM02-15L       PIASTRA MOTORE ASSE TRASLAZIONE PINZA         Alluminio 6082    1       15    MC00000262                     Vite T.E.Zincata Gambo Total. Filettato UNI 5739 - M5 x 25           Commercio         2
+                                                     50    PFUAM00627    UAM02-21L       PORTA PATTINI DOPPIO                          Alluminio 6082    1       14    MC00000260                     Vite T.E.Zincata Gambo Total. Filettato UNI 5739 - M5 x 16           Commercio         1
+                                                     49    PFUAM00626    UAM02-20        PORTA PATTINO SINGOLO                         Alluminio 6082    1       13    MC00000044                     Vite TCEI Parz.Fil. Zincata UNI 5931 (M 6 x 55)                      Commercio         4
+                                                     48    PFUAM00625    UAM02-08        STAFFA SENSORE E FINECORSA                    Alluminio 6082    1       12    MC00000038                     Vite TCEI Parz.Fil. Zincata UNI 5931 (M 6 x 25)                      Commercio         4
+                                                     47    PFUAM00624    UAM02-07        SUPPORTO MOTORE                               Alluminio 6082    1       11    MC00000037                     Vite TCEI Parz.Fil. Zincata UNI 5931 (M 6 x 20)                      Commercio         6
+                                                     46    PFUAM00447    UAM01-22 SX     BLOCCHETTO DX PER FISSAGGIO TASSELLO          S235JR-FE360B     1       10    MC00000036                     Vite TCEI Parz.Fil. Zincata UNI 5931 (M 6 x 16)                      Commercio         4
+                                                     45    PFUAM00446    UAM01-22 SX     BLOCCHETTO SX PER FISSAGGIO TASSELLO          S235JR-FE360B     1        9    MC00000032                     Vite TCEI Parz.Fil. Zincata UNI 5931 (M 5 x 45)                      Commercio         2
+                                                     44    PFUAM00217    UAM01-36        PULEGGIA AT5-20                               Commercio         1        8    MC00000031                     Vite TCEI Parz.Fil. Zincata UNI 5931 (M 5 x 40)                      Commercio         13
+                                                     43    PFUAM00200    UAM01-155       BLOCCHETTO                                    Alluminio 6082    1        7    MC00000029                     Vite TCEI Parz.Fil. Zincata UNI 5931 (M 5 x 30)                      Commercio         2
+                                                     42    PFUAM00199                    Angolari ad Angoli diseguali UNI EN 10056-1   S235JR-FE360B     1        6    MC00000028                     Vite TCEI Parz.Fil. Zincata UNI 5931 (M 5 x 25)                      Commercio         7
+                                                     41    PFUAM00098    UAM01-128       DOPPIO PONTE                                  Alluminio 2011    1        5    MC00000027                     Vite TCEI Parz.Fil. Zincata UNI 5931 (M 5 x 20)                      Commercio         14
+                                                     40    MC00006040                    ATTACCO RAPIDO MASCHIO M5                     Commercio         16       4    MC00000026                     Vite TCEI Parz.Fil. Zincata UNI 5931 (M 5 x 16)                      Commercio         12
+                                                     39    MC00005043    RC54            RACCORDO ARIA 90° M5 D.4                      Commercio         16       3    MC00000019                     Vite TCEI Parz.Fil. Zincata UNI 5931 (M 4 x 25)                      Commercio         5
+                                                     38    MC00004674    *Varia*         *Varia*                                       Commercio         8        2    MC00000018                     Vite TCEI Parz.Fil. Zincata UNI 5931 (M 4 x 20)                      Commercio         30
+                                                     37    MC00003373                    INNESTO RAPIDO FEMMINA M5                     Commercio         16       1    MC00000017                     Vite TCEI Parz.Fil. Zincata UNI 5931 (M 4 x 16)                      Commercio         6
+                                                     POS    COD. NUOVO    COD. VECCHIO                           DESCRIZIONE                 MATERIALE   Q.TÀ   POS     COD. NUOVO   COD. VECCHIO                              DESCRIZIONE                                      MATERIALE    Q.TÀ
+
+                                                                                                                                                                 GRUPPO:        MACCHINA AUTOMATICA PER ETICHETTE UAM02
+
+
+
+
+Nome File : C:\_Vault\Disegni\UAM02\CGUAM07004.iam
+                                                                                                                                                                 SOTTOGRUPPO:            ASSIEME TRAVERSA ASSE X E PINZA
+                                                                                                                                                                                                                              CODICE VECCHIO                       SCALA         FORMATO
+                                                                                                                                                                       MODELLO 3D             TAVOLA 2D
+                                                                                                                                                                DATA   12/05/2015             20/05/2015                                                                               A3
+                                                                                                                                                                                                                                                                                            REV.
+                                                                                                                                                                FIRMA Moretti                 Moretti               CODICE:                  CGUAM07004
+54    91   78             46       3        19    79    25   60             28             7   8         69        36    68        24   64   66   3   12   3   20    6        12   88        75   62    13   74      27   28     27                                 21   22    8    70   53
+
+
+
+
+                                                                                                                    26        65
+                                                                                 56
+
+                                                                                 30
+ 61
+                                                                                 63
+ 52
+
+
+
+
+                                                                                                                                             9
+                                                                  15
+                                                                                                                                                                                                                                71
+                                                                                                                                                                                                                                       31                     42
+                                                       41    44                                                                              22
+                                                                                                                                                                         5                                                                                    43
+                                                       17    23
+                                                                                                                                             21                                                                                                               72
+                                                                                                                                   80                                    35
+                                                                                                     11
+                     10                                                                                                                                                                                                                                                                  37
+                                                                                                     58       76         90        92                                                                                                 15
+                                                              87                                                                                                                                                                                                                         1
+                     89
+
+
+                     33
+
+
+                                                                                                    16                                                                                                                           67
+
+
+                                                                                                    4
+
+
+                                                                                                    50             29
+
+                                                                                                    51
+
+                                                       86                                           55
+
+
+                                                                                                    57
+
+
+                                                                                                    32
+                                                                                                                                                                                        14                                38    85         73   2   49   59        84
+                                                                                                    45
+
+
+                                                                                                                                                                    GRUPPO:        MACCHINA AUTOMATICA PER FESSINI UAM04
+
+                                                                                                                                                                    SOTTOGRUPPO:                       ASSIEME TESTA A CUCIRE
+                                                                                                                                                                                                                                       CODICE VECCHIO         SCALA       FORMATO
+                                                                       34                                                                                                 MODELLO 3D                    TAVOLA 2D
+                                                                                                                                                                          23/06/2014                    23/09/2014
+                                                                                                                                                                                                                                                               1:4            A3
+                                                                                                                                                                DATA
+                                                                            82        39                                                                                                                                                                                             REV.
+40    2         77             3       18        93     81    39                               83
+                                                                                                                                                                FIRMA Moretti                           Moretti                CODICE:              CGUAM08001
+93    PFUAM00313    UAM04-138        RONDELLA PER LAMPADA LED               S235JR-FE360B       1
+92    PFUAM00258                     TAPPO                                  Acciaio K100        1       46    MC00003126                    GRANO PUNTA RIBASSATA UNI 5925                                       Commercio          2
+91    PFUAM00257                     CHIAVETTA REGOLAZIONE LUBRIFICAZIONE   Commercio           2       45    MC00003018                    RONDELLA DI SPESSORAMENTO DIN 988 - S8 x 14 x 0,2                    Acciaio, Dolce     1
+90    PFUAM00256    UAM03-81         PISTONCINO CILINDRO TENSIONE           Ottone OT 58        1       44    MC00002927                    CUSCINETTO SCHERMATO 624-2Z 4 13 5                                   Commercio          1
+89    PFUAM00255    MCD-85           PORTA FOTOCELLULA                      Ottone OT 58        1       43    MC00002855                    VITE TESTA CILINDRICA TCEI RIBASSATA DIN 7984                        Commercio          1
+88    PFUAM00254    UAM01-115        VOLANTINO                              Alluminio 2011      1       42    MC00002842                    VITE TESTA CILINDRICA TCEI RIBASSATA DIN 7984                        Commercio          4
+87    PFUAM00253    UAM03-254/4      VITE LEVA TENDIFILO                    Acciaio C40         1       41    MC00002707                    VITE ZINCATA TBEI ISO 7380 - M4 x 12                                 Commercio          5
+86    PFUAM00252    UAM03-245/6      PERNO FORCELLA                         Acciaio C40         1       40    MC00002301    2L21001         RACCORDO TECNOPOLIMERO 90° D.4                                       Commercio          1
+85    PFUAM00251    UAM03-245/5      FORCELLA LEVA TENDIFILO                Alluminio 6082      1       39    MC00001985    INA SCE45       CUSCINETTO A RULLINI INA-SCE45                                       Commercio          2
+84    PFUAM00250    UAM03-245/3      LEVA TENDIFILO                         Alluminio 6082      1       38    MC00001983    458 KV          BOCCOLA AUTOLUBRIFICANTE A SECCO 08-10-08 KU                         Commercio          2
+83    PFUAM00249                     PERNO BIELLA TESTA                     18NiCrMo4           1       37    MC00001962                    MOLLA TESTA Dm11.9 F.0.8 Lo 27                                       Commercio          1
+82    PFUAM00248    UAM03-245/1      BIELLA TENDI FILO                      Alluminio 6082      1       36    MC00001960    KH2030PP        CUSCINETTO A RULLINI INA-KH2030PP                                    Commercio          8
+81    PFUAM00247    UAM03-86         COPERCHIO TESTA                        Alluminio 2011      1       35    MC00001955                    MOTORE SANYO DENKI_R2AA06040FXH11M                                   Commercio          1
+80    PFUAM00245    UAM01-80         ALBERO FISSAGGIO PENDOLO               Ottone OT 58        1       34    MC00001602                    SEEGER PER ESTERNI UNI 7435 - D.8                                    Commercio          1
+79    PFUAM00244    UAM03-88         COPERCHIO LUBRIFICANTE                 Alluminio 6082      1       33    MC00001594    IDS/D2          SENSORE ROTTURA FILO BTSR IDS/D2                                     Commercio          1
+78    PFUAM00243    UAM03-87         BLOCCHETTO STROZZA TUBI                Alluminio 6082      1       32    MC00001539                    Cuscinetti a sfere 2RS1 - SKF 630/8-2RS1(8x22x11)                    Commercio          2
+77    PFUAM00242    UAM03-91         TAPPO CILINDRO ALZAPIEDINO             Alluminio 6082      1       31    MC00001486                    Cuscinetti a sfere 2RS1 - SKF 6202-2RS1(15x35x11)                    Commercio          2
+76    PFUAM00241    UAM03-80         BUSSOLA CILINDRO TENSIONE              Alluminio 2011      1       30    MC00001379    6311005         INDICATORE OLIO DA 1/4 6311005                                       Commercio          1
+75    PFUAM00240    UAM01-111        PULEGGIA MOTORE                        Commercio           1       29    MC00001378    RS Z816         GUARNIZIONE RS_Z816                                                  Commercio          1
+74    PFUAM00239    UAM01-113        PULEGGIA ALBERO TESTA CUCIRE           Commercio           1       28    MC00001374                    RACCORDO REGOL.FLUSSO 1/4 D.8                                        Commercio          1
+73    PFUAM00238    UAM03-65         CONTRAPPESO                            Acciaio C40         1       27    MC00001373                    RIDUZIONE M/F 1/4                                                    Commercio          2
+72    PFUAM00237    UAM03-61         CAMMA SENSORE                          S235JR-FE360B       1       26    MC00001363    1580.U          SENSORE 1580.U 2.5 Mt CAVO                                           Commercio          2
+71    PFUAM00236    UAM03-60         ALBERO TESTA CUCIRE                    18NiCrMo4           1       25    MC00001342    5512F4D8M2XX    VALVOLA DI BLOCCO 5512F4D8M2XX                                       Commercio          1
+70    PFUAM00235    UAM04-03         PIATTO DI COLLEGAMENTO                 Alluminio 6082      1       24    MC00001316                    CILINDRO PN13237 SENZA CAMICIA                                       Commercio          1
+69    PFUAM00234    UAM04-23         RONDELLA BARRA                         S235JR-FE360B       4       23    MC00001279                    Rondella di fissaggio dentellata UNI 8841 A - A 4,3                  Commercio          1
+68    PFUAM00233                     ASTA TESTA CUCIRE                      Acciaio C40 RETT.   4       22    MC00001271                    RONDELLA ELASTICA UNI 8839 - A 8                                     Commercio          8
+67    PFUAM00232    UAM03-85         TESTA A CUCIRE                         Alluminio 2219      1       21    MC00001243                    RONDELLA C40 SPES. UNI 7845 - 8,5 x 20 x 4                           Commercio          8
+66    PFUAM00231    UAM03-90         COPERCHIO CINGHIA                      Alluminio 6082      1       20    MC00001239                    RONDELLA C40 SPES. UNI 7845 - 6,2 x 20 x 3                           Commercio          1
+65    PFUAM00230    UAM03-89         SUPPORTO MOTORE                        Alluminio 6082      1       19    MC00001141                    VITE TSPEI UNI 5933 Zincata - M4 x 12                                Commercio          2
+64    PFUAM00229    UAM04-02         CORPO PISTONE TESTA CUCIRE UAM04       Alluminio AW 5083   1       18    MC00001130                    VITE TSPEI UNI 5933 Zincata - M4 x 8                                 Commercio          1
+63    MC00006342                     PROXIMITY BES M08EF-PSC15B-BP02-003    Commercio           1       17    MC00001126                    VITE TSPEI UNI 5933 Zincata - M3 x 10                                Commercio          1
+62    MC00006306    ZRM330T5-16      CINGHIA POLIURETANO T5-330             Commercio           1       16    MC00001068                    Rondella UNI 6592 - 4,3 x 9                                          Commercio          1
+61    MC00005731                     PASSAFILO SILAC 7896                   Commercio           1       15    MC00000811                    Grano esagono incassato P. Piatta UNI 5923-67 - M8 x 16              Commercio          1
+60    MC00005043                     RAC.90° GIR M5 D.4 2L31001             Commercio           1       14    MC00000810                    Grano esagono incassato P. Piatta UNI 5923-67 - M8 x 14              Commercio          1
+59    MC00005025    SS7080510TP      VITE BARRA D'AGO IJSS7080510TP         Commercio           1       13    MC00000801                    Grano esagono incassato P. Piatta UNI 5923-67 - M6 x 16              Commercio          2
+58    MC00004225    RDR5.40          RACCORDO DIRITTO M5 D.4                Commercio           1       12    MC00000791                    Grano esagono incassato P. Piatta UNI 5923-67 - M5 x 6               Commercio          2
+57    MC00004053                     AGO 134R 90                            Commercio           1       11    MC00000788                    Grano esagono incassato P. Piatta UNI 5923-67 - M5 x 10              Commercio          1
+56    MC00003319                     TAPPO 1/8                              Commercio           1       10    MC00000787                    Grano esagono incassato P. Piatta UNI 5923-67 - M4 x 8               Commercio          1
+55    MC00003318                     PASSAFILO JUKI 22906309                Commercio           1        9    MC00000282                    Vite T.E.Zincata Gambo Total. Filettato UNI 5739 - M8 x 30           Commercio          4
+54    MC00003316    A9105657891000   TENDIFILO A9105657891000               Commercio           1        8    MC00000281                    Vite T.E.Zincata Gambo Total. Filettato UNI 5739 - M8 x 25           Commercio          8
+53    MC00003315    A9117445491000   SISTEMA TENSIONE FILO A9117445491000   Commercio           1        7    MC00000048                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 8 x 20)                      Commercio          8
+52    MC00003314    A9117473325000   PASSAFILO A9117473325000               Commercio           3        6    MC00000036                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 6 x 16)                      Commercio          5
+51    MC00003313                     BARRA D'AGO JUKI 22939607              Commercio           1        5    MC00000025                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 5 x 12)                      Commercio          4
+50    MC00003312    A9106901991002   MORSETTO BARRA COD.A9106906093002      Commercio           1        4    MC00000017                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 4 x 16)                      Commercio          1
+49    MC00003311    A9117401775951   GUIDA IN GHISA COD.A9117455191000      Commercio           1        3    MC00000016                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 4 x 12)                      Commercio          8
+48    MC00003239                     BLOCCA MORSETTO EMBK                   Commercio           2        2    MC00000015                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 4 x 10)                      Commercio          4
+47    MC00003238                     MORSETTO MBK                           Commercio           3        1    MC00000003                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 3 x 8)                       Commercio          2
+POS    COD. NUOVO   COD. VECCHIO                            DESCRIZIONE           MATERIALE     Q.TÀ   POS     COD. NUOVO   COD. VECCHIO                              DESCRIZIONE                                      MATERIALE    Q.TÀ
+
+                                                                                                        GRUPPO:        MACCHINA AUTOMATICA PER FESSINI UAM04
+
+                                                                                                        SOTTOGRUPPO:            ASSIEME TESTA A CUCIRE
+                                                                                                                                                                    CODICE VECCHIO                       SCALA           FORMATO
+                                                                                                              MODELLO 3D             TAVOLA 2D
+                                                                                                       DATA   23/06/2014             23/09/2014                                                                              A3
+                                                                                                                                                                                                                                   REV.
+                                                                                                       FIRMA Moretti                 Moretti              CODICE:                   CGUAM08001
+   10
+
+
+
+
+                                          9
+       7
+
+
+
+
+                                          11
+
+
+
+
+                                          4
+
+
+
+
+                                                                               14
+
+
+
+                                                                                2
+
+
+
+
+                                                                               21
+
+                                                                                6
+
+                                                                               15
+
+                         3
+
+
+                                                                               19
+
+                         1
+
+
+                        20
+
+                         8
+
+                                                                               17
+                        18
+
+
+                        12
+                                                                                5
+
+
+                                                                               16
+                        13
+
+
+
+
+ GRUPPO:          MACCHINA AUTOMATICA PER ETICHETTE UAM02
+
+ SOTTOGRUPPO:           ASSIEME       ASPIRAFILO
+                                               CODICE VECCHIO   SCALA   FORMATO
+           MODELLO 3D    TAVOLA 2D
+           15/04/2015    16/05/2016
+                                                                1:1       A4
+DATA
+                                                                                    REV.
+FIRMA Moretti            Moretti        CODICE:           CGUAM08004
+ 21    PFUAM00670    UAM01-239       BUSSOLINA PER MOLLA ASPIRAFILO                                   Ottone OT 58       2
+ 20    PFUAM00669    UAM01-241       CERNIERA FEMMINA ASPIRAFILO                                      S235JR-FE360B      1
+ 19    PFUAM00668    UAM01-242       CERNIERINA MASCHIO                                               S235JR-FE360B      1
+ 18    PFUAM00582    UAM01-240       PISTONCINO ALZA CHIUSURA                                         Ottone OT 58       1
+ 17    PFUAM00581    UAM01-237       SPORTELLINO VUOTO                                                INOX 304           1
+ 16    PFUAM00580    UAM01-238       BLOCCHETTO DEL VUOTO                                             Alluminio 6082     1
+ 15    PFUAM00579    UAM01-236       PIATTO DI COLLLEGAMENTO                                          Alluminio 6082     1
+ 14    PFUAM00578    UAM01-235       SUPPORTO CILINDRETTO                                             Alluminio 6082     1
+ 13    MC00005043    RC54            RACCORDO ARIA 90° M5 D.4                                         Commercio          2
+ 12    MC00003357    RS Z812         GUARNIZIONE RS_Z812                                              Commercio          1
+ 11    MC00003339    4-5.5-4 KV      BOCCOLA AUTOLUBRIF. A SECCO 04 - 5.5 - 04 KV                     Commercio          2
+ 10    MC00002303                    CILINDRO 1260_10_0040 A.M.                                                          1
+  9    MC00001949    PZ470           PUNZONE D.4 L.70                                                 Commercio          2
+  8    MC00001806                    SPINA CILINDRICA DI COLLEGAMENTO UNI 1707 DIN 7 Toll.            Commercio          1
+                                     h8 600N/mm2 - 2 x 20
+  7    MC00001337    2904M5P         REGOLATORE DI FLUSSO 2904M5P                                     Commercio          2
+  6    MC00000787                    Grano esagono incassato P. Piatta UNI 5923-67 - M4 x 8           Commercio          2
+  5    MC00000786                    Grano esagono incassato P. Piatta UNI 5923-67 - M4 x 6           Commercio          2
+  4    MC00000017                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 4 x 16)                  Commercio          2
+  3    MC00000016                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 4 x 12)                  Commercio          2
+  2    MC00000007                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 3 x 20)                  Commercio          1
+  1    MC00000003                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 3 x 8)                   Commercio          2
+POS     COD. NUOVO    COD. VECCHIO                            DESCRIZIONE                                   MATERIALE    Q.TÀ
+
+ GRUPPO:        MACCHINA AUTOMATICA PER ETICHETTE UAM02
+
+ SOTTOGRUPPO:            ASSIEME            ASPIRAFILO
+                                                            CODICE VECCHIO                    SCALA          FORMATO
+       MODELLO 3D            TAVOLA 2D
+DATA   15/04/2015            16/05/2016                                                                           A4
+                                                                                                                        REV.
+FIRMA Moretti                Moretti               CODICE:                  CGUAM08004
+                                                                                     7   4
+
+                                                                                                                                                     5
+
+                                                          8
+
+
+
+
+                                                                                                                                                     15
+                                                                    4
+
+
+
+
+                                                          14
+
+
+                                                                               4
+                                                                                                                                                     13
+
+
+
+
+                                                     10
+
+
+
+
+                                                      6
+
+
+
+
+                                                      2
+
+
+
+
+                                                      1
+
+
+
+
+                                                               11       12                                      3                    9
+
+
+
+                                                                              GRUPPO:        MACCHINA AUTOMATICA PER ETICHETTE UAM02
+
+
+
+
+Nome File : C:\_Vault\Disegni\UAM02\CGUAM09004.iam
+                                                                              SOTTOGRUPPO:        ASSIEME CARTER
+                                                                                                                    CODICE VECCHIO       SCALA   FORMATO
+                                                                                    MODELLO 3D     TAVOLA 2D
+                                                                             DATA   20/05/2015     22/05/2015                                      A3
+                                                                                                                                                           REV.
+                                                                             FIRMA Moretti         Moretti      CODICE:        CGUAM09004
+                                                      15    PFUAM00656                    CARTER POSTERIORE DI PROTEZIONE                           Acciaio, Dolce, Saldato    1
+                                                      14    PFUAM00655                    CARTER LATERALE SX                                        S235JR-FE360B              1
+                                                      13    PFUAM00654                    CARTER LATERALE DX                                        S235JR-FE360B              1
+                                                      12    PFUAM00653    UAM01-          PORTELLA POSTERIORE                                       S235JR-FE360B              1
+                                                      11    PFUAM00652    UAM01-          PORTELLA POSTERIORE                                       S235JR-FE360B              1
+                                                      10    PFUAM00620                    CARTER PULSANTI                                           Acciaio Saldato            1
+                                                       9    PFUAM00568                    CARTER PROTEZIONE TRASFORMATORE                           S235JR-FE360B              1
+                                                       8    PFUAM00516    UAM04-          LAMIERA CHIUSURA TRAVE TESTA                              S235JR-FE360B              1
+                                                       7    PFUAM00497    UAM04-          LAMIERA CHIUSURA TRAVE TESTA                              S235JR-FE360B              1
+                                                       6    MC00003207                    VENTOLA EXO.M XVE6535NB23-CG                              COMMERCIO                  1
+                                                       5    MC00002709                    VITE ZINCATA TBEI ISO 7380 - M5 x 10                      Commercio                  11
+                                                       4    MC00002705                    VITE ZINCATA TBEI ISO 7380 - M4 x 8                       Commercio                  16
+                                                       3    MC00001964                    GRIGLIA FILTRANTE XGNF 1235-CG                            COMMERCIO                  1
+                                                       2    MC00001963    GAMM            CERNIERA GAMM H.65                                        COMMERCIO                  4
+                                                       1    MC00000026                    Vite TCEI Parz.Fil. Zincata UNI 5931 (M 5 x 16)           Commercio                  16
+                                                     POS     COD. NUOVO   COD. VECCHIO                            DESCRIZIONE                             MATERIALE            Q.TÀ
+
+                                                      GRUPPO:        MACCHINA AUTOMATICA PER ETICHETTE UAM02
+
+
+
+
+Nome File : C:\_Vault\Disegni\UAM02\CGUAM09004.iam
+                                                      SOTTOGRUPPO:           ASSIEME CARTER
+                                                                                                                 CODICE VECCHIO             SCALA           FORMATO
+                                                            MODELLO 3D             TAVOLA 2D
+                                                     DATA   20/05/2015             22/05/2015                                                                   A4
+                                                                                                                                                                              REV.
+                                                     FIRMA Moretti                 Moretti              CODICE:                  CGUAM09004
+                                                                                              2      3                10
+                                                                                                                                                               14
+
+
+
+
+                                                               1
+
+
+
+
+                                                                                                                      11
+
+
+                                                                                     6
+
+
+
+
+                                                                                    11   10
+
+
+
+
+                                                                       4        2         5              13       5
+
+
+
+
+                                                     16   17
+
+
+
+                                                                                                                                     15
+
+
+
+
+                                                                   8       12        7   9
+
+
+
+
+                                                                                                                            18
+
+
+
+
+                                                                                               GRUPPO:        MACCHINA AUTOMATICA PER ETICHETTE UAM02
+
+
+
+
+Nome File : C:\_Vault\Disegni\UAM02\CGUAM10004.iam
+                                                                                               SOTTOGRUPPO:            ASSIEME PARTI ELETTRICHE / ELETTRONICHE
+                                                                                                                                              CODICE VECCHIO        SCALA   FORMATO
+                                                                                                     MODELLO 3D            TAVOLA 2D
+                                                                                              DATA   22/05/2015            25/05/2015                                         A3
+                                                                                                                                                                                      REV.
+                                                                                             FIRMA Moretti                 Moretti        CODICE:        CGUAM10004
+                                                      18    MC00006987    PL4M           PEDALE PL2M CON CAVO MT.3 NERO                          Commercio          1
+                                                      17    MC00005694                   INTERRUTTORE 5SY63 MCB C10                              Commercio          1
+                                                      16    MC00005304                   MODULO GW40 023 IP40                                    Commercio          1
+                                                      15    MC00005150                   TRASFORMATORE E340840 3000VA                            Commercio          1
+                                                      14    MC00003374                   NOTEBOOK ACER ES1 512 P8VK                              Commercio          1
+                                                      13    MC00003266                   PULSANTE FUNGO GIALLO 3SB3 500-1DA31                    Commercio          1
+                                                      12    MC00003217                   FRUTTO PRESA CKF 03                                     Commercio          1
+                                                      11    MC00003215                   CAVO ENCODER POSA MOBILE 2 Mt. cod.CVEBRPM02M           Commercio          3
+                                                      10    MC00003213                   CAVO MOTORE POSA MOBILE 2 Mt. cod.CVMBPYPM02M           Commercio          3
+                                                       9    MC00003211                   CUSTODIA MOBILE PER CHIUSURA SINGOLA CK 03 VS           Generico           1
+                                                       8    MC00003209                   CUSTODIA DA INCASSO AD ANGOLO CK 03 IA                  Commercio          1
+                                                       7    MC00003204                   FRUTTO SPINA CKM 03                                     Commercio          1
+                                                       6    MC00001984    LAMPADA LED    LAMPADA LED SW-20LED SEWMAQ 240V                        Commercio          1
+                                                       5    MC00001976                   PULSANTE NERO 3SB3500-0AA11                             Commercio          2
+                                                       4    MC00001970                   CONTATTO 3SB3 400-OB                                    Commercio          3
+                                                       3    MC00001967                   CONTATTO 3SB3 400-0C NC                                 Commercio          2
+                                                       2    MC00001966                   BLOCCA PULSANTE 3SB1902-1AC                             Commercio          4
+                                                       1    MC00001965                   FUNGO EMERGENZA 3SB3 500-1CA21                          Commercio          1
+                                                     POS     COD. NUOVO   COD. VECCHIO                         DESCRIZIONE                             MATERIALE    Q.TÀ
+
+                                                      GRUPPO:        MACCHINA AUTOMATICA PER ETICHETTE UAM02
+
+
+
+
+Nome File : C:\_Vault\Disegni\UAM02\CGUAM10004.iam
+                                                      SOTTOGRUPPO:           ASSIEME PARTI ELETTRICHE / ELETTRONICHE
+                                                                                                           CODICE VECCHIO                SCALA          FORMATO
+                                                            MODELLO 3D           TAVOLA 2D
+                                                     DATA   22/05/2015           25/05/2015                                                                  A4
+                                                                                                                                                                   REV.
+                                                     FIRMA Moretti               Moretti            CODICE:              CGUAM10004
+                                                                                                             8
+
+
+
+
+                                                     10    21   9
+
+                                                                                                                                                                             23
+
+
+
+
+                                                                                                                                                                             20
+
+
+
+
+                                                          18                                                                                                                 11
+
+
+
+                                                                                                                                                                             19
+                                                          6
+
+                                                                                                                                                                             14
+
+                                                                        21
+
+                                                                                                                                                                             3
+
+                                                          5
+
+                                                                                                                                                                             22
+                                                          4
+
+
+
+
+                                                                    2        15   7   1   16   13      17   17    13   18      18   13          12
+
+
+
+
+                                                                                                GRUPPO:          MACCHINA AUTOMATICA PER ETICHETTE UAM02
+
+
+
+
+Nome File : C:\_Vault\Disegni\UAM02\CGUAM19004.iam
+                                                                                                SOTTOGRUPPO:                ASSIEME       QUADRO ELETTRICO UAM 02
+                                                                                                                                                CODICE VECCHIO   SCALA   FORMATO
+                                                                                                      MODELLO 3D             TAVOLA 2D
+                                                                                               DATA   22/05/2015             25/05/2015                                    A3
+                                                                                                                                                                                   REV.
+                                                                                               FIRMA Moretti                 Moretti        CODICE:        CGUAM19004
+                                                      23    PFUAM00571                   LAMIERA QUADRO ELETTRICO                            S235JR-FE360B     1
+                                                      22    MC00003264    8WA1 808       MORSETTO 8WA1 808                                   Commercio         4
+                                                      21    MC00003245                   MORSETTO TERRA 8WA1 011-1PH00                       Commercio         11
+                                                      20    MC00003244                   MORSETTO PORTAFUSIBILE 8WA1 011-1SF12               Commercio         5
+                                                      19    MC00003243                   COPERCHIO SEPARATORE 8WA1 817                       Commercio         6
+                                                      18    MC00003242                   MORSETTO DOPPIO 8WA1 011-6DG11                      Commercio         21
+                                                      17    MC00003241                   MORSETTO DOPPIO 8WA1 011-2DG11                      Commercio         17
+                                                      16    MC00003240                   INVERTITORE DI SEGNALE ET-NPN/PNP ET8600            Commercio         5
+                                                      15    MC00003237                   MAGNETOTERMICO C25                                  Commercio         1
+                                                      14    MC00003236                   MORSETTIERA MI-V25M-DA                                                1
+                                                      13    MC00003234                   MODULO 8 IN/OUT PM8IOA                              Commercio         3
+                                                      12    MC00003233                   NODO INTELLIGENTE CAN-PCCDIN/4                      Commercio         1
+                                                      11    MC00003232                   PRESA SHUKO BIVAL GW20246                           Commercio         1
+                                                      10    MC00003230                   PORTAFUSIBILE 3NW7 033                              Commercio         6
+                                                       9    MC00003229                   PORTAFUSIBILE 3NW7 023                              Commercio         2
+                                                       8    MC00003228                   PORTAFUSIBILE 33NW7 013                             Commercio         1
+                                                       7    MC00003227                   ALIMENTATORE SITOP PSU100L DRP-240-24 10A                             1
+                                                       6    MC00003226                   TELERUTTORE 3RT2024-1BB40                           Commercio         1
+                                                       5    MC00003225                   SALVAMOTORE 3RV2011-1CA10                                             1
+                                                       4    MC00003224                   TELERUTTORE 3RT2016-1BB41                           Commercio         1
+                                                       3    MC00003223                   RELE EMERGENZA 3SK1121-1CB41                        Commercio         1
+                                                       2    MC00003221                   AZIONAMENTO RS1A03AAMAB QS1 C003 RTA                Commercio         4
+                                                       1    MC00003220                   CONTROLLO CMZ mod. CTN330.11000                     Commercio         1
+                                                     POS     COD. NUOVO   COD. VECCHIO                       DESCRIZIONE                          MATERIALE    Q.TÀ
+
+                                                      GRUPPO:        MACCHINA AUTOMATICA PER ETICHETTE UAM02
+
+
+
+
+Nome File : C:\_Vault\Disegni\UAM02\CGUAM19004.iam
+                                                      SOTTOGRUPPO:            ASSIEME          QUADRO ELETTRICO UAM 02
+                                                                                                             CODICE VECCHIO          SCALA         FORMATO
+                                                            MODELLO 3D          TAVOLA 2D
+                                                     DATA   22/05/2015          25/05/2015                                                               A4
+                                                                                                                                                              REV.
+                                                     FIRMA Moretti              Moretti             CODICE:               CGUAM19004
+                                                                7
+
+
+
+
+                                                                                                                             10
+
+
+
+
+                                                                                                                                                       2
+
+
+                                                                                                                   1
+
+
+
+
+                                                      9
+
+
+
+
+                                                      4
+                                                                                                                                  8
+                                                                                                                   1                  6            3               5
+
+
+
+
+                                                      10    PFUAM00498    UAM01-50       PIASTRA TASTI                                            Alluminio 2011        1
+                                                       9    MC00001975                   PULSANTE ROSSO 3SB3500-0AA21                             Commercio             1
+                                                       8    MC00001974                   STAFFA 3 CONTATTI 3SB3 901 0AB                           Commercio             1
+                                                       7    MC00001972                   PULSANTE QUADRATO NAP-47 R                               Commercio             8
+                                                       6    MC00001971                   LAMPADINA BA9S 30V. 3W. BA.9.30.3                        Commercio             1
+                                                       5    MC00001970                   CONTATTO 3SB3 400-OB                                     Commercio             2
+                                                       4    MC00001969                   PULSANTE LUMINOSO 3SB3501-0AA41                          Commercio             1
+                                                       3    MC00001968                   CONTATTO 3SB3 400-1A NA                                  Commercio             1
+                                                       2    MC00001967                   CONTATTO 3SB3 400-0C NC                                  Commercio             1
+                                                       1    MC00001966                   BLOCCA PULSANTE 3SB1902-1AC                              Commercio             2
+                                                     POS     COD. NUOVO   COD. VECCHIO                       DESCRIZIONE                                   MATERIALE    Q.TÀ
+
+                                                      GRUPPO:        MACCHINA AUTOMATICA PER TASCHE UAM-01
+
+
+
+
+Nome File : C:\_Vault\Disegni\UAM01\CGUAM20003.iam
+                                                      SOTTOGRUPPO:           ASSIEME PULSANTIERA UAM01 UAM02
+                                                                                                            CODICE VECCHIO                SCALA             FORMATO
+                                                            MODELLO 3D          TAVOLA 2D
+                                                            02/03/2016          05/02/2015
+                                                                                                                                          1:1.5               A4
+                                                     DATA
+                                                                                                                                                                       REV.
+                                                     FIRMA Moretti              Moretti             CODICE:               CGUAM20003
+Dima per etichette
+
+
+
+
+Supplementary kit
+ of jigs for label
+                                                               4                     2             1
+
+
+
+
+                                                                                                                                              5
+
+
+
+
+                                                                                     3
+
+
+
+
+                                                       5    PFUAM2A000                   DIMA POSIZIONAMENTO ETICHETTA                              INOX 304           1
+                                                       4    PFUAM00554    UAM01-56       PIATTINO PORTA LAMA                                        Alluminio 6082     1
+                                                       3    MC00003492                   DADI ESAGONALI ZINCATI, CON FLANGIA, DIN 6923 - M6         Commercio          1
+                                                       2    MC00001148                   VITE TSPEI UNI 5933 Zincata - M6 x 20                      Commercio          1
+                                                       1    MC00001130                   VITE TSPEI UNI 5933 Zincata - M4 x 8                       Commercio          4
+                                                      POS    COD. NUOVO   COD. VECCHIO                          DESCRIZIONE                               MATERIALE    Q.TÀ
+
+
+
+
+                                                     PROPRIETÀ RISERVATA vietata la riproduzione a terzi senza autorizzazione scritta
+                                                     Ogni infrazione sarà punita a termini di legge
+                                                     È assolutamente vietato modificare i disegni eseguiti con il cad, se non con lo stesso
+                                                      GRUPPO:        MACCHINA AUTOMATICA PER ETICHETTE UAM02
+
+
+
+
+Nome File : C:\_Vault\Disegni\UAM02\CGUAM11004.iam
+                                                      SOTTOGRUPPO:           DIMA POSIZIONAMENTO ETICHETTA
+                                                                                                               CODICE VECCHIO             SCALA            FORMATO
+                                                            MODELLO 3D          TAVOLA 2D
+                                                            14/07/2016          14/07/2016
+                                                                                                                                              1:2               A4
+                                                     DATA
+                                                                                                                                                                      REV.
+                                                     FIRMA Moretti              Moretti                CODICE:                   CGUAM11004
+                                                             10                        1                  9               4
+
+
+
+
+                                                                                                     8
+                                                                                                                                                   5
+
+
+                                                                                                     2
+
+                                                     7
+
+
+                                                                                                     6
+
+
+
+
+                                                                    10   PFUAM2G000                       TASSELLO LAMIERA CUCITURA 4 LATI                          Alluminio 6082     1
+                                                                    9    PFUAM2F000                       TASSELLO CILINDRO DIMA 4 CUCITURE                         Alluminio 6082     1
+                                                                    8    PFUAM2E000                       LAMIERINO DIMA ETICHETTA 4 CUCITURE                       INOX 304           1
+                                                                    7    PFUAM2D000                       LAMIERINO DIMA ETICHETTA 4 CUCITURE                       INOX 304           1
+                                                                    6    PFUAM2C000                       LAMIERA CUCITURA ETICHETTA                                INOX 304           1
+                                                                    5    PFUAM2B000                       DIMA ETICHETTA CUCITURA 4 LATI                            Alluminio 5754     1
+                                                                    4    PFUAM00908                       DISTANZIALE FISSAGGIO CILINDRETTO                         Ottone OT 58       1
+                                                                    3    MC00001132                       VITE TSPEI UNI 5933 Zincata - M3 x 8                      Commercio          6
+                                                         3          2    MC00001126                       VITE TSPEI UNI 5933 Zincata - M3 x 10                     Commercio          2
+                                                                    1    MC00000019                       Vite TCEI Parz.Fil. Zincata UNI 5931 (M 4 x 25)           Commercio          1
+                                                                   POS    COD. NUOVO       COD. VECCHIO                           DESCRIZIONE                             MATERIALE    Q.TÀ
+
+
+
+
+                                                                  PROPRIETÀ RISERVATA vietata la riproduzione a terzi senza autorizzazione scritta
+                                                                  Ogni infrazione sarà punita a termini di legge
+                                                                  È assolutamente vietato modificare i disegni eseguiti con il cad, se non con lo stesso
+                                                                   GRUPPO:        MACCHINA AUTOMATICA PER ETICHETTE UAM02
+
+
+
+
+Nome File : C:\_Vault\Disegni\UAM02\CGUAM12004.iam
+                                                                   SOTTOGRUPPO:               DIMA CUCITURA ETICHETTA SU 2/4                                    LATI
+                                                                                                                                 CODICE VECCHIO             SCALA          FORMATO
+                                                                         MODELLO 3D             TAVOLA 2D
+                                                                         14/07/2016             15/07/2016
+                                                                                                                                                            1:1                 A3
+                                                                  DATA
+                                                                                                                                                                                      REV.
+                                                                  FIRMA Moretti                 Moretti                 CODICE:                   CGUAM12004
+

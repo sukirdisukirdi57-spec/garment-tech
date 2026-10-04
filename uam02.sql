@@ -1,0 +1,13 @@
+UPDATE specifications SET description='UAM-02 merupakan mesin MAICA untuk proses collar line, collar bones, dan aplikasi label secara otomatis.' WHERE id=260;
+UPDATE specifications SET description='Mesin merupakan collar line / collar bones & label application setter yang digunakan untuk mengotomatisasi pemasangan label dan bagian collar bone.' WHERE id=261;
+UPDATE specifications SET description='Power supply mesin adalah 380 V + N sesuai spesifikasi MAICA UAM-02.' WHERE id=262;
+UPDATE specifications SET description='Kebutuhan tekanan udara kerja mesin adalah 7 bar.' WHERE id=263;
+UPDATE specifications SET description='Konsumsi udara tercatat sebesar 3 L/pc untuk setiap unit proses yang digunakan.' WHERE id=264;
+UPDATE specifications SET description='Berat mesin tercatat sebesar 560 kg.' WHERE id=265;
+UPDATE specifications SET description='Kapasitas produksi aplikasi label tercatat hingga 3.000 label per hari berdasarkan data MAICA UAM-02.' WHERE id=1074;
+UPDATE specifications SET description='Kapasitas produksi collar bone tercatat hingga 2.000 collar bone per hari berdasarkan data MAICA UAM-02.' WHERE id=1075;
+UPDATE specifications SET description='Dimensi packing mesin adalah 170 × 145 × 190 cm.' WHERE id=1076;
+UPDATE specifications SET description='Sistem dapat menangani aplikasi hingga 4 label dalam satu proses atau pada empat sisi sesuai konfigurasi mesin.' WHERE id=1077;
+UPDATE specifications SET description='UAM-02 menggunakan computer-controlled system untuk mengendalikan proses kerja mesin secara terprogram.' WHERE id=1078;
+UPDATE specifications SET description='Mesin dilengkapi vacuum system yang digunakan untuk membantu proses aplikasi collar bone.' WHERE id=1079;
+UPDATE specifications SET description='Stacker tersedia untuk menyelesaikan dan menata hasil proses setelah operasi mesin selesai.' WHERE id=1080;

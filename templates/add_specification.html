@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tambah Spesifikasi Mesin</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<header>
+    <h1>⚙️ Tambah Spesifikasi Mesin</h1>
+</header>
+
+<main>
+
+    <section class="machine-card">
+
+        <h2>
+            {{ machine["brand_name"] }} — {{ machine["model"] }}
+        </h2>
+
+        <form method="POST">
+
+            <label for="specification">
+                Nama Spesifikasi
+            </label>
+
+            <input
+                type="text"
+                id="specification"
+                name="specification"
+                placeholder="Contoh: Kecepatan maksimum"
+                required
+            >
+
+            <label for="value">
+                Nilai
+            </label>
+
+            <input
+                type="text"
+                id="value"
+                name="value"
+                placeholder="Contoh: 5.500 rpm"
+            >
+
+            <label for="notes">
+                Catatan
+            </label>
+
+            <textarea
+                id="notes"
+                name="notes"
+                rows="4"
+                placeholder="Catatan tambahan..."
+            ></textarea>
+
+              <label for="description">
+                  Deskripsi
+              </label>
+
+              <textarea
+                  id="description"
+                  name="description"
+                  rows="5"
+                  placeholder="Deskripsi teknis..."
+              ></textarea>
+
+            <br>
+
+            <button type="submit" class="add-button">
+                💾 Simpan Spesifikasi
+            </button>
+
+            <a
+                href="/machine/{{ machine['id'] }}"
+                class="add-button"
+            >
+                ↩️ Kembali
+            </a>
+
+        </form>
+
+    </section>
+
+</main>
+
+</body>
+</html>

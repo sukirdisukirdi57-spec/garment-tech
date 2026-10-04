@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garment Machine Tech Database</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<header>
+    <h1>GARMENT MACHINE TECH DATABASE</h1>
+    <p>Database Teknisi Mesin Garment</p>
+</header>
+
+<main>
+
+    <section class="welcome">
+        <h2>🔧 Database Teknisi</h2>
+        <p><a href="/add-machine" class="add-button">➕ Tambah Mesin</a></p>
+        <p><a href="/components" class="add-button">🔩 Database Komponen</a></p>
+        <p>
+            Cari mesin berdasarkan merek, model, fungsi,
+            atau deskripsi mesin.
+        </p>
+
+        <form method="GET" action="/">
+            <input
+                type="text"
+                name="search"
+                value="{{ search }}"
+                placeholder="🔍 Cari merek atau model mesin..."
+            >
+            <button type="submit">Cari</button>
+        </form>
+    </section>
+
+
+    {% if search %}
+    <section>
+        <h2>🔎 Hasil pencarian: "{{ search }}"</h2>
+
+        {% if machines %}
+            <div class="machine-list">
+
+                {% for machine in machines %}
+                <div class="machine-card">
+
+                    <h3>
+                        {{ machine["brand_name"] or "Merek belum ada" }}
+                        — {{ machine["model"] }}
+                    </h3>
+
+                    <p>
+                        <strong>Jenis:</strong>
+                        {{ machine["type_name"] or "Belum ditentukan" }}
+                    </p>
+
+                    <p>
+                        <strong>Fungsi:</strong>
+                        {{ machine["function"] or "Belum ada data" }}
+                    </p>
+
+                    <p>
+                        {{ machine["description"] or "Belum ada deskripsi" }}
+                    </p><p>
+    <a href="/machine/{{ machine['id'] }}" class="add-button">
+        🔎 Detail Mesin
+    </a>
+</p>
+
+                </div>
+                {% endfor %}
+
+            </div>
+        {% else %}
+            <div class="empty">
+                <p>❌ Mesin dengan kata kunci tersebut belum ditemukan.</p>
+            </div>
+        {% endif %}
+    </section>
+    {% endif %}
+
+
+    <section>
+        <h2>🏭 Merek Mesin</h2>
+
+        <div class="grid">
+            {% for brand in brands %}
+            <a href="{{ url_for('brand_machines', brand_id=brand['id']) }}" class="card">
+                <h3>{{ brand["name"] }}</h3>
+                <p>{{ brand["country"] or "Data negara belum tersedia" }}</p>
+            </a>
+            {% endfor %}
+        </div>
+    </section>
+
+
+    <section>
+        <h2>⚙️ Jenis Mesin</h2>
+
+        <div class="grid">
+            {% for machine_type in machine_types %}
+            <a href="{{ url_for('type_machines', type_id=machine_type['id']) }}" class="card">
+                <h3>{{ machine_type["name"] }}</h3>
+                <p>{{ machine_type["description"] }}</p>
+            </a>
+            {% endfor %}
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>Garment Machine Tech Database — Local System</p>
+</footer>
+
+</body>
+</html>

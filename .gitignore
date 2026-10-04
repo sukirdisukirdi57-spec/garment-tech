@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.pyc
+
+# Local temporary/work files
+tmp/
+work/
+
+# Local backups
+*.backup
+*.backup-*
+*.bak
+
+# Runtime/local files
+*.log
+
+# SQLite temporary files
+*.db-wal
+*.db-shm
+
+# Database backups
+database/*.before-*
+database/*.backup*
+database/*.bak
+
+# Large source documents / generated PDFs
+*.pdf
+
+# Generated images
+*.png
+
+# OCR / temporary analysis
+ps800-ref8/
+ps800.txt
+ps800-parts.txt
+ps800-database.tsv
+parts-data-raw.txt
+parts-data.tsv
+part-index.tsv
+part-index-clean.tsv
+part-index-final.tsv
+semua-part.txt
+numerical-index.txt
+
+# Temporary extracted machine data
+lk1900a-*.txt
+s7200a.txt
+
+# Parser experiments / tests
+*_preview.py
+parser_*.py
+parse_maica_test.py
+test_*.py
+split_uam02.py
+
+# Temporary extracted images / analysis pages
+ref4-*.jpg
+ref4-*.html
+
+# Temporary application copy
+app.p
+
+# Temporary data tests
+data/maica/uam02_test.csv
+data/maica/*-bbox.html
