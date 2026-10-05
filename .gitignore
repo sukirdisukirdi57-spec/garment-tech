@@ -63,3 +63,12 @@ app.p
 # Temporary data tests
 data/maica/uam02_test.csv
 data/maica/*-bbox.html
+
+# Local secrets
+.env
+
+# Local archives
+*.zip
+
+# Local app backups
+app-backup-*.py

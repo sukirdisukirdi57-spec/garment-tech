@@ -22,19 +22,16 @@
     <section class="welcome">
 
         <h2>Data Troubleshooting</h2>
-
         <p><strong>📊 Jumlah hasil:</strong> {{ troubleshooting_data|length }} data troubleshooting</p>
 
-<form method="POST"
-      action="/import-troubleshooting-csv"
-      style="margin-bottom: 20px;">
+{% if session.get("admin_logged_in") %}
+<form method="POST" action="/import-troubleshooting-csv" style="margin-bottom: 20px;">
     <button type="submit" class="add-button">
         📥 Import Troubleshooting CSV
     </button>
 </form>
-
+{% endif %}
 <form method="GET" action="/troubleshooting" style="margin-bottom: 20px;">
-
             <input
                 type="text"
                 name="search"

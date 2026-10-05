@@ -46,7 +46,7 @@
 
     </section>
 
-    {% if machine["brand_name"] == "JUKI" and machine["model"] == "DDL-8700" %}
+    {% if session.get("admin_logged_in") and machine["brand_name"] == "JUKI" and machine["model"] == "DDL-8700" %}
     <section>
         <p>
             <form method="POST"
@@ -200,10 +200,12 @@
     <h2>⚙️ Spesifikasi</h2>
 
 <p>
+{% if session.get("admin_logged_in") %}
     <a href="/add-specification/{{ machine['id'] }}" class="add-button">
         ➕ Tambah Spesifikasi
     </a>
 </p>
+{% endif %}
 
     {% if specifications %}
 
@@ -234,6 +236,7 @@
             </p>
             {% endif %}
 
+{% if session.get("admin_logged_in") %}
             <p>
                 <a
                     href="/edit-specification/{{ spec['id'] }}"
@@ -254,6 +257,7 @@
                 </form>
             </p>
 
+{% endif %}
         </div>
 
         {% endfor %}
@@ -273,11 +277,13 @@
 
         <h2>🔩 Komponen</h2>
 
+{% if session.get("admin_logged_in") %}
         <p>
             <a href="/add-component/{{ machine['id'] }}" class="add-button">
                 ➕ Tambah Komponen
             </a>
         </p>
+{% endif %}
 
         {% if components %}
 
@@ -356,6 +362,7 @@
                 {% endif %}
 
                 <p>
+{% if session.get("admin_logged_in") %}
                     <a
                         href="/edit-component/{{ component['id'] }}"
                         class="add-button"
@@ -374,6 +381,7 @@
                         </button>
                     </form>
                 </p>
+{% endif %}
 
             </div>
 
@@ -634,10 +642,12 @@
         <h2>📝 Catatan Teknisi</h2>
 
         <p>
+{% if session.get("admin_logged_in") %}
             <a href="/add-technician-note/{{ machine['id'] }}" class="add-button">
                 ➕ Tambah Catatan Teknisi
             </a>
         </p>
+{% endif %}
 
         {% if technician_notes %}
 

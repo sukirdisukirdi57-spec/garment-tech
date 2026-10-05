@@ -1,11 +1,24 @@
 from juki_importer import ambil_spesifikasi_ddl8700
-from flask import Flask, render_template, request, redirect, send_file
+from flask import Flask, render_template, request, redirect, send_file, session
 from werkzeug.utils import secure_filename
+from dotenv import load_dotenv
 import csv
 import os
 import sqlite3
 
 app = Flask(__name__)
+load_dotenv()
+app.secret_key = os.getenv("SECRET_KEY")
+
+from functools import wraps
+
+def admin_required(f):
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        if not session.get("admin_logged_in"):
+            return redirect("/admin/login")
+        return f(*args, **kwargs)
+    return decorated_function
 
 
 # Menyajikan file lokal yang berada di dalam folder assets.
@@ -22,6 +35,27 @@ def local_file(filename):
         return "File tidak ditemukan.", 404
 
     return send_file(requested_path)
+
+
+@app.route("/admin/login", methods=["GET", "POST"])
+def admin_login():
+    if request.method == "POST":
+        username = request.form.get("username", "")
+        password = request.form.get("password", "")
+
+        if username == os.getenv("ADMIN_USERNAME") and password == os.getenv("ADMIN_PASSWORD"):
+            session["admin_logged_in"] = True
+            return redirect("/")
+
+        return render_template("admin_login.html", error="Username atau password salah.")
+
+    return render_template("admin_login.html")
+
+
+@app.route("/admin/logout")
+def admin_logout():
+    session.pop("admin_logged_in", None)
+    return redirect("/")
 
 
 DATABASE = "database/garment.db"
@@ -147,6 +181,8 @@ def index():
     )
 
 
+@app.route("/add-machine", methods=["GET", "POST"])
+@admin_required
 def add_machine():
 
     conn = get_db()
@@ -277,6 +313,7 @@ def troubleshooting():
 
 
 @app.route("/add-troubleshooting", methods=["GET", "POST"])
+@admin_required
 def add_troubleshooting():
 
     conn = get_db()
@@ -343,6 +380,7 @@ def add_troubleshooting():
 
 
 @app.route("/import-troubleshooting-csv", methods=["GET", "POST"])
+@admin_required
 def import_troubleshooting_csv():
 
     if request.method == "GET":
@@ -648,6 +686,7 @@ def machine_detail(machine_id):
     )
 
 @app.route("/add-specification/<int:machine_id>", methods=["GET", "POST"])
+@admin_required
 def add_specification(machine_id):
 
     conn = get_db()
@@ -699,6 +738,7 @@ def add_specification(machine_id):
     )
 
 @app.route("/delete-specification/<int:spec_id>", methods=["POST"])
+@admin_required
 def delete_specification(spec_id):
 
     conn = get_db()
@@ -733,6 +773,7 @@ def delete_specification(spec_id):
 
 
 @app.route("/edit-specification/<int:spec_id>", methods=["GET", "POST"])
+@admin_required
 def edit_specification(spec_id):
 
     conn = get_db()
@@ -853,6 +894,7 @@ def component_detail(component_id):
 
 
 @app.route("/add-component/<int:machine_id>", methods=["GET", "POST"])
+@admin_required
 def add_component(machine_id):
 
     conn = get_db()
@@ -959,6 +1001,7 @@ def add_component(machine_id):
 
 
 @app.route("/edit-component/<int:component_id>", methods=["GET", "POST"])
+@admin_required
 def edit_component(component_id):
 
     conn = get_db()
@@ -1029,6 +1072,7 @@ def edit_component(component_id):
 
 
 @app.route("/delete-component/<int:component_id>", methods=["POST"])
+@admin_required
 def delete_component(component_id):
 
     conn = get_db()
@@ -1063,6 +1107,7 @@ def delete_component(component_id):
 
 
 @app.route("/add-document/<int:machine_id>", methods=["GET", "POST"])
+@admin_required
 def add_document(machine_id):
 
     conn = get_db()
@@ -1129,6 +1174,7 @@ def add_document(machine_id):
 
 
 @app.route("/add-technician-note/<int:machine_id>", methods=["GET", "POST"])
+@admin_required
 def add_technician_note(machine_id):
 
     conn = get_db()
@@ -1195,6 +1241,7 @@ def add_technician_note(machine_id):
 
 
 @app.route("/import-juki/<int:machine_id>", methods=["POST"])
+@admin_required
 def import_juki(machine_id):
     conn = get_db()
 

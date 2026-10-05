@@ -18,7 +18,9 @@
 
     <section class="welcome">
         <h2>🔧 Database Teknisi</h2>
+{% if session.get("admin_logged_in") %}
         <p><a href="/add-machine" class="add-button">➕ Tambah Mesin</a></p>
+{% endif %}
         <p><a href="/components" class="add-button">🔩 Database Komponen</a></p>
         <p>
             Cari mesin berdasarkan merek, model, fungsi,
