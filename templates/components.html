@@ -94,11 +94,14 @@
             {% endif %}
 
             {% if component["source_url"] %}
-            <p>
-                <a href="{{ component["source_url"] }}" target="_blank" rel="noopener">
+            <div class="components-source-link">
+                <a href="{{ component["source_url"] }}"
+                   target="_blank"
+                   rel="noopener"
+                   class="components-card-button">
                     📄 Parts List Resmi JUKI
                 </a>
-            </p>
+            </div>
             {% endif %}
 
             {% if component["location"] %}
@@ -122,17 +125,17 @@
             </p>
             {% endif %}
 
-            <p>
+            <div class="components-card-navigation">
                 <a href="/component/{{ component['id'] }}"
-                   class="add-button">
+                   class="components-card-button">
                     🔍 Detail Component
                 </a>
 
                 <a href="/machine/{{ component['machine_id'] }}"
-                   class="back-button">
-                    🏭 Buka Mesin
+                   class="components-card-button">
+                    🏭 Buka Mesin {{ component["brand_name"] or "" }} {{ component["machine_model"] or "" }}
                 </a>
-            </p>
+            </div>
 
         </section>
 

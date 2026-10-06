@@ -920,3 +920,333 @@ section:last-of-type .card:hover {
         font-size: 0.88rem;
     }
 }
+
+/* ================================
+   COMPONENT DETAIL HERO
+   ================================ */
+
+.component-hero {
+    background: linear-gradient(145deg, #17202a, #273746);
+    color: white;
+    padding: 28px;
+    border-radius: 14px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.12);
+}
+
+.component-hero-label {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    opacity: 0.75;
+    margin-bottom: 10px;
+}
+
+.component-hero h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.component-machine {
+    margin-top: 8px;
+    font-size: 1rem;
+    color: #d5d8dc;
+}
+
+.component-image {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.component-image img {
+    max-width: 100%;
+    width: 420px;
+    height: auto;
+    border-radius: 10px;
+    background: white;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    .component-hero {
+        padding: 22px;
+    }
+
+    .component-hero h2 {
+        font-size: 1.25rem;
+    }
+
+    .component-machine {
+        font-size: 0.9rem;
+    }
+
+    .component-image img {
+        width: 100%;
+    }
+}
+
+/* Informasi Teknis Component */
+.component-info {
+    margin-bottom: 20px;
+}
+
+.component-info h2 {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.component-info-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+.component-info-item {
+    background: linear-gradient(145deg, #f5f7f8, #e9eef1);
+    border: 1px solid #d5dde1;
+    border-left: 4px solid #607d8b;
+    border-radius: 10px;
+    padding: 14px;
+}
+
+.component-info-item strong {
+    display: block;
+    margin-bottom: 6px;
+    color: #455a64;
+    font-size: 0.85rem;
+}
+
+.component-info-item span {
+    color: #263238;
+    line-height: 1.45;
+}
+
+.component-info-item.full-width {
+    grid-column: 1 / -1;
+}
+
+@media (max-width: 600px) {
+    .component-info-grid {
+        grid-template-columns: 1fr;
+        gap: 9px;
+    }
+
+    .component-info-item {
+        padding: 13px;
+    }
+
+    .component-info-item.full-width {
+        grid-column: auto;
+    }
+}
+
+/* Sub-parts Component */
+.component-subparts {
+    margin-bottom: 20px;
+}
+
+.component-subparts > p {
+    color: #52636b;
+}
+
+.component-subparts .table-wrapper {
+    overflow-x: auto;
+    border: 1px solid #d5dfe3;
+    border-radius: 12px;
+    background: #f8fafb;
+}
+
+.component-subparts table {
+    width: 100%;
+    min-width: 720px;
+    border-collapse: collapse;
+}
+
+.component-subparts th {
+    background: #37474f;
+    color: white;
+    padding: 11px 10px;
+    text-align: left;
+    font-size: 0.85rem;
+    white-space: nowrap;
+}
+
+.component-subparts td {
+    padding: 10px;
+    border-bottom: 1px solid #e1e7ea;
+    color: #455a64;
+    font-size: 0.88rem;
+    vertical-align: middle;
+}
+
+.component-subparts tbody tr:nth-child(even) {
+    background: #f1f5f7;
+}
+
+.component-subparts tbody tr:hover {
+    background: #e5edf1;
+}
+
+.component-subparts td a {
+    color: #1f618d;
+    text-decoration: none;
+}
+
+.component-subparts td a:hover {
+    text-decoration: underline;
+}
+
+.component-subparts td strong {
+    color: #1f4e6b;
+}
+
+@media (max-width: 600px) {
+    .component-subparts table {
+        min-width: 680px;
+    }
+
+    .component-subparts th,
+    .component-subparts td {
+        padding: 9px 8px;
+        font-size: 0.82rem;
+    }
+}
+
+/* Navigasi Detail Component */
+.component-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 24px;
+    padding: 14px;
+    background: #eef4f8;
+    border: 1px solid #d5e3ec;
+    border-radius: 12px;
+}
+
+.component-nav-button,
+.component-navigation .back-button {
+    display: inline-block;
+    padding: 9px 13px;
+    background: white;
+    color: #273746;
+    border: 1px solid #d5dfe6;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 0.88rem;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.component-nav-button:hover,
+.component-navigation .back-button:hover {
+    background: #dcebf4;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+    .component-navigation {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+
+    .component-nav-button,
+    .component-navigation .back-button {
+        text-align: center;
+        padding: 10px;
+        font-size: 0.85rem;
+    }
+}
+
+/* ================================
+   COMPONENT MIDDLE NAVIGATION
+   ================================ */
+
+.component-middle-navigation {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin: 0 0 20px;
+}
+
+.component-middle-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 52px;
+    padding: 12px 16px;
+    box-sizing: border-box;
+    background: linear-gradient(145deg, #eef4f8, #dfeaf1);
+    color: #273746;
+    border: 1px solid #cbd9e2;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.component-middle-button:hover {
+    background: #d5e6f0;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+    .component-middle-navigation {
+        grid-template-columns: 1fr;
+        gap: 9px;
+    }
+
+    .component-middle-button {
+        min-height: 48px;
+        padding: 10px 12px;
+        font-size: 0.85rem;
+    }
+}
+
+/* ================================
+   COMPONENT LIST CARD NAVIGATION
+   ================================ */
+
+.components-card-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+    margin-top: 16px;
+    padding-top: 14px;
+    border-top: 1px solid #dfe6e9;
+}
+
+.components-card-button {
+    display: inline-block;
+    padding: 9px 13px;
+    background: #eef4f8;
+    color: #273746;
+    border: 1px solid #cbd9e2;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.components-card-button:hover {
+    background: #d5e6f0;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+    .components-card-navigation {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .components-card-button {
+        text-align: center;
+    }
+}
+
+.components-source-link {
+    margin-top: 12px;
+}

@@ -19,25 +19,26 @@
 
 <main>
 
-    <section class="welcome">
+    <section class="component-hero">
+
+        <div class="component-hero-label">🔩 DETAIL COMPONENT</div>
 
         <h2>{{ component["component_name"] }}</h2>
 
+        <div class="component-machine">
+            🏭 {{ component["brand_name"] or "Merek belum ada" }}
+            {{ component["machine_model"] or "Model belum ada" }}
+        </div>
+
         {% if component["image_path"] %}
-        <p>
+        <div class="component-image">
             <img
                 src="{{ url_for('static', filename=component['image_path']) }}"
                 alt="{{ component['component_name'] }}"
-                style="max-width: 100%; width: 420px; height: auto; border-radius: 10px;"
             >
-        </p>
+        </div>
         {% endif %}
 
-        <p>
-            <strong>🏭 Mesin:</strong>
-            {{ component["brand_name"] or "" }}
-            {{ component["machine_model"] or "" }}
-        </p>
 
         {% if component["part_number"] %}
         <p>
@@ -84,112 +85,86 @@
     </section>
 
 
-    <section class="welcome">
+    <div class="component-middle-navigation">
+        <a href="/machine/{{ component['machine_id'] }}"
+           class="component-middle-button">
+            🏭 Buka Mesin {{ component["brand_name"] or "" }} {{ component["machine_model"] or "" }}
+        </a>
 
-        <h2>🔩 Sub-parts Terverifikasi</h2>
+        <a href="/machine/{{ component['machine_id'] }}#parts-list"
+           class="component-middle-button">
+            📦 Parts List {{ component["brand_name"] or "" }} {{ component["machine_model"] or "" }}
+        </a>
+    </div>
 
-        {% if sub_parts %}
 
-        <p>
-            <strong>Jumlah sub-part terverifikasi:</strong>
-            {{ sub_parts|length }}
-        </p>
+    <section class="component-info">
 
-        <div style="overflow-x: auto;">
+        <h2>📋 Informasi Teknis</h2>
 
-            <table style="width: 100%; border-collapse: collapse;">
+        <div class="component-info-grid">
 
-                <thead>
-                    <tr>
-                        <th>No</th>
-                        <th>Nomor Part</th>
-                        <th>Nama Part</th>
-                        <th>Qty</th>
-                        <th>Ref.</th>
-                        <th>Page</th>
-                        <th>Relasi</th>
-                    </tr>
-                </thead>
+            {% if component["part_number"] %}
+            <div class="component-info-item">
+                <strong>🔢 Nomor Part</strong>
+                <span>{{ component["part_number"] }}</span>
+            </div>
+            {% endif %}
 
-                <tbody>
+            {% if component["catalog_ref"] %}
+            <div class="component-info-item">
+                <strong>📖 Ref. Katalog</strong>
+                <span>{{ component["catalog_ref"] }}</span>
+            </div>
+            {% endif %}
 
-                    {% for part in sub_parts %}
+            {% if component["diagram_page"] %}
+            <div class="component-info-item">
+                <strong>📄 Halaman Diagram</strong>
+                <span>{{ component["diagram_page"] }}</span>
+            </div>
+            {% endif %}
 
-                    <tr>
+            {% if component["location"] %}
+            <div class="component-info-item">
+                <strong>📍 Lokasi</strong>
+                <span>{{ component["location"] }}</span>
+            </div>
+            {% endif %}
 
-                        <td>{{ loop.index }}</td>
+            {% if component["function"] %}
+            <div class="component-info-item full-width">
+                <strong>⚙️ Fungsi</strong>
+                <span>{{ component["function"] }}</span>
+            </div>
+            {% endif %}
 
-                        <td>
-                            <a href="/part/{{ part['id'] }}">
-                                <strong>{{ part["part_number"] }}</strong>
-                            </a>
-                        </td>
-
-                        <td>
-                            <a href="/part/{{ part['id'] }}">
-                                {{ part["part_name"] }}
-                            </a>
-                        </td>
-
-                        <td>
-                            {{ part["quantity"] }}
-                        </td>
-
-                        <td>
-                            {{ part["catalog_ref"] }}
-                        </td>
-
-                        <td>
-                            {{ part["diagram_page"] }}
-                        </td>
-
-                        <td>
-                            {{ part["relation_type"] or "Sub-part" }}
-                        </td>
-
-                    </tr>
-
-                    {% endfor %}
-
-                </tbody>
-
-            </table>
+            {% if component["notes"] %}
+            <div class="component-info-item full-width">
+                <strong>📝 Catatan</strong>
+                <span>{{ component["notes"] }}</span>
+            </div>
+            {% endif %}
 
         </div>
-
-        {% else %}
-
-        <p>
-            ℹ️ <strong>Sub-parts terverifikasi:</strong>
-            Tidak tersedia.
-        </p>
-
-        <p>
-            Daftar Parts List lengkap tetap tersedia pada halaman mesin.
-            Tidak adanya relasi di sini tidak berarti component tidak memiliki
-            bagian penyusun; hanya belum ada hubungan sub-part yang
-            terverifikasi dari sumber.
-        </p>
-
-        {% endif %}
 
     </section>
 
 
-    <section class="welcome">
+    <section class="component-navigation">
 
         <a href="/machine/{{ component['machine_id'] }}"
            class="component-nav-button">
-            🏭 Kembali ke Mesin
+            🏭 Buka Mesin {{ component["brand_name"] or "" }} {{ component["machine_model"] or "" }}
         </a>
 
         <a href="/machine/{{ component['machine_id'] }}#parts-list"
            class="component-nav-button">
-            📦 Parts List Mesin
+            📦 Parts List {{ component["brand_name"] or "" }} {{ component["machine_model"] or "" }}
         </a>
 
         <a href="/components"
-           class="back-button">
+           class="component-nav-button">
             🔩 Semua Component
         </a>
 
