@@ -120,11 +120,15 @@
                         <td>{{ loop.index }}</td>
 
                         <td>
-                            <strong>{{ part["part_number"] }}</strong>
+                            <a href="/part/{{ part['id'] }}">
+                                <strong>{{ part["part_number"] }}</strong>
+                            </a>
                         </td>
 
                         <td>
-                            {{ part["part_name"] }}
+                            <a href="/part/{{ part['id'] }}">
+                                {{ part["part_name"] }}
+                            </a>
                         </td>
 
                         <td>

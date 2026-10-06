@@ -898,6 +898,58 @@ def component_detail(component_id):
     )
 
 
+@app.route("/part/<int:part_id>")
+def part_detail(part_id):
+
+    conn = get_db()
+
+    part = conn.execute(
+        """
+        SELECT
+            parts.*,
+            machines.model AS machine_model,
+            brands.name AS brand_name
+        FROM parts
+        LEFT JOIN machines
+            ON parts.machine_id = machines.id
+        LEFT JOIN brands
+            ON machines.brand_id = brands.id
+        WHERE parts.id = ?
+        """,
+        (part_id,)
+    ).fetchone()
+
+    if part is None:
+        conn.close()
+        return "Part tidak ditemukan", 404
+
+    components = conn.execute(
+        """
+        SELECT
+            components.id,
+            components.component_name,
+            components.part_number,
+            components.location,
+            component_parts.relation_type,
+            component_parts.notes AS relation_notes
+        FROM component_parts
+        INNER JOIN components
+            ON component_parts.component_id = components.id
+        WHERE component_parts.part_id = ?
+        ORDER BY components.id
+        """,
+        (part_id,)
+    ).fetchall()
+
+    conn.close()
+
+    return render_template(
+        "part_detail.html",
+        part=part,
+        components=components
+    )
+
+
 @app.route("/add-component/<int:machine_id>", methods=["GET", "POST"])
 @admin_required
 def add_component(machine_id):

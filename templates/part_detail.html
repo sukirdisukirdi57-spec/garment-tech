@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{ part["part_name"] }} - Detail Part</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<header>
+    <h1>📦 DETAIL PART</h1>
+    <p>Garment Machine Tech Database</p>
+</header>
+
+<main>
+
+    <section class="welcome">
+
+        <h2>{{ part["part_name"] }}</h2>
+
+        <p>
+            <strong>🏭 Mesin:</strong>
+            {{ part["brand_name"] or "" }}
+            {{ part["machine_model"] or "" }}
+        </p>
+
+        <p>
+            <strong>🔢 Nomor Part:</strong>
+            {{ part["part_number"] }}
+        </p>
+
+        {% if part["quantity"] %}
+        <p>
+            <strong>🔢 Quantity:</strong>
+            {{ part["quantity"] }}
+        </p>
+        {% endif %}
+
+        {% if part["catalog_ref"] %}
+        <p>
+            <strong>📖 Ref. Katalog:</strong>
+            {{ part["catalog_ref"] }}
+        </p>
+        {% endif %}
+
+        {% if part["diagram_page"] %}
+        <p>
+            <strong>📄 Halaman Diagram:</strong>
+            {{ part["diagram_page"] }}
+        </p>
+        {% endif %}
+
+        {% if part["note"] or part["notes"] %}
+        <p>
+            <strong>📝 Catatan:</strong><br>
+            {{ part["note"] or part["notes"] }}
+        </p>
+        {% endif %}
+
+    </section>
+
+
+    <section class="welcome">
+
+        <h2>🔩 Component yang Menggunakan Part Ini</h2>
+
+        {% if components %}
+
+        <p>
+            <strong>Jumlah component:</strong>
+            {{ components|length }}
+        </p>
+
+        <div style="overflow-x: auto;">
+
+            <table style="width: 100%; border-collapse: collapse;">
+
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Component</th>
+                        <th>Nomor Part Component</th>
+                        <th>Lokasi</th>
+                        <th>Relasi</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    {% for component in components %}
+
+                    <tr>
+
+                        <td>{{ loop.index }}</td>
+
+                        <td>
+                            <a href="/component/{{ component['id'] }}">
+                                <strong>{{ component["component_name"] }}</strong>
+                            </a>
+                        </td>
+
+                        <td>
+                            {{ component["part_number"] or "-" }}
+                        </td>
+
+                        <td>
+                            {{ component["location"] or "-" }}
+                        </td>
+
+                        <td>
+                            {{ component["relation_type"] or "Terkait" }}
+                        </td>
+
+                    </tr>
+
+                    {% endfor %}
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+        {% else %}
+
+        <p>
+            ℹ️ Belum ada component yang terhubung
+            dengan part ini.
+        </p>
+
+        {% endif %}
+
+    </section>
+
+
+    <section class="welcome">
+
+        <a href="/machine/{{ part['machine_id'] }}#parts-list"
+           class="component-nav-button">
+            📦 Parts List Mesin
+        </a>
+
+        <a href="/machine/{{ part['machine_id'] }}"
+           class="component-nav-button">
+            🏭 Kembali ke Mesin
+        </a>
+
+        <a href="/components"
+           class="back-button">
+            🔩 Semua Component
+        </a>
+
+    </section>
+
+</main>
+
+</body>
+</html>
