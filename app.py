@@ -81,6 +81,14 @@ def index():
         "SELECT * FROM machine_types ORDER BY name"
     ).fetchall()
 
+    statistics = {
+        "brands": conn.execute("SELECT COUNT(*) FROM brands").fetchone()[0],
+        "machines": conn.execute("SELECT COUNT(*) FROM machines").fetchone()[0],
+        "documents": conn.execute("SELECT COUNT(*) FROM documents").fetchone()[0],
+        "components": conn.execute("SELECT COUNT(*) FROM components").fetchone()[0],
+        "parts": conn.execute("SELECT COUNT(*) FROM parts").fetchone()[0]
+    }
+
 
     if search:
         words = search.split()
@@ -182,7 +190,8 @@ def index():
         brands=brands,
         machine_types=machine_types,
         machines=machines,
-        search=search
+        search=search,
+        statistics=statistics
     )
 
 

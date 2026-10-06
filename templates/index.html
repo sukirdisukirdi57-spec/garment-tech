@@ -39,6 +39,42 @@
     </section>
 
 
+    <section class="database-overview">
+
+        <h2>📊 Database Overview</h2>
+
+        <div class="stats-grid">
+
+            <div class="stat-card">
+                <strong>{{ statistics["brands"] }}</strong>
+                <span>🏷️ Merek</span>
+            </div>
+
+            <div class="stat-card">
+                <strong>{{ statistics["machines"] }}</strong>
+                <span>🏭 Mesin</span>
+            </div>
+
+            <div class="stat-card">
+                <strong>{{ statistics["documents"] }}</strong>
+                <span>📄 Dokumen</span>
+            </div>
+
+            <div class="stat-card">
+                <strong>{{ statistics["components"] }}</strong>
+                <span>🔩 Komponen</span>
+            </div>
+
+            <div class="stat-card">
+                <strong>{{ statistics["parts"] }}</strong>
+                <span>⚙️ Parts</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
     {% if search %}
     <section>
         <h2>🔎 Hasil pencarian: "{{ search }}"</h2>
