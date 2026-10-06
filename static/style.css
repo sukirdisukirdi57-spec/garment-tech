@@ -497,3 +497,426 @@ section:last-of-type .card:hover {
         line-height: 1.4;
     }
 }
+
+/* ================================
+   MACHINE DETAIL HERO
+   ================================ */
+
+.machine-hero {
+    background: linear-gradient(145deg, #17202a, #273746);
+    color: white;
+    padding: 28px;
+    border-radius: 14px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.12);
+}
+
+.machine-hero-label {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    opacity: 0.75;
+    margin-bottom: 10px;
+}
+
+.machine-hero h2 {
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.machine-model {
+    margin-top: 5px;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.machine-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 18px;
+}
+
+.machine-meta span {
+    padding: 7px 11px;
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 20px;
+    font-size: 0.85rem;
+}
+
+.machine-description {
+    margin-top: 20px;
+    padding-top: 18px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.machine-description p {
+    margin: 7px 0 0;
+    line-height: 1.6;
+    color: #d5d8dc;
+}
+
+@media (max-width: 600px) {
+    .machine-hero {
+        padding: 22px;
+    }
+
+    .machine-hero h2 {
+        font-size: 1.2rem;
+    }
+
+    .machine-model {
+        font-size: 1.65rem;
+    }
+
+    .machine-meta {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+/* ================================
+   MACHINE DETAIL NAVIGATION
+   ================================ */
+
+.detail-nav {
+    background: #eef4f8;
+    border: 1px solid #d5e3ec;
+    padding: 12px;
+    border-radius: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.detail-nav a {
+    display: inline-block;
+    padding: 9px 12px;
+    background: white;
+    color: #273746;
+    border: 1px solid #d5dfe6;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 0.88rem;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.detail-nav a:hover {
+    background: #dcebf4;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+    .detail-nav {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 7px;
+    }
+
+    .detail-nav a {
+        text-align: center;
+        padding: 9px 6px;
+        font-size: 0.8rem;
+    }
+}
+
+/* Dokumen & Referensi */
+#documents .machine-card {
+    background: linear-gradient(145deg, #f8fafb, #edf3f6);
+    border: 1px solid #dce5ea;
+    border-left: 5px solid #2874a6;
+    border-radius: 12px;
+    padding: 18px;
+    margin-bottom: 14px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.06);
+}
+
+#documents .machine-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #1f4e6b;
+    font-size: 1.05rem;
+}
+
+#documents .machine-card p {
+    margin: 7px 0;
+    line-height: 1.5;
+    color: #526b78;
+}
+
+#documents .machine-card .add-button {
+    display: inline-block;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+#documents .machine-card .add-button:hover {
+    transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+    #documents .machine-card {
+        padding: 15px;
+    }
+
+    #documents .machine-card h3 {
+        font-size: 0.98rem;
+    }
+
+    #documents .machine-card p {
+        font-size: 0.88rem;
+    }
+}
+
+
+/* Troubleshooting */
+#troubleshooting .machine-card {
+    background: linear-gradient(145deg, #f1f4f5, #e7ecef);
+    border: 1px solid #d5dde1;
+    border-left: 5px solid #7b8790;
+    border-radius: 12px;
+    padding: 18px;
+    margin-bottom: 14px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.06);
+}
+
+#troubleshooting .machine-card h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #37474f;
+    font-size: 1.05rem;
+}
+
+#troubleshooting .machine-card p {
+    margin: 8px 0;
+    line-height: 1.55;
+    color: #52636b;
+}
+
+#troubleshooting .machine-card strong {
+    color: #455a64;
+}
+
+@media (max-width: 600px) {
+    #troubleshooting .machine-card {
+        padding: 15px;
+    }
+
+    #troubleshooting .machine-card h3 {
+        font-size: 0.98rem;
+    }
+
+    #troubleshooting .machine-card p {
+        font-size: 0.88rem;
+    }
+}
+
+
+/* Spesifikasi */
+#specifications {
+    margin-top: 24px;
+}
+
+#specifications .machine-card {
+    background: linear-gradient(145deg, #f5f7f8, #e9eef1);
+    border: 1px solid #d5dde1;
+    border-left: 5px solid #607d8b;
+    border-radius: 12px;
+    padding: 18px;
+    margin-bottom: 12px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+#specifications .machine-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #37474f;
+    font-size: 1rem;
+}
+
+#specifications .machine-card p {
+    margin: 6px 0;
+    line-height: 1.5;
+    color: #52636b;
+}
+
+#specifications .machine-card strong {
+    color: #455a64;
+}
+
+@media (max-width: 600px) {
+    #specifications .machine-card {
+        padding: 15px;
+    }
+
+    #specifications .machine-card h3 {
+        font-size: 0.95rem;
+    }
+
+    #specifications .machine-card p {
+        font-size: 0.88rem;
+    }
+}
+
+
+/* Komponen */
+#components {
+    margin-top: 24px;
+}
+
+#components .machine-card {
+    background: linear-gradient(145deg, #eef5f8, #e1ebef);
+    border: 1px solid #d1dfe5;
+    border-left: 5px solid #2874a6;
+    border-radius: 12px;
+    padding: 18px;
+    margin-bottom: 14px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+#components .machine-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #1f4e6b;
+    font-size: 1.05rem;
+}
+
+#components .machine-card p {
+    margin: 7px 0;
+    line-height: 1.5;
+    color: #526b78;
+}
+
+#components .machine-card a {
+    color: #1f618d;
+    font-weight: 600;
+}
+
+#components .machine-card a:hover {
+    text-decoration: underline;
+}
+
+#components .machine-card strong {
+    color: #455a64;
+}
+
+@media (max-width: 600px) {
+    #components .machine-card {
+        padding: 15px;
+    }
+
+    #components .machine-card h3 {
+        font-size: 0.98rem;
+    }
+
+    #components .machine-card p {
+        font-size: 0.88rem;
+    }
+}
+
+
+/* Parts List */
+#parts-list {
+    margin-top: 24px;
+    margin-bottom: 28px;
+}
+
+#parts-list .machine-card {
+    background: linear-gradient(145deg, #f6f8f9, #eaf0f2);
+    border: 1px solid #d5dfe3;
+    border-left: 5px solid #546e7a;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+#parts-list .machine-card h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #37474f;
+    font-size: 1rem;
+}
+
+#parts-list .machine-card p {
+    margin: 5px 0;
+    line-height: 1.45;
+    color: #52636b;
+}
+
+#parts-list .machine-card a {
+    color: #1f618d;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#parts-list .machine-card a:hover {
+    text-decoration: underline;
+}
+
+#parts-list .machine-card strong {
+    color: #455a64;
+}
+
+@media (max-width: 600px) {
+    #parts-list .machine-card {
+        padding: 14px;
+    }
+
+    #parts-list .machine-card h3 {
+        font-size: 0.94rem;
+    }
+
+    #parts-list .machine-card p {
+        font-size: 0.86rem;
+    }
+}
+
+
+/* Catatan Teknisi */
+#technician-notes {
+    margin-top: 24px;
+    margin-bottom: 28px;
+}
+
+#technician-notes .machine-card {
+    background: linear-gradient(145deg, #f4f6f7, #e8edef);
+    border: 1px solid #d3dde1;
+    border-left: 5px solid #78909c;
+    border-radius: 12px;
+    padding: 18px;
+    margin-bottom: 14px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+#technician-notes .machine-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #37474f;
+    font-size: 1.05rem;
+}
+
+#technician-notes .machine-card p {
+    margin: 7px 0;
+    line-height: 1.6;
+    color: #52636b;
+}
+
+#technician-notes .machine-card strong {
+    color: #455a64;
+}
+
+@media (max-width: 600px) {
+    #technician-notes .machine-card {
+        padding: 15px;
+    }
+
+    #technician-notes .machine-card h3 {
+        font-size: 0.98rem;
+    }
+
+    #technician-notes .machine-card p {
+        font-size: 0.88rem;
+    }
+}

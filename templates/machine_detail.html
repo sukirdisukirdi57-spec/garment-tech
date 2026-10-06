@@ -22,27 +22,36 @@
 
 <main>
 
-    <section class="welcome">
+    <section class="machine-hero">
+
+        <div class="machine-hero-label">
+            🔎 DETAIL MESIN
+        </div>
 
         <h2>
             {{ machine["brand_name"] or "Merek belum ada" }}
-            — {{ machine["model"] }}
         </h2>
 
-        <p>
-            <strong>Jenis Mesin:</strong>
-            {{ machine["type_name"] or "Belum ditentukan" }}
-        </p>
+        <div class="machine-model">
+            {{ machine["model"] }}
+        </div>
 
-        <p>
-            <strong>Fungsi:</strong>
-            {{ machine["function"] or "Belum ada data" }}
-        </p>
+        <div class="machine-meta">
+            <span>
+                ⚙️ {{ machine["type_name"] or "Jenis belum ditentukan" }}
+            </span>
 
-        <p>
-            <strong>Deskripsi:</strong><br>
-            {{ machine["description"] or "Belum ada deskripsi" }}
-        </p>
+            <span>
+                🔧 {{ machine["function"] or "Fungsi belum ada" }}
+            </span>
+        </div>
+
+        <div class="machine-description">
+            <strong>Deskripsi Mesin</strong>
+            <p>
+                {{ machine["description"] or "Belum ada deskripsi" }}
+            </p>
+        </div>
 
     </section>
 
