@@ -103,6 +103,10 @@
                     <div class="brand-logo">
                         <img src="{{ url_for('static', filename='images/brands/yamato.svg') }}" alt="YAMATO">
                     </div>
+                {% elif brand["name"]|upper == "PEGASUS" %}
+                    <div class="brand-logo">
+                        <img src="{{ url_for('static', filename='images/brands/pegasus.svg') }}" alt="PEGASUS">
+                    </div>
                 {% else %}
                     <h3>{{ brand["name"] }}</h3>
                 {% endif %}
