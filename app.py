@@ -1,5 +1,5 @@
 from juki_importer import ambil_spesifikasi_ddl8700
-from flask import Flask, render_template, request, redirect, send_file, session
+from flask import Response, Flask, render_template, request, redirect, send_file, session
 from werkzeug.utils import secure_filename
 from dotenv import load_dotenv
 import csv
@@ -1385,6 +1385,50 @@ def type_machines(type_id):
         machines=machines
     )
 
+
+
+@app.route("/sitemap.xml")
+def sitemap():
+    conn = sqlite3.connect(DATABASE)
+    conn.row_factory = sqlite3.Row
+    cur = conn.cursor()
+
+    urls = []
+
+    # Halaman utama
+    urls.append("/")
+
+    # Halaman utama lainnya
+    urls.append("/troubleshooting")
+    urls.append("/components")
+
+    # Semua halaman mesin dari database
+    cur.execute("SELECT id FROM machines ORDER BY id")
+    machines = cur.fetchall()
+
+    for machine in machines:
+        urls.append(f"/machine/{machine['id']}")
+
+    conn.close()
+
+    base_url = "https://bangirdigarmenttech.pythonanywhere.com"
+
+    xml = ['<?xml version="1.0" encoding="UTF-8"?>']
+    xml.append(
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+    )
+
+    for path in urls:
+        xml.append("  <url>")
+        xml.append(f"    <loc>{base_url}{path}</loc>")
+        xml.append("  </url>")
+
+    xml.append("</urlset>")
+
+    return Response(
+        "\n".join(xml),
+        mimetype="application/xml"
+    )
 
 if __name__ == "__main__":
     app.run(
