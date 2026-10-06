@@ -135,3 +135,52 @@ footer {
     padding: 5px 8px;
     font-size: 0.85rem;
 }
+
+.detail-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 16px 0 20px;
+    padding: 12px;
+    background: #f3f4f6;
+    border-radius: 8px;
+}
+
+.detail-nav a {
+    display: inline-block;
+    padding: 8px 12px;
+    background: #ffffff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.detail-nav a:hover {
+    text-decoration: underline;
+}
+
+
+.machine-detail-back {
+    margin-bottom: 20px;
+}
+
+#parts-list {
+    margin-top: 24px;
+}
+
+
+#parts-list {
+    margin-bottom: 28px;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 8px;
+}
+
+
+.component-nav-button {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}

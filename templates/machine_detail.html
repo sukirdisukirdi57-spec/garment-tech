@@ -46,6 +46,15 @@
 
     </section>
 
+    <nav class="detail-nav">
+        <a href="#documents">📚 Dokumen</a>
+        <a href="#troubleshooting">🔧 Troubleshooting</a>
+        <a href="#specifications">⚙️ Spesifikasi</a>
+        <a href="#components">🔩 Komponen</a>
+        <a href="#parts-list">📦 Parts</a>
+        <a href="#technician-notes">📝 Catatan Teknisi</a>
+    </nav>
+
     {% if session.get("admin_logged_in") and machine["brand_name"] == "JUKI" and machine["model"] == "DDL-8700" %}
     <section>
         <p>
@@ -66,7 +75,7 @@
     {% endif %}
 
 
-    <section>
+    <section id="documents">
 
         <h2>📚 Dokumen & Referensi</h2>
 
@@ -131,7 +140,7 @@
     </section>
 
 
-    <section>
+    <section id="troubleshooting">
 
         <h2>🔧 Troubleshooting Mesin</h2>
 
@@ -195,7 +204,7 @@
     </section>
 
 
-<section>
+<section id="specifications">
 
     <h2>⚙️ Spesifikasi</h2>
 
@@ -273,7 +282,7 @@
 </section>
 
 
-    <section>
+    <section id="components">
 
         <h2>🔩 Komponen</h2>
 
@@ -637,7 +646,7 @@
 
 
 
-    <section>
+    <section id="technician-notes">
 
         <h2>📝 Catatan Teknisi</h2>
 
