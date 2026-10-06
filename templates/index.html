@@ -91,7 +91,14 @@
         <div class="grid">
             {% for brand in brands %}
             <a href="{{ url_for('brand_machines', brand_id=brand['id']) }}" class="card">
-                <h3>{{ brand["name"] }}</h3>
+                {% if brand["name"]|upper == "JUKI" %}
+                    <div class="brand-logo">
+                        <img src="{{ url_for('static', filename='images/brands/juki.svg') }}" alt="JUKI">
+                    </div>
+                {% else %}
+                    <h3>{{ brand["name"] }}</h3>
+                {% endif %}
+
                 <p>{{ brand["country"] or "Data negara belum tersedia" }}</p>
             </a>
             {% endfor %}
