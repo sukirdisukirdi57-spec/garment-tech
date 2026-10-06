@@ -134,7 +134,12 @@ def index():
             SELECT DISTINCT
                 machines.*,
                 brands.name AS brand_name,
-                machine_types.name AS type_name
+                machine_types.name AS type_name,
+                (SELECT COUNT(*) FROM specifications WHERE machine_id = machines.id) AS specifications_count,
+                (SELECT COUNT(*) FROM components WHERE machine_id = machines.id) AS components_count,
+                (SELECT COUNT(*) FROM parts WHERE machine_id = machines.id) AS parts_count,
+                (SELECT COUNT(*) FROM troubleshooting WHERE machine_id = machines.id) AS troubleshooting_count,
+                (SELECT COUNT(*) FROM documents WHERE machine_id = machines.id) AS documents_count
             FROM machines
             LEFT JOIN brands
                 ON machines.brand_id = brands.id

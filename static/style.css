@@ -121,3 +121,17 @@ footer {
 .add-button:hover {
     opacity: 0.85;
 }
+
+.machine-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 12px 0 16px;
+}
+
+.machine-stats span {
+    background: #f3f4f6;
+    border-radius: 6px;
+    padding: 5px 8px;
+    font-size: 0.85rem;
+}

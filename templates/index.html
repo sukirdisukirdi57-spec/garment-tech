@@ -66,7 +66,17 @@
 
                     <p>
                         {{ machine["description"] or "Belum ada deskripsi" }}
-                    </p><p>
+                    </p>
+
+                    <div class="machine-stats">
+                        <span>📋 {{ machine["specifications_count"] }} Spesifikasi</span>
+                        <span>🔧 {{ machine["components_count"] }} Komponen</span>
+                        <span>⚙️ {{ machine["parts_count"] }} Parts</span>
+                        <span>⚠️ {{ machine["troubleshooting_count"] }} Troubleshooting</span>
+                        <span>📄 {{ machine["documents_count"] }} Dokumen</span>
+                    </div>
+
+                    <p>
     <a href="/machine/{{ machine['id'] }}" class="add-button">
         🔎 Detail Mesin
     </a>
