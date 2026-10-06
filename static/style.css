@@ -1294,3 +1294,238 @@ section:last-of-type .card:hover {
         text-align: center;
     }
 }
+
+/* ================================
+   PART DETAIL HERO
+   ================================ */
+
+.part-hero {
+    background: linear-gradient(145deg, #17202a, #273746);
+    color: white;
+    padding: 28px;
+    border-radius: 14px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.12);
+}
+
+.part-hero-label {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    opacity: 0.75;
+    margin-bottom: 10px;
+}
+
+.part-hero h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.part-machine {
+    margin-top: 8px;
+    font-size: 1rem;
+    color: #d5d8dc;
+}
+
+@media (max-width: 600px) {
+    .part-hero {
+        padding: 22px;
+    }
+
+    .part-hero h2 {
+        font-size: 1.25rem;
+    }
+
+    .part-machine {
+        font-size: 0.9rem;
+    }
+}
+
+/* ================================
+   PART DETAIL INFORMATION
+   ================================ */
+
+.part-info {
+    margin-bottom: 20px;
+}
+
+.part-info h2 {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.part-info-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+.part-info-item {
+    background: linear-gradient(145deg, #f5f7f8, #e9eef1);
+    border: 1px solid #d5dde1;
+    border-left: 4px solid #607d8b;
+    border-radius: 10px;
+    padding: 14px;
+}
+
+.part-info-item strong {
+    display: block;
+    margin-bottom: 6px;
+    color: #455a64;
+    font-size: 0.85rem;
+}
+
+.part-info-item span {
+    color: #263238;
+    line-height: 1.45;
+}
+
+.part-info-item.full-width {
+    grid-column: 1 / -1;
+}
+
+@media (max-width: 600px) {
+    .part-info-grid {
+        grid-template-columns: 1fr;
+        gap: 9px;
+    }
+
+    .part-info-item {
+        padding: 13px;
+    }
+
+    .part-info-item.full-width {
+        grid-column: auto;
+    }
+}
+
+/* ================================
+   PART DETAIL COMPONENTS
+   ================================ */
+
+.part-components {
+    margin-bottom: 20px;
+}
+
+.part-components h2 {
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.part-components-count {
+    color: #52636b;
+    margin-bottom: 12px;
+}
+
+.part-components-table-wrapper {
+    overflow-x: auto;
+    border: 1px solid #d5dfe3;
+    border-radius: 12px;
+    background: #f8fafb;
+}
+
+.part-components table {
+    width: 100%;
+    min-width: 720px;
+    border-collapse: collapse;
+}
+
+.part-components th {
+    background: #37474f;
+    color: white;
+    padding: 11px 10px;
+    text-align: left;
+    font-size: 0.85rem;
+    white-space: nowrap;
+}
+
+.part-components td {
+    padding: 10px;
+    border-bottom: 1px solid #e1e7ea;
+    color: #455a64;
+    font-size: 0.88rem;
+    vertical-align: middle;
+}
+
+.part-components tbody tr:nth-child(even) {
+    background: #f1f5f7;
+}
+
+.part-components tbody tr:hover {
+    background: #e5edf1;
+}
+
+.part-components td a {
+    color: #1f618d;
+    text-decoration: none;
+}
+
+.part-components td a:hover {
+    text-decoration: underline;
+}
+
+.part-components td strong {
+    color: #1f4e6b;
+}
+
+.part-components-empty {
+    color: #52636b;
+}
+
+@media (max-width: 600px) {
+    .part-components table {
+        min-width: 680px;
+    }
+
+    .part-components th,
+    .part-components td {
+        padding: 9px 8px;
+        font-size: 0.82rem;
+    }
+}
+
+/* ================================
+   PART DETAIL NAVIGATION
+   ================================ */
+
+.part-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 24px;
+    padding: 14px;
+    background: #eef4f8;
+    border: 1px solid #d5e3ec;
+    border-radius: 12px;
+}
+
+.part-nav-button {
+    display: inline-block;
+    padding: 9px 13px;
+    background: white;
+    color: #273746;
+    border: 1px solid #d5dfe6;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 0.88rem;
+    font-weight: 600;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.part-nav-button:hover {
+    background: #dcebf4;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+    .part-navigation {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+
+    .part-nav-button {
+        text-align: center;
+        padding: 10px;
+        font-size: 0.85rem;
+    }
+}

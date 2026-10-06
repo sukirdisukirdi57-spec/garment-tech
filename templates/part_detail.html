@@ -19,66 +19,78 @@
 
 <main>
 
-    <section class="welcome">
+    <section class="part-hero">
+
+        <div class="part-hero-label">📦 DETAIL PART</div>
 
         <h2>{{ part["part_name"] }}</h2>
 
-        <p>
-            <strong>🏭 Mesin:</strong>
-            {{ part["brand_name"] or "" }}
-            {{ part["machine_model"] or "" }}
-        </p>
-
-        <p>
-            <strong>🔢 Nomor Part:</strong>
-            {{ part["part_number"] }}
-        </p>
-
-        {% if part["quantity"] %}
-        <p>
-            <strong>🔢 Quantity:</strong>
-            {{ part["quantity"] }}
-        </p>
-        {% endif %}
-
-        {% if part["catalog_ref"] %}
-        <p>
-            <strong>📖 Ref. Katalog:</strong>
-            {{ part["catalog_ref"] }}
-        </p>
-        {% endif %}
-
-        {% if part["diagram_page"] %}
-        <p>
-            <strong>📄 Halaman Diagram:</strong>
-            {{ part["diagram_page"] }}
-        </p>
-        {% endif %}
-
-        {% if part["note"] or part["notes"] %}
-        <p>
-            <strong>📝 Catatan:</strong><br>
-            {{ part["note"] or part["notes"] }}
-        </p>
-        {% endif %}
+        <div class="part-machine">
+            🏭 {{ part["brand_name"] or "Merek belum ada" }}
+            {{ part["machine_model"] or "Model belum ada" }}
+        </div>
 
     </section>
 
 
-    <section class="welcome">
+    <section class="part-info">
+
+        <h2>📋 Informasi Part</h2>
+
+        <div class="part-info-grid">
+
+            <div class="part-info-item">
+                <strong>🔢 Nomor Part</strong>
+                <span>{{ part["part_number"] }}</span>
+            </div>
+
+            {% if part["quantity"] %}
+            <div class="part-info-item">
+                <strong>🔢 Quantity</strong>
+                <span>{{ part["quantity"] }}</span>
+            </div>
+            {% endif %}
+
+            {% if part["catalog_ref"] %}
+            <div class="part-info-item">
+                <strong>📖 Ref. Katalog</strong>
+                <span>{{ part["catalog_ref"] }}</span>
+            </div>
+            {% endif %}
+
+            {% if part["diagram_page"] %}
+            <div class="part-info-item">
+                <strong>📄 Halaman Diagram</strong>
+                <span>{{ part["diagram_page"] }}</span>
+            </div>
+            {% endif %}
+
+            {% if part["note"] or part["notes"] %}
+            <div class="part-info-item full-width">
+                <strong>📝 Catatan</strong>
+                <span>{{ part["note"] or part["notes"] }}</span>
+            </div>
+            {% endif %}
+
+        </div>
+
+    </section>
+
+
+    <section class="part-components">
 
         <h2>🔩 Component yang Menggunakan Part Ini</h2>
 
         {% if components %}
 
-        <p>
+        <p class="part-components-count">
             <strong>Jumlah component:</strong>
             {{ components|length }}
         </p>
 
-        <div style="overflow-x: auto;">
+        <div class="part-components-table-wrapper">
 
-            <table style="width: 100%; border-collapse: collapse;">
+            <table>
 
                 <thead>
                     <tr>
@@ -128,7 +140,7 @@
 
         {% else %}
 
-        <p>
+        <p class="part-components-empty">
             ℹ️ Belum ada component yang terhubung
             dengan part ini.
         </p>
@@ -138,20 +150,20 @@
     </section>
 
 
-    <section class="welcome">
+    <section class="part-navigation">
 
         <a href="/machine/{{ part['machine_id'] }}#parts-list"
-           class="component-nav-button">
+           class="part-nav-button">
             📦 Parts List Mesin
         </a>
 
         <a href="/machine/{{ part['machine_id'] }}"
-           class="component-nav-button">
+           class="part-nav-button">
             🏭 Kembali ke Mesin
         </a>
 
         <a href="/components"
-           class="back-button">
+           class="part-nav-button">
             🔩 Semua Component
         </a>
 
