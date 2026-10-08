@@ -93,53 +93,77 @@ def index():
     if search:
         words = search.split()
 
-        searchable_columns = [
-            "brands.name",
-            "machine_types.name",
-            "machines.model",
-            "machines.function",
-            "machines.description",
-            "machines.notes",
-            "troubleshooting.problem",
-            "troubleshooting.symptoms",
-            "troubleshooting.possible_cause",
-            "troubleshooting.solution",
-            "specifications.specification",
-            "specifications.value",
-            "specifications.notes",
-            "components.component_name",
-            "components.part_number",
-            "components.location",
-            "components.function",
-            "components.notes",
-            "technician_notes.problem",
-            "technician_notes.diagnosis",
-            "technician_notes.action_taken",
-            "technician_notes.result",
-            "technician_notes.technician"
-        ]
-
         conditions = []
         params = []
 
         for word in words:
-            word_conditions = []
-
-            for column in searchable_columns:
-                word_conditions.append(
-                    f"LOWER(COALESCE({column}, '')) LIKE LOWER(?)"
-                )
-                params.append(f"%{word}%")
+            pattern = f"%{word}%"
 
             conditions.append(
-                "(" + " OR ".join(word_conditions) + ")"
+                "("
+                "LOWER(COALESCE(brands.name, '')) LIKE LOWER(?) OR "
+                "LOWER(COALESCE(machine_types.name, '')) LIKE LOWER(?) OR "
+                "LOWER(COALESCE(machines.model, '')) LIKE LOWER(?) OR "
+                "LOWER(COALESCE(machines.function, '')) LIKE LOWER(?) OR "
+                "LOWER(COALESCE(machines.description, '')) LIKE LOWER(?) OR "
+                "LOWER(COALESCE(machines.notes, '')) LIKE LOWER(?) OR "
+
+                "EXISTS ("
+                "SELECT 1 FROM troubleshooting t "
+                "WHERE t.machine_id = machines.id AND ("
+                "LOWER(COALESCE(t.problem, '')) LIKE LOWER(?) OR "
+                "LOWER(COALESCE(t.symptoms, '')) LIKE LOWER(?) OR "
+                "LOWER(COALESCE(t.possible_cause, '')) LIKE LOWER(?) OR "
+                "LOWER(COALESCE(t.solution, '')) LIKE LOWER(?)"
+                ")) OR "
+
+                "EXISTS ("
+                "SELECT 1 FROM specifications sp "
+                "WHERE sp.machine_id = machines.id AND ("
+                "LOWER(COALESCE(sp.specification, '')) LIKE LOWER(?) OR "
+                "LOWER(COALESCE(sp.value, '')) LIKE LOWER(?) OR "
+                "LOWER(COALESCE(sp.notes, '')) LIKE LOWER(?)"
+                ")) OR "
+
+                "EXISTS ("
+                "SELECT 1 FROM components c "
+                "WHERE c.machine_id = machines.id AND ("
+                "LOWER(COALESCE(c.component_name, '')) LIKE LOWER(?) OR "
+                "LOWER(COALESCE(c.part_number, '')) LIKE LOWER(?) OR "
+                "LOWER(COALESCE(c.location, '')) LIKE LOWER(?) OR "
+                "LOWER(COALESCE(c.function, '')) LIKE LOWER(?) OR "
+                "LOWER(COALESCE(c.notes, '')) LIKE LOWER(?)"
+                ")) OR "
+
+                "EXISTS ("
+                "SELECT 1 FROM technician_notes tn "
+                "WHERE tn.machine_id = machines.id AND ("
+                "LOWER(COALESCE(tn.problem, '')) LIKE LOWER(?) OR "
+                "LOWER(COALESCE(tn.diagnosis, '')) LIKE LOWER(?) OR "
+                "LOWER(COALESCE(tn.action_taken, '')) LIKE LOWER(?) OR "
+                "LOWER(COALESCE(tn.result, '')) LIKE LOWER(?) OR "
+                "LOWER(COALESCE(tn.technician, '')) LIKE LOWER(?)"
+                ")) OR "
+
+                "EXISTS ("
+                "SELECT 1 FROM parts pt "
+                "WHERE pt.machine_id = machines.id AND ("
+                "LOWER(COALESCE(pt.part_number, '')) LIKE LOWER(?) OR "
+                "LOWER(COALESCE(pt.part_name, '')) LIKE LOWER(?) OR "
+                "LOWER(COALESCE(pt.note, '')) LIKE LOWER(?) OR "
+                "LOWER(COALESCE(pt.notes, '')) LIKE LOWER(?) OR "
+                "LOWER(COALESCE(pt.source_url, '')) LIKE LOWER(?)"
+                "))"
+                ")"
             )
+
+            params.extend([pattern] * 28)
 
         where_clause = " AND ".join(conditions)
 
         machines = conn.execute(
             f"""
-            SELECT DISTINCT
+            SELECT
                 machines.*,
                 brands.name AS brand_name,
                 machine_types.name AS type_name,
@@ -153,14 +177,6 @@ def index():
                 ON machines.brand_id = brands.id
             LEFT JOIN machine_types
                 ON machines.machine_type_id = machine_types.id
-            LEFT JOIN troubleshooting
-                ON troubleshooting.machine_id = machines.id
-            LEFT JOIN specifications
-                ON specifications.machine_id = machines.id
-            LEFT JOIN components
-                ON components.machine_id = machines.id
-            LEFT JOIN technician_notes
-                ON technician_notes.machine_id = machines.id
             WHERE {where_clause}
             ORDER BY brands.name, machines.model
             """,
@@ -279,6 +295,14 @@ def troubleshooting():
     """
 
     params = []
+
+    if machine_id:
+        try:
+            machine_id_int = int(machine_id)
+            query += " WHERE troubleshooting.machine_id = ?"
+            params.append(machine_id_int)
+        except ValueError:
+            machine_id = ""
 
     if search:
         words = search.split()
@@ -1342,19 +1366,21 @@ def import_juki(machine_id):
 
     inserted = 0
 
-    for specification, value in specs:
-
-        existing = conn.execute(
+    existing_specs = {
+        row["specification"]
+        for row in conn.execute(
             """
-            SELECT id
+            SELECT specification
             FROM specifications
             WHERE machine_id = ?
-              AND specification = ?
             """,
-            (machine_id, specification)
-        ).fetchone()
+            (machine_id,)
+        ).fetchall()
+    }
 
-        if existing:
+    for specification, value in specs:
+
+        if specification in existing_specs:
             continue
 
         conn.execute(
@@ -1376,6 +1402,7 @@ def import_juki(machine_id):
             )
         )
 
+        existing_specs.add(specification)
         inserted += 1
 
     conn.commit()
