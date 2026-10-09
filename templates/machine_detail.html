@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>
-        {{ machine["brand_name"] }} {{ machine["model"] }}
-        - Garment Machine Tech Database
-    </title>
+    <title>{{ machine["brand_name"] or "Mesin" }} {{ machine["model"] }} | Spesifikasi & Troubleshooting Mesin Garment</title>
+<meta name="description" content="{{ machine['brand_name'] or 'Mesin' }} {{ machine['model'] }}{% if machine['type_name'] %} - {{ machine['type_name'] }}{% endif %}. Informasi spesifikasi, fungsi, komponen, troubleshooting, dan dokumentasi mesin jahit industri.">
+<link rel="canonical" href="{{ request.url }}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ machine['brand_name'] or 'Mesin' }} {{ machine['model'] }} | Garment Machine Tech Database">
+<meta property="og:description" content="Informasi teknis {{ machine['brand_name'] or 'mesin' }} {{ machine['model'] }}{% if machine['function'] %}: {{ machine['function'] }}{% endif %}.">
+<meta property="og:url" content="{{ request.url }}">
+
 
     <link rel="stylesheet"
           href="{{ url_for('static', filename='style.css') }}">

@@ -1480,6 +1480,30 @@ def type_machines(type_id):
 
 
 
+@app.route("/robots.txt")
+def robots():
+    content = """User-agent: *
+Allow: /
+
+Disallow: /admin/
+Disallow: /add-machine
+Disallow: /add-troubleshooting
+Disallow: /import-troubleshooting-csv
+Disallow: /add-specification/
+Disallow: /delete-specification/
+Disallow: /edit-specification/
+Disallow: /add-component/
+Disallow: /edit-component/
+Disallow: /delete-component/
+Disallow: /add-document/
+Disallow: /add-technician-note/
+Disallow: /import-juki/
+
+Sitemap: https://bangirdigarmenttech.pythonanywhere.com/sitemap.xml
+"""
+    return Response(content, mimetype="text/plain")
+
+
 @app.route("/sitemap.xml")
 def sitemap():
     conn = sqlite3.connect(DATABASE)
