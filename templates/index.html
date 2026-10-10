@@ -22,27 +22,41 @@
 
 <main>
 
-    <section class="welcome">
-        <h2>🔧 Database Teknisi</h2>
-{% if session.get("admin_logged_in") %}
-        <p><a href="/add-machine" class="add-button">➕ Tambah Mesin</a></p>
-{% endif %}
-        <p><a href="/components" class="add-button">🔩 Database Komponen</a></p>
+    <section class="industrial-hero">
+    <div class="industrial-hero-content">
+        <span class="industrial-eyebrow">GARMENT MACHINE TECH DATABASE</span>
+        <h2>Pusat Referensi Teknis Mesin Garment</h2>
         <p>
-            Cari mesin berdasarkan merek, model, fungsi,
-            atau deskripsi mesin.
+            Temukan informasi mesin jahit industri, spesifikasi teknis,
+            komponen, suku cadang, dokumen, dan panduan troubleshooting
+            dalam satu database.
         </p>
 
-        <form method="GET" action="/">
+        <form method="GET" action="/" class="industrial-search">
             <input
                 type="text"
                 name="search"
                 value="{{ search }}"
-                placeholder="🔍 Cari merek atau model mesin..."
+                placeholder="Cari merek, model, komponen, atau masalah mesin..."
+                aria-label="Cari informasi mesin garment"
             >
-            <button type="submit">Cari</button>
+            <button type="submit">Cari Informasi</button>
         </form>
-    </section>
+
+        <div class="industrial-quick-links">
+            <a href="#brand-list">Daftar Merek</a>
+            <a href="#machine-type-list">Jenis Mesin</a>
+            <a href="/components">Komponen &amp; Spare Part</a>
+            <a href="/needle-catalog">🪡 Katalog Jarum</a>
+        </div>
+
+        {% if session.get("admin_logged_in") %}
+        <p class="industrial-admin-link">
+            <a href="/add-machine" class="add-button">Tambah Mesin</a>
+        </p>
+        {% endif %}
+    </div>
+</section>
 
 
     <section class="database-overview">
@@ -204,6 +218,46 @@
                 <p>{{ machine_type["description"] if machine_type["description"] and machine_type["description"]|string|lower != "none" else "Keterangan belum tersedia" }}</p>
             </a>
             {% endfor %}
+        </div>
+    </section>
+
+
+    <section id="about-garmenttech" class="about-garmenttech">
+        <div class="about-heading">
+            <span class="industrial-eyebrow">MENGENAL GARMENTTECH</span>
+            <h2>Referensi Teknis yang Saling Terhubung</h2>
+            <p>
+                GarmentTech membantu teknisi dan pengguna mesin garment
+                mencari informasi teknis dengan lebih terarah. Informasi
+                yang tersedia dapat berbeda untuk setiap merek dan model.
+            </p>
+        </div>
+
+        <div class="garmenttech-feature-grid">
+            <article class="garmenttech-feature">
+                <h3>Mesin dan Merek</h3>
+                <p>Telusuri mesin berdasarkan merek, model, dan jenis mesin.</p>
+            </article>
+            <article class="garmenttech-feature">
+                <h3>Komponen dan Spare Part</h3>
+                <p>Jelajahi data komponen serta hubungan komponen dengan mesin.</p>
+            </article>
+            <article class="garmenttech-feature">
+                <h3>Spesifikasi Teknis</h3>
+                <p>Periksa spesifikasi teknis yang tersedia untuk model mesin.</p>
+            </article>
+            <article class="garmenttech-feature">
+                <h3>Manual dan Katalog</h3>
+                <p>Temukan dokumen teknis dan katalog yang telah dimasukkan ke database.</p>
+            </article>
+            <article class="garmenttech-feature">
+                <h3>Troubleshooting</h3>
+                <p>Telusuri catatan masalah dan solusi yang tersedia.</p>
+            </article>
+            <article class="garmenttech-feature">
+                <h3>Pencarian Terpadu</h3>
+                <p>Mulai pencarian dari merek, model, fungsi, atau deskripsi mesin.</p>
+            </article>
         </div>
     </section>
 

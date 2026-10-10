@@ -10,7 +10,7 @@
           href="{{ url_for('static', filename='style.css') }}">
 </head>
 
-<body>
+<body class="components-page">
 
 <header>
     <h1>🔩 DATABASE KOMPONEN</h1>
@@ -49,7 +49,7 @@
 
         <p>
             <strong>📊 Jumlah hasil:</strong>
-            {{ components_data|length }} komponen
+            {{ total_count }} komponen
         </p>
 
     </section>
@@ -68,6 +68,8 @@
                 <img
                     src="{{ url_for('static', filename=component['image_path']) }}"
                     alt="{{ component['component_name'] }}"
+                    loading="lazy"
+                    decoding="async"
                     style="max-width: 100%; width: 320px; height: auto; border-radius: 10px; margin: 10px 0;"
                 >
             </p>
@@ -140,6 +142,20 @@
         </section>
 
         {% endfor %}
+
+    {% if total_pages > 1 %}
+    <nav id="components-pagination" style="display:flex;gap:12px;justify-content:center;align-items:center;flex-wrap:wrap;margin:24px 0;">
+        {% if page > 1 %}
+        <a class="btn" href="{{ url_for('components_list', search=search, page=page-1) }}">← Sebelumnya</a>
+        {% endif %}
+
+        <span>Halaman {{ page }} dari {{ total_pages }}</span>
+
+        {% if page < total_pages %}
+        <a class="btn" href="{{ url_for('components_list', search=search, page=page+1) }}">Berikutnya →</a>
+        {% endif %}
+    </nav>
+    {% endif %}
 
     {% else %}
 

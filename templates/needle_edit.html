@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Edit Data Jarum | GarmentTech</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="needle-catalog-page">
+<header>
+    <h1>Edit Data Jarum</h1>
+    <p>Garment Machine Tech Database</p>
+</header>
+<main class="needle-main">
+    <nav class="needle-nav">
+        <a href="/needle/{{ needle['id'] }}">← Kembali ke detail jarum</a>
+        <a href="/needle-catalog">Katalog Jarum</a>
+    </nav>
+    <section class="needle-panel">
+        <p>Isi berdasarkan referensi yang dapat diperiksa. Jangan mengubah status menjadi Terverifikasi tanpa bukti yang jelas.</p>
+        <form method="post" class="needle-form">
+            <label>Merek jarum
+                <input name="brand" maxlength="120" value="{{ needle['brand'] or '' }}">
+            </label>
+            <label>Sistem jarum
+                <input name="needle_system" maxlength="120" value="{{ needle['needle_system'] or '' }}">
+            </label>
+            <label>Ukuran NM (angka)
+                <input name="size_nm_value" type="number" min="1" max="500" step="any"
+                       value="{{ needle['size_nm_value'] if needle['size_nm_value'] is not none else '' }}">
+            </label>
+            <label>Nomor ukuran dari produsen
+                <input name="manufacturer_size" maxlength="80" value="{{ needle['manufacturer_size'] or '' }}">
+            </label>
+            <label>Ukuran asli dari data
+                <input name="size_nm" maxlength="120" value="{{ needle['size_nm'] or '' }}">
+            </label>
+            <label>Kode ujung
+                <input name="point_code" maxlength="80" value="{{ needle['point_code'] or '' }}">
+            </label>
+            <label>Deskripsi ujung
+                <input name="point_description" maxlength="200" value="{{ needle['point_description'] or '' }}">
+            </label>
+            <label>Bahan / aplikasi
+                <input name="material_application" maxlength="200" value="{{ needle['material_application'] or '' }}">
+            </label>
+            <label>Kode produk
+                <input name="product_code" maxlength="120" value="{{ needle['product_code'] or '' }}">
+            </label>
+            <label>Keterangan
+                <textarea name="description" rows="4" maxlength="2000">{{ needle['description'] or '' }}</textarea>
+            </label>
+            <label>URL sumber data jarum
+                <input type="url" name="source_url" maxlength="1000" value="{{ needle['source_url'] or '' }}">
+            </label>
+            <label>Status verifikasi
+                <select name="verification_status">
+                    <option value="Belum diverifikasi" {% if needle['verification_status'] != 'Terverifikasi' %}selected{% endif %}>Belum diverifikasi</option>
+                    <option value="Terverifikasi" {% if needle['verification_status'] == 'Terverifikasi' %}selected{% endif %}>Terverifikasi</option>
+                </select>
+            </label>
+            <label>Catatan bukti verifikasi
+                <textarea name="verification_notes" rows="4" maxlength="2000">{{ needle['verification_notes'] or '' }}</textarea>
+            </label>
+            <p class="needle-help">Jika memilih Terverifikasi, isi URL sumber dan catatan yang menjelaskan apa yang diperiksa, misalnya nomor halaman katalog atau spesifikasi yang cocok.</p>
+            <button type="submit">Simpan Perubahan</button>
+        </form>
+    </section>
+</main>
+</body>
+</html>

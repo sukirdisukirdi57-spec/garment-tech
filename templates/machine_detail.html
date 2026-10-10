@@ -57,6 +57,47 @@
             </p>
         </div>
 
+        {% if machine["notes"] %}
+        <div class="machine-description">
+            <strong>Catatan Mesin &amp; Referensi Varian</strong>
+            <p style="white-space: pre-wrap; overflow-wrap: anywhere;">{{ machine["notes"] }}</p>
+        </div>
+        {% endif %}
+
+    </section>
+
+    <section id="needle-compatibility">
+        <h2>🪡 Jarum dan Kecocokan Mesin</h2>
+        <div class="needle-compat-warning">
+            <strong>Perhatian: relasi bukan jaminan kecocokan.</strong>
+            <p>Periksa sistem jarum, varian pada pelat mesin, ukuran, bahan, titik jarum, dan manual resmi sebelum memilih jarum.</p>
+        </div>
+
+        {% if needle_compatibility_data %}
+            {% for item in needle_compatibility_data %}
+            <article class="machine-card">
+                <h3>{{ item["needle_brand"] or "Merek jarum belum diisi" }} — {{ item["needle_system"] or "Sistem belum diisi" }}</h3>
+                {% if item["manufacturer_size"] %}
+                <p><strong>Nomor produsen:</strong> {{ item["manufacturer_size"] }}</p>
+                {% endif %}
+                {% if item["size_nm_value"] is not none %}
+                <p><strong>Ukuran NM:</strong> {{ item["size_nm_value"]|int if item["size_nm_value"] == item["size_nm_value"]|int else item["size_nm_value"] }}</p>
+                {% elif item["size_nm"] %}
+                <p><strong>Ukuran:</strong> {{ item["size_nm"] }}</p>
+                {% endif %}
+                <p><strong>Status relasi:</strong> {{ item["compatibility_status"] or "Belum diverifikasi" }}</p>
+                {% if item["notes"] %}
+                <p><strong>Catatan:</strong> {{ item["notes"] }}</p>
+                {% endif %}
+                {% if item["source_url"] %}
+                <p><a href="{{ item["source_url"] }}" target="_blank" rel="noopener noreferrer">Buka referensi kompatibilitas</a></p>
+                {% endif %}
+                <p><a href="/needle/{{ item['needle_id'] }}">Lihat detail jarum</a></p>
+            </article>
+            {% endfor %}
+        {% else %}
+            <p>Belum ada relasi jarum yang tercatat untuk mesin ini.</p>
+        {% endif %}
     </section>
 
     <nav class="detail-nav">

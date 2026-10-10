@@ -232,19 +232,21 @@ def add_machine():
         model = request.form["model"].strip()
         function = request.form["function"].strip()
         description = request.form["description"].strip()
+        notes = request.form.get("notes", "").strip()
 
         conn.execute(
             """
             INSERT INTO machines
-            (brand_id, machine_type_id, model, function, description)
-            VALUES (?, ?, ?, ?, ?)
+            (brand_id, machine_type_id, model, function, description, notes)
+            VALUES (?, ?, ?, ?, ?, ?)
             """,
             (
                 brand_id,
                 machine_type_id,
                 model,
                 function,
-                description
+                description,
+                notes
             )
         )
 
@@ -541,16 +543,14 @@ def import_troubleshooting_csv():
 
 @app.route("/components")
 def components_list():
-
     conn = get_db()
 
     search = request.args.get("search", "").strip()
+    page = request.args.get("page", default=1, type=int)
+    page = max(1, page)
+    per_page = 25
 
-    query = """
-        SELECT
-            components.*,
-            machines.model AS machine_model,
-            brands.name AS brand_name
+    from_sql = """
         FROM components
         LEFT JOIN machines
             ON components.machine_id = machines.id
@@ -559,6 +559,7 @@ def components_list():
     """
 
     params = []
+    where_sql = ""
 
     if search:
         words = search.split()
@@ -581,18 +582,37 @@ def components_list():
 
             params.extend([pattern] * 7)
 
-        query += " WHERE " + " AND ".join(conditions)
+        where_sql = " WHERE " + " AND ".join(conditions)
 
-    query += """
+    total_count = conn.execute(
+        "SELECT COUNT(*) " + from_sql + where_sql,
+        params
+    ).fetchone()[0]
+
+    total_pages = max(
+        1,
+        (total_count + per_page - 1) // per_page
+    )
+
+    page = min(page, total_pages)
+    offset = (page - 1) * per_page
+
+    query = """
+        SELECT
+            components.*,
+            machines.model AS machine_model,
+            brands.name AS brand_name
+    """ + from_sql + where_sql + """
         ORDER BY
             brands.name,
             machines.model,
             components.component_name
+        LIMIT ? OFFSET ?
     """
 
     components_data = conn.execute(
         query,
-        params
+        params + [per_page, offset]
     ).fetchall()
 
     conn.close()
@@ -600,7 +620,10 @@ def components_list():
     return render_template(
         "components.html",
         components_data=components_data,
-        search=search
+        search=search,
+        page=page,
+        total_pages=total_pages,
+        total_count=total_count
     )
 
 
@@ -709,6 +732,27 @@ def machine_detail(machine_id):
         (machine_id,)
     ).fetchall()
 
+    needle_compatibility_data = conn.execute(
+        """
+        SELECT
+            n.id AS needle_id,
+            n.brand AS needle_brand,
+            n.needle_system,
+            n.size_nm,
+            n.size_nm_value,
+            n.manufacturer_size,
+            nc.compatibility_status,
+            nc.source_url,
+            nc.notes
+        FROM needle_machine_compatibility nc
+        JOIN needles n ON n.id = nc.needle_id
+        WHERE nc.machine_id = ?
+        ORDER BY n.brand, n.needle_system, n.size_nm_value, n.id
+        """,
+        (machine_id,)
+    ).fetchall()
+
+
     conn.close()
 
     return render_template(
@@ -720,7 +764,8 @@ def machine_detail(machine_id):
         component_parts=component_parts,
         parts=parts,
         documents=documents,
-        technician_notes=technician_notes
+        technician_notes=technician_notes,
+        needle_compatibility_data=needle_compatibility_data
     )
 
 @app.route("/add-specification/<int:machine_id>", methods=["GET", "POST"])
@@ -1518,6 +1563,7 @@ def sitemap():
     # Halaman utama lainnya
     urls.append("/troubleshooting")
     urls.append("/components")
+    urls.append("/needle-catalog")
 
     # Semua halaman mesin dari database
     cur.execute("SELECT id FROM machines ORDER BY id")
@@ -1525,6 +1571,16 @@ def sitemap():
 
     for machine in machines:
         urls.append(f"/machine/{machine['id']}")
+
+    # Halaman katalog khusus setiap merek jarum
+    cur.execute("""
+        SELECT DISTINCT brand FROM needles
+        WHERE TRIM(COALESCE(brand, '')) <> ''
+        ORDER BY brand COLLATE NOCASE
+    """)
+    for row in cur.fetchall():
+        slug = row["brand"].strip().lower().replace(" ", "-")
+        urls.append(f"/needle-brand/{slug}")
 
     conn.close()
 
@@ -1546,6 +1602,437 @@ def sitemap():
         "\n".join(xml),
         mimetype="application/xml"
     )
+
+
+
+
+
+@app.route("/needle-catalog")
+def needle_catalog():
+    conn = get_db()
+    search = request.args.get("search", "").strip()
+    rows = []
+
+    try:
+        brands = conn.execute("""
+            SELECT brand, COUNT(*) AS jumlah
+            FROM needles
+            WHERE TRIM(COALESCE(brand, '')) <> ''
+            GROUP BY brand
+            ORDER BY brand COLLATE NOCASE
+        """).fetchall()
+
+        if search:
+            conditions = []
+            params = []
+            for term in search.split():
+                pattern = f"%{term}%"
+                conditions.append("""
+                    (
+                        COALESCE(n.brand, '') LIKE ?
+                        OR COALESCE(n.needle_system, '') LIKE ?
+                        OR COALESCE(n.size_nm, '') LIKE ?
+                        OR CAST(COALESCE(n.size_nm_value, '') AS TEXT) LIKE ?
+                        OR COALESCE(n.manufacturer_size, '') LIKE ?
+                        OR COALESCE(n.point_code, '') LIKE ?
+                        OR COALESCE(n.point_description, '') LIKE ?
+                        OR COALESCE(n.material_application, '') LIKE ?
+                        OR COALESCE(n.product_code, '') LIKE ?
+                        OR COALESCE(n.description, '') LIKE ?
+                        OR EXISTS (
+                            SELECT 1
+                            FROM needle_machine_compatibility nc
+                            JOIN machines m ON m.id = nc.machine_id
+                            JOIN brands b ON b.id = m.brand_id
+                            WHERE nc.needle_id = n.id
+                              AND (b.name LIKE ? OR m.model LIKE ?)
+                        )
+                    )
+                """)
+                params.extend([pattern] * 12)
+
+            rows = conn.execute("""
+                SELECT n.* FROM needles n
+                WHERE """ + " AND ".join(conditions) + """
+                ORDER BY n.brand, n.needle_system,
+                         n.size_nm_value, n.id DESC
+            """, params).fetchall()
+    finally:
+        conn.close()
+
+    return render_template(
+        "needle_catalog.html",
+        brands=brands,
+        needles=rows,
+        search=search
+    )
+
+
+@app.route("/needle-brand/<brand_slug>")
+def needle_brand(brand_slug):
+    conn = get_db()
+    search = request.args.get("search", "").strip()
+
+    try:
+        brand_rows = conn.execute("""
+            SELECT brand, COUNT(*) AS jumlah
+            FROM needles
+            WHERE LOWER(REPLACE(TRIM(brand), ' ', '-')) = ?
+            GROUP BY brand
+            LIMIT 1
+        """, (brand_slug.lower(),)).fetchone()
+
+        if brand_rows is None:
+            return "Merek jarum tidak ditemukan.", 404
+
+        params = [brand_rows["brand"]]
+        sql = "SELECT n.* FROM needles n WHERE n.brand = ?"
+
+        if search:
+            conditions = []
+            for term in search.split():
+                pattern = f"%{term}%"
+                conditions.append("""
+                    (
+                        COALESCE(n.needle_system, '') LIKE ?
+                        OR COALESCE(n.size_nm, '') LIKE ?
+                        OR CAST(COALESCE(n.size_nm_value, '') AS TEXT) LIKE ?
+                        OR COALESCE(n.manufacturer_size, '') LIKE ?
+                        OR COALESCE(n.point_code, '') LIKE ?
+                        OR COALESCE(n.point_description, '') LIKE ?
+                        OR COALESCE(n.material_application, '') LIKE ?
+                        OR COALESCE(n.product_code, '') LIKE ?
+                        OR COALESCE(n.description, '') LIKE ?
+                    )
+                """)
+                params.extend([pattern] * 9)
+            sql += " AND " + " AND ".join(conditions)
+
+        sql += """
+            ORDER BY n.needle_system, n.size_nm_value, n.id
+        """
+        needles = conn.execute(sql, params).fetchall()
+        brand_name = brand_rows["brand"]
+    finally:
+        conn.close()
+
+    return render_template(
+        "needle_brand.html",
+        brand=brand_name,
+        needles=needles,
+        search=search
+    )
+
+
+@app.route("/needle/<int:needle_id>")
+def needle_detail(needle_id):
+    conn = get_db()
+
+    try:
+        needle = conn.execute(
+            "SELECT * FROM needles WHERE id = ?",
+            (needle_id,)
+        ).fetchone()
+
+        if needle is None:
+            return "Data jarum tidak ditemukan.", 404
+
+        compatible_machines = conn.execute("""
+            SELECT
+                m.id AS machine_id,
+                m.model,
+                b.name AS brand_name,
+                nc.compatibility_status,
+                nc.source_url,
+                nc.notes
+            FROM needle_machine_compatibility nc
+            JOIN machines m ON m.id = nc.machine_id
+            JOIN brands b ON b.id = m.brand_id
+            WHERE nc.needle_id = ?
+            ORDER BY b.name, m.model
+        """, (needle_id,)).fetchall()
+
+    finally:
+        conn.close()
+
+    return render_template(
+        "needle_detail.html",
+        needle=needle,
+        compatible_machines=compatible_machines
+    )
+
+
+@app.route("/admin/needle/add", methods=["GET", "POST"])
+@admin_required
+def add_needle():
+    conn = get_db()
+
+    try:
+        if request.method == "POST":
+            fields = (
+                "brand",
+                "needle_system",
+                "size_nm",
+                "point_code",
+                "point_description",
+                "material_application",
+                "product_code",
+                "description",
+                "source_url",
+                "verification_status",
+            )
+
+            values = {
+                field: request.form.get(field, "").strip()
+                for field in fields
+            }
+
+            nm_text = request.form.get("size_nm_value", "").strip()
+            manufacturer_size = request.form.get(
+                "manufacturer_size", ""
+            ).strip()
+
+            nm_value = None
+            if nm_text:
+                try:
+                    nm_value = float(nm_text.replace(",", "."))
+                except ValueError:
+                    return "Ukuran NM harus berupa angka.", 400
+
+                if not 1 <= nm_value <= 500:
+                    return "Periksa kembali ukuran NM.", 400
+
+            if not any((
+                values["brand"],
+                values["needle_system"],
+                nm_text,
+                manufacturer_size,
+                values["product_code"],
+            )):
+                return (
+                    "Isi setidaknya merek, sistem jarum, NM, "
+                    "nomor produsen, atau kode produk.",
+                    400,
+                )
+
+            # Tetap isi kolom lama agar kompatibel dengan data sebelumnya.
+            legacy_size = values["size_nm"]
+            if nm_value is not None or manufacturer_size:
+                pieces = []
+                if nm_value is not None:
+                    pieces.append(f"NM {nm_text}")
+                if manufacturer_size:
+                    pieces.append(manufacturer_size)
+                legacy_size = " (" .join(pieces[:1])
+                if len(pieces) > 1:
+                    legacy_size += f" ({pieces[1]})"
+
+            status_options = {
+                "Belum diverifikasi",
+                "Terverifikasi",
+            }
+            if values["verification_status"] not in status_options:
+                values["verification_status"] = "Belum diverifikasi"
+
+            verification_notes = request.form.get(
+                "verification_notes", ""
+            ).strip()
+
+            if values["verification_status"] == "Terverifikasi" and (
+                not values["source_url"] or not verification_notes
+            ):
+                return (
+                    "Untuk memverifikasi data, URL sumber dan catatan bukti "
+                    "verifikasi wajib diisi.",
+                    400,
+                )
+
+            verified_at = None
+            if values["verification_status"] == "Terverifikasi":
+                verified_at = __import__("datetime").datetime.now().astimezone().isoformat(
+                    timespec="seconds"
+                )
+
+            cursor = conn.execute("""
+                INSERT INTO needles (
+                    brand, needle_system, size_nm, point_code,
+                    point_description, material_application,
+                    product_code, description, source_url,
+                    verification_status, size_nm_value,
+                    manufacturer_size, verification_notes, verified_at
+                )
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """, (
+                values["brand"],
+                values["needle_system"],
+                legacy_size,
+                values["point_code"],
+                values["point_description"],
+                values["material_application"],
+                values["product_code"],
+                values["description"],
+                values["source_url"],
+                values["verification_status"],
+                nm_value,
+                manufacturer_size or None,
+                verification_notes or None,
+                verified_at,
+            ))
+
+            needle_id = cursor.lastrowid
+
+            # Hanya hubungkan mesin yang dipilih secara eksplisit.
+            selected_ids = set()
+            for raw_id in request.form.getlist("machine_ids"):
+                try:
+                    selected_ids.add(int(raw_id))
+                except (ValueError, TypeError):
+                    continue
+
+            if selected_ids:
+                placeholders = ",".join("?" for _ in selected_ids)
+                valid_ids = conn.execute(
+                    f"SELECT id FROM machines WHERE id IN ({placeholders})",
+                    tuple(selected_ids)
+                ).fetchall()
+
+                compatibility_source = request.form.get(
+                    "compatibility_source_url", ""
+                ).strip()
+                compatibility_notes = request.form.get(
+                    "compatibility_notes", ""
+                ).strip()
+
+                for machine in valid_ids:
+                    conn.execute("""
+                        INSERT OR IGNORE INTO needle_machine_compatibility (
+                            needle_id, machine_id, compatibility_status,
+                            source_url, notes
+                        )
+                        VALUES (?, ?, 'Belum diverifikasi', ?, ?)
+                    """, (
+                        needle_id,
+                        machine["id"],
+                        compatibility_source or None,
+                        compatibility_notes or None,
+                    ))
+
+            conn.commit()
+            return redirect("/needle-catalog")
+
+        machines = conn.execute("""
+            SELECT m.id, m.model, b.name AS brand_name
+            FROM machines m
+            JOIN brands b ON b.id = m.brand_id
+            ORDER BY b.name, m.model
+        """).fetchall()
+
+    except Exception:
+        conn.rollback()
+        raise
+    finally:
+        conn.close()
+
+    return render_template("needle_add.html", machines=machines)
+
+
+
+@app.route("/admin/needle/<int:needle_id>/edit", methods=["GET", "POST"])
+@admin_required
+def edit_needle(needle_id):
+    conn = get_db()
+    try:
+        needle = conn.execute(
+            "SELECT * FROM needles WHERE id = ?", (needle_id,)
+        ).fetchone()
+
+        if needle is None:
+            return "Data jarum tidak ditemukan.", 404
+
+        if request.method == "POST":
+            fields = (
+                "brand", "needle_system", "size_nm", "point_code",
+                "point_description", "material_application", "product_code",
+                "description", "source_url", "verification_status",
+            )
+            values = {
+                field: request.form.get(field, "").strip()
+                for field in fields
+            }
+            notes = request.form.get("verification_notes", "").strip()
+            status = values["verification_status"]
+
+            if status not in ("Belum diverifikasi", "Terverifikasi"):
+                return "Status verifikasi tidak valid.", 400
+
+            if status == "Terverifikasi" and (
+                not values["source_url"] or not notes
+            ):
+                return (
+                    "Untuk memverifikasi data, URL sumber dan catatan bukti "
+                    "verifikasi wajib diisi.",
+                    400,
+                )
+
+            nm_text = request.form.get("size_nm_value", "").strip()
+            manufacturer_size = request.form.get(
+                "manufacturer_size", ""
+            ).strip()
+            nm_value = None
+            if nm_text:
+                try:
+                    nm_value = float(nm_text.replace(",", "."))
+                except ValueError:
+                    return "Ukuran NM harus berupa angka.", 400
+                if not 1 <= nm_value <= 500:
+                    return "Periksa kembali ukuran NM.", 400
+
+            old_status = needle["verification_status"]
+            verified_at = needle["verified_at"]
+
+            if status == "Terverifikasi":
+                if old_status != "Terverifikasi" or not verified_at:
+                    verified_at = __import__("datetime").datetime.now().astimezone().isoformat(timespec="seconds")
+            else:
+                verified_at = None
+
+            conn.execute("""
+                UPDATE needles SET
+                    brand = ?, needle_system = ?, size_nm = ?,
+                    point_code = ?, point_description = ?,
+                    material_application = ?, product_code = ?,
+                    description = ?, source_url = ?,
+                    verification_status = ?, size_nm_value = ?,
+                    manufacturer_size = ?, verification_notes = ?,
+                    verified_at = ?
+                WHERE id = ?
+            """, (
+                values["brand"] or None,
+                values["needle_system"] or None,
+                values["size_nm"] or None,
+                values["point_code"] or None,
+                values["point_description"] or None,
+                values["material_application"] or None,
+                values["product_code"] or None,
+                values["description"] or None,
+                values["source_url"] or None,
+                status,
+                nm_value,
+                manufacturer_size or None,
+                notes or None,
+                verified_at,
+                needle_id,
+            ))
+            conn.commit()
+            return redirect(f"/needle/{needle_id}")
+
+        return render_template("needle_edit.html", needle=needle)
+
+    except Exception:
+        conn.rollback()
+        raise
+    finally:
+        conn.close()
 
 if __name__ == "__main__":
     app.run(

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Katalog Jarum Mesin Jahit | GarmentTech</title>
+    <meta name="description" content="Katalog jarum mesin jahit industri berdasarkan merek, sistem jarum dan ukuran.">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="needle-catalog-page">
+<header>
+    <h1>🪡 KATALOG JARUM MESIN JAHIT</h1>
+    <p>Database Teknisi Mesin Garment</p>
+</header>
+<main class="needle-main">
+    <nav class="needle-nav">
+        <a href="/">⌂ Beranda</a>
+        <a href="/components">Komponen &amp; Spare Part</a>
+    </nav>
+    <section class="needle-panel">
+        <h2>Pilih Merek Jarum</h2>
+        <p>Pilih merek untuk melihat data sistem jarum dan ukuran.</p>
+        <form method="get" action="/needle-catalog" class="needle-search">
+            <input type="search" name="search" value="{{ search }}"
+                   placeholder="Cari merek, sistem, ukuran, atau model mesin..."
+                   aria-label="Cari katalog jarum">
+            <button type="submit">Cari</button>
+            {% if search %}<a href="/needle-catalog">Hapus pencarian</a>{% endif %}
+        </form>
+        {% if session.get("admin_logged_in") %}
+        <p><a class="needle-button" href="/admin/needle/add">+ Tambah Data Jarum</a></p>
+        {% endif %}
+    </section>
+
+    {% if search %}
+    <section class="needle-panel">
+        <h2>Hasil pencarian</h2>
+        <p>Jumlah hasil: <strong>{{ needles|length }}</strong></p>
+        {% if needles %}
+        <div class="needle-results">
+            {% for needle in needles %}
+            <article class="needle-card">
+                <h3><a href="/needle/{{ needle['id'] }}">{{ needle['brand'] }} — {{ needle['needle_system'] }}</a></h3>
+                {% if needle['size_nm_value'] is not none %}<p><strong>Ukuran NM:</strong> {{ needle['size_nm_value'] }}</p>{% endif %}
+                {% if needle['manufacturer_size'] %}<p><strong>Nomor produsen:</strong> {{ needle['manufacturer_size'] }}</p>{% endif %}
+                {% if needle['size_nm'] %}<p><strong>Keterangan ukuran:</strong> {{ needle['size_nm'] }}</p>{% endif %}
+                {% if needle['material_application'] %}<p><strong>Bahan / aplikasi:</strong> {{ needle['material_application'] }}</p>{% endif %}
+                {% if needle['description'] %}<p><strong>Keterangan:</strong> {{ needle['description'] }}</p>{% endif %}
+                <p class="needle-status">{{ needle['verification_status'] or 'Belum diverifikasi' }}</p>
+                <a href="/needle/{{ needle['id'] }}">Lihat detail →</a>
+            </article>
+            {% endfor %}
+        </div>
+        {% else %}<p>Data jarum tidak ditemukan.</p>{% endif %}
+    </section>
+    {% else %}
+    <section class="needle-results">
+        {% for item in brands %}
+        <article class="needle-card">
+            <h3>{{ item['brand'] }}</h3>
+            <p>Jumlah data jarum: <strong>{{ item['jumlah'] }}</strong></p>
+            <a class="needle-button" href="/needle-brand/{{ item['brand']|lower|replace(' ', '-') }}">Buka katalog {{ item['brand'] }} →</a>
+        </article>
+        {% else %}
+        <article class="needle-card"><p>Belum ada data merek jarum.</p></article>
+        {% endfor %}
+    </section>
+    {% endif %}
+</main>
+<footer class="needle-footer"><a href="/">Garment Machine Tech Database</a></footer>
+</body>
+</html>
