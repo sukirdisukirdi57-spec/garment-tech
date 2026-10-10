@@ -51,25 +51,25 @@
 
         <div class="stats-grid">
 
-            <div class="stat-card">
+            <a href="#brand-list" class="stat-card stat-card-link">
                 <strong>{{ statistics["brands"] }}</strong>
                 <span>🏷️ Merek</span>
-            </div>
+            </a>
 
-            <div class="stat-card">
+            <a href="#machine-type-list" class="stat-card stat-card-link">
                 <strong>{{ statistics["machines"] }}</strong>
                 <span>🏭 Mesin</span>
-            </div>
+            </a>
 
             <div class="stat-card">
                 <strong>{{ statistics["documents"] }}</strong>
                 <span>📄 Dokumen</span>
             </div>
 
-            <div class="stat-card">
+            <a href="{{ url_for('components_list') }}" class="stat-card stat-card-link">
                 <strong>{{ statistics["components"] }}</strong>
                 <span>🔩 Komponen</span>
-            </div>
+            </a>
 
             <div class="stat-card">
                 <strong>{{ statistics["parts"] }}</strong>
@@ -138,7 +138,7 @@
 
 
     <section>
-        <h2>🏭 Merek Mesin</h2>
+        <h2 id="brand-list">🏭 Merek Mesin</h2>
 
         <div class="grid">
             {% for brand in brands %}
@@ -195,13 +195,13 @@
 
 
     <section>
-        <h2>⚙️ Jenis Mesin</h2>
+        <h2 id="machine-type-list">⚙️ Jenis Mesin</h2>
 
         <div class="grid">
             {% for machine_type in machine_types %}
             <a href="{{ url_for('type_machines', type_id=machine_type['id']) }}" class="card">
                 <h3>{{ machine_type["name"] }}</h3>
-                <p>{{ machine_type["description"] }}</p>
+                <p>{{ machine_type["description"] if machine_type["description"] and machine_type["description"]|string|lower != "none" else "Keterangan belum tersedia" }}</p>
             </a>
             {% endfor %}
         </div>
