@@ -23,39 +23,163 @@
 
         <h2>Data Komponen & Spare Part</h2>
 
-        <form method="GET"
-              action="/components"
-              style="margin-bottom: 20px;">
+        <form method="GET" action="/components" class="components-filter-form">
+    <label for="brand_id">1. Pilih Merek Mesin</label>
+    <select id="brand_id" name="brand_id"
+        onchange="this.form.elements['machine_id'].value=''; this.form.elements['component_id'].value=''; this.form.submit()">
+        <option value="">-- Semua Merek --</option>
+        {% for brand in brands %}
+        <option value="{{ brand['id'] }}" {% if brand_id == brand['id'] %}selected{% endif %}>{{ brand['name'] }}</option>
+        {% endfor %}
+    </select>
 
-            <input
-                type="text"
-                name="search"
-                value="{{ search or '' }}"
-                placeholder="Cari komponen, nomor part, mesin, fungsi..."
-                style="width: 100%; box-sizing: border-box; margin-bottom: 10px;"
-            >
+    <label for="machine_id">2. Pilih Seri / Model Mesin</label>
+    <select id="machine_id" name="machine_id"
+        {% if not brand_id %}disabled{% endif %}
+        onchange="this.form.elements['component_id'].value=''; this.form.submit()">
+        <option value="">-- Semua Seri Mesin --</option>
+        {% for machine in machine_options %}
+        <option value="{{ machine['id'] }}" {% if machine_id == machine['id'] %}selected{% endif %}>{{ machine['model'] }}</option>
+        {% endfor %}
+    </select>
 
-            <button type="submit" class="add-button">
-                🔎 Cari Komponen
-            </button>
+    <label for="component_id">3. Pilih Mekanisme / Bagian Mesin</label>
+    <select id="component_id" name="component_id"
+        {% if not machine_id %}disabled{% endif %}
+        onchange="this.form.submit()">
+        <option value="">-- Semua Mekanisme pada Mesin --</option>
+        {% for item in component_options %}
+        <option value="{{ item['id'] }}" {% if component_id == item['id'] %}selected{% endif %}>{{ item['component_name'] }}{% if item['part_number'] %} — Part: {{ item['part_number'] }}{% endif %}</option>
+        {% endfor %}
+    </select>
 
-            {% if search %}
-            <a href="/components" class="back-button">
-                ✖️ Hapus Pencarian
-            </a>
-            {% endif %}
+    <label for="search">Atau cari langsung berdasarkan nama atau nomor part</label>
+    <input id="search" type="text" name="search"
+        value="{{ search or '' }}"
+        placeholder="Contoh: 141-13468 atau Bobbin">
 
-        </form>
+    <button type="submit" class="add-button">🔎 Cari Komponen</button>
+    {% if search or brand_id or machine_id or component_id %}
+    <a href="/components" class="back-button">✖️ Hapus Semua Filter</a>
+    {% endif %}
+</form>
 
         <p>
             <strong>📊 Jumlah hasil:</strong>
-            {{ total_count }} komponen
+            {{ mechanism_parts|length if component_id else total_count }} {{ 'spare part' if component_id else 'komponen' }}
         </p>
 
     </section>
 
 
-    {% if components_data %}
+    {% if search and parts_search_data %}
+        <section class="machine-card">
+            <h3>📦 Hasil Pencarian Spare Part</h3>
+            <p>
+                Ditemukan {{ parts_search_data|length }} spare part
+                (maksimal 100 hasil).
+            </p>
+
+            <div style="overflow-x:auto;">
+                <table style="width:100%;min-width:760px;border-collapse:collapse;table-layout:auto;">
+                    <thead>
+                        <tr>
+                            <th style="padding:8px 4px;text-align:left;width:38px;">No.</th>
+                            <th style="padding:8px 6px;text-align:left;width:145px;">Nomor Part</th>
+                            <th style="padding:10px;text-align:left;">Nama Spare Part</th>
+                            <th style="padding:10px;text-align:left;">Merek / Mesin</th>
+                            <th style="padding:10px;text-align:center;">Detail</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for part in parts_search_data %}
+                        <tr>
+                            <td style="padding:8px 4px;white-space:nowrap;">{{ loop.index }}</td>
+                            <td style="padding:8px 6px;white-space:nowrap;">
+                                <strong>{{ part["part_number"] }}</strong>
+                            </td>
+                            <td style="padding:10px;min-width:220px;white-space:normal;overflow-wrap:normal;word-break:normal;">{{ (part["part_name"] or "-") | replace("_", " ") }}</td>
+                            <td style="padding:10px;">
+                                {{ part["brand_name"] or "-" }}
+                                {{ part["machine_model"] or "" }}
+                            </td>
+                            <td style="padding:10px;text-align:center;">
+                                <a class="components-card-button"
+                                   href="/part/{{ part['id'] }}">
+                                    🔍 Detail
+                                </a>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    {% endif %}
+
+    {% if component_id %}
+
+        <section class="machine-card">
+            <h3>⚙️ Spare Part dalam Mekanisme</h3>
+
+            <p>
+                <strong>Mekanisme:</strong>
+                {{ selected_mechanism["component_name"] if selected_mechanism else "Mekanisme terpilih" }}
+            </p>
+
+            {% if mechanism_parts %}
+            <div style="overflow-x:auto;">
+                <table style="width:100%;min-width:760px;border-collapse:collapse;table-layout:auto;">
+                    <thead>
+                        <tr>
+                            <th style="padding:8px 4px;text-align:left;width:38px;">No.</th>
+                            <th style="padding:8px 6px;text-align:left;width:145px;">Nomor Part</th>
+                            <th style="padding:10px;text-align:left;">Nama Spare Part</th>
+                            <th style="padding:10px;text-align:center;">Qty</th>
+                            <th style="padding:10px;text-align:center;">Ref. Katalog</th>
+                            <th style="padding:10px;text-align:center;">Detail</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for part in mechanism_parts %}
+                        <tr>
+                            <td style="padding:8px 4px;white-space:nowrap;">{{ loop.index }}</td>
+                            <td style="padding:8px 6px;white-space:nowrap;">
+                                <strong>{{ part["part_number"] }}</strong>
+                            </td>
+                            <td style="padding:10px;min-width:220px;white-space:normal;overflow-wrap:normal;word-break:normal;">
+                                {{ (part["part_name"] or "-") | replace("_", " ") }}
+                            </td>
+                            <td style="padding:10px;text-align:center;">
+                                {{ part["quantity_raw"] or part["quantity"] or "-" }}
+                            </td>
+                            <td style="padding:10px;text-align:center;">
+                                {{ part["catalog_ref"] or "-" }}
+                            </td>
+                            <td style="padding:10px;text-align:center;white-space:nowrap;">
+                                <a class="components-card-button"
+                                   href="/part/{{ part['id'] }}">
+                                    🔍 Detail
+                                </a>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            {% else %}
+            <p>Belum ada spare part yang terhubung ke mekanisme ini.</p>
+            {% endif %}
+
+            <p style="margin-top:16px;">
+                <a class="components-card-button"
+                   href="/component/{{ component_id }}">
+                    Buka Detail Mekanisme
+                </a>
+            </p>
+        </section>
+
+    {% elif components_data %}
 
         {% for component in components_data %}
 
@@ -146,13 +270,13 @@
     {% if total_pages > 1 %}
     <nav id="components-pagination" style="display:flex;gap:12px;justify-content:center;align-items:center;flex-wrap:wrap;margin:24px 0;">
         {% if page > 1 %}
-        <a class="btn" href="{{ url_for('components_list', search=search, page=page-1) }}">← Sebelumnya</a>
+        <a class="btn" href="{{ url_for('components_list', search=search, brand_id=brand_id, machine_id=machine_id, component_id=component_id, page=page-1) }}">← Sebelumnya</a>
         {% endif %}
 
         <span>Halaman {{ page }} dari {{ total_pages }}</span>
 
         {% if page < total_pages %}
-        <a class="btn" href="{{ url_for('components_list', search=search, page=page+1) }}">Berikutnya →</a>
+        <a class="btn" href="{{ url_for('components_list', search=search, brand_id=brand_id, machine_id=machine_id, component_id=component_id, page=page+1) }}">Berikutnya →</a>
         {% endif %}
     </nav>
     {% endif %}

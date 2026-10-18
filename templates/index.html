@@ -33,14 +33,20 @@
         </p>
 
         <form method="GET" action="/" class="industrial-search">
+            <select name="brand_id" aria-label="Pilih merek mesin">
+                <option value="">Semua Merek</option>
+                {% for brand in brands %}
+                <option value="{{ brand['id'] }}" {% if brand_id == brand['id'] %}selected{% endif %}>{{ brand['name'] }}</option>
+                {% endfor %}
+            </select>
             <input
                 type="text"
-                name="search"
-                value="{{ search }}"
-                placeholder="Cari merek, model, komponen, atau masalah mesin..."
-                aria-label="Cari informasi mesin garment"
+                name="model"
+                value="{{ model_search }}"
+                placeholder="Seri / model, contoh AMS, DDL, DLN, KE, HE"
+                aria-label="Cari seri atau model mesin"
             >
-            <button type="submit">Cari Informasi</button>
+            <button type="submit">Cari Mesin</button>
         </form>
 
         <div class="industrial-quick-links">
@@ -48,6 +54,9 @@
             <a href="#machine-type-list">Jenis Mesin</a>
             <a href="/components">Komponen &amp; Spare Part</a>
             <a href="/needle-catalog">🪡 Katalog Jarum</a>
+            <a href="/needle-systems">📚 Katalog Sistem Jarum</a>
+            <a href="/troubleshooting">🔧 Troubleshooting</a>
+            <a href="/specifications">📋 Spesifikasi Mesin</a>
         </div>
 
         {% if session.get("admin_logged_in") %}
@@ -95,9 +104,9 @@
     </section>
 
 
-    {% if search %}
+    {% if brand_id or model_search %}
     <section>
-        <h2>🔎 Hasil pencarian: "{{ search }}"</h2>
+        <h2>🔎 Hasil pencarian mesin{% if selected_brand_name %} — {{ selected_brand_name }}{% endif %}{% if model_search %} — {{ model_search }}{% endif %}</h2>
 
         {% if machines %}
             <div class="machine-list">
@@ -213,7 +222,7 @@
 
         <div class="grid">
             {% for machine_type in machine_types %}
-            <a href="{{ url_for('type_machines', type_id=machine_type['id']) }}" class="card">
+            <a href="{{ url_for('type_machines', type_id=machine_type['id']) }}" class="card{% if machine_type['name'] == 'Other' %} card-other-empty{% endif %}">
                 <h3>{{ machine_type["name"] }}</h3>
                 <p>{{ machine_type["description"] if machine_type["description"] and machine_type["description"]|string|lower != "none" else "Keterangan belum tersedia" }}</p>
             </a>
@@ -225,38 +234,36 @@
     <section id="about-garmenttech" class="about-garmenttech">
         <div class="about-heading">
             <span class="industrial-eyebrow">MENGENAL GARMENTTECH</span>
-            <h2>Referensi Teknis yang Saling Terhubung</h2>
+            <h2>Referensi Teknis Mesin Garment yang Terintegrasi</h2>
             <p>
-                GarmentTech membantu teknisi dan pengguna mesin garment
-                mencari informasi teknis dengan lebih terarah. Informasi
-                yang tersedia dapat berbeda untuk setiap merek dan model.
+                GarmentTech adalah pusat referensi teknis mesin garment yang membantu teknisi, mekanik, dan pengguna menemukan informasi mesin secara lebih terarah. Database menghubungkan informasi merek dan model mesin dengan spesifikasi teknis, komponen, suku cadang, dokumen, serta panduan troubleshooting yang tersedia.
             </p>
         </div>
 
         <div class="garmenttech-feature-grid">
             <article class="garmenttech-feature">
                 <h3>Mesin dan Merek</h3>
-                <p>Telusuri mesin berdasarkan merek, model, dan jenis mesin.</p>
+                <p>Temukan mesin berdasarkan merek dan awalan seri atau model untuk mengakses informasi teknis yang sesuai.</p>
             </article>
             <article class="garmenttech-feature">
                 <h3>Komponen dan Spare Part</h3>
-                <p>Jelajahi data komponen serta hubungan komponen dengan mesin.</p>
+                <p>Jelajahi informasi komponen dan suku cadang beserta keterkaitannya dengan mesin yang tercatat dalam database.</p>
             </article>
             <article class="garmenttech-feature">
                 <h3>Spesifikasi Teknis</h3>
-                <p>Periksa spesifikasi teknis yang tersedia untuk model mesin.</p>
+                <p>Pelajari spesifikasi teknis setiap model berdasarkan data yang telah tersedia.</p>
             </article>
             <article class="garmenttech-feature">
                 <h3>Manual dan Katalog</h3>
-                <p>Temukan dokumen teknis dan katalog yang telah dimasukkan ke database.</p>
+                <p>Akses manual pengoperasian, katalog suku cadang, dan dokumen teknis yang telah dimasukkan ke database.</p>
             </article>
             <article class="garmenttech-feature">
                 <h3>Troubleshooting</h3>
-                <p>Telusuri catatan masalah dan solusi yang tersedia.</p>
+                <p>Pelajari catatan masalah dan solusi teknis yang tersedia sebagai referensi pemeriksaan dan perbaikan mesin.</p>
             </article>
             <article class="garmenttech-feature">
                 <h3>Pencarian Terpadu</h3>
-                <p>Mulai pencarian dari merek, model, fungsi, atau deskripsi mesin.</p>
+                <p>Pilih merek mesin dan masukkan awalan seri atau model untuk menemukan mesin yang sesuai.</p>
             </article>
         </div>
     </section>

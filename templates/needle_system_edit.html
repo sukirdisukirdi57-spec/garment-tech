@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Edit Sistem Jarum | Garment Tech</title>
+<style>
+body{font-family:Arial,sans-serif;background:#f3f5f7;color:#222;margin:0;padding:16px;line-height:1.6}
+main{max-width:720px;margin:auto}
+section{background:white;padding:20px;border-radius:10px}
+label{display:block;font-weight:bold;margin-top:14px}
+input,select,textarea{width:100%;box-sizing:border-box;padding:11px;border:1px solid #aaa;border-radius:6px;font-size:16px}
+textarea{min-height:90px}
+button{margin-top:18px;padding:12px 18px;background:#075bb5;color:white;border:0;border-radius:6px;font-size:16px}
+.note{background:#fff1cc;padding:12px;border-radius:6px}
+.error{background:#ffe7e7;padding:12px;border-radius:6px;color:#8b0000}
+</style>
+</head>
+<body>
+<main>
+<p><a href="/needle-systems">← Kembali ke katalog</a></p>
+<section>
+<h1>Edit Sistem Jarum</h1>
+<p class="note">Status verifikasi tidak berubah saat formulir ini disimpan. Pastikan kode didukung katalog resmi dan cocok dengan manual model mesin sebelum menyatakan kompatibilitas.</p>
+{% if error %}<p class="error" role="alert">{{ error }}</p>{% endif %}
+<form method="post">
+<input type="hidden" name="_csrf_token" value="{{ csrf_token() }}">
+<label for="system_code">Kode sistem jarum *</label>
+<input id="system_code" name="system_code" maxlength="100" required value="{{ values.system_code }}">
+
+<label for="manufacturer">Merek / produsen</label>
+<input id="manufacturer" name="manufacturer" value="{{ values.manufacturer }}">
+
+<label for="alternative_names">Nama alternatif</label>
+<input id="alternative_names" name="alternative_names" value="{{ values.alternative_names }}">
+
+<label for="stitch_type">Jenis jahitan</label>
+<select id="stitch_type" name="stitch_type">
+<option value="">Belum ditentukan</option>
+{% for option in ["Lockstitch", "Chainstitch"] %}
+<option value="{{ option }}" {% if values.stitch_type == option %}selected{% endif %}>{{ option }}</option>
+{% endfor %}
+</select>
+
+<label for="machine_category">Kategori mesin</label>
+<input id="machine_category" name="machine_category" value="{{ values.machine_category }}">
+
+<label for="description">Deskripsi</label>
+<textarea id="description" name="description">{{ values.description }}</textarea>
+
+<label for="source_url">Sumber utama (URL)</label>
+<input id="source_url" name="source_url" type="url" value="{{ values.source_url }}" placeholder="https://...">
+
+<label for="reference_url">Referensi silang (URL)</label>
+<input id="reference_url" name="reference_url" type="url" value="{{ values.reference_url }}" placeholder="https://...">
+
+<label for="verification_notes">Catatan verifikasi</label>
+<textarea id="verification_notes" name="verification_notes">{{ values.verification_notes }}</textarea>
+
+<label for="verification_status">Status verifikasi</label>
+<select id="verification_status" name="verification_status">
+    {% for status in [
+        "Belum diverifikasi",
+        "Kode ditemukan di referensi resmi",
+        "Terverifikasi - sistem dan jenis jahitan"
+    ] %}
+    <option value="{{ status }}"
+        {% if (item["verification_status"] or "Belum diverifikasi") == status %}selected{% endif %}>
+        {{ status }}
+    </option>
+    {% endfor %}
+</select>
+<button type="submit">Simpan Perubahan</button>
+</form>
+</section>
+</main>
+</body>
+</html>

@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Edit Seri Jarum | Garment Tech</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 16px;
+            background: #f3f5f7;
+            color: #222;
+            line-height: 1.6;
+        }
+        main {
+            max-width: 800px;
+            margin: auto;
+            padding: 22px;
+            background: white;
+            border-radius: 10px;
+        }
+        h1 { font-size: 25px; }
+        .field { margin: 15px 0; }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        input, textarea {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 11px;
+            border: 1px solid #bbb;
+            border-radius: 6px;
+            font-size: 16px;
+            font-family: inherit;
+        }
+        textarea { min-height: 90px; }
+        button {
+            padding: 12px 18px;
+            border: 0;
+            border-radius: 6px;
+            background: #075bb5;
+            color: white;
+            font-size: 16px;
+        }
+        .notice {
+            padding: 12px;
+            background: #fff0f0;
+            color: #8b1515;
+            border-radius: 6px;
+        }
+        a { color: #075bb5; }
+    </style>
+</head>
+<body>
+<main>
+    <a href="/admin/needle-series">← Kembali ke Master Seri Jarum</a>
+
+    <h1>Edit Seri Jarum</h1>
+
+    {% if error %}
+    <div class="notice" role="alert">{{ error }}</div>
+    {% endif %}
+
+    <form method="post">
+        <input type="hidden" name="_csrf_token"
+               value="{{ csrf_token() }}">
+
+        <div class="field">
+            <label for="series_code">Kode seri *</label>
+            <input id="series_code" name="series_code"
+                   maxlength="50" required
+                   value="{{ values.get('series_code', '') }}">
+        </div>
+
+        <div class="field">
+            <label for="series_name">Nama seri *</label>
+            <input id="series_name" name="series_name"
+                   maxlength="120" required
+                   value="{{ values.get('series_name', '') }}">
+        </div>
+
+        <div class="field">
+            <label for="description">Deskripsi</label>
+            <textarea id="description" name="description">{{ values.get('description', '') }}</textarea>
+        </div>
+
+        <div class="field">
+            <label for="verification_notes">Catatan verifikasi</label>
+            <textarea id="verification_notes" name="verification_notes">{{ values.get('verification_notes', '') }}</textarea>
+        </div>
+
+        <label for="verification_status">Status verifikasi *</label>
+    <select id="verification_status" name="verification_status" required>
+        {% for status in ["Perlu diverifikasi", "Terverifikasi", "Perlu koreksi"] %}
+        <option value="{{ status }}"
+            {% if values["verification_status"] == status %}selected{% endif %}>
+            {{ status }}
+        </option>
+        {% endfor %}
+    </select>
+
+    <button type="submit">Simpan Perubahan</button>
+    </form>
+</main>
+</body>
+</html>

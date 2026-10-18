@@ -30,6 +30,17 @@
             {{ component["machine_model"] or "Model belum ada" }}
         </div>
 
+        {% if component["source_url"] %}
+        <p class="component-source">
+            <strong>📚 Sumber referensi:</strong>
+            <a href="{{ component['source_url'] }}"
+               target="_blank"
+               rel="noopener noreferrer">
+                Buka Parts Book {{ component["brand_name"] or "" }} {{ component["machine_model"] or "" }} — {{ component["component_name"] }}
+            </a>
+        </p>
+        {% endif %}
+
         {% if component["image_path"] %}
         <div class="component-image">
             <img
@@ -151,7 +162,1022 @@
     </section>
 
 
-    <section class="component-navigation">
+
+    {% if component["id"] == 475 %}
+    <section class="component-info" id="brother84-mechanism-diagram">
+        <h2>📐 Diagram B — Upper Shaft Mechanism</h2>
+        <p>
+            Brother T-8421D · Diagram mekanisme dan daftar suku cadang
+        </p>
+
+        <div style="text-align:center; margin:18px 0;">
+            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-b-upper-shaft.png') }}"
+               target="_blank" rel="noopener">
+                <img
+                    src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-b-upper-shaft.png') }}"
+                    alt="Diagram B Upper Shaft Mechanism Brother T-8421D"
+                    loading="lazy"
+                    style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;"
+                >
+            </a>
+            <small>Ketuk gambar untuk membukanya dalam ukuran penuh.</small>
+        </div>
+
+        <h3>Gambar Katalog Part Number — Diagram B</h3>
+        <div style="text-align:center; margin:18px 0;">
+            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-b-parts-catalog.png') }}"
+               target="_blank" rel="noopener">
+                <img
+                    src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-b-parts-catalog.png') }}"
+                    alt="Gambar katalog tabel Part Number Brother T-8421D Diagram B"
+                    loading="lazy"
+                    style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;"
+                >
+            </a>
+            <small>Ketuk gambar untuk membuka katalog dalam ukuran penuh.</small>
+        </div>
+
+        <h3>Daftar Part dan Nomor Referensi</h3>
+
+        {% if sub_parts %}
+        <div class="component-subparts-wrapper">
+            <table class="component-subparts">
+                <thead>
+                    <tr>
+                        <th style="padding:10px; text-align:left;">Ref.</th>
+                        <th style="padding:10px; text-align:left;">Part Number</th>
+                        <th style="padding:10px; text-align:left;">Nama Part</th>
+                        <th style="padding:10px; text-align:center;">Qty</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for part in sub_parts %}
+                    <tr>
+                        <td style="padding:9px; border-top:1px solid #dce5ee;">
+                            {{ part["catalog_ref"] if part["catalog_ref"] is not none else "—" }}
+                        </td>
+                        <td style="padding:9px; border-top:1px solid #dce5ee;">
+                            <strong>{{ part["part_number"] }}</strong>
+                        </td>
+                        <td style="padding:9px; border-top:1px solid #dce5ee;">
+                            {{ part["part_name"] }}
+                        </td>
+                        <td style="padding:9px; border-top:1px solid #dce5ee; text-align:center;">
+                            {{ part["quantity_raw"] or part["quantity"] or "—" }}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {% else %}
+        <p>Belum ada part yang terhubung dengan mekanisme ini.</p>
+        {% endif %}
+    </section>
+    {% endif %}
+
+
+    {% if component["id"] == 476 %}
+    <section class="component-info" id="brother84-mechanism-diagram-c">
+        <h2>📐 Diagram C — Needle Bar Rocker Shaft Mechanism</h2>
+        <p>Brother T-8421D · Diagram mekanisme dan daftar suku cadang</p>
+
+        <div style="text-align:center; margin:18px 0;">
+            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-c-needle-bar-rocker.png') }}"
+               target="_blank" rel="noopener">
+                <img
+                    src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-c-needle-bar-rocker.png') }}"
+                    alt="Diagram C Needle Bar Rocker Shaft Mechanism Brother T-8421D"
+                    loading="lazy"
+                    style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;"
+                >
+            </a>
+            <small>Ketuk gambar untuk membukanya dalam ukuran penuh.</small>
+        </div>
+
+        <h3>Gambar Katalog Part Number — Diagram C</h3>
+        <div style="text-align:center; margin:18px 0;">
+            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-c-parts-catalog.png') }}"
+               target="_blank" rel="noopener">
+                <img
+                    src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-c-parts-catalog.png') }}"
+                    alt="Tabel Part Number Brother T-8421D Diagram C Needle Bar Rocking Mechanism"
+                    loading="lazy"
+                    style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;"
+                >
+            </a>
+            <small>Ketuk gambar untuk membuka tabel katalog ukuran penuh.</small>
+        </div>
+
+        <h3>Daftar Part dan Nomor Referensi</h3>
+        <div class="component-subparts-wrapper">
+            <table class="component-subparts">
+                <thead>
+                    <tr>
+                        <th>Ref.</th>
+                        <th>Part Number</th>
+                        <th>Nama Part</th>
+                        <th>Qty</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for part in sub_parts %}
+                    <tr>
+                        <td>{{ part["catalog_ref"] or "—" }}</td>
+                        <td><strong>{{ part["part_number"] or "—" }}</strong></td>
+                        <td>{{ part["part_name"] or "—" }}</td>
+                        <td>{{ part["quantity_raw"] or part["quantity"] or "—" }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+    {% endif %}
+
+
+    {% if component["id"] == 477 %}
+    <section class="component-info" id="brother84-mechanism-diagram-d">
+        <h2>📐 Diagram D — Presser Foot Mechanism</h2>
+        <p>Brother T-8421D · Diagram mekanisme dan daftar suku cadang</p>
+
+        <div style="text-align:center; margin:18px 0;">
+            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-d-presser-foot-mechanism.png') }}"
+               target="_blank" rel="noopener">
+                <img
+                    src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-d-presser-foot-mechanism.png') }}"
+                    alt="Diagram D Presser Foot Mechanism Brother T-8421D"
+                    loading="lazy"
+                    style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;"
+                >
+            </a>
+            <small>Ketuk gambar untuk membuka diagram mekanisme ukuran penuh.</small>
+        </div>
+
+        <h3>Gambar Katalog Part Number — Diagram D</h3>
+        <div style="text-align:center; margin:18px 0;">
+            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-d-parts-catalog.png') }}"
+               target="_blank" rel="noopener">
+                <img
+                    src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-d-parts-catalog.png') }}"
+                    alt="Tabel Part Number Brother T-8421D Diagram D Presser Foot Mechanism"
+                    loading="lazy"
+                    style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;"
+                >
+            </a>
+            <small>Ketuk gambar untuk membuka tabel katalog ukuran penuh.</small>
+        </div>
+
+        <h3>Daftar Part dan Nomor Referensi</h3>
+        <div class="component-subparts-wrapper">
+            <table class="component-subparts">
+                <thead>
+                    <tr>
+                        <th>Ref.</th>
+                        <th>Part Number</th>
+                        <th>Nama Part</th>
+                        <th>Qty</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for part in sub_parts %}
+                    <tr>
+                        <td>{{ part["catalog_ref"] or "—" }}</td>
+                        <td><strong>{{ part["part_number"] or "—" }}</strong></td>
+                        <td>{{ part["part_name"] or "—" }}</td>
+                        <td>{{ part["quantity_raw"] or part["quantity"] or "—" }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+    {% endif %}
+
+
+    {% if component["id"] == 478 %}
+    <section class="component-info" id="brother84-mechanism-diagram-e">
+        <h2>📐 Diagram E — Feed Mechanism</h2>
+        <p>Brother T-8421D · Diagram mekanisme dan daftar suku cadang</p>
+
+        <div style="text-align:center; margin:18px 0;">
+            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-e-feed-mechanism.png') }}"
+               target="_blank" rel="noopener">
+                <img
+                    src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-e-feed-mechanism.png') }}"
+                    alt="Diagram E Feed Mechanism Brother T-8421D"
+                    loading="lazy"
+                    style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;"
+                >
+            </a>
+            <small>Ketuk gambar untuk membuka diagram mekanisme ukuran penuh.</small>
+        </div>
+
+        <h3>Gambar Katalog Part Number — Diagram E</h3>
+        <div style="text-align:center; margin:18px 0;">
+            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-e-parts-catalog.png') }}"
+               target="_blank" rel="noopener">
+                <img
+                    src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-e-parts-catalog.png') }}"
+                    alt="Tabel Part Number Brother T-8421D Diagram E Feed Mechanism"
+                    loading="lazy"
+                    style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;"
+                >
+            </a>
+            <small>Ketuk gambar untuk membuka tabel katalog ukuran penuh.</small>
+        </div>
+
+        <h3>Daftar Part dan Nomor Referensi</h3>
+        <div class="component-subparts-wrapper">
+            <table class="component-subparts">
+                <thead>
+                    <tr>
+                        <th>Ref.</th>
+                        <th>Part Number</th>
+                        <th>Nama Part</th>
+                        <th>Qty</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for part in sub_parts %}
+                    <tr>
+                        <td>{{ part["catalog_ref"] or "—" }}</td>
+                        <td><strong>{{ part["part_number"] or "—" }}</strong></td>
+                        <td>{{ part["part_name"] or "—" }}</td>
+                        <td>{{ part["quantity_raw"] or part["quantity"] or "—" }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+    {% endif %}
+
+        {% if component["id"] == 479 %}
+    <section class="component-info" id="brother84-mechanism-diagram-f">
+        <h2>📐 Diagram F — Quick Reverse Mechanism</h2>
+        <p>Brother T-8421D · Diagram mekanisme dan daftar suku cadang</p>
+
+        <div style="text-align:center; margin:18px 0;">
+            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-f-quick-reverse-mechanism.png') }}"
+               target="_blank" rel="noopener">
+                <img
+                    src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-f-quick-reverse-mechanism.png') }}"
+                    alt="Diagram F Quick Reverse Mechanism Brother T-8421D"
+                    loading="lazy"
+                    style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;"
+                >
+            </a>
+            <small>Ketuk gambar untuk membuka diagram mekanisme ukuran penuh.</small>
+        </div>
+
+        <h3>Gambar Katalog Part Number — Diagram F</h3>
+        <div style="text-align:center; margin:18px 0;">
+            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-f-parts-catalog.png') }}"
+               target="_blank" rel="noopener">
+                <img
+                    src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-f-parts-catalog.png') }}"
+                    alt="Tabel Part Number Brother T-8421D Diagram F Quick Reverse Mechanism"
+                    loading="lazy"
+                    style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;"
+                >
+            </a>
+            <small>Ketuk gambar untuk membuka tabel katalog ukuran penuh.</small>
+        </div>
+
+        <h3>Daftar Part dan Nomor Referensi</h3>
+        <div class="component-subparts-wrapper">
+            <table class="component-subparts">
+                <thead>
+                    <tr>
+                        <th>Ref.</th>
+                        <th>Part Number</th>
+                        <th>Nama Part</th>
+                        <th>Qty</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for part in sub_parts %}
+                    <tr>
+                        <td>{{ part["catalog_ref"] or "—" }}</td>
+                        <td><strong>{{ part["part_number"] or "—" }}</strong></td>
+                        <td>{{ part["part_name"] or "—" }}</td>
+                        <td>{{ part["quantity_raw"] or part["quantity"] or "—" }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+    {% endif %}
+
+    {% if component["id"] == 480 %}
+    <section class="component-info" id="brother84-mechanism-diagram-g">
+        <h2>📐 Diagram G — Feed Shaft Mechanism</h2>
+        <p>Brother T-8421D · Diagram mekanisme dan daftar suku cadang</p>
+
+        <div style="text-align:center; margin:18px 0;">
+            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-g-feed-shaft-mechanism.png') }}"
+               target="_blank" rel="noopener">
+                <img
+                    src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-g-feed-shaft-mechanism.png') }}"
+                    alt="Diagram G Feed Shaft Mechanism Brother T-8421D"
+                    loading="lazy"
+                    style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;"
+                >
+            </a>
+            <small>Ketuk gambar untuk membuka diagram mekanisme ukuran penuh.</small>
+        </div>
+
+        <h3>Gambar Katalog Part Number — Diagram G</h3>
+        <div style="text-align:center; margin:18px 0;">
+            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-g-parts-catalog.png') }}"
+               target="_blank" rel="noopener">
+                <img
+                    src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-g-parts-catalog.png') }}"
+                    alt="Tabel Part Number Brother T-8421D Diagram G Feed Shaft Mechanism"
+                    loading="lazy"
+                    style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;"
+                >
+            </a>
+            <small>Ketuk gambar untuk membuka tabel katalog ukuran penuh.</small>
+        </div>
+
+        <h3>Daftar Part dan Nomor Referensi</h3>
+        <div class="component-subparts-wrapper">
+            <table class="component-subparts">
+                <thead>
+                    <tr>
+                        <th>Ref.</th>
+                        <th>Part Number</th>
+                        <th>Nama Part</th>
+                        <th>Qty</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for part in sub_parts %}
+                    <tr>
+                        <td>{{ part["catalog_ref"] or "—" }}</td>
+                        <td><strong>{{ part["part_number"] or "—" }}</strong></td>
+                        <td>{{ part["part_name"] or "—" }}</td>
+                        <td>{{ part["quantity_raw"] or part["quantity"] or "—" }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+    {% endif %}
+
+    {% if component["id"] == 481 %}
+    <section class="component-info" id="brother84-mechanism-diagram-h">
+        <h2>📐 Diagram H — Gauge Parts</h2>
+        <p>Brother T-8421D · Diagram dan daftar suku cadang</p>
+
+        <div style="text-align:center; margin:18px 0;">
+            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-h-gauge-parts.png') }}"
+               target="_blank" rel="noopener">
+                <img
+                    src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-h-gauge-parts.png') }}"
+                    alt="Diagram H Gauge Parts Brother T-8421D"
+                    loading="lazy"
+                    style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;"
+                >
+            </a>
+            <small>Ketuk gambar untuk membuka diagram ukuran penuh.</small>
+        </div>
+
+        <h3>Gambar Katalog Part Number — Diagram H</h3>
+        <div style="text-align:center; margin:18px 0;">
+            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-h-parts-catalog.png') }}"
+               target="_blank" rel="noopener">
+                <img
+                    src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-h-parts-catalog.png') }}"
+                    alt="Tabel Part Number Brother T-8421D Diagram H Gauge Parts"
+                    loading="lazy"
+                    style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;"
+                >
+            </a>
+            <small>Ketuk gambar untuk membuka tabel katalog ukuran penuh.</small>
+        </div>
+
+        <h3>Daftar Part dan Nomor Referensi</h3>
+        <div class="component-subparts-wrapper">
+            <table class="component-subparts">
+                <thead>
+                    <tr>
+                        <th>Ref.</th>
+                        <th>Part Number</th>
+                        <th>Nama Part</th>
+                        <th>Qty</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for part in sub_parts %}
+                    <tr>
+                        <td>{{ part["catalog_ref"] or "—" }}</td>
+                        <td><strong>{{ part["part_number"] or "—" }}</strong></td>
+                        <td>{{ part["part_name"] or "—" }}</td>
+                        <td>{{ part["quantity_raw"] or part["quantity"] or "—" }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+    {% endif %}
+
+{% if component["id"] == 482 %}
+    <section class="component-info" id="brother84-mechanism-diagram-j1">
+        <h2>📐 Diagram J1 — Rotary Hook Mechanism</h2>
+        <p>Brother T-8421D · Diagram dan daftar suku cadang</p>
+
+        <div style="text-align:center; margin:18px 0;">
+            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-j1-rotary-hook-mechanism.png') }}"
+               target="_blank" rel="noopener">
+                <img
+                    src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-j1-rotary-hook-mechanism.png') }}"
+                    alt="Diagram J1 Rotary Hook Mechanism Brother T-8421D"
+                    loading="lazy"
+                    style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;"
+                >
+            </a>
+            <small>Ketuk gambar untuk membuka diagram ukuran penuh.</small>
+        </div>
+
+        <h3>Gambar Katalog Part Number — Diagram J1</h3>
+        <div style="text-align:center; margin:18px 0;">
+            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-j1-parts-catalog.png') }}"
+               target="_blank" rel="noopener">
+                <img
+                    src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-j1-parts-catalog.png') }}"
+                    alt="Tabel Part Number Brother T-8421D Diagram J1 Rotary Hook Mechanism"
+                    loading="lazy"
+                    style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;"
+                >
+            </a>
+            <small>Ketuk gambar untuk membuka tabel katalog ukuran penuh.</small>
+        </div>
+
+        <h3>Daftar Part dan Nomor Referensi</h3>
+        <div class="component-subparts-wrapper">
+            <table class="component-subparts">
+                <thead>
+                    <tr>
+                        <th>Ref.</th>
+                        <th>Part Number</th>
+                        <th>Nama Part</th>
+                        <th>Qty</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for part in sub_parts %}
+                    <tr>
+                        <td>{{ part["catalog_ref"] or "—" }}</td>
+                        <td><strong>{{ part["part_number"] or "—" }}</strong></td>
+                        <td>{{ part["part_name"] or "—" }}</td>
+                        <td>{{ part["quantity_raw"] or part["quantity"] or "—" }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+    {% endif %}
+
+{% if component["id"] == 483 %}
+    <section class="component-info" id="brother84-mechanism-diagram-j3">
+        <h2>📐 Diagram J3 — Rotary Hook Mechanism</h2>
+        <p>Brother T-8421D · Diagram dan daftar suku cadang</p>
+
+        <div style="text-align:center; margin:18px 0;">
+            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-j3-rotary-hook-mechanism.png') }}"
+               target="_blank" rel="noopener">
+                <img
+                    src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-j3-rotary-hook-mechanism.png') }}"
+                    alt="Diagram J3 Rotary Hook Mechanism Brother T-8421D"
+                    loading="lazy"
+                    style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;"
+                >
+            </a>
+            <small>Ketuk gambar untuk membuka diagram ukuran penuh.</small>
+        </div>
+
+        <h3>Gambar Katalog Part Number — Diagram J3</h3>
+        <div style="text-align:center; margin:18px 0;">
+            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-j3-parts-catalog.png') }}"
+               target="_blank" rel="noopener">
+                <img
+                    src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-j3-parts-catalog.png') }}"
+                    alt="Tabel Part Number Brother T-8421D Diagram J3 Rotary Hook Mechanism"
+                    loading="lazy"
+                    style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;"
+                >
+            </a>
+            <small>Ketuk gambar untuk membuka tabel katalog ukuran penuh.</small>
+        </div>
+
+        <h3>Daftar Part dan Nomor Referensi</h3>
+        <div class="component-subparts-wrapper">
+            <table class="component-subparts">
+                <thead>
+                    <tr>
+                        <th>Ref.</th>
+                        <th>Part Number</th>
+                        <th>Nama Part</th>
+                        <th>Qty</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for part in sub_parts %}
+                    <tr>
+                        <td>{{ part["catalog_ref"] or "—" }}</td>
+                        <td><strong>{{ part["part_number"] or "—" }}</strong></td>
+                        <td>{{ part["part_name"] or "—" }}</td>
+                        <td>{{ part["quantity_raw"] or part["quantity"] or "—" }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <p class="catalog-note">
+            <strong>Catatan katalog:</strong>
+            Referensi 1+, 2+, 3+, dan 6+ pada katalog Brother T-8421D
+            bergantung pada spesifikasi atau pilihan mesin. Cocokkan nomor
+            part dengan bagian Sp — Different Parts List (halaman 59)
+            sebelum menyatakan part tersebut sesuai untuk mesin ini.
+            Referensi 4 dan 5 ditampilkan berdasarkan data yang sudah
+            tercatat di database.
+        </p>
+    </section>
+    {% endif %}
+
+
+
+{% if component["id"] == 484 %}
+    <section class="component-info" id="brother84-mechanism-diagram-k">
+        <h2>📐 Diagram K — Lower Shaft Mechanism</h2>
+        <p>Brother T-8421D · Diagram dan daftar suku cadang</p>
+
+        <div style="text-align:center; margin:18px 0;">
+            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-k-lower-shaft-mechanism.png') }}"
+               target="_blank" rel="noopener">
+                <img
+                    src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-k-lower-shaft-mechanism.png') }}"
+                    alt="Diagram K Lower Shaft Mechanism Brother T-8421D"
+                    loading="lazy"
+                    style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;"
+                >
+            </a>
+            <small>Ketuk gambar untuk membuka diagram ukuran penuh.</small>
+        </div>
+
+        <h3>Gambar Katalog Part Number — Diagram K</h3>
+        <div style="text-align:center; margin:18px 0;">
+            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-k-parts-catalog.png') }}"
+               target="_blank" rel="noopener">
+                <img
+                    src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-k-parts-catalog.png') }}"
+                    alt="Tabel Part Number Brother T-8421D Diagram K Lower Shaft Mechanism"
+                    loading="lazy"
+                    style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;"
+                >
+            </a>
+            <small>Ketuk gambar untuk membuka tabel katalog ukuran penuh.</small>
+        </div>
+
+        <h3>Daftar Part dan Nomor Referensi</h3>
+        <div class="component-subparts-wrapper">
+            <table class="component-subparts">
+                <thead>
+                    <tr>
+                        <th>Ref.</th>
+                        <th>Part Number</th>
+                        <th>Nama Part</th>
+                        <th>Qty</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for part in sub_parts %}
+                    <tr>
+                        <td>{{ part["catalog_ref"] or "—" }}</td>
+                        <td><strong>{{ part["part_number"] or "—" }}</strong></td>
+                        <td>{{ part["part_name"] or "—" }}</td>
+                        <td>{{ part["quantity_raw"] or part["quantity"] or "—" }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+    {% endif %}
+
+
+
+
+{% if component["id"] == 485 %}
+    <section class="component-info" id="brother84-mechanism-diagram-l">
+        <h2>📐 Diagram L — Lubrication</h2>
+        <p>Brother T-8421D · Diagram dan daftar suku cadang</p>
+
+        <div style="text-align:center; margin:18px 0;">
+            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-l-lubrication.png') }}"
+               target="_blank" rel="noopener">
+                <img
+                    src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-l-lubrication.png') }}"
+                    alt="Diagram L Lubrication Brother T-8421D"
+                    loading="lazy"
+                    style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;"
+                >
+            </a>
+            <small>Ketuk gambar untuk membuka diagram ukuran penuh.</small>
+        </div>
+
+        <h3>Gambar Katalog Part Number — Diagram L</h3>
+        <div style="text-align:center; margin:18px 0;">
+            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-l-parts-catalog.png') }}"
+               target="_blank" rel="noopener">
+                <img
+                    src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-l-parts-catalog.png') }}"
+                    alt="Tabel Part Number Brother T-8421D Diagram L Lubrication"
+                    loading="lazy"
+                    style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;"
+                >
+            </a>
+            <small>Ketuk gambar untuk membuka tabel katalog ukuran penuh.</small>
+        </div>
+
+        <h3>Daftar Part dan Nomor Referensi</h3>
+        <div class="component-subparts-wrapper">
+            <table class="component-subparts">
+                <thead>
+                    <tr>
+                        <th>Ref.</th>
+                        <th>Part Number</th>
+                        <th>Nama Part</th>
+                        <th>Qty</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for part in sub_parts %}
+                    <tr>
+                        <td>{{ part["catalog_ref"] or "—" }}</td>
+                        <td><strong>{{ part["part_number"] or "—" }}</strong></td>
+                        <td>{{ part["part_name"] or "—" }}</td>
+                        <td>{{ part["quantity_raw"] or part["quantity"] or "—" }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+    {% endif %}
+
+
+
+
+
+
+{% if component["id"] == 486 %}
+    <section class="component-info" id="brother84-mechanism-diagram-m">
+        <h2>📐 Diagram M — Threading Mechanism</h2>
+        <p>Brother T-8421D · Diagram dan daftar suku cadang</p>
+
+        <div style="text-align:center; margin:18px 0;">
+            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-m-threading-mechanism.png') }}"
+               target="_blank" rel="noopener">
+                <img
+                    src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-m-threading-mechanism.png') }}"
+                    alt="Diagram M Threading Mechanism Brother T-8421D"
+                    loading="lazy"
+                    style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;"
+                >
+            </a>
+            <small>Ketuk gambar untuk membuka diagram ukuran penuh.</small>
+        </div>
+
+        <h3>Gambar Katalog Part Number — Diagram M</h3>
+        <div style="text-align:center; margin:18px 0;">
+            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-m-parts-catalog.png') }}"
+               target="_blank" rel="noopener">
+                <img
+                    src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-m-parts-catalog.png') }}"
+                    alt="Tabel Part Number Brother T-8421D Diagram M Threading Mechanism"
+                    loading="lazy"
+                    style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;"
+                >
+            </a>
+            <small>Ketuk gambar untuk membuka tabel katalog ukuran penuh.</small>
+        </div>
+
+        <h3>Daftar Part dan Nomor Referensi</h3>
+        <div class="component-subparts-wrapper">
+            <table class="component-subparts">
+                <thead>
+                    <tr>
+                        <th>Ref.</th>
+                        <th>Part Number</th>
+                        <th>Nama Part</th>
+                        <th>Qty</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for part in sub_parts %}
+                    <tr>
+                        <td>{{ part["catalog_ref"] or "—" }}</td>
+                        <td><strong>{{ part["part_number"] or "—" }}</strong></td>
+                        <td>{{ part["part_name"] or "—" }}</td>
+                        <td>{{ part["quantity_raw"] or part["quantity"] or "—" }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+    {% endif %}
+
+{% if component["id"] == 487 %}
+    <section class="component-info" id="brother84-mechanism-diagram-n">
+        <h2>📐 Diagram N — Bobbin Winder Mechanism</h2>
+        <p>Brother T-8421D · Diagram dan daftar suku cadang</p>
+
+        <div style="text-align:center; margin:18px 0;">
+            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-n-bobbin-winder-mechanism.png') }}"
+               target="_blank" rel="noopener">
+                <img
+                    src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-n-bobbin-winder-mechanism.png') }}"
+                    alt="Diagram N Bobbin Winder Mechanism Brother T-8421D"
+                    loading="lazy"
+                    style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;"
+                >
+            </a>
+            <small>Ketuk gambar untuk membuka diagram ukuran penuh.</small>
+        </div>
+
+        <h3>Gambar Katalog Part Number — Diagram N</h3>
+        <div style="text-align:center; margin:18px 0;">
+            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-n-parts-catalog.png') }}"
+               target="_blank" rel="noopener">
+                <img
+                    src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-n-parts-catalog.png') }}"
+                    alt="Tabel Part Number Brother T-8421D Diagram N Bobbin Winder Mechanism"
+                    loading="lazy"
+                    style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;"
+                >
+            </a>
+            <small>Ketuk gambar untuk membuka tabel katalog ukuran penuh.</small>
+        </div>
+
+        <h3>Daftar Part dan Nomor Referensi</h3>
+        <div class="component-subparts-wrapper">
+            <table class="component-subparts">
+                <thead>
+                    <tr>
+                        <th>Ref.</th>
+                        <th>Part Number</th>
+                        <th>Nama Part</th>
+                        <th>Qty</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for part in sub_parts %}
+                    <tr>
+                        <td>{{ part["catalog_ref"] or "—" }}</td>
+                        <td><strong>{{ part["part_number"] or "—" }}</strong></td>
+                        <td>{{ part["part_name"] or "—" }}</td>
+                        <td>{{ part["quantity_raw"] or part["quantity"] or "—" }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+    {% endif %}
+
+
+{% if component["id"] == 488 %}
+    <section class="component-info" id="brother84-mechanism-diagram-p">
+        <h2>📐 Diagram P — Thread Trimmer Mechanism</h2>
+        <p>Brother T-8421D · Daftar suku cadang</p>
+
+        <div style="margin:18px 0; padding:14px; background:#fff8e8; border:1px solid #ead7a2; border-radius:10px;">
+            <strong>Catatan sumber gambar:</strong>
+            Gambar Diagram P dan tabel katalog resmi T-8421D belum
+            ditampilkan karena kecocokan diagram pada dokumen gabungan
+            T-8421D/T-8422D masih perlu diverifikasi.
+            Daftar part di bawah berasal dari data komponen yang tersimpan.
+        </div>
+
+        <h3>Daftar Part dan Nomor Referensi</h3>
+        <div class="component-subparts-wrapper">
+            <table class="component-subparts">
+                <thead>
+                    <tr>
+                        <th>Ref.</th>
+                        <th>Part Number</th>
+                        <th>Nama Part</th>
+                        <th>Qty</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for part in sub_parts %}
+                    <tr>
+                        <td>{{ part["catalog_ref"] or "—" }}</td>
+                        <td><strong>{{ part["part_number"] or "—" }}</strong></td>
+                        <td>{{ part["part_name"] or "—" }}</td>
+                        <td>{{ part["quantity_raw"] or part["quantity"] or "—" }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+{% endif %}
+
+
+{% if component["id"] == 474 %}
+    <section class="component-info" id="brother84-mechanism-diagram-a">
+        <h2>📐 Diagram A — Machine body</h2>
+        <p>Brother T-8421D · Diagram dan daftar suku cadang</p>
+
+        <div style="text-align:center; margin:18px 0;">
+            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-a-machine-body-mechanism.png') }}" target="_blank" rel="noopener">
+                <img src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-a-machine-body-mechanism.png') }}"
+                     alt="Diagram A Machine body Brother T-8421D" loading="lazy"
+                     style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;">
+            </a>
+            <small>Ketuk gambar untuk membuka diagram ukuran penuh.</small>
+        </div>
+
+        <h3>Gambar Katalog Part Number — Diagram A</h3>
+        <div style="text-align:center; margin:18px 0;">
+            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-a-parts-catalog.png') }}" target="_blank" rel="noopener">
+                <img src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-a-parts-catalog.png') }}"
+                     alt="Tabel Part Number Brother T-8421D Diagram A" loading="lazy"
+                     style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;">
+            </a>
+            <small>Ketuk gambar untuk membuka tabel katalog ukuran penuh.</small>
+        </div>
+
+        <h3>Daftar Part dan Nomor Referensi</h3>
+        <div class="component-subparts-wrapper">
+            <table class="component-subparts">
+                <thead>
+                    <tr><th>Ref.</th><th>Part Number</th><th>Nama Part</th><th>Qty</th></tr>
+                </thead>
+                <tbody>
+                    {% for part in sub_parts %}
+                    <tr>
+                        <td>{{ part["catalog_ref"] or "—" }}</td>
+                        <td><strong>{{ part["part_number"] or "—" }}</strong></td>
+                        <td>{{ part["part_name"] or "—" }}</td>
+                        <td>{{ part["quantity_raw"] or part["quantity"] or "—" }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+{% endif %}
+
+
+{% if component["id"] == 489 %}
+    <section class="component-info" id="brother84-mechanism-diagram-s1">
+        <h2>📐 Diagram S1 — Control box</h2>
+        <p>Brother T-8421D · Diagram dan daftar suku cadang</p>
+
+        <div style="text-align:center; margin:18px 0;">
+            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-s1-control-box-mechanism.png') }}" target="_blank" rel="noopener">
+                <img src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-s1-control-box-mechanism.png') }}"
+                     alt="Diagram S1 Control box Brother T-8421D" loading="lazy"
+                     style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;">
+            </a>
+            <small>Ketuk gambar untuk membuka diagram ukuran penuh.</small>
+        </div>
+
+        <h3>Gambar Katalog Part Number — Diagram S1</h3>
+        <div style="text-align:center; margin:18px 0;">
+            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-s1-parts-catalog.png') }}" target="_blank" rel="noopener">
+                <img src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-s1-parts-catalog.png') }}"
+                     alt="Tabel Part Number Brother T-8421D Diagram S1" loading="lazy"
+                     style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;">
+            </a>
+            <small>Ketuk gambar untuk membuka tabel katalog ukuran penuh.</small>
+        </div>
+
+        <h3>Daftar Part dan Nomor Referensi</h3>
+        <div class="component-subparts-wrapper">
+            <table class="component-subparts">
+                <thead>
+                    <tr><th>Ref.</th><th>Part Number</th><th>Nama Part</th><th>Qty</th></tr>
+                </thead>
+                <tbody>
+                    {% for part in sub_parts %}
+                    <tr>
+                        <td>{{ part["catalog_ref"] or "—" }}</td>
+                        <td><strong>{{ part["part_number"] or "—" }}</strong></td>
+                        <td>{{ part["part_name"] or "—" }}</td>
+                        <td>{{ part["quantity_raw"] or part["quantity"] or "—" }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+{% endif %}
+
+
+{% if component["id"] == 490 %}
+    <section class="component-info" id="brother84-mechanism-diagram-s2">
+        <h2>📐 Diagram S2 — Control box</h2>
+        <p>Brother T-8421D · Diagram dan daftar suku cadang</p>
+
+        <div style="text-align:center; margin:18px 0;">
+            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-s2-control-box-mechanism.png') }}" target="_blank" rel="noopener">
+                <img src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-s2-control-box-mechanism.png') }}"
+                     alt="Diagram S2 Control box Brother T-8421D" loading="lazy"
+                     style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;">
+            </a>
+            <small>Ketuk gambar untuk membuka diagram ukuran penuh.</small>
+        </div>
+
+        <h3>Gambar Katalog Part Number — Diagram S2</h3>
+        <div style="text-align:center; margin:18px 0;">
+            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-s2-parts-catalog.png') }}" target="_blank" rel="noopener">
+                <img src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-s2-parts-catalog.png') }}"
+                     alt="Tabel Part Number Brother T-8421D Diagram S2" loading="lazy"
+                     style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;">
+            </a>
+            <small>Ketuk gambar untuk membuka tabel katalog ukuran penuh.</small>
+        </div>
+
+        <h3>Daftar Part dan Nomor Referensi</h3>
+        <div class="component-subparts-wrapper">
+            <table class="component-subparts">
+                <thead>
+                    <tr><th>Ref.</th><th>Part Number</th><th>Nama Part</th><th>Qty</th></tr>
+                </thead>
+                <tbody>
+                    {% for part in sub_parts %}
+                    <tr>
+                        <td>{{ part["catalog_ref"] or "—" }}</td>
+                        <td><strong>{{ part["part_number"] or "—" }}</strong></td>
+                        <td>{{ part["part_name"] or "—" }}</td>
+                        <td>{{ part["quantity_raw"] or part["quantity"] or "—" }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+{% endif %}
+
+{% if component["machine_model"] == "S-6200A" and component["component_name"] == "G. Rotary hook mechanism" and sub_parts %}
+    <section class="component-info" id="s6200a-parts-table">
+        <h2>📋 Daftar Suku Cadang — Brother S-6200A</h2>
+        <p>Ref. katalog, nomor part, nama part, dan kuantitas berdasarkan data PartsBook.</p>
+        <div class="component-subparts-wrapper">
+            <table class="component-subparts">
+                <thead>
+                    <tr>
+                        {% if component["machine_model"] == "S-6200A" and component["component_name"] == "G. Rotary hook mechanism" %}
+                        <th>Varian</th>
+                        {% endif %}
+                        <th>Ref.</th>
+                        <th>Part Number</th>
+                        <th>Nama Part</th>
+                        <th>Qty</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for part in sub_parts %}
+                    <tr>
+                        {% if component["machine_model"] == "S-6200A" and component["component_name"] == "G. Rotary hook mechanism" %}
+                        <td>
+                            {% set variant_note = (part["relation_notes"] or "")|replace(" ", "")|replace("-", "")|lower %}
+                            {% if "for[]03" in variant_note %}
+                                For -[]03
+                            {% elif "for[]05" in variant_note %}
+                                For -[]05
+                            {% else %}
+                                Umum
+                            {% endif %}
+                        </td>
+                        {% endif %}
+                        <td>{{ part["catalog_ref"] if part["catalog_ref"] is not none else "—" }}{% set ref_variant = (part["relation_notes"] or "")|replace(" ", "")|replace("-", "")|lower %}{% if part["catalog_ref"] in [29, 30] and ("for[]03" in ref_variant or "for[]05" in ref_variant) %}+{% endif %}</td>
+                        <td><strong>{{ part["part_number"] or "—" }}</strong></td>
+                        <td>{{ part["part_name"] or "—" }}</td>
+                        <td>{{ part["quantity_raw"] or part["quantity"] or "—" }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+{% endif %}
+
+<section class="component-navigation">
 
         <a href="/machine/{{ component['machine_id'] }}"
            class="component-nav-button">

@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Katalog Sistem Jarum | Garment Tech</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 16px;
+            background: #f3f5f7;
+            color: #222;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+        }
+        header, .system-card {
+            background: white;
+            border-radius: 10px;
+            padding: 18px;
+            margin-bottom: 16px;
+            box-shadow: 0 2px 7px rgba(0,0,0,.08);
+        }
+        h1 { font-size: 24px; margin-top: 0; }
+        h2 { font-size: 20px; margin-top: 0; }
+        .field { margin: 10px 0; overflow-wrap: anywhere; }
+        .label { font-weight: bold; }
+        .status {
+            display: inline-block;
+            padding: 4px 9px;
+            border-radius: 6px;
+            background: #fff1cc;
+            color: #704b00;
+            font-size: 14px;
+        }
+        .link { overflow-wrap: anywhere; }
+        a { color: #075bb5; }
+        .back { display: inline-block; margin-bottom: 12px; }
+        .note {
+            background: #eef5ff;
+            border-left: 4px solid #3974c6;
+            padding: 12px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+<main class="container">
+    <a class="back" href="/">← Kembali ke halaman utama</a>
+
+    <header>
+        <h1>🪡 Katalog Sistem Jarum</h1>
+        <p>
+            Referensi sistem jarum mesin jahit industri berdasarkan data
+            yang tersimpan di Garment Tech.
+        </p>
+        <p><strong>Jumlah data:</strong> {{ systems|length }}</p>
+        <div class="note">
+            Status verifikasi menunjukkan batas bukti yang tersedia.
+            Sistem jarum yang sama belum tentu cocok untuk semua model mesin.
+            Periksa manual resmi mesin sebelum memilih jarum.
+        </div>
+    </header>
+
+    
+    {% if session.get("admin_logged_in") %}
+    <p>
+        <a href="/admin/needle-systems/add"
+           style="display:inline-block;padding:10px 14px;background:#075bb5;color:white;border-radius:6px;text-decoration:none;">
+            + Tambah Sistem Jarum
+        </a>
+        <a href="/admin/needle-series"
+           style="display:inline-block;padding:10px 14px;background:#17652b;color:white;border-radius:6px;text-decoration:none;margin-left:6px;">
+            Kelola Master Seri
+        </a>
+    </p>
+    {% endif %}
+    {% if request.args.get("added") == "1" %}
+    <div class="note" role="status">
+        Sistem jarum berhasil disimpan. Status awal: Belum diverifikasi.
+    </div>
+    {% endif %}
+
+    {% if request.args.get("edited") == "1" %}
+    <div class="note" role="status" style="background:#e7f7e9;color:#17652b;padding:12px;border-radius:6px;margin:12px 0;">
+        ✓ Perubahan sistem jarum berhasil disimpan.
+    </div>
+    {% endif %}
+
+    {% if request.args.get("deleted") == "1" %}
+    <div class="note" role="status" style="background:#e7f7e9;color:#17652b;padding:12px;border-radius:6px;margin:12px 0;">
+        ✓ Sistem jarum berhasil dihapus.
+    </div>
+    {% endif %}
+
+    <section class="system-card">
+        <h2>Cari Sistem Jarum</h2>
+        <div class="field">
+            <label for="needleSearch" class="label">Kata kunci</label>
+            <input id="needleSearch" type="search"
+                   placeholder="Contoh: DB×K5, lockstitch, obras..."
+                   style="width:100%;box-sizing:border-box;padding:12px;border:1px solid #bbb;border-radius:6px;font-size:16px;">
+        </div>
+        <div class="field">
+            <label for="manufacturerFilter" class="label">Filter merek</label>
+            <select id="manufacturerFilter"
+                    style="width:100%;box-sizing:border-box;padding:12px;border:1px solid #bbb;border-radius:6px;font-size:16px;">
+                <option value="">Semua merek</option>
+                <option value="Groz-Beckert">Groz-Beckert</option>
+                <option value="ORGAN">ORGAN</option>
+                <option value="SCHMETZ">SCHMETZ</option>
+                <option value="TNC">TNC</option>
+            </select>
+        </div>
+        <div class="field">
+            <label for="stitchFilter" class="label">Jenis jahitan</label>
+            <select id="stitchFilter"
+                    style="width:100%;box-sizing:border-box;padding:12px;border:1px solid #bbb;border-radius:6px;font-size:16px;">
+                <option value="">Semua jenis</option>
+                <option value="Lockstitch">Lockstitch</option>
+                <option value="Chainstitch">Chainstitch</option>
+                <option value="Belum ditentukan">Belum ditentukan</option>
+            </select>
+        </div>
+
+        <div class="field">
+            <label for="seriesFilter" class="label">Seri jarum</label>
+            <select id="seriesFilter"
+                    style="width:100%;box-sizing:border-box;padding:12px;border:1px solid #bbb;border-radius:6px;font-size:16px;">
+                <option value="">Semua seri</option>
+                {% for item in series %}
+                <option value="{{ item['series_code']|lower }}">
+                    {{ item["series_code"] }} — {{ item["series_name"] }}
+                </option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="field">
+            <label for="machineFilter" class="label">Kategori mesin</label>
+            <select id="machineFilter"
+                    style="width:100%;box-sizing:border-box;padding:12px;border:1px solid #bbb;border-radius:6px;font-size:16px;">
+                <option value="">Semua kategori mesin</option>
+            </select>
+        </div>
+
+        <div style="display:flex;gap:10px;flex-wrap:wrap;margin:14px 0;">
+            <button id="searchButton" type="button"
+                    style="padding:11px 18px;border:0;border-radius:6px;background:#075bb5;color:white;font-size:16px;">
+                🔍 Cari
+            </button>
+            <button id="resetButton" type="button"
+                    style="padding:11px 18px;border:1px solid #999;border-radius:6px;background:white;font-size:16px;">
+                ↺ Reset
+            </button>
+        </div>
+        <p id="searchResult" aria-live="polite"></p>
+    </section>
+
+    {% for item in systems %}
+    <article class="system-card"
+             data-series-code="{{ item['master_series_code'] or '' }}">
+        <h2>{{ item["system_code"] }}</h2>
+
+        <div class="field">
+            <span class="label">Merek:</span>
+            {{ item["manufacturer"] or "Belum dicatat" }}
+        </div>
+
+        <div class="field">
+            <span class="label">Nama alternatif:</span>
+            {{ item["alternative_names"] or "Belum dicatat" }}
+        </div>
+
+        <div class="field">
+            <span class="label">Jenis jahitan:</span>
+            {{ item["stitch_type"] or "Belum ditentukan" }}
+        </div>
+
+        <div class="field">
+            <span class="label">Kategori mesin:</span>
+            {{ item["machine_category"] or "Belum ditentukan" }}
+        </div>
+
+        <div class="field">
+            <span class="label">Deskripsi:</span>
+            {{ item["description"] or "Belum tersedia" }}
+        </div>
+
+        <div class="field">
+            <span class="label">Status verifikasi:</span><br>
+            <span class="status">
+                {{ item["verification_status"] or "Belum diverifikasi" }}
+            </span>
+        </div>
+
+        <div class="field">
+            <span class="label">Catatan verifikasi:</span>
+            {{ item["verification_notes"] or "Belum ada catatan." }}
+        </div>
+
+        <div class="field">
+            <span class="label">Sumber utama:</span><br>
+            {% if item["source_url"] %}
+                <a class="link"
+                   href="{{ item['source_url'] }}"
+                   target="_blank"
+                   rel="noopener noreferrer">Buka sumber utama</a>
+            {% else %}
+                Belum tersedia
+            {% endif %}
+        </div>
+
+        <div class="field">
+            <span class="label">Referensi silang:</span><br>
+            {% if item["reference_url"] %}
+                <a class="link"
+                   href="{{ item['reference_url'] }}"
+                   target="_blank"
+                   rel="noopener noreferrer">Buka referensi silang</a>
+            {% else %}
+                Belum tersedia
+            {% endif %}
+        </div>
+        {% if session.get("admin_logged_in") %}
+        <p>
+            <a href="/admin/needle-systems/{{ item['id'] }}/edit"
+               style="display:inline-block;padding:9px 14px;background:#075bb5;color:white;border-radius:6px;text-decoration:none;">
+                Edit Sistem Jarum
+            </a>
+        </p>
+
+        <form method="post"
+              action="/admin/needle-systems/{{ item['id'] }}/delete"
+              onsubmit="return confirm('Yakin ingin menghapus sistem jarum {{ item['system_code']|e }}? Data yang dihapus tidak dapat dipulihkan dari halaman ini.');"
+              style="margin-top:8px;">
+                    <input type="hidden" name="_csrf_token" value="{{ csrf_token() }}">
+            <button type="submit" name="confirm-delete-needle" value="1"
+                    style="padding:9px 14px;background:#b42318;color:white;border:0;border-radius:6px;">
+                Hapus Sistem Jarum
+            </button>
+        </form>
+        {% endif %}
+    </article>
+    {% else %}
+    <section class="system-card">
+        Belum ada data sistem jarum.
+    </section>
+    {% endfor %}
+
+    <script>
+    const searchInput = document.getElementById("needleSearch");
+    const brandFilter = document.getElementById("manufacturerFilter");
+    const stitchFilter = document.getElementById("stitchFilter");
+    const machineFilter = document.getElementById("machineFilter");
+    const seriesFilter = document.getElementById("seriesFilter");
+
+    const resultText = document.getElementById("searchResult");
+    const searchButton = document.getElementById("searchButton");
+    const resetButton = document.getElementById("resetButton");
+    const cards = Array.from(document.querySelectorAll("article.system-card"));
+
+    // Ambil kategori mesin yang benar-benar tersedia pada kartu data.
+    const machineCategories = new Map();
+
+    cards.forEach(card => {
+        const field = Array.from(card.querySelectorAll(".field"))
+            .find(field => field.querySelector(".label") &&
+                field.querySelector(".label").textContent.includes("Kategori mesin:"));
+
+        const value = field
+            ? field.textContent.replace("Kategori mesin:", "").trim()
+            : "";
+
+        if (value && value.toLocaleLowerCase("id") !== "belum ditentukan") {
+            machineCategories.set(value.toLocaleLowerCase("id"), value);
+        }
+    });
+
+    Array.from(machineCategories.entries())
+        .sort((a, b) => a[1].localeCompare(b[1], "id"))
+        .forEach(([value, label]) => {
+            const option = document.createElement("option");
+            option.value = value;
+            option.textContent = label;
+            machineFilter.appendChild(option);
+        });
+
+    function filterNeedles() {
+        const normalizeSearch = value =>
+            value.toLocaleLowerCase("id").replace(/[x×*]/g, "x");
+
+        const keyword = normalizeSearch(searchInput.value.trim());
+        const hasFilter = Boolean(
+            keyword ||
+            brandFilter.value.trim() ||
+            stitchFilter.value.trim() ||
+            machineFilter.value.trim() ||
+            seriesFilter.value.trim()
+        );
+        const brand = brandFilter.value.trim().toLocaleLowerCase("id");
+        const stitch = stitchFilter.value.trim().toLocaleLowerCase("id");
+        const machine = machineFilter.value.trim().toLocaleLowerCase("id");
+        const series = seriesFilter.value.trim().toLocaleLowerCase("id");
+        let visible = 0;
+
+        cards.forEach(card => {
+            const content = normalizeSearch(
+                card.textContent.toLocaleLowerCase("id")
+            );
+            const cardSeries = (card.dataset.seriesCode || "").trim().toLocaleLowerCase("id");
+            const brandField = card.querySelector(".field");
+            const brandValue = brandField
+                ? brandField.textContent.replace("Merek:", "").trim().toLocaleLowerCase("id")
+                : "";
+
+            const stitchField = Array.from(card.querySelectorAll(".field"))
+                .find(field => field.querySelector(".label") &&
+                    field.querySelector(".label").textContent.includes("Jenis jahitan:"));
+            const stitchValue = stitchField
+                ? stitchField.textContent.replace("Jenis jahitan:", "").trim().toLocaleLowerCase("id")
+                : "";
+
+            const matchesKeyword = content.includes(keyword);
+            const matchesBrand = !brand || brandValue === brand;
+            const matchesStitch = !stitch || stitchValue === stitch;
+
+            const machineField = Array.from(card.querySelectorAll(".field"))
+                .find(field => field.querySelector(".label") &&
+                    field.querySelector(".label").textContent.includes("Kategori mesin:"));
+            const machineValue = machineField
+                ? machineField.textContent.replace("Kategori mesin:", "").trim().toLocaleLowerCase("id")
+                : "";
+
+            const matchesMachine = !machine || machineValue === machine;
+            const matchesSeries = !series || cardSeries === series;
+            const show = matchesKeyword && matchesBrand &&
+                         matchesStitch && matchesMachine && matchesSeries;
+
+            card.hidden = !show;
+            if (show) visible++;
+        });
+
+        resultText.textContent = visible + " data ditampilkan.";
+    }
+
+    searchButton.addEventListener("click", filterNeedles);
+    machineFilter.addEventListener("change", filterNeedles);
+    seriesFilter.addEventListener("change", filterNeedles);
+
+    resetButton.addEventListener("click", () => {
+        searchInput.value = "";
+        brandFilter.value = "";
+        stitchFilter.value = "";
+        machineFilter.value = "";
+        seriesFilter.value = "";
+        filterNeedles();
+    });
+
+    searchInput.addEventListener("keydown", event => {
+        if (event.key === "Enter") {
+            filterNeedles();
+        }
+    });
+
+    filterNeedles();
+    </script>
+
+</main>
+</body>
+</html>

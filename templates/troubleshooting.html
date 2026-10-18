@@ -10,7 +10,7 @@
           href="{{ url_for('static', filename='style.css') }}">
 </head>
 
-<body>
+<body id="troubleshooting">
 
 <header>
     <h1>🔧 TROUBLESHOOTING</h1>
@@ -31,57 +31,71 @@
     </button>
 </form>
 {% endif %}
-<form method="GET" action="/troubleshooting" style="margin-bottom: 20px;">
-            <input
-                type="text"
-                name="search"
-                value="{{ search or '' }}"
-                placeholder="Cari masalah, gejala, penyebab, solusi, atau mesin..."
-                style="width: 100%; box-sizing: border-box;"
-            >
+<form method="GET" action="/troubleshooting"
+      style="margin-bottom: 20px;">
 
-            <br><br>
+    <label for="brand_id"><strong>1. Pilih Brand:</strong></label>
+    <select id="brand_id" name="brand_id" required
+            style="width: 100%; padding: 10px; box-sizing: border-box;"
+            onchange="this.form.submit()">
+        <option value="">Pilih brand</option>
+        {% for brand in brands %}
+        <option value="{{ brand['id'] }}"
+            {% if brand_id == brand['id']|string %}selected{% endif %}>
+            {{ brand['name'] }}
+        </option>
+        {% endfor %}
+    </select>
 
-            <label for="machine_id">
-                <strong>Filter Mesin:</strong>
-            </label>
+    <br><br>
 
-            <select
-                id="machine_id"
-                name="machine_id"
-                style="width: 100%; box-sizing: border-box; padding: 10px;"
-            >
-                <option value="">Semua Mesin</option>
-
-                {% for machine in machines %}
-                <option
-                    value="{{ machine['id'] }}"
-                    {% if machine_id == machine['id']|string %}selected{% endif %}
-                >
-                    {{ machine['brand_name'] }} — {{ machine['model'] }}
-                </option>
-                {% endfor %}
-            </select>
-
-            <br><br>
-
-            <button type="submit" class="add-button">
-                🔎 Cari Troubleshooting
-            </button>
-
-            {% if search or machine_id %}
-            <a href="/troubleshooting" class="back-button">
-                ✖️ Hapus Pencarian
-            </a>
+    <label for="machine_id"><strong>2. Pilih Seri Mesin:</strong></label>
+    <select id="machine_id" name="machine_id" required
+            style="width: 100%; padding: 10px; box-sizing: border-box;"
+            {% if not brand_id %}disabled{% endif %}>
+        <option value="">Pilih seri mesin</option>
+        {% for machine in machines %}
+            {% if brand_id == machine['brand_id']|string %}
+            <option value="{{ machine['id'] }}"
+                {% if machine_id == machine['id']|string %}selected{% endif %}>
+                {{ machine['model'] }}
+            </option>
             {% endif %}
+        {% endfor %}
+    </select>
 
-        </form>
+    <br><br>
+
+    <label for="search">
+        <strong>3. Cari kode error atau gejala:</strong>
+    </label>
+    <input type="text" id="search" name="search"
+           value="{{ search or '' }}"
+           placeholder="Contoh: E71 atau masalah motor"
+           style="width: 100%; box-sizing: border-box; padding: 10px;">
+
+    <br><br>
+
+    <button type="submit" class="add-button">
+        Cari Troubleshooting
+    </button>
+
+    {% if search or machine_id or brand_id %}
+    <a href="/troubleshooting" class="back-button">
+        Hapus Pencarian
+    </a>
+    {% endif %}
+</form>
 
         {% if troubleshooting_data %}
 
             {% for item in troubleshooting_data %}
 
             <div class="machine-card">
+
+                {% if item['code'] %}
+                <p><strong>Kode Error:</strong> {{ item['code'] }}</p>
+                {% endif %}
 
                 <h3>
                     {{ item['problem'] }}
@@ -136,9 +150,11 @@
 
         {% else %}
 
-            <p>
-                Belum ada data troubleshooting.
-            </p>
+            {% if not machine_id %}
+                <p>Silakan pilih model mesin terlebih dahulu untuk mencari troubleshooting.</p>
+            {% else %}
+                <p>Belum ada data troubleshooting untuk model mesin yang dipilih.</p>
+            {% endif %}
 
         {% endif %}
 

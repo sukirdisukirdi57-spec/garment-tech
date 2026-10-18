@@ -3161,6 +3161,21 @@ body:has(.machine-hero) footer {
     gap: 10px;
     margin: 24px 0 18px;
 }
+.industrial-search select {
+    box-sizing: border-box;
+    flex: 0 0 190px;
+    min-width: 0;
+    padding: 14px 12px;
+    border: 2px solid transparent;
+    border-radius: 9px;
+    font-size: 1rem;
+    background: #fff;
+    color: #263445;
+}
+.industrial-search select:focus {
+    outline: 3px solid #8ed5ff;
+    outline-offset: 2px;
+}
 .industrial-search input {
     box-sizing: border-box;
     flex: 1;
@@ -3248,6 +3263,10 @@ body:has(.machine-hero) footer {
 @media (max-width: 520px) {
     .industrial-search {
         flex-direction: column;
+    }
+    .industrial-search select {
+        width: 100%;
+        flex-basis: auto;
     }
     .industrial-search button {
         width: 100%;
@@ -4105,3 +4124,754 @@ body.needle-catalog-page .needle-compat-warning p {
 body.needle-catalog-page .needle-compat-card strong {
     color: #263e50;
 }
+
+/* ===== GARMENTTECH UNIFIED LIGHT INDUSTRIAL THEME ===== */
+:root {
+    --gt-light-bg: #f1f5f9;
+    --gt-light-card: #ffffff;
+    --gt-light-text: #1e293b;
+    --gt-light-muted: #64748b;
+    --gt-light-border: #dbe4ee;
+    --gt-light-blue: #1769aa;
+    --gt-light-radius: 14px;
+}
+
+body {
+    background: var(--gt-light-bg);
+    color: var(--gt-light-text);
+}
+
+/* Header tetap gelap sebagai identitas merek */
+header {
+    background: linear-gradient(135deg, #10243b, #183f63);
+    color: #ffffff;
+}
+
+header h1,
+header a {
+    color: #ffffff;
+}
+
+/* Hero pencarian halaman utama */
+body:has(.industrial-hero) .industrial-hero {
+    background: #ffffff;
+    color: var(--gt-light-text);
+    border: 1px solid var(--gt-light-border);
+    border-radius: var(--gt-light-radius);
+    box-shadow: 0 4px 18px rgba(15, 35, 55, .06);
+}
+
+body:has(.industrial-hero) .industrial-hero h1,
+body:has(.industrial-hero) .industrial-hero h2,
+body:has(.industrial-hero) .industrial-hero h3,
+body:has(.industrial-hero) .industrial-hero p {
+    color: var(--gt-light-text);
+}
+
+body:has(.industrial-hero) .industrial-hero .industrial-eyebrow {
+    color: var(--gt-light-blue);
+}
+
+.industrial-search input,
+.industrial-search select {
+    background: #ffffff;
+    color: var(--gt-light-text);
+    border: 1px solid #cbd5e1;
+    border-radius: 9px;
+}
+
+.industrial-search input::placeholder {
+    color: #94a3b8;
+}
+
+.industrial-search button {
+    background: #1769aa;
+    color: #ffffff;
+    border-radius: 9px;
+}
+
+.industrial-quick-links a {
+    background: #f1f7fc;
+    color: #174b75;
+    border: 1px solid #d6e5f2;
+    border-radius: 9px;
+}
+
+/* Ringkasan database dan statistik */
+body:has(.industrial-hero) .database-overview {
+    background: transparent;
+    color: var(--gt-light-text);
+    box-shadow: none;
+    border: 0;
+}
+
+body:has(.industrial-hero) .database-overview h2,
+body:has(.industrial-hero) .database-overview h3 {
+    color: #173b5c;
+}
+
+body:has(.industrial-hero) .stat-card {
+    background: #ffffff;
+    color: var(--gt-light-text);
+    border: 1px solid var(--gt-light-border);
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(15, 35, 55, .05);
+}
+
+body:has(.industrial-hero) .stat-card strong {
+    color: #1769aa;
+}
+
+body:has(.industrial-hero) .stat-card span {
+    color: var(--gt-light-muted);
+}
+
+body:has(.industrial-hero) .stat-card-link {
+    text-decoration: none;
+}
+
+/* Daftar mesin pada halaman utama */
+body:has(.industrial-hero) .machine-list .machine-card {
+    background: #ffffff;
+    color: var(--gt-light-text);
+    border: 1px solid var(--gt-light-border);
+    border-radius: var(--gt-light-radius);
+    box-shadow: 0 3px 12px rgba(15, 35, 55, .05);
+}
+
+body:has(.industrial-hero) .machine-list .machine-card h3,
+body:has(.industrial-hero) .machine-list .machine-card strong {
+    color: #173b5c;
+}
+
+body:has(.industrial-hero) .machine-list .machine-card p,
+body:has(.industrial-hero) .machine-list .machine-card small {
+    color: var(--gt-light-muted);
+}
+
+body:has(.industrial-hero) .machine-stats span {
+    background: #eef4f9;
+    color: #334155;
+}
+
+/* Kartu merek dan jenis mesin */
+body:has(.industrial-hero) .grid > .card,
+body:has(.industrial-hero) .grid a.card {
+    background: #ffffff;
+    color: var(--gt-light-text);
+    border: 1px solid var(--gt-light-border);
+    border-left: 4px solid #1769aa;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(15, 35, 55, .05);
+}
+
+body:has(.industrial-hero) .grid > .card h3,
+body:has(.industrial-hero) .grid > .card h3 a,
+body:has(.industrial-hero) .grid a.card h3 {
+    color: #173b5c;
+}
+
+body:has(.industrial-hero) .grid > .card p,
+body:has(.industrial-hero) .grid a.card p {
+    color: var(--gt-light-muted);
+}
+
+/* Bagian pengenalan GarmentTech */
+body:has(.industrial-hero) .about-garmenttech {
+    background: #f7f9fc;
+    color: var(--gt-light-text);
+    border: 1px solid var(--gt-light-border);
+    border-radius: var(--gt-light-radius);
+}
+
+body:has(.industrial-hero) .about-garmenttech h2,
+body:has(.industrial-hero) .about-garmenttech h3,
+body:has(.industrial-hero) .about-garmenttech p {
+    color: var(--gt-light-text);
+}
+
+body:has(.industrial-hero) .garmenttech-feature {
+    background: #ffffff;
+    color: var(--gt-light-text);
+    border: 1px solid var(--gt-light-border);
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(15, 35, 55, .04);
+}
+
+/* Hover tetap halus dan seragam */
+@media (hover: hover) {
+    body:has(.industrial-hero) .stat-card-link:hover,
+    body:has(.industrial-hero) .grid a.card:hover,
+    body:has(.industrial-hero) .machine-list .machine-card:hover {
+        border-color: #9fc5e3;
+        box-shadow: 0 8px 22px rgba(23, 105, 170, .10);
+    }
+}
+
+/* Hormati pengaturan gerakan perangkat */
+@media (prefers-reduced-motion: reduce) {
+    body:has(.industrial-hero) *,
+    body:has(.industrial-hero) *::before,
+    body:has(.industrial-hero) *::after {
+        transition: none !important;
+        animation: none !important;
+    }
+}
+/* ===== AKHIR GARMENTTECH UNIFIED LIGHT INDUSTRIAL THEME ===== */
+
+/* ===== GARMENTTECH CENTER SECTION HEADINGS ===== */
+
+/* Judul utama halaman depan */
+body:has(.industrial-hero) .database-overview > h2,
+body:has(.industrial-hero) section > h2#brand-list,
+body:has(.industrial-hero) section > h2#machine-type-list,
+body:has(.industrial-hero) .about-garmenttech > h2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Judul dan subjudul ringkasan database */
+body:has(.industrial-hero) .database-overview > h3 {
+    text-align: center;
+}
+
+/* Judul pengenalan GarmentTech */
+body:has(.industrial-hero) .about-garmenttech > h3 {
+    text-align: center;
+}
+
+/* Isi deskripsi tetap nyaman dibaca */
+body:has(.industrial-hero) .about-garmenttech p {
+    text-align: left;
+}
+
+/* ===== AKHIR GARMENTTECH CENTER SECTION HEADINGS ===== */
+
+/* ===== CENTER HERO TITLE AND SUBTITLE ===== */
+body:has(.industrial-hero) .industrial-hero-content {
+    text-align: center;
+}
+
+body:has(.industrial-hero) .industrial-hero-content h1,
+body:has(.industrial-hero) .industrial-hero-content h2,
+body:has(.industrial-hero) .industrial-hero-content h3,
+body:has(.industrial-hero) .industrial-hero-content p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* ===== END CENTER HERO TITLE AND SUBTITLE ===== */
+
+
+/* Deskripsi hero rata kiri, judul tetap rata tengah */
+body:has(.industrial-hero) .industrial-hero-content p {
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* ===== JUDUL KARTU JENIS MESIN DI TENGAH ===== */
+body:has(.industrial-hero)
+section:has(> h2#machine-type-list) .grid > .card h3 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Deskripsi jenis mesin tetap rata kiri */
+body:has(.industrial-hero)
+section:has(> h2#machine-type-list) .grid > .card p {
+    text-align: left;
+}
+/* ===== AKHIR JUDUL KARTU JENIS MESIN ===== */
+
+/* Deskripsi kartu jenis mesin rata tengah */
+body:has(.industrial-hero)
+section:has(> h2#machine-type-list) .grid > .card p {
+    text-align: center;
+}
+
+/* ===== KARTU JENIS MESIN LEBIH RINGKAS ===== */
+body:has(.industrial-hero)
+section:has(> h2#machine-type-list) .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 12px;
+    align-items: stretch;
+}
+
+body:has(.industrial-hero)
+section:has(> h2#machine-type-list) .grid > .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 14px 12px;
+    min-height: 100px;
+    height: auto;
+}
+
+body:has(.industrial-hero)
+section:has(> h2#machine-type-list) .grid > .card h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.35;
+    margin: 0 0 8px;
+}
+
+body:has(.industrial-hero)
+section:has(> h2#machine-type-list) .grid > .card p {
+    width: 100%;
+    text-align: center;
+    font-size: 0.88rem;
+    line-height: 1.45;
+    margin: 0;
+}
+/* ===== AKHIR KARTU JENIS MESIN ===== */
+
+
+/* ===== JENIS MESIN: GRID RESPONSIF DAN KARTU TERAKHIR DI TENGAH ===== */
+
+/* HP: dua kolom */
+@media (max-width: 600px) {
+    body:has(.industrial-hero)
+    section:has(> h2#machine-type-list) .grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+    }
+
+    /* Jika jumlah kartu ganjil, kartu terakhir berada di tengah */
+    body:has(.industrial-hero)
+    section:has(> h2#machine-type-list) .grid > .card:last-child:nth-child(odd) {
+        grid-column: 1 / -1;
+        justify-self: center;
+        width: calc(50% - 5px);
+    }
+}
+
+/* Tablet dan desktop: kolom menyesuaikan ruang */
+@media (min-width: 601px) {
+    body:has(.industrial-hero)
+    section:has(> h2#machine-type-list) .grid {
+        grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+        gap: 12px;
+    }
+}
+
+/* ===== AKHIR JENIS MESIN RESPONSIF ===== */
+
+/* ===== KARTU OTHER KOSONG DI POJOK KANAN BAWAH ===== */
+@media (max-width: 600px) {
+    body:has(.industrial-hero)
+    section:has(> h2#machine-type-list) .grid > .card-other-empty {
+        grid-column: auto;
+        justify-self: stretch;
+        width: auto;
+    }
+}
+
+/* ===== COMPONENTS PAGE UX IMPROVEMENT ===== */
+
+body.components-page main {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body.components-page main section.welcome {
+    padding: 22px;
+    margin: 20px 0;
+}
+
+body.components-page main section.welcome h2 {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+body.components-page main section.welcome form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px !important;
+}
+
+body.components-page main section.welcome form input[type="text"] {
+    flex: 1 1 260px;
+    width: 100%;
+    min-width: 0;
+    margin-bottom: 0 !important;
+    min-height: 46px;
+}
+
+body.components-page main section.welcome form button,
+body.components-page main section.welcome form a {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+body.components-page main section.machine-card {
+    overflow-wrap: anywhere;
+}
+
+body.components-page section.machine-card h3 {
+    font-size: 1.12rem;
+    line-height: 1.5;
+    margin-top: 0;
+}
+
+body.components-page section.machine-card p {
+    line-height: 1.7;
+}
+
+body.components-page section.machine-card img {
+    display: block;
+    max-width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+    margin: 12px auto !important;
+    border: 1px solid #e5ebf2;
+    border-radius: 10px;
+}
+
+body.components-page .components-card-navigation,
+body.components-page .components-source-link {
+    align-items: stretch;
+}
+
+body.components-page .components-card-navigation a,
+body.components-page .components-source-link a {
+    min-height: 42px;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+body.components-page #components-pagination {
+    gap: 12px;
+}
+
+@media (max-width: 520px) {
+    body.components-page main section.welcome {
+        padding: 16px !important;
+    }
+
+    body.components-page main section.welcome form {
+        align-items: stretch;
+    }
+
+    body.components-page main section.welcome form input[type="text"],
+    body.components-page main section.welcome form button,
+    body.components-page main section.welcome form a {
+        width: 100%;
+        flex-basis: 100%;
+    }
+
+    body.components-page section.machine-card {
+        padding: 15px !important;
+    }
+
+    body.components-page .components-card-navigation {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    body.components-page .components-card-navigation a,
+    body.components-page .components-source-link a {
+        width: 100%;
+    }
+}
+
+/* ===== END COMPONENTS PAGE UX IMPROVEMENT ===== */
+
+
+/* ===== COMPONENT CASCADING FILTER ===== */
+body.components-page .components-filter-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 9px;
+    margin-bottom: 18px;
+}
+body.components-page .components-filter-form label {
+    display: block;
+    margin-top: 5px;
+    font-weight: 700;
+    color: #24364b;
+}
+body.components-page .components-filter-form select,
+body.components-page .components-filter-form input[type="text"] {
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 0;
+    min-height: 46px;
+    margin: 0;
+    padding: 10px 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 9px;
+    background: #fff;
+    color: #1e293b;
+    font: inherit;
+}
+body.components-page .components-filter-form select:disabled {
+    background: #f1f5f9;
+    color: #94a3b8;
+    cursor: not-allowed;
+}
+body.components-page .components-filter-form button,
+body.components-page .components-filter-form a {
+    justify-self: start;
+    margin-top: 5px;
+}
+@media (min-width: 700px) {
+    body.components-page .components-filter-form {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 16px;
+    }
+    body.components-page .components-filter-form label {
+        align-self: end;
+    }
+    body.components-page .components-filter-form button,
+    body.components-page .components-filter-form a {
+        align-self: center;
+    }
+}
+/* ===== END COMPONENT CASCADING FILTER ===== */
+
+/* Tabel part mekanisme Brother T-8421D */
+.component-subparts-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border: 1px solid #dce5ee;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.component-subparts-wrapper .component-subparts {
+    width: 100%;
+    min-width: 680px;
+    border-collapse: collapse;
+}
+
+@media (max-width: 600px) {
+    .component-subparts-wrapper .component-subparts {
+        min-width: 680px;
+    }
+}
+
+
+
+/* TEMA TROUBLESHOOTING - GARMENTTECH UNIFIED LIGHT INDUSTRIAL */
+#troubleshooting {
+    background: var(--gt-light-bg, #f1f5f9);
+    color: var(--gt-light-text, #1e293b);
+}
+
+#troubleshooting header {
+    background: linear-gradient(135deg, #10243b, #183f63);
+    color: #ffffff;
+    border-bottom: 4px solid #1769aa;
+}
+
+#troubleshooting header h1,
+#troubleshooting header p {
+    color: #ffffff;
+}
+
+#troubleshooting main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#troubleshooting .welcome {
+    background: #ffffff;
+    color: #1e293b;
+    border: 1px solid #dbe4ee;
+    border-radius: 14px;
+    box-shadow: 0 4px 18px rgba(15, 35, 55, .06);
+    padding: 20px;
+}
+
+#troubleshooting .welcome h2 {
+    color: #173b5c;
+}
+
+#troubleshooting .welcome p,
+#troubleshooting .machine-card p {
+    color: #64748b;
+}
+
+#troubleshooting .welcome form {
+    padding: 16px;
+    background: #f7f9fc;
+    border: 1px solid #dbe4ee;
+    border-radius: 12px;
+}
+
+#troubleshooting .welcome form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #1e293b;
+}
+
+#troubleshooting .welcome form select,
+#troubleshooting .welcome form input[type="text"] {
+    display: block;
+    min-height: 44px;
+    border: 1px solid #cbd5e1;
+    border-radius: 9px;
+    background: #ffffff;
+    color: #1e293b;
+    font: inherit;
+}
+
+#troubleshooting .welcome form select:focus,
+#troubleshooting .welcome form input[type="text"]:focus {
+    outline: 2px solid #1769aa;
+    outline-offset: 1px;
+    border-color: #1769aa;
+}
+
+#troubleshooting .welcome form select:disabled {
+    background: #f1f5f9;
+    color: #94a3b8;
+    cursor: not-allowed;
+}
+
+#troubleshooting .add-button {
+    background: #1769aa;
+    color: #ffffff;
+    border: 1px solid #1769aa;
+    border-radius: 9px;
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
+#troubleshooting .add-button:hover {
+    background: #105687;
+}
+
+#troubleshooting .back-button {
+    display: inline-block;
+    margin: 8px 0 0 8px;
+    padding: 10px 14px;
+    border-radius: 9px;
+    color: #174b75;
+    background: #f1f7fc;
+    border: 1px solid #d6e5f2;
+    text-decoration: none;
+}
+
+#troubleshooting .back-button:hover {
+    background: #eaf1f6;
+}
+
+#troubleshooting .machine-card {
+    background: #ffffff;
+    color: #1e293b;
+    border: 1px solid #dbe4ee;
+    border-left: 4px solid #1769aa;
+    border-radius: 14px;
+    box-shadow: 0 3px 12px rgba(15, 35, 55, .05);
+    padding: 16px;
+    margin-top: 16px;
+}
+
+#troubleshooting .machine-card h3,
+#troubleshooting .machine-card strong {
+    color: #173b5c;
+}
+
+@media (max-width: 600px) {
+    #troubleshooting main {
+        padding: 12px;
+    }
+
+    #troubleshooting .welcome,
+    #troubleshooting .machine-card {
+        padding: 14px;
+    }
+
+    #troubleshooting .welcome form {
+        padding: 12px;
+    }
+
+    #troubleshooting .back-button {
+        margin-left: 0;
+    }
+}
+
+/* Footer Troubleshooting mengikuti tema terang */
+#troubleshooting footer {
+    background: #dce4ee !important;
+    color: #1e293b !important;
+    border-top: 1px solid #cbd5e1 !important;
+    text-align: center;
+    padding: 20px;
+}
+
+#troubleshooting footer p {
+    color: #1e293b !important;
+}
+
+/* FIX FOOTER KATALOG JARUM - TEMA TERANG LOKAL */
+body.needle-catalog-page footer.needle-footer {
+    background: #f4f7fa !important;
+    color: #405261 !important;
+    border-top: 1px solid #d7e1e8 !important;
+    text-align: center;
+    padding: 24px 16px;
+}
+
+body.needle-catalog-page footer.needle-footer a {
+    color: #205b83 !important;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+/* RINGKASAN KATALOG JARUM */
+body.needle-catalog-page .needle-summary {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+    margin: 0 0 22px;
+}
+
+body.needle-catalog-page .needle-summary-card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 20px 18px;
+    background: #ffffff;
+    border: 1px solid #d7e5ef;
+    border-radius: 14px;
+    box-shadow: 0 4px 14px rgba(25, 65, 95, 0.07);
+}
+
+body.needle-catalog-page .needle-summary-label {
+    color: #596c7c;
+    font-size: 0.9rem;
+}
+
+body.needle-catalog-page .needle-summary-card strong {
+    color: #174f78;
+    font-size: clamp(1.7rem, 5vw, 2.3rem);
+    line-height: 1.2;
+}
+
+@media (max-width: 340px) {
+    body.needle-catalog-page .needle-summary {
+        grid-template-columns: 1fr;
+    }
+}
+

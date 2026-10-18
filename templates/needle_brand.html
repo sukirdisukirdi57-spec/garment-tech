@@ -33,24 +33,62 @@
     </section>
     {% if needles %}
     <section class="needle-results">
-        {% for needle in needles %}
+        {% for system in system_summaries %}
         <article class="needle-card">
-            <h3><a href="/needle/{{ needle['id'] }}">{{ needle['needle_system'] or 'Sistem belum diisi' }}</a></h3>
-            {% if needle['size_nm_value'] is not none %}<p><strong>Ukuran NM:</strong> {{ needle['size_nm_value'] }}</p>{% endif %}
-            {% if needle['manufacturer_size'] %}<p><strong>Nomor produsen:</strong> {{ needle['manufacturer_size'] }}</p>{% endif %}
-            {% if needle['size_nm'] %}<p><strong>Keterangan ukuran:</strong> {{ needle['size_nm'] }}</p>{% endif %}
-            {% if needle['point_code'] %}<p><strong>Kode ujung:</strong> {{ needle['point_code'] }}</p>{% endif %}
-            {% if needle['point_description'] %}<p><strong>Ujung jarum:</strong> {{ needle['point_description'] }}</p>{% endif %}
-            {% if needle['product_code'] %}<p><strong>Kode produk:</strong> {{ needle['product_code'] }}</p>{% endif %}
-            {% if needle['material_application'] %}<p><strong>Bahan / aplikasi:</strong> {{ needle['material_application'] }}</p>{% endif %}
-            {% if needle['description'] %}<p><strong>Keterangan:</strong> {{ needle['description'] }}</p>{% endif %}
-            <p class="needle-status">{{ needle['verification_status'] or 'Belum diverifikasi' }}</p>
-            <a href="/needle/{{ needle['id'] }}">Lihat detail →</a>
+            <h3>{{ system['needle_system'] or 'Sistem belum diisi' }}</h3>
+
+            <p>
+                <strong>Jumlah data ukuran:</strong>
+                {{ system['jumlah_ukuran'] }}
+            </p>
+
+            {% if system['nm_min'] is not none %}
+            <p>
+                <strong>Rentang NM:</strong>
+                {{ system['nm_min'] }}–{{ system['nm_max'] }}
+            </p>
+            {% else %}
+            <p>Rentang NM belum tersedia pada database.</p>
+            {% endif %}
+
+            <details>
+                <summary>Lihat daftar ukuran</summary>
+                <ul>
+                    {% for needle in needles %}
+                    {% if needle['needle_system'] == system['needle_system'] %}
+                    <li>
+                        <a href="/needle/{{ needle['id'] }}">
+                            {% if needle['manufacturer_size'] %}
+                                {{ needle['manufacturer_size'] }}
+                            {% else %}
+                                Data ukuran #{{ needle['id'] }}
+                            {% endif %}
+                        </a>
+
+                        {% if needle['size_nm_value'] is not none %}
+                            — NM {{ needle['size_nm_value'] }}
+                        {% elif needle['size_nm'] %}
+                            — {{ needle['size_nm'] }}
+                        {% endif %}
+
+                        {% if needle['verification_status'] %}
+                            <span class="needle-status">
+                                {{ needle['verification_status'] }}
+                            </span>
+                        {% endif %}
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </details>
         </article>
         {% endfor %}
     </section>
     {% else %}
-    <section class="needle-panel"><h2>Data tidak ditemukan</h2><p>Belum ada data yang cocok dengan pencarian ini.</p></section>
+    <section class="needle-panel">
+        <h2>Data tidak ditemukan</h2>
+        <p>Belum ada data yang cocok dengan pencarian ini.</p>
+    </section>
     {% endif %}
 </main>
 <footer class="needle-footer"><a href="/">Garment Machine Tech Database</a></footer>
