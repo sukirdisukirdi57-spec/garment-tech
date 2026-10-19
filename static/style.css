@@ -4875,3 +4875,68 @@ body.needle-catalog-page .needle-summary-card strong {
     }
 }
 
+
+/* Brother BAS-311HN — D1 Work Clamp Lifter */
+.clamp-d1-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    gap: 20px;
+    align-items: start;
+    margin-top: 18px;
+}
+
+.clamp-d1-diagram {
+    min-width: 0;
+    padding: 12px;
+    background: #fff;
+    border: 1px solid #d5dfe3;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.clamp-d1-diagram a {
+    display: block;
+}
+
+.clamp-d1-diagram img {
+    display: block;
+    width: 100%;
+    height: auto;
+    cursor: zoom-in;
+    border-radius: 6px;
+}
+
+.clamp-d1-table {
+    min-width: 0;
+}
+
+.clamp-d1-table h3 {
+    margin-top: 0;
+}
+
+.clamp-d1-table .component-subparts-wrapper {
+    overflow-x: auto;
+    max-width: 100%;
+}
+
+.clamp-d1-table .component-subparts {
+    width: 100%;
+    min-width: 520px;
+    border-collapse: collapse;
+}
+
+@media (max-width: 800px) {
+    .clamp-d1-layout {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .clamp-d1-diagram {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .clamp-d1-table {
+        width: 100%;
+    }
+}
+

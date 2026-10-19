@@ -1243,12 +1243,17 @@ def component_detail(component_id):
             (component_id,)
         ).fetchall()
 
+    clamp_d1_parts = []
+    if component["machine_id"] == 227 and component["component_name"] == "Sistem Penjepit Bahan (Clamp)":
+        clamp_d1_parts = conn.execute("SELECT * FROM parts WHERE machine_id = ? AND diagram_page = ? ORDER BY CAST(catalog_ref AS INTEGER), id", (227, 23)).fetchall()
+
     conn.close()
 
     return render_template(
         "component_detail.html",
         component=component,
-        sub_parts=sub_parts
+        sub_parts=sub_parts,
+        clamp_d1_parts=clamp_d1_parts
     )
 
 
