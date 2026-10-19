@@ -1221,7 +1221,38 @@
 </section>
 {% endif %}
 
-<section class="component-navigation">
+{% if component["machine_id"] == 227 and component["component_name"] == "Sistem Penjepit Bahan (Clamp)" and clamp_d2_parts %}
+
+<section class="component-info clamp-d1-section">
+    <h2>📐 D2 — Work Clamp Lifter Mechanism</h2>
+    <p>Diagram resmi Brother, halaman katalog 25. Ketuk gambar untuk melihat ukuran penuh.</p>
+    <div class="clamp-d1-layout">
+        <div class="clamp-d1-diagram">
+            <a href="{{ url_for('static', filename='images/mechanisms/brother/bas311hn/d2-work-clamp-lifter.png') }}" target="_blank" rel="noopener noreferrer">
+                <img src="{{ url_for('static', filename='images/mechanisms/brother/bas311hn/d2-work-clamp-lifter.png') }}" alt="Diagram D2 Work Clamp Lifter Mechanism Brother BAS-311HN">
+            </a>
+        </div>
+        <div class="clamp-d1-table">
+            <h3>Daftar Spare Part D2 ({{ clamp_d2_parts|length }} part)</h3>
+            <div class="component-subparts-wrapper">
+                <table class="component-subparts">
+                    <thead><tr><th>Ref.</th><th>Part Number</th><th>Nama Part</th><th>Qty</th></tr></thead>
+                    <tbody>
+                    {% for part in clamp_d2_parts %}
+                    <tr>
+                        <td>{{ part["catalog_ref"] if part["catalog_ref"] is not none else "—" }}</td>
+                        <td><strong>{{ part["part_number"] or "—" }}</strong></td>
+                        <td>{{ part["part_name"] or "—" }}</td>
+                        <td>{{ part["quantity_raw"] or part["quantity"] or "—" }}</td>
+                    </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+{% endif %}<section class="component-navigation">
 
         <a href="/machine/{{ component['machine_id'] }}"
            class="component-nav-button">
