@@ -649,7 +649,8 @@ def components_list():
         params.append(component_id)
 
     if search:
-        for word in search.split():
+        search_terms = [w for w in search.replace("—", " ").replace("–", " ").split() if w]
+        for word in search_terms:
             pattern = f"%{word}%"
             conditions.append(
                 "("
@@ -659,10 +660,16 @@ def components_list():
                 "components.function LIKE ? OR "
                 "components.notes LIKE ? OR "
                 "machines.model LIKE ? OR "
-                "brands.name LIKE ?"
+                "brands.name LIKE ? OR "
+                "EXISTS ("
+                "SELECT 1 FROM component_parts cp "
+                "JOIN parts p ON p.id = cp.part_id "
+                "WHERE cp.component_id = components.id "
+                "AND (p.part_number LIKE ? OR p.part_name LIKE ?)"
+                ")"
                 ")"
             )
-            params.extend([pattern] * 7)
+            params.extend([pattern] * 9)
 
     where_sql = (
         " WHERE " + " AND ".join(conditions) if conditions else ""
@@ -739,7 +746,8 @@ def components_list():
             parts_conditions.append("parts.machine_id = ?")
             parts_params.append(machine_id)
 
-        for word in search.split():
+        search_terms = [w for w in search.replace("—", " ").replace("–", " ").split() if w]
+        for word in search_terms:
             pattern = f"%{word}%"
             parts_conditions.append(
                 "("

@@ -1145,6 +1145,46 @@
     </section>
 {% endif %}
 
+
+{% if component["id"] == 526 and sub_parts %}
+    <section class="component-info" id="bas311hn-needle-mechanism-parts">
+        <h2>📋 Daftar Suku Cadang — Mekanisme Jahit dan Jarum</h2>
+        <p>Brother BAS-311HN-03S · Berdasarkan Parts Book, halaman katalog 3.</p>
+        <p><strong>Catatan:</strong> Opsi bearing pada Ref. 4 adalah pilihan katalog. Pastikan varian yang terpasang pada mesin sebelum memesan pengganti.</p>
+
+        <div class="component-subparts-wrapper">
+            <table class="component-subparts">
+                <thead>
+                    <tr>
+                        <th>Ref.</th>
+                        <th>Part Number</th>
+                        <th>Nama Part</th>
+                        <th>Qty</th>
+                        <th>Keterangan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for part in sub_parts %}
+                    <tr>
+                        <td>{{ part["catalog_ref"] if part["catalog_ref"] is not none else "—" }}</td>
+                        <td><strong>{{ part["part_number"] or "—" }}</strong></td>
+                        <td>{{ part["part_name"] or "—" }}</td>
+                        <td>{{ part["quantity_raw"] or part["quantity"] or "—" }}</td>
+                        <td>
+                            {% if part["relation_type"] == "catalog_option" %}
+                                <strong>Opsi katalog — verifikasi sebelum pemesanan</strong>
+                            {% else %}
+                                —
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+{% endif %}
+
 {% if component["machine_model"] == "S-6200A" and component["component_name"] == "G. Rotary hook mechanism" and sub_parts %}
     <section class="component-info" id="s6200a-parts-table">
         <h2>📋 Daftar Suku Cadang — Brother S-6200A</h2>
@@ -1252,7 +1292,94 @@
         </div>
     </div>
 </section>
-{% endif %}<section class="component-navigation">
+{% endif %}
+
+{% if component["id"] in [539, 540]
+      and component["machine_id"] == 227
+      and sub_parts %}
+<section class="component-info clamp-d1-section"
+         id="bas311hn-d1-d2-detail-parts">
+    {% if component["id"] == 539 %}
+    <h2>📐 D1 — Work Clamp Lifter Mechanism</h2>
+    <p>Brother BAS-311HN-03S · Parts Book, halaman katalog 23.</p>
+    <div class="clamp-d1-layout">
+        <div class="clamp-d1-diagram">
+            <a href="{{ url_for('static', filename='images/mechanisms/brother/bas311hn/d1-work-clamp-lifter.png') }}"
+               target="_blank" rel="noopener noreferrer">
+                <img src="{{ url_for('static', filename='images/mechanisms/brother/bas311hn/d1-work-clamp-lifter.png') }}"
+                     alt="Diagram D1 Work Clamp Lifter Mechanism">
+            </a>
+        </div>
+    {% else %}
+    <h2>📐 D2 — Work Clamp Lifter Mechanism</h2>
+    <p>Brother BAS-311HN-03S · Parts Book, halaman katalog 25.</p>
+    <div class="clamp-d1-layout">
+        <div class="clamp-d1-diagram">
+            <a href="{{ url_for('static', filename='images/mechanisms/brother/bas311hn/d2-work-clamp-lifter.png') }}"
+               target="_blank" rel="noopener noreferrer">
+                <img src="{{ url_for('static', filename='images/mechanisms/brother/bas311hn/d2-work-clamp-lifter.png') }}"
+                     alt="Diagram D2 Work Clamp Lifter Mechanism">
+            </a>
+        </div>
+    {% endif %}
+        <div class="clamp-d1-table">
+            <h3>Daftar Spare Part {{ "D1" if component["id"] == 539 else "D2" }} ({{ sub_parts|length }} part)</h3>
+            <div class="component-subparts-wrapper">
+                <table class="component-subparts">
+                    <thead>
+                        <tr>
+                            <th>Ref.</th>
+                            <th>Part Number</th>
+                            <th>Nama Part</th>
+                            <th>Qty</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    {% for part in sub_parts %}
+                    <tr>
+                        <td>{{ part["catalog_ref"] if part["catalog_ref"] is not none else "—" }}</td>
+                        <td><strong>{{ part["part_number"] or "—" }}</strong></td>
+                        <td>{{ part["part_name"] or "—" }}</td>
+                        <td>{{ part["quantity_raw"] or part["quantity"] or "—" }}</td>
+                    </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+{% endif %}
+
+{% if component["id"] == 538
+      and component["machine_id"] == 227
+      and component["component_name"] == "J - Thread trimmer mechanism"
+      and sub_parts %}
+<section class="component-info" id="bas311hn-thread-trimmer-parts">
+    <h2>📋 Daftar Suku Cadang — J. Thread Trimmer Mechanism</h2>
+    <p>Brother BAS-311HN-03S · Parts Book, halaman katalog 39.</p>
+    <p>Periksa kecocokan nomor part dengan varian mesin sebelum pemesanan.</p>
+    <div class="component-subparts-wrapper">
+        <table class="component-subparts">
+            <thead>
+                <tr><th>Ref.</th><th>Part Number</th><th>Nama Part</th><th>Qty</th></tr>
+            </thead>
+            <tbody>
+                {% for part in sub_parts %}
+                <tr>
+                    <td>{{ part["catalog_ref"] if part["catalog_ref"] is not none else "—" }}</td>
+                    <td><strong>{{ part["part_number"] or "—" }}</strong></td>
+                    <td>{{ part["part_name"] or "—" }}</td>
+                    <td>{{ part["quantity_raw"] or part["quantity"] or "—" }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</section>
+{% endif %}
+
+<section class="component-navigation">
 
         <a href="/machine/{{ component['machine_id'] }}"
            class="component-nav-button">
