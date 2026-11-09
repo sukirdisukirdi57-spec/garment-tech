@@ -1,0 +1,68 @@
+﻿component_name,catalog_ref,part_number,part_name,relation_type,notes
+D1 - Work clamp lifter mechanism,,,,,
+D2 - Work clamp lifter mechanism (311HN-0[]S),,,,,
+E - Lower shaft mechanism,,,,,
+F - Lubrication,,,,,
+G - Threading mechanism,,,,,
+H - Bobbin winder mechanism,,,,,
+J - Thread trimmer mechanism,,,,,
+Mekanisme Jahit dan Jarum,,,,,
+Motor dan Sistem Penggerak,,,,,
+Panel Kontrol dan Elektronik,,,,,
+Q - Motor mechanism and LCD panel,,,,,
+Sepatu Penekan (Presser Foot),,,,,
+Sistem Benang dan Pengatur Tegangan,,,,,
+Sistem Pelumasan,,,,,
+Sistem Penggerak Pola X-Y,,,,,
+Sistem Penjepit Bahan (Clamp),1,SA4759001,STEPPING CLAMP CAM,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 23, catalog ref 1."
+Sistem Penjepit Bahan (Clamp),1,SB4433001,WORK CLAMP ASSY 311H,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 15, catalog ref 1."
+Sistem Penjepit Bahan (Clamp),2,SA4760001,STEPPING CLAMP CON.ROD,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 23, catalog ref 2."
+Sistem Penjepit Bahan (Clamp),2,SB4404001,WORK CLAMP ARM,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 15, catalog ref 2."
+Sistem Penjepit Bahan (Clamp),3,SA4763001,WASHER STEPPING CLAMP CAM,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 23, catalog ref 3."
+Sistem Penjepit Bahan (Clamp),4,SB4424001,WORK CLAMP LIFTER PLATE ASSY,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 25, catalog ref 4."
+Sistem Penjepit Bahan (Clamp),7,SA4736001,WORK CLAMP LIFTER LEVER,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 25, catalog ref 7."
+Sistem Penjepit Bahan (Clamp),7,SA4761001,ROLLER SHAFT STEPPING CLAMP,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 23, catalog ref 7."
+Sistem Penjepit Bahan (Clamp),8,SA4762001,ROLLER STEPPING CLAMP,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 23, catalog ref 8."
+Sistem Penjepit Bahan (Clamp),9,SB4368001,WORK CLAMP LIFTER LEVER R,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 15, catalog ref 9."
+Sistem Penjepit Bahan (Clamp),10,SA4737001,WORK CLAMP LEVER SHAFT B,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 25, catalog ref 10."
+Sistem Penjepit Bahan (Clamp),10,SB4367001,WORK CLAMP LIFTER LEVER L,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 15, catalog ref 10."
+Sistem Penjepit Bahan (Clamp),11,SA4692001,WORK CLAMP LIFTER SHAFT,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 15, catalog ref 11."
+Sistem Penjepit Bahan (Clamp),11,SA4764001,STEPPING CLAMP ARM R,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 23, catalog ref 11."
+Sistem Penjepit Bahan (Clamp),13,SA4765001,STEPPING CLAMP ARM F,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 23, catalog ref 13."
+Sistem Penjepit Bahan (Clamp),16,SA4738001,WORK CLAMP LIFTER LINK,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 25, catalog ref 16."
+Sistem Penjepit Bahan (Clamp),16,SA4766001,BUSH STEPPING CLAMP F,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 23, catalog ref 16."
+Sistem Penjepit Bahan (Clamp),17,SA4767001,BUSH STEPPING CLAMP R,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 23, catalog ref 17."
+Sistem Penjepit Bahan (Clamp),18,SA4739001,WORK CLAMP SPRING,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 25, catalog ref 18."
+Sistem Penjepit Bahan (Clamp),18,SA4768001,STEPPING CLAMP LINK A,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 23, catalog ref 18."
+Sistem Penjepit Bahan (Clamp),20,SB4382001,WORK CLAMP MOTOR PLATE,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 25, catalog ref 20."
+Sistem Penjepit Bahan (Clamp),21,SA4770001,STEPPING CLAMP LINK B,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 23, catalog ref 21."
+Sistem Penjepit Bahan (Clamp),22,SA4772001,STEPPING CLAMP LINK,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 23, catalog ref 22."
+Sistem Penjepit Bahan (Clamp),23,SA4773001,SHAFT STEPPING CLAMP LINK,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 23, catalog ref 23."
+Sistem Penjepit Bahan (Clamp),24,SA4743001,WORK CLAMP DRIVING GEAR,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 25, catalog ref 24."
+Sistem Penjepit Bahan (Clamp),26,SA4744001,WORK CLAMP FULCRUM SHAFT,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 25, catalog ref 26."
+Sistem Penjepit Bahan (Clamp),26,SA4777001,STEPPING CLAMP LIFTER LINK,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 23, catalog ref 26."
+Sistem Penjepit Bahan (Clamp),26,SB4377001,WORK CLAMP LIFTER,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 15, catalog ref 26."
+Sistem Penjepit Bahan (Clamp),27,SA4692001,WORK CLAMP LIFTER SHAFT,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 15, catalog ref 27."
+Sistem Penjepit Bahan (Clamp),27,SA4771001,SHAFT STEPPING CLAMP LIFT LINK,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 23, catalog ref 27."
+Sistem Penjepit Bahan (Clamp),31,SA4745001,WORK CLAMP CAM GEAR,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 25, catalog ref 31."
+Sistem Penjepit Bahan (Clamp),32,SA4779101,STEPPING CLAMP LIFTER,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 23, catalog ref 32."
+Sistem Penjepit Bahan (Clamp),33,SA4781001,ROLLER STEPPING CLAMP LIFTER,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 23, catalog ref 33."
+Sistem Penjepit Bahan (Clamp),34,SA4746001,WORK CLAMP CAM,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 25, catalog ref 34."
+Sistem Penjepit Bahan (Clamp),35,SA4780001,SHAFT STEPPING CLAMP LIFTER,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 23, catalog ref 35."
+Sistem Penjepit Bahan (Clamp),37,SA4864001,WORK CLAMP GUIDE B ASSY,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 15, catalog ref 37."
+Sistem Penjepit Bahan (Clamp),38,SA4747001,WORK CLAMP H-POSITION DOG,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 25, catalog ref 38."
+Sistem Penjepit Bahan (Clamp),38,SA4775101,STEPPING CLAMP LIFTER ROD,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 23, catalog ref 38."
+Sistem Penjepit Bahan (Clamp),39,SA4853001,JOINT STEPPING CLAMP LIFTER,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 23, catalog ref 39."
+Sistem Penjepit Bahan (Clamp),39,SB2131001,WORK CLAMP SLIDER 300G,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 15, catalog ref 39."
+Sistem Penjepit Bahan (Clamp),40,SA4706101,WORK CLAMP RETAINER ASSY,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 15, catalog ref 40."
+Sistem Penjepit Bahan (Clamp),40,SA4748101,WORK CLAMP LEVER SHAFT,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 25, catalog ref 40."
+Sistem Penjepit Bahan (Clamp),41,SB4453001,WORK CLAMP ASSY,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 15, catalog ref 41."
+Sistem Penjepit Bahan (Clamp),42,SA6210001,STEPPING W-CLAMP DRIVING LEVER,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 25, catalog ref 42."
+Sistem Penjepit Bahan (Clamp),43,SA3441101,W-CLAMP LIFTER ROLLER SHAFT,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 25, catalog ref 43."
+Sistem Penjepit Bahan (Clamp),46,SA4778001,PRESSER BAR CLAMP,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 23, catalog ref 46."
+Sistem Penjepit Bahan (Clamp),46,SB4457001,WORK CLAMP 311H ASSY,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 15, catalog ref 46."
+Sistem Penjepit Bahan (Clamp),47,SA4750001,WORK CLAMP DRIVING SHAFT,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 25, catalog ref 47."
+Sistem Penjepit Bahan (Clamp),47,SB4373001,WORK CLAMP SPRING,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 15, catalog ref 47."
+Sistem Penjepit Bahan (Clamp),48,SA3441101,W-CLAMP LIFTER ROLLER SHAFT,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 25, catalog ref 48."
+Sistem Penjepit Bahan (Clamp),53,SA4752001,WORK CLAMP CAM STOPPER,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 25, catalog ref 53."
+Sistem Penjepit Bahan (Clamp),55,SA4753001,WORK CLAMP SENSOR PLATE,catalog_section,"Listed in Brother BAS-311HN/326H Parts Book, diagram page 25, catalog ref 55."

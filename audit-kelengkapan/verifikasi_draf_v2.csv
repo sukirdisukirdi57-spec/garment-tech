@@ -1,0 +1,9 @@
+﻿id,problem,kelengkapan_usulan,kolom_kosong,source_v1_v2_cocok,integrity_database,database_tidak_diubah,status_penerapan
+1,Mesin tidak bisa menjahit,LULUS,,YA,ok,YA - koneksi hanya-baca,BELUM DITERAPKAN
+2,Benang atas sering putus,LULUS,,YA,ok,YA - koneksi hanya-baca,BELUM DITERAPKAN
+3,Benang bawah sering putus,LULUS,,YA,ok,YA - koneksi hanya-baca,BELUM DITERAPKAN
+4,Jahitan loncat,LULUS,,YA,ok,YA - koneksi hanya-baca,BELUM DITERAPKAN
+247,Jahitan terlalu kencang atau terlalu longgar,LULUS,,YA,ok,YA - koneksi hanya-baca,BELUM DITERAPKAN
+248,Jarum sering patah,LULUS,,YA,ok,YA - koneksi hanya-baca,BELUM DITERAPKAN
+249,Kain tidak maju dengan baik,LULUS,,YA,ok,YA - koneksi hanya-baca,BELUM DITERAPKAN
+250,Suara atau getaran mesin tidak normal,LULUS,,YA,ok,YA - koneksi hanya-baca,BELUM DITERAPKAN

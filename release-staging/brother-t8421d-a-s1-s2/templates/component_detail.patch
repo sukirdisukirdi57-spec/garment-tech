@@ -1,0 +1,147 @@
+--- a/templates/component_detail.html
++++ b/templates/component_detail.html
+@@ -995,6 +995,144 @@
+     </section>
+ {% endif %}
+ 
++
++{% if component["id"] == 474 %}
++    <section class="component-info" id="brother84-mechanism-diagram-a">
++        <h2>📐 Diagram A — Machine body</h2>
++        <p>Brother T-8421D · Diagram dan daftar suku cadang</p>
++
++        <div style="text-align:center; margin:18px 0;">
++            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-a-machine-body-mechanism.png') }}" target="_blank" rel="noopener">
++                <img src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-a-machine-body-mechanism.png') }}"
++                     alt="Diagram A Machine body Brother T-8421D" loading="lazy"
++                     style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;">
++            </a>
++            <small>Ketuk gambar untuk membuka diagram ukuran penuh.</small>
++        </div>
++
++        <h3>Gambar Katalog Part Number — Diagram A</h3>
++        <div style="text-align:center; margin:18px 0;">
++            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-a-parts-catalog.png') }}" target="_blank" rel="noopener">
++                <img src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-a-parts-catalog.png') }}"
++                     alt="Tabel Part Number Brother T-8421D Diagram A" loading="lazy"
++                     style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;">
++            </a>
++            <small>Ketuk gambar untuk membuka tabel katalog ukuran penuh.</small>
++        </div>
++
++        <h3>Daftar Part dan Nomor Referensi</h3>
++        <div class="component-subparts-wrapper">
++            <table class="component-subparts">
++                <thead>
++                    <tr><th>Ref.</th><th>Part Number</th><th>Nama Part</th><th>Qty</th></tr>
++                </thead>
++                <tbody>
++                    {% for part in sub_parts %}
++                    <tr>
++                        <td>{{ part["catalog_ref"] or "—" }}</td>
++                        <td><strong>{{ part["part_number"] or "—" }}</strong></td>
++                        <td>{{ part["part_name"] or "—" }}</td>
++                        <td>{{ part["quantity_raw"] or part["quantity"] or "—" }}</td>
++                    </tr>
++                    {% endfor %}
++                </tbody>
++            </table>
++        </div>
++    </section>
++{% endif %}
++
++
++{% if component["id"] == 489 %}
++    <section class="component-info" id="brother84-mechanism-diagram-s1">
++        <h2>📐 Diagram S1 — Control box</h2>
++        <p>Brother T-8421D · Diagram dan daftar suku cadang</p>
++
++        <div style="text-align:center; margin:18px 0;">
++            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-s1-control-box-mechanism.png') }}" target="_blank" rel="noopener">
++                <img src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-s1-control-box-mechanism.png') }}"
++                     alt="Diagram S1 Control box Brother T-8421D" loading="lazy"
++                     style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;">
++            </a>
++            <small>Ketuk gambar untuk membuka diagram ukuran penuh.</small>
++        </div>
++
++        <h3>Gambar Katalog Part Number — Diagram S1</h3>
++        <div style="text-align:center; margin:18px 0;">
++            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-s1-parts-catalog.png') }}" target="_blank" rel="noopener">
++                <img src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-s1-parts-catalog.png') }}"
++                     alt="Tabel Part Number Brother T-8421D Diagram S1" loading="lazy"
++                     style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;">
++            </a>
++            <small>Ketuk gambar untuk membuka tabel katalog ukuran penuh.</small>
++        </div>
++
++        <h3>Daftar Part dan Nomor Referensi</h3>
++        <div class="component-subparts-wrapper">
++            <table class="component-subparts">
++                <thead>
++                    <tr><th>Ref.</th><th>Part Number</th><th>Nama Part</th><th>Qty</th></tr>
++                </thead>
++                <tbody>
++                    {% for part in sub_parts %}
++                    <tr>
++                        <td>{{ part["catalog_ref"] or "—" }}</td>
++                        <td><strong>{{ part["part_number"] or "—" }}</strong></td>
++                        <td>{{ part["part_name"] or "—" }}</td>
++                        <td>{{ part["quantity_raw"] or part["quantity"] or "—" }}</td>
++                    </tr>
++                    {% endfor %}
++                </tbody>
++            </table>
++        </div>
++    </section>
++{% endif %}
++
++
++{% if component["id"] == 490 %}
++    <section class="component-info" id="brother84-mechanism-diagram-s2">
++        <h2>📐 Diagram S2 — Control box</h2>
++        <p>Brother T-8421D · Diagram dan daftar suku cadang</p>
++
++        <div style="text-align:center; margin:18px 0;">
++            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-s2-control-box-mechanism.png') }}" target="_blank" rel="noopener">
++                <img src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-s2-control-box-mechanism.png') }}"
++                     alt="Diagram S2 Control box Brother T-8421D" loading="lazy"
++                     style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;">
++            </a>
++            <small>Ketuk gambar untuk membuka diagram ukuran penuh.</small>
++        </div>
++
++        <h3>Gambar Katalog Part Number — Diagram S2</h3>
++        <div style="text-align:center; margin:18px 0;">
++            <a href="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-s2-parts-catalog.png') }}" target="_blank" rel="noopener">
++                <img src="{{ url_for('static', filename='images/mechanisms/brother/t-8421d/section-s2-parts-catalog.png') }}"
++                     alt="Tabel Part Number Brother T-8421D Diagram S2" loading="lazy"
++                     style="display:block; width:100%; max-width:850px; height:auto; margin:auto; background:#fff; border:1px solid #dce5ee; border-radius:10px;">
++            </a>
++            <small>Ketuk gambar untuk membuka tabel katalog ukuran penuh.</small>
++        </div>
++
++        <h3>Daftar Part dan Nomor Referensi</h3>
++        <div class="component-subparts-wrapper">
++            <table class="component-subparts">
++                <thead>
++                    <tr><th>Ref.</th><th>Part Number</th><th>Nama Part</th><th>Qty</th></tr>
++                </thead>
++                <tbody>
++                    {% for part in sub_parts %}
++                    <tr>
++                        <td>{{ part["catalog_ref"] or "—" }}</td>
++                        <td><strong>{{ part["part_number"] or "—" }}</strong></td>
++                        <td>{{ part["part_name"] or "—" }}</td>
++                        <td>{{ part["quantity_raw"] or part["quantity"] or "—" }}</td>
++                    </tr>
++                    {% endfor %}
++                </tbody>
++            </table>
++        </div>
++    </section>
++{% endif %}
++
+ <section class="component-navigation">
+ 
+         <a href="/machine/{{ component['machine_id'] }}"

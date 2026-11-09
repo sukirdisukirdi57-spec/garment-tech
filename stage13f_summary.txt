@@ -1,0 +1,12 @@
+STAGE 13F — REKAP MASTER AUDIT
+Baris sumber: 79
+Kode unik sumber: 79
+Baris rekap: 79
+Kode unik rekap: 79
+Kode tercakup tepat satu kali: 79
+Kode tanpa deskripsi kandidat: 1
+Kode terverifikasi manual langsung: 0
+Status terjemahan: belum ditinjau menyeluruh
+Database dibuka: tidak
+Database diubah: tidak
+CSV: stage13f_master_audit_79_codes.csv

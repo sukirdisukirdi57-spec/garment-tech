@@ -1,0 +1,4 @@
+﻿local_part_id,local_catalog,part_number,local_part_name,status_awal,keputusan_audit,mekanisme_usulan,rujukan_katalog,catatan_auditor
+12232,1,SA4606201,UPPER SHUFT,KANDIDAT_PART_BARU,IDENTITAS_DIDUKUNG_KATALOG,B - Upper shaft and needle bar mechanism,Katalog resmi Brother BAS-311HN/326H; bagian B,Nama/nomor ditemukan di katalog; kecocokan submodel -03S perlu diverifikasi.
+12283,1,SB4346001,FEED PLATE 311H,KANDIDAT_PART_BARU,IDENTITAS_DIDUKUNG_KATALOG,C5 - Feed mechanism,Katalog resmi Brother BAS-311HN/326H; bagian C5,Feed plate 311H; kecocokan submodel -03S perlu diverifikasi.
+12470,1,SB4389001,TOP COVER 311H,KANDIDAT_PART_BARU,IDENTITAS_DIDUKUNG_KATALOG,H - Bobbin winder mechanism,Katalog resmi Brother; bagian H,Top cover 311H; verifikasi penerapan katalog untuk submodel -03S.

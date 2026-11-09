@@ -1,0 +1,2642 @@
+  DDL-7000A-7 Series
+INSTRUCTION MANUAL
+                                                                 CONTENTS
+
+I. SPECIFICATIONS. ....................................................................................... 1
+       1. Specifications of the sewing machine head. ................................................................................... 1
+       2. Specifications of the control box...................................................................................................... 1
+
+II. SET-UP. ....................................................................................................... 2
+      1. Installation........................................................................................................................................... 2
+      2. Installing the pedal sensor. ............................................................................................................... 3
+      3. Connecting the connector. ................................................................................................................ 4
+      4. Installing the reactor box [Only for the EU type models]. .............................................................. 5
+      5. Installing the power switch................................................................................................................ 6
+      6. Attaching the connecting rod............................................................................................................ 8
+      7. Winding the bobbin thread. ............................................................................................................... 9
+      8. Adjusting the height of the knee lifter. ........................................................................................... 10
+      9. Installing the thread stand............................................................................................................... 10
+     10. Lubrication. ....................................................................................................................................... 11
+     11. Adjusting the amount of oil (oil splashes). .................................................................................... 12
+     12. Attaching the needle. ....................................................................................................................... 14
+     13. Setting the bobbin into the bobbin case. ....................................................................................... 15
+     14. Adjusting the stitch length. ............................................................................................................. 15
+     15. Presser foot pressure....................................................................................................................... 15
+     16. Hand lifter.......................................................................................................................................... 15
+     17. Adjusting the height of the presser bar.......................................................................................... 16
+     18. Threading the machine head........................................................................................................... 16
+     19. Thread tension.................................................................................................................................. 17
+     20. Thread take-up spring...................................................................................................................... 17
+     21. Adjusting the thread take-up stroke. .............................................................................................. 17
+     22. Needle-to-hook relationship. ........................................................................................................... 18
+     23. Height of the feed dog...................................................................................................................... 18
+     24. Tilt of the feed dog............................................................................................................................ 19
+     25. Adjusting the feed timing................................................................................................................. 19
+     26. Counter knife..................................................................................................................................... 20
+     27. Pedal pressure and pedal stroke. ................................................................................................... 20
+     28. Adjustment of the pedal................................................................................................................... 21
+     29. Marker dots on the handwheel........................................................................................................ 21
+
+III. FOR THE OPERATOR. ............................................................................ 22
+      1. Operating procedure of the sewing machine................................................................................. 22
+      2. Operation panel built in the machine head. ................................................................................... 24
+      3. Operating procedure of the sewing pattern................................................................................... 26
+   4. Setting of functions............................................................................................................................... 31
+      5. Digital types operation..................................................................................................................... 33
+      6. Function setting list.......................................................................................................................... 34
+      7. Details of setting of the main functions. ........................................................................................ 37
+      8. Stitch balance of back-tacking for lockstitch machine................................................................. 43
+      9. How to set the machine head and to initialize data
+         (the factory-set state at the time of shipment)............................................................................... 46
+     10. How to use the bobbin counter....................................................................................................... 47
+
+                                                                               i
+11. Initialization of function setting data. ............................................................................................. 48
+12. Password lock................................................................................................................................... 50
+13. About the USB. ................................................................................................................................. 51
+14. List of error codes. ........................................................................................................................... 52
+
+
+
+
+                                                                       ii
+   I. SPECIFICATIONS
+
+  1. Specifications of the sewing machine head
+
+                         Model name                      DDL-7000AS-7                                DDL-7000AH-7
+No.
+        Item                                 Light- to medium-weight materials                  Heavy-weight materials
+                                           Stitch length less than 4mm 5,000sti/min     Stitch length less than 5mm 4,000sti/min
+  1 Max. sewing speed
+                                           Stitch length 4mm or more 4,000sti/min       Stitch length 5mm or more 3,500sti/min
+        Factory-set sewing speed at
+  2                                                       4,000sti/min                                3,500sti/min
+        the time of shipment
+  3 Stitch length                                            5mm                                       5mm( ※ )
+  4 Needle bar stroke                                     30.7±0.5mm                                   35±0.5mm
+                                              Link thread take-up lever 107mm              Link thread take-up lever 112mm
+  5 Thread take-up lever stroke
+                                                       (106 to 112mm)                               (108 to 115mm)
+                                                   DB×1（#14）#14 to 18                           DP×5（#21）#20 to 23
+  6 Needle
+                                                 134(Nm90) Nm90 to Nm110                    134(Nm130) Nm125 to Nm160
+  7 Thread counts that are supported             #60 to #8 (200 to 600dtex)                  #30 to #8 (600 to 1200dtex)
+  8 Amount of lift of the presser foot                          Manual: 5.5 mm, By knee-lifter: 13 mm
+  9 Lubrication                                             Replenishment of oil reservoir (capacity: 450 ml)
+ 10 Lubrication method                                                   Forced lubrication method
+                                                         JUKI CORPORATION OIL 7 (equivalent to ISO VG7) or
+ 11 Lubricating oil
+                                                           NEW DEFRIX OIL No. 1 (equivalent to ISO VG7)
+ 12 Drive system                                                     Main-shaft direct-drive system
+ 13 Electrical box                                                  Integral with the machine head
+ 14 Power switch                                                            3-phase / EU-Type
+ 15 Motor used                                                            AC servomotor, 550 W
+                                                             Distance from machine arm to needle: 260 mm;
+                                                                   height of the machine arm: 130 mm
+ 16 External dimensions
+                                                        Arm size: 432 mm x 105 mm; bed size: 476 mm x 178 mm
+                                                                          Entire length: 603 mm
+        Operating temperature /
+ 17                                                        Temperature：5˚C to 35˚C/ Humidity：35% to 85%
+        humidity range
+ 18 Mass of machine head                                            Completed machine head 34 kg
+        LED light
+ 19                                                              Illumination is adjustable in five steps.
+        (Provided as standard)
+                                                                                          Equivalent continuous emission
+                                           Equivalent continuous emission sound
+                                                                                          sound pressure level (LpA) at the
+                                           pressure level (LpA) at the workstation:
+                                                                                          workstation:
+                                           A-weighted value of 81.0 dBA ; (Includes
+ 20 Noise                                                                                 A-weighted value of 83.0 dBA ; (In-
+                                           KpA = 2.5 dBA) ; according to ISO
+                                                                                          cludes KpA = 2.5 dBA) ; according to
+                                           10821- C.6.2 -ISO 11204 GR2 at 4,000
+                                                                                          ISO 10821- C.6.2 -ISO 11204 GR2
+                                           sti/min.
+                                                                                          at 4,000 sti/min.
+(Caution) Sewing speed differs according to the sewing conditions.
+* Stitch length can be maximized to 7 mm by changing over the feed dial and the throat plate with the optional
+  feed dial (22971402) and the optional throat plate (23645807).
+
+
+  2. Specifications of the control box
+
+                                         Single phase               3-phase 200 to 240V                   Single phase
+Supply voltage
+                                         220 to 240V              Single phase 100 to 120V               220 to 240V CE
+Frequency                                50Hz/60Hz                         50Hz/60Hz                         50Hz/60Hz
+                                  Temperature : 0 to 35˚C          Temperature : 0 to 35˚C           Temperature : 0 to 35˚C
+Operating environment
+                                   Humidity : 90% or less           Humidity : 90% or less            Humidity : 90% or less
+Input                                       210VA                            210VA                            210VA
+
+                                                              –1–
+   II. SET-UP
+
+   1. Installation
+
+
+
+
+1) Carry the sewing machine while holding the           2) Place the sewing machine on a horizontal and
+   machine arm with two persons as shown in the            plane place when placing it and do not place any
+   figure.                                                 protruding thing such as a screwdriver or the like.
+(Caution) Never hold the handwheel since it rotates.
+                                                        3) Adjust so that the oil pan is supported at the four
+                              ❽
+                                                           corners of the table. Mount rubber hinge seat ❽
+                                           ❸               on the table and fix it on the table with a nail.
+         ❸
+
+         ❶                                ❶
+
+
+
+
+                                                        4) Fix two rubber seats ❶ on side A (operator’s
+              ❶          ❹                                 side) using nails ❷ as illustrated above. Fix two
+   23.5mm                           19.5mm
+                                                           cushion seats ❸ on side B (hinged side) using a
+                                                           rubber-based adhesive. Then place oli pan ❹ on
+                                                           the fixed seats.
+
+
+     ❷                                 ❸
+                  A             B
+
+
+
+                                      ❻
+
+
+     ❾
+                                                                
+                                                               
+
+                                                               
+                                     ❼                                        ❽           ❼
+
+5) Fit knee lifter pressing rod ❻ . Fit hinge ❼ into the opening in the machine bed, and fit the machine head
+   to table rubber hinge seat ❽ before placing the machine head on cushions ❾ on the four corners.
+6) Securely attach head support rod  to the table until it goes no further.
+ * Be sure to install the machine head support bar supplied with the unit.
+7) Draw out cable  of the control box through cable draw-out hole  to route it to the underside of the sew-
+   ing machine table.
+
+                                                    –2–
+2. Installing the pedal sensor
+                                   1) Install the pedal sensor to the table with mounting
+                                      screws ❶ supplied with the unit.
+                                      It is necessary to install the pedal sensor at such
+                                      a position that the connecting rod is perpendicular
+                                      to the table.
+                                   2) After the completion of installation of the pedal
+                                      sensor on the table, place the sewing machine
+                                      head on the table.
+               ❶
+
+
+
+
+                                 –3–
+3. Connecting the connector
+
+                 WARNING :
+                 • To protect against personal injury resulting from abrupt start of the sewing machine, be sure to turn
+                   the power OFF, unplug the machine and wait for five minutes or more before installing the pedal
+                   sensor.
+                 • To prevent damage of device caused by maloperation and wrong specifications, be sure to connect
+                   all the corresponding connectors to the specified places. (If any of the connectors is inserted into a
+                   wrong connector, not only the device corresponding to the connector can break but also it can start
+                   abruptly, inviting the risk of personal injury.)
+                 • To prevent personal injury caused by maloperation, be sure to lock the connector with lock.
+                 • Do not connect the power plug until the connection of cords is completed.
+                 • Fix the cords while taking care not to forcibly bend them or excessively clamp them with staples.
+                 • As for the details of handling respective devices, read carefully the Instruction Manuals supplied
+                   with the devices before handling the devices.
+
+
+    Connector                                                                       Do not insert the power plug into
+connection diagram                                                                  the wall outlet.
+ Auto-lifter                                                                        Check to be sure that the power
+                                                                                    switch is turned OFF.
+
+                                               ❶                         1) Connect pedal sensor cable ❶ supplied
+   Solenoid &                                                               with the unit to the control box.
+  LED/TB unit
+                                                                            Refer to the connector connection diagram
+                                                       Eu-type              for connecting ports of the cables.
+
+                                                                                    Be sure to fully insert the con-
+ For upgrading                                                                      nectors into the corresponding
+                                                                                    ports until they are locked.
+      ペダル
+      Pedal
+
+
+
+
+                                                                         2) Secure pedal sensor cable ❶ and AC input
+Underside of the table
+                                                                            cable ❷ with staples ❸ .
+
+                                                                                    The lateral position of the pedal
+                                                                                    sensor should be adjusted so
+
+
+   120mm-130mm
+                                                                                    that the connecting rod is posi-
+                                           Slack                                    tioned straight. Then, secure the
+                                                                                    pedal sensor at that position.
+                    Pedal sensor
+                                                       ❸
+                                ❶
+
+
+                                ❸               ❸
+                                                      ❷
+
+
+
+
+                                                             –4–
+   4. Installing the reactor box [Only for the EU type models]
+
+* For the EU-type models, install the reactor box that is supplied with the sewing machine.
+
+                                                                              1) Remove the reactor box ❶ from the
+                                                                                 accessory box.
+
+
+
+
+                ❶
+
+
+                                                               2) Remove the wood screws ❷ from the accessory
+                                                                  bag and install the reactor box under the table.
+                                                                  (4 screw tightening locations)
+
+
+
+
+       ❷
+
+                                        ❷
+
+
+3) Refer to the figure to install the reactor box ❶ .
+
+
+                                Operator's side
+                                                                  Operator's side
+   Undersurface of table                Power switch                                           15mm
+                                                                                                            ❶
+
+
+
+
+                                                                  Table leg
+                                       ❶
+
+
+
+
+                                              15mm
+                                                                              When installing, carefully check the
+                                                        40mm                  orientation of the reactor box.
+                                                                              If the orientation is wrong, the cable
+                                                                              cannot be connected.
+
+
+
+
+      Connector side               Cable side
+
+
+
+
+                                                          –5–
+  5. Installing the power switch
+
+         WARNING :
+         1. Be sure to attach the ground wire (green/yellow) to the specified location (on the ground side).
+         2. Take care not to allow terminals to come in contact with each other.
+         3. When you close the power switch cover, take care not to allow the cord to be caught under the
+            cover.
+         4. In case you want to use the 3-phase, 200 - 240 V type electrical box for the single-phase, 100 - 120
+            V power supply, contact your nearest JUKI Service Station in prior.
+
+(1) 3-phase 200 to 240V
+                                                         1) Installing the power switch
+                                                            Fix power switch ❶ under the machine table with
+                                   ❸                        wood screws ❷ .
+                                                            Fix the cable with staples ❸ supplied with the ma-
+                                                            chine as accessories in accordance with the forms
+                                                            of use.
+
+     ❶
+                         ❷
+
+
+
+
+                                                                    Do not insert the power plug into the
+                                                                    plug receptacle.
+                                                ❹
+                                                         2) Remove screw ❹ on the side face of the power
+                                                            switch cover to open the power switch cover.
+
+
+
+
+                                                         3) Pass AC input cord ❺ ,through the rear face of
+              ❻                                             the power switch. Bundle the cord with cable clip
+                                                            band ❻ to secure it.
+
+
+
+
+         ❺
+
+
+
+
+                                                    –6–
+4) Securely fix the terminals of the AC input cord by tightening the screws at the specified locations.
+
+
+                        White              White
+             Table
+                                                                         White
+                                               Green/Yellow                        AC200 to 240V
+ Control box                                                             Black
+     Green/Yellow                                                        Red
+                                                                         Green / Yellow (ground wire)
+               Black         Black
+                       Red           Red
+                                        Power switch
+
+          1. Be sure to prepare the power plug ❶ which conforms to the safety standard.
+          2. Be sure to connect the ground lead (green/yellow) to the grounding side.
+          3. The colors of wires to be connected are white, black and red from the top for both sides.
+             Check the wires and secure with screws.
+
+
+5) Close the power switch cover. Tighten screw ❹ on the side face of the power switch cover.
+
+            In case you want to use the 3-phase, 200 - 240 V type electrical box for the single-phase, 100 -
+           120 V power supply, contact your nearest JUKI Service Station in prior.
+
+
+
+
+(2) Single phase 220 to 240V
+                                                                    1. Be sure to prepare the power plug
+                                Blue                                   which conforms to the safety stan-
+                                           AC 220-240V                 dard.
+                                Brown
+                                                                    2. Be sure to connect the ground lead
+                                Green / Yellow
+                                (ground wire)                          (green/yellow) to the grounding side.
+
+
+
+
+                                                           Check that the power switch is in the OFF state.
+                                                           Then, insert the power plug ❼ coming from the pow-
+                                                           er switch into the plug receptacle.
+
+                                                                    In prior to the connection of the power
+                                                                    plug ❼ , re-check the supply voltage
+                                         ❼                          specification indicated on the control
+                                                                    box.
+
+                                                           * The power plug ❼ is different in shape accord-
+                                                             ing to the destination of the sewing machine.
+
+
+
+
+                                                         –7–
+6. Attaching the connecting rod
+
+      WARNING :
+      To protect against possible personal injury due to abrupt start of the machine, be sure to start the
+      following work after turning the power off and a lapse of 5 minutes or more.
+
+                                                     Fix connecting rod ❶ to installing hole ❹ of pedal
+                               ❸     ❹
+                                           ❸         lever ❷ with nut ❸ .
+
+
+
+
+                                      ❶
+
+
+
+
+        ❷
+
+
+
+
+                                                 –8–
+  7. Winding the bobbin thread
+
+                                                        1) Insert the bobbin deep into the bobbin winder
+                                            ❽              spindle ❶ until it will go no further.
+               ❸                                        2) Pass the bobbin thread pulled out from the spool
+              B
+          ❶                                                rested on the right side of the thread stand follow-
+                  A
+                                                           ing the order as shown in the figure on the left.
+                                                           Then, wind clockwise the end of the bobbin thread
+          ❷                                                on the bobbin several times.
+                   C
+                                                           (In case of the aluminum bobbin, after winding
+      ❹                                                    clockwise the end of the bobbin thread, wind
+                                                           counterclockwise the thread coming from the
+                                                           bobbin thread tension several times to wind the
+                                          ❻                bobbin thread with ease.)
+                                                        3) Press the bobbin winding lever ❷ in the direction
+                                        ❼
+                          D                                of A and start the sewing machine. The bobbin
+                                                           rotates in the direction of B and the bobbin thread
+                                         ❻
+                                         ❺                 is wound up. The bobbin winder spindle ❶ auto-
+                          E                                matically as soon as the winding is finished.
+                                                        4) Remove the bobbin and cut the bobbin thread
+                                                           with the thread cut retainer ❸ .
+                                          ❻
+                                                        5) When adjusting the winding amount of the bob-
+                                                           bin thread, loosen setscrew ❹ and move bobbin
+                                                           winding lever ❷ to the direction of A or B. Then
+                                                           tighten setscrew ❹ .
+                                                        		       To the direction of A : Decrease
+                                                        		       To the direction of B : Increase
+6) In case that the bobbin thread is not wound evenly on the bobbin, remove the handwheel, loosen screw ❺
+   and adjust the height of bobbin thread tension ❽ .
+   • It is the standard that the center of the bobbin is as high as the center of thread tension disk ❻ .
+   • Adjust the position of thread tension disk ❻ to the direction of D when the winding amount of the bobbin
+     thread on the lower part of the bobbin is excessive and to the direction E when the winding amount of the
+     bobbin thread on the upper part of the bobbin is excessive.
+   After the adjustment, tighten screw ❺ .
+7) To adjust the tension of the bobbin winder, turn the thread tension nut ❼ .
+
+          1. When winding the bobbin thread, start the winding in the state that the thread between the
+             bobbin and thread tension disk ❻ is tense.
+          2. When winding the bobbin thread in the state that sewing is not performed, remove the nee-
+             dle thread from the thread path of thread take-up and remove the bobbin from the hook.
+          3. There is the possibility that the thread pulled out from the thread stand is loosened due to
+             the influence (direction) of the wind and may be entangled in the handwheel. Be careful of
+             the direction of the wind.
+
+
+
+
+                                                    –9–
+   8. Adjusting the height of the knee lifter
+
+          WARNING :
+           Be sure to turn the power OFF before the following work in order to prevent personal injury due to
+           unintentional starting of the sewing machine.
+
+
+
+
+                              ❶
+                                                                                                      ❷
+                                                                    ❸
+
+
+
+
+1) The standard height of the presser foot lifted using the knee lifter is 10 mm.
+2) You can adjust the presser foot lift up to 13 mm using knee lifter adjust screw ❶ .
+3) When you have adjusted the presser foot lift to over 10 mm, be sure that the bottom end of needle bar ❷
+   in its lowest position does not hit presser foot ❸ .
+
+
+
+  9. Installing the thread stand
+
+                                                        1) Assemble the thread stand unit, and insert it in the
+                                                           hole in the machine table.
+                                                        2) Tighten nut ❶ .
+
+
+
+
+                ❶
+
+
+
+
+                                                   – 10 –
+10. Lubrication
+      WARNING :
+      1. Do not connect the power plug until the lubrication has been completed so as to prevent
+         accidents due to abrupt start of the sewing machine,
+      2. To prevent the occurrence of an inflammation or rash, immediately wash the related portions if
+         oil adheres to your eyes or other parts of your body.
+      3. If oil is mistakenly swallowed, diarrhea or vomitting may occur. Put oil in a place where children
+         cannot reach.
+
+                                                     1) Before starting the sewing machine, fill oil pan ❶
+                                                        with JUKI MACHINE OIL #7 up to HIGH mark A.
+                               A
+                                                     2) Add oil before the oil surface comes down to
+                                                        reach the LOW mark B.
+                                                     3) When you operate the machine after lubrication,
+                                                        you will see splashing oil through oil sight window
+                                B                       ❷ if the lubrication is adequate.
+               ❶                                     4) Note that the amount of the splashing oil is unre-
+                                   ❷
+                                                        lated to the amount of the lubricating oil.
+
+
+
+
+      1. When you use a new sewing machine or a sewing machine after an extended period of dis-
+         use, use the sewing machine after performing break-in at 2,000 sti/min or less.
+      2. For the oil lubrication, purchase JUKI NEW DEFRIX OIL No. 1 (Part No. : MDFRX1600C0) or
+         JUKI MACHINE OIL #7 (Part No. : MML007600CA).
+      3. Be sure to lubricate clean oil.
+      4. When the oil surface is lower than the LOW mark, the oiling may be inconsistent. To prevent
+         inconsistent oiling, add oil before the oil surface comes down to reach the LOW mark.
+
+
+
+
+                                                – 11 –
+ 11. Adjusting the amount of oil (oil splashes)
+
+             WARNING :
+             Be extremely careful about the operation of the machine since the amount of oil has to be checked
+             by turning the hook at a high speed.
+
+(1) Confirmation of the amount of oil in the hook
+
+ ① Amount of oil (oil splashes) confirmation paper                ② Position to confirm the amount of oil (oil splashes)
+
+
+
+
+                                                      3 - 10 mm
+     25 mm
+
+
+                        70 mm                                                                           Closely fit the
+                                                                                                        paper against the
+                                                                                                        wall surface of the
+                                       Oil splashes confirmation paper                                  bed.
+
+
+* When carrying out the procedure described below in 2, remove the slide plate and take extreme caution
+   not to allow your fingers to come in contact with the hook.
+1) If the machine has not been sufficiently warmed up for operation, make the machine run idle for approxi-
+   mately three minutes. (Moderate intermittent operation)
+2) Place the amount of oil (oil spots) confirmation paper under the hook immediately after the machine stops
+   running.
+3) Confirm the height of the oil surface in the oil reservoir is within the range between “HIGH” and “LOW”.
+4) Confirmation of the amount of oil should be completed in five seconds. (Check the period of time with a
+   watch.)
+
+
+(2) Adjusting the amount of oil (oil spots) in the hook
+                                                                  1) Turning the oil amount adjustment screw attached
+                                                                     on the hook driving shaft front bushing in the “+”
+                                                                     direction (in direction A) will increase the amount
+                                                                     of oil (oil spots) in the hook, or in the “–” direction (in
+                                                                     direction B) will decrease it.
+                                B
+                         A                                        2) After the amount of oil in the hook has been
+                                                                     properly adjusted with the oil amount adjustment
+                                                                     screw, make the sewing machine run idle for ap-
+                                                                     proximately 30 seconds to check the amount of oil
+                                                                     in the hook.
+
+
+
+
+                                                     – 12 –
+(3) Sample showing the appropriate amount of oil in the hook
+                                                                 1) The amount of oil shown in the samples on the
+             Appropriate amount of oil (small)
+                                                                    left should be finely adjusted in accordance with
+                         Splashes of oil from the hook
+                                                                    sewing processes.
+                                                                    Be careful not to excessively increase/decrease
+                                                                    the amount of oil in the hook. (If the amount of
+                                                                    oil is too small, the hook will be seized (the hook
+                           1 mm
+                                                                    will be hot). If the amount of oil is too much, the
+                                                                    sewing product may be stained with oil.)
+             Appropriate amount of oil (large)                   2) Adjust the amount of oil in the hook so that the
+                         Splashes of oil from the hook              oil amount (oil splashes) should not change while
+                                                                    checking the oil amount three times (on the three
+                                                                    sheets of paper).
+
+
+                           DDL-7000AS-7：2mm
+                           DDL-7000AH-7：3mm
+
+
+
+
+(4) Confirmation of the amount of oil supplied to the face plate parts
+                                                                 * When carrying out the work described below in 2),
+ ① Amount of oil (oil splashes) confirmation paper
+                                                                    remove the face plate and take extreme caution
+                                                                    not to allow your fingers to come in contact with
+                                                                    the thread take-up lever.
+     25 mm                                                       1) If the machine has not been sufficiently warmed
+                                                                    up for operation, make the machine run idle for
+                             70 mm                                  approximately three minutes. (Moderate intermit-
+                                                                    tent operation)
+                                                                 2) Place the amount of oil (oil spots) confirmation pa-
+ ② Position to confirm the amount of oil                            per under the hook immediately after the machine
+      (oil splashes)
+                                                                    stops running.
+                                                                 3) Confirm the height of the oil surface in the oil
+                                                                    reservoir is within the range between “HIGH” and
+                                                                    “LOW”.
+                                                                 4) The time required for the confirmation of the
+                                                                    amount of oil (oil splashes) should be completed
+   Oil splashes                                                     in ten seconds. (Measure the period of time with a
+   confirmation paper                                               watch.)
+
+
+
+(5) Adjusting the amount of oil supplied to the face plate parts
+                                                                 1) Adjust the amount of oil supplied to the thread
+                                                                    take-up and needle bar crank ❷ by turning adjust
+                                                                    pin ❶ .
+        C            B                                           2) The minimum amount of oil is reached when
+                                                         A          marker dot A is brought close to needle bar crank
+                                                         ❷          ❷ by turning the adjust pin in direction B.
+                ❶
+   maximum minimum                                               3) The maximum amount of oil is reached when
+                                                                    marker dot A is brought to the position just op-
+                                      ❶                             posite from the needle bar crank by turning the
+                                                                    adjust pin in direction C.
+
+
+                                                             – 13 –
+(6) Sample showing the appropriate amount of oil supplied to the face plate parts
+                                                                  1) The state given in the figure shows the appropri-
+  Appropriate amount of oil (small)
+                                                                     ate amount of oil (oil splashes). It is necessary to
+              Splashes of oil from the thread take-up lever
+                                                                     finely adjust the amount of oil in accordance with
+                                                                     the sewing processes. However, do not exces-
+                                                                     sively increase/decrease the amount of oil in the
+                                                                     hook. (If the amount of oil is too small, the hook
+                        1 mm                                         will be seized (the hook will be hot). If the amount
+                                                                     of oil is too much, the sewing product may be
+                                                                     stained with oil.)
+  Appropriate amount of oil (large)
+                                                                  2) Adjust the amount of oil in the hook so that the
+              Splashes of oil from the thread take-up lever
+                                                                     oil amount (oil splashes) should not change while
+                                                                     checking the oil amount three times (on the three
+                                                                     sheets of paper).
+
+                        2 mm
+
+
+
+
+ 12. Attaching the needle
+
+           WARNING :
+            Be sure to turn the power OFF before the following work in order to prevent personal injury due to
+            unintentional starting of the sewing machine.
+
+                                                                  Use the specified needle for the machine. Use the
+                                                                  proper needle in accordance with the thickness of
+                                           D         B            thread used and the kinds of the materials.
+                                                                  1) Turn the handwheel until the needle bar reaches
+                                                          A          the highest point of its stroke.
+                                       C                          2) Loosen screw ❷ , and hold needle ❶ with its
+        ❶
+                                                                     indented part A facing exactly to the right in direc-
+                            ❷                                        tion B.
+                                                                  3) Insert the needle fully into the hole in the needle
+                                                                     bar in the direction of the arrow until the end of
+                                                                     hole is reached.
+                                                                  4) Securely tighten screw ❷ .
+                                                                  5) Check that long groove C of the needle is facing
+                                                                     exactly to the left in direction D.
+
+          When polyester filament thread is used, if the indented part of the needle is tilted toward opera-
+          tor's side, the loop of thread becomes unstable. As a result, hangnail of thread or thread break-
+          age may occur. For the thread that such phenomenon is likely to occur, it is effective to attach
+          the needle with its indented part slightly slanting on the rear side.
+
+
+
+
+                                                              – 14 –
+13. Setting the bobbin into the bobbin case
+                                          1) Pass the thread through thread slit A, and pull the
+                           A                 thread in direction C. By so doing, the thread will
+                                             pass under the tension spring and come out from
+                                             notch B.
+                                          2) Check that the bobbin rotates in the direction of
+                                             the arrow when thread is pulled.
+               B
+
+
+
+
+                   C
+
+
+14. Adjusting the stitch length
+
+                               A          * The dial calibration is in millimeters.
+                                          1) Turn stitch length dial ❶ in the direction of the
+                                             arrow, and align the desired number to marker dot
+                                             A on the machine arm.
+
+
+               ❶
+
+
+
+
+15. Presser foot pressure
+                                          1) Loosen nut ❷ . As you turn presser spring regula-
+                   B   A                     tor ❶ clockwise (in direction A), the presser foot
+                           ❶                 pressure will be increased.
+                                          2) As you turn the presser spring regulator count-
+ 29 to 32 mm
+                                             er-clockwise (in direction B), the pressure will be
+                                             decreased.
+                                          3) After adjustment, tighten nut ❷ .
+                       ❷
+                                          The standard value of the pressure regulating thumb
+                                          screw is 29 to 32 mm.
+
+
+
+
+16. Hand lifter
+                                          1) The presser foot is lifted by moving the lever up-
+                                             ward.
+                                          2) The presser foot is lowered by moving the lever
+                                             downward.
+
+
+
+
+                                      – 15 –
+17. Adjusting the height of the presser bar
+
+       WARNING :
+       Be sure to turn the power OFF before the following work in order to prevent personal injury due to
+       unintentional starting of the sewing machine.
+
+                                                    1) Loosen setscrew ❶ , and adjust the presser bar
+                                                       height or the angle of the presser foot.
+                                                    2) After adjustment, securely tighten the setscrew ❶ .
+                             ❶
+
+
+
+
+18. Threading the machine head
+
+       WARNING :
+       Be sure to turn the power OFF before the following work in order to prevent personal injury due to
+       unintentional starting of the sewing machine.
+
+
+
+
+                                               – 16 –
+19. Thread tension
+                                                     (1) Adjusting the needle thread tension
+                                                     1) The length of thread remaining at the needle tip
+                ❶
+                                                        after thread trimming is shortened by turning ten-
+                                                        sion regulating nut No. 1 ❶ clockwise in direction
+                                                        A.
+                                                     2) It is lengthened by turning the nut counterclock-
+            B       A            E       F              wise in direction B.
+                             ❸                       3) The needle thread tension is increased by turning
+                                                        tension regulating nut No. 2 ❷ clockwise in direc-
+                                                        tion C.
+                    ❷                                4) It is decreased by turning the nut counterclock-
+                                                        wise in direction D.
+                                                     (2) Adjusting the bobbin thread tension
+                    C
+                                                     1) The bobbin thread tension is increased by turning
+                D                                       tension regulating screw ❸ clockwise in direction
+                                                        E.
+                                                     2) It is decreased by turning the screw counterclock-
+                                                        wise in direction F.
+
+
+20. Thread take-up spring
+                                                     (1) Changing the stroke of thread take-up spring ❶
+                                         ❺   ❹       1) Loosen setscrew ❷ .
+                     ❶                               2) As you turn tension post ❸ clockwise (in direction
+                                                        A), the stroke of the thread take-up spring will be
+                        ❷                               increased.
+ A                                                   3) As you turn the knob counterclockwise (in direc-
+ B                                                      tion B), the stroke will be decreased.
+                                                     (2) Changing the pressure of thread take-up
+                ❸                     ❶                 spring ❶
+                                                     1) Loosen setscrew ❷ , and remove thread tension
+                                                        ❸.
+                                                     2) Loosen setscrew ❹ .
+                                                     3) As you turn tension post ❸ clockwise (in direction
+                                                        A), the pressure will be increased.
+                                                     4) As you turn the tension post counterclockwise (in
+                                                        direction B), the pressure will be decreased.
+
+
+
+21. Adjusting the thread take-up stroke
+
+       WARNING :
+       Be sure to turn the power OFF before the following work in order to prevent personal injury due to
+       unintentional starting of the sewing machine.
+
+                                                     1) When sewing heavy-weight materials, move
+                    AB                                  thread guide ❶ to the left (in direction A) to
+                                                        increase the length of thread pulled out by the
+                                 ❶
+                                                        thread take-up.
+                                                     2) When sewing light-weight materials, move thread
+                                     C
+                                                        guide ❶ to the right (in direction B) to decrease
+                                                        the length of thread pulled out by the thread take-
+                                                        up.
+                                                     3) Normally, thread guide ❶ is positioned in a way
+                                                        that marker line C is aligned with the center of the
+                                                        screw.
+
+                                                 – 17 –
+22. Needle-to-hook relationship
+
+       WARNING :
+       Be sure to turn the power OFF before the following work in order to prevent personal injury due to
+       unintentional starting of the sewing machine.
+
+                                                    (1) Adjust the timing between the needle and the
+                                                       hook as follows :
+                                                    1) Turn the handwheel to bright the needle bar down
+                                                       to the lowest point of its stroke, and loosen set-
+                    ❶      A                           screw ❶ .
+                           B
+                                                    (Adjusting the needle bar height)
+                                                    2) Align marker line A on needle bar ❷ with the
+                                                       bottom end of needle bar lower bushing ❸ , then
+                                                       tighten setscrew ❶ .
+                                           D        (Adjusting position of the hook a)
+                                                    3) Loosen the three hook setscrews, turn the hand-
+                                                       wheel and align marker line B on ascending nee-
+                      ❹                                dle bar ❷ with the bottom end of needle bar lower
+                       ❺
+       ❸                                               bushing ❸ .
+                                                    4) After making the adjustments mentioned in the
+       A          B
+                                                       above steps, align hook blade point ❺ with the
+       ❷                                               center of needle ❹ . Provide a clearance of 0.04
+                                           a           mm to 0.1 mm (reference value) between the nee-
+                                                       dle and the hook, then securely tighten setscrews
+                        Dimension D (mm)
+                                                       in the hook.
+     DDL-7000AS-7       0.04 to 0.10
+     DDL-7000AH-7       0.12 to 0.20
+
+
+
+       If the clearance between the blade point of hook and the needle is smaller than the specified
+       value, the blade point of hook will be damaged.  If the clearance is larger, stitch skipping will
+       result.
+
+
+
+
+23. Height of the feed dog
+
+       WARNING :
+       Be sure to turn the power OFF before the following work in order to prevent personal injury due to
+       unintentional starting of the sewing machine.
+
+                                                    To adjust the height of the feed dog :
+      ❶                                             ① Loosen screw ❷ of crank ❶ .
+                                                    ② Move the feed bar up or down to make adjust-
+                                                      ment.
+                                                    ③ Securely tighten screw ❷ .
+                        ❷
+                                                              If the clamping pressure is insufficient,
+                                                              the motion of the forked portion becomes
+                                                              heavy.
+       0.75 to 0.85 mm (DDL7000AS-7)
+       1.15 to 1.25 mm (DDL7000AH-7)
+
+
+
+
+                                               – 18 –
+24. Tilt of the feed dog
+
+        WARNING :
+        Be sure to turn the power OFF before the following work in order to prevent personal injury due to
+        unintentional starting of the sewing machine.
+
+                                                           1) The standard tilt (horizontal) of the feed dog is
+        B                                                     obtained when marker dot A on the feed bar shaft
+    A                           a
+                                                              is aligned with marker dot B on feed rocker ❶ .
+                                b                 d        2) To tilt the feed dog with its front up in order to
+                                                              prevent puckering, loosen the setscrew, and turn
+                                c                             the feed bar shaft 90˚ in the direction of the arrow,
+                  ❶                                           using a screwdriver.
+                                                           3) To tilt the feed dog with its front down in order to
+a Front up     b Standard
+c Front down   d Throat plate
+                                                              prevent uneven material feed, turn the feed bar
+                                                              shaft 90˚ in the opposite direction from the arrow.
+
+                                                                     Whenever the feed dog tilt is adjusted,
+                                                                     the feed dog height will be changed. So,
+                                                                     it is necessary to check the height after
+                                                                     tilt adjustment.
+
+
+
+
+25. Adjusting the feed timing
+
+        WARNING :
+        Be sure to turn the power OFF before the following work in order to prevent personal injury due to
+        unintentional starting of the sewing machine.
+
+                                                           1) Loosen screws ❷ and ❸ in feed eccentric cam
+                                Standard feed timing
+    ❶                                                         ❶ , move the feed eccentric cam in the direction
+❷                                                             of the arrow or opposite direction of the arrow, and
+                                                              firmly tighten the screws.
+                            Advanced feed timing
+                                                           2) For the standard adjustment, adjust so that the
+                                                              top surface of feed dog and the top end of needle
+                                                              eyelet are flush with the top surface of throat plate
+    ❸                           Delayed feed timing           when the feed dog descends below the throat plate.
+                                                           3) To advance the feed timing in order to prevent un-
+                                                              even material feed, move the feed eccentric cam
+                                                              in the direction of the arrow.
+                                                           4) To delay the feed timing in order to increase stitch
+                                                              tightness, move the feed eccentric cam in the
+                                                              opposite direction from the arrow.
+
+                                                                     Be careful not to move the feed eccentric
+                                                                     cam too far, or else needle breakage may
+                                                                     result.
+
+
+
+
+                                                       – 19 –
+ 26. Counter knife
+
+            WARNING :
+             Be sure to turn the power OFF before the following work in order to prevent personal injury due to
+             unintentional starting of the sewing machine.
+
+
+            When sharpening again the knife ❶ blade, extra special care must be taken on the handling of
+            the knife.
+
+
+    Fig A                                                      ❸                                     ❹
+                    ❶
+
+                                           ❷                                    ❶
+
+
+
+
+              Oil Stone
+
+ * In the case the thread cannot be trimmed sharply, re-sharpen counter knife ❶ as illustrated in Fig. A be-
+   fore the knife has become dull and re-place it correctly.
+1) Loosen setscrew ❸ of bobbin case opening lever ❷ , and remove the bobbin case opening lever.
+2) Loosen setscrew ❹ , and remove counter knife ❶ .
+3) To install the counter knife ❶ , follow the above procedure in reverse order.
+
+
+
+
+ 27. Pedal pressure and pedal stroke
+
+            WARNING :
+             Be sure to turn the power OFF before the following work in order to prevent personal injury due to
+             unintentional starting of the sewing machine.
+
+                 For General Application                  Adjust the force required to operate the foot pedal
+                               B                          Spring A : Downward force adjustment
+                                                          Bolt B : Heeling back force adjustment
+                                                          Hole C : Pedal stroke adjustment
+
+
+
+                                       C
+
+                        A
+
+
+
+
+                                                     – 20 –
+28. Adjustment of the pedal
+
+       WARNING :
+       Be sure to turn the power OFF before the following work in order to prevent personal injury due to
+       unintentional starting of the sewing machine.
+
+                                                    (1) Installing the connecting rod
+                                                    1) Move pedal ❸ to the right or left as illustrated by
+                                                       the arrows so that motor control lever ❶ and con-
+                                                       necting rod ❷ are straightened.
+
+                                                    (2) Adjusting the pedal angle
+                                       ❺            1) The pedal tilt can be freely adjusted by changing
+                                                       the length of the connecting rod.
+        ❶
+                                                    2) Loosen adjust screw ❹ , and adjust the length of
+                                           ❹
+         ❷                                             connecting rod ❺ .
+
+
+
+
+                                         ❸
+
+
+
+
+29. Marker dots on the handwheel
+                                                    The upper stop position of the needle bar is the po-
+                                                    sition at which marker dot ❶ on the cover is aligned
+                                    ❷(White)        with white marker dot ❷ on the handwheel.
+                 ❶                  ❸(Green)        With respect to the operating timing of the thread
+                                                    trimming cam, the thread trimming cam operates at
+                                    ❺(Red)          the time when marker dot ❶ on the cover is aligned
+                                                    with green marker dot ❸ on the handwheel.
+
+
+
+
+                                               – 21 –
+   III. FOR THE OPERATOR
+   1. Operating procedure of the sewing machine
+* The switch configuration differs with the specifications.
+                                                              1) Turning the power ON with the power switch
+  Single phase 220 to 240V
+                                                                 The power to the sewing machine is placed in the
+                                                                 ON state when the "|" mark side of power switch
+                                                                 ❶ (1ø 220 - 240V type) is pressed; or in the OFF
+                                                                 state when the "0" mark side is pressed.
+
+
+                                                                The power to the sewing machine is placed in the
+                                                                ON state when the ON button of power switch ❷
+                                                                (3ø 200 - 240V type) is pressed; or in the OFF
+                                                                state when the OFF button is pressed.
+                                               ❶
+                                                                The power to the sewing machine is placed in the
+                                                                ON state when the knob of power switch ❸ (EU
+   3-phase 200 to 240V,                                         type, 1ø 220 - 240V type) is turned by 90 degrees
+   Single phase 100 to 120V                                     counterclockwise; or in the OFF state when it is
+                                                                turned clockwise to return to its home position.
+
+                                                                        1. Do not strongly tap the power switch
+                                                                           by hand.
+                                                                        2. If the power indicator LED on the
+                                                                           panel does not light up after having
+                                                                           turned ON the power switch, immedi-
+        ❷
+                                                                           ately turn OFF the power switch and
+                                                                           check the supply voltage.
+   EU-Type model                                                           When you want to re-turn ON power
+   Single phase 220 to 240V                                                switch after carrying out the afore-
+                                                                           mentioned steps, it is necessary to
+                                                                           wait for five minutes or more after
+                                                                           you have turned OFF power switch.
+                                                                        3. Do not place your hand or anything
+                                                                           under the needle since the needle bar
+                                ❸                                          may automatically move according
+                                                                           to the memory switch setting when
+                                                                           you turn ON the power to the sewing
+                                                                           machine.
+
+
+
+                                                              2) When you depress the back part of pedal, the
+                                                                 needle bar and the presser lifting motor carry out
+                                                                 their initial operation to allow the sewing machine
+                                                                 to start sewing.
+
+                                                                        If you attempt to start sewing without
+                                                                        depressing the back part of pedal, the
+                                                                        warning message screen will be dis-
+                                                                        played. To prevent this, be sure to start
+                                                                        sewing after depressing the back part of
+                < Origin retrieval screen >                             pedal.
+
+                                                       – 22 –
+                                                          3) The pedal is operated in the following four steps:
+                                                           a.The machine runs at low sewing speed when you
+                                                              lightly depress the front part of the pedal. ❹
+         ❻                                                 b.The machine runs at high sewing speed when you
+       ❺                                                      further depress the front part of the pedal. ❺
+                                                              (If the automatic reverse feed stitching has been
+      ❹
+                                                              preset, the machine runs at high speed after it
+                                                              completes reverse feed stitching.)
+                                                           c. The machine stops (with its needle up or down)
+                                                              when you reset the pedal to its original position.
+d.The machine trims threads when you fully depress the back part of the pedal. ❻
+ * When the auto-lifer (AK device) is used, one more operating switch is provided between the sewing ma-
+   chine stop switch and thread trimming switch. The presser foot goes up when you lightly depress the back
+   part of the pedal ❺ , and if you further depress the back part ❻ , the thread trimmer is actuated.
+
+                                                         4) Reverse feed stitching at the beginning of sewing,
+                                                            reverse feed stitching at the end of sewing and
+                                                            various sewing patterns can be set on built-in pan-
+                                                            el ❼ of the machine head.
+
+
+                                                 ❼
+
+
+
+
+                                                         5) When one-touch type reverse feed switch ❽ is
+                                                            pressed, the sewing machine performs reverse
+                                                            feed stitching.
+                                                            Intensity adjustment and turn-off of the light is
+                                                            carried out by pressing switch ❾ . Every time the
+                                                            switch is pressed, the light is adjusted in intensity
+                                                            in five steps and is turned off in turn.
+                                          ❾              [Change of intensity]
+          ❽
+                                                             1     ⇒ ...... 4 ⇒ 5 ⇒ 6
+                                                          Bright ⇒ ...... Dim ⇒ Off ⇒ Bright
+                                                         In this way, every time the switch ❾ is pressed, the
+                                                         hand lamp status is changed in repetition.
+
+6) After the completion of sewing, check to make sure that the sewing machine has stopped. Then, press
+   power switch ❶ or ❷ (or turn EU-type power switch ❸ ) to turn it OFF.
+
+        In the case the machine is not used for a long time, remove the power plug from the plug recep-
+        tacle.
+
+
+
+
+                                                     – 23 –
+        2. Operation panel built in the machine head
+
+
+                                                                  Sewing information display screen
+
+                                                                                            Z
+
+
+
+
+                                                              I                                                        Y
+
+                                                             J                                                         X
+                                                                                                                       U
+    ❽                                                   
+❾
+    ❻                                                   
+                                                       ❹
+    ❼                                                                K L M N       O   P Q R       S   T      V W
+                                                       ❺
+                                                       
+                                                       
+                                                        
+
+
+
+
+                         
+                          ❶  ❷  ❸
+
+                              How long
+        Key   Screen           the key
+                                                                           Function
+        No.   display         must be
+                              pressed
+                             Short time This key is used to carry out needle up / down correction stitching.
+        ❶        -
+
+                             Short time Used to change over the operation mode to the function setting mode
+        ❷        -
+
+                             Short time This key is used to confirm the setting you have changed.
+        ❸        -
+
+                             Short time Used to increase the maximum sewing speed
+        ❹       Z            Long time Continuous input is possible
+                                       (by keeping the key held pressed for three seconds or more)
+                             Short time Used to decrease the maximum sewing speed
+        ❺       Z            Long time Continuous input is possible
+                                       (by keeping the key held pressed for three seconds or more)
+                             Short time This key is used to add one stitch to the number of reverse feed stitches at
+        ❻       Z                       the beginning and end of sewing (process A).
+                             Long time Continuous input is possible
+                             Short time This key is used to subtract one stitch from the number of reverse feed
+        ❼       Z                       stitches at the beginning and end of sewing (process A).
+                             Long time Continuous input is possible
+                             Short time This key is used to add one stitch to the number of reverse feed stitches at
+        ❽       Z                       the beginning and end of sewing (process B).
+                             Long time Continuous input is possible
+
+
+
+
+                                                       – 24 –
+                How long
+Key   Screen     the key
+                                                               Function
+No.   display   must be
+                pressed
+                Short time This key is used to subtract one stitch from the number of reverse feed
+❾       Z                  stitches at the beginning and end of sewing (process B).
+                Long time Continuous input is possible
+                Short time This key is used to add one stitch to the number of reverse feed stitches at
+       Z                  the beginning and end of sewing (process C).
+                Long time Continuous input is possible
+                Short time This key is used to subtract one stitch from the number of reverse feed
+       Z                  stitches at the beginning and end of sewing (process C).
+                Long time Continuous input is possible
+                Short time This key is used to add one stitch to the number of reverse feed stitches at
+       Z                  the beginning and end of sewing (process D).
+                Long time Continuous input is possible
+                Short time This key is used to subtract one stitch from the number of reverse feed
+       Z                  stitches at the beginning and end of sewing (process D).
+                Long time Continuous input is possible
+                Short time Used to changing over the automatic reverse feed stitching at the beginning
+        I                 of sewing to: Reverse feed stitching / Double reverse feed stitching / Disable
+                Short time Used to change over the automatic reverse feed stitching at the end of sew-
+       J                  ing to: Reverse feed stitching / Double reverse feed stitching / Disable
+                Short time Used to set the type of stitching to free stitching
+       K
+
+                Short time This key is used to set the sewing mode to the constant-dimension sewing
+       L
+                           (straight line).
+                Short time Used to set the type of stitching to overlapped stitching
+       M
+                Short time Used to change over the constant-dimension stitching pattern
+     N-Q
+
+                Short time Used to change over the one-shot operation between enable / disable
+       Y       Long time Initialization screen for the memory switches can be displayed by pressing
+                          this key.
+                Short time Used to change over the soft-start function between enable and disable
+       X
+
+                Short time This key is used to change over the thread presser function between enable
+       R
+                           / disable.
+                Short time This key is used to change over the stop position of the needle bar when the
+       S
+                           sewing machine stops between upper and lower positions.
+                Short time This key is used to change over the thread trimming function between en-
+       T
+                           able / disable.
+                Short time This key is used to change over the presser foot lifting status among four dif-
+                           ferent states: Presser foot automatically goes up after the presser bar goes
+     U,V,W                up / Presser foot automatically goes up after thread trimming / Presser foot
+                           automatically goes up both after the presser foot goes up and the thread
+                           trimming is performed / Presser foot does not automatically go up.
+
+
+
+
+                                           – 25 –
+  3. Operating procedure of the sewing pattern
+
+(1) Reverse feed stitching pattern
+
+  Reverse feed stitching at sewing start and reverse feed stitching at sewing end can be separately pro-
+  grammed.
+
+                                                       [Setting procedure of the reverse feed stitching]
+                                                       1) The reverse feed stitching pattern at the beginning
+                                                          of sewing can be changed over to "enable / dou-
+       I
+                                                          ble reverse feed stitching / disable" by pressing
+     J
+                                                                 .
+                                              ❻-
+                                                           The reverse feed stitching pattern at the end of
+   
+                                                           sewing can be changed over to "enable / double
+                                                          reverse feed stitching / disable" by pressing
+
+                                                           . The current setting state of the reverse feed
+                                                          stitching is displayed on the display sections I and
+                                                          J.
+                                                       2) Change the number of stitches to be sewn in tar-
+
+                                                           get process (A, B, C, D) with             ❻ to  .
+
+                                                                 The number which exceeds 9 is indicated
+                                                                 as follows:
+                                                                 A = 10, b = 11, c = 12, d = 13, E = 14, and F
+                                                                 = 15.
+
+
+
+
+                                                  – 26 –
+(2) Overlapped stitching pattern
+  Overlapped stitching pattern can be programmed.
+
+                              A : Number of stitches of normal stitching setting : 0 to 15 stitches
+   A            C     C
+                              B : Number of stitches of reverse stitching setting : 0 to 15 stitches
+                              C : Number of stitches of normal stitching setting : 0 to 15 stitches
+                              D : Number of times of repetition : 0 to 15 times
+
+                                       1. When process D is set to 5 times, the sewing is repeated as A
+                                          → B → C → B → C.
+        B       B
+                                       2. The number which exceeds 9 is indicated as follows:
+            D                             A = 10, b = 11, c = 12, d = 13, E = 14, and F = 15.
+
+
+
+
+[Setting procedure of the overlapped stitching]
+
+
+
+                                                      1) Press          to enable the overlapped stitching
+
+                                                           pattern.
+                                                           When the overlapped stitching pattern is enabled,
+                                                                is displayed in the display section M.
+    M
+                                            ❻-       2) Change the number of stitches and the number of
+
+                                                           times for the target process (A, B, C, D) with
+
+                                                                 ❻ to  .
+
+
+
+   
+
+
+
+
+                                                  – 27 –
+(3) Constant-dimension stitching pattern
+  The constant-dimension stitching pattern can be set.
+
+[How to set the constant-dimension stitching]
+* Straight stitching
+                          Z                              1) Press       to enable the constant-dimension
+
+                                                           sewing pattern (straight stitch).
+                                                           When the constant-dimension sewing pattern is
+                                                           enabled,     is displayed on the display portion L.
+                                                           Immediately after the constant-dimension stitching
+                                                           is enabled, the numbers of reverse feed stitching
+     L                                                     processes (A, B, C and D) are displayed on the
+                                             ❻-           display section Z.
+
+                                                         2) When        ❸ is pressed, the content shown on
+                                                           display section Z is changed over to the number
+                                                           of stitches for the constant-dimension stitching.
+                                                           The number of stitches (0 to 999) for the con-
+                                                          stant-dimension stitching can be selected by
+    
+                                                           pressing             ❻～ .
+
+
+
+
+                                                  – 28 –
+* Others
+
+                                                          1) Enable / disable of the sewing pattern can be
+
+                                                              changed over by pressing          . Every time
+       N             O             P         Q                       is pressed, the selected pattern is en-
+                                                              abled and the valid patterns are displayed on
+                                                              display portion N to Q.
+                                                              Immediately after one of the stitching patterns is
+                                                              enabled, the numbers of reverse feed stitching
+[E/F process]                                                 processes (A, B, C and D) are displayed on the
+                                                              display section Z.
+                     A         B
+                                                          2) When switch           ❸ is pressed, the display
+                                                              section A and B changes its display to the num-
+                                                              ber of stitches for the constant-dimension stitching
+                                                              process (EF) is displayed.
+                                                              The number of stitches for the process (EF) can
+   N
+                                              ❻-             be set by pressing              ❻～ .
+                                                          3) Then, the content shown on display sections C
+                                                             and D are changed over to the number of stitches
+                                                              for the constant-dimension stitching process (GH)
+
+                                                              by pressing switch        ❸.
+
+                                                              The number of stitches (0 to 99) for the process
+[G/H process]
+                                                              (GH) can be set by pressing               ❻～ .
+
+                     C        D                           4) When switch           ❸ is pressed, the content
+                                                              shown on display section Z is changed over to the
+                                                              numbers of stitches for the reverse feed stitching
+                                                              processes (A, B, C and D).
+
+
+
+   N
+                                              ❻-
+
+
+
+
+The screen is shifted to the sewing information display
+screen
+
+
+
+
+                                                     – 29 –
+(4) Polygonal-shape stitching pattern
+  A polygonal-shape stitching pattern can be set.
+
+[How to set a polygonal-shape stitching pattern]
+
+                        A      B                          1) Press             to enable the polygonal shape
+
+                                                              stitching.
+
+                                                              When the polygonal shape stitching is enabled,
+
+                                                              is displayed on display portion Q.
+                                                              The number of seams (P1 - PF) can be set by
+    Q
+                                                ❻-❾           pressing                ❻ to ❾ .
+   
+                                                -                  The number which exceeds 9 is indicated
+                                                                    as follows:
+                                                                     A = 10, b = 11, c = 12, d = 13, E = 14, and F
+                                                                     = 15.
+                                                
+                                                          The number of stitches (00 - 99) can be set by
+
+                                                          pressing                  to  .
+
+
+
+
+[Number of seams / number of stitches]
+                                                          Example) Select the number of seams (A) P1. Set
+                    A          B                            the number of stitches (B) (1- 99).
+                                                            Similarly, set the number of stitches (1 - 99) for the
+                                                            number of seams respectively in the order of P2,
+                                                            P3 and P4.
+                                                            Select the number of seams P5. Set the "number
+                                                            of stitches to 0 (zero)".
+                                                          * The "number of stitches = 0 (zero)" means termi-
+                                                            nation of the polygonal shape stitching. After that,
+                                                            four-thread polygonal shape stitching is carried
+                                                            out.
+The screen is shifted to the sewing information display   * For the initial setting, the number of steps is set to
+screen                                                       four, and the number of stitches for each step is
+                                                             set to 12 (stitches).
+                                                          After the setting, confirm the data you have entered
+
+                                                          with           ❸.
+
+
+
+
+                                                     – 30 –
+  4. Setting of functions
+
+Functions can be selected and specified.
+
+                           A                            1) Press          ❷.
+
+                                                           The content on display section A is changed over
+                                                           to display function setting number (P-**).
+                                                           (The display item which was previously changed
+                                                           is displayed unless the power has not been turned
+                                                           off after the previous change.)
+                                                         * If the screen display does not change, re-carry out
+                                                           operation described in step 1).
+                                               ❽-                 Be sure to re-turn ON the power switch
+                                                                   when ten or more seconds have passed af-
+                                                                   ter turning it OFF. If the power switch is re-
+                                                                   turned ON immediately after turning it OFF,
+                                                                   the sewing machine may fail to operate
+                                                                   normally. In such a case, be sure to turn
+                                                                   ON the power switch again properly.
+
+
+
+                               ❷
+
+
+
+2) To change the function setting number press               ❽ to  and change it to a desired one.
+
+3) After having changed the function setting number to a desired one, press switch           ❸ to display the
+
+  set value of the selected function setting No.
+
+4) Press            ❽ to  change the set value.
+
+5) Press switch       ❸ to confirm the set value.
+
+
+
+
+                                                    – 31 –
+       Screen returns to the previous screen.         Example) To change the setting No. P-01 "the maxi-
+                                                        mum number of revolutions":
+
+                                                           Press          ❷ to change over to the setting num-
+
+                                                           ber display.
+[Parameter number]                                         Press               ❽ to  to select setting num-
+                        A
+                                                           ber P-01.
+
+                                                           Press switch         ❸ to confirm the number (A).
+
+
+                                                           If       ❷ is pressed before confirming the data,
+
+                                                           the operation being carried out will be cancelled
+                                                           and the screen will return to the previous screen.
+
+                                                ❽-
+
+
+
+
+[Parameter data]
+                        B
+                                                           The current set value (maximum number of revo-
+                                                           lutions) of function setting number P-01 is dis-
+                                                           played. Change the maximum number of revolu-
+
+                                                           tions with             ❻ to  and confirm the set
+                                                           value.
+
+                                                ❻-        Then, confirm the setting with switch       ❸ (B).
+
+
+                                                           If       ❷ is pressed before confirming the data,
+
+                                                           the operation being carried out will be cancelled
+                                                           and the screen will return to the [Parameter num-
+                                                           ber] screen.
+
+
+
+       Screen returns to the previous screen.
+
+
+
+
+                                                  – 32 –
+  5. Digital types operation
+
+(1) Comparison Table of LCD Display Fonts and Actual Fonts
+  Arabic Numerals：
+
+   Actual            0    1   2    3    4    5    6    7     8   9
+
+   Display
+
+
+
+(2) Digital Display on the Key Board
+  English Alphabet
+
+   Actual            A    B   C    D    E    F    G   H      I   J   K   L   M
+
+   Display
+
+   Actual            N   O    P    Q    R    S    T   U      V   W   X   Y   Z
+
+   Display
+
+
+
+
+                                             – 33 –
+ 6. Function setting list
+
+                                                                                                                     Setting          Default
+No.               Item                                           Description                                Level    range       AS-7      AH-7
+P01   Maximum sewing speed            The maximum sewing speed reached by fully depressing                   U      100-[P68]    4000      3500
+                                      the pedal is set with this function setting item. The maximum                  (sti/min)
+                                      sewing speed can be changed within the sewing speed range
+                                      specified for [P68 Maximum sewing speed].
+                                        * The maximum sewing speed can be changed with the
+                                          switch on the operation panel.
+P04   Reverse feed stitching          The sewing speed to be used during the reverse feed stitching          U      100-3000     1900      1900
+      speed at the beginning of       at the beginning of sewing is set with this function setting item.             (sti/min)
+      sewing
+P05   Reverse feed stitching          The sewing speed to be used during the reverse feed stitching          U      100-3000     1900      1900
+      speed at the end of sewing      at the end of sewing is set with this function setting item.                   (sti/min)
+P06   Overlapped stitching speed      The sewing speed to be used during the overlapped stitching is         U      100-3000     1900      1900
+                                      set with this function setting item.                                           (sti/min)
+                                       * The overlapped stitching speed can be changed with the
+                                          switch on the operation panel.
+P07   Sewing speed for soft start     The sewing speed for soft start at the beginning of sewing is set      U      100-1500     800        800
+                                      with this function setting item.                                               (sti/min)
+P08   Soft start function             The number of stitches to be sewn with the soft-start function at      U        0-99        1             1
+                                      the beginning of sewing is set with this function setting item.               (Stitches)
+                                        0 - 99: The number of stitches to be sewn with the soft-start
+                                          function
+P09   Sewing speed of the con-        This parameter is used to set the sewing speed to be employed          U      200-[P68]    4000      3500
+      stant dimension sewing          when the constant dimension sewing is performed.                               (sti/min)
+                                       * The sewing speed can be changed with the switch on the
+                                          operation panel.
+P10   Setting of the reverse feed     This parameter is used to set whether or not the reverse feed          U      ON/OFF       ON         ON
+      stitching at the end of con-    stitching is automatically performed at the end of constant
+      stant dimension sewing          dimension sewing.
+                                        ON: Reverse feed stitching is automatically performed at the
+                                           end of sewing
+                                        OFF: Sewing machine stops sewing before starting reverse
+                                           feed stitching at the end of sewing. It performs reverse feed
+                                           stitching when the front part of pedal is depressed.
+P11   Selection of operation of       This parameter is used to select the operation of the BTSW.                                 0             0
+      BTSW                             0: Reverse feed stitching at the midpoint of sewing
+                                       1: Needle up / down correction switch
+P12   Changeover of the reverse       The sewing speed for the reverse feed stitching at the begin-          U         0-1        1             1
+      feed stitching at the start     ning of sewing is set with this function setting item.
+      of sewing between Auto /          0: The reverse feed stitching is performed by manually oper-
+      Manual                              ating the pedal.
+                                        1: The reverse feed stitching is performed at the sewing
+                                          speed set with [P04 Reverse feed stitching speed at the
+                                          beginning of sewing].
+P13   Function of stop immedi-        Operation to be carried out at the end of the reverse feed stitch-     U      CON/STP      CON       CON
+      ately after the reverse feed    ing at the beginning of sewing is selected with this function
+      stitching at the beginning of   setting item.
+      sewing                            CON: The sewing machine does not stop temporarily after
+                                          completion of the reverse feed stitching at the beginning of
+                                          sewing
+                                        STP: The sewing machine stops temporarily after completion
+                                          of the reverse feed stitching at the beginning of sewing
+P15   Changeover of the needle    The function of needle up/down correction switch is changed                U         0-3        0             0
+      up/down correction function over with this function setting item.
+                                   0: Needle up/down correction
+                                   1: One stitch correction
+                                   2: Continuous half stitch
+                                   3: Continuous one stitch
+P18   Correction of solenoid-on       Stitch alignment can be carried out by changing the timing             U        0-200      132        120
+      timing for the reverse feed     of actuating the reverse-feed stitching solenoid at the time of
+      stitching at the beginning of   reverse feed stitching at the beginning of sewing. When the
+      sewing                          set value for this parameter is increased, the length of stitch at
+                                      the end of A process is increased and the length of stitch at the
+                                      beginning of B process is decreased.
+P19   Correction of solenoid-off      Stitch alignment can be carried out by changing the timing             U        0-200      148        160
+      timing for the reverse feed     of releasing the reverse-feed stitching solenoid at the time of
+      stitching at the beginning of   reverse feed stitching at the beginning of sewing. When the set
+      sewing                          value for this parameter is increased, the length of stitch at the
+                                      beginning of B process is increased.
+P25   Correction of solenoid-on       Stitch alignment can be carried out by changing the timing             U        0-200      100        112
+      timing for the reverse feed     of actuating the reverse-feed stitching solenoid at the time of
+      stitching at the end of sew-    reverse feed stitching at the end of sewing. When the set value
+      ing                             for this parameter is increased, the length of stitch at the begin-
+                                      ning of C process is increased.
+P26   Correction of solenoid-off      Stitch alignment can be carried out by changing the timing             U        0-200      151        158
+      timing for the reverse feed     of releasing the reverse-feed stitching solenoid at the time of
+      stitching at the end of sew-    reverse feed stitching at the end of sewing. When the set value
+      ing                             for this parameter is increased, the length of stitch at the end of
+                                      C process is decreased and the length of stitch at the beginning
+                                      of D process is increased.
+
+
+
+
+                                                                     – 34 –
+                                                                                                                        Setting            Default
+No.                 Item                                           Description                                Level     range         AS-7      AH-7
+P32    Correction of solenoid-on        Stitch alignment can be carried out by changing the timing             U         0-200        125        125
+       timing for the overlapped        of actuating the reverse feed stitching solenoid at the time of
+       stitching                        overlapped stitching. When the set value for this parameter is
+                                        increased, the length of stitch at the end of A (C) process is
+                                        increased and the length of stitch at the beginning of B process
+                                        is decreased.
+P33    Correction of solenoid-off       Stitch alignment can be carried out by changing the timing             U         0-200        160        160
+       timing for the overlapped        of releasing the reverse-feed stitching solenoid at the time of
+       stitching                        overlapped stitching. When the set value for this parameter
+                                        is increased, the length of stitch at the end of B process is
+                                        increased and the length of stitch at the beginning of C process
+                                        is decreased.
+P37    First current value (ON duty) The first current value (ON duty) for the thread clamp is set with        U         0-100         40        50
+       of thread clamp               this function setting item.
+                                        * Refer to the "explanation of the thread clamp solenoid oper-
+                                          ation" in the Engineer's Manual for details.
+P41    Thread trimming counter          This parameter is used to display the current value of the
+                                        thread trimming counter.
+P46    Setting of the function of       This function rotates the main shaft in the reverse direction of       U       ON/OFF         OFF       OFF
+       reverse revolution to lift the   sewing to bring the needle bar to the highest position.
+       needle                            ON: Reverse-revolution operation is in the ON state
+                                         OFF: Reverse-revolution operation is in the OFF state
+P48    Sewing speed at a low            The minimum sewing speed of the sewing machine by operat-              U        100-500       200        200
+       speed                            ing the pedal is set with this function setting item.                           (sti/min)
+P49    Sewing speed for thread          Sewing speed to be used when performing thread trimming is             U        100-250       210        210
+       trimming                         set with this function setting item.                                            (sti/min)
+P53    Setting of operation of the      The operation of the presser foot when the back part of pedal is       U          0-1          1             1
+       presser foot when the back       depressed is set with this function setting item.
+       part of pedal is depressed        0: Presser foot does not operate even when the back part of
+                                           pedal is depressed.
+                                         1: When the back part of pedal is depressed, the presser foot
+                                           goes up to its upper position.
+P57    Work clamp lifting operation This parameter is used to set the time at which the work clamp             U        10-120         60        60
+       time                         lifting solenoid is turned ON.                                                       (sec)
+P68    Maximum sewing speed             The maximum sewing speed is set with this function setting             S       100-MAX        4000      3500
+                                        item.(The MAX value differs with the type of machine head.                      (sti/min)
+                                        S: 5000; H: 4500)
+P70    Machine head selection           Machine head type is selected with this function setting item.         S          2-3          2             3
+       (Initialization of data)          2: DDL-7000AS-7
+                                         3: DDL-7000AH-7
+                                         * When you select the corresponding machine head and
+                                           press the enter switch, all existing data are initialized to the
+                                           initial values for the machine head you have selected.
+P77    Back-tack solenoid ON            The BT solenoid ON timing at the end of sewing is set with this        U        50-330        150        200
+       timing at the end of sewing      function setting item.
+                                          * This parameter applies only to the free stitching.
+P78    Thread clamp ON angle            ON-angle of the thread clamp is set with this function setting         U         0-359        190        190
+                                        item.                                                                              (°)
+P79    Thread clamp OFF angle           OFF-angle of the thread clamp is set with this function setting        U         0-359        300        300
+                                        item.                                                                              (°)
+P113   Bobbin counter                   The largest value that the bobbin counter can count is set with        U        0-9999         0             0
+                                        this function setting item.                                                   (10 stitches)
+P116   Function of prohibiting the      This item is used to set the compensating stitch function acti-        U          0-1          0             0
+       correction operation after       vated by turning the pulley by hand after the completion of con-
+       turning the handwheel by         stant-dimension sewing (etc.) and polygonal-shape stitching.
+       hand                               0: Correction sewing function is disabled
+                                          1: Correction sewing function is enabled
+                                           * This parameter is enabled in the case "P11 Selection of
+                                             operation of BTSW" is set to "1: Needle up/down correction
+                                             switch".
+P117   Thread trimming operation        The thread trimming operation after turning the pulley by hand         U          0-1          1             1
+       after turning the handwheel      to move the sewing machine from the upper and lower posi-
+       by hand                          tions is set with this function setting item.
+                                          0: Thread trimming operation is not carried out after turning
+                                            the pulley by hand.
+                                          1: Thread trimming operation is carried out after turning the
+                                            pulley by hand
+P118   Setting of the needle up/        The operation of the needle up/down switch after thread trim-          U          0-1          0             0
+       down switch operation after      ming is set with this function setting item.
+       thread trimming                   0: Needle up/down operation is carried out
+                                         1: One-stitch operation is carried out
+P136   Selection of the presser foot Operation of the presser foot when the power is turned ON is              U          0-2          0             0
+       operation when the power is selected with this function setting item.
+       turned ON                      0: The presser foot does not operate (It operates when the
+                                        back part of the pedal is depressed.)
+                                      1: The presser foot goes up after automatically retrieving the
+                                        origin
+                                      2: The presser foot comes down after automatically retrieving
+                                        the origin
+
+
+
+
+                                                                       – 35 –
+                                                                                                                      Setting          Default
+No.                 Item                                               Description                           Level    range       AS-7      AH-7
+P138   Function of pedal curve         Pedal curve is selected. (Improving pedal inching operation)           U         0-2        0             0
+       selection                                                   2
+
+                                             Sewing speed
+                                                               0
+                                                                                     1
+
+
+                                                                                         Pedal stroke
+
+P139   Function of reverse feed        The function activated when the reverse feed stitching on the          U         0-1        0             0
+       stitching on the way            way switch is pressed is selected with this function setting item.
+                                         0: Normal back-tack function
+                                         1: Function of reverse feed stitching on the way is enabled
+                                       (In the case the function for reverse feed stitching at midpoint
+                                       of sewing is enabled, P142 function can be used.)
+P140   Number of stitches of         The number of stitches of reverse feed stitching on the way is           U        1-19        4             4
+       reverse feed stitching on the set with this function setting item.
+       way
+P141   Condition to be satisfied       The condition to be satisfied to enable the reverse feed stitch-       U         0-1        0             0
+       to enable the reverse feed      ing switch while the sewing machine is at rest is set with this
+       stitching on the way while      function setting item.
+       the sewing machine is at          0: Disabled while the sewing machine is at rest
+       rest                              1: Enabled while the sewing machine is at rest
+P142   Thread trimming function        Automatic thread trimming operation after performing the               U         0-1        0             0
+       after performing reverse        reverse feed stitching on the way is set with this function setting
+       feed stitching on the way       item.
+                                         0: Automatic thread trimming is not performed after the com-
+                                           pletion of reverse feed stitching on the way
+                                         1: Automatic thread trimming is performed after the comple-
+                                           tion of reverse feed stitching on the way
+P143   Sewing speed for reverse        Sewing speed during the reverse feed stitching on the way is           U      200-3000     1900      1900
+       feed stitching on the way       set with this function setting item.                                           (sti/min)
+P163   Ending angle of soft start for The ending angle of the soft start for the thread clamp is set          U        0-720      340        340
+       the thread clamp               with this function setting item.
+                                        * Refer to the explanation of operation of the thread clamp
+                                          solenoid in the Engineer's Manual for details.
+P166   1st electric current time for   Period of time during which the 1st electric current is fed ap-        U        1-990       7             7
+       thread clamp                    plied to the thread clamp is set with this function setting item.
+                                        * Refer to the explanation of operation of the thread clamp
+                                           solenoid in the Engineer's Manual for details.
+P167   2nd electric current value for “ON duty” is set in order to determine the 2nd electric current         U        0-100       69        69
+       thread clamp (ON duty)         value of the thread clamp * Refer to the explanation of opera-
+                                      tion of the thread clamp solenoid in the Engineer's Manual for
+                                      details.
+J10    Setting of brightness of the    Brightness of the backlight is set with this function setting item.    U         1-3        3             3
+       backlight
+J14    Password                        If the password is set to a number other than "0000", the              S      0000-9999    0000      0000
+                                       password entry screen will be displayed before displaying the
+                                       function setting screen by pressing the M switch.
+                                       * This data is not initialized with the parameter P70.
+       Main software version           Main software version is displayed with this function setting          U
+N01                                    item.
+       Panel software version          Panel software version is displayed with this function setting         U
+N02                                    item.
+
+
+
+
+                                                                          – 36 –
+  7. Details of setting of the main functions
+
+        1. In following parameter operation                  key, it will display corresponding speed value.
+
+        2. In following function, after value changed, press               key to save the value, otherwise they
+             will lost after turning power off.
+
+
+① How to set【Maximum Sewing Speed】
+
+
+
+
+                                                                                                           ❻-
+                                                                  ❽-
+
+
+
+
+                    ❷                                       ❸                                        ❸
+                                        Press     ,     ❽ to  select           ① Press    ,    ❻ to  to adjust
+Press         ❷ to enter user
+                                        the parameter code P01. Then,             the Maximum Sewing Speed
+parameter.
+                                        press       ❸ to enter [Function        ② After adjustment press      ❸ to
+                                        setting data].                            save value.
+
+
+② How to set【Start Back-Tacking Speed】
+
+
+
+
+                                                                                                           ❻-
+                                                                  ❽-
+
+
+
+
+                    ❷                                       ❸                                        ❸
+                                        Press     ,     ❽ to  select           ① Press      ,    ❻ to  key to
+Press         ❷ to enter user
+                                        the parameter code P04. Then,             adjust the Start Back-Tacking
+parameter.                                                                        Speed
+                                        press       ❸ to enter [Function
+                                        setting data].                          ② After adjustment press      ❸ to
+                                                                                  save value.
+
+
+
+
+                                                       – 37 –
+③ How to set【End Back-Tacking Speed】
+
+
+
+
+                                                                                             ❻-
+                                                         ❽-
+
+
+
+
+                 ❷                                 ❸                                   ❸
+
+                               Press     ,     ❽ to  select      ① Press     ,     ❻ to  to adjust
+Press        ❷ to enter user
+                               the parameter code P05. Then,        the End Back-Tacking speed.
+parameter.
+                               press       ❸ to enter [Function   ② After adjustment press     ❸ to
+                               setting data].
+                                                                    save value.
+
+
+④ How to set【Bar-Tacking Speed】
+
+
+
+
+                                                                                             ❻-
+                                                         ❽-
+
+
+
+
+                 ❷                                 ❸                                   ❸
+                               Press     ,     ❽ to  select      ① Press     ,     ❻ to  to adjust
+Press        ❷ to enter user
+                               the parameter code P06. Then,        the Bar-Tacking Speed.
+parameter.
+                               press       ❸ to enter [Function   ② After adjustment press     ❸ to
+                               setting data].
+                                                                    save value.
+
+
+
+
+                                                – 38 –
+⑤ How to set【Constant-Stitch Sewing Speed】
+
+
+
+
+                                                                                             ❻-
+                                                         ❽-
+
+
+
+
+                 ❷                                 ❸                                   ❸
+
+                               Press     ,     ❽ to  select      ① Press     ,     ❻ to  to adjust
+Press        ❷ to enter user
+                               the parameter code P09. Then,        the Constant-Stitch Sewing speed
+parameter.
+                               press       ❸ to enter [Function   ② After adjustment press     ❸ to
+                               setting data].
+                                                                    save value.
+
+
+
+
+                                                – 39 –
+⑥ Selection of the soft-start function (Function setting No. P08)
+  The needle thread may fail to interlace with the bobbin thread at the start of sewing when the stitching
+  pitch (stitch length) is small or a thick needle is used. To solve such problem, this function (called “soft-start”)
+  is used to limit the sewing speed, thereby assuring successful formation of the starting stitches.
+       P 0 8 		        0 to 99 :   The number of stitches to be sewn under the soft-start mode.
+  The sewing speed limited by the soft-start function can be changed. (Function setting No. P07)
+     P 0 7 		 Data setting range : 100 to 1500 [sti/min] <10 sti/min>
+
+⑦ Changeover of the needle up/down switch function (Function setting No. P15)
+  The function of the needle up/down switch is changed over with this function setting number.
+       P 1 5 		        0 : Needle up/down correction
+  		                   1: One-stitch correction
+  		                   2: Continuous half stitch
+  		                   3: Continuous one stitch
+
+
+⑧ Function of reverse feed stitching on the way (Function setting Nos. P139 to P143)
+  Functions of the limit of number of stitches and thread trimming command can be added to the touch back
+  switch on the sewing machine head.
+  Function setting No.139 Function of reverse feed stitching on the way is selected.
+   1 3 9 		            0 : OFF     Normal back-tack function
+  		                   1 : ON      Function of reverse feed stitching on the way
+
+  Function setting No.140       Number of stitches performing reverse feed stitching is set.
+       1 4 0        Setting range : 0 to 19 stitches
+
+  Function setting No.141       Effective condition of reverse feed stitching on the way
+       1 4 1           0 : OFF     Inoperative when the sewing machine stops. (The reverse feed stitching on
+                                   the way functions only while the sewing machine is in operation.)
+                       1 : ON      Operative when the sewing machine stops. (The reverse feed stitching on
+                                   the way functions while both the sewing machine is in operation and is at
+                                   rest.)
+                    (Caution) Either condition is operative when the sewing machine is running.
+
+
+  Function setting No.142       Thread trimming is performed when reverse feed stitching on the way is com-
+                                pleted.
+   1 4 2 		            0 : OFF     Without thread trimming
+  		                   1 : ON      Thread trimming is executed.
+
+
+  Function setting No.143       Set the sewing speed when the reverse feed stitching at midpoint of sewing is
+                                performed.
+       1 4 3 		        Setting range : 200 to 3000 [sti/min] <10 sti/min>
+
+
+
+
+                                                       – 40 –
+                     Function setting
+Application                                                                 Output function
+              No. P139   No. P141   No . P142
+                                                 It works as normal touch-back switch.
+    ❶            0        0 or 1        0 or 1
+
+                                                 When operating touch-back switch at the time of depressing front part
+    ❷            1          0             0      of the pedal, reverse feed stitching as many as the number of stitches
+                                                 specified by the function setting No. P140 can be performed.
+                                                 When operating touch-back switch at the time of either stop of the
+                                                 sewing machine or depressing front part of the pedal, reverse feed
+    ❸            1          1             0
+                                                 stitching as many as the number of stitches specified by the function
+                                                 setting No. P140 can be performed.
+                                                 When operating touch-back switch at the time of depressing front part
+                                                 of the pedal, automatic thread trimming is performed after reverse
+    ❹            1          0             1
+                                                 feed stitching as many as the number of stitches specified by the
+                                                 function setting No. P140 has been performed.
+                                                 When operating touch-back switch at the time of either stop of the
+                                                 sewing machine or depressing front part of the pedal, automatic
+    ❺            1          1             1      thread trimming is performed after reverse feed stitching as many as
+                                                 the number of stitches specified by the function setting No. P140 has
+                                                 been performed.
+
+
+Actions under each setting state
+  ❶ Used as the normal reverse feed stitching touch-back switch.
+  ❷ Used for reinforcing seam (press sewing) of the pleats. (It works only while the sewing machine is in
+    operation)
+  ❸ Used for reinforcing seam (press sewing) of the pleats. (It works either when the sewing machine stops
+    or when the sewing machine is running.)
+  ❹ Used as starting switch for reverse feed stitching at the sewing end. (Used as the substitute for thread
+    trimming by depressing back part of the pedal. It works only while the sewing machine is in operation.
+    This is especially effective when the sewing machine used as the sewing machine for standing work.)
+  ❺ Used as starting switch for reverse feed stitching at the sewing end. (Used as the substitute for thread
+    trimming by depressing back part of the pedal. It works either when the sewing machine stops or when
+    the sewing machine is running. It is especially effective when the sewing machine is used as the stand-
+    ing-work machine.)
+
+
+
+
+                                                        – 41 –
+⑨ Function of pedal curve selection (Function setting No. P138)
+  This function can perform the selection of the curve of sewing speed of the sewing machine against the
+  depressing amount of the pedal.
+  Change to this function when you feel that inching operation is hard or that pedal response is slow.
+      1 3 8       0 : Sewing speed in terms of the depressing amount of the pedal increases linearly.
+                  1 : Reaction to intermediate speed in terms of the depressing amount of the pedal is de-
+                      layed.
+                  2 : Reaction to intermediate speed in terms of the depressing amount of the pedal is ad-
+                      vanced.
+                                                                     2
+
+
+
+
+                                        Sewing speed (sti/min)
+                                                                 0
+                                                                                         1
+
+
+
+
+                                                                     Pedal stroke (mm)
+
+
+⑩ Selection of the presser foot operation when the power is turned ON (Function setting No. P136)
+  The needle bar goes up to its upper position and the presser motor carries out origin retrieval operation
+  immediately after the power is turned ON.
+      1 3 6       0: Neither the needle bar nor the presser motor (Operates when the back part of pedal is
+                     depressed)
+                  1: Needle bar goes up to its upper position and the presser motor automatically goes up
+                     after automatic origin retrieval.
+                  2: Needle bar automatically goes up to its upper position and the presser motor comes
+                     down after automatic origin retrieval.
+
+
+⑪ Setting of the operation of needle up/down switch after thread trimming (Function setting No. P118)
+  One stitch operation can be performed only when the needle up / down compensating switch is pressed
+  at the time of upper stop immediately after turning ON the power switch or upper stop immediately after
+  thread trimming.
+      1 1 8       0 : Normal (Only needle up / down compensating stitching operation)
+                  1 : One stitch compensating stitching operation (upper stop / upper stop) is performed only
+                      when aforementioned changeover is made.
+
+
+⑫ Thread trimming counter (Function setting No. P41)
+      P 4 1       This parameter is used to display the current value of the thread trimming counter.
+                  The sewing machine is able to perform sewing while displaying the counter value.
+
+                  To reset the counter to 0 (zero), press needle up / down correction key       .
+
+
+
+
+                                                                         – 42 –
+  8. Stitch balance of back-tacking for lockstitch machine
+
+① How to balance stitches for [Start Back-Tacking] (Function setting Nos. P18 and P19)
+
+  Example) Step 1: Setting stitch number for Start Back-Tacking A and B = 3
+           Step 2: Sewing the pattern in normal speed.
+           Step 3: If unbalanced situation is appeared please correct it as below:
+   Suggestion: Select the balance stitches for Section A before selecting for B.
+
+
+
+     Start point
+
+                   A
+                                         Case 1 : Longer A and shorter B
+                       B
+                                         Adjustment : [P18] Decrease the set value.
+                                                      A becomes shorter and B becomes longer.
+
+
+
+
+     Start point
+                   A
+                                         Case 2 : Shorter A and longer B
+                       B
+                                         Adjustment : [P18] Increase the set value.
+                                                      A becomes longer and B becomes shorter.
+
+
+
+
+     Start point
+                   A                     Case 3 : Normal A and longer B
+                                         Adjustment : [P19] Decrease the set value.
+                       B
+                                                      B becomes shorter.
+
+
+
+     Start point
+                   A                     Case 4 : Normal A and shorter B
+                                         Adjustment : [P19] Increase the set value.
+                       B
+                                                      B becomes longer.
+
+
+
+
+                                                   – 43 –
+② How to balance stitches for [End Back-Tacking]  (Function setting Nos. P25, P27 and P77)
+
+  Example) Step 1: Setting stitch number for End Back-Tacking C and D = 3
+            Step 2: Sewing the pattern in normal speed.
+            Step 3: If unbalanced situation is appeared please correct it as below:
+  Suggestion: Select the balance stitches for Section C before selecting for D.
+
+
+
+
+                                         Case 1 : Longer C and shorter D
+                       C
+                                   D     Adjustment : [P26] Decrease the set value.
+                                                      C becomes shorter and D becomes longer.
+
+               Start point
+
+
+
+
+                                         Case 2 : Shorter C and normal D
+                       C                 Adjustment : [P26] Increase the set value.
+                                                      C becomes longer and D becomes shorter.
+                                   D
+
+
+               Start point
+
+
+
+
+                                         Case 3 : C is longer.
+                       C
+                                   D     Adjustment : [P77] Change the set value to such a value that
+                                                       shortens C.
+
+
+               Start point
+
+
+
+
+                                         Case 4 : C is short.
+                       C
+                                         Adjustment : [P77] Increase the set value.
+                                   D                   C becomes longer.
+
+
+
+               Start point
+
+
+
+               C
+                                         Case 5 : Normal C and longer D
+                           C
+                                         Adjustment : [P25] Decrease the set value.
+                                   D                  C becomes longer and D becomes shorter.
+ Start point
+
+
+
+
+         C
+                   C                     Case 6 : Normal C and shorter D
+                               D
+                                         Adjustment : [P25] Increase the set value.
+                                                      C becomes shorter and D becomes longer.
+
+Start point
+
+
+
+                                                   – 44 –
+③ How to balance stitches for [Bar Tacking]  (Function setting Nos. P32 and P33)
+
+  Example) Step 1: Setting stitch number for Bar-Tacking A = B = 4 and turns of Bar-Tacking D = 4
+           Step 2: Sewing the pattern in normal speed.
+           Step 3: If unbalanced situation is appeared please correct it as below:
+
+
+
+                     Start point
+            A
+                     B
+                                          Case 1 : Longer A and shorter B
+                                          Adjustment : [P32] Decrease the set value.
+                         A        B
+                                                       A becomes shorter and B becomes longer.
+
+
+                         D
+
+
+
+                                      B
+   Start point                            Case 2 : Shorter A and normal B
+                 A       B A              Adjustment : [P32] Increase the set value.
+                                                       A becomes longer and B becomes shorter.
+
+
+                             D
+
+
+
+
+   Start point
+                 A                    B   Case 3 : Normal A and longer B
+                                          Adjustment : [P33] Decrease the set value.
+                         B A
+                                                       B becomes shorter.		
+
+
+                             D
+
+
+   Start point
+                 A
+                                          Case 4 : Normal A and shorter B
+                         B                Adjustment : [P33] Increase the set value.
+                                      B                B becomes longer.
+                              A
+                             D
+
+
+
+
+                                                    – 45 –
+   9. How to set the machine head and to initialize data
+      (the factory-set state at the time of shipment)
+
+* This item has been factory-adjusted at the time of shipment. Carry out the machine head setting procedure
+  in the case the control box is replaced, or in any case where it is necessary.
+
+                             A                            1) Turn the power ON while keeping           ❷ or
+
+
+                                                                     ❸ , or         ❷ and        ❸ held pressed
+
+                                                              simultaneously. (This function is activated under
+                                                              the service level.)
+
+                                                          2) Press              ❽ to  to select the function
+❽-                                                          setting No. 70 (A).
+
+                                                         3) Confirm the data with          ❸.
+
+                                                          4) Press        and          to select the corre-
+                                                              sponding machine head.
+                                                          		
+                                                          		       Set value = 2: DDL-7000AS-7
+                                                          		       Set value = 3: DDL-7000AH-7
+
+
+                                 ❷    ❸
+
+
+
+5) Data is initialized by pressing      ❸ . Then, the sewing machine returns to the normal sewing state.
+
+* If you want to initialize the data, change the setting of the type of machine head to a different type, then
+  select the desired type of machine head.
+  Example) In the case the selected type of machine head is "2":
+
+		      P70      Change the selected type of machine head from "2" to "3". Press            ❸.
+
+
+			              Change the selected type of machine head again from "3" to "2". Press            ❸.
+
+
+
+
+                                                     – 46 –
+10. How to use the bobbin counter
+
+In the case the number of stitches that can be counted on the bobbin counter (Function setting number
+P113) is set to "x10", the bobbin count complete screen is displayed when the bobbin counter reaches the
+set value to notify the operator that the bobbin has to be changed.
+
+                                                    1) Call function setting No. P113 referring to "III-4.
+                                                       Setting of functions" p.31.
+     A
+                                                         Confirm the data with       ❸.
+
+
+
+
+                         B
+                                                    2) Press              ❻ to  to set the bobbin
+                                                         counter value (B).
+                                                         When the bobbin counter reaches the "bobbin
+                                                         counter value x 10", the bobbin count complete
+                                                         screen is displayed.
+
+                                                    3) Press         ❸ to determine the set value and
+
+                                                         return the sewing machine to the normal sewing
+                                            ❻～          state.
+
+
+
+
+                                   ❸
+
+
+                         C
+
+                                                    4) Carry out sewing. When the bobbin counter value
+                                                       becomes "0" (zero), the count complete screen is
+                                                       displayed.(C)
+
+                                                         When you press          ❸ , the current value on
+
+                                                         the bobbin counter returns to the value set with
+                                                         "function setting No. P113 Bobbin counter" and
+                                                         the sewing machine returns to the normal sewing
+                                                         state.
+
+
+
+
+                                   ❸
+
+                                                – 47 –
+11. Initialization of function setting data
+
+The function setting data that are changed arbitrarily by the customer can be stored in memory. The cur-
+rent function setting data can be restored to the aforementioned data.
+
+
+                                                     1) Press         ❷ under the normal sewing state to
+
+                                                         display the function setting screen.
+                                                         Refer to "III-4. Setting of functions" p.31.
+
+                                                         Confirm the data with        ❸.
+
+                                                     * You may select any function setting number.
+
+
+
+
+                            ❷    ❸
+
+
+                        A
+
+
+                                                     2) On the screen that you can operate the function
+
+                                                         setting data, keep        held pressed for three
+
+                                                         seconds. Then the function setting data being
+                                                         displayed is saved and the "SAVE" screen (A) is
+                                                         displayed for a moment.
+
+
+
+
+                                          
+
+
+
+
+                                                – 48 –
+B
+                    3) When           is held pressed for three seconds
+
+                         under the normal sewing state, the data initializa-
+                         tion screen is displayed.
+
+
+
+
+            
+
+
+
+
+C
+                    4) When           ❸ is pressed, all of the function set-
+
+                         ting data saved in the steps of procedure 1) and 2)
+                         are initialized and the entire screen display of LCD
+                         (C) is displayed for a moment. Then, the sewing
+                         machine returns to the normal sewing state.
+
+                    5) Data initialization is cancelled by pressing
+
+                         ❷ . Then, the sewing machine returns to the nor-
+                         mal sewing state.
+
+
+
+
+    ❷   ❸
+
+
+
+
+                – 49 –
+ 12. Password lock
+
+The operation of function setting can be locked with a password by pressing          ❷.
+
+
+                         A
+                                                       1) Turn the power ON while keeping            ❷ or
+
+
+                                                                  ❸ , or         ❷ and         ❸ held pressed
+
+                                                           simultaneously. (This function is activated under
+                                                           the service level.)
+
+                                                       2) Press                ❽ to  to select the function
+❻-❼                                          ❽-
+                                                           setting No. 70 (A).
+
+                                                       3) Confirm the data with           ❸.
+
+                                                       4) Set a four-digit password by pressing
+
+                                                           ❻ to  .
+
+
+                                                                     Write down the password you have set
+                                                                     so to remember it.
+
+                              ❷      ❸
+                                                       5) Press            ❸ to determine the password and
+
+                                                           return the sewing machine to the normal sewing
+                                                           state.
+                         B
+
+                                                       6) In the case the password is other than "0000", the
+                                                          password input screen is displayed before display-
+
+                                                           ing the function setting screen by pressing
+
+                                                          ❷ in the normal sewing state (B).
+                                             ❻-       7) Enter the four-digit password set with [Function
+
+                                                           setting No. J14] using              ❻ to  .
+
+
+                                                       8) The function setting screen is displayed by press-
+
+                                                           ing         ❸ . On this screen, the functions can
+
+                                                           be set.
+
+
+
+
+                              ❷      ❸
+
+
+
+
+                                                  – 50 –
+ 13. About the USB
+
+        WARNING :
+        The device to be connected to the USB port should have the rated current value or less as shown
+        below.
+        If any device rated current value of which is higher than the rated current value, the main body of the
+        sewing machine or the USB device connected can be damaged or malfunction.
+        Rated current value of the USB port
+        USB port on the electrical box side: Maximum rated current value of 1 A
+
+
+[Insertion position of the USB thumb drive]
+                                                         The USB connector is equipped on the electrical box
+                                                         ❶.
+                                                         To use a USB thumb drive, remove connector cover
+                                                         ❷ and insert the USB thumb drive into the USB con-
+                                                         nector.
+                                                          * In the case a USB thumb drive is not used, the
+                                                            USB connector should be protected with connec-
+                                                            tor cover ❷ without exceptions.
+                                                            If dust or the like enters the USB connector, a
+                                                            failure can be caused.
+                                                ❶
+
+
+
+
+                                 ❷
+
+
+
+
+                                                    – 51 –
+14. List of error codes
+
+ Error
+                        Description                                     How to correct
+number
+ E-01    High-voltage error (320 V or more)       Turn the power OFF. Check the supply voltage.
+ E-02    Low-voltage error (170 V or less)        Turn the power OFF. Check the supply voltage.
+E-03     CPU communication fault                  Turn the power OFF. Check the connection of the connector
+E-03P                                             to the operation panel and the cable.
+ E-05    Pedal connection fault                   Turn the power OFF. Check the connection of the connector
+                                                  to the pedal and the cable.
+ E-07    Main shaft rotation fault                Check whether the main shaft motor is locked by turning the
+                                                  pulley. Check the connection encoder cable and motor power
+                                                  cable to the connectors.
+                                                  Check whether the supply voltage is normal. Check whether
+                                                  the sewing speed is set extremely high.
+ E-08    Reverse feed stitching lever operation   Turn the OFF. Then, re-turn ON the power.
+         time is exceeded.
+ E-09    Encoder Z-phase detection fault          Turn the power OFF. Check the connection of the motor en-
+ E-11                                             coder cable to the connector.
+ E-10    Solenoid overcurrent                     Turn the power OFF. Check whether the solenoid has failed.
+ E014    Encoder AB-phase detection fault         Turn the power OFF. Check the connection of the motor en-
+                                                  coder cable to the connector.
+ E015    Main shaft motor overcurrent error       Turn the power OFF. Then, re-turn the power ON.
+ E017    Machine head tilting error               Raise the machine head. Then, turn the power OFF and re-
+                                                  turn the power ON. Check whether the machine head tilt
+                                                  switch has broken.
+ E020    Main shaft rotation fault                Turn the power OFF. Check the connection of the main shaft
+                                                  motor encoder cable and motor power cable to the connec-
+                                                  tors.
+
+
+
+
+                                                  – 52 –
+

@@ -1,0 +1,2 @@
+﻿local_part_id,local_catalog,part_number,local_part_name,status_awal,keputusan_audit,mekanisme_usulan,rujukan_katalog,catatan_auditor
+12589,17,085311016,TAPTITE BIND B M3X10,KANDIDAT_PART_BARU,PERLU_VERIFIKASI_KATALOG,BELUM DITETAPKAN,Perlu dicocokkan dengan diagram dan daftar komponen katalog resmi Brother BAS-311HN/326H.,Baut TAPTITE BIND B M3X10; posisi pemasangan dan kecocokan submodel BAS-311HN-03S belum terverifikasi. Jangan tetapkan mekanisme hanya berdasarkan nama komponen.

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tambah Komponen Mesin</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<header>
+    <h1>🔩 Tambah Komponen Mesin</h1>
+</header>
+
+<main>
+
+    <section class="machine-card">
+
+        <h2>
+            {{ machine["brand_name"] }} — {{ machine["model"] }}
+        </h2>
+
+        <form method="POST" enctype="multipart/form-data">
+
+            <label for="component_name">
+                Nama Komponen
+            </label>
+
+            <input
+                type="text"
+                id="component_name"
+                name="component_name"
+                placeholder="Contoh: Jarum"
+                required
+            >
+
+            <label for="part_number">
+                Nomor Part
+            </label>
+
+            <input
+                type="text"
+                id="part_number"
+                name="part_number"
+                placeholder="Nomor part jika diketahui"
+            >
+
+            <label for="location">
+                Lokasi
+            </label>
+
+            <input
+                type="text"
+                id="location"
+                name="location"
+                placeholder="Contoh: Area jarum"
+            >
+
+            <label for="function">
+                Fungsi
+            </label>
+
+            <textarea
+                id="function"
+                name="function"
+                rows="3"
+                placeholder="Fungsi komponen..."
+            ></textarea>
+
+            <label for="notes">
+                Catatan
+            </label>
+
+            <textarea
+                id="notes"
+                name="notes"
+                rows="4"
+                placeholder="Catatan tambahan..."
+            ></textarea>
+
+            <label for="image">
+                Foto Komponen
+            </label>
+
+            <input
+                type="file"
+                id="image"
+                name="image"
+                accept="image/jpeg,image/png,image/webp"
+            >
+
+            <p>
+                <small>
+                    Format: JPG, JPEG, atau PNG/WEBP.
+                </small>
+            </p>
+
+            <br>
+
+            <button type="submit" class="add-button">
+                💾 Simpan Komponen
+            </button>
+
+            <a
+                href="/machine/{{ machine['id'] }}"
+                class="add-button"
+            >
+                ↩️ Kembali
+            </a>
+
+        </form>
+
+    </section>
+
+</main>
+
+</body>
+</html>

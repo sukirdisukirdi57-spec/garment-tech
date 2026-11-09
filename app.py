@@ -40,6 +40,14 @@ def validate_admin_csrf():
             r"/admin/needle-systems/\d+/(?:edit|delete)",
             path,
         )
+        or re.fullmatch(
+            r"/admin/machine-alarms/add/\d+",
+            path,
+        )
+        or re.fullmatch(
+            r"/admin/machine-alarms/\d+/(?:edit|delete)",
+            path,
+        )
     )
 
     if not protected:
@@ -626,7 +634,26 @@ def components_list():
             """SELECT id, component_name, part_number
                FROM components
                WHERE machine_id = ?
-               ORDER BY component_name, part_number""",
+                 AND (machine_id != 227
+                      OR id NOT IN (530, 531, 532, 533))
+               ORDER BY
+                 CASE WHEN diagram_page IS NULL THEN 1 ELSE 0 END,
+                 CAST(diagram_page AS INTEGER),
+                 CASE
+                   WHEN component_name GLOB '[0-9]*' THEN 0
+                   WHEN catalog_ref LIKE '%-%' THEN 1
+                   ELSE 2
+                 END,
+                 CASE
+                   WHEN catalog_ref LIKE '%-%'
+                   THEN CAST(substr(
+                       catalog_ref, 1,
+                       instr(catalog_ref, '-') - 1
+                   ) AS INTEGER)
+                   ELSE 0
+                 END,
+                 component_name COLLATE NOCASE,
+                 id""",
             (machine_id,)
         ).fetchall()
 
@@ -644,6 +671,14 @@ def components_list():
     if machine_id:
         conditions.append("components.machine_id = ?")
         params.append(machine_id)
+
+    # Sembunyikan kategori generik hanya dari daftar publik
+    # untuk Brother BAS-311HN-03S (machine_id 227).
+    conditions.append(
+        "(components.machine_id != 227 OR "
+        "components.id NOT IN (530, 531, 532, 533))"
+    )
+
     if component_id:
         conditions.append("components.id = ?")
         params.append(component_id)
@@ -688,7 +723,26 @@ def components_list():
                machines.model AS machine_model,
                brands.name AS brand_name
     """ + from_sql + where_sql + """
-        ORDER BY brands.name, machines.model, components.component_name
+        ORDER BY
+            brands.name,
+            machines.model,
+            CASE WHEN components.diagram_page IS NULL THEN 1 ELSE 0 END,
+            CAST(components.diagram_page AS INTEGER),
+            CASE
+                WHEN components.component_name GLOB '[0-9]*' THEN 0
+                WHEN components.catalog_ref LIKE '%-%' THEN 1
+                ELSE 2
+            END,
+            CASE
+                WHEN components.catalog_ref LIKE '%-%'
+                THEN CAST(substr(
+                    components.catalog_ref, 1,
+                    instr(components.catalog_ref, '-') - 1
+                ) AS INTEGER)
+                ELSE 0
+            END,
+            components.component_name COLLATE NOCASE,
+            components.id
         LIMIT ? OFFSET ?
     """
     components_data = conn.execute(
@@ -701,7 +755,7 @@ def components_list():
 
     if component_id:
         selected_mechanism = conn.execute(
-            "SELECT id, component_name FROM components WHERE id = ?",
+            "SELECT id, component_name, image_path FROM components WHERE id = ?",
             (component_id,)
         ).fetchone()
 
@@ -834,6 +888,16 @@ def machine_detail(machine_id):
         (machine_id,)
     ).fetchall()
 
+    machine_alarms_data = conn.execute(
+        """
+        SELECT *
+        FROM machine_alarms
+        WHERE machine_id = ?
+        ORDER BY alarm_code
+        """,
+        (machine_id,)
+    ).fetchall()
+
     specifications = conn.execute(
         """
         SELECT *
@@ -849,7 +913,23 @@ def machine_detail(machine_id):
         SELECT *
         FROM components
         WHERE machine_id = ?
-        ORDER BY id
+        ORDER BY
+            CASE
+                WHEN component_name GLOB '[0-9]*.*' THEN 0
+                ELSE 1
+            END,
+            CASE
+                WHEN component_name GLOB '[0-9]*.*'
+                THEN CAST(
+                    substr(
+                        component_name,
+                        1,
+                        instr(component_name, '.') - 1
+                    ) AS INTEGER
+                )
+                ELSE 2147483647
+            END,
+            id
         """,
         (machine_id,)
     ).fetchall()
@@ -862,14 +942,22 @@ def machine_detail(machine_id):
             component_parts.relation_type,
             component_parts.notes AS relation_notes,
             parts.part_number,
-            parts.part_name
+            parts.part_name,
+            parts.catalog_ref,
+            parts.quantity,
+            parts.quantity_raw,
+            parts.note
         FROM component_parts
         JOIN parts
             ON component_parts.part_id = parts.id
         JOIN components
             ON component_parts.component_id = components.id
         WHERE components.machine_id = ?
-        ORDER BY component_parts.component_id, parts.id
+        ORDER BY
+            component_parts.component_id,
+            CASE WHEN parts.catalog_ref IS NULL THEN 1 ELSE 0 END,
+            CAST(parts.catalog_ref AS INTEGER),
+            parts.id
         """,
         (machine_id,)
     ).fetchall()
@@ -883,6 +971,43 @@ def machine_detail(machine_id):
         """,
         (machine_id,)
     ).fetchall()
+
+    catalog_parts_by_page = {}
+
+    if machine_id == 43:
+        catalog_rows = conn.execute(
+            """
+            SELECT
+                pdf_page,
+                catalog_ref,
+                marker,
+                part_number,
+                part_name,
+                quantity_raw
+            FROM catalog_occurrences
+            WHERE machine_id = ?
+            ORDER BY
+                CAST(pdf_page AS INTEGER),
+                CAST(catalog_ref AS INTEGER),
+                id
+            """,
+            (machine_id,)
+        ).fetchall()
+
+        for row in catalog_rows:
+            catalog_parts_by_page.setdefault(
+                row["pdf_page"], []
+            ).append(row)
+
+    # Katalog Section 27 khusus JUKI AMS-210EN-2210
+    section27_parts = []
+    if machine_id == 44:
+        section27_parts = conn.execute(
+            "SELECT catalog_ref, marker, part_number, part_name, quantity_raw "
+            "FROM catalog_occurrences WHERE machine_id = ? AND pdf_page = ? "
+            "ORDER BY CAST(catalog_ref AS INTEGER), id",
+            (machine_id, 53)
+        ).fetchall()
 
     documents = conn.execute(
         """
@@ -934,11 +1059,196 @@ def machine_detail(machine_id):
         specifications=specifications,
         components=components,
         component_parts=component_parts,
+        catalog_parts_by_page=catalog_parts_by_page,
         parts=parts,
+        section27_parts=section27_parts,
         documents=documents,
         technician_notes=technician_notes,
+        machine_alarms_data=machine_alarms_data,
         needle_compatibility_data=needle_compatibility_data
     )
+
+
+@app.route("/admin/machine-alarms/add/<int:machine_id>", methods=["GET", "POST"])
+@admin_required
+def add_machine_alarm(machine_id):
+    conn = get_db()
+    try:
+        machine = conn.execute(
+            "SELECT * FROM machines WHERE id = ?", (machine_id,)
+        ).fetchone()
+        if machine is None:
+            return "Mesin tidak ditemukan.", 404
+
+        error = None
+        if request.method == "POST":
+            data = {
+                "alarm_code": request.form.get("alarm_code", "").strip(),
+                "alarm_name": request.form.get("alarm_name", "").strip(),
+                "possible_cause": request.form.get("possible_cause", "").strip(),
+                "solution": request.form.get("solution", "").strip(),
+                "manual_title": request.form.get("manual_title", "").strip(),
+                "manual_version": request.form.get("manual_version", "").strip(),
+                "manual_chapter": request.form.get("manual_chapter", "").strip(),
+                "source_url": request.form.get("source_url", "").strip(),
+                "source_note": request.form.get("source_note", "").strip(),
+            }
+            page_text = request.form.get("manual_page", "").strip()
+
+            if not data["alarm_code"] or not data["alarm_name"] or not data["manual_title"]:
+                error = "Kode alarm, nama alarm, dan judul manual wajib diisi."
+            else:
+                try:
+                    manual_page = int(page_text) if page_text else None
+                    if manual_page is not None and manual_page < 1:
+                        raise ValueError
+                except ValueError:
+                    error = "Nomor halaman harus berupa bilangan bulat positif."
+
+            if error is None:
+                try:
+                    conn.execute(
+                        """
+                        INSERT INTO machine_alarms (
+                            machine_id, alarm_code, alarm_name,
+                            possible_cause, solution, manual_title,
+                            manual_version, manual_chapter, manual_page,
+                            source_url, source_note
+                        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                        """,
+                        (
+                            machine_id, data["alarm_code"], data["alarm_name"],
+                            data["possible_cause"], data["solution"],
+                            data["manual_title"], data["manual_version"],
+                            data["manual_chapter"], manual_page,
+                            data["source_url"], data["source_note"],
+                        ),
+                    )
+                    conn.commit()
+                    return redirect(f"/machine/{machine_id}#official-alarms")
+                except sqlite3.IntegrityError:
+                    error = "Kode alarm tersebut sudah tercatat untuk mesin ini."
+
+            return render_template(
+                "machine_alarm_form.html", machine=machine, alarm=data,
+                error=error, form_title="Tambah Alarm Resmi",
+                submit_label="Simpan Alarm"
+            ), 400
+
+        return render_template(
+            "machine_alarm_form.html", machine=machine, alarm=None,
+            error=None, form_title="Tambah Alarm Resmi",
+            submit_label="Simpan Alarm"
+        )
+    finally:
+        conn.close()
+
+
+@app.route("/admin/machine-alarms/<int:alarm_id>/edit", methods=["GET", "POST"])
+@admin_required
+def edit_machine_alarm(alarm_id):
+    conn = get_db()
+    try:
+        alarm = conn.execute(
+            "SELECT * FROM machine_alarms WHERE id = ?", (alarm_id,)
+        ).fetchone()
+        if alarm is None:
+            return "Alarm tidak ditemukan.", 404
+
+        machine = conn.execute(
+            "SELECT * FROM machines WHERE id = ?", (alarm["machine_id"],)
+        ).fetchone()
+        if machine is None:
+            return "Mesin tidak ditemukan.", 404
+
+        error = None
+        if request.method == "POST":
+            data = {
+                "alarm_code": request.form.get("alarm_code", "").strip(),
+                "alarm_name": request.form.get("alarm_name", "").strip(),
+                "possible_cause": request.form.get("possible_cause", "").strip(),
+                "solution": request.form.get("solution", "").strip(),
+                "manual_title": request.form.get("manual_title", "").strip(),
+                "manual_version": request.form.get("manual_version", "").strip(),
+                "manual_chapter": request.form.get("manual_chapter", "").strip(),
+                "source_url": request.form.get("source_url", "").strip(),
+                "source_note": request.form.get("source_note", "").strip(),
+            }
+            page_text = request.form.get("manual_page", "").strip()
+
+            if not data["alarm_code"] or not data["alarm_name"] or not data["manual_title"]:
+                error = "Kode alarm, nama alarm, dan judul manual wajib diisi."
+            else:
+                try:
+                    manual_page = int(page_text) if page_text else None
+                    if manual_page is not None and manual_page < 1:
+                        raise ValueError
+                except ValueError:
+                    error = "Nomor halaman harus berupa bilangan bulat positif."
+
+            if error is None:
+                try:
+                    conn.execute(
+                        """
+                        UPDATE machine_alarms SET
+                            alarm_code = ?, alarm_name = ?,
+                            possible_cause = ?, solution = ?,
+                            manual_title = ?, manual_version = ?,
+                            manual_chapter = ?, manual_page = ?,
+                            source_url = ?, source_note = ?
+                        WHERE id = ?
+                        """,
+                        (
+                            data["alarm_code"], data["alarm_name"],
+                            data["possible_cause"], data["solution"],
+                            data["manual_title"], data["manual_version"],
+                            data["manual_chapter"], manual_page,
+                            data["source_url"], data["source_note"], alarm_id,
+                        ),
+                    )
+                    conn.commit()
+                    return redirect(
+                        f"/machine/{alarm['machine_id']}#official-alarms"
+                    )
+                except sqlite3.IntegrityError:
+                    error = "Kode alarm tersebut sudah digunakan pada mesin ini."
+
+            alarm = data.copy()
+            alarm["manual_page"] = page_text
+            return render_template(
+                "machine_alarm_form.html", machine=machine, alarm=alarm,
+                error=error, form_title="Edit Alarm Resmi",
+                submit_label="Simpan Perubahan"
+            ), 400
+
+        return render_template(
+            "machine_alarm_form.html", machine=machine, alarm=alarm,
+            error=None, form_title="Edit Alarm Resmi",
+            submit_label="Simpan Perubahan"
+        )
+    finally:
+        conn.close()
+
+
+@app.route("/admin/machine-alarms/<int:alarm_id>/delete", methods=["POST"])
+@admin_required
+def delete_machine_alarm(alarm_id):
+    conn = get_db()
+    try:
+        alarm = conn.execute(
+            "SELECT machine_id FROM machine_alarms WHERE id = ?",
+            (alarm_id,)
+        ).fetchone()
+        if alarm is None:
+            return "Alarm tidak ditemukan.", 404
+
+        machine_id = alarm["machine_id"]
+        conn.execute("DELETE FROM machine_alarms WHERE id = ?", (alarm_id,))
+        conn.commit()
+        return redirect(f"/machine/{machine_id}#official-alarms")
+    finally:
+        conn.close()
+
 
 @app.route("/specifications")
 def specifications_list():
@@ -1208,6 +1518,15 @@ def component_detail(component_id):
         conn.close()
         return "Komponen tidak ditemukan", 404
 
+    # Sembunyikan kategori generik Brother BAS-311HN-03S
+    # dari halaman detail publik tanpa menghapus data database.
+    if (
+        component["machine_id"] == 227
+        and component["id"] in (530, 531, 532, 533)
+    ):
+        conn.close()
+        return "Komponen tidak ditemukan", 404
+
     if (
         component["machine_model"] == "S-6200A"
         and component["component_name"] == "G. Rotary hook mechanism"
@@ -1257,6 +1576,77 @@ def component_detail(component_id):
         clamp_d1_parts = conn.execute("SELECT * FROM parts WHERE machine_id = ? AND diagram_page = ? ORDER BY CAST(catalog_ref AS INTEGER), id", (227, 23)).fetchall()
         clamp_d2_parts = conn.execute("SELECT * FROM parts WHERE machine_id = ? AND diagram_page = ? ORDER BY CAST(catalog_ref AS INTEGER), id", (227, 25)).fetchall()
 
+    # Daftar kemunculan part dari katalog resmi JUKI.
+    juki_parts = []
+    juki_pdf_page = None
+
+    if (
+        component["machine_id"] in (43, 44)
+        and component["diagram_page"] is not None
+    ):
+        juki_pdf_page = (
+            component["diagram_page"] + 1
+            if component["machine_id"] == 44
+            else component["diagram_page"]
+        )
+
+    elif (
+        component["machine_id"] == 45
+        and component["part_number"]
+        and component["catalog_ref"]
+    ):
+        matched_pages = conn.execute(
+            """
+            SELECT DISTINCT pdf_page
+            FROM catalog_occurrences
+            WHERE machine_id = ?
+              AND catalog_ref = ?
+              AND substr(part_number, instr(part_number, '-') + 1) = ?
+            """,
+            (
+                45,
+                component["catalog_ref"],
+                component["part_number"].split("-", 1)[1]
+                if "-" in component["part_number"]
+                else component["part_number"]
+            )
+        ).fetchall()
+
+        if len(matched_pages) == 1:
+            juki_pdf_page = matched_pages[0]["pdf_page"]
+
+    if juki_pdf_page is not None:
+        juki_parts = conn.execute(
+            """
+            SELECT *
+            FROM catalog_occurrences
+            WHERE machine_id = ?
+              AND pdf_page = ?
+            ORDER BY CAST(catalog_ref AS INTEGER), id
+            """,
+            (component["machine_id"], juki_pdf_page)
+        ).fetchall()
+
+    # Daftar part katalog Brother berdasarkan halaman diagram.
+    brother_parts = []
+    if (
+        component["machine_id"] == 227
+        and component["diagram_page"] is not None
+    ):
+        brother_parts = conn.execute(
+            """
+            SELECT *
+            FROM parts
+            WHERE machine_id = ?
+              AND diagram_page = ?
+            ORDER BY
+                catalog_ref IS NULL,
+                CAST(catalog_ref AS INTEGER),
+                id
+            """,
+            (component["machine_id"], component["diagram_page"])
+        ).fetchall()
+
     conn.close()
 
     return render_template(
@@ -1264,7 +1654,10 @@ def component_detail(component_id):
         component=component,
         sub_parts=sub_parts,
         clamp_d1_parts=clamp_d1_parts,
-        clamp_d2_parts=clamp_d2_parts
+        clamp_d2_parts=clamp_d2_parts,
+        juki_parts=juki_parts,
+        juki_pdf_page=juki_pdf_page,
+        brother_parts=brother_parts
     )
 
 
@@ -1300,6 +1693,7 @@ def part_detail(part_id):
             components.component_name,
             components.part_number,
             components.location,
+            components.image_path,
             component_parts.relation_type,
             component_parts.notes AS relation_notes
         FROM component_parts

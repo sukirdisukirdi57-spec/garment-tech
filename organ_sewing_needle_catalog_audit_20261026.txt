@@ -1,0 +1,556 @@
+Product Brochure
+                                                                                                                                                                      ①
+主 要 寸 法                                                                                                                ミシン針の主要部位名称
+MAIN DIMENSIONS                                                                                                        ANATOMY OF THE NEEDLE
+主 要 尺 寸                                                                                                                縫紉機針的各部名称
+
+
+
+
+  Ａ      軸
+         （シャンク）
+              径                     Shank diameter                                針柄直徑                                    ①         針先部      Needle point       針頭部
+  Ｂ      幹径                         Blade diameter                                針杆直徑                                    ②         先端       Tip of the point   針尖
+  Ｄ      穴上寸法                       Butt to eye length                            針眼上方尺寸                                  ③         糸穴       Needle eye         針眼
+  Ｅ      全長                         Total length                                  全長                                      ④         針幹       Blade              針杆
+  Ｆ      穴先寸法                       Distance from end of eye to tip               針眼下方尺寸                                  ⑤         表溝       Long groove        表槽
+  Ｓ      エグリ深さ                      Depth of scarf                                針冠深                                     ⑥         テーパー部    Shank taper        針肩
+  Ｈ      エグリ長さ                      Length of scarf                               針冠長                                     ⑦         シャンク・軸   Shank              針柄
+  Ｊ      穴縦寸法                       Length of eye                                 針眼長                                     ⑧         短溝       Point groove       短槽
+  Ｋ      穴横寸法                       Width of eye                                  針眼寬                                     ⑨         エグリ      Scarf              針冠
+  Ｎ      軸寸法                        Length of shank                               針柄尺寸                                    ⑩         裏溝       Short groove       裏槽
+  Ｚ      溝深さ                        Depth of groove                               針槽深
+  Ｙ      テーパー部寸法                    Length of shank taper                         針肩尺寸
+☆本カタログには、    A, D, N, E寸法が記載されています。         （E寸法は     「二重環縫い関係」のみの記載になります。）
+☆The measurements A, D, N and E are given in this brochure.
+                                                          （The measurement for E is shown in the "Double chainstitch" part only.）
+☆本目錄登載了各种針的A·D·N·E尺寸。（只有與「雙綫鎖縫紉」有關的產品登載了E尺寸。）
+糸と針の関係表                                                                              ※参考資料としてお使い下さい。
+Interrelationship Table (Thread/Needle Sizes)                                        ※This table is only for reference purposes.
+綫號和針號的關係表                                                                            ※請作為參考資料。
+
+
+                                    対応する針番手/Needle Size/針號
+                                                                                                                        糸の太さ /Thread Size/ 綫號                  対応する針番手
+                                                                                                                                                                Needle Size
+                  呼び番手     綿糸      ポリエステルスパン ポリエステルフィラメント ナイロンフィラメント
+                                                                                                                                                                   針號
+                          Cotton    Polyester spun Polyester ﬁlament Nylon ﬁlament                      Tex           dTex              Nm        Ticket
+                         全棉縫紉綫     滌綸短纖維縫紉綫 滌綸長絲縫紉綫                  尼龍長絲縫紉綫
+                                                                                                         10           100                          250                55/7
+                   120      7            7                                                               12           120                          230          55/7～65/9
+                   100    7～8           7～8              7              7～9                              16           160               180        200         55/7～70/10
+                   80     7～11          7～9             7～9            7～10                              24           240               160        120         60/8～80/12
+                   60     8～14         8～12            7～10            7～11             フィラメント           30           300               100        80         70/10～100/16
+  呼び番手表                                                                                  Filament
+                   50     10～16        10～14           8～12            9～14             長絲縫紉綫            50           500                          60         80/12～110/18
+   （日本）
+Japanese Ticket    40     14～19        12～18           11～16           11～14                             60           600               40         40         90/14～125/20
+ 綫號針號對應表
+                   30     16～21        14～19           14～20           16～19                             80           800               30         30         100/16～130/21
+   （日本）
+                   20     19～23        19～23           18～22           18～21                            105           1050              25         25         110/18～140/22
+                   10     20～23        20～23           19～23                                            180           1800                         20         130/21～180/24
+                   8      22～24        22～24           19～24
+                   5                                   24～25
+                                                                                                                        糸の太さ/Thread Size/針號                    対応する針番手
+                                                                                                                                                                Needle Size
+                                                                                                                                                                   針號
+                                                                                                        Tex           dTex              Nm        Ticket
+                           糸の太さ /Thread Size/ 綫號                    対応する針番手
+                                                                     Needle Size                         18           180               160        180          60/8～65/9
+                                                                        針號
+                   Tex    dTex          Nm             Ticket                                            21           210               150        150         60/8～70/10
+                   16      160          200             200          50/6～55/7                           24           240               120        120         70/10～80/12
+                   18      180          180             180          55/7～65/9                           30           300               100        100         70/10～90/14
+                   21      210          140             150         60/8～80/12                           40           400               75         80         80/12～100/16
+                                                                                        コアスパン
+                   27      270          120             120         65/9～90/14          Core Spun        50           500               60                    90/14～100/18
+                                                                                         包芯綫
+                   30      300          120              90        70/10～100/16                          60           600               50         50         90/14～120/19
+   スパン
+   Spun            40      400           75              75        80/12～110/18                          80           800               36         40         100/16～120/19
+ 短纖維縫紉綫
+                   60      600           50              50        90/14～120/19                         105           1050              30         30         100/16～140/22
+                   70      700           50              60        90/14～120/19                         140           1400              25         25         120/19～160/23
+                   80      800                           30       100/16～125/20                         200           2000              14                    140/22～160/23
+                   105    1050           30              25       110/18～130/21
+                   120    1200           25              24       120/19～160/23                                                Denir            対応する針番手/Needle Size/針號
+                                                                                                                                   75                    60/8～70/10
+                                                                                              刺繍糸
+                                                                                         Embroidery Thread                     120                       65/9～75/11
+                                                                                              綉花綫
+                                                                                                                               200                      75/11～90/14
+                                                                                                                                                                              ②
+                                                                                                                                                                                            ③
+ミシン針の針先形状及び先端形状                                                                            表面処理のご紹介                     縫製条件に合わせて三種類の表面処理をご用意します。
+                                                                                                                        ＊HPのみ＃14以下の針では、先端はJボールポイントが標準仕様となっています。
+POINT STYLE and TIP OF THE POINT STYLE
+縫紉機針的針頭形狀及針尖形狀                                                                             COATING STYLE                We have three types of coatings depending on
+                                                                                                                        sewing conditions.
+                                                                                                                        ＊Regarding HP coating, the J-ball has been adapted for needles of
+                                                                                                                         size #14 and under to maintain consistency.
+
+                                                                                           關於表面處理                       針對縫紉條件現在共有三种表面處理方式。
+                                                                                                                        ＊HP、
+                                                                                                                           ＃14以下的針的針尖標準為J圓頭。
+
+
+         先端形状
+         Symbol
+
+
+
+                                                                                           HP                           LP                              PD
+         針頭形狀
+
+
+
+                                                                                           針熱トラブル                       粘着トラブル                          摩耗・先つぶれが引き起こすトラブル
+                                                                                           Trouble due to Needle Heat   Trouble due to Adhesion         Trouble due to Wear and Point Damage
+                                                                                           針熱而引起的縫紉問題                   粘着而引起的縫紉問題                      磨損・針尖損傷而引起的縫紉問題
+
+
+
+
+            針先図
+Illustration of Needle Point
+            針尖圖
+
+
+
+
+     オルガン記号
+   ORGAN Designation                R                  TRI                   SPI
+     風琴公司記號
+
+        他社記号
+ Other Maker Designation         R, SET           SD1, TRI TIP            RS, S SET
+       其它公司記號
+
+           特徴                     正規型                小三角型                  尖頭細身型
+        Description            Regular point   Light triangular point   Slim sharp point
+           特徴                    標準針頭               小三角形頭                尖頭細身形頭
+Ball Point series
+ボールポイント                                                                        工業用ミシン針のすべての種別・番手にボールポイント加工を施すことができます。詳しくはお問い合わせください。
+Ball-Point                                                                     Ball Points can be supplied on all ORGAN needles. Please contact our representative for further information.
+圓頭針                                                                            圓頭針的加工處理可以對風琴針品牌工業縫紉機針的所有種類的各種型號。具體事宜請向敝公司詢問。
+
+
+
+           先端形状
+           Symbol
+           針頭形狀
+
+
+
+
+            針先図
+Illustration of Needle Point
+            針尖圖
+
+
+
+
+      オルガン記号
+    ORGAN Designation                             S                                 Q                                 J                        B                            U                               Y
+      風琴公司記號
+
+        他社記号
+                                                                                                           SES, FFG, L BALL,          SUK, FG, M BALL, SI           STR, TR, H BALL,
+ Other Maker Designation                                                           RG                                                                                                             SKF, G, EH BALL, BIL
+                                                                                                           SIN, R-K, NYR, BPL           R-KB, LAC, BMP                 KAL, BPH
+       其它公司記號
+
+             特徴                            スリムポイント                              Qボール                              Jボール                     Bボール                         Uボール                             Yボール
+          Description                       Slim point                   Extra light ball point               Light ball point         Medium ball point             Heavy ball point             Extra heavy ball point
+             特徴                             纖細針頭                               極小圓頭                               小圓頭                       中圓頭                          大圓頭                             特大圓頭
+
+※スリムポイントは、      先端がJボールで、      糸穴から先端までの針先の形状は当社標準針よりも細身になっています。                                                                         ボールポイント表示例                                     -10ｐｃｓ-       -10ｐｃｓ-     -10ｐｃｓ-
+ Slim point has adopted a slimmer needle point (from the side of the eye to the tip) along with the J-ball than our regular needle.      description example of ball point on package   DPｘ134        DBｘ1KN     DPｘ17-NY2
+ 細身圓頭針的針尖為J圓頭、從針眼到針尖的針頭部分比標準針細                                                                                                           圓頭針的包裝樣例                                       Size 9S       Size 11U   Size 21SPD
+                                                                                                                                                                                                                              ④
+                                                                                             ⑤
+カッティングポイント
+Cutting-Point
+刀針
+
+
+         先端形状
+         Symbol
+         針頭形狀
+
+
+
+
+            針先図
+Illustration of Needle Point
+            針尖圖
+
+
+
+
+          縫い目
+          Stitch
+           縫跡
+
+
+
+
+     オルガン記号
+   ORGAN Designation             LL         LR         S        P      D     DⅠ     TQ
+     風琴公司記號
+
+        他社記号
+ Other Maker Designation       TW, NTW   RTW, NRTW   CR, NCR   W, NW   TRI   DIA   QR, RSQ
+       其它公司記號
+小カッティングポイント                             小カッティングポイントタイプをご注文の際は番手の後に
+                                                                 「Ｍ」
+                                                                   を記載してください
+Small Cutting Point(M)                  When placing an order for the small cutting point,please indicate with an M after the size number
+小劍尾針                                    訂購小劍尾針時,請在針號後加上“M”。
+
+
+
+         先端形状
+         Symbol
+         針頭形狀
+
+
+
+
+            針先図
+Illustration of Needle Point
+            針尖圖
+
+
+
+
+          縫い目
+          Stitch
+           縫跡
+                                                                                                                                             包装表示例
+                                                                                                                                            PACKAGING
+                                                                                                                                             包裝樣例
+
+     オルガン記号
+   ORGAN Designation           M-LL   M-LR                  M-S                     M-P                     M-D                     M-DⅠ
+     風琴公司記號                                                                                                                                  -10pcs-
+                                                                                                                                            DP x 17LL
+
+        他社記号                                                                                                                                 Size 21M
+ Other Maker Designation                                                                                     SD
+       其它公司記號
+
+                                                                                                                                                        ⑥
+                                                                                                                                 ⑦
+小カッティングポイント                  小カッティングポイントタイプをご注文の際は番手の後に
+                                                      「Ｍ」
+                                                        を記載してください
+SMALL CUTTING POINT(M)       When placing an order for the small cutting point,please indicate with an M after the size number
+小劍尾針                         訂購小劍尾針時,請在針號後加上“M”。
+
+
+
+
+                                                                                                                  扭
+
+
+
+                                                                                                                  扭
+
+
+
+
+                         扭
+
+
+
+                         扭
+
+
+
+                         扭
+SYSTEM    OTHER MAKER SYSTEM    POINT    ILLUSTRATION OF NEEDLE   APPLICATION   NEEDLE SIZES
+SYSTEM    PARALLELSYSTEME       SPITZE   NADELFOTO                ANMERKUNG     NADELSTÄRKEN
+SISTEMA   SISTEMAS EQUIVALENTES PUNTA    FOTO DE AGUJA            NOTAS         TAMAÑOS DE AGUJAS
+
+
+
+
+                                                                                                    ⑧
+                                                                                                    ⑨
+
+SYSTEM    OTHER MAKER SYSTEM    POINT    ILLUSTRATION OF NEEDLE   APPLICATION   NEEDLE SIZES
+SYSTEM    PARALLELSYSTEME       SPITZE   NADELFOTO                ANMERKUNG     NADELSTÄRKEN
+SISTEMA   SISTEMAS EQUIVALENTES PUNTA    FOTO DE AGUJA            NOTAS         TAMAÑOS DE AGUJAS
+SYSTEM    OTHER MAKER SYSTEM    POINT    ILLUSTRATION OF NEEDLE   APPLICATION   NEEDLE SIZES
+SYSTEM    PARALLELSYSTEME       SPITZE   NADELFOTO                ANMERKUNG     NADELSTÄRKEN
+SISTEMA   SISTEMAS EQUIVALENTES PUNTA    FOTO DE AGUJA            NOTAS         TAMAÑOS DE AGUJAS
+
+
+
+
+                                                                                                    ⑩
+                                                                                                    ⑪
+
+SYSTEM    OTHER MAKER SYSTEM    POINT    ILLUSTRATION OF NEEDLE   APPLICATION   NEEDLE SIZES
+SYSTEM    PARALLELSYSTEME       SPITZE   NADELFOTO                ANMERKUNG     NADELSTÄRKEN
+SISTEMA   SISTEMAS EQUIVALENTES PUNTA    FOTO DE AGUJA            NOTAS         TAMAÑOS DE AGUJAS
+SYSTEM    OTHER MAKER SYSTEM    POINT    ILLUSTRATION OF NEEDLE   APPLICATION   NEEDLE SIZES
+SYSTEM    PARALLELSYSTEME       SPITZE   NADELFOTO                ANMERKUNG     NADELSTÄRKEN
+SISTEMA   SISTEMAS EQUIVALENTES PUNTA    FOTO DE AGUJA            NOTAS         TAMAÑOS DE AGUJAS
+
+
+
+
+                                                                                                    ⑫
+                                                                                                    ⑬
+
+SYSTEM    OTHER MAKER SYSTEM    POINT    ILLUSTRATION OF NEEDLE   APPLICATION   NEEDLE SIZES
+SYSTEM    PARALLELSYSTEME       SPITZE   NADELFOTO                ANMERKUNG     NADELSTÄRKEN
+SISTEMA   SISTEMAS EQUIVALENTES PUNTA    FOTO DE AGUJA            NOTAS         TAMAÑOS DE AGUJAS
+SYSTEM    OTHER MAKER SYSTEM    POINT    ILLUSTRATION OF NEEDLE   APPLICATION   NEEDLE SIZES
+SYSTEM    PARALLELSYSTEME       SPITZE   NADELFOTO                ANMERKUNG     NADELSTÄRKEN
+SISTEMA   SISTEMAS EQUIVALENTES PUNTA    FOTO DE AGUJA            NOTAS         TAMAÑOS DE AGUJAS
+
+
+
+
+                                                                                                    ⑭
+                                                                                                    ⑮
+
+SYSTEM    OTHER MAKER SYSTEM    POINT    ILLUSTRATION OF NEEDLE   APPLICATION   NEEDLE SIZES
+SYSTEM    PARALLELSYSTEME       SPITZE   NADELFOTO                ANMERKUNG     NADELSTÄRKEN
+SISTEMA   SISTEMAS EQUIVALENTES PUNTA    FOTO DE AGUJA            NOTAS         TAMAÑOS DE AGUJAS
+SYSTEM    OTHER MAKER SYSTEM    POINT    ILLUSTRATION OF NEEDLE   APPLICATION   NEEDLE SIZES
+SYSTEM    PARALLELSYSTEME       SPITZE   NADELFOTO                ANMERKUNG     NADELSTÄRKEN
+SISTEMA   SISTEMAS EQUIVALENTES PUNTA    FOTO DE AGUJA            NOTAS         TAMAÑOS DE AGUJAS
+
+
+
+
+                                                                                                    ⑯
+                                                                                                    ⑰
+
+SYSTEM    OTHER MAKER SYSTEM    POINT    ILLUSTRATION OF NEEDLE   APPLICATION   NEEDLE SIZES
+SYSTEM    PARALLELSYSTEME       SPITZE   NADELFOTO                ANMERKUNG     NADELSTÄRKEN
+SISTEMA   SISTEMAS EQUIVALENTES PUNTA    FOTO DE AGUJA            NOTAS         TAMAÑOS DE AGUJAS
+SYSTEM    OTHER MAKER SYSTEM    POINT    ILLUSTRATION OF NEEDLE   APPLICATION   NEEDLE SIZES
+SYSTEM    PARALLELSYSTEME       SPITZE   NADELFOTO                ANMERKUNG     NADELSTÄRKEN
+SISTEMA   SISTEMAS EQUIVALENTES PUNTA    FOTO DE AGUJA            NOTAS         TAMAÑOS DE AGUJAS
+
+
+
+
+                                                                                                    ⑱
+                                                                                                    ⑲
+
+SYSTEM    OTHER MAKER SYSTEM    POINT    ILLUSTRATION OF NEEDLE   APPLICATION   NEEDLE SIZES
+SYSTEM    PARALLELSYSTEME       SPITZE   NADELFOTO                ANMERKUNG     NADELSTÄRKEN
+SISTEMA   SISTEMAS EQUIVALENTES PUNTA    FOTO DE AGUJA            NOTAS         TAMAÑOS DE AGUJAS
+SYSTEM    OTHER MAKER SYSTEM    POINT    ILLUSTRATION OF NEEDLE   APPLICATION   NEEDLE SIZES
+SYSTEM    PARALLELSYSTEME       SPITZE   NADELFOTO                ANMERKUNG     NADELSTÄRKEN
+SISTEMA   SISTEMAS EQUIVALENTES PUNTA    FOTO DE AGUJA            NOTAS         TAMAÑOS DE AGUJAS
+
+
+
+
+                                                                                                    ⑳
+                                                                                                    ㉑
+
+SYSTEM    OTHER MAKER SYSTEM    POINT    ILLUSTRATION OF NEEDLE   APPLICATION   NEEDLE SIZES
+SYSTEM    PARALLELSYSTEME       SPITZE   NADELFOTO                ANMERKUNG     NADELSTÄRKEN
+SISTEMA   SISTEMAS EQUIVALENTES PUNTA    FOTO DE AGUJA            NOTAS         TAMAÑOS DE AGUJAS
+SYSTEM    OTHER MAKER SYSTEM    POINT    ILLUSTRATION OF NEEDLE   APPLICATION   NEEDLE SIZES
+SYSTEM    PARALLELSYSTEME       SPITZE   NADELFOTO                ANMERKUNG     NADELSTÄRKEN
+SISTEMA   SISTEMAS EQUIVALENTES PUNTA    FOTO DE AGUJA            NOTAS         TAMAÑOS DE AGUJAS
+
+
+
+
+                                                                                                    ㉒
+                                                                                                                                                                                                                                      ㉓
+ミシン針相談のご案内                                                        縫製トラブルが解消しないときに、適正針選定のお手伝いをします。
+SEWING MACHINE NEEDLES INQUIRIES                                  For ongoing sewing problems, we can help by recommending the appropriate needle.
+縫紉機針諮詢服務的介紹                                                       縫製問題無法解決時,敝公司為您提供選定合適縫紉機針的幫助。
+
+
+ お申し込みの流れ / Application Process / 申請流程
+
+
+STEP1                                                                 STEP2                                                            STEP3
+  弊社所定のミシン針相談受付用紙*へ記入                                                   そのほかにご準備いただくもの                                                   弊社取扱い代理店もしくは弊社営業担
+ ・弊社からのご連絡、お問い合わせ先                                                     ・ 縫製試験用テスト生地　　1m×1m程度                                             当までお送りください。
+ ・どのようなトラブルが発生しているのか                                                   ・ トラブルが発生している縫い見本
+ ・どのような縫製条件下でトラブルが発生しているのか                                             ・ 副資材を一緒に縫製する場合は、 その副資材                                           Send Application to our dealer or any of
+ できるだけ詳しくご記入ください。                                                                                                                        our sales personnel.
+
+  Complete Application Form                                             Additional Item to be submitted                                  請發送到敝公司代理店或敝公司營業
+  * Applicant's contact info                                            * 1mx1m of desired material to test                              擔當処。
+  * Description of trouble                                              * Sample of problemed material
+  * Condition when trouble occured                                      * Where a sub-material was used,                               ご希望にそって、下の方法のどちらかにてご回答します。
+  All of the above in as much detail as possible                          please submit it as well                                     縫製試験     縫製試験を行い、その結果をご連絡します。
+                                                                                                                                       トラブル見本照合 縫い見本から原因を推察し、その結果をご連絡します。
+                                                                                                                                       お急ぎの場合は、
+                                                                                                                                              トラブル見本照合での回答とさせていただきます。
+  填寫敝公司所定的縫紉機針諮詢受理表                                                     受理表以外需要準備的東西
+                                                                                                                                       Depending on your needs, select one of the methods below:
+ ・聯係方法                                                                 ・縫製試驗用的面料 1m×1m                                                 Sewing Test:       Conduct test and notify you of results
+ ・目前發生的縫製問題的內容                                                         ・實際發生了問題的縫製樣品                                                   Inspection Method: Inspect problemed materials to determine causes of problem and notify you
+ ・發生縫製問題的縫製條件                                                          ・一起縫製的輔料（如果有的話,）                                                For quickest response, please select the inspection method.
+ 請盡可能詳細地填寫。
+                                                                                                                                       我們將根據您的意願，
+                                                                                                                                                選擇如下方式中的一種進行回答。
+                                                                                                                                       縫製試驗方式:   進行縫製試驗後,匯報結果。
+                                                                                                                                       觀察問題樣品方式: 由問題樣品推測發生的原因並匯報結果。
+                                                                                                                                       您若是急的話，
+                                                                                                                                             我們將採用觀察問題樣本方式匯報結果。
+＊ ミシン針相談受付用紙は、弊社のホームページより日本語版のみダウンロードできます。
+  URL: http://www.organ-needles.com/pdf/trouble2.pdf
+  オルガン針株式会社トップページの左側メニューより、縫製トラブル対策情報＞ミシン針相談受付用紙
+  尚、ミシン針相談受付用紙にご記入の際は、記載されている事項をよくご確認のうえ、            詳しくご記入ください。
+  英語版、中国語版の受付用紙については、営業担当にお問い合わせください。
+
+    To obtain an English copy of the application, please contact any of our sales personnel.
+    中文版的縫紉機針諮詢受理表,請向敝公司營業擔當詢問。
+
+ミシン針相談についてご不明な点は、営業担当にお問い合わせください。
+For any further information required, please contact any of our sales personnel.
+如果您對縫紉機針咨詢服務有任何不明之処，                       請向敝公司營業擔當詢問。
+縫製トラブルと対策針 薄物生地の縫製                  （アパレル・ファンデーション・スポーツウェア）
+SEWING TROUBLE and COUNTERMEASURE   -Needle for thin fabrics sewing (Apparel・Underwear・Sportswear)-
+縫紉問題及對策針                            ～輕薄面料的
+                                         （服裝縫製・内衣縫製・運動服縫製）
+                                                         ～
+
+
+             TROUBLE                       MATERIAL                                                      CAUSE                 SUGGESTED NEEDLE
+
+                                                                                                   Unsuitable Point           Ball point series
+            Fabric Yarn                        Knit
+             Breakage                                                                             Size and Thickness           KN/SF series
+
+                                             Woven                                               Unsuitable Thickness            NS series
+
+
+                                               Net                                               Unsuitable Point Size        Ball point series
+
+                                                                                                Needle Penetrates up to
+                                                                                                     Shank Taper                 KK series
+
+
+                                                                                                       Heat Buildup              HP coating
+
+                                                                                                 Needle Deﬂection                NY2 series
+         Skipped Stitches
+                                                                                                 Poor Loop Formation             SK series
+                                                                                                  High Friction/Resistance       NS series
+          Seam Puckering
+                                                                                                between Needle and Material      LP coating
+
+           Leaking Down                      Woven                                              Poor Seam Appearance             NS series
+
+
+                                                                                               Down Clinging to Needle           LP coating
+
+                                                                                               Inside Down Leaks out from
+                                               Knit
+                                                                                                Fabric Yarn Breakage Hole
+                                                                                                                                KN/SF series
+
+                                          Twill Weave/
+            Needle Line
+                                          Sateen Weave
+                                                                                                   Loose Woven Yarn              NS series
+
+         Pulling Linings out                                                                       Loose Woven Yarn           Ball point series
+                                         Printed Material
+          of Needle Holes                                                                            with Strands              KN/SF series
+
+             Protrusion                       Gum                                                     Gum Protrusion          Ball point series
+
+                                                                                                                              Ball point series
+                                             Woven                                              Visible Yarn Movement
+                                                                                                                                 NS series
+
+                                                                                                 Twist Displacement of
+                                                                                                      Woven Yarn
+                                                                                                                              Ball point series
+
+                                           Sequins with                                            Needle Penetrates
+         Sequins Breakage
+                                           a Small Hole                                            up to Shank Taper
+                                                                                                                                 KK series
+
+                                                                                                                                                  ㉔
+                                                                                                                                               ㉕
+縫製トラブルと対策針 厚物生地の縫製                  （デニム・鞄・靴・家具・自動車関係）
+SEWING TROUBLE and COUNTERMEASURE    -Needle for thick materials sewing (Denim・Bag・Shoes・Furniture・Car Seat)-
+縫紉問題及對策針                            ～用於厚重面料的
+                                           （牛仔服縫製・包・鞋・家具・汽車座墊）
+                                                             ～
+
+
+             TROUBLE                        MATERIAL                                                    CAUSE               SUGGESTED NEEDLE
+
+            Fabric Yarn                        Knit                                              Unsuitable Point Size     Ball point series
+             Breakage                                                                               and Thickness
+
+                                                                                                                              LE series
+
+
+                                              Woven                                              Unsuitable Thickness      Ball point series
+
+
+                                                                                                                              LE series
+
+                                                                                                  Needle Penetrates
+                                                                                                  up to Shank Taper           KK series
+
+
+          Skipped Stitches                                                                       Needle Deﬂection             NY2 series
+                                                                                                 Poor Loop Formation
+
+                                                                                                                              SK series
+
+                                                                                                  Unsuitable Thread
+            Loose Seams                   Thicker Thread
+                                                                                                     Thickness
+                                                                                                                              LE series
+
+
+         Trouble due to Wear                                                                                               Ball point series
+          and Point Damage
+
+                                                                                                                              PD plating
+
+            Poor Seams                                                                            Needle Penetrates
+            Appearance
+                                          Genuine Leather                                         up to Shank Taper           KK series
+
+            Trouble due                                                                         Unsuitable and Material
+            to Adhesion
+                                            Interlining
+                                                                                                Waste Clinging to Needle
+                                                                                                                              LP coating
+
+           Upper Thread                                                                          Twist Displacement
+            Breakage
+                                              Plastic
+                                                                                                      of Thread
+                                                                                                                              SK series
+
+
+          Needle Breakage                 Thick and Hard                                        Worn and Damaged Point        NY2 series
+                                             Material
+
+                                                                                                                              SK series
+
+
+                                                                                                                               O series
+㉖
+CÔNG TY TNHH THƯƠNG MẠI KIM MAY ORGAN VIỆT NAM
+Tầng 7, Số 400 Đường Nguyễn Thị Thập,
+Phường Tân Quy. Quận 7, Thành phố Hồ Chí Minh
+

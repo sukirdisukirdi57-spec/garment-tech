@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tambah Data Jarum | GarmentTech</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="needle-catalog-page">
+<header>
+    <h1>Tambah Data Katalog Jarum</h1>
+    <p>Garment Machine Tech Database</p>
+</header>
+<main class="needle-main">
+    <nav class="needle-nav">
+        <a href="/needle-catalog">← Kembali ke katalog</a>
+        <a href="/">Beranda</a>
+    </nav>
+
+    <section class="needle-panel">
+        <p>Isi berdasarkan katalog atau referensi yang bisa diperiksa. Biarkan kosong jika informasi belum diketahui. Jangan mengarang ukuran atau kecocokan mesin.</p>
+
+        <form method="post" action="/admin/needle/add" class="needle-form">
+            <label>Merek jarum
+                <input name="brand" maxlength="120" placeholder="Contoh: ORGAN">
+            </label>
+
+            <label>Sistem jarum
+                <input name="needle_system" maxlength="120" placeholder="Contoh: DB×1">
+            </label>
+
+            <label>Ukuran NM (angka)
+                <input name="size_nm_value" type="number" min="1" max="500" step="any" inputmode="decimal" placeholder="Contoh: 90 atau 150">
+            </label>
+
+            <label>Nomor ukuran dari produsen
+                <input name="manufacturer_size" maxlength="80" placeholder="Contoh: No. 14 atau No. 22½">
+            </label>
+
+            <p class="needle-help">Nomor produsen disimpan sebagai teks agar pecahan seperti 22½, 14¼, atau 18¾ tidak berubah atau dibulatkan.</p>
+
+            <label>Kode ujung
+                <input name="point_code" maxlength="80" placeholder="Isi jika tercantum di sumber">
+            </label>
+
+            <label>Deskripsi ujung
+                <input name="point_description" maxlength="200">
+            </label>
+
+            <label>Bahan / aplikasi
+                <input name="material_application" maxlength="200">
+            </label>
+
+            <label>Kode produk
+                <input name="product_code" maxlength="120">
+            </label>
+
+            <label>Keterangan
+                <textarea name="description" rows="4" maxlength="2000"></textarea>
+            </label>
+
+            <label>URL sumber data jarum
+                <input type="url" name="source_url" maxlength="1000" placeholder="https://...">
+            </label>
+
+            <label>Status verifikasi data jarum
+                <select name="verification_status">
+                    <option selected>Belum diverifikasi</option>
+                    <option>Terverifikasi</option>
+                </select>
+            </label>
+            <label>Catatan bukti verifikasi
+                <textarea name="verification_notes" rows="4" maxlength="2000" placeholder="Catat bagian katalog, halaman manual, atau bukti spesifikasi yang diperiksa"></textarea>
+            </label>
+            <p class="needle-help">Jika memilih Terverifikasi, URL sumber dan catatan bukti wajib diisi.</p>
+
+            <div class="needle-machine-picker">
+                <h2>Relasi Mesin (Opsional)</h2>
+                <p>Pilih hanya mesin yang didukung referensi. Jika masih ragu, jangan pilih mesin dulu. Relasi yang dibuat tetap berstatus <strong>Belum diverifikasi</strong>.</p>
+
+                <label for="machine_ids">Pilih satu atau beberapa mesin</label>
+                <select id="machine_ids" name="machine_ids" multiple size="10">
+                    {% for machine in machines %}
+                    <option value="{{ machine['id'] }}">{{ machine['brand_name'] }} — {{ machine['model'] }} (ID {{ machine['id'] }})</option>
+                    {% endfor %}
+                </select>
+                <p class="needle-help">Pada ponsel, tekan dan tahan pilihan jika browser mendukung pemilihan beberapa opsi. Jika sulit, simpan data jarum tanpa relasi mesin terlebih dahulu.</p>
+
+                <label>Sumber referensi kompatibilitas mesin
+                    <input type="url" name="compatibility_source_url" maxlength="1000" placeholder="https://...">
+                </label>
+
+                <label>Catatan kompatibilitas
+                    <textarea name="compatibility_notes" rows="3" maxlength="1000" placeholder="Contoh: catatan dari manual; belum diverifikasi"></textarea>
+                </label>
+            </div>
+
+            <button type="submit">Simpan Data Jarum</button>
+        </form>
+
+        <p><a href="/needle-catalog">Batal dan kembali ke katalog</a></p>
+    </section>
+</main>
+<footer class="needle-footer"><a href="/">Garment Machine Tech Database</a></footer>
+</body>
+</html>

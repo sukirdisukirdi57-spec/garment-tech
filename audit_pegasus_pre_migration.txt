@@ -1,0 +1,256 @@
+Database: /data/data/com.termux/files/home/garment-tech/database/garment.db
+Mode: AUDIT PRA-MIGRASI — READ ONLY
+Integritas awal: ok
+
+=== E256: 5 baris target ===
+
+ID 1279 | Benang sering putus
+LAMA symptoms: 'Putusnya benang terjadi berulang saat mesin dijalankan.'
+LAMA possible_cause: 'Tegangan benang tidak seimbang, jalur benang kotor, jarum atau looper aus.'
+LAMA solution: 'Periksa jalur benang, bersihkan area kerja, periksa kondisi jarum dan looper, lalu lakukan penyetelan sesuai manual.'
+LAMA safety_notes: 'Matikan mesin sebelum memeriksa jalur benang, jarum, looper, atau melakukan penyetelan.'
+LAMA source: 'Prosedur troubleshooting umum PEGASUS E256'
+-- USULAN --
+BARU symptoms: 'Putusnya benang terjadi berulang saat mesin dijalankan.'
+BARU possible_cause: 'Putusnya benang terjadi berulang saat mesin dijalankan.'
+BARU solution: 'Tegangan benang tidak seimbang, jalur benang kotor, jarum atau looper aus.'
+BARU safety_notes: 'Matikan mesin sebelum memeriksa jalur benang, jarum, looper, atau melakukan penyetelan.'
+BARU source: 'Prosedur troubleshooting umum PEGASUS E256'
+TINJAUAN: solution lama berbeda dari safety_notes;
+          instruksi tersebut perlu ditinjau sebelum migrasi.
+
+ID 1280 | Jahitan loncat
+LAMA symptoms: 'Sebagian jahitan tidak terbentuk dengan sempurna.'
+LAMA possible_cause: 'Jarum tidak sesuai, jarum bengkok, pemasangan jarum kurang tepat, atau sinkronisasi jarum dan looper tidak tepat.'
+LAMA solution: 'Ganti atau pasang jarum dengan benar dan periksa hubungan kerja jarum dengan looper.'
+LAMA safety_notes: 'Matikan mesin dan lepaskan sumber tenaga sebelum memeriksa jarum, looper, atau sinkronisasi mekanisme.'
+LAMA source: 'Prosedur troubleshooting umum PEGASUS E256'
+-- USULAN --
+BARU symptoms: 'Sebagian jahitan tidak terbentuk dengan sempurna.'
+BARU possible_cause: 'Sebagian jahitan tidak terbentuk dengan sempurna.'
+BARU solution: 'Jarum tidak sesuai, jarum bengkok, pemasangan jarum kurang tepat, atau sinkronisasi jarum dan looper tidak tepat.'
+BARU safety_notes: 'Matikan mesin dan lepaskan sumber tenaga sebelum memeriksa jarum, looper, atau sinkronisasi mekanisme.'
+BARU source: 'Prosedur troubleshooting umum PEGASUS E256'
+TINJAUAN: solution lama berbeda dari safety_notes;
+          instruksi tersebut perlu ditinjau sebelum migrasi.
+
+ID 1281 | Jahitan tidak rapi atau tidak stabil
+LAMA symptoms: 'Kerapatan dan bentuk jahitan berubah-ubah selama proses menjahit.'
+LAMA possible_cause: 'Ketegangan benang tidak seimbang, komponen pembentuk jahitan kotor, atau penyetelan mesin berubah.'
+LAMA solution: 'Bersihkan area pembentukan jahitan dan periksa kembali jalur serta ketegangan benang sesuai manual. Lakukan penyetelan secara bertahap.'
+LAMA safety_notes: 'Matikan mesin sebelum membersihkan area pembentukan jahitan atau melakukan penyetelan. Jangan menyentuh bagian bergerak saat mesin beroperasi.'
+LAMA source: 'Prosedur troubleshooting umum PEGASUS E256'
+-- USULAN --
+BARU symptoms: 'Kerapatan dan bentuk jahitan berubah-ubah selama proses menjahit.'
+BARU possible_cause: 'Kerapatan dan bentuk jahitan berubah-ubah selama proses menjahit.'
+BARU solution: 'Ketegangan benang tidak seimbang, komponen pembentuk jahitan kotor, atau penyetelan mesin berubah.'
+BARU safety_notes: 'Matikan mesin sebelum membersihkan area pembentukan jahitan atau melakukan penyetelan. Jangan menyentuh bagian bergerak saat mesin beroperasi.'
+BARU source: 'Prosedur troubleshooting umum PEGASUS E256'
+TINJAUAN: solution lama berbeda dari safety_notes;
+          instruksi tersebut perlu ditinjau sebelum migrasi.
+
+ID 1282 | Kain mengerut
+LAMA symptoms: 'Permukaan kain berkerut atau tertarik setelah proses menjahit.'
+LAMA possible_cause: 'Perbedaan tarikan benang, tekanan sepatu, atau mekanisme feed yang tidak sesuai dengan material.'
+LAMA solution: 'Periksa keseimbangan tegangan benang dan kondisi mekanisme feed, kemudian sesuaikan dengan jenis kain.'
+LAMA safety_notes: 'Matikan mesin sebelum melakukan penyetelan pada tegangan benang, tekanan sepatu, atau mekanisme feed.'
+LAMA source: 'Prosedur troubleshooting umum PEGASUS E256'
+-- USULAN --
+BARU symptoms: 'Permukaan kain berkerut atau tertarik setelah proses menjahit.'
+BARU possible_cause: 'Permukaan kain berkerut atau tertarik setelah proses menjahit.'
+BARU solution: 'Perbedaan tarikan benang, tekanan sepatu, atau mekanisme feed yang tidak sesuai dengan material.'
+BARU safety_notes: 'Matikan mesin sebelum melakukan penyetelan pada tegangan benang, tekanan sepatu, atau mekanisme feed.'
+BARU source: 'Prosedur troubleshooting umum PEGASUS E256'
+TINJAUAN: solution lama berbeda dari safety_notes;
+          instruksi tersebut perlu ditinjau sebelum migrasi.
+
+ID 1283 | Kain tidak terumpan dengan stabil
+LAMA symptoms: 'Kain bergerak tidak stabil atau laju pengumpanan tidak konsisten.'
+LAMA possible_cause: 'Feed dog, sepatu, atau area pengumpanan kotor atau mengalami keausan.'
+LAMA solution: 'Bersihkan area feed dan periksa kondisi feed dog serta sepatu. Ganti komponen yang aus bila diperlukan.'
+LAMA safety_notes: 'Matikan mesin sebelum membersihkan atau memeriksa feed dog, sepatu, dan mekanisme pengumpanan.'
+LAMA source: 'Prosedur troubleshooting umum PEGASUS E256'
+-- USULAN --
+BARU symptoms: 'Kain bergerak tidak stabil atau laju pengumpanan tidak konsisten.'
+BARU possible_cause: 'Kain bergerak tidak stabil atau laju pengumpanan tidak konsisten.'
+BARU solution: 'Feed dog, sepatu, atau area pengumpanan kotor atau mengalami keausan.'
+BARU safety_notes: 'Matikan mesin sebelum membersihkan atau memeriksa feed dog, sepatu, dan mekanisme pengumpanan.'
+BARU source: 'Prosedur troubleshooting umum PEGASUS E256'
+TINJAUAN: solution lama berbeda dari safety_notes;
+          instruksi tersebut perlu ditinjau sebelum migrasi.
+
+=== EX5400: 5 baris target ===
+
+ID 1284 | Benang sering putus
+LAMA symptoms: 'Putusnya benang terjadi berulang saat mesin dijalankan.'
+LAMA possible_cause: 'Tegangan benang tidak seimbang, jalur benang kotor, jarum atau looper aus.'
+LAMA solution: 'Periksa jalur benang, bersihkan area kerja, periksa kondisi jarum dan looper, lalu lakukan penyetelan sesuai manual.'
+LAMA safety_notes: 'Matikan mesin sebelum memeriksa jalur benang, jarum, looper, atau melakukan penyetelan.'
+LAMA source: 'Prosedur troubleshooting umum PEGASUS EX5400'
+-- USULAN --
+BARU symptoms: 'Putusnya benang terjadi berulang saat mesin dijalankan.'
+BARU possible_cause: 'Putusnya benang terjadi berulang saat mesin dijalankan.'
+BARU solution: 'Tegangan benang tidak seimbang, jalur benang kotor, jarum atau looper aus.'
+BARU safety_notes: 'Matikan mesin sebelum memeriksa jalur benang, jarum, looper, atau melakukan penyetelan.'
+BARU source: 'Prosedur troubleshooting umum PEGASUS EX5400'
+TINJAUAN: solution lama berbeda dari safety_notes;
+          instruksi tersebut perlu ditinjau sebelum migrasi.
+
+ID 1285 | Jahitan loncat
+LAMA symptoms: 'Sebagian jahitan tidak terbentuk dengan sempurna.'
+LAMA possible_cause: 'Jarum tidak sesuai, jarum bengkok, pemasangan jarum kurang tepat, atau sinkronisasi jarum dan looper tidak tepat.'
+LAMA solution: 'Ganti atau pasang jarum dengan benar dan periksa hubungan kerja jarum dengan looper.'
+LAMA safety_notes: 'Matikan mesin dan lepaskan sumber tenaga sebelum memeriksa jarum, looper, atau sinkronisasi mekanisme.'
+LAMA source: 'Prosedur troubleshooting umum PEGASUS EX5400'
+-- USULAN --
+BARU symptoms: 'Sebagian jahitan tidak terbentuk dengan sempurna.'
+BARU possible_cause: 'Sebagian jahitan tidak terbentuk dengan sempurna.'
+BARU solution: 'Jarum tidak sesuai, jarum bengkok, pemasangan jarum kurang tepat, atau sinkronisasi jarum dan looper tidak tepat.'
+BARU safety_notes: 'Matikan mesin dan lepaskan sumber tenaga sebelum memeriksa jarum, looper, atau sinkronisasi mekanisme.'
+BARU source: 'Prosedur troubleshooting umum PEGASUS EX5400'
+TINJAUAN: solution lama berbeda dari safety_notes;
+          instruksi tersebut perlu ditinjau sebelum migrasi.
+
+ID 1286 | Jahitan tidak rapi atau tidak stabil
+LAMA symptoms: 'Kerapatan dan bentuk jahitan berubah-ubah selama proses menjahit.'
+LAMA possible_cause: 'Ketegangan benang tidak seimbang, komponen pembentuk jahitan kotor, atau penyetelan mesin berubah.'
+LAMA solution: 'Bersihkan area pembentukan jahitan dan periksa kembali jalur serta ketegangan benang sesuai manual. Lakukan penyetelan secara bertahap.'
+LAMA safety_notes: 'Matikan mesin sebelum membersihkan area pembentukan jahitan atau melakukan penyetelan. Jangan menyentuh bagian bergerak saat mesin beroperasi.'
+LAMA source: 'Prosedur troubleshooting umum PEGASUS EX5400'
+-- USULAN --
+BARU symptoms: 'Kerapatan dan bentuk jahitan berubah-ubah selama proses menjahit.'
+BARU possible_cause: 'Kerapatan dan bentuk jahitan berubah-ubah selama proses menjahit.'
+BARU solution: 'Ketegangan benang tidak seimbang, komponen pembentuk jahitan kotor, atau penyetelan mesin berubah.'
+BARU safety_notes: 'Matikan mesin sebelum membersihkan area pembentukan jahitan atau melakukan penyetelan. Jangan menyentuh bagian bergerak saat mesin beroperasi.'
+BARU source: 'Prosedur troubleshooting umum PEGASUS EX5400'
+TINJAUAN: solution lama berbeda dari safety_notes;
+          instruksi tersebut perlu ditinjau sebelum migrasi.
+
+ID 1287 | Kain mengerut
+LAMA symptoms: 'Permukaan kain berkerut atau tertarik setelah proses menjahit.'
+LAMA possible_cause: 'Perbedaan tarikan benang, tekanan sepatu, atau mekanisme feed yang tidak sesuai dengan material.'
+LAMA solution: 'Periksa keseimbangan tegangan benang dan kondisi mekanisme feed, kemudian sesuaikan dengan jenis kain.'
+LAMA safety_notes: 'Matikan mesin sebelum melakukan penyetelan pada tegangan benang, tekanan sepatu, atau mekanisme feed.'
+LAMA source: 'Prosedur troubleshooting umum PEGASUS EX5400'
+-- USULAN --
+BARU symptoms: 'Permukaan kain berkerut atau tertarik setelah proses menjahit.'
+BARU possible_cause: 'Permukaan kain berkerut atau tertarik setelah proses menjahit.'
+BARU solution: 'Perbedaan tarikan benang, tekanan sepatu, atau mekanisme feed yang tidak sesuai dengan material.'
+BARU safety_notes: 'Matikan mesin sebelum melakukan penyetelan pada tegangan benang, tekanan sepatu, atau mekanisme feed.'
+BARU source: 'Prosedur troubleshooting umum PEGASUS EX5400'
+TINJAUAN: solution lama berbeda dari safety_notes;
+          instruksi tersebut perlu ditinjau sebelum migrasi.
+
+ID 1288 | Kain tidak terumpan dengan stabil
+LAMA symptoms: 'Kain bergerak tidak stabil atau laju pengumpanan tidak konsisten.'
+LAMA possible_cause: 'Feed dog, sepatu, atau area pengumpanan kotor atau mengalami keausan.'
+LAMA solution: 'Bersihkan area feed dan periksa kondisi feed dog serta sepatu. Ganti komponen yang aus bila diperlukan.'
+LAMA safety_notes: 'Matikan mesin sebelum membersihkan atau memeriksa feed dog, sepatu, dan mekanisme pengumpanan.'
+LAMA source: 'Prosedur troubleshooting umum PEGASUS EX5400'
+-- USULAN --
+BARU symptoms: 'Kain bergerak tidak stabil atau laju pengumpanan tidak konsisten.'
+BARU possible_cause: 'Kain bergerak tidak stabil atau laju pengumpanan tidak konsisten.'
+BARU solution: 'Feed dog, sepatu, atau area pengumpanan kotor atau mengalami keausan.'
+BARU safety_notes: 'Matikan mesin sebelum membersihkan atau memeriksa feed dog, sepatu, dan mekanisme pengumpanan.'
+BARU source: 'Prosedur troubleshooting umum PEGASUS EX5400'
+TINJAUAN: solution lama berbeda dari safety_notes;
+          instruksi tersebut perlu ditinjau sebelum migrasi.
+
+=== TML326: 5 baris target ===
+
+ID 1289 | Benang sering putus
+LAMA symptoms: 'Putusnya benang terjadi berulang saat mesin dijalankan.'
+LAMA possible_cause: 'Tegangan benang tidak seimbang, jalur benang kotor, jarum atau looper aus.'
+LAMA solution: 'Periksa jalur benang, bersihkan area kerja, periksa kondisi jarum dan looper, lalu lakukan penyetelan sesuai manual.'
+LAMA safety_notes: 'Matikan mesin sebelum memeriksa jalur benang, jarum, looper, atau melakukan penyetelan.'
+LAMA source: 'Prosedur troubleshooting umum PEGASUS TML326'
+-- USULAN --
+BARU symptoms: 'Putusnya benang terjadi berulang saat mesin dijalankan.'
+BARU possible_cause: 'Putusnya benang terjadi berulang saat mesin dijalankan.'
+BARU solution: 'Tegangan benang tidak seimbang, jalur benang kotor, jarum atau looper aus.'
+BARU safety_notes: 'Matikan mesin sebelum memeriksa jalur benang, jarum, looper, atau melakukan penyetelan.'
+BARU source: 'Prosedur troubleshooting umum PEGASUS TML326'
+TINJAUAN: solution lama berbeda dari safety_notes;
+          instruksi tersebut perlu ditinjau sebelum migrasi.
+
+ID 1290 | Jahitan loncat
+LAMA symptoms: 'Sebagian jahitan tidak terbentuk dengan sempurna.'
+LAMA possible_cause: 'Jarum tidak sesuai, jarum bengkok, pemasangan jarum kurang tepat, atau sinkronisasi jarum dan looper tidak tepat.'
+LAMA solution: 'Ganti atau pasang jarum dengan benar dan periksa hubungan kerja jarum dengan looper.'
+LAMA safety_notes: 'Matikan mesin dan lepaskan sumber tenaga sebelum memeriksa jarum, looper, atau sinkronisasi mekanisme.'
+LAMA source: 'Prosedur troubleshooting umum PEGASUS TML326'
+-- USULAN --
+BARU symptoms: 'Sebagian jahitan tidak terbentuk dengan sempurna.'
+BARU possible_cause: 'Sebagian jahitan tidak terbentuk dengan sempurna.'
+BARU solution: 'Jarum tidak sesuai, jarum bengkok, pemasangan jarum kurang tepat, atau sinkronisasi jarum dan looper tidak tepat.'
+BARU safety_notes: 'Matikan mesin dan lepaskan sumber tenaga sebelum memeriksa jarum, looper, atau sinkronisasi mekanisme.'
+BARU source: 'Prosedur troubleshooting umum PEGASUS TML326'
+TINJAUAN: solution lama berbeda dari safety_notes;
+          instruksi tersebut perlu ditinjau sebelum migrasi.
+
+ID 1291 | Jahitan tidak rapi atau tidak stabil
+LAMA symptoms: 'Kerapatan dan bentuk jahitan berubah-ubah selama proses menjahit.'
+LAMA possible_cause: 'Ketegangan benang tidak seimbang, komponen pembentuk jahitan kotor, atau penyetelan mesin berubah.'
+LAMA solution: 'Bersihkan area pembentukan jahitan dan periksa kembali jalur serta ketegangan benang sesuai manual. Lakukan penyetelan secara bertahap.'
+LAMA safety_notes: 'Matikan mesin sebelum membersihkan area pembentukan jahitan atau melakukan penyetelan. Jangan menyentuh bagian bergerak saat mesin beroperasi.'
+LAMA source: 'Prosedur troubleshooting umum PEGASUS TML326'
+-- USULAN --
+BARU symptoms: 'Kerapatan dan bentuk jahitan berubah-ubah selama proses menjahit.'
+BARU possible_cause: 'Kerapatan dan bentuk jahitan berubah-ubah selama proses menjahit.'
+BARU solution: 'Ketegangan benang tidak seimbang, komponen pembentuk jahitan kotor, atau penyetelan mesin berubah.'
+BARU safety_notes: 'Matikan mesin sebelum membersihkan area pembentukan jahitan atau melakukan penyetelan. Jangan menyentuh bagian bergerak saat mesin beroperasi.'
+BARU source: 'Prosedur troubleshooting umum PEGASUS TML326'
+TINJAUAN: solution lama berbeda dari safety_notes;
+          instruksi tersebut perlu ditinjau sebelum migrasi.
+
+ID 1292 | Kain mengerut
+LAMA symptoms: 'Permukaan kain berkerut atau tertarik setelah proses menjahit.'
+LAMA possible_cause: 'Perbedaan tarikan benang, tekanan sepatu, atau mekanisme feed yang tidak sesuai dengan material.'
+LAMA solution: 'Periksa keseimbangan tegangan benang dan kondisi mekanisme feed, kemudian sesuaikan dengan jenis kain.'
+LAMA safety_notes: 'Matikan mesin sebelum melakukan penyetelan pada tegangan benang, tekanan sepatu, atau mekanisme feed.'
+LAMA source: 'Prosedur troubleshooting umum PEGASUS TML326'
+-- USULAN --
+BARU symptoms: 'Permukaan kain berkerut atau tertarik setelah proses menjahit.'
+BARU possible_cause: 'Permukaan kain berkerut atau tertarik setelah proses menjahit.'
+BARU solution: 'Perbedaan tarikan benang, tekanan sepatu, atau mekanisme feed yang tidak sesuai dengan material.'
+BARU safety_notes: 'Matikan mesin sebelum melakukan penyetelan pada tegangan benang, tekanan sepatu, atau mekanisme feed.'
+BARU source: 'Prosedur troubleshooting umum PEGASUS TML326'
+TINJAUAN: solution lama berbeda dari safety_notes;
+          instruksi tersebut perlu ditinjau sebelum migrasi.
+
+ID 1293 | Kain tidak terumpan dengan stabil
+LAMA symptoms: 'Kain bergerak tidak stabil atau laju pengumpanan tidak konsisten.'
+LAMA possible_cause: 'Feed dog, sepatu, atau area pengumpanan kotor atau mengalami keausan.'
+LAMA solution: 'Bersihkan area feed dan periksa kondisi feed dog serta sepatu. Ganti komponen yang aus bila diperlukan.'
+LAMA safety_notes: 'Matikan mesin sebelum membersihkan atau memeriksa feed dog, sepatu, dan mekanisme pengumpanan.'
+LAMA source: 'Prosedur troubleshooting umum PEGASUS TML326'
+-- USULAN --
+BARU symptoms: 'Kain bergerak tidak stabil atau laju pengumpanan tidak konsisten.'
+BARU possible_cause: 'Kain bergerak tidak stabil atau laju pengumpanan tidak konsisten.'
+BARU solution: 'Feed dog, sepatu, atau area pengumpanan kotor atau mengalami keausan.'
+BARU safety_notes: 'Matikan mesin sebelum membersihkan atau memeriksa feed dog, sepatu, dan mekanisme pengumpanan.'
+BARU source: 'Prosedur troubleshooting umum PEGASUS TML326'
+TINJAUAN: solution lama berbeda dari safety_notes;
+          instruksi tersebut perlu ditinjau sebelum migrasi.
+
+======================================================================
+TOTAL BARIS: 15
+JUMLAH ERROR: 0
+JUMLAH PERINGATAN: 15
+PERINGATAN: ID 1279: instruksi solution lama perlu ditinjau
+PERINGATAN: ID 1280: instruksi solution lama perlu ditinjau
+PERINGATAN: ID 1281: instruksi solution lama perlu ditinjau
+PERINGATAN: ID 1282: instruksi solution lama perlu ditinjau
+PERINGATAN: ID 1283: instruksi solution lama perlu ditinjau
+PERINGATAN: ID 1284: instruksi solution lama perlu ditinjau
+PERINGATAN: ID 1285: instruksi solution lama perlu ditinjau
+PERINGATAN: ID 1286: instruksi solution lama perlu ditinjau
+PERINGATAN: ID 1287: instruksi solution lama perlu ditinjau
+PERINGATAN: ID 1288: instruksi solution lama perlu ditinjau
+PERINGATAN: ID 1289: instruksi solution lama perlu ditinjau
+PERINGATAN: ID 1290: instruksi solution lama perlu ditinjau
+PERINGATAN: ID 1291: instruksi solution lama perlu ditinjau
+PERINGATAN: ID 1292: instruksi solution lama perlu ditinjau
+PERINGATAN: ID 1293: instruksi solution lama perlu ditinjau
+Integritas akhir: ok
+Database tidak diubah.

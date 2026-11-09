@@ -1,0 +1,258 @@
+#!/usr/bin/env python3
+import argparse
+import sqlite3
+import shutil
+from pathlib import Path
+from datetime import datetime
+
+DB = Path("database/garment.db").resolve()
+BACKUP_DIR = DB.parent
+
+SYMPTOMS = {
+    "Benang sering putus":
+        "Putusnya benang terjadi berulang saat mesin dijalankan.",
+    "Jahitan loncat":
+        "Sebagian jahitan tidak terbentuk dengan sempurna.",
+    "Jahitan tidak rapi atau tidak stabil":
+        "Kerapatan dan bentuk jahitan berubah-ubah selama proses menjahit.",
+    "Kain mengerut":
+        "Permukaan kain berkerut atau tertarik setelah proses menjahit.",
+    "Kain tidak terumpan dengan stabil":
+        "Kain bergerak tidak stabil atau laju pengumpanan tidak konsisten.",
+}
+
+PROBLEMS = list(SYMPTOMS)
+EXPECTED_MODELS = {
+    **{i: "E256" for i in range(1279, 1284)},
+    **{i: "EX5400" for i in range(1284, 1289)},
+    **{i: "TML326" for i in range(1289, 1294)},
+}
+
+def fail(message):
+    raise RuntimeError(message)
+
+def read_rows(con):
+    return con.execute("""
+        SELECT t.id, m.model, t.problem, t.symptoms,
+               t.possible_cause, t.solution, t.safety_notes, t.source
+        FROM troubleshooting t
+        JOIN machines m ON m.id = t.machine_id
+        WHERE t.id BETWEEN 1279 AND 1293
+        ORDER BY t.id
+    """).fetchall()
+
+def build_proposal(r):
+    problem = r["problem"]
+    if problem not in SYMPTOMS:
+        fail(f"ID {r['id']}: masalah tidak dikenal: {problem!r}")
+
+    # Data lama bergeser: gejala berisi penyebab, penyebab berisi solusi.
+    symptoms = SYMPTOMS[problem]
+    cause = r["symptoms"]
+    solution = r["possible_cause"]
+    safety = r["safety_notes"]
+
+    if problem == "Jahitan loncat":
+        safety = (
+            "Matikan mesin dan lepaskan sumber tenaga sebelum "
+            "memeriksa jarum, looper, atau sinkronisasi mekanisme."
+        )
+
+    elif problem == "Jahitan tidak rapi atau tidak stabil":
+        solution = solution.rstrip() + " Lakukan penyetelan secara bertahap."
+        extra = "Jangan menyentuh bagian bergerak saat mesin beroperasi."
+        if extra.lower() not in safety.lower():
+            safety = safety.rstrip() + " " + extra
+
+    values = [symptoms, cause, solution, safety]
+    if any(not isinstance(v, str) or not v.strip() for v in values):
+        fail(f"ID {r['id']}: ada nilai usulan yang kosong.")
+
+    return {
+        "symptoms": symptoms,
+        "possible_cause": cause,
+        "solution": solution,
+        "safety_notes": safety,
+    }
+
+def validate(rows):
+    if len(rows) != 15:
+        fail(f"Seharusnya 15 baris; ditemukan {len(rows)}.")
+
+    for r in rows:
+        expected_model = EXPECTED_MODELS.get(r["id"])
+        if expected_model != r["model"]:
+            fail(
+                f"ID {r['id']}: model berubah; "
+                f"harus {expected_model}, ditemukan {r['model']}."
+            )
+        if r["problem"] not in PROBLEMS:
+            fail(f"ID {r['id']}: problem tidak sesuai.")
+        if not r["source"] or not r["source"].strip():
+            fail(f"ID {r['id']}: source kosong.")
+        build_proposal(r)
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="Migrasi aman troubleshooting PEGASUS ID 1279-1293."
+    )
+    parser.add_argument(
+        "--apply", action="store_true",
+        help="Terapkan perubahan. Tanpa opsi ini, hanya simulasi."
+    )
+    args = parser.parse_args()
+
+    if not DB.exists():
+        fail(f"Database tidak ditemukan: {DB}")
+
+    if args.apply:
+        con = sqlite3.connect(str(DB), timeout=30)
+    else:
+        con = sqlite3.connect(f"file:{DB}?mode=ro", uri=True)
+
+    con.row_factory = sqlite3.Row
+    backup_path = None
+
+    try:
+        before_integrity = con.execute("PRAGMA integrity_check").fetchone()[0]
+        if before_integrity != "ok":
+            fail(f"Integritas awal bermasalah: {before_integrity}")
+
+        rows = read_rows(con)
+        validate(rows)
+
+        print("MODE:", "APPLY" if args.apply else "READ ONLY — SIMULASI")
+        print("Database:", DB)
+        print("Baris tervalidasi:", len(rows))
+        print("Integritas awal:", before_integrity)
+
+        if not args.apply:
+            for r in rows:
+                p = build_proposal(r)
+                print(f"\nID {r['id']} | {r['model']} | {r['problem']}")
+                print("  GEJALA :", p["symptoms"])
+                print("  PENYEBAB:", p["possible_cause"])
+                print("  SOLUSI :", p["solution"])
+                print("  SAFETY :", p["safety_notes"])
+                print("  SOURCE tetap:", r["source"])
+            print("\nSIMULASI SELESAI — database tidak diubah.")
+            return
+
+        # Backup SQLite konsisten sebelum transaksi perubahan.
+        stamp = datetime.now().strftime("%Y%m%d-%H%M%S")
+        backup_path = BACKUP_DIR / (
+            f"garment.db.backup-before-pegasus-troubleshooting-{stamp}"
+        )
+        backup_con = sqlite3.connect(str(backup_path))
+        try:
+            con.backup(backup_con)
+        finally:
+            backup_con.close()
+
+        if not backup_path.exists() or backup_path.stat().st_size == 0:
+            fail("Backup tidak berhasil dibuat.")
+
+        print("Backup dibuat:", backup_path)
+        print("Ukuran backup:", backup_path.stat().st_size, "bytes")
+
+        con.execute("BEGIN IMMEDIATE")
+
+        # Validasi ulang setelah transaksi dimulai.
+        current = read_rows(con)
+        validate(current)
+        if len(current) != len(rows):
+            fail("Jumlah baris berubah sebelum migrasi.")
+
+        for r in current:
+            p = build_proposal(r)
+            con.execute("""
+                UPDATE troubleshooting
+                SET symptoms = ?,
+                    possible_cause = ?,
+                    solution = ?,
+                    safety_notes = ?
+                WHERE id = ?
+            """, (
+                p["symptoms"],
+                p["possible_cause"],
+                p["solution"],
+                p["safety_notes"],
+                r["id"],
+            ))
+
+        # Verifikasi sebelum commit.
+        after = read_rows(con)
+        if len(after) != 15:
+            fail("Jumlah baris setelah update tidak sesuai.")
+
+        original_sources = {r["id"]: r["source"] for r in current}
+        for r in after:
+            p = build_proposal_from_expected(r)
+            if r["source"] != original_sources[r["id"]]:
+                fail(f"Source berubah pada ID {r['id']}.")
+            for col, expected in p.items():
+                if r[col] != expected:
+                    fail(f"Verifikasi kolom {col} gagal pada ID {r['id']}.")
+
+        integrity = con.execute("PRAGMA integrity_check").fetchone()[0]
+        if integrity != "ok":
+            fail(f"Integritas sebelum commit bermasalah: {integrity}")
+
+        con.commit()
+
+        final_integrity = con.execute("PRAGMA integrity_check").fetchone()[0]
+        if final_integrity != "ok":
+            fail(f"Integritas setelah commit bermasalah: {final_integrity}")
+
+        print("\nMIGRASI BERHASIL")
+        print("Baris diperbarui:", len(after))
+        print("Source dipertahankan: ya")
+        print("Integritas setelah migrasi:", final_integrity)
+        print("Backup:", backup_path)
+
+    except Exception:
+        if args.apply and con.in_transaction:
+            con.rollback()
+            print("Transaksi dibatalkan (ROLLBACK).")
+        raise
+    finally:
+        con.close()
+
+def build_proposal_from_expected(r):
+    # Validasi pasca-update menggunakan isi baru yang seharusnya.
+    # Penyebab, solusi, dan catatan keselamatan diverifikasi dari pola final.
+    problem = r["problem"]
+    if problem not in SYMPTOMS:
+        fail(f"ID {r['id']}: problem tidak dikenal setelah update.")
+
+    # Gejala kanonis harus cocok.
+    if r["symptoms"] != SYMPTOMS[problem]:
+        fail(f"Gejala tidak cocok pada ID {r['id']}.")
+
+    if problem == "Jahitan loncat":
+        expected_safety = (
+            "Matikan mesin dan lepaskan sumber tenaga sebelum "
+            "memeriksa jarum, looper, atau sinkronisasi mekanisme."
+        )
+        if r["safety_notes"] != expected_safety:
+            fail(f"Safety jahitan loncat tidak cocok pada ID {r['id']}.")
+
+    elif problem == "Jahitan tidak rapi atau tidak stabil":
+        if "Lakukan penyetelan secara bertahap." not in r["solution"]:
+            fail(f"Instruksi solusi hilang pada ID {r['id']}.")
+        if "Jangan menyentuh bagian bergerak saat mesin beroperasi." not in r["safety_notes"]:
+            fail(f"Instruksi keselamatan hilang pada ID {r['id']}.")
+
+    return {
+        "symptoms": r["symptoms"],
+        "possible_cause": r["possible_cause"],
+        "solution": r["solution"],
+        "safety_notes": r["safety_notes"],
+    }
+
+if __name__ == "__main__":
+    try:
+        main()
+    except Exception as exc:
+        print("\nGAGAL:", exc)
+        raise SystemExit(1)

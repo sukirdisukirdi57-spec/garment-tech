@@ -1,0 +1,42 @@
+4395-               After the lower thread counter value
+4396-      10       changes from 1 to 0 and the lower thread                 35       After the intermittent work clamp lowers
+4397-               replacement wait state starts.
+4398-                                                                        36       After the wiper output is turned off
+4399-               After the lower thread replacement wait
+4400:      11       state ends                                                        After the thread breaking output is turned
+4401-                                                                        37       off
+4402-      12       After a program starts
+4403-                                                                        38       Before the work clamp rises
+4404-      13       After a program ends
+4405-               When trigger data is detected during
+4406-      14       sewing
+4407-
+4408-      15       After an emergency stop occurs
+4409-
+4410:      16       After a thread breakage is detected
+4411-
+4412-      17       After a program is changed
+4413-
+4414-      18       After the power switch is turned on
+4415-
+4416:      19       After a low air pressure error is detected
+4417-               Before moving to the next start point on
+4418-      20       completion of sewing in the split mode
+4419-               After moving to the next start point on
+4420-      21       completion of sewing in the split mode
+4421-
+--
+4737-
+4738-
+4739-
+4740-                                                                                   0.5sec
+4741-
+4742:     Trigger code detection                                       Stacker sensor
+4743-     during sewing                                                (option input 2) ON
+4744-
+4745:               Movement of sewing start                    Clamp rising sensor
+4746-               point after sewing ends                     (option input 1) ON
+4747-
+4748-
+4749-
+4750-

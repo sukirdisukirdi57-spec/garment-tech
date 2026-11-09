@@ -1,0 +1,9 @@
+﻿document_id,model,document_type,verified_or_current_url,validation_status,review_note,database_action
+532,E22L,Manual,https://www.pegasus.co.jp/webcatalog/?filter=manual&lang=en,TERCANTUM_DI_KATALOG,Cari tautan langsung; belum diubah,NONE_PENDING_APPROVAL
+533,E22L,Parts List,https://www.pegasus.co.jp/webcatalog/?filter=parts&lang=en,TERCANTUM_DI_KATALOG_PARTS,Verifikasi katalog khusus model,NONE_PENDING_APPROVAL
+526,E256,Manual,https://www.pegasus.co.jp/webcatalog/?filter=manual&lang=en,TERCANTUM_DI_KATALOG,Cari tautan langsung; belum diubah,NONE_PENDING_APPROVAL
+527,E256,Parts List,https://www.pegasus.co.jp/webcatalog/?filter=parts&lang=en,TERCANTUM_DI_KATALOG_PARTS,Verifikasi katalog khusus model,NONE_PENDING_APPROVAL
+528,EX5400,Manual,https://www.pegasus.co.jp/webcatalog/file.php?docflg=1&itemcd=9B2057000009&pageseq=1&rev=00,MANUAL_LANGSUNG_TERVERIFIKASI,Cat. No. 9B2057000009; September 2019,NONE_PENDING_APPROVAL
+529,EX5400,Parts List,https://www.pegasus.co.jp/webcatalog/?filter=parts&lang=en,TERCANTUM_DI_KATALOG_PARTS,Cari tautan parts langsung,NONE_PENDING_APPROVAL
+530,TML326,Manual,https://www.pegasus.co.jp/webcatalog/?filter=manual&lang=en,BELUM_TERVERIFIKASI,Jangan ganti URL sebelum ada bukti,NONE_PENDING_APPROVAL
+531,TML326,Parts List,https://www.pegasus.co.jp/webcatalog/?filter=parts&lang=en,BELUM_TERVERIFIKASI,Jangan ganti URL sebelum ada bukti,NONE_PENDING_APPROVAL

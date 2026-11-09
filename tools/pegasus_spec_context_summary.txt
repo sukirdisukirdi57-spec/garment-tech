@@ -1,0 +1,233 @@
+
+===== M922 | M922-A-02 =====
+Stitch length adjustment : Push-button
+Differential feed ratio adjustment : Lever
+Lubricaｔion : Fully-automtic
+Fabric Weight : Light～Medium
+Max. machine speed(sti/min) : 6,000
+No. of needles : 2
+No. of threads : 4
+Needle space(mm) : 5
+Overedge width : 24
+Seam : 2-needles, double chainstitch (attaching tape)
+
+===== M932 | M932-A-38 =====
+Seam : Video
+Seam : Video
+Seam : Video
+Seam : Video
+・[Seam : - hines
+Seam : Video
+・[Seam : - Maximum speed] 7,000 sti/min
+
+===== M932 | M932-A-44 =====
+Seam : Video
+Seam : Video
+Seam : Video
+Seam : Video
+・[Seam : - hines
+Seam : Video
+・[Seam : - Maximum speed] 7,000 sti/min
+
+===== M932 | M932-A-70 =====
+Seam : Video
+Seam : Video
+Seam : Video
+Seam : Video
+・[Seam : - hines
+Seam : Video
+・[Seam : - Maximum speed] 7,000 sti/min
+
+===== M932 | M932-A-86 =====
+Stitch length adjustment : Push-button
+Differential feed ratio adjustment : Lever
+Lubricaｔion : Fully-automtic
+Fabric Weight : Extra heavy
+Max. machine speed(sti/min) : 5,500
+No. of needles : 2
+No. of threads : 5
+Needle space(mm) : 5
+Overedge width : 6
+Seam : 2-needls 5-threads, safety stitch (plain seaming)
+
+===== M952 | M952-A-52H =====
+Seam : Video
+Seam : Video
+Seam : Video
+Seam : Video
+・[Seam : - hines
+Seam : Video
+・[Seam : - Maximum speed] 7,000 sti/min
+
+===== M952 | M952-A-23B =====
+Seam : Video
+Seam : Video
+Seam : Video
+Seam : Video
+・[Seam : - hines
+Seam : Video
+・[Seam : - Maximum speed] 7,000 sti/min
+
+===== M952 | M952-A-16S2 =====
+Seam : Video
+Seam : Video
+Seam : Video
+・[Seam : - hines
+Seam : Video
+・[Seam : - Maximum speed] 7,000 sti/min
+
+===== M952 | M952-A-180 =====
+Seam : Video
+Seam : Video
+Seam : Video
+・[Seam : - hines
+Seam : Video
+・[Seam : - Maximum speed] 7,000 sti/min
+
+===== M952 | M952-A-181 =====
+Seam : Video
+Seam : Video
+Seam : Video
+・[Seam : - hines
+Seam : Video
+・[Seam : - Maximum speed] 7,000 sti/min
+
+===== M952 | M952-A-90 =====
+Seam : Video
+Seam : Video
+Seam : Video
+・[Seam : - hines
+Seam : Video
+・[Seam : - Maximum speed] 7,000 sti/min
+
+===== EX3200 | EX3216-01A/222 =====
+Seam : Video
+Seam : Video
+Seam : Video
+Seam : Video
+
+===== EX3200 | EX3216N-01/222 =====
+Seam : Video
+Seam : Video
+Seam : Video
+Seam : Video
+
+===== EX3200 | EX3216N-01/232 =====
+Seam : Video
+Seam : Video
+Seam : Video
+Seam : Video
+
+===== EX5200 | EX5214N-01/283 =====
+Seam : Video
+Seam : Video
+Seam : Video
+Seam : Video
+
+===== EX5200 | EX5204-02/233 =====
+Seam : Video
+Seam : Video
+Seam : Video
+Seam : Video
+
+===== EX5200 | EX5214-03/333 =====
+Seam : Video
+Seam : Video
+Seam : Video
+Seam : Video
+
+===== EX5200 | EX5214-M03/333 =====
+Seam : Video
+
+===== EX5200 | EX5214-M03/333K =====
+Seam : Video
+Seam : Video
+Seam : Video
+Seam : Video
+
+===== W562P | W562P-01G =====
+Stitch length adjustment : Push-button
+Differential feed ratio adjustment : Lever that can be adjusted intermittently during sewing
+Lubricaｔion : Fully-automtic
+Max. machine speed(sti/min) : 6,000
+No. of needles : 2, 3
+No. of threads : 4, 5
+Needle space(mm) : 3.2, 4.0, 4.8, 5.6, 6.4
+Seam : Coverstitch (Plain seaming) *without a top cover thread
+
+===== W562P | W562P-01M =====
+Stitch length adjustment : Push-button
+Differential feed ratio adjustment : Lever that can be adjusted intermittently during sewing
+Lubricaｔion : Fully-automtic
+Max. machine speed(sti/min) : 6,000
+No. of needles : 2
+No. of threads : 4
+Needle space(mm) : 4.0
+Seam : Coverstitch (Plain seaming) *without a top cover thread
+
+===== W562P | W562P-02G =====
+Stitch length adjustment : Push-button
+Differential feed ratio adjustment : Lever that can be adjusted intermittently during sewing
+Lubricaｔion : Fully-automtic
+Max. machine speed(sti/min) : 6,000
+No. of needles : 2, 3
+No. of threads : 4, 5
+Needle space(mm) : 2.4, 3.2, 4.0, 4.8, 5.6, 6.4
+Seam : Binding tape *without a top cover thread
+Automatic differential feed ratio switching : AT device
+Presser foot lif : 
+
+===== W562P | W562P-02H =====
+Stitch length adjustment : Push-button
+Differential feed ratio adjustment : Lever that can be adjusted intermittently during sewing
+Lubricaｔion : Fully-automtic
+Max. machine speed(sti/min) : 6,000
+No. of needles : 2, 3
+No. of threads : 4, 5
+Needle space(mm) : 3.2, 4.0, 4.8, 5.6, 6.4
+Seam : Binding tape *without a top cover thread
+Automatic differential feed ratio switching : AT device
+
+===== W562P | W562P-05B =====
+Stitch length adjustment : Push-button
+Differential feed ratio adjustment : Lever that can be adjusted intermittently during sewing
+Lubricaｔion : Fully-automtic
+Max. machine speed(sti/min) : 5,500 (5,000 with MD)
+No. of needles : 2, 3
+No. of threads : 4, 5
+Needle space(mm) : 2.4, 3.2, 4.0, 4.8, 5.6, 6.4
+Seam : Attaching elastic lace *without a top cover thread
+Automatic differential feed ratio switching : AT device
+
+===== W562P | W562P-05M =====
+Stitch length adjustment : Push-button
+Differential feed ratio adjustment : Lever that can be adjusted intermittently during sewing
+Lubricaｔion : Fully-automtic
+Max. machine speed(sti/min) : 5,500 (5,000 with MD)
+No. of needles : 2, 3
+No. of threads : 4, 5
+Needle space(mm) : 4.0, 5.6, 6.4
+Seam : Attaching elastic lace *without a top cover thread
+Automatic differential feed ratio swit : 
+
+===== W562P | W562P-05T =====
+Stitch length adjustment : Push-button
+Differential feed ratio adjustment : Lever that can be adjusted intermittently during sewing
+Lubricaｔion : Fully-automtic
+Max. machine speed(sti/min) : 5,500 (5,000 with MD)
+No. of needles : 3
+No. of threads : 5
+Needle space(mm) : 5.6
+Seam : Attaching elastic lace *without a top cover thread
+Automatic differential feed ratio switching : 
+
+===== W562P | W562P-82A =====
+Stitch length adjustment : Push-button
+Differential feed ratio adjustment : Lever that can be adjusted intermittently during sewing
+Lubricaｔion : Fully-automtic
+Max. machine speed(sti/min) : 5,500
+No. of needles : 3
+No. of threads : 5
+Needle space(mm) : 5.6, 6.4
+Seam : Angled decorative stitching
+Presser foot lift : Industrial sewing machine

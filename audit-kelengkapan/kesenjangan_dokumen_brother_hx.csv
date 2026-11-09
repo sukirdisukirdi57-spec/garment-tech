@@ -1,0 +1,3 @@
+﻿model,jenis_dokumen,temuan,dampak_audit,tindak_lanjut,status
+BAS-311HX,Manual instruksi mekanik,"Halaman produk menautkan judul BAS-311HX/BAS-326H Instruction Manual, tetapi indeks manual mencantumkan BAS-311HN/BAS-326H.",Belum dapat memastikan manual mekanik yang ditemukan berlaku untuk BAS-311HX.,Konfirmasi cakupan manual kepada Brother atau distributor resmi.,PERLU_KONFIRMASI
+BAS-326HX,Manual instruksi mekanik,"Judul tautan produk menyebut BAS-326H, sedangkan indeks manual mencantumkan BAS-326H, bukan BAS-326HX.",Belum dapat memastikan manual mekanik yang ditemukan berlaku untuk BAS-326HX.,Konfirmasi cakupan manual kepada Brother atau distributor resmi.,PERLU_KONFIRMASI

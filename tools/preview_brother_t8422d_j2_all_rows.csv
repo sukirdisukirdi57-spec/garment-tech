@@ -1,0 +1,67 @@
+﻿machine_id,source_document_id,component_name,catalog_ref_raw,catalog_ref_numeric,catalog_ref_has_plus,part_number,quantity,part_name,source_pdf,source_line
+85,263,J2 - Rotary hook mechanism,1,1,no,SB4827101,1,カマドダイ842TR-LクミC       R-HOOK BASE ASSY 842TR(L) C,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1165
+85,263,J2 - Rotary hook mechanism,2,2,no,SA2562201,1,カマドダイカバ-L             ROTARY HOOK BASE COVER L,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1169
+85,263,J2 - Rotary hook mechanism,3,3,no,SA3054001,1,"スラストザガネL              THRUST WASHER, L",assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1170
+85,263,J2 - Rotary hook mechanism,4,4,no,SA6424201,1,フエルトULクミ              FELT UL ASSY,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1171
+85,263,J2 - Rotary hook mechanism,5,5,no,SA4044001,1,フエルトDLクミ              FELT DL ASSY,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1172
+85,263,J2 - Rotary hook mechanism,6,6,no,SA2671001,1,"イトキリレバ-L              THREAD TRIMMER LEVER, L",assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1173
+85,263,J2 - Rotary hook mechanism,7,7,no,SA6462001,1,カマドダイカバ-FL            ROTARY HOOK BASE COVER FL,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1174
+85,263,J2 - Rotary hook mechanism,8,8,no,SB4828101,1,カマドダイ842TR-RクミC       R-HOOK BASE ASSY 842TR(R) C,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1177
+85,263,J2 - Rotary hook mechanism,9,9,no,SA2563301,1,カマドダイカバ-R             ROTARY HOOK BASE COVER R,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1181
+85,263,J2 - Rotary hook mechanism,10,10,no,SA2579001,1,スラストザガネ               SPACER,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1182
+85,263,J2 - Rotary hook mechanism,11,11,no,SA6425201,1,フエルトURクミ              FELT UR ASSY,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1183
+85,263,J2 - Rotary hook mechanism,12,12,no,SA4045001,1,フエルトDRクミ              FELT DR ASSY,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1184
+85,263,J2 - Rotary hook mechanism,13,13,no,SA2670101,1,イトキリレバ-R              THREAD TRIMMER LEVER R,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1185
+85,263,J2 - Rotary hook mechanism,14,14,no,SA6463001,1,カマドダイカバ-FR            ROTARY HOOK BASE COVER FR,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1186
+85,263,J2 - Rotary hook mechanism,15,15,no,SA4029001,2,カマジクメタルU              ROTARY HOOK SHAFT BUSH,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1188
+85,263,J2 - Rotary hook mechanism,16+,16,yes,S09260001,2,スラストリングA< t=1.2 >     THRUST RING A: 1.2MM < t=1.2 >,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1189
+85,263,J2 - Rotary hook mechanism,16+,16,yes,SA4038001,2,スラストリング< t=1.0 >      THRUST RING < t=1.0 >,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1190
+85,263,J2 - Rotary hook mechanism,16+,16,yes,S09261001,2,"スラストリングB< t=1.4 >     THRUST RING, B 1.4MM < t=1.4 >",assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1191
+85,263,J2 - Rotary hook mechanism,16+,16,yes,SA4444001,2,スラストリング0.8< t=0.8 >   THRUST RING 0.8MM < t=0.8 >,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1192
+85,263,J2 - Rotary hook mechanism,17,17,no,S07420000,2,ニ-ドルベアリング             NEEDLE BEARING,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1193
+85,263,J2 - Rotary hook mechanism,18,18,no,S07419001,2,ストツプリング               RETAINING RING,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1194
+85,263,J2 - Rotary hook mechanism,19,19,no,SA6474001,2,カマジクメタルD              ROTARY HOOK SHAFT BUSH,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1195
+85,263,J2 - Rotary hook mechanism,20,20,no,SB4193001,2,オ-プナ-リンク              OPENER LINK,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1196
+85,263,J2 - Rotary hook mechanism,21,21,no,SA3859101,2,オ-プナ-レバ-              OPENER LEVER,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1197
+85,263,J2 - Rotary hook mechanism,22,22,no,SA2560001,2,オ-プナ-リンクジク            SHAFT O-LINK,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1198
+85,263,J2 - Rotary hook mechanism,23,23,no,021500316,2,3シュナット5               NUT 3 M5,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1199
+85,263,J2 - Rotary hook mechanism,24,24,no,SA3889101,2,オ-プナ-レバ-ジク            O-LEVER SHAFT,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1200
+85,263,J2 - Rotary hook mechanism,25,25,no,SA4026001,2,"クミヒモ4X4 L=100         WICK, 4X4 L=100",assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1201
+85,263,J2 - Rotary hook mechanism,26,26,no,012501031,2,アナヒラ5X10              SET SCREW SOCKET (FT) M5X10,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1202
+85,263,J2 - Rotary hook mechanism,27,27,no,S38212001,2,オ-プナ-                 OPENER,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1203
+85,263,J2 - Rotary hook mechanism,28,28,no,154965001,2,"アナボルト3.57X8           BOLT, SOCKET SM3.57X8",assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1204
+85,263,J2 - Rotary hook mechanism,29,29,no,062300612,8,ナベコ3X6                SCREW PAN M3X6,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1205
+85,263,J2 - Rotary hook mechanism,30,30,no,SA2572101,2,スパイラルギヤ ネジツキ          SPIRAL GEAR SCREW ASSY,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1206
+85,263,J2 - Rotary hook mechanism,31,31,no,SA2574001,4,"トメネジM6ホソメ             SET SCREW, (FT) M6",assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1207
+85,263,J2 - Rotary hook mechanism,32,32,no,SA2575001,2,トメネジM6ホソメ             SET SCREW (FT) M6,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1208
+85,263,J2 - Rotary hook mechanism,34,34,no,SA2574001,6,"トメネジM6ホソメ             SET SCREW, (FT) M6",assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1210
+85,263,J2 - Rotary hook mechanism,35,35,no,062400616,2,ナベコ4X6                SCREW PAN M4X6,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1211
+85,263,J2 - Rotary hook mechanism,36,36,no,062400616,2,ナベコ4X6                SCREW PAN M4X6,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1212
+85,263,J2 - Rotary hook mechanism,37,37,no,SA4012001,2,フエルト                  FELT,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1213
+85,263,J2 - Rotary hook mechanism,38,38,no,SA3894001,2,フエルトオサエ               FELT SUPPORT,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1214
+85,263,J2 - Rotary hook mechanism,39,39,no,062400616,2,ナベコ4X6                SCREW PAN M4X6,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1215
+85,263,J2 - Rotary hook mechanism,40,40,no,SA2717001,4,ストツパネジ                STOPPER SCREW,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1216
+85,263,J2 - Rotary hook mechanism,41,41,no,SA2676001,2,イドウハウケ                MOVABLE KNIFE BRACKET,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1217
+85,263,J2 - Rotary hook mechanism,42,42,no,062400812,4,ナベコ4X8                SCREW PAN M4X8,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1218
+85,263,J2 - Rotary hook mechanism,43,43,no,S07525100,2,シタイトホジバネ              SPRING PLATE,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1219
+85,263,J2 - Rotary hook mechanism,44,44,no,141544001,4,"シメネジ3.18              SCREW, SM3.18-40X3",assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1220
+85,263,J2 - Rotary hook mechanism,45,45,no,SA3912001,2,イドウハレバ-               MOVABLE KNIFE LEVER,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1221
+85,263,J2 - Rotary hook mechanism,46,46,no,SA2675001,2,セツトカラ-                SET SCREW COLLAR,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1222
+85,263,J2 - Rotary hook mechanism,47,47,no,S23651001,2,アナヒラ6X6ホソメ            SET SCREW SOCKET (FT) M6X6,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1223
+85,263,J2 - Rotary hook mechanism,48,48,no,018501232,2,アナボルト5X12             BOLT SOCKET M5X12,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1224
+85,263,J2 - Rotary hook mechanism,50,50,no,SA6307201,2,ピニオンセツト               PINION GEAR SET,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1226
+85,263,J2 - Rotary hook mechanism,51,51,no,SB2330001,2,ヒラザガネショウ4.76     WASHER PLAIN S SM4.76,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1303
+85,263,J2 - Rotary hook mechanism,52,52,no,SA6417001,4,シメネジM4X12        SCREW M4X12,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1304
+85,263,J2 - Rotary hook mechanism,53,53,no,SA2556001,2,"シメネジM6X25        SCREW, M6X25",assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1305
+85,263,J2 - Rotary hook mechanism,54,54,no,115947101,2,ザガネ              WASHER PLAIN 6.35,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1306
+85,263,J2 - Rotary hook mechanism,55,55,no,SA2722001,2,ピンチスリ-ブA         PINCH SLEEVE A,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1307
+85,263,J2 - Rotary hook mechanism,56,56,no,SA2565001,2,ピンチスリ-ブB         PINCH SLEEVE B,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1308
+85,263,J2 - Rotary hook mechanism,57,57,no,SA2556001,2,"シメネジM6X25        SCREW, M6X25",assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1309
+85,263,J2 - Rotary hook mechanism,58,58,no,SA2567001,2,ハリスキチヨウセツイタ      NEEDLE UPPER ADJUSTING PLATE,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1310
+85,263,J2 - Rotary hook mechanism,59,59,no,SA2568001,2,ハリスキチヨウセツジク      NEEDLE UPPER POSITIONING SHAFT,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1311
+85,263,J2 - Rotary hook mechanism,60,60,no,062061016,4,ナベコ6X10          SCREW PAN M6X10,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1312
+85,263,J2 - Rotary hook mechanism,61,61,no,025060136,4,ヒラザガネショウ6        WASHER PLAIN S 6,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1313
+85,263,J2 - Rotary hook mechanism,62,62,no,S01928151,2,ボビン              BOBBIN,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1314
+85,263,J2 - Rotary hook mechanism,63,63,no,148602001,2,クウテンボウシバネ        ANTI-SPIN SPRING,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1315
+85,263,J2 - Rotary hook mechanism,64+,64,yes,SA4458001,2,イトキリレバ-バネB       SPRING EXTENSION B,assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1318
+85,263,J2 - Rotary hook mechanism,64+,64,yes,SA2826001,2,"イトキリレバ-バネ        SPRING, EXTENSION",assets/documents/brother/t8421d/t8421d_t8422d_parts_en.pdf,1320

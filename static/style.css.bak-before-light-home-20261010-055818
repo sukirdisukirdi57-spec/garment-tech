@@ -1,0 +1,2535 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f4f7;
+    color: #222;
+}
+
+header {
+    background: #17202a;
+    color: white;
+    padding: 25px 15px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header p {
+    margin: 8px 0 0;
+    color: #d5d8dc;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 22px;
+}
+
+.welcome {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+}
+
+.card {
+    background: white;
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    border-left: 5px solid #17202a;
+}
+
+
+.brand-logo {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.brand-logo img {
+    width: 150px;
+    height: 70px;
+    object-fit: contain;
+    display: block;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.card p {
+    color: #666;
+    line-height: 1.5;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #777;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 19px;
+    }
+
+    main {
+        padding: 12px;
+    }
+
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card {
+        padding: 14px;
+    }
+}
+
+.add-button {
+    display: inline-block;
+    padding: 12px 18px;
+    background: #17202a;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.add-button:hover {
+    opacity: 0.85;
+}
+
+.machine-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 12px 0 16px;
+}
+
+.machine-stats span {
+    background: #f3f4f6;
+    border-radius: 6px;
+    padding: 5px 8px;
+    font-size: 0.85rem;
+}
+
+.detail-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 16px 0 20px;
+    padding: 12px;
+    background: #f3f4f6;
+    border-radius: 8px;
+}
+
+.detail-nav a {
+    display: inline-block;
+    padding: 8px 12px;
+    background: #ffffff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.detail-nav a:hover {
+    text-decoration: underline;
+}
+
+
+.machine-detail-back {
+    margin-bottom: 20px;
+}
+
+#parts-list {
+    margin-top: 24px;
+}
+
+
+#parts-list {
+    margin-bottom: 28px;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 8px;
+}
+
+
+.component-nav-button {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.database-overview {
+    margin: 20px 0;
+}
+
+.database-overview h2 {
+    margin-bottom: 14px;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+}
+
+.stat-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 16px 10px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.stat-card strong {
+    display: block;
+    font-size: 1.7rem;
+    margin-bottom: 6px;
+}
+
+.stat-card span {
+    display: block;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 420px) {
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+    }
+
+    .stat-card {
+        padding: 14px 8px;
+    }
+
+    .stat-card strong {
+        font-size: 1.5rem;
+    }
+
+    .stat-card span {
+        font-size: 0.82rem;
+    }
+}
+
+/* ================================
+   HOME PAGE - HEADER & SEARCH
+   ================================ */
+
+header {
+    padding: 34px 20px;
+    background: linear-gradient(135deg, #17202a, #273746);
+}
+
+header h1 {
+    font-size: 28px;
+    letter-spacing: 0.5px;
+}
+
+header p {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.welcome {
+    padding: 26px;
+    border-radius: 14px;
+}
+
+.welcome h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.35rem;
+}
+
+.welcome > p {
+    color: #555;
+}
+
+.welcome form {
+    display: flex;
+    gap: 10px;
+    margin-top: 18px;
+}
+
+.welcome form input {
+    flex: 1;
+    min-width: 0;
+    padding: 13px 15px;
+    border: 1px solid #d5d8dc;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.welcome form input:focus {
+    outline: none;
+    border-color: #17202a;
+    box-shadow: 0 0 0 2px rgba(23, 32, 42, 0.1);
+}
+
+.welcome form button {
+    padding: 13px 22px;
+    border: none;
+    border-radius: 8px;
+    background: #17202a;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.welcome form button:hover {
+    background: #273746;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 28px 15px;
+    }
+
+    header h1 {
+        font-size: 21px;
+        line-height: 1.3;
+    }
+
+    header p {
+        font-size: 0.9rem;
+    }
+
+    .welcome {
+        padding: 20px;
+    }
+
+    .welcome form {
+        flex-direction: column;
+    }
+
+    .welcome form button {
+        width: 100%;
+    }
+}
+
+/* ================================
+   BRAND & MACHINE TYPE CARDS
+   ================================ */
+
+.grid {
+    gap: 18px;
+}
+
+.card {
+    position: relative;
+    padding: 20px;
+    border-radius: 14px;
+    border: 1px solid #e5e7eb;
+    border-left: 5px solid #17202a;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-decoration: none;
+    color: inherit;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.card h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 1.05rem;
+}
+
+.card p {
+    margin: 0;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.brand-logo {
+    height: 75px;
+    margin-bottom: 8px;
+    padding: 5px;
+    background: #fafafa;
+    border-radius: 10px;
+}
+
+.brand-logo img {
+    width: 160px;
+    height: 70px;
+}
+
+.card .brand-logo + p {
+    display: inline-block;
+    margin-top: 6px;
+    padding: 4px 9px;
+    background: #f1f3f5;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+
+@media (max-width: 600px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .card {
+        padding: 14px;
+    }
+
+    .brand-logo {
+        height: 62px;
+    }
+
+    .brand-logo img {
+        width: 130px;
+        height: 58px;
+    }
+
+    .card h3 {
+        font-size: 0.95rem;
+    }
+
+    .card p {
+        font-size: 0.82rem;
+    }
+}
+
+@media (max-width: 380px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Warna kartu Brand & Jenis Mesin */
+
+.card {
+    background: linear-gradient(145deg, #eef4f8, #dfeaf1);
+}
+
+.card:hover {
+    background: linear-gradient(145deg, #e4eef5, #d5e3ec);
+}
+
+.brand-logo {
+    background: rgba(255, 255, 255, 0.75);
+}
+
+.card .brand-logo + p {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+/* ================================
+   MACHINE TYPE CARDS
+   ================================ */
+
+section > h2 {
+    margin-bottom: 16px;
+}
+
+section:last-of-type .card {
+    background: linear-gradient(145deg, #edf5fa, #dcebf4);
+    border-left: 5px solid #2874a6;
+    min-height: 110px;
+    box-sizing: border-box;
+}
+
+section:last-of-type .card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #1f4e6b;
+    font-size: 1.08rem;
+}
+
+section:last-of-type .card p {
+    line-height: 1.5;
+    color: #526b78;
+}
+
+section:last-of-type .card:hover {
+    background: linear-gradient(145deg, #e3f0f7, #d1e4ef);
+    border-left-color: #1f618d;
+}
+
+@media (max-width: 600px) {
+    section:last-of-type .card {
+        min-height: 100px;
+    }
+
+    section:last-of-type .card h3 {
+        font-size: 0.98rem;
+    }
+
+    section:last-of-type .card p {
+        font-size: 0.82rem;
+        line-height: 1.4;
+    }
+}
+
+/* ================================
+   MACHINE DETAIL HERO
+   ================================ */
+
+.machine-hero {
+    background: linear-gradient(145deg, #17202a, #273746);
+    color: white;
+    padding: 28px;
+    border-radius: 14px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.12);
+}
+
+.machine-hero-label {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    opacity: 0.75;
+    margin-bottom: 10px;
+}
+
+.machine-hero h2 {
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.machine-model {
+    margin-top: 5px;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.machine-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 18px;
+}
+
+.machine-meta span {
+    padding: 7px 11px;
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 20px;
+    font-size: 0.85rem;
+}
+
+.machine-description {
+    margin-top: 20px;
+    padding-top: 18px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.machine-description p {
+    margin: 7px 0 0;
+    line-height: 1.6;
+    color: #d5d8dc;
+}
+
+@media (max-width: 600px) {
+    .machine-hero {
+        padding: 22px;
+    }
+
+    .machine-hero h2 {
+        font-size: 1.2rem;
+    }
+
+    .machine-model {
+        font-size: 1.65rem;
+    }
+
+    .machine-meta {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+/* ================================
+   MACHINE DETAIL NAVIGATION
+   ================================ */
+
+.detail-nav {
+    background: #eef4f8;
+    border: 1px solid #d5e3ec;
+    padding: 12px;
+    border-radius: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.detail-nav a {
+    display: inline-block;
+    padding: 9px 12px;
+    background: white;
+    color: #273746;
+    border: 1px solid #d5dfe6;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 0.88rem;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.detail-nav a:hover {
+    background: #dcebf4;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+    .detail-nav {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 7px;
+    }
+
+    .detail-nav a {
+        text-align: center;
+        padding: 9px 6px;
+        font-size: 0.8rem;
+    }
+}
+
+/* Dokumen & Referensi */
+#documents .machine-card {
+    background: linear-gradient(145deg, #f8fafb, #edf3f6);
+    border: 1px solid #dce5ea;
+    border-left: 5px solid #2874a6;
+    border-radius: 12px;
+    padding: 18px;
+    margin-bottom: 14px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.06);
+}
+
+#documents .machine-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #1f4e6b;
+    font-size: 1.05rem;
+}
+
+#documents .machine-card p {
+    margin: 7px 0;
+    line-height: 1.5;
+    color: #526b78;
+}
+
+#documents .machine-card .add-button {
+    display: inline-block;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+#documents .machine-card .add-button:hover {
+    transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+    #documents .machine-card {
+        padding: 15px;
+    }
+
+    #documents .machine-card h3 {
+        font-size: 0.98rem;
+    }
+
+    #documents .machine-card p {
+        font-size: 0.88rem;
+    }
+}
+
+
+/* Troubleshooting */
+#troubleshooting .machine-card {
+    background: linear-gradient(145deg, #f1f4f5, #e7ecef);
+    border: 1px solid #d5dde1;
+    border-left: 5px solid #7b8790;
+    border-radius: 12px;
+    padding: 18px;
+    margin-bottom: 14px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.06);
+}
+
+#troubleshooting .machine-card h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #37474f;
+    font-size: 1.05rem;
+}
+
+#troubleshooting .machine-card p {
+    margin: 8px 0;
+    line-height: 1.55;
+    color: #52636b;
+}
+
+#troubleshooting .machine-card strong {
+    color: #455a64;
+}
+
+@media (max-width: 600px) {
+    #troubleshooting .machine-card {
+        padding: 15px;
+    }
+
+    #troubleshooting .machine-card h3 {
+        font-size: 0.98rem;
+    }
+
+    #troubleshooting .machine-card p {
+        font-size: 0.88rem;
+    }
+}
+
+
+/* Spesifikasi */
+#specifications {
+    margin-top: 24px;
+}
+
+#specifications .machine-card {
+    background: linear-gradient(145deg, #f5f7f8, #e9eef1);
+    border: 1px solid #d5dde1;
+    border-left: 5px solid #607d8b;
+    border-radius: 12px;
+    padding: 18px;
+    margin-bottom: 12px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+#specifications .machine-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #37474f;
+    font-size: 1rem;
+}
+
+#specifications .machine-card p {
+    margin: 6px 0;
+    line-height: 1.5;
+    color: #52636b;
+}
+
+#specifications .machine-card strong {
+    color: #455a64;
+}
+
+@media (max-width: 600px) {
+    #specifications .machine-card {
+        padding: 15px;
+    }
+
+    #specifications .machine-card h3 {
+        font-size: 0.95rem;
+    }
+
+    #specifications .machine-card p {
+        font-size: 0.88rem;
+    }
+}
+
+
+/* Komponen */
+#components {
+    margin-top: 24px;
+}
+
+#components .machine-card {
+    background: linear-gradient(145deg, #eef5f8, #e1ebef);
+    border: 1px solid #d1dfe5;
+    border-left: 5px solid #2874a6;
+    border-radius: 12px;
+    padding: 18px;
+    margin-bottom: 14px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+#components .machine-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #1f4e6b;
+    font-size: 1.05rem;
+}
+
+#components .machine-card p {
+    margin: 7px 0;
+    line-height: 1.5;
+    color: #526b78;
+}
+
+#components .machine-card a {
+    color: #1f618d;
+    font-weight: 600;
+}
+
+#components .machine-card a:hover {
+    text-decoration: underline;
+}
+
+#components .machine-card strong {
+    color: #455a64;
+}
+
+@media (max-width: 600px) {
+    #components .machine-card {
+        padding: 15px;
+    }
+
+    #components .machine-card h3 {
+        font-size: 0.98rem;
+    }
+
+    #components .machine-card p {
+        font-size: 0.88rem;
+    }
+}
+
+
+/* Parts List */
+#parts-list {
+    margin-top: 24px;
+    margin-bottom: 28px;
+}
+
+#parts-list .machine-card {
+    background: linear-gradient(145deg, #f6f8f9, #eaf0f2);
+    border: 1px solid #d5dfe3;
+    border-left: 5px solid #546e7a;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+#parts-list .machine-card h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #37474f;
+    font-size: 1rem;
+}
+
+#parts-list .machine-card p {
+    margin: 5px 0;
+    line-height: 1.45;
+    color: #52636b;
+}
+
+#parts-list .machine-card a {
+    color: #1f618d;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#parts-list .machine-card a:hover {
+    text-decoration: underline;
+}
+
+#parts-list .machine-card strong {
+    color: #455a64;
+}
+
+@media (max-width: 600px) {
+    #parts-list .machine-card {
+        padding: 14px;
+    }
+
+    #parts-list .machine-card h3 {
+        font-size: 0.94rem;
+    }
+
+    #parts-list .machine-card p {
+        font-size: 0.86rem;
+    }
+}
+
+
+/* Catatan Teknisi */
+#technician-notes {
+    margin-top: 24px;
+    margin-bottom: 28px;
+}
+
+#technician-notes .machine-card {
+    background: linear-gradient(145deg, #f4f6f7, #e8edef);
+    border: 1px solid #d3dde1;
+    border-left: 5px solid #78909c;
+    border-radius: 12px;
+    padding: 18px;
+    margin-bottom: 14px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+#technician-notes .machine-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #37474f;
+    font-size: 1.05rem;
+}
+
+#technician-notes .machine-card p {
+    margin: 7px 0;
+    line-height: 1.6;
+    color: #52636b;
+}
+
+#technician-notes .machine-card strong {
+    color: #455a64;
+}
+
+@media (max-width: 600px) {
+    #technician-notes .machine-card {
+        padding: 15px;
+    }
+
+    #technician-notes .machine-card h3 {
+        font-size: 0.98rem;
+    }
+
+    #technician-notes .machine-card p {
+        font-size: 0.88rem;
+    }
+}
+
+/* ================================
+   COMPONENT DETAIL HERO
+   ================================ */
+
+.component-hero {
+    background: linear-gradient(145deg, #17202a, #273746);
+    color: white;
+    padding: 28px;
+    border-radius: 14px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.12);
+}
+
+.component-hero-label {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    opacity: 0.75;
+    margin-bottom: 10px;
+}
+
+.component-hero h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.component-machine {
+    margin-top: 8px;
+    font-size: 1rem;
+    color: #d5d8dc;
+}
+
+.component-image {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.component-image img {
+    max-width: 100%;
+    width: 420px;
+    height: auto;
+    border-radius: 10px;
+    background: white;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    .component-hero {
+        padding: 22px;
+    }
+
+    .component-hero h2 {
+        font-size: 1.25rem;
+    }
+
+    .component-machine {
+        font-size: 0.9rem;
+    }
+
+    .component-image img {
+        width: 100%;
+    }
+}
+
+/* Informasi Teknis Component */
+.component-info {
+    margin-bottom: 20px;
+}
+
+.component-info h2 {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.component-info-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+.component-info-item {
+    background: linear-gradient(145deg, #f5f7f8, #e9eef1);
+    border: 1px solid #d5dde1;
+    border-left: 4px solid #607d8b;
+    border-radius: 10px;
+    padding: 14px;
+}
+
+.component-info-item strong {
+    display: block;
+    margin-bottom: 6px;
+    color: #455a64;
+    font-size: 0.85rem;
+}
+
+.component-info-item span {
+    color: #263238;
+    line-height: 1.45;
+}
+
+.component-info-item.full-width {
+    grid-column: 1 / -1;
+}
+
+@media (max-width: 600px) {
+    .component-info-grid {
+        grid-template-columns: 1fr;
+        gap: 9px;
+    }
+
+    .component-info-item {
+        padding: 13px;
+    }
+
+    .component-info-item.full-width {
+        grid-column: auto;
+    }
+}
+
+/* Sub-parts Component */
+.component-subparts {
+    margin-bottom: 20px;
+}
+
+.component-subparts > p {
+    color: #52636b;
+}
+
+.component-subparts .table-wrapper {
+    overflow-x: auto;
+    border: 1px solid #d5dfe3;
+    border-radius: 12px;
+    background: #f8fafb;
+}
+
+.component-subparts table {
+    width: 100%;
+    min-width: 720px;
+    border-collapse: collapse;
+}
+
+.component-subparts th {
+    background: #37474f;
+    color: white;
+    padding: 11px 10px;
+    text-align: left;
+    font-size: 0.85rem;
+    white-space: nowrap;
+}
+
+.component-subparts td {
+    padding: 10px;
+    border-bottom: 1px solid #e1e7ea;
+    color: #455a64;
+    font-size: 0.88rem;
+    vertical-align: middle;
+}
+
+.component-subparts tbody tr:nth-child(even) {
+    background: #f1f5f7;
+}
+
+.component-subparts tbody tr:hover {
+    background: #e5edf1;
+}
+
+.component-subparts td a {
+    color: #1f618d;
+    text-decoration: none;
+}
+
+.component-subparts td a:hover {
+    text-decoration: underline;
+}
+
+.component-subparts td strong {
+    color: #1f4e6b;
+}
+
+@media (max-width: 600px) {
+    .component-subparts table {
+        min-width: 680px;
+    }
+
+    .component-subparts th,
+    .component-subparts td {
+        padding: 9px 8px;
+        font-size: 0.82rem;
+    }
+}
+
+/* Navigasi Detail Component */
+.component-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 24px;
+    padding: 14px;
+    background: #eef4f8;
+    border: 1px solid #d5e3ec;
+    border-radius: 12px;
+}
+
+.component-nav-button,
+.component-navigation .back-button {
+    display: inline-block;
+    padding: 9px 13px;
+    background: white;
+    color: #273746;
+    border: 1px solid #d5dfe6;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 0.88rem;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.component-nav-button:hover,
+.component-navigation .back-button:hover {
+    background: #dcebf4;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+    .component-navigation {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+
+    .component-nav-button,
+    .component-navigation .back-button {
+        text-align: center;
+        padding: 10px;
+        font-size: 0.85rem;
+    }
+}
+
+/* ================================
+   COMPONENT MIDDLE NAVIGATION
+   ================================ */
+
+.component-middle-navigation {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin: 0 0 20px;
+}
+
+.component-middle-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 52px;
+    padding: 12px 16px;
+    box-sizing: border-box;
+    background: linear-gradient(145deg, #eef4f8, #dfeaf1);
+    color: #273746;
+    border: 1px solid #cbd9e2;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.component-middle-button:hover {
+    background: #d5e6f0;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+    .component-middle-navigation {
+        grid-template-columns: 1fr;
+        gap: 9px;
+    }
+
+    .component-middle-button {
+        min-height: 48px;
+        padding: 10px 12px;
+        font-size: 0.85rem;
+    }
+}
+
+/* ================================
+   COMPONENT LIST CARD NAVIGATION
+   ================================ */
+
+.components-card-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+    margin-top: 16px;
+    padding-top: 14px;
+    border-top: 1px solid #dfe6e9;
+}
+
+.components-card-button {
+    display: inline-block;
+    padding: 9px 13px;
+    background: #eef4f8;
+    color: #273746;
+    border: 1px solid #cbd9e2;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.components-card-button:hover {
+    background: #d5e6f0;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+    .components-card-navigation {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .components-card-button {
+        text-align: center;
+    }
+}
+
+.components-source-link {
+    margin-top: 12px;
+}
+
+/* ================================
+   MACHINE DETAIL BOTTOM NAVIGATION
+   ================================ */
+
+.machine-bottom-navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    padding: 14px;
+    background: #eef4f8;
+    border: 1px solid #d5e3ec;
+    border-radius: 12px;
+}
+
+.machine-bottom-button {
+    display: inline-block;
+    padding: 10px 18px;
+    background: white;
+    color: #273746;
+    border: 1px solid #cbd9e2;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.machine-bottom-button:hover {
+    background: #dcebf4;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+    .machine-bottom-navigation {
+        padding: 10px;
+    }
+
+    .machine-bottom-button {
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+    }
+}
+
+/* ================================
+   PART DETAIL HERO
+   ================================ */
+
+.part-hero {
+    background: linear-gradient(145deg, #17202a, #273746);
+    color: white;
+    padding: 28px;
+    border-radius: 14px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.12);
+}
+
+.part-hero-label {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    opacity: 0.75;
+    margin-bottom: 10px;
+}
+
+.part-hero h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.part-machine {
+    margin-top: 8px;
+    font-size: 1rem;
+    color: #d5d8dc;
+}
+
+@media (max-width: 600px) {
+    .part-hero {
+        padding: 22px;
+    }
+
+    .part-hero h2 {
+        font-size: 1.25rem;
+    }
+
+    .part-machine {
+        font-size: 0.9rem;
+    }
+}
+
+/* ================================
+   PART DETAIL INFORMATION
+   ================================ */
+
+.part-info {
+    margin-bottom: 20px;
+}
+
+.part-info h2 {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.part-info-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+.part-info-item {
+    background: linear-gradient(145deg, #f5f7f8, #e9eef1);
+    border: 1px solid #d5dde1;
+    border-left: 4px solid #607d8b;
+    border-radius: 10px;
+    padding: 14px;
+}
+
+.part-info-item strong {
+    display: block;
+    margin-bottom: 6px;
+    color: #455a64;
+    font-size: 0.85rem;
+}
+
+.part-info-item span {
+    color: #263238;
+    line-height: 1.45;
+}
+
+.part-info-item.full-width {
+    grid-column: 1 / -1;
+}
+
+@media (max-width: 600px) {
+    .part-info-grid {
+        grid-template-columns: 1fr;
+        gap: 9px;
+    }
+
+    .part-info-item {
+        padding: 13px;
+    }
+
+    .part-info-item.full-width {
+        grid-column: auto;
+    }
+}
+
+/* ================================
+   PART DETAIL COMPONENTS
+   ================================ */
+
+.part-components {
+    margin-bottom: 20px;
+}
+
+.part-components h2 {
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.part-components-count {
+    color: #52636b;
+    margin-bottom: 12px;
+}
+
+.part-components-table-wrapper {
+    overflow-x: auto;
+    border: 1px solid #d5dfe3;
+    border-radius: 12px;
+    background: #f8fafb;
+}
+
+.part-components table {
+    width: 100%;
+    min-width: 720px;
+    border-collapse: collapse;
+}
+
+.part-components th {
+    background: #37474f;
+    color: white;
+    padding: 11px 10px;
+    text-align: left;
+    font-size: 0.85rem;
+    white-space: nowrap;
+}
+
+.part-components td {
+    padding: 10px;
+    border-bottom: 1px solid #e1e7ea;
+    color: #455a64;
+    font-size: 0.88rem;
+    vertical-align: middle;
+}
+
+.part-components tbody tr:nth-child(even) {
+    background: #f1f5f7;
+}
+
+.part-components tbody tr:hover {
+    background: #e5edf1;
+}
+
+.part-components td a {
+    color: #1f618d;
+    text-decoration: none;
+}
+
+.part-components td a:hover {
+    text-decoration: underline;
+}
+
+.part-components td strong {
+    color: #1f4e6b;
+}
+
+.part-components-empty {
+    color: #52636b;
+}
+
+@media (max-width: 600px) {
+    .part-components table {
+        min-width: 680px;
+    }
+
+    .part-components th,
+    .part-components td {
+        padding: 9px 8px;
+        font-size: 0.82rem;
+    }
+}
+
+/* ================================
+   PART DETAIL NAVIGATION
+   ================================ */
+
+.part-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 24px;
+    padding: 14px;
+    background: #eef4f8;
+    border: 1px solid #d5e3ec;
+    border-radius: 12px;
+}
+
+.part-nav-button {
+    display: inline-block;
+    padding: 9px 13px;
+    background: white;
+    color: #273746;
+    border: 1px solid #d5dfe6;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 0.88rem;
+    font-weight: 600;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.part-nav-button:hover {
+    background: #dcebf4;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+    .part-navigation {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+
+    .part-nav-button {
+        text-align: center;
+        padding: 10px;
+        font-size: 0.85rem;
+    }
+}
+
+/* ==================================================
+   BANGIRDI GARMENTTECH — INDUSTRIAL DARK UI
+   Tema tambahan; CSS lama tetap dipertahankan
+   ================================================== */
+
+:root {
+    --gt-bg: #080f1d;
+    --gt-panel: #111d30;
+    --gt-panel-hover: #172741;
+    --gt-blue: #2684ff;
+    --gt-blue-light: #69adff;
+    --gt-text: #e8f0fc;
+    --gt-muted: #9aabc3;
+    --gt-border: #263953;
+    --gt-radius: 14px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--gt-bg);
+    color: var(--gt-text);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    position: relative;
+    overflow: hidden;
+    padding: 34px 18px;
+    text-align: center;
+    color: #fff;
+    background:
+        radial-gradient(ellipse at top, #183967 0%, transparent 65%),
+        linear-gradient(135deg, #101d32, #080f1d 75%);
+    border-bottom: 2px solid var(--gt-blue);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, .24);
+}
+
+header h1 {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: clamp(21px, 4vw, 34px);
+    font-weight: 800;
+    letter-spacing: 1.3px;
+    line-height: 1.3;
+    overflow-wrap: anywhere;
+}
+
+header p {
+    margin: 10px 0 0;
+    color: var(--gt-blue-light);
+    font-size: 15px;
+    letter-spacing: .5px;
+}
+
+main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 28px 20px;
+}
+
+main section {
+    margin-bottom: 28px;
+}
+
+main section > h2 {
+    margin: 0 0 18px;
+    padding-bottom: 10px;
+    color: var(--gt-text);
+    font-size: 21px;
+    line-height: 1.4;
+    border-bottom: 1px solid var(--gt-border);
+}
+
+.welcome,
+.database-overview {
+    padding: 24px;
+    background: linear-gradient(145deg, #14233a, #0e192b);
+    border: 1px solid var(--gt-border);
+    border-radius: var(--gt-radius);
+    box-shadow: 0 10px 28px rgba(0, 0, 0, .2);
+}
+
+.welcome h2 {
+    color: var(--gt-blue-light);
+    margin-top: 0;
+}
+
+.welcome p {
+    color: #c2d0e4;
+}
+
+.welcome form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 18px;
+}
+
+.welcome input[type="text"],
+.welcome input[name="search"] {
+    flex: 1 1 220px;
+    min-width: 0;
+    width: 100%;
+    padding: 13px 15px;
+    color: var(--gt-text);
+    background: #080f1d;
+    border: 1px solid #344b6b;
+    border-radius: 9px;
+    outline: none;
+    font-size: 15px;
+}
+
+.welcome input[type="text"]:focus,
+.welcome input[name="search"]:focus {
+    border-color: var(--gt-blue);
+    box-shadow: 0 0 0 3px rgba(38, 132, 255, .16);
+}
+
+.welcome input::placeholder {
+    color: #8295af;
+}
+
+.welcome form button {
+    padding: 12px 24px;
+    color: #fff;
+    background: var(--gt-blue);
+    border: 1px solid var(--gt-blue);
+    border-radius: 9px;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background .2s ease, transform .2s ease;
+}
+
+.welcome form button:hover {
+    background: #0867df;
+    transform: translateY(-1px);
+}
+
+.add-button {
+    display: inline-block;
+    padding: 10px 16px;
+    color: #fff;
+    background: linear-gradient(135deg, #2684ff, #1263d6);
+    border: 1px solid #4596ff;
+    border-radius: 9px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.add-button:hover {
+    opacity: 1;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 18px rgba(38, 132, 255, .25);
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 14px;
+}
+
+.stat-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 112px;
+    padding: 18px 12px;
+    text-align: center;
+    background: #0b1526;
+    border: 1px solid var(--gt-border);
+    border-top: 3px solid var(--gt-blue);
+    border-radius: 12px;
+    transition: transform .2s ease, border-color .2s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--gt-blue);
+}
+
+.stat-card strong {
+    display: block;
+    color: var(--gt-blue-light);
+    font-size: clamp(25px, 4vw, 34px);
+    line-height: 1.25;
+    font-weight: 800;
+}
+
+.stat-card span {
+    margin-top: 8px;
+    color: #b5c5dc;
+    font-size: 13px;
+}
+
+.grid {
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 16px;
+}
+
+.grid .card {
+    min-width: 0;
+    color: var(--gt-text);
+    background: linear-gradient(145deg, #14233a, #0e192b);
+    border: 1px solid var(--gt-border);
+    border-left: 4px solid var(--gt-blue);
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, .16);
+    text-decoration: none;
+    transition: transform .2s ease, background .2s ease,
+                border-color .2s ease, box-shadow .2s ease;
+}
+
+.grid .card:hover {
+    background: var(--gt-panel-hover);
+    border-color: var(--gt-blue);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, .25);
+}
+
+.grid .card h3 {
+    color: #f0f6ff;
+    overflow-wrap: anywhere;
+}
+
+.grid .card p {
+    color: var(--gt-muted);
+}
+
+.brand-logo {
+    min-height: 70px;
+}
+
+.brand-logo img {
+    max-width: 100%;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, .12));
+}
+
+.machine-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 16px;
+}
+
+.machine-card {
+    min-width: 0;
+    padding: 20px;
+    color: var(--gt-text);
+    background: var(--gt-panel);
+    border: 1px solid var(--gt-border);
+    border-radius: var(--gt-radius);
+    overflow-wrap: anywhere;
+}
+
+.machine-card h3 {
+    color: var(--gt-blue-light);
+    margin-top: 0;
+}
+
+.machine-card p {
+    color: #c2d0e4;
+}
+
+.machine-stats {
+    gap: 8px;
+}
+
+.machine-stats span {
+    color: #cbd9ec;
+    background: #0a1424;
+    border: 1px solid var(--gt-border);
+    border-radius: 7px;
+    padding: 5px 9px;
+}
+
+.empty {
+    padding: 18px;
+    color: #f0c9c9;
+    background: #281923;
+    border: 1px solid #633342;
+    border-radius: 10px;
+}
+
+.detail-nav {
+    background: var(--gt-panel);
+    border: 1px solid var(--gt-border);
+}
+
+.detail-nav a {
+    color: var(--gt-blue-light);
+    background: #0a1424;
+    border: 1px solid var(--gt-border);
+}
+
+.detail-nav a:hover {
+    color: #fff;
+    background: #172741;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 24px 16px;
+    color: var(--gt-muted);
+    background: #070c16;
+    border-top: 1px solid var(--gt-border);
+}
+
+footer p {
+    margin: 0;
+}
+
+a {
+    transition: color .2s ease;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 26px 14px;
+    }
+
+    header h1 {
+        font-size: 21px;
+        letter-spacing: .5px;
+    }
+
+    header p {
+        font-size: 13px;
+    }
+
+    main {
+        padding: 16px 12px;
+    }
+
+    main section {
+        margin-bottom: 22px;
+    }
+
+    main section > h2 {
+        font-size: 19px;
+    }
+
+    .welcome,
+    .database-overview {
+        padding: 17px;
+        border-radius: 12px;
+    }
+
+    .welcome form {
+        flex-direction: column;
+    }
+
+    .welcome form button {
+        width: 100%;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+    }
+
+    .stat-card {
+        min-height: 98px;
+        padding: 13px 8px;
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+    }
+
+    .grid .card {
+        padding: 13px 10px;
+    }
+
+    .brand-logo {
+        height: 58px;
+        margin-bottom: 8px;
+    }
+
+    .brand-logo img {
+        width: 100%;
+        height: 58px;
+    }
+
+    .machine-list {
+        grid-template-columns: 1fr;
+    }
+
+    .machine-card {
+        padding: 16px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        transition-duration: .01ms !important;
+    }
+}
+
+/* Search bar: compact industrial layout */
+.welcome form {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 10px;
+    max-width: 650px;
+    margin-top: 14px;
+}
+
+.welcome input[type="text"],
+.welcome input[name="search"] {
+    flex: 1 1 auto;
+    width: auto;
+    min-width: 0;
+    min-height: 42px;
+    padding: 10px 13px;
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+.welcome form button {
+    flex: 0 0 auto;
+    min-height: 42px;
+    padding: 9px 20px;
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+@media (max-width: 420px) {
+    .welcome form {
+        gap: 8px;
+    }
+
+    .welcome input[type="text"],
+    .welcome input[name="search"] {
+        padding: 9px 10px;
+        font-size: 13px;
+    }
+
+    .welcome form button {
+        padding: 9px 14px;
+    }
+}
+
+/* ==========================================
+   GARMENTTECH — STATISTICS & BRAND CARDS
+   ========================================== */
+
+/* Statistik database */
+.database-overview > h2 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.stats-grid {
+    grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
+    gap: 12px;
+}
+
+.stat-card {
+    position: relative;
+    min-width: 0;
+    min-height: 105px;
+    padding: 17px 12px;
+    overflow: hidden;
+    background: linear-gradient(145deg, #14243b, #0b1526);
+    border: 1px solid #263953;
+    border-top: 3px solid #2684ff;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .15);
+}
+
+.stat-card strong {
+    color: #69adff;
+    font-size: clamp(25px, 3vw, 32px);
+    font-weight: 800;
+    font-variant-numeric: tabular-nums;
+}
+
+.stat-card span {
+    color: #bdcce0;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* Kartu merek dan jenis mesin */
+.grid {
+    align-items: stretch;
+}
+
+.grid .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 145px;
+    padding: 17px;
+    overflow: hidden;
+    background: linear-gradient(145deg, #14243b, #0d192b);
+    border: 1px solid #263953;
+    border-left: 3px solid #2684ff;
+    border-radius: 12px;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, .15);
+}
+
+.grid .card h3 {
+    margin: 0 0 8px;
+    color: #edf5ff;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.grid .card p {
+    margin: 5px 0 0;
+    color: #9aabc3;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+/* Logo merek tetap proporsional */
+.grid .card .brand-logo {
+    flex-shrink: 0;
+    height: 65px;
+    margin-bottom: 10px;
+}
+
+.grid .card .brand-logo img {
+    max-width: 100%;
+    max-height: 65px;
+    object-fit: contain;
+}
+
+/* Efek hover untuk komputer dan sentuhan */
+@media (hover: hover) {
+    .grid .card:hover {
+        transform: translateY(-3px);
+        border-color: #2684ff;
+        border-left-color: #69adff;
+        background: linear-gradient(145deg, #192d49, #11213a);
+        box-shadow: 0 10px 24px rgba(0, 0, 0, .24);
+    }
+}
+
+.grid .card:active {
+    transform: scale(.99);
+}
+
+/* Tampilan HP */
+@media (max-width: 600px) {
+    .stats-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+    }
+
+    .stat-card {
+        min-height: 92px;
+        padding: 13px 8px;
+    }
+
+    .stat-card strong {
+        font-size: 27px;
+    }
+
+    .stat-card span {
+        font-size: 12px;
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+    }
+
+    .grid .card {
+        min-height: 125px;
+        padding: 12px 10px;
+    }
+
+    .grid .card h3 {
+        font-size: 14px;
+    }
+
+    .grid .card p {
+        font-size: 12px;
+    }
+
+    .grid .card .brand-logo {
+        height: 55px;
+    }
+
+    .grid .card .brand-logo img {
+        height: 55px;
+    }
+}
+
+
+/* Clickable database overview cards */
+.stat-card-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.stat-card-link:hover {
+    transform: translateY(-2px);
+    border-color: #38bdf8;
+}
+
+.stat-card-link:focus-visible {
+    outline: 2px solid #38bdf8;
+    outline-offset: 3px;
+}
+
+
+/* Database overview: centered brand + 2x2 cards */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: stretch;
+}
+
+.stats-grid > :first-child {
+    grid-column: 1 / -1;
+    width: 50%;
+    justify-self: center;
+    box-sizing: border-box;
+}
+
+
+/* Center homepage database heading */
+header {
+    text-align: center;
+}
+
+header h1,
+header p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Center technician and overview section headings */
+.database-overview > h2,
+main > section > h2 {
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+/* Final fix: center Database Overview title */
+main section.database-overview h2 {
+    display: block !important;
+    width: 100% !important;
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    float: none !important;
+}
+
+/* Industrial Dark: machine type cards */
+section:has(> h2#machine-type-list) .grid > .card {
+    background: #111c2e !important;
+    color: #e2e8f0 !important;
+    border: 1px solid #263750 !important;
+    border-radius: 12px;
+    transition: background 0.2s ease, border-color 0.2s ease,
+                transform 0.2s ease;
+}
+
+section:has(> h2#machine-type-list) .grid > .card h3 {
+    color: #f1f5f9 !important;
+}
+
+section:has(> h2#machine-type-list) .grid > .card p {
+    color: #a8bad0 !important;
+}
+
+section:has(> h2#machine-type-list) .grid > .card:hover {
+    background: #182840 !important;
+    border-color: #38bdf8 !important;
+    transform: translateY(-2px);
+}
+
+/* ==========================================
+   RESPONSIVE POLISH — HP, TABLET, DESKTOP
+   ========================================== */
+
+/* Mencegah lebar elemen menambah lebar halaman */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    max-width: 100%;
+}
+
+body {
+    overflow-wrap: break-word;
+}
+
+main {
+    min-width: 0;
+}
+
+/* Kartu statistik tetap seimbang */
+.stats-grid > * {
+    min-width: 0;
+    max-width: 100%;
+}
+
+/* Katalog merek dan jenis mesin */
+.grid {
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 190px), 1fr));
+}
+
+.grid .card {
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+/* Tablet */
+@media (min-width: 601px) and (max-width: 1024px) {
+    main {
+        padding: 24px 18px;
+    }
+
+    .welcome,
+    .database-overview {
+        padding: 20px;
+    }
+
+    .grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+    }
+}
+
+/* HP */
+@media (max-width: 600px) {
+    main {
+        padding: 18px 12px;
+    }
+
+    header {
+        padding: 26px 14px;
+    }
+
+    header h1 {
+        font-size: clamp(20px, 5vw, 27px);
+        letter-spacing: .5px;
+    }
+
+    .welcome,
+    .database-overview {
+        padding: 16px 12px;
+        border-radius: 12px;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+    }
+
+    .stats-grid > :first-child {
+        grid-column: 1 / -1;
+        width: min(100%, 220px);
+        justify-self: center;
+    }
+
+    .stat-card {
+        min-height: 88px;
+        padding: 12px 6px;
+    }
+
+    .stat-card strong {
+        font-size: clamp(23px, 7vw, 28px);
+    }
+
+    .stat-card span {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+    }
+
+    .grid .card {
+        padding: 12px 8px;
+    }
+}
+
+/* HP sangat kecil */
+@media (max-width: 360px) {
+    main {
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+
+    .welcome,
+    .database-overview {
+        padding: 13px 9px;
+    }
+
+    .stats-grid,
+    .grid {
+        gap: 8px;
+    }
+
+    .stat-card span {
+        font-size: 11px;
+    }
+
+    .grid .card h3 {
+        font-size: 13px;
+    }
+}
+
+/* Menghormati pengaturan animasi perangkat */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        transition-duration: .01ms !important;
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+    }
+}
+
+/* BRAND CARDS — konsisten dengan Industrial Dark */
+.grid > a.card {
+    background: linear-gradient(145deg, #14233a, #0e192b) !important;
+    color: #e2e8f0 !important;
+    border: 1px solid #263750 !important;
+    border-left: 4px solid #2684ff !important;
+}
+
+.grid > a.card h3 {
+    color: #f1f5f9 !important;
+}
+
+.grid > a.card p {
+    color: #a8bad0 !important;
+}
+
+/* Hilangkan bidang putih di belakang logo merek */
+.grid > a.card .brand-logo {
+    background: #111c2e !important;
+    border: 1px solid #263750;
+    border-radius: 8px;
+}
+
+/* Label negara */
+.grid > a.card .brand-logo + p {
+    background: #1b2b42 !important;
+    color: #cbd8e8 !important;
+}
+
+/* Hover khusus perangkat yang mendukung hover */
+@media (hover: hover) {
+    .grid > a.card:hover {
+        background: linear-gradient(145deg, #192d49, #11213a) !important;
+        border-color: #38bdf8 !important;
+    }
+}
+
+/* GarmentTech: penyempurnaan kartu merek */
+.grid > a.card:has(.brand-logo) {
+    padding: 14px 10px !important;
+    gap: 8px !important;
+}
+
+.grid > a.card .brand-logo {
+    width: 100%;
+    height: 58px !important;
+    min-height: 58px;
+    margin: 0 auto 4px !important;
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.grid > a.card .brand-logo img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 90%;
+    max-height: 48px !important;
+    object-fit: contain;
+}
+
+.grid > a.card .brand-logo + p {
+    margin: 0 !important;
+    padding: 4px 8px;
+    line-height: 1.4;
+}
+
+/* Jarak antara Merek Mesin dan Jenis Mesin */
+#brand-list {
+    margin-bottom: 16px;
+}
+
+#machine-type-list {
+    margin-top: 26px;
+    margin-bottom: 16px;
+}
+
+/* GarmentTech: kartu merek lebih ringkas */
+.grid > a.card:has(.brand-logo) {
+    padding: 10px 10px !important;
+    gap: 6px !important;
+}
+
+.grid > a.card .brand-logo {
+    height: 48px !important;
+    min-height: 48px !important;
+    margin: 0 auto 2px !important;
+    padding: 2px 6px;
+}
+
+.grid > a.card .brand-logo img {
+    max-height: 40px !important;
+    max-width: 90%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+.grid > a.card .brand-logo + p {
+    margin: 0 !important;
+    padding: 4px 8px;
+    line-height: 1.35;
+}
+
+
+/* Kartu merek lebih ringkas tanpa mengecilkan logo */
+.card:has(.brand-logo) {
+    padding: 12px;
+}
+
+.card:has(.brand-logo) .brand-logo {
+    margin-bottom: 4px;
+}
+
+.card:has(.brand-logo) .brand-logo + p {
+    margin-top: 3px;
+}
+
+@media (max-width: 600px) {
+    .card:has(.brand-logo) {
+        padding: 10px;
+    }
+}
+
+/* FINAL: rapatkan kartu merek dan hilangkan ruang kosong bawah */
+.grid > a.card:has(.brand-logo) {
+    min-height: 0 !important;
+    height: auto !important;
+    padding: 8px 10px !important;
+    gap: 0 !important;
+    justify-content: flex-start !important;
+    align-self: start;
+}
+
+.grid > a.card:has(.brand-logo) .brand-logo {
+    flex: 0 0 48px !important;
+    height: 48px !important;
+    min-height: 48px !important;
+    margin: 0 auto 4px !important;
+}
+
+.grid > a.card:has(.brand-logo) .brand-logo + p {
+    flex: 0 0 auto;
+    align-self: center;
+    margin: 0 !important;
+}

@@ -1,0 +1,40 @@
+  9      #03    400-36459       X_MOVEMENT_UPPER_COVER_R_ASM      1
+ 13      #03    400-36461       X_MOVEMENT_UPPER_COVER_L_ASM      1
+ 34      #03    400-83741       NEEDLE_PLATE_SUPPORT_COVER_ASM    1
+ 20      #03    400-39537         PRESSURE_PLATE                    1
+ 16      #03   400-30932       NEEDLE_PLATE_ASM.                 1
+  3      #03   400-78000       X-Y_TABLE_ASM_2210               1
+  6      #03   400-38562       X FIXED RACE                    (2)
+ 19      #03   B2508-210-DAB   X BALL GAUGE ASM.(EXTENSION)    (2)
+ 26      #03   400-39541       LOWER_PLATE                         1
+ 30      #03   400-71898       FEEDING_FRAME_2210                  1
+  2      #03   400-38255       T-STAND COMPL.(AIR TYPE)       1
+ 12      #03   SL-9082091-SE   WASHER HEXAGONAL BOLT        (12)
+ 24        #03   CM-3001000-03   VOLTAGE WARNING LABEL(25)          1
+ 25        #03   CM-3004006-01   VOLTAGE CAUTION LABEL              1
+ 45        #03   400-86470       POWER CABLE 1P ASSY                1
+  3      #03    400-81563       MC-587 BOX C                             1
+ 44      #03    400-86466       POWER CORD JE ASSY                      (1)
+ 46      #03    CM-2001000-01   PE MARK LABEL                           (1)
+ 50      #03    HN-0024600-00   CORES                                   (1)
+ 51      #03    HN-0028400-00   CORES                                   (1)
+ 56      #03    SL-4041081-SC   SCREW M4 L=10                           (1)
+ 57      #03    CM-6001001-01   WEEE MARK LABEL S                       (1)
+ 59      #03    400-57278       ELECTRICAL_RATING_LABEL_CE_UNIVERSAL    (1)
+ 60      #03    HX-0033900-0M   SPACER                                  (5)
+ 61      #03    SL-4040881-SC   SCREW M4 L=8                            (1)
+ 62      #03    SL-4041091-SC   SCREW M4 L=10                           (5)
+ 63      #03    SL-4040881-SC   SCREW M4 L=8                            (5)
+ 64      #03    SL-4041081-SC   SCREW M4 L=10                           (1)
+ 65      #03    401-63025       REACTOR CORD ASSY                       (1)
+ 66      #03    SL-4040891-SC   SCREW M4 L=8                            (2)
+ 30        #03   400-86467       POWER CORD 1P ASSY          1
+ 15          #03    291-86403            EC DECLARATION                                                    1
+ 26          #03    CM-6001002-01        WEEE INFORMATION SHEET                                            1
+   1     #03    400-92951       FU-07                                   1
+   2     #03    400-89686       FU INTERMEDIATE PRESSER ASM.           (1)
+  24     #03    400-89689       FU OUTER PRESSER ASM.                  (1)
+  85     #03    B2557-210-DA0   PLASTIC BLANK PLATE ASM.                2
+  13     #03    B2556-210-D0A     LOWER PLATE BLANK                     1
+  14     #03    B2556-210-D0B     LOWER PLATE BLANK                     1
+  99     #03    B2552-210-D00     LOWER PLATE                           1

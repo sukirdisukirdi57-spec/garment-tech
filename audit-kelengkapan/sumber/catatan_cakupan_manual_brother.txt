@@ -1,0 +1,19 @@
+AUDIT CAKUPAN MANUAL BROTHER BAS-HX
+Tanggal audit: 2026-10-21
+
+Halaman produk BAS-311HX menampilkan:
+- BAS-311HX/BAS-326H Instruction Manual
+- BAS-H Series Operation Panel Instruction Manual
+- BAS-H Series Programmer Instruction Manual
+
+Indeks manual publik menautkan manual mekanik:
+- bas311hn_326h_in.pdf
+- Sampul PDF menyebut BAS-311HN dan BAS-326H.
+- PDF ini memiliki bab troubleshooting dan penyetelan mekanis,
+  tetapi cakupannya untuk BAS-311HX/BAS-326HX belum dikonfirmasi.
+
+Kesimpulan:
+- Jangan gunakan manual HN/H sebagai bukti final troubleshooting HX.
+- Manual panel/programmer hanya mendukung topik sesuai cakupannya.
+- 12 entri troubleshooting Brother tetap PERLU_VERIFIKASI.
+- Database tidak diubah.

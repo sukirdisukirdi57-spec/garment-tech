@@ -1,0 +1,77 @@
+CATATAN TEMUAN AUDIT — JUKI DDL-9000CS
+Status: TEMUAN BERDASARKAN TEKS MANUAL, BELUM FINAL
+Database diubah: TIDAK
+
+E007
+Manual: Motor overload.
+Penyebab yang tercantum: machine head changed.
+Tidak ada item pemeriksaan pada baris E007 di cuplikan tabel.
+Jangan menambahkan penyebab atau pemeriksaan dari kode lain.
+
+E221
+Manual: Grease-shortage error.
+Penyebab: jumlah jahitan yang ditentukan telah tercapai sehingga mesin
+tidak dapat melanjutkan menjahit.
+Tindakan: tambahkan grease pada titik yang ditentukan dan reset error.
+Lokasi titik dan prosedur reset rinci belum diverifikasi dari bagian lain.
+
+E730 DAN E731
+Tabel menampilkan deskripsi penyebab dan rangkaian pemeriksaan bersama:
+- periksa konektor sinyal motor CN39 yang longgar atau terlepas;
+- periksa kabel sinyal motor yang putus akibat terjepit kepala mesin;
+- periksa arah pemasangan konektor encoder motor.
+Pastikan tata letak tabel asli sebelum menyatakan prosedur identik
+untuk kedua kode sebagai fakta final.
+
+E811
+Manual: Over-voltage.
+- Tegangan sama dengan atau lebih tinggi daripada batas terjamin.
+- 200 V masuk ketika konfigurasi disetel 100 V.
+- 120 V masuk ke kotak JA: 120 V.
+- 400 V masuk ke kotak CE: 230 V.
+Pemeriksaan: tegangan suplai dan konektor pemilih 100 V/200 V.
+Manual menyatakan PCB daya rusak pada kasus-kasus yang disebutkan.
+
+E813
+Manual: Low voltage.
+- Tegangan sama dengan atau lebih rendah daripada batas terjamin.
+- 100 V masuk ketika konfigurasi disetel 200 V.
+- 120 V masuk ke kotak JUS: 220 V.
+- Sirkuit internal rusak akibat penerapan tegangan berlebih.
+Pemeriksaan: tegangan suplai dan konektor pemilih 100 V/200 V.
+Jangan mencampur contoh konfigurasi E811 dan E813.
+
+BATASAN
+Temuan di atas berasal dari ekstrak teks manual.
+Belum merupakan verifikasi varian mesin DDL-9000CS terhadap DDL-9000C Series.
+Tidak ada perubahan pada database atau data troubleshooting produksi.
+
+TEMUAN TAMBAHAN E220/E221 — PROSEDUR K118
+Sumber: Instruction Manual, bagian 7-6-1 sampai 7-6-3,
+halaman cetak 76–77.
+
+E220:
+- Peringatan muncul saat waktu perawatan grease mendekat.
+- Manual menyebut error dapat di-reset melalui tombol panel yang ditandai ❽.
+- Mesin masih dapat digunakan untuk jangka waktu tertentu.
+
+E221:
+- Muncul apabila pesan E220 tidak di-reset.
+- Operasi mesin dinonaktifkan.
+- Manual memerintahkan penambahan grease dan reset melalui K118.
+
+Prosedur K118 menurut teks manual:
+1. Tahan tombol ❾ selama enam detik.
+2. Pilih "01 Memory switch", lalu tekan ❺.
+3. Pilih "01 Display all", lalu tekan ❺.
+4. Pilih "K118".
+5. Ubah K118 menjadi "1", lalu tekan ❺.
+Manual menyatakan reset mengembalikan mesin ke operasi normal
+sampai periode perawatan berikutnya.
+
+Batasan:
+- Cocokkan ikon tombol dengan panel mesin yang sebenarnya.
+- Reset tidak menggantikan penambahan grease.
+- Kesesuaian manual DDL-9000C Series terhadap varian DDL-9000CS
+  tetap perlu dikonfirmasi.
+- Database dan entri troubleshooting produksi tidak diubah.

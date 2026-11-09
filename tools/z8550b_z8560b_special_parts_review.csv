@@ -1,0 +1,34 @@
+﻿source_line,section_code,section_name,part_number,source_text,review_status
+2631,Ga1,Gauge parts list,S48065-001,8mm               * S48065-001 18                                  S48143-101                                         * S48293-201                            * SA9064-001,REVIEW_REQUIRED
+2631,Ga1,Gauge parts list,S48143-101,8mm               * S48065-001 18                                  S48143-101                                         * S48293-201                            * SA9064-001,REVIEW_REQUIRED
+2631,Ga1,Gauge parts list,S48293-201,8mm               * S48065-001 18                                  S48143-101                                         * S48293-201                            * SA9064-001,REVIEW_REQUIRED
+2631,Ga1,Gauge parts list,SA9064-001,8mm               * S48065-001 18                                  S48143-101                                         * S48293-201                            * SA9064-001,REVIEW_REQUIRED
+2649,Ga1,Gauge parts list,S58908-001,* S58908-001                                                        S48305-201                       / Black color ),REVIEW_REQUIRED
+2649,Ga1,Gauge parts list,S48305-201,* S58908-001                                                        S48305-201                       / Black color ),REVIEW_REQUIRED
+2667,Ga1,Gauge parts list,S58950-201,S58950-201,REVIEW_REQUIRED
+2699,Ga2,Gauge parts list,S48066-001,5mm              S48066-001 13                                    S06171-101                                              S48308-201                    S48074-000,REVIEW_REQUIRED
+2699,Ga2,Gauge parts list,S06171-101,5mm              S48066-001 13                                    S06171-101                                              S48308-201                    S48074-000,REVIEW_REQUIRED
+2699,Ga2,Gauge parts list,S48308-201,5mm              S48066-001 13                                    S06171-101                                              S48308-201                    S48074-000,REVIEW_REQUIRED
+2699,Ga2,Gauge parts list,S48074-000,5mm              S48066-001 13                                    S06171-101                                              S48308-201                    S48074-000,REVIEW_REQUIRED
+2717,Ga2,Gauge parts list,S48067-001,S48067-001 13                                                                                                                         / Black color ),REVIEW_REQUIRED
+2729,Ga2,Gauge parts list,S06166-001,S06166-001                                       S06170-101,REVIEW_REQUIRED
+2729,Ga2,Gauge parts list,S06170-101,S06166-001                                       S06170-101,REVIEW_REQUIRED
+2744,Ga2,Gauge parts list,S53410-001,S53410-001                                       S52068-001,REVIEW_REQUIRED
+2744,Ga2,Gauge parts list,S52068-001,S53410-001                                       S52068-001,REVIEW_REQUIRED
+2758,Ga2,Gauge parts list,S54937-001,S54937-001,REVIEW_REQUIRED
+2786,Ga3,Gauge parts list,S50684-001,10mm                  S50684-001 18.8                                 S50686-001                                                       S51227-201                          S52046-000,REVIEW_REQUIRED
+2786,Ga3,Gauge parts list,S50686-001,10mm                  S50684-001 18.8                                 S50686-001                                                       S51227-201                          S52046-000,REVIEW_REQUIRED
+2786,Ga3,Gauge parts list,S51227-201,10mm                  S50684-001 18.8                                 S50686-001                                                       S51227-201                          S52046-000,REVIEW_REQUIRED
+2786,Ga3,Gauge parts list,S52046-000,10mm                  S50684-001 18.8                                 S50686-001                                                       S51227-201                          S52046-000,REVIEW_REQUIRED
+2803,Ga3,Gauge parts list,S50685-001,S50685-001 18.8                                                                                                                                   / Snow-white color ),REVIEW_REQUIRED
+2816,Ga3,Gauge parts list,S54929-001,3mm                   S54929-001 11                                   S54945-001                                                       S54957-201,REVIEW_REQUIRED
+2816,Ga3,Gauge parts list,S54945-001,3mm                   S54929-001 11                                   S54945-001                                                       S54957-201,REVIEW_REQUIRED
+2816,Ga3,Gauge parts list,S54957-201,3mm                   S54929-001 11                                   S54945-001                                                       S54957-201,REVIEW_REQUIRED
+2856,Wa1,Warning labels,SB8096-001,Label electrical shock   36 X 150     SB8096-001,REVIEW_REQUIRED
+2862,Wa1,Warning labels,SA9826-001,56 X 43     SA9826-001,REVIEW_REQUIRED
+2868,Wa1,Warning labels,SA9957-001,L=16       SA9957-001,REVIEW_REQUIRED
+2875,Wa1,Warning labels,S37060-001,12       S37060-001,REVIEW_REQUIRED
+2882,Wa1,Warning labels,S37059-001,7.5 X 12.5   S37059-001,REVIEW_REQUIRED
+2888,Wa1,Warning labels,SB0827-001,L=16       SB0827-001,REVIEW_REQUIRED
+2906,Wa2,Warning labels,SB1271-101,68 X 30    SB1271-101,REVIEW_REQUIRED
+2912,Wa2,Warning labels,SB1270-001,68 X 30    SB1270-001,REVIEW_REQUIRED

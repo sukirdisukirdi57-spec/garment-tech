@@ -1,0 +1,82 @@
+--- a/app.py
++++ b/app.py
+@@ -1063,38 +1063,48 @@
+         conn.close()
+         return "Komponen tidak ditemukan", 404
+ 
+-    sub_parts = conn.execute(
+-        """
+-        SELECT
+-            parts.*,
+-            component_parts.relation_type,
+-            component_parts.notes AS relation_notes
+-        FROM component_parts
+-        INNER JOIN parts
+-            ON component_parts.part_id = parts.id
+-        WHERE component_parts.component_id = ?
+-        ORDER BY
+-            CASE WHEN component_parts.component_id = 506 THEN
+-                CASE component_parts.notes
+-                    WHEN 'For -[]03' THEN 0
+-                    WHEN 'For -[]05' THEN 1
++    if (
++        component["machine_model"] == "S-6200A"
++        and component["component_name"] == "G. Rotary hook mechanism"
++    ):
++        sub_parts = conn.execute(
++            """
++            SELECT
++                parts.*,
++                component_parts.relation_type,
++                component_parts.notes AS relation_notes
++            FROM component_parts
++            INNER JOIN parts
++                ON component_parts.part_id = parts.id
++            WHERE component_parts.component_id = ?
++            ORDER BY
++                CASE
++                    WHEN LOWER(REPLACE(REPLACE(COALESCE(component_parts.notes, ''), ' ', ''), '-', '')) LIKE '%for[]03%' THEN 0
++                    WHEN LOWER(REPLACE(REPLACE(COALESCE(component_parts.notes, ''), ' ', ''), '-', '')) LIKE '%for[]05%' THEN 1
+                     ELSE 2
+-                END
+-                ELSE 0
+-            END,
+-            CASE WHEN component_parts.component_id = 506
+-                THEN CAST(parts.catalog_ref AS INTEGER)
+-            END,
+-            CASE WHEN component_parts.component_id <> 506
+-                THEN parts.catalog_ref IS NULL
+-            END,
+-            CASE WHEN component_parts.component_id <> 506
+-                THEN CAST(parts.catalog_ref AS INTEGER)
+-            END,
+-            parts.id
+-        """,
+-        (component_id,)
+-    ).fetchall()
++                END,
++                CAST(parts.catalog_ref AS INTEGER),
++                parts.id
++            """,
++            (component_id,)
++        ).fetchall()
++    else:
++        sub_parts = conn.execute(
++            """
++            SELECT
++                parts.*,
++                component_parts.relation_type,
++                component_parts.notes AS relation_notes
++            FROM component_parts
++            INNER JOIN parts
++                ON component_parts.part_id = parts.id
++            WHERE component_parts.component_id = ?
++            ORDER BY parts.catalog_ref IS NULL,
++                     CAST(parts.catalog_ref AS INTEGER),
++                     parts.id
++            """,
++            (component_id,)
++        ).fetchall()
+ 
+     conn.close()
+ 

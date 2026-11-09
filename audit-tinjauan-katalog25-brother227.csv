@@ -1,0 +1,3 @@
+﻿local_part_id,local_catalog,part_number,local_part_name,status_awal,keputusan_audit,mekanisme_usulan,rujukan_katalog,catatan_auditor
+12259,25,142211001,SLIDE BLOCK,KANDIDAT_PART_BARU,PERLU_VERIFIKASI_KATALOG,BELUM DITETAPKAN,Perlu dicocokkan dengan diagram dan daftar komponen resmi Brother BAS-311HN/326H.,Nama komponen belum cukup untuk menentukan mekanisme; verifikasi posisi pada diagram katalog resmi.
+12494,25,SA3298001,"STPPER SHAFT, B-WINDER",KANDIDAT_PART_BARU,PERLU_VERIFIKASI_KATALOG,H - Bobbin winder mechanism (usulan),Perlu dicocokkan dengan diagram dan daftar komponen resmi Brother BAS-311HN/326H.,"Nama mengarah ke poros mekanisme bobbin winder; verifikasi nama resmi, posisi pada diagram, dan kecocokan submodel -03S."

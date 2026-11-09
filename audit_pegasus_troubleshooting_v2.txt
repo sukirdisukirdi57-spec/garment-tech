@@ -1,0 +1,128 @@
+DATABASE: /data/data/com.termux/files/home/garment-tech/database/garment.db
+MODE: SIMULASI V2 — READ ONLY
+Integritas awal: ok
+
+========================================================================
+E256 | ID 1279 | Benang sering putus
+GEJALA       : Putusnya benang terjadi berulang saat mesin dijalankan.
+PENYEBAB     : Tegangan benang tidak seimbang, jalur benang kotor, jarum atau looper aus.
+SOLUSI       : Periksa jalur benang, bersihkan area kerja, periksa kondisi jarum dan looper, lalu lakukan penyetelan sesuai manual.
+KESELAMATAN  : Matikan mesin sebelum memeriksa jalur benang, jarum, looper, atau melakukan penyetelan.
+CATATAN LAMA : Pastikan mesin berhenti total sebelum melakukan pemeriksaan atau penyetelan.
+
+========================================================================
+E256 | ID 1280 | Jahitan loncat
+GEJALA       : Sebagian jahitan tidak terbentuk dengan sempurna.
+PENYEBAB     : Jarum tidak sesuai, jarum bengkok, pemasangan jarum kurang tepat, atau sinkronisasi jarum dan looper tidak tepat.
+SOLUSI       : Ganti atau pasang jarum dengan benar dan periksa hubungan kerja jarum dengan looper.
+KESELAMATAN  : Matikan mesin dan lepaskan sumber tenaga sebelum memeriksa jarum, looper, atau sinkronisasi mekanisme.
+CATATAN LAMA : Matikan mesin dan lepaskan sumber tenaga sebelum pemeriksaan mekanisme jarum dan looper.
+
+========================================================================
+E256 | ID 1281 | Jahitan tidak rapi atau tidak stabil
+GEJALA       : Kerapatan dan bentuk jahitan berubah-ubah selama proses menjahit.
+PENYEBAB     : Ketegangan benang tidak seimbang, komponen pembentuk jahitan kotor, atau penyetelan mesin berubah.
+SOLUSI       : Bersihkan area pembentukan jahitan dan periksa kembali jalur serta ketegangan benang sesuai manual. Lakukan penyetelan secara bertahap.
+KESELAMATAN  : Matikan mesin sebelum membersihkan area pembentukan jahitan atau melakukan penyetelan. Jangan menyentuh bagian bergerak saat mesin beroperasi.
+CATATAN LAMA : Lakukan penyetelan secara bertahap dan jangan menyentuh bagian bergerak saat mesin beroperasi.
+
+========================================================================
+E256 | ID 1282 | Kain mengerut
+GEJALA       : Permukaan kain berkerut atau tertarik setelah proses menjahit.
+PENYEBAB     : Perbedaan tarikan benang, tekanan sepatu, atau mekanisme feed yang tidak sesuai dengan material.
+SOLUSI       : Periksa keseimbangan tegangan benang dan kondisi mekanisme feed, kemudian sesuaikan dengan jenis kain.
+KESELAMATAN  : Matikan mesin sebelum melakukan penyetelan pada tegangan benang, tekanan sepatu, atau mekanisme feed.
+CATATAN LAMA : Gunakan penyetelan yang sesuai material dan lakukan pengujian dengan mesin berhenti saat melakukan perubahan.
+
+========================================================================
+E256 | ID 1283 | Kain tidak terumpan dengan stabil
+GEJALA       : Kain bergerak tidak stabil atau laju pengumpanan tidak konsisten.
+PENYEBAB     : Feed dog, sepatu, atau area pengumpanan kotor atau mengalami keausan.
+SOLUSI       : Bersihkan area feed dan periksa kondisi feed dog serta sepatu. Ganti komponen yang aus bila diperlukan.
+KESELAMATAN  : Matikan mesin sebelum membersihkan atau memeriksa feed dog, sepatu, dan mekanisme pengumpanan.
+CATATAN LAMA : Matikan mesin sebelum membersihkan atau memeriksa mekanisme pengumpanan.
+
+========================================================================
+EX5400 | ID 1284 | Benang sering putus
+GEJALA       : Putusnya benang terjadi berulang saat mesin dijalankan.
+PENYEBAB     : Tegangan benang tidak seimbang, jalur benang kotor, jarum atau looper aus.
+SOLUSI       : Periksa jalur benang, bersihkan area kerja, periksa kondisi jarum dan looper, lalu lakukan penyetelan sesuai manual.
+KESELAMATAN  : Matikan mesin sebelum memeriksa jalur benang, jarum, looper, atau melakukan penyetelan.
+CATATAN LAMA : Pastikan mesin berhenti total sebelum melakukan pemeriksaan atau penyetelan.
+
+========================================================================
+EX5400 | ID 1285 | Jahitan loncat
+GEJALA       : Sebagian jahitan tidak terbentuk dengan sempurna.
+PENYEBAB     : Jarum tidak sesuai, jarum bengkok, pemasangan jarum kurang tepat, atau sinkronisasi jarum dan looper tidak tepat.
+SOLUSI       : Ganti atau pasang jarum dengan benar dan periksa hubungan kerja jarum dengan looper.
+KESELAMATAN  : Matikan mesin dan lepaskan sumber tenaga sebelum memeriksa jarum, looper, atau sinkronisasi mekanisme.
+CATATAN LAMA : Matikan mesin dan lepaskan sumber tenaga sebelum pemeriksaan mekanisme jarum dan looper.
+
+========================================================================
+EX5400 | ID 1286 | Jahitan tidak rapi atau tidak stabil
+GEJALA       : Kerapatan dan bentuk jahitan berubah-ubah selama proses menjahit.
+PENYEBAB     : Ketegangan benang tidak seimbang, komponen pembentuk jahitan kotor, atau penyetelan mesin berubah.
+SOLUSI       : Bersihkan area pembentukan jahitan dan periksa kembali jalur serta ketegangan benang sesuai manual. Lakukan penyetelan secara bertahap.
+KESELAMATAN  : Matikan mesin sebelum membersihkan area pembentukan jahitan atau melakukan penyetelan. Jangan menyentuh bagian bergerak saat mesin beroperasi.
+CATATAN LAMA : Lakukan penyetelan secara bertahap dan jangan menyentuh bagian bergerak saat mesin beroperasi.
+
+========================================================================
+EX5400 | ID 1287 | Kain mengerut
+GEJALA       : Permukaan kain berkerut atau tertarik setelah proses menjahit.
+PENYEBAB     : Perbedaan tarikan benang, tekanan sepatu, atau mekanisme feed yang tidak sesuai dengan material.
+SOLUSI       : Periksa keseimbangan tegangan benang dan kondisi mekanisme feed, kemudian sesuaikan dengan jenis kain.
+KESELAMATAN  : Matikan mesin sebelum melakukan penyetelan pada tegangan benang, tekanan sepatu, atau mekanisme feed.
+CATATAN LAMA : Gunakan penyetelan yang sesuai material dan lakukan pengujian dengan mesin berhenti saat melakukan perubahan.
+
+========================================================================
+EX5400 | ID 1288 | Kain tidak terumpan dengan stabil
+GEJALA       : Kain bergerak tidak stabil atau laju pengumpanan tidak konsisten.
+PENYEBAB     : Feed dog, sepatu, atau area pengumpanan kotor atau mengalami keausan.
+SOLUSI       : Bersihkan area feed dan periksa kondisi feed dog serta sepatu. Ganti komponen yang aus bila diperlukan.
+KESELAMATAN  : Matikan mesin sebelum membersihkan atau memeriksa feed dog, sepatu, dan mekanisme pengumpanan.
+CATATAN LAMA : Matikan mesin sebelum membersihkan atau memeriksa mekanisme pengumpanan.
+
+========================================================================
+TML326 | ID 1289 | Benang sering putus
+GEJALA       : Putusnya benang terjadi berulang saat mesin dijalankan.
+PENYEBAB     : Tegangan benang tidak seimbang, jalur benang kotor, jarum atau looper aus.
+SOLUSI       : Periksa jalur benang, bersihkan area kerja, periksa kondisi jarum dan looper, lalu lakukan penyetelan sesuai manual.
+KESELAMATAN  : Matikan mesin sebelum memeriksa jalur benang, jarum, looper, atau melakukan penyetelan.
+CATATAN LAMA : Pastikan mesin berhenti total sebelum melakukan pemeriksaan atau penyetelan.
+
+========================================================================
+TML326 | ID 1290 | Jahitan loncat
+GEJALA       : Sebagian jahitan tidak terbentuk dengan sempurna.
+PENYEBAB     : Jarum tidak sesuai, jarum bengkok, pemasangan jarum kurang tepat, atau sinkronisasi jarum dan looper tidak tepat.
+SOLUSI       : Ganti atau pasang jarum dengan benar dan periksa hubungan kerja jarum dengan looper.
+KESELAMATAN  : Matikan mesin dan lepaskan sumber tenaga sebelum memeriksa jarum, looper, atau sinkronisasi mekanisme.
+CATATAN LAMA : Matikan mesin dan lepaskan sumber tenaga sebelum pemeriksaan mekanisme jarum dan looper.
+
+========================================================================
+TML326 | ID 1291 | Jahitan tidak rapi atau tidak stabil
+GEJALA       : Kerapatan dan bentuk jahitan berubah-ubah selama proses menjahit.
+PENYEBAB     : Ketegangan benang tidak seimbang, komponen pembentuk jahitan kotor, atau penyetelan mesin berubah.
+SOLUSI       : Bersihkan area pembentukan jahitan dan periksa kembali jalur serta ketegangan benang sesuai manual. Lakukan penyetelan secara bertahap.
+KESELAMATAN  : Matikan mesin sebelum membersihkan area pembentukan jahitan atau melakukan penyetelan. Jangan menyentuh bagian bergerak saat mesin beroperasi.
+CATATAN LAMA : Lakukan penyetelan secara bertahap dan jangan menyentuh bagian bergerak saat mesin beroperasi.
+
+========================================================================
+TML326 | ID 1292 | Kain mengerut
+GEJALA       : Permukaan kain berkerut atau tertarik setelah proses menjahit.
+PENYEBAB     : Perbedaan tarikan benang, tekanan sepatu, atau mekanisme feed yang tidak sesuai dengan material.
+SOLUSI       : Periksa keseimbangan tegangan benang dan kondisi mekanisme feed, kemudian sesuaikan dengan jenis kain.
+KESELAMATAN  : Matikan mesin sebelum melakukan penyetelan pada tegangan benang, tekanan sepatu, atau mekanisme feed.
+CATATAN LAMA : Gunakan penyetelan yang sesuai material dan lakukan pengujian dengan mesin berhenti saat melakukan perubahan.
+
+========================================================================
+TML326 | ID 1293 | Kain tidak terumpan dengan stabil
+GEJALA       : Kain bergerak tidak stabil atau laju pengumpanan tidak konsisten.
+PENYEBAB     : Feed dog, sepatu, atau area pengumpanan kotor atau mengalami keausan.
+SOLUSI       : Bersihkan area feed dan periksa kondisi feed dog serta sepatu. Ganti komponen yang aus bila diperlukan.
+KESELAMATAN  : Matikan mesin sebelum membersihkan atau memeriksa feed dog, sepatu, dan mekanisme pengumpanan.
+CATATAN LAMA : Matikan mesin sebelum membersihkan atau memeriksa mekanisme pengumpanan.
+
+========================================================================
+TOTAL PROPOSAL: 15
+Database tidak diubah.
+Integritas akhir: ok

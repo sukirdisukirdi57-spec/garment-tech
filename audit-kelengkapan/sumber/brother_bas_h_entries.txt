@@ -1,0 +1,290 @@
+1627-                                        
+1628-                                        
+1629-                                        
+1630-                                        
+1631-                                        
+1632-                                        
+1633-                                        
+1634-                                        <div class="catalog">
+1635-                                            <div class="catalog-details">
+1636-                                                <h3 class="catalog-title">
+1637:                                                    BAS-H series LCD Panel / Operation Panel Instruction Manual
+1638-                                                    <div class="pdf-download">
+1639-                                                        
+1640-                                                        
+1641-                                                        <span class="catalog-link-type-pdf-icon"></span>                    
+1642-                                                        <a href="https://industrialsewingmachine.global.brother/-/media/ap2/ism/pdf/manual-download/bash_panel.pdf?rev=-1" rel="noopener noreferrer" target="_blank"
+1643-                                                            class="pdf" tabindex="0">
+1644-                                                            PDF Download (1.1MB)
+1645-                                                        </a>
+1646-                                                    </div>
+1647-                                                </h3>
+1648-                                                <ul>
+1649-                                                    
+1650:                                                                <li>NEXIO BAS-311HN</li>
+1651-                                                                
+1652:                                                                <li>NEXIO BAS-326H</li>
+1653-                                                                
+1654:                                                                <li>NEXIO BAS-326H-484  NEXIO BAS-326H-484SF</li>
+1655-                                                                
+1656-                                                                <li>NEXIO BAS-341H</li>
+1657-                                                                
+1658-                                                                <li>NEXIO BAS-342H</li>
+1659-                                                                
+1660-                                                                <li>NEXIO BAS-360H</li>
+1661-                                                                
+1662-                                                                <li>NEXIO BAS-365H</li>
+1663-                                                                
+1664-                                                                <li>NEXIO BAS-370H</li>
+1665-                                                                
+1666-                                                                <li>NEXIO BAS-375H</li>
+1667-                                                                
+1668-                                                </ul>
+1669-                                            </div>
+1670-                                        </div>
+1671-                                        
+1672-                                        
+1673-                                        
+1674-                                        
+1675-                                        <div class="catalog">
+1676-                                            <div class="catalog-details">
+1677-                                                <h3 class="catalog-title">
+1678:                                                    BAS-H series Programmer Instruction Manual
+1679-                                                    <div class="pdf-download">
+1680-                                                        
+1681-                                                        
+1682-                                                        <span class="catalog-link-type-pdf-icon"></span>                    
+1683-                                                        <a href="https://industrialsewingmachine.global.brother/-/media/ap2/ism/pdf/manual-download/bash_programmer.pdf?rev=-1" rel="noopener noreferrer" target="_blank"
+1684-                                                            class="pdf" tabindex="0">
+1685-                                                            PDF Download (3.7MB)
+1686-                                                        </a>
+1687-                                                    </div>
+1688-                                                </h3>
+1689-                                                <ul>
+1690-                                                    
+1691:                                                                <li>NEXIO BAS-311HN</li>
+1692-                                                                
+1693:                                                                <li>NEXIO BAS-326H</li>
+1694-                                                                
+1695:                                                                <li>NEXIO BAS-326H-484  NEXIO BAS-326H-484SF</li>
+1696-                                                                
+1697-                                                                <li>NEXIO BAS-341H</li>
+1698-                                                                
+1699-                                                                <li>NEXIO BAS-342H</li>
+1700-                                                                
+1701-                                                                <li>NEXIO BAS-360H</li>
+1702-                                                                
+1703-                                                                <li>NEXIO BAS-365H</li>
+1704-                                                                
+1705-                                                                <li>NEXIO BAS-370H</li>
+1706-                                                                
+1707-                                                                <li>NEXIO BAS-375H</li>
+1708-                                                                
+1709-                                                </ul>
+1710-                                            </div>
+1711-                                        </div>
+1712-                                        
+1713-                                        
+--
+1834-                                                </ul>
+1835-                                            </div>
+1836-                                        </div>
+1837-                                        
+1838-                                        
+1839-                                        
+1840-                                        
+1841-                                        <div class="catalog">
+1842-                                            <div class="catalog-details">
+1843-                                                <h3 class="catalog-title">
+1844:                                                    BAS-326H-484/484SF Instruction Manual
+1845-                                                    <div class="pdf-download">
+1846-                                                        
+1847-                                                        
+1848-                                                        <span class="catalog-link-type-pdf-icon"></span>                    
+1849-                                                        <a href="https://industrialsewingmachine.global.brother/-/media/ap2/ism/pdf/manual-download/bas326h484_inst_en.pdf?rev=-1" rel="noopener noreferrer" target="_blank"
+1850-                                                            class="pdf" tabindex="0">
+1851-                                                            PDF Download (2.2MB)
+1852-                                                        </a>
+1853-                                                    </div>
+1854-                                                </h3>
+1855-                                                <ul>
+1856-                                                    
+1857:                                                                <li>NEXIO BAS-326H-484  NEXIO BAS-326H-484SF</li>
+1858-                                                                
+1859-                                                </ul>
+1860-                                            </div>
+1861-                                        </div>
+1862-                                        
+1863-                                        
+1864-                                        
+1865-                                        
+1866-                                        <div class="catalog">
+1867-                                            <div class="catalog-details">
+1868-                                                <h3 class="catalog-title">
+1869-                                                    BAS-341H/BAS-342H Instruction Manual
+1870-                                                    <div class="pdf-download">
+1871-                                                        
+1872-                                                        
+1873-                                                        <span class="catalog-link-type-pdf-icon"></span>                    
+1874-                                                        <a href="https://industrialsewingmachine.global.brother/-/media/ap2/ism/pdf/manual-download/bas341h_342h_in.pdf?rev=-1" rel="noopener noreferrer" target="_blank"
+1875-                                                            class="pdf" tabindex="0">
+--
+1967-                                                </ul>
+1968-                                            </div>
+1969-                                        </div>
+1970-                                        
+1971-                                        
+1972-                                        
+1973-                                        
+1974-                                        <div class="catalog">
+1975-                                            <div class="catalog-details">
+1976-                                                <h3 class="catalog-title">
+1977:                                                    BAS-311HN/BAS-326H Instruction Manual
+1978-                                                    <div class="pdf-download">
+1979-                                                        
+1980-                                                        
+1981-                                                        <span class="catalog-link-type-pdf-icon"></span>                    
+1982-                                                        <a href="https://industrialsewingmachine.global.brother/-/media/ap2/ism/pdf/manual-download/bas311hn_326h_in.pdf?rev=-1" rel="noopener noreferrer" target="_blank"
+1983-                                                            class="pdf" tabindex="0">
+1984-                                                            PDF Download (2.3MB)
+1985-                                                        </a>
+1986-                                                    </div>
+1987-                                                </h3>
+1988-                                                <ul>
+1989-                                                    
+1990:                                                                <li>NEXIO BAS-311HN</li>
+1991-                                                                
+1992:                                                                <li>NEXIO BAS-326H</li>
+1993-                                                                
+1994-                                                </ul>
+1995-                                            </div>
+1996-                                        </div>
+1997-                                        
+1998-                                        
+1999-                                        
+2000-                                        
+2001-                                        <div class="catalog">
+2002-                                            <div class="catalog-details">
+2003-                                                <h3 class="catalog-title">
+2004:                                                    BAS-H series LCD Panel / Operation Panel Instruction Manual
+2005-                                                    <div class="pdf-download">
+2006-                                                        
+2007-                                                        
+2008-                                                        <span class="catalog-link-type-pdf-icon"></span>                    
+2009-                                                        <a href="https://industrialsewingmachine.global.brother/-/media/ap2/ism/pdf/manual-download/bash_panel.pdf?rev=-1" rel="noopener noreferrer" target="_blank"
+2010-                                                            class="pdf" tabindex="0">
+2011-                                                            PDF Download (1.1MB)
+2012-                                                        </a>
+2013-                                                    </div>
+2014-                                                </h3>
+2015-                                                <ul>
+2016-                                                    
+2017-                                                                <li>NEXIO BAS-311H</li>
+2018-                                                                
+2019:                                                                <li>NEXIO BAS-311HX</li>
+2020-                                                                
+2021:                                                                <li>NEXIO BAS-311HN</li>
+2022-                                                                
+2023:                                                                <li>NEXIO BAS-326H</li>
+2024-                                                                
+2025:                                                                <li>NEXIO BAS-326H-484  NEXIO BAS-326H-484SF</li>
+2026-                                                                
+2027-                                                                <li>NEXIO BAS-341H</li>
+2028-                                                                
+2029-                                                                <li>NEXIO BAS-342H</li>
+2030-                                                                
+2031-                                                                <li>NEXIO BAS-360H</li>
+2032-                                                                
+2033-                                                                <li>NEXIO BAS-365H</li>
+2034-                                                                
+2035-                                                                <li>NEXIO BAS-370H</li>
+2036-                                                                
+2037-                                                                <li>NEXIO BAS-375H</li>
+2038-                                                                
+2039-                                                </ul>
+2040-                                            </div>
+2041-                                        </div>
+2042-                                        
+2043-                                        
+2044-                                        
+2045-                                        
+2046-                                        <div class="catalog">
+2047-                                            <div class="catalog-details">
+2048-                                                <h3 class="catalog-title">
+2049:                                                    BAS-H series Programmer Instruction Manual
+2050-                                                    <div class="pdf-download">
+2051-                                                        
+2052-                                                        
+2053-                                                        <span class="catalog-link-type-pdf-icon"></span>                    
+2054-                                                        <a href="https://industrialsewingmachine.global.brother/-/media/ap2/ism/pdf/manual-download/bash_programmer.pdf?rev=-1" rel="noopener noreferrer" target="_blank"
+2055-                                                            class="pdf" tabindex="0">
+2056-                                                            PDF Download (3.7MB)
+2057-                                                        </a>
+2058-                                                    </div>
+2059-                                                </h3>
+2060-                                                <ul>
+2061-                                                    
+2062:                                                                <li>NEXIO BAS-311HN</li>
+2063-                                                                
+2064:                                                                <li>NEXIO BAS-326H</li>
+2065-                                                                
+2066:                                                                <li>NEXIO BAS-326H-484  NEXIO BAS-326H-484SF</li>
+2067-                                                                
+2068-                                                                <li>NEXIO BAS-341H</li>
+2069-                                                                
+2070-                                                                <li>NEXIO BAS-342H</li>
+2071-                                                                
+2072-                                                                <li>NEXIO BAS-360H</li>
+2073-                                                                
+2074-                                                                <li>NEXIO BAS-365H</li>
+2075-                                                                
+2076-                                                                <li>NEXIO BAS-370H</li>
+2077-                                                                
+2078-                                                                <li>NEXIO BAS-375H</li>
+2079-                                                                
+2080-                                                </ul>
+2081-                                            </div>
+2082-                                        </div>
+2083-                                        
+2084-                                        
+2085-                                        
+2086-                                        
+2087-                                        <div class="catalog">
+2088-                                            <div class="catalog-details">
+2089-                                                <h3 class="catalog-title">
+2090:                                                    BAS-H series SEW-DEFECT DETECTION DEVICE Instruction Manual
+2091-                                                    <div class="pdf-download">
+2092-                                                        
+2093-                                                        
+2094-                                                        <span class="catalog-link-type-pdf-icon"></span>                    
+2095-                                                        <a href="https://industrialsewingmachine.global.brother/-/media/ap2/ism/pdf/manual-download/bas-h-series_inst_sew-defect_detection_device_2026_06_new2.pdf?rev=687604a3bf9a4fd5a0246a0b1f062656" rel="noopener noreferrer" target="_blank"
+2096-                                                            class="pdf" tabindex="0">
+2097-                                                            PDF Download (7.2MB)
+2098-                                                        </a>
+2099-                                                    </div>
+2100-                                                </h3>
+2101-                                                <ul>
+2102-                                                    
+2103-                                                                <li>NEXIO BAS-311H</li>
+2104-                                                                
+2105:                                                                <li>NEXIO BAS-326H</li>
+2106-                                                                
+2107:                                                                <li>NEXIO BAS-326H-484  NEXIO BAS-326H-484SF</li>
+2108-                                                                
+2109-                                                                <li>NEXIO BAS-341H</li>
+2110-                                                                
+2111-                                                                <li>NEXIO BAS-342H</li>
+2112-                                                                
+2113-                                                                <li>NEXIO BAS-360H</li>
+2114-                                                                
+2115-                                                                <li>NEXIO BAS-365H</li>
+2116-                                                                
+2117-                                                                <li>NEXIO BAS-370H</li>
+2118-                                                                
+2119-                                                                <li>NEXIO BAS-375H</li>
+2120-                                                                
+2121-                                                </ul>
+2122-                                            </div>
+2123-                                        </div>
+2124-                                        
+2125-                                        

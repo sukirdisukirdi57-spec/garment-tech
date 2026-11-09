@@ -1,0 +1,203 @@
+DATABASE: /data/data/com.termux/files/home/garment-tech/database/garment.db
+MODE: SIMULASI FINAL — READ ONLY
+Integritas awal: ok
+
+============================================================================
+E256 | ID 1279 | Benang sering putus
+- SIMULASI KOLOM LAMA
+symptoms      : Putusnya benang terjadi berulang saat mesin dijalankan.
+possible_cause: Tegangan benang tidak seimbang, jalur benang kotor, jarum atau looper aus.
+solution      : Periksa jalur benang, bersihkan area kerja, periksa kondisi jarum dan looper, lalu lakukan penyetelan sesuai manual.
+safety_notes  : Matikan mesin sebelum memeriksa jalur benang, jarum, looper, atau melakukan penyetelan.
+- USULAN KOLOM BARU
+symptoms      : Putusnya benang terjadi berulang saat mesin dijalankan.
+possible_cause: Tegangan benang tidak seimbang, jalur benang kotor, atau jarum dan looper mengalami keausan.
+solution      : Periksa jalur benang, bersihkan area kerja, periksa kondisi jarum dan looper, lalu lakukan penyetelan sesuai manual.
+safety_notes  : Matikan mesin sebelum memeriksa jalur benang, jarum, looper, atau melakukan penyetelan.
+
+============================================================================
+E256 | ID 1280 | Jahitan loncat
+- SIMULASI KOLOM LAMA
+symptoms      : Sebagian jahitan tidak terbentuk dengan sempurna.
+possible_cause: Jarum tidak sesuai, jarum bengkok, pemasangan jarum kurang tepat, atau sinkronisasi jarum dan looper tidak tepat.
+solution      : Ganti atau pasang jarum dengan benar dan periksa hubungan kerja jarum dengan looper.
+safety_notes  : Matikan mesin dan lepaskan sumber tenaga sebelum memeriksa jarum, looper, atau sinkronisasi mekanisme.
+- USULAN KOLOM BARU
+symptoms      : Sebagian jahitan tidak terbentuk dengan sempurna.
+possible_cause: Jarum tidak sesuai, pemasangan jarum kurang tepat, atau sinkronisasi jarum dan looper tidak tepat.
+solution      : Periksa ukuran dan pemasangan jarum serta hubungan kerja jarum dengan looper sesuai manual.
+safety_notes  : Matikan mesin dan lepaskan sumber tenaga sebelum memeriksa jarum, looper, atau sinkronisasi mekanisme.
+
+============================================================================
+E256 | ID 1281 | Jahitan tidak rapi atau tidak stabil
+- SIMULASI KOLOM LAMA
+symptoms      : Kerapatan dan bentuk jahitan berubah-ubah selama proses menjahit.
+possible_cause: Ketegangan benang tidak seimbang, komponen pembentuk jahitan kotor, atau penyetelan mesin berubah.
+solution      : Bersihkan area pembentukan jahitan dan periksa kembali jalur serta ketegangan benang sesuai manual. Lakukan penyetelan secara bertahap.
+safety_notes  : Matikan mesin sebelum membersihkan area pembentukan jahitan atau melakukan penyetelan. Jangan menyentuh bagian bergerak saat mesin beroperasi.
+- USULAN KOLOM BARU
+symptoms      : Kerapatan dan bentuk jahitan berubah-ubah selama proses menjahit.
+possible_cause: Ketegangan benang tidak seimbang, area pembentukan jahitan kotor, atau penyetelan mesin berubah.
+solution      : Bersihkan area pembentukan jahitan dan periksa kembali jalur serta ketegangan benang sesuai manual.
+safety_notes  : Matikan mesin sebelum membersihkan area pembentukan jahitan atau melakukan penyetelan. Jangan menyentuh bagian bergerak saat mesin beroperasi.
+
+============================================================================
+E256 | ID 1282 | Kain mengerut
+- SIMULASI KOLOM LAMA
+symptoms      : Permukaan kain berkerut atau tertarik setelah proses menjahit.
+possible_cause: Perbedaan tarikan benang, tekanan sepatu, atau mekanisme feed yang tidak sesuai dengan material.
+solution      : Periksa keseimbangan tegangan benang dan kondisi mekanisme feed, kemudian sesuaikan dengan jenis kain.
+safety_notes  : Matikan mesin sebelum melakukan penyetelan pada tegangan benang, tekanan sepatu, atau mekanisme feed.
+- USULAN KOLOM BARU
+symptoms      : Permukaan kain berkerut atau tertarik setelah proses menjahit.
+possible_cause: Tarikan benang tidak seimbang, tekanan sepatu tidak sesuai, atau mekanisme feed tidak sesuai material.
+solution      : Periksa keseimbangan tegangan benang, tekanan sepatu, dan mekanisme feed sesuai jenis kain.
+safety_notes  : Matikan mesin sebelum melakukan penyetelan pada tegangan benang, tekanan sepatu, atau mekanisme feed.
+
+============================================================================
+E256 | ID 1283 | Kain tidak terumpan dengan stabil
+- SIMULASI KOLOM LAMA
+symptoms      : Kain bergerak tidak stabil atau laju pengumpanan tidak konsisten.
+possible_cause: Feed dog, sepatu, atau area pengumpanan kotor atau mengalami keausan.
+solution      : Bersihkan area feed dan periksa kondisi feed dog serta sepatu. Ganti komponen yang aus bila diperlukan.
+safety_notes  : Matikan mesin sebelum membersihkan atau memeriksa feed dog, sepatu, dan mekanisme pengumpanan.
+- USULAN KOLOM BARU
+symptoms      : Kain bergerak tidak stabil atau laju pengumpanan tidak konsisten.
+possible_cause: Feed dog, sepatu, atau area pengumpanan kotor atau mengalami keausan.
+solution      : Bersihkan area feed dan periksa kondisi feed dog serta sepatu. Ganti komponen yang aus bila diperlukan.
+safety_notes  : Matikan mesin sebelum membersihkan atau memeriksa feed dog, sepatu, dan mekanisme pengumpanan.
+
+============================================================================
+EX5400 | ID 1284 | Benang sering putus
+- SIMULASI KOLOM LAMA
+symptoms      : Putusnya benang terjadi berulang saat mesin dijalankan.
+possible_cause: Tegangan benang tidak seimbang, jalur benang kotor, jarum atau looper aus.
+solution      : Periksa jalur benang, bersihkan area kerja, periksa kondisi jarum dan looper, lalu lakukan penyetelan sesuai manual.
+safety_notes  : Matikan mesin sebelum memeriksa jalur benang, jarum, looper, atau melakukan penyetelan.
+- USULAN KOLOM BARU
+symptoms      : Putusnya benang terjadi berulang saat mesin dijalankan.
+possible_cause: Tegangan benang tidak seimbang, jalur benang kotor, atau jarum dan looper mengalami keausan.
+solution      : Periksa jalur benang, bersihkan area kerja, periksa kondisi jarum dan looper, lalu lakukan penyetelan sesuai manual.
+safety_notes  : Matikan mesin sebelum memeriksa jalur benang, jarum, looper, atau melakukan penyetelan.
+
+============================================================================
+EX5400 | ID 1285 | Jahitan loncat
+- SIMULASI KOLOM LAMA
+symptoms      : Sebagian jahitan tidak terbentuk dengan sempurna.
+possible_cause: Jarum tidak sesuai, jarum bengkok, pemasangan jarum kurang tepat, atau sinkronisasi jarum dan looper tidak tepat.
+solution      : Ganti atau pasang jarum dengan benar dan periksa hubungan kerja jarum dengan looper.
+safety_notes  : Matikan mesin dan lepaskan sumber tenaga sebelum memeriksa jarum, looper, atau sinkronisasi mekanisme.
+- USULAN KOLOM BARU
+symptoms      : Sebagian jahitan tidak terbentuk dengan sempurna.
+possible_cause: Jarum tidak sesuai, pemasangan jarum kurang tepat, atau sinkronisasi jarum dan looper tidak tepat.
+solution      : Periksa ukuran dan pemasangan jarum serta hubungan kerja jarum dengan looper sesuai manual.
+safety_notes  : Matikan mesin dan lepaskan sumber tenaga sebelum memeriksa jarum, looper, atau sinkronisasi mekanisme.
+
+============================================================================
+EX5400 | ID 1286 | Jahitan tidak rapi atau tidak stabil
+- SIMULASI KOLOM LAMA
+symptoms      : Kerapatan dan bentuk jahitan berubah-ubah selama proses menjahit.
+possible_cause: Ketegangan benang tidak seimbang, komponen pembentuk jahitan kotor, atau penyetelan mesin berubah.
+solution      : Bersihkan area pembentukan jahitan dan periksa kembali jalur serta ketegangan benang sesuai manual. Lakukan penyetelan secara bertahap.
+safety_notes  : Matikan mesin sebelum membersihkan area pembentukan jahitan atau melakukan penyetelan. Jangan menyentuh bagian bergerak saat mesin beroperasi.
+- USULAN KOLOM BARU
+symptoms      : Kerapatan dan bentuk jahitan berubah-ubah selama proses menjahit.
+possible_cause: Ketegangan benang tidak seimbang, area pembentukan jahitan kotor, atau penyetelan mesin berubah.
+solution      : Bersihkan area pembentukan jahitan dan periksa kembali jalur serta ketegangan benang sesuai manual.
+safety_notes  : Matikan mesin sebelum membersihkan area pembentukan jahitan atau melakukan penyetelan. Jangan menyentuh bagian bergerak saat mesin beroperasi.
+
+============================================================================
+EX5400 | ID 1287 | Kain mengerut
+- SIMULASI KOLOM LAMA
+symptoms      : Permukaan kain berkerut atau tertarik setelah proses menjahit.
+possible_cause: Perbedaan tarikan benang, tekanan sepatu, atau mekanisme feed yang tidak sesuai dengan material.
+solution      : Periksa keseimbangan tegangan benang dan kondisi mekanisme feed, kemudian sesuaikan dengan jenis kain.
+safety_notes  : Matikan mesin sebelum melakukan penyetelan pada tegangan benang, tekanan sepatu, atau mekanisme feed.
+- USULAN KOLOM BARU
+symptoms      : Permukaan kain berkerut atau tertarik setelah proses menjahit.
+possible_cause: Tarikan benang tidak seimbang, tekanan sepatu tidak sesuai, atau mekanisme feed tidak sesuai material.
+solution      : Periksa keseimbangan tegangan benang, tekanan sepatu, dan mekanisme feed sesuai jenis kain.
+safety_notes  : Matikan mesin sebelum melakukan penyetelan pada tegangan benang, tekanan sepatu, atau mekanisme feed.
+
+============================================================================
+EX5400 | ID 1288 | Kain tidak terumpan dengan stabil
+- SIMULASI KOLOM LAMA
+symptoms      : Kain bergerak tidak stabil atau laju pengumpanan tidak konsisten.
+possible_cause: Feed dog, sepatu, atau area pengumpanan kotor atau mengalami keausan.
+solution      : Bersihkan area feed dan periksa kondisi feed dog serta sepatu. Ganti komponen yang aus bila diperlukan.
+safety_notes  : Matikan mesin sebelum membersihkan atau memeriksa feed dog, sepatu, dan mekanisme pengumpanan.
+- USULAN KOLOM BARU
+symptoms      : Kain bergerak tidak stabil atau laju pengumpanan tidak konsisten.
+possible_cause: Feed dog, sepatu, atau area pengumpanan kotor atau mengalami keausan.
+solution      : Bersihkan area feed dan periksa kondisi feed dog serta sepatu. Ganti komponen yang aus bila diperlukan.
+safety_notes  : Matikan mesin sebelum membersihkan atau memeriksa feed dog, sepatu, dan mekanisme pengumpanan.
+
+============================================================================
+TML326 | ID 1289 | Benang sering putus
+- SIMULASI KOLOM LAMA
+symptoms      : Putusnya benang terjadi berulang saat mesin dijalankan.
+possible_cause: Tegangan benang tidak seimbang, jalur benang kotor, jarum atau looper aus.
+solution      : Periksa jalur benang, bersihkan area kerja, periksa kondisi jarum dan looper, lalu lakukan penyetelan sesuai manual.
+safety_notes  : Matikan mesin sebelum memeriksa jalur benang, jarum, looper, atau melakukan penyetelan.
+- USULAN KOLOM BARU
+symptoms      : Putusnya benang terjadi berulang saat mesin dijalankan.
+possible_cause: Tegangan benang tidak seimbang, jalur benang kotor, atau jarum dan looper mengalami keausan.
+solution      : Periksa jalur benang, bersihkan area kerja, periksa kondisi jarum dan looper, lalu lakukan penyetelan sesuai manual.
+safety_notes  : Matikan mesin sebelum memeriksa jalur benang, jarum, looper, atau melakukan penyetelan.
+
+============================================================================
+TML326 | ID 1290 | Jahitan loncat
+- SIMULASI KOLOM LAMA
+symptoms      : Sebagian jahitan tidak terbentuk dengan sempurna.
+possible_cause: Jarum tidak sesuai, jarum bengkok, pemasangan jarum kurang tepat, atau sinkronisasi jarum dan looper tidak tepat.
+solution      : Ganti atau pasang jarum dengan benar dan periksa hubungan kerja jarum dengan looper.
+safety_notes  : Matikan mesin dan lepaskan sumber tenaga sebelum memeriksa jarum, looper, atau sinkronisasi mekanisme.
+- USULAN KOLOM BARU
+symptoms      : Sebagian jahitan tidak terbentuk dengan sempurna.
+possible_cause: Jarum tidak sesuai, pemasangan jarum kurang tepat, atau sinkronisasi jarum dan looper tidak tepat.
+solution      : Periksa ukuran dan pemasangan jarum serta hubungan kerja jarum dengan looper sesuai manual.
+safety_notes  : Matikan mesin dan lepaskan sumber tenaga sebelum memeriksa jarum, looper, atau sinkronisasi mekanisme.
+
+============================================================================
+TML326 | ID 1291 | Jahitan tidak rapi atau tidak stabil
+- SIMULASI KOLOM LAMA
+symptoms      : Kerapatan dan bentuk jahitan berubah-ubah selama proses menjahit.
+possible_cause: Ketegangan benang tidak seimbang, komponen pembentuk jahitan kotor, atau penyetelan mesin berubah.
+solution      : Bersihkan area pembentukan jahitan dan periksa kembali jalur serta ketegangan benang sesuai manual. Lakukan penyetelan secara bertahap.
+safety_notes  : Matikan mesin sebelum membersihkan area pembentukan jahitan atau melakukan penyetelan. Jangan menyentuh bagian bergerak saat mesin beroperasi.
+- USULAN KOLOM BARU
+symptoms      : Kerapatan dan bentuk jahitan berubah-ubah selama proses menjahit.
+possible_cause: Ketegangan benang tidak seimbang, area pembentukan jahitan kotor, atau penyetelan mesin berubah.
+solution      : Bersihkan area pembentukan jahitan dan periksa kembali jalur serta ketegangan benang sesuai manual.
+safety_notes  : Matikan mesin sebelum membersihkan area pembentukan jahitan atau melakukan penyetelan. Jangan menyentuh bagian bergerak saat mesin beroperasi.
+
+============================================================================
+TML326 | ID 1292 | Kain mengerut
+- SIMULASI KOLOM LAMA
+symptoms      : Permukaan kain berkerut atau tertarik setelah proses menjahit.
+possible_cause: Perbedaan tarikan benang, tekanan sepatu, atau mekanisme feed yang tidak sesuai dengan material.
+solution      : Periksa keseimbangan tegangan benang dan kondisi mekanisme feed, kemudian sesuaikan dengan jenis kain.
+safety_notes  : Matikan mesin sebelum melakukan penyetelan pada tegangan benang, tekanan sepatu, atau mekanisme feed.
+- USULAN KOLOM BARU
+symptoms      : Permukaan kain berkerut atau tertarik setelah proses menjahit.
+possible_cause: Tarikan benang tidak seimbang, tekanan sepatu tidak sesuai, atau mekanisme feed tidak sesuai material.
+solution      : Periksa keseimbangan tegangan benang, tekanan sepatu, dan mekanisme feed sesuai jenis kain.
+safety_notes  : Matikan mesin sebelum melakukan penyetelan pada tegangan benang, tekanan sepatu, atau mekanisme feed.
+
+============================================================================
+TML326 | ID 1293 | Kain tidak terumpan dengan stabil
+- SIMULASI KOLOM LAMA
+symptoms      : Kain bergerak tidak stabil atau laju pengumpanan tidak konsisten.
+possible_cause: Feed dog, sepatu, atau area pengumpanan kotor atau mengalami keausan.
+solution      : Bersihkan area feed dan periksa kondisi feed dog serta sepatu. Ganti komponen yang aus bila diperlukan.
+safety_notes  : Matikan mesin sebelum membersihkan atau memeriksa feed dog, sepatu, dan mekanisme pengumpanan.
+- USULAN KOLOM BARU
+symptoms      : Kain bergerak tidak stabil atau laju pengumpanan tidak konsisten.
+possible_cause: Feed dog, sepatu, atau area pengumpanan kotor atau mengalami keausan.
+solution      : Bersihkan area feed dan periksa kondisi feed dog serta sepatu. Ganti komponen yang aus bila diperlukan.
+safety_notes  : Matikan mesin sebelum membersihkan atau memeriksa feed dog, sepatu, dan mekanisme pengumpanan.
+
+============================================================================
+TOTAL PROPOSAL: 15
+Database tidak diubah; koneksi menggunakan mode read-only.
+Integritas akhir: ok

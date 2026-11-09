@@ -1,0 +1,2155 @@
+DDL-9000C-S
+ PARTS LIST
+
+
+
+
+              No.1689-01
+HOW TO MAKE USE OF THIS PARTS LIST
+
+1.Explanation of codes
+ 1)"*"mark............means this part is changed from the previous parts book.
+                  As to the details of the change,refer to "List for information of change".
+ 2)"#01".................refer to "Note" explanation at bottom of page.
+2.Codes on the "Qty" column
+  ・ Each numeral indicates the number of parts required.
+  ・ "0.1" and "2.5" indicate the length (in meters) of the respective parts.
+3.Parentheses mean that the corresponding part is a subpart that constructs an assembly part.
+4.Dotted lines on the Figures indicate assembly parts.
+5.As to the parts with marks of " ☆ "(consumable parts) and " ◎ "(optional parts)on the respective parts,
+ it is recommended to prepare spares.
+
+
+   Sign        Place of destination
+
+   GG          China
+
+   BB          Europe
+
+   EE          Japan
+
+   AA          excludes China, Europe and Japan
+
+
+
+
+パーツ リ ス ト ご利用に際 し て
+１ ." 注記 " 欄の記号説明
+     １ ） " ＊ " 印 ......... 前回のパーツ ブ ッ ク に比較 し て今回変更 さ れた部品を意味 し ます。
+                          変更内容は " 変更情報 リ ス ト " を参照 し て く だ さ い。
+     ２ ） "#01"................ ページ下の " 注記 " の説明を参照 し て く だ さ い。
+２ . 数量欄の数字は、 個数を表 し 、 0.1、 2.5 等の数値は、 長 さ （単位 メ ー ト ル） を表 し ます。
+３ . 数量欄の （         ） は、 組部品を構成 し ている子部品である こ と を意味 し ます。
+４ . イ ラ ス ト ページの－－－－－枠は、 組構成である こ と を意味 し ます。
+５ . リ ス ト ページの " ☆ " （消耗部品）、 " ◎ " （オプ シ ョ ン部品） の印がついた部品は、
+    予備を準備 し てお く こ と をお奨め し ます。
+
+
+   記号         仕向地
+
+   ＧＧ         中国
+
+   ＢＢ          ヨ ーロ ッ パ
+
+   ＥＥ         日本
+
+   ＡＡ         中国、 ヨ ーロ ッ パ、 日本を除 く
+                                                                  CONTENTS
+
+
+
+1. MACHINE FRAME & MISCELLANEOUS COVER COMPONENTS................................................................................... 1
+
+
+2. BOBBIN WINDER COMPONENTS .................................................................................................................................... 3
+
+
+3. MAIN SHAFT & NEEDLE BAR COMPONENTS................................................................................................................. 5
+
+
+4. HAND LIFTER & TENSION RELEASE COMPONENTS .................................................................................................... 7
+
+
+5. FEED ADJUST MECHANISM COMPONENTS .................................................................................................................. 9
+
+
+6. VERTICAL FEED COMPONENTS ................................................................................................................................... 11
+
+
+7. HOOK DRIVING COMPONENTS ..................................................................................................................................... 13
+
+
+8. THREAD TRIMMER COMPONENTS ............................................................................................................................... 15
+
+
+9. OIL LUBRICATION COMPONENTS................................................................................................................................. 17
+
+
+10. AUTOMATIC REVERSE FEED COMPONENTS............................................................................................................ 19
+
+
+11. OPERATION PANEL COMPONENTS............................................................................................................................ 20
+
+
+12. THREAD STAND COMPONENTS.................................................................................................................................. 21
+
+
+13. UNDER COVER COMPONENTS ................................................................................................................................... 22
+
+
+14. ACCESSORIE PART COMPONENTS ........................................................................................................................... 23
+
+
+15. EXCLUSIVE PARTS DDL-9000C-SSH........................................................................................................................... 24
+
+
+16. TABLE & STAND COMPONENTS.................................................................................................................................. 25
+
+
+17. SPECIAL ORDER PARTS .............................................................................................................................................. 27
+
+
+18. LIST FOR INFORMATION OF CHANGE........................................................................................................................ 28
+
+
+
+  NUMERICAL INDEX OF PARTS........................................................................................................................................ 29
+1. MACHINE FRAME & MISCELLANEOUS COVER COMPONENTS
+
+
+                                                                    2
+                                                               9
+
+                     35    36                                                                              53        54
+                                                         1                                                                      14             15
+
+
+                                                                                                           52
+
+
+
+                     13
+
+                     12
+
+
+      74                                  40                  57
+                73
+
+
+                                41
+                                                                                                               11
+                                                                                                                                               39
+                          42
+                                                                                               26
+                                                                                                                               37
+                                                         27
+                           A
+                                                                                                                                     38
+                                                                        78
+                                                                             70
+                                56
+                                                             7
+                                                             17
+                                     51                        16            55
+           24                                       49
+                     25                    50                                                   28
+                                                                                                                                23
+                     75   76                                                                                              22
+
+ 31   32                             77
+                                                                                                                          46         43
+
+                                                                                                67                             44
+                                                                                                                                    48
+                 33                  20                                                                                                  45
+                                                                                                                                              47
+      34                                                                 18                59
+                                                                                                64                  65    69
+                                                                                                     60
+      29    30
+                                                                                  4                       63
+                                                                    19                     A                    66
+                                           21                                                        58    68             62
+                                                              3                                                                61
+
+
+                                                    10
+                                                5
+                                                                             8
+
+
+
+
+                                                                                 71
+                                                    6                                 72
+                                                             10
+
+
+
+
+                                                                             -        -
+REF.NO     NOTE   PART NO         DESCRIPTION                          Qty
+
+   1              401-72362       SIDE_PLATE                            1
+   2              SM-4050855-SP   SCREW                                 6
+   3              401-72371       FACE_COVER                            1
+   4              401-72373       FACE_COVER_PACKING                    1
+   5              401-72374       FACE_COVER_PLATE                      1
+   6              TA-1250406-R0   RUBBER PLUG D=12.5 L=4                3
+   7              SM-80608A2-TP   SCREW M6 L=8                          1
+   8              401-74368       FACE_COVER_RUBBER                     1
+   9       #02    SM-4051255-SP   SCREW M5 L=12                         6
+  10              SM-4041455-SN   SCREW M4 L=14                         3
+  11              401-72375       EMBLEM_JUKI_SMART_SOLUTIONS           1
+  12              401-72376       THREAD_TAKE_UP_COVER                  1
+  13              SM-4051055-SP   SCREW                                 1
+  14              401-72366       PULLEY_COVER                          1
+  15              SL-6051492-TN   BOLT                                  4
+  16              400-35589       RULER PLATE                           1
+  17              SM-4040855-SP   SCREW                                 1
+  18              401-72391       BED_BRACKET_A                         1
+  19              SM-6060802-TP   SCREW M6 L=8                          2
+  20              401-74305       SAFETY_GUIDE                          1
+  21              SM-4050655-SP   SCREW M5 L=6                          2
+  22              401-72392       BED_BRACKET_B                         1
+  23              SM-6060802-TP   SCREW M6 L=8                          2
+  24              SM-2040955-TP   SCREW M4 L=8.5                        1
+  25              SM-2040750-TP   SCREW M4 L=7.4                        1
+  26              401-02261       SAFETY_LABEL_S                        1
+  27              CM-3002000-01   FINGER INJURY CAUTION LABLE (16)      1
+  28              CM-3002000-03   FINGER INJURY CAUTION LABLE (31.5)    1
+  29              401-72369       SLIDE_PLATE_B_ASM                     1
+  30       #03    401-72367       SLIDE_PLATE_A_ASM                     1
+  31              401-72370       SLIDE_PLATE_B                        (1)
+  32              401-72368       SLIDE_PLATE_A                        (1)
+  33              229-01300       SLIDE PLATE SPRING                   (1)
+  34              SS-6060210-SP   SCREW 3/32-56 L=1.9                  (2)
+  35              KX-0000002-30   RELEASIBLE CABLE TIE                  1
+  36              EA-9500B01-00   CABLE BAND                            7
+  37              401-72390       INT PCB ASSY                          1
+  38              HX-0033900-0E   SPACER                                4
+  39              SL-6040892-TN   BOLT                                  4
+  40              TA-1250406-R0   RUBBER PLUG D=12.5 L=4                2
+  41              TA-1250406-R0   RUBBER PLUG D=12.5 L=4                1
+  42              133-02708       RUBBER_WASHER                         2
+  43              229-63458       THREAD TENSION ASM.                   1
+  44              229-45414       THREAD TENSION POST                  (1)
+  45              229-63409       THREAD TENSION SPRING                (1)
+  46              229-45604       THREAD TENSION GUIDE                 (1)
+  47              229-45703       THREAD TENSION NUT                   (1)
+  48              229-45802       THREAD TENSION DISK                  (2)
+  49       #06    401-74373       THREAD NIPPER SOLENOID                1
+  50       #01    401-74392       ARM_CAP                               1
+  51              SM-8040612-TP   SCREW M4 L=6                          1
+  52              229-01805       GROUND MARK                           1
+  53              401-74385       GROUND WIRE ASM.                      1
+  54              SM-4050655-SP   SCREW M5 L=6                          1
+  55              400-52933       ARM THREAD GUIDE C                    1
+  56              SM-80608A2-TP   SCREW M6 L=8                          1
+  57              SM-80608A2-TP   SCREW M6 L=8                          1
+  58              401-74575       THREAD_TENSION_DISK_ASM.              1
+  59              400-86640       TENSION_POST_SOCKET_ASM.             (1)
+  60              229-21209       THREAD TENSION POST                  (1)
+  61              236-26005       THREAD TENSION NUT                   (1)
+  62              229-21407       ROTATION STOPPER                     (1)
+  63              229-21506       THREAD TENSION DISK                  (2)
+  64   ☆          229-21605       THREAD TAKE-UP SPRING                (1)
+  65              401-12420       THREAD TENSION SPRING M              (1)
+  66              229-21803       DISK STOPPER                         (1)
+  67              SS-8090670-SP   SCREW 9/64-40 L=5.5                  (1)
+  68       #03    400-86639       THREAD_TENSION_DISK_ASM.              1
+  69       #03    229-21704       THREAD TENSION SPRING                (1)
+  70              SM-5040655-SN   SCREW                                 1
+  71              400-09037       TAKE-UP THREAD GUIDE                  1
+  72              SL-4040881-SC   SCREW M4 L=8                          1
+  73              401-72384       AT_COVER                              1
+  74              SL-4041281-SC   SCREW M4X0.7 L=12                     2
+  75       #05    B1109-552-000   THROAT PLATE                          1
+  76       #04    B1109-012-I0B   THROAT PLATE (I)                      1
+  77       #03    110-28008       THROAT PLATE                          1
+  78              236-26104       ARM THREAD GUIDE A                    1
+
+
+
+
+                                                          -     -
+2. BOBBIN WINDER COMPONENTS
+
+
+                    20
+                    23
+
+                                        1
+                17
+
+                                   10
+
+                                            24
+
+                                    2
+
+
+
+                                                                   27
+
+            9           13                                         28
+                         22   16
+                                                                   30
+            6
+                                                         25
+                4                                                  29
+
+
+                    3
+                                   14
+                                                                   26
+                15            11
+                                                         33
+                              8
+                              11                              32
+
+                    5
+                                                                    31
+                18
+                              19
+
+                         7
+                               21
+                         21
+                                   12
+
+
+
+
+                                                 -   -
+REF.NO   NOTE PART NO         DESCRIPTION                      Qty
+
+  1           401-72380       BOBBIN_WINDER_UNIT                1
+  2           401-72381       BTW_BASE                         (1)
+  3           262-60208       BTW_CAM_PLATE                    (1)
+  4           262-60307       BTW_BASE_SHAFT                   (1)
+  5           262-60406       BTW_SHAFT_BASE                   (1)
+  6           262-60505       BTW_CAM_LEVER                    (1)
+  7           262-60604       BTW_WHEEL                        (1)
+  8           262-60802       BTW_BEARING_SPACER               (1)
+  9           401-72383       BTW_LEVER_SHAFT                  (1)
+ 10           262-61206       BTW_SPACER                       (1)
+ 11           262-61305       BTW_BEARING                      (2)
+ 12 ☆         262-61503       BTW_WHEEL_RUBBER                 (1)
+ 13 ☆         262-61602       BOBBIN_SPRING                    (1)
+ 14           262-61701       BTW_SPRING                       (1)
+ 15           400-11144       BTW_TORSION_SPRING               (1)
+ 16           401-72382       BTW_SHAFT                        (1)
+ 17           401-72417       BTW_LEVER                        (1)
+ 18           RC-0560711-KP   C-RING 6(5.6)                    (1)
+ 19           RE-0400000-K0   E-RING 4                         (1)
+ 20           SM-5040655-SN   SCREW                            (1)
+ 21           SM-8040412-TP   SET SCREW M4 L=4                 (2)
+ 22           SM-8050502-TP   SCREW M5 L=5                     (1)
+ 23           WP-0450826-SC   WASHER 4.5X10X0.8                (1)
+ 24           SM-0050801-SC   SCREW                             2
+ 25           400-88958       BOBBIN THREAD TENSION ASM.        1
+ 26           400-88959       BOBBIN THREAD TENSION ROD ASM.   (1)
+ 27           229-21308       THREAD TENSION NUT               (1)
+ 28           229-21407       ROTATION STOPPER                 (1)
+ 29           229-21506       THREAD TENSION DISK              (2)
+ 30           229-21704       THREAD TENSION SPRING            (1)
+ 31           SM-4051055-SP   SCREW                             1
+ 32           400-37008       THREAD_CUTTER                     1
+ 33           SM-0050801-SC   SCREW                             1
+
+
+
+
+                                              -    -
+3. MAIN SHAFT & NEEDLE BAR COMPONENTS
+
+
+                                                      30            39
+                                           37
+                            37                                                     38
+                                                32
+
+                                           33                            40
+                                                          36                                                  24
+
+                            34
+                                           35                                                            26
+
+
+      2
+                                                                               29
+                                                                                              25
+      1                     36
+
+                                                                                                                         26
+
+
+                                                     31                   27
+                   4
+          5
+  3                                                                                                28
+                                                     6
+
+
+                                 41
+          9
+                                                                                                                        23
+
+
+                                                                                                        44
+
+  8   48
+                                                                                             46                               22
+                        7
+                                                                                                                   45        21
+                                                                                        11
+
+                                                                    12
+      47
+                                                               14
+ 42   43
+                                                     10
+
+                                 15
+                                                                     13
+
+               18            16
+
+
+              18
+
+
+                                      19
+
+                   17
+
+
+                                                          20
+
+
+
+
+                                                                               -        -
+REF.NO   NOTE PART NO          DESCRIPTION                  Qty
+
+  1            401-72399       NEEDLE_BAR_BUSHING_UPPER      1
+  2            229-01409       NEEDLE BAR UPPER BUSH CAP     1
+  3            229-06457       NEEDLE BAR HOLDER ASM.        1
+  4            229-06408       NEEDLE ROD HOLDER            (1)
+  5            SS-6090670-TP   SCREW 9/64-40 L=6            (1)
+  6            400-90058       SLIDE BLOCK                   1
+  7 ☆          SS-7080510-TP   SCREW 1/8-44 L=4.5            1
+  8      #02   400-86602       NEEDLE_BAR_D_(A)              1
+  9            400-86605       NEEDLE_BAR_LOWER_METAL_MD     1
+ 10            SB-1200027-00   BEARING                       1
+ 11            SB-1200027-00   BEARING                       1
+ 12            400-44857       FRONT BEARING SUPPORT ASM.    1
+ 13            236-05207       MAIN SHAFT BEARING SUPPORT   (1)
+ 14            SM-80608A2-TP   SCREW M6 L=8                 (2)
+ 15            401-35904       ASSY_COUNTER WEIGHT           1
+ 16            401-35916       COUNTER WEIGHT               (1)
+ 17            400-04171       COUNTER_WEIGHT_SCREW         (1)
+ 18            SM-8081652-TP   SCREW M8 L=16                (1)
+ 19            SM-80606A2-TP   SCREW M6 L=6                 (2)
+ 20            400-86597       MAIN_SHAFT                    1
+ 21            401-72398       COUPLING_ASM.                 1
+ 22            401-72393       COUPLING                     (1)
+ 23            SM-80608A2-TP   SCREW M6 L=8                 (4)
+ 24            401-72418       HAND_WHEEL_ASM.               1
+ 25            401-72377       HAND_WHEEL                   (1)
+ 26            SM-80608A2-TP   SCREW M6 L=8                 (2)
+ 27            401-72146       AC_SERVO_MOTOR                1
+ 28            SL-6052592-TN   BOLT                          3
+ 29            EA-9500B01-00   CABLE BAND                    2
+ 30            401-74341       THREAD_TAKE_UP_COMP.          1
+ 31            401-35905       THREAD_TAKE_UP_ASM._C        (1)
+ 32            401-74342       TAKE_UP_CRANK_ASM.           (1)
+ 33            401-74343       TAKE_UP_CRANK                (1)
+ 34            401-74344       TAKE_UP_CRANK_SHAFT          (1)
+ 35            401-35907       THREAD_TAKE_UP_PIN           (1)
+ 36            RE-0300000-K0   E-RING 3                     (2)
+ 37            SM-80608A2-TP   SCREW M6 L=8                  2
+ 38            400-32269       THRUST COLLAR                 1
+ 39            CS-1000881-TP   THRUST COLLAR                (1)
+ 40            SM-80506A2-TP   SCREW M5 L=6                 (2)
+ 41            401-74349       NEEDLE BAR THREAD GUIDE       1
+ 42 ☆          MDB-100B1100    NEEDLE DBX1 #11               1
+ 43 ☆    #01   MDB-100B1400    NEEDLE DBX1 #14               1
+ 44            401-41440       UPPER SPROCKET ASM.           1
+ 45            SM-6042000-SP   SCREW                        (3)
+ 46            400-86731       TIMING_BELT_550               1
+ 47            229-06309       NEEDLE BAR THREAD GUIDE       1
+ 48      #03   400-86604       NEEDLE_BAR_D_(B)              1
+
+
+
+
+                                              -   -
+4. HAND LIFTER & TENSION RELEASE COMPONENTS
+
+
+
+
+                                                                                                       44
+
+
+
+
+                                                                    38                                 45
+                                                                                                                 39
+               33                                                                       41
+                                                                                                       8
+
+                35                        25
+                     34                                                                      40
+
+                                               28
+                                     29
+     32
+                                     31
+                                                       27
+
+                            36                              30
+
+
+                                                                                                                42
+                                                                                  37
+                                                        29
+
+                                                       26
+          23
+                           22
+
+                                                                              47
+          24                                                50                          48
+                                                                         49
+                                               12                                                               43
+                     21
+                                                                    11
+                     14                                                                           46
+
+
+                                               1
+
+
+
+                                                       37
+                                                                                   51
+     19
+                      18        17        2
+
+
+
+
+                                                                4
+          15
+                                                                         3
+                                                                              4
+
+          20         16                                             5
+
+                                                                              6                            11
+                     9
+                                                        10                                        13
+                                                                                             7
+
+
+
+
+                                                   -        -
+REF.NO   NOTE PART NO         DESCRIPTION                      Qty
+
+  1           401-74389       TENSION_RELEASE_WIRE_ASM.         1
+  2           400-50582       TENSION RELEASE SHAFT             1
+  3           236-26807       TENSION RELEASE RETURN SPRING     1
+  4           RE-0500000-K0   E-RING                            2
+  5           229-20300       THREAD RELEASE SUPPORTING PIN     1
+  6           229-20409       THREAD RELEASE PIN SPRING         1
+  7           B3118-552-F00   TENSION RELEASING PIN             1
+  8           WP-0621016-SD   WASHER 6.2X13X1                   1
+  9           B1524-012-0BA   PRESSER FOOT ASM.                 1
+ 10           NS-6620310-SP   NUT 3/16-32                       2
+ 11           229-44508       WIRE PRESSER A                    2
+ 12           SM-4040655-SP   SCREW M4 L=6                      1
+ 13           SM-4041055-SP   SCREW                             1
+ 14           229-07406       PRESSER SPRING                    1
+ 15           401-36700       PRESSER_BAR_BUSHING               1
+ 16           236-10207       PRESSER BAR                       1
+ 17           400-86606       PRESSER_BAR_GUIDE_BRACKET_ASM.    1
+ 18           400-86607       PRESSER_BAR_GUIDE_BRACKET        (1)
+ 19           SM-6051400-SP   SCREW                            (1)
+ 20 ☆         SS-7091110-TP   SCREW 9/64-40 L=10.5              1
+ 21           236-10306       PRESSER GUIDE BAR                 1
+ 22           400-37359       PRESSER SPRING REGURATOR ASM.     1
+ 23           400-37141       PRESSER SPRING REGULATOR         (1)
+ 24           400-37144       PRESSER SPRING REGULATOR NUT     (1)
+ 25           401-74387       LIFT_LINK_ASSY                    1
+ 26           229-08008       LIFTING PLATE                    (1)
+ 27           236-09456       LIFTING LINK COMPL.              (1)
+ 28           401-74377       LIFT_LINK_PLATE                  (1)
+ 29           RE-0500000-K0   E-RING                           (1)
+ 30           236-09605       PLATE                            (1)
+ 31           SM-6040602-TP   SCREW M4X0.7 L=6                 (1)
+ 32           229-07802       HAND LIFTER                       1
+ 33           B1521-555-000   SCREW                             1
+ 34           229-08552       HAND LIFTER CAM ASM.              1
+ 35           RO-0371801-00   RUBBER RING                       1
+ 36           400-50583       LINK SHAFT                        2
+ 37           RE-0500000-K0   E-RING                            3
+ 38           401-74388       HINGE_SCREW                       1
+ 39           401-72401       AK_LEVER                          1
+ 40           401-72402       PRESSER_LEVER_SHAFT               1
+ 41           SM-80608A2-TP   SCREW M6 L=8                      1
+ 42           401-72403       CONNECTING ROD                    1
+ 43           RO-0442401-00   RUBBER RING                       1
+ 44           400-36706       ADJUSTING SCREW                   1
+ 45           NM-6060003-SE   NUT FOR BRACKET                   1
+ 46           401-74573       CABLE_CLAMP_PLATE                 1
+ 47           SM-6051402-TP   SCREW M5X0.8 L=14                 2
+ 48           WP-0501016-SD   WASHER 5X10.5X1                   2
+ 49           HX-0015000-0A   CABLE CLAMP                       1
+ 50           SM-4040601-SC   SCREW M4X0.7 L=6                  1
+ 51           GPK-26023000    BUSH A                            1
+
+
+
+
+                                             -   -
+5. FEED ADJUST MECHANISM COMPONENTS
+
+
+                                                                                   47
+
+                                                                                                 48
+                                                                         61
+                                                                                                                         58
+                                        52
+                                                                     49                                                       59
+                                                  54        50
+
+                                    55
+                                   53                                                       46
+
+
+
+                                                                              57
+                                                            51           56
+
+                                                                                             60
+
+
+
+
+                                                  22                                                                      15
+         33
+                                              24                                                                                        19       A
+                                                                                                                              17
+                         22             21
+                                                                                             26                               18
+                        24                             23                                                                               16
+                                                                                       25
+                                                                                                           B
+                                                                                                                                   20
+
+                    31        23
+ 32
+              30                                                                       41
+                              27                                                                               45
+                   29
+        28
+                                                                 44
+                                                            43
+                                        34
+
+                                         35                                   42
+
+
+                                                        36                                                                     13
+                   39                                                                                                                        D
+                                                                     C                                                   14
+                                                                                                  9
+                                   36        37
+                                                                                                                    A
+                         38                            D                                                                                 8
+                                                                                            12            11
+               40
+
+                                                                              14                                    10
+                                                                                       B
+                                                                         13
+                                                                                                                                    7
+                                                                 C
+                                                                              1
+
+                                                                                                      4    6
+
+                                                                                            3
+
+                                                                              3    2
+
+
+
+
+                                                                 -        -
+REF.NO       NOTE PART NO         DESCRIPTION                     Qty
+
+  1               401-74296       ASSY_FEED_ROCKER_CAM             1
+  2               401-74297       FEED_ROCKER_CAM                 (1)
+  3               SS-8150822-TP   SCREW 15/64-28 L=8              (2)
+  4               B4123-522-00A   NEEDLE BEARING                   1
+  5               B4123-522-00B   NEEDLE ROLLAR                    1
+  6               B4123-522-00C   NEEDLE ROLLAR                    1
+  7               401-74298       FEED_ROCKER_CAM_TOP              1
+  8               SS-6090670-TP   SCREW 9/64-40 L=6                2
+  9               400-37365       FEED ROCKER ROD ASM.             1
+ 10               400-26277       FEED ROCKER ROD                 (1)
+ 11               229-11101       WALKING FOOT PIN C              (1)
+ 12               SS-6090620-TP   SCREW                           (1)
+ 13               401-74300       FEED_CONNECTING_LINK_A           2
+ 14               401-74302       FEED_CONNECTING_LINK_B           2
+ 15               400-61246       FEED ROCKER ARM ALL ASM.         1
+ 16               400-58504       FEED ROCKER ARM ASM.            (1)
+ 17               400-42079       FEED ROCKER ARM                 (1)
+ 18               SS-6121610-SP   SCREW 3/16-28 L=15.5            (1)
+ 19               229-11002       WALKING FOOT PIN B              (1)
+ 20               SS-6090620-TP   SCREW                           (1)
+ 21               236-16709       FEED ROCKER SHAFT METAL          1
+ 22               229-04155       MAIN SHAFT THRUST COLLAR ASM.    2
+ 23               229-04106       MAIN SHAFT THRUST COLLAR        (1)
+ 24               SS-8660610-TP   SCREW 1/4-40 L=6                (2)
+ 25               401-72134       FEED_ROCKER_DUST_SEAL            1
+ 26               401-74299       FEED_ROCKER_REAR_METAL           1
+ 27               400-37005       ASSY_FEED_ROCKER_BASE_ARM        1
+ 28               400-26281       FEED ROCKER BASE ARM            (1)
+ 29               SM-6051400-SP   SCREW                           (1)
+ 30               WP-0531000-SD   WASHER M5                       (1)
+ 31               SM-4050855-SP   SCREW                           (1)
+ 32               400-26282       FEED ROCKER BASE SHAFT           1
+ 33               105-23702       WASHER                           1
+ 34               400-86735       ADJUSTING LINK ASM.              1
+ 35               400-86695       FEED_ADJUSTING_LINK             (1)
+ 36               400-86696       FEED_ADJUSTING_LINK_PIN         (2)
+ 37               SM-80506A2-TP   SCREW M5 L=6                    (2)
+ 38               401-72467       ADJUSTING_LINK_FULCRUM_SHAFT     1
+ 39               SM-80606A2-TP   SCREW M6 L=6                     1
+ 40               400-86736       RUBBER PLUG                      1
+ 41               401-72460       FEED_CHANGING_SHAFT              1
+ 42               SM-80606A2-TP   SCREW M6 L=6                     1
+ 43               401-72508       FEED_CHANGING_SHAFT_METAL_A      1
+ 44               401-72138       FEED_CHANGING_DUST_SEAL          1
+ 45               400-86616       FEED_CHANGING_SHAFT_METAL_B      1
+ 46               401-72378       REVERSE_FEED_LEVER               1
+ 47               401-74291       FEED_CONTROL_SENSOR_PLATE        1
+ 48               SM-4040655-SP   SCREW M4 L=6                     1
+ 49               401-72509       FEED_LEVER_SHAFT                 1
+ 50               401-72510       FEED_LEVER_SHAFT_METAL           1
+ 51               B2431-215-000   THREAD TRIMMER LINK SPRING       2
+ 52               401-74293       ASSY_FEED_LEVER_ARM              1
+ 53               401-74294       FEED_LEVER_ARM                  (1)
+ 54               229-12307       PIN                             (1)
+ 55               SM-6051602-TP   SCREW M5X0.8 L=16               (1)
+ 56               229-52501       BACK LEVER STOPPER               2
+ 57               SM-6051850-TP   SCREW M5 L=18                    2
+ 58               401-74405       FEED_CONTROL_SENSOR_BASE_ASM     1
+ 59               SM-4040655-SP   SCREW M4 L=6                     2
+ 60      ＊        401-74317       FEED_ROCKER_SHAFT                1
+ 61      ＊        SM-8050612-TP   SCREW M5X6                       2
+
+
+
+
+                                                -     -
+6. VERTICAL FEED COMPONENTS
+
+
+
+     28       50              30
+
+
+                                   45
+
+                                                                                         33
+
+                                        17                                     35
+                   17
+                                                                                                                    11
+                                   14                       29                                                                 10
+
+
+                                   18
+               15
+                         16
+                                             20
+                                                                                                          27
+                                              19
+                              34
+                         32
+                    31                                           21
+                                                                           13
+
+                                                                                                               12
+                                                                                                                          44
+                                                                                22
+                                             26                                                                                          4
+                                                                      23
+                                                                 26                                                      46
+                                                   24
+                                                            25                                      41
+                                                                                               43              3
+                                                                                          42
+                                                                                                                                    47
+                                                                                                     2
+                                                                               48
+
+
+
+                                                                           1
+
+                                                                                                    48
+
+                                                        5
+                                                                                          49
+
+
+
+
+                         9                                                     36
+                                                                  37
+                   6
+ 8        8
+
+                                                  40
+                                                                                                         38
+
+
+      7
+
+
+                                                                                                     39
+
+
+
+
+                                                                           -         -
+REF.NO       NOTE   PART NO         DESCRIPTION                              Qty
+
+  1                 401-74590       LOWER_SHAFT_METAL                         1
+  2                 401-72137       LOWER_SHAFT_REAR_DUST_SEAL                1
+  3                 SB-1200018-00   BEARING                                   1
+  4                 RC-1200001-KP   C-SHAPED SNAP RING                        1
+  5                 401-74321       LOWER_SHAFT                               1
+  6                 SB-4120001-00   BEARING                                   1
+  7                 CS-1201171-TP   THRUST COLLAR D=12 W=11                   1
+  8                 SM-80606A2-TP   SCREW M6 L=6                              2
+  9                 401-74325       BEARING                                   1
+ 10      ＊          401-68922       VERTICAL FEED MOTOR                       1
+ 11                 SM-6041002-TP   SCREW M4X0.7 L=10                         4
+ 12                 401-72455       VERTICAL_MOTOR_BASE                       1
+ 13                 SM-6061002-TP   SCREW M6 L=10                             2
+ 14                 401-72443       FEED_BASE_DRIVING_LINK                    1
+ 15                 401-74581       FEED_PIN_A                                1
+ 16                 401-74582       FEED_PIN_B                                1
+ 17                 SM-9040650-TP   SCREW M4 L=6                              2
+ 18                 401-72444       FEED_LINK_ARM_A_COMPL                     1
+ 19                 SM-4051255-SP   SCREW M5 L=12                             1
+ 20                 WP-0550800-SP   WASHER 5.5X10X0.8                         1
+ 21                 401-72446       FEED_LINK_ARM_B_COMPL                     1
+ 22                 SM-4051255-SP   SCREW M5 L=12                             2
+ 23                 401-72454       FEED_CONNECT_LINK                         1
+ 24                 401-72448       FEED_MOTOR_LINK_COMPL                     1
+ 25                 SM-8480652-TP   SCREW                                     2
+ 26                 133-19405       MAIN FEED ROCKER PIN                      2
+ 27                 SB-4080001-00   BEARING                                   1
+ 28                 401-72440       FEED_BASE_COMPL                           1
+ 29                 401-72453       FEED_LINK_SHAFT                           1
+ 30 ☆               SS-4080620-TP   SCREW 1/8-44 L=6                          2
+ 31                 RC-0740811-KP   C-RING                                    1
+ 32                 WP-0820516-SP   WASHER 11.6X8.2X0.6                       1
+ 33                 SB-4080001-00   BEARING                                   1
+ 34                 401-72451       FEED_LINK_METAL                           1
+ 35                 401-72452       FEED_LINK_METAL_B                         1
+ 36                 HM-0022300-00   FAN MOTOR                                 1
+ 37                 SL-4031491-SC   SCREW M3X14                               2
+ 38                 401-72461       FAN_PLATE                                 1
+ 39                 SM-4041255-SP   SCREW M4 L=12                             1
+ 40                 401-73467       FAN MOTOR RELAY CORD ASSY                 1
+ 41                 401-72439       FEED_BASE_STOPPER                         1
+ 42                 SM-6050802-TP   SCREW M5X0.8 L=8                          2
+ 43                 WP-0550800-SP   WASHER 5.5X10X0.8                         2
+ 44                 CM-3003000-03   HIGH TEMPARATURE CAUTION LABEL 2(31.5)    1
+ 45                 B1613-012-I00   FEED DOG I                                1
+ 46                 401-74577       UNDER_SPROCKET_ASM.                       1
+ 47                 SM-6042000-SP   SCREW                                    (3)
+ 48                 SM-80608A2-TP   SCREW M6 L=8                              2
+ 49                 401-74334       GEAR_LARGE                                1
+ 50      ＊ #01      401-74396       FEED_BASE_COMPL_H                         1
+
+
+
+
+                                                      -      -
+7. HOOK DRIVING COMPONENTS
+
+
+
+
+                                                                                     2       5
+                                        35
+                                   36
+                                                                       10
+                                                    6
+                                                                                         4
+                    30   32                                                      3
+                                                        7
+               33
+     34                                       8
+
+
+                                         11
+                              29                            9
+
+                    26
+
+          25
+
+
+
+
+                                               27
+                                                                                                       24
+                                              28
+                                                                                                  18
+                                                                                             17
+
+                                                                                     16
+                                                                            12                         19   23
+
+                                                                 13
+
+                                                                 14
+
+
+
+
+                                                            15
+                                                                      15
+
+
+                                   1
+
+
+
+
+                                                        -   -
+REF.NO   NOTE PART NO          DESCRIPTION                      Qty
+
+  1            401-74328       HOOK_SHAFT                        1
+  2 ☆          229-16555       OIL SEAL SCREW ASM.               1
+  3            229-16506       SET SCREW                        (1)
+  4            110-15906       OIL WICK                         (1)
+  5            RO-0360802-00   RUBBER RING                       1
+  6            401-74331       HOOK_SHAFT_METAL_ASM              1
+  7            401-74332       HOOK_SHAFT_METAL                 (1)
+  8            TA-0180401-M0   NEEDLE COOLER PLUG CAP           (1)
+  9            TA-0290301-M0   PLUG                             (1)
+ 10            401-45927       OIL SEAL                          1
+ 11            400-10805       OIL SEAL RING                     1
+ 12            G1812-870-000   LOWER SHAFT INNER BEARING         1
+ 13            400-86691       HOOK_SHAFT_BEARING_SUPPORT_ASM    1
+ 14            400-86692       HOOK_SHAFT_BEARING_SUPPORT       (1)
+ 15            SS-6110710-TP   SCREW 11/64-40 L=6.5             (2)
+ 16            401-72135       HOOK_SHAFT_DUST_SEAL              1
+ 17            401-74333       HOOK SHAFT REAR METAL             1
+ 18            SB-4080001-00   BEARING                           1
+ 19      #01   401-74335       GEAR_SMALL_A                      1
+ 20      #01   401-74336       GEAR_SMALL_B                      1
+ 21      #01   401-74337       GEAR_SMALL_C                      1
+ 22      #01   401-74338       GEAR_SMALL_D                      1
+ 23      #01   401-74369       GEAR_SMALL_E                      1
+ 24            SM-80608A2-TP   SCREW M6 L=8                      2
+ 25 ☆          110-38759       BOBBIN CASE ASM.                  1
+ 26 ☆          229-64001       BOBBIN A                          1
+ 27            401-74351       INNER HOOK HOLDER                 1
+ 28            SS-4111015-SP   SCREW 11/64-40 L=10               1
+ 29 ☆          110-38650       HOOK ASM.                         1
+ 30 ☆    #02   228-90404       RP HOOK C                         1
+ 31 ☆    #02   228-90206       RP HOOK                           1
+ 32 ☆    #02   228-90305       RP HOOK S                         1
+ 33 ☆    #02   B9117-552-A00   BOBBIN                            1
+ 34 ☆    #02   228-96252       BOBBIN CASE ASM.                  1
+ 35      #02   RO-0360802-00   RUBBER RING                       1
+ 36      #02   110-79506       FRONT SCREW                       1
+
+
+
+
+                                             -    -
+8. THREAD TRIMMER COMPONENTS
+
+
+                           19
+
+
+           37
+
+                                                                 76
+           34
+          35
+ 33                                 72
+          36
+                                             73
+                                                                                                           39
+                                                                  48
+                                                                  49                                                            41
+                               74                                                                  40
+     38                                           78                      53                                          44
+                                                                                                                                          434 2
+                                                  77
+                       75                              49
+
+                                                       46
+                                                                          55                                                        45
+                                                       47
+
+                                                            54                                                                      81
+                                                                                                                                          50
+                                                                                                                     13    88
+
+                                                                                                                     14                             50
+                                                                               79
+                                                                                    80                                         15    89
+                                                                                                  52
+                                                                                                                         16    16
+                                                                           17       90
+                                                                                                                52                        14
+                                                                                   51
+
+                                                                                                           B
+                                                                 20                     18
+
+                                                                                              83       87
+
+                                             22                           1    92
+                26    95            21                            6
+                                                                      2
+                                                                          5
+                       28                         23
+           27    96
+
+                           29                          32                           4    93            6
+                                                                                              3
+
+                 A                                                A
+     25                                  7                                                                                           56
+                                                                  11      91
+                                                  82                                         62
+                                                                                                           B    67
+                                                                                        51
+                      31                                                       12                                                                        58
+                                                                                                                                                    59
+          24    94                                                                      66                           61                        71
+30                                                                             65                               60
+                                                                                                                          68
+                                                                                                           64
+                                                                                             63
+                                                                                    57
+                           8                                                                                                    70
+                                                                                                                    69
+                                             9
+                                10                                                                             70
+
+
+
+
+                                                                               -         -
+REF.NO         NOTE   PART NO         DESCRIPTION                     Qty
+
+   1           #02    401-74319       KNIFE_UNIT                       1
+   2   ☆              401-72486       THREAD_TRIMMER_KNIFE            (1)
+   3   ☆              401-72487       HANDLING_DEVICE_KNIFE           (1)
+   4           #02    401-74318       THREAD_TRIMMER_BASE             (1)
+   5                  401-72489       HANDLING_DEVICE_BASE            (1)
+   6   ☆              114-20601       SCREW                           (4)
+   7                  401-72497       TRIMMER_BACK_SPRING              1
+   8                  B1116-210-D00   FRAME SUPPORT RUBBER             1
+   9                  401-72498       RUBBER_STOPPER_PLATE             1
+  10                  SM-4050655-SP   SCREW M5 L=6                     2
+  11                  401-72499       THREAD_TRIMMER_CAM               1
+  12                  SM-80608A2-TP   SCREW M6 L=8                     2
+  13           #02    401-74323       CONNECTING_ROD_ASM_R             1
+  14                  401-36701       ROD_END                         (2)
+  15           #02    401-74324       CONNECTING_BAR                  (1)
+  16                  NM-6050001-SC   NUT M5X0.8 TYPE1                (2)
+  17                  401-72500       TRIMMER_MOVING_ARM               1
+  18                  SM-6051402-TP   SCREW M5X0.8 L=14                1
+  19                  400-62168       PICKER SPRING HOOK               1
+  20                  401-72481       TRIMMER_MOVING_SHAFT             1
+  21                  401-72482       THREAD_TRIMMER_METAL_A           1
+  22                  CS-0800881-TP   THRUST COLLAR                    1
+  23                  SM-80506A2-TP   SCREW M5 L=6                     2
+  24                  401-72484       THREAD_TRIMMER_ROD               1
+  25                  SD-0500403-TP   SCREW                            1
+  26                  401-72477       THREAD_TRIMMER_ARM_ASM           1
+  27                  401-72478       THREAD_TRIMMER_ARM              (1)
+  28                  401-72479       THREAD_TRIMMER_ARM_PIN          (1)
+  29                  SM-8480652-TP   SCREW                            2
+  30                  401-72480       TRIMMER_ADJUSINGT_PIN            1
+  31                  SM-80506A2-TP   SCREW M5 L=6                     2
+  32                  RC-2651218-KP   RETAINING RING                   1
+  33                  400-36998       ASSY_PICKER_ARM                  1
+  34                  400-61215       PICKER ARM                      (1)
+  35                  400-36997       ASSY_PICKER                     (1)
+  36                  SS-6090670-TP   SCREW 9/64-40 L=6               (2)
+  37                  400-29398       PICKER SPRING                    1
+  38                  SD-0641456-TP   SHOULDER SCREW D=6.35 H=14.5     1
+  39                  401-72491       THREAD_TRIMMER_SOLENOID_F_ASM    1
+  40                  401-72494       THREAD_TRIMMER_SOLENOID_F       (1)
+  41                  401-74583       SOLENOID_INSTALLING_BASE        (1)
+  42                  NM-6040001-SE   NUT M4                          (2)
+  43                  WS-0410002-KR   SPRING WASHER M4                (2)
+  44                  401-74584       SPRING                          (1)
+  45                  WP-0621016-SD   WASHER 6.2X13X1                  2
+  46                  400-86711       SORENOID_PIN                     1
+  47                  SS-6110710-TP   SCREW 11/64-40 L=6.5             1
+  48                  RE-0500000-K0   E-RING                           1
+  49                  106-18304       VERTICAL ROLLER WASHER           2
+  50                  SD-0500701-TP   SHOULDER SCREW                   2
+  51                  NS-6110310-SP   HEXAGONAL NUT 11/64-40           2
+  52                  400-86712       CONNECTING ROD FELT              2
+  53                  401-72495       CLUTCH_PLATE                     1
+  54                  400-86635       CLUTCH_SHAFT                     1
+  55                  SM-8060812-TP   SCREW M6 L=8                     1
+  56                  401-72496       THREAD_TRIMMER_SHAFT             1
+  57                  401-72483       THREAD_TRIMMER_METAL_B           1
+  58                  NM-6060001-SC   NUT M6X1 TYPE1                   2
+  59                  WP-0621016-SH   WASHER                           1
+  60                  B1116-804-000   CLOTH PLATE WASHER               1
+  61                  400-90099       WASHER                           1
+  62                  400-95843       ASSY_CAM_FOLLOWER                1
+  63                  400-86624       CAM_FOLLOWER_ASM.               (1)
+  64                  SM-80606A2-TP   SCREW M6 L=6                    (2)
+  65                  400-86748       ROLLER SHAFT                     1
+  66                  400-15671       CAM_ROLLER                       1
+  67                  NM-6040001-SP   NUT M4X0.7                       2
+  68                  400-86623       STOPPER_SCREW                    1
+  69                  401-72490       CAM_FOLLOWER_STOPPER             1
+  70                  SM-6050802-TP   SCREW M5X0.8 L=8                 2
+  71                  401-72504       THREAD_TRIMMER_SPRING_D          1
+  72                  401-72501       PICKER_LINK_ASM                  1
+  73                  401-72502       PICKER_LINK                     (1)
+  74                  401-72503       PICKER_LINK_RUBBER              (1)
+  75                  SD-0630275-SP   HINGE SCREW D=6.35 H=2.7         1
+  76                  229-50000       PICKER LINK PIN                  1
+  77                  NS-6150310-SP   NUT 15/64-28                     1
+  78                  WP-0621016-SH   WASHER                           1
+  79                  SM-8061050-TP   SCREW                            1
+  80                  SM-8061010-TP   SCREW                            1
+  81                  SM-6061002-TP   SCREW M6 L=10                    2
+  82                  137-38802       SUSPENSION SCREW                 1
+  83           #01    114-19504       THRUST COLLAR A                  1
+  84           #01    114-19603       THRUST COLLAR B                  1
+  85           #01    114-19702       THRUST COLLAR C                  1
+  86           #01    114-19801       THRUST COLLAR D                  1
+  87           #01    114-19900       THRUST COLLAR E                  1
+  88       ＊          401-74398       CONNECTING_ROD_ASM_R             1
+  89       ＊          400-86709       CONNECTING_BAR                  (1)
+  90       ＊   #02    401-74315       TRIMMER_MOVING_ARM               1
+  91       ＊   #02    401-74316       THREAD_TRIMMER_CAM               1
+  92       ＊          401-72485       KNIFE_UNIT                       1
+  93       ＊          401-72488       THREAD_TRIMMER_BASE             (1)
+  94       ＊   #02    401-68860       THREAD_TRIMER_ROD                1
+  95       ＊   #02    401-72477       THREAD_TRIMMER_ARM_ASM           1
+  96       ＊   #02    401-74314       THREAD_TRIMMER_ARM              (1)
+
+
+
+
+                                                         -      -
+9. OIL LUBRICATION COMPONENTS
+
+
+
+
+                                                                                                       20
+                                                                                            24
+                                                                                                                 21
+                                                                                                        23
+
+
+
+
+                          53                                                                                22
+                                                                                 19
+                                52
+                                                       6
+    55
+                54
+                                                   8
+
+    58                                                                           18
+
+    59                                                              7
+                                                                                 17          43   50
+       2                                           10                                                                  11
+                                                       9                         51
+
+            1                                                                                                         13
+                                          4
+
+
+
+                                          3                                                                                 12
+                                                                                                             15
+
+                                                                                                             14
+                                              43
+       45
+  44                                           5
+                                                                         43                  25
+                                    46    62
+                                    47             5                     5                   27
+                                                                                                                                 56
+                                    48
+                                                                    63                                                      61
+                                    49
+                                                                                                            16         28
+                          60
+                                                                                                                                 57
+                                                                    26
+                          37                                                     32
+                                                                                       31                                   30
+
+            28
+
+                               39
+                                                                                      28               29
+
+                     40
+                           41                                                          28
+                                42            38
+
+                                     34
+                                                                    36
+                               33              34
+                                                           35
+
+
+
+
+                                                                -            -
+REF.NO   NOTE   PART NO         DESCRIPTION                               Qty
+
+  1             SM-8050402-TP   SCREW                                        1
+  2             SM-8050402-TP   SCREW                                        1
+  3             401-74358       GEAR_BOX_COVER                               1
+  4             401-74359       GEAR_BOX_PACKING                             1
+  5             SM-4051255-SP   SCREW M5 L=12                                6
+  6             401-72469       LINK_COVER_ASM                               1
+  7             401-74360       LINK_COVER                                  (1)
+  8             401-74361       GEAR_BOX_LUBRICATION_FELT                   (1)
+  9             SM-6040602-TP   SCREW M4X0.7 L=6                             2
+ 10             WP-0450801-SD   WASHER 4.5X10X0.8                            2
+ 11             401-74306       FEED_ROCKER_CAM_LUBRICATION_FELT_ASM.        1
+ 12             401-74394       FELT_PLATE                                  (1)
+ 13             401-74362       FEED_ROCKER_CAM_LUBRICATION_FELT            (1)
+ 14             SM-4040655-SP   SCREW M4 L=6                                 2
+ 15             WP-0450801-SD   WASHER 4.5X10X0.8                            2
+ 16             401-72430       ASSY_FLOATER                                 1
+ 17             401-72433       FLOATER_CAP                                  1
+ 18             RO-0611801-00   RUBBER RING                                  1
+ 19             401-72437       FLOATER_CASE_GUIDE                           1
+ 20             401-49785       ASSY_FLOATER_SIGHT_WINDOW_B                  1
+ 21             400-00344       LUBRICATING INLET CAP                       (1)
+ 22             400-86697       FLOATER_SIGHT_WINDOW_B                      (1)
+ 23             RO-0481901-00   RUBBER RING                                 (1)
+ 24             SL-6040892-TN   BOLT                                         1
+ 25             236-30106       TUBE B                                     0.1
+ 26             236-30007       TUBE                                      0.43
+ 27             236-29405       PIPE STOPPER B                               1
+ 28             236-29306       PIPE STOPPER A                               4
+ 29             401-72436       OIL_TANK                                     1
+ 30             SL-4051091-SC   SCREW M5X0.8 L=10                            2
+ 31             RO-0982401-00   O-RING                                       1
+ 32             400-13595       OIL_EXIT_CAP                                 1
+ 33             401-74307       OIL_FILTER_ASM.                              1
+ 34             236-29405       PIPE STOPPER B                              (2)
+ 35             236-30601       OIL FILTER JOINT                            (1)
+ 36             236-30007       TUBE                                    (0.045)
+ 37             401-78658       PIPE                                     (0.27)
+ 38             236-30106       TUBE B                                  (0.035)
+ 39             236-30650       OIL FILTER JOINT ASM.                       (1)
+ 40             236-30601       OIL FILTER JOINT                            (1)
+ 41             236-30403       OIL FILTER                                  (1)
+ 42             236-30502       OIL FILTER STOPPER                          (1)
+ 43             HX-0015000-0K   CABLE CLIP                                   3
+ 44             401-74365       OIL ADJUSTING SCREW                          1
+ 45             RO-0371801-00   RUBBER RING                                  1
+ 46             236-28803       PLUNGER                                      1
+ 47             236-28902       PLUNGER SPRING                               1
+ 48             400-38328       PLUNGER SCREW                                1
+ 49             RO-0681901-00   RUBBER RING                                  1
+ 50             SM-6050802-TP   SCREW M5X0.8 L=8                             1
+ 51             229-01409       NEEDLE BAR UPPER BUSH CAP                    1
+ 52      #02    236-29256       OIL WICK SUPPORT ASM.                        1
+ 53      #02    236-29207       OIL WICK SUPPORT                            (1)
+ 54      #02    CQ-2500000-01   OIL WICK                                 (0.25)
+ 55      #02    SM-5040655-SN   SCREW                                        1
+ 56      #02    236-30007       TUBE                                      0.75
+ 57      #02    CQ-2000000-01   OIL WICK                                  0.18
+ 58      #02    229-25101       OIL FELT PRESSER                             1
+ 59      #02    400-75404       FACE FELT ASM.                               1
+ 60             401-74356       CONNECTING SCREW                             1
+ 61      #01    401-74399       CAP                                          1
+ 62             401-36258       CORD_HOLDER                                  1
+ 63             SQ-2050453-MZ   CONNECTING SCREW                             1
+
+
+
+
+                                                  -     -
+10. AUTOMATIC REVERSE FEED COMPONENTS
+
+
+
+
+                     16
+
+         17
+                                                                                      4
+
+
+
+
+                                                                             6
+
+                                            1
+
+
+                                                                                               5
+                                      2                                          11
+                                                              7
+
+                              12
+                       14             3                                  8                18
+
+
+                                            15          10               9
+
+                      13
+
+
+
+REF.NO       NOTE   PART NO         DESCRIPTION                                                Qty
+
+  1                 401-74366       ASSY REVERSE FEED ARM                                       1
+  2                 401-72459       REVERSE_FEED_ARM                                           (1)
+  3                 SM-6051602-TP   SCREW M5X0.8 L=16                                          (1)
+  4      ＊          401-68921       HORIZONTAL FEED MOTOR                                       1
+  5                 SM-6041002-TP   SCREW M4X0.7 L=10                                           4
+  6                 401-72456       HORIZONTAL_MOTOR_BASE                                       1
+  7                 SM-6061002-TP   SCREW M6 L=10                                               3
+  8                 400-10278       MOTOR LINK                                                  1
+  9                 SM-4051255-SP   SCREW M5 L=12                                               1
+ 10                 SM-8050612-TP   SCREW M5X6                                                  1
+ 11                 SB-4080001-00   BEARING                                                     1
+ 12                 401-72458       HORIZ_CONNECT_LINK                                          1
+ 13                 401-72457       HORIZ_MOTOR_LINK_PIN                                        1
+ 14                 400-86699       REVERSE_FEED_LINK_PIN                                       1
+ 15                 SM-8480652-TP   SCREW                                                       1
+ 16 ☆               401-74372       LED_TB_SWITCH                                               1
+ 17                 SM-4050855-SP   SCREW                                                       2
+ 18                 CM-3003000-03   HIGH TEMPARATURE CAUTION LABEL 2(31.5)                      1
+
+
+
+
+                                                              -      -
+11. OPERATION PANEL COMPONENTS
+
+
+
+                                   3
+ 16                                                                      1
+                                            4
+                          10
+              17               9
+                                        8
+                                                        6
+         17
+                               8                   7             11
+
+
+                          8                                         12
+                     5
+                                                                    13       2
+
+                                       14
+
+
+
+
+                                                            15
+
+
+
+
+         19                   18
+
+
+
+
+REF.NO    NOTE PART NO             DESCRIPTION                                   Qty
+
+  1                401-73460       PANEL D ASSY                                   1
+  2 ☆              401-73461       PANEL_COVER_D ASSY                            (1)
+  3                401-72422       INDICATOR                                     (1)
+  4                401-72423       USB_COVER                                     (1)
+  5                SV-4030802-SN   TAPPING SCREW WITH FLANGE M3X8                (4)
+  6                401-73459       PANEL COVER R ASM                             (1)
+  7                401-72386       PANEL_COVER_R                                 (1)
+  8                401-72420       FIX_PLATE                                     (3)
+  9                401-74580       PANEL_CABLE_CLAMP_PLATE                       (1)
+ 10                SV-4030802-SN   TAPPING SCREW WITH FLANGE M3X8                (1)
+ 11                401-73462       PNL-D PCB ASSY A                              (1)
+ 12                401-69408       PNL-D PCB ASSY                                (1)
+ 13                401-63141       LCD_MODULE                                    (1)
+ 14                SL-4031081-SC   SCREW M3X10                                   (2)
+ 15                NM-6030001-SC   NUT M3X0.5 TYPE1                              (2)
+ 16                SM-8050802-TP   SCREW M5X0.8 L=8                               3
+ 17                401-74408       PANEL_CSHION_RUBBER                            2
+ 18                401-75585       CTL-PNL CORD ASSY                              1
+ 19                EA-9500B01-00   CABLE BAND                                     1
+
+
+
+
+                                                  -     -
+12. THREAD STAND COMPONENTS
+
+
+                                                                 12
+                                                                          20
+                                         7
+
+                     7                                                    3
+                                                                          11
+                                         6
+
+                     6                                       9
+                                                        8                            16
+         1
+                                    5                                     18
+
+                5                                                25
+                                                                          19
+                                    4
+                                                                          24
+                                                        10
+                4                                                               17
+
+                                                                           11
+
+                                                                      2
+                                                            15                  22
+                                                15          14                  23
+                                                14          13
+                                                                                23
+                                                13
+                                                                                22
+                                                                                21
+
+REF.NO       NOTE PART NO               DESCRIPTION                                       Qty
+
+  1                 401-08402           THRED_STAND_B                                      1
+  2                 400-85786           SPOOL REST ARM (LOWER)                            (1)
+  3                 400-85787           SPOOL REST ARM (UPPER)                            (1)
+  4                 400-85788           SPOOL REST                                        (2)
+  5                 400-85789           SPOOL REST CUSHION                                (2)
+  6                 400-85790           SPOOL PIN                                         (2)
+  7                 400-85791           SPOOL RETAINER                                    (2)
+  8                 400-85794           THREAD GUIDE                                      (2)
+  9                 400-85795           THREAD GUIDE BUSHING                              (2)
+ 10                 400-96326           SPOOL REST ARM LOWER SCREW                        (1)
+ 11                 NM-6050001-SE       NUT M5                                            (2)
+ 12                 400-96327           SPOOL REST ARM UPPER SCREW                        (1)
+ 13                 NM-6050001-SE       NUT M5                                            (2)
+ 14                 WS-0510002-KN       SPRING WASHER M5                                  (2)
+ 15                 WP-0531001-SC       WASHER M5                                         (2)
+ 16                 401-08401           THREAD_STAND_A                                     1
+ 17                 400-85784           SPOOL REST ROD LOWER                              (1)
+ 18                 400-85785           SPOOL REST ROD UPPER                              (1)
+ 19                 400-85792           SPOOL REST ROD JOINT                              (1)
+ 20                 400-85793           SPOOL REST ROD RUBBER CAP                         (1)
+ 21                 400-96325           SPOOL REST ROD NUT                                (1)
+ 22                 WP-1612616-SE       WASHER 16X30X2.6                                  (2)
+ 23                 400-85796           SPOOL REST ROD RUBBER CUSHION                     (2)
+ 24                 SM-4051405-SE       SCREW M5 L=14                                     (2)
+ 25                 NM-6050001-SE       NUT M5                                            (2)
+
+
+
+
+                                                                 -    -
+13. UNDER COVER COMPONENTS
+
+
+
+
+                                      1                                                               12
+
+
+                                                                                                           12
+                                                                                        2
+      16
+           7
+
+                                                                              12
+                                                           12
+
+      21        9                         11
+                18                             19                                                                13
+                             22
+                                                                                                            14
+                    22
+           16
+                                          19                                                                      15
+           17
+                                                                                    A
+                    4
+                                           10                                                                    15
+           3                      5
+                    5                                                                       28
+                                  6                                                              29
+                        6
+                                                           8                       27
+                                                17
+                                                                                                 25        23
+                        20
+                                                                                                 24
+                                                                          A
+                                                                                                 26
+
+
+REF.NO     NOTE PART NO                    DESCRIPTION                                                                 Qty
+
+  1                 400-62321              UNDER COVER A ASM.                                                           1
+  2                 236-39008              UNDER COVER                                                                 (1)
+  3                 236-39156              BRACKET ASM.                                                                (1)
+  4                 236-39107              BRACKET                                                                     (1)
+  5                 NM-6060001-SE          NUT M6                                                                      (2)
+  6                 SM-8063012-TR          SCREW M6 L=30                                                               (2)
+  7                 236-39206              CONNECTING ROT                                                              (1)
+  8                 236-39305              KNEE PRESS ROD                                                              (1)
+  9                 236-39404              SHAFT                                                                       (1)
+ 10                 236-39503              SPRING                                                                      (1)
+ 11                 236-39602              CONNECTING ROD                                                              (1)
+ 12                 B1116-210-D00          FRAME SUPPORT RUBBER                                                        (4)
+ 13                 229-32453              BRACKET ASM.                                                                (1)
+ 14                 229-32404              BRACKET                                                                     (1)
+ 15                 229-34707              SCREW                                                                       (2)
+ 16                 NS-6150310-SP          NUT 15/64-28                                                                (2)
+ 17                 RE-1000000-K0          E-RING 10                                                                   (2)
+ 18                 RE-1000000-K0          E-RING 10                                                                   (1)
+ 19                 SD-0720331-SP          HINGE SCREW D=7.24 H=3.3                                                    (2)
+ 20                 SM-9061853-SR          SCREW M6 L=17.5                                                             (1)
+ 21                 SM-9061853-SR          SCREW M6 L=17.5                                                             (1)
+ 22                 WP-0650876-SD          WASHER 6.5X13X0.8                                                           (2)
+ 23                 229-34251              KNEE PAD PLATE ASM.                                                          1
+ 24                 229-34202              KNEE PAD PLATE                                                              (1)
+ 25                 229-34301              KNEE PAD PLATE SUPPORT                                                      (1)
+ 26                 229-34400              KNEE PAD PLATE RUBBER                                                       (1)
+ 27                 229-34509              KNEE PAD PLATE COVER                                                        (1)
+ 28                 229-34608              KNEE PAD UPRIGHT SHAFT                                                      (1)
+ 29                 SM-9061203-SE          SCREW M6 L=12                                                               (1)
+
+
+
+
+                                                               -      -
+14. ACCESSORIE PART COMPONENTS
+
+
+                             8                                                                2
+
+                                   9
+                                                                                 4                    7
+                                                                                                               20    21   27
+                                                   17
+
+   16
+                                                                             5            6               3
+   12                                              10    11
+
+   15                                              14
+
+                                                   13
+
+                                                                                                  1
+
+
+
+
+                                                                                                              22    25
+
+                                                                                     26
+                                                              18
+                   19
+
+
+
+
+REF.NO      NOTE   PART NO             DESCRIPTION                                                                        Qty
+
+  1                401-35803           HEAD COVER                                                                          1
+  2                229-58052           RUBBER HINGE ASM.                                                                   1
+  3                229-26505           WASHER                                                                             (2)
+  4                229-26000           RUBBER CUSHION                                                                     (2)
+  5                229-58003           FRAME BUBBER CUSHION                                                               (2)
+  6                229-26208           NAIL                                                                               (8)
+  7                229-26356           HINGE COMPL.                                                                       (2)
+  8                400-89663           ACCESSORIE BAG ASM.                                                                 1
+  9                229-32800           ACCESSORIE BAG                                                                     (1)
+ 10                229-31604           FRAME SUPPORT BAR                                                                  (1)
+ 11         #01    401-74570           HEAD_SUPPORT_ROD                                                                   (1)
+ 12                236-39701           KNEE LIFTER PRESSER ROD                                                            (1)
+ 13                229-33105           SCREW DRIVER (MIDDLE)                                                              (1)
+ 14                229-33204           SCREW DRIVER (SMALL)                                                               (1)
+ 15                225-02504           THREAD GUIDE BAR                                                                   (1)
+ 16                400-55591           HEXAGONAL WRENCH KYE                                                               (1)
+ 17                EA-9500B01-00       CABLE BAND                                                                         (1)
+ 18   ☆            401-02087           JUKI_MACHINE_OIL_7                                                                  1
+ 19                B9121-012-0A0       OILER ASM.                                                                          1
+ 20   ☆     #02    MDB-100B1402        NEEDLE DBX1#14-2                                                                    1
+ 21   ☆     #03    MDB-100B1102        NEEDLE DBX1#11-2                                                                    1
+ 22         #02    401-75824           DDL-9000CS SIMPLE MANUAL(10K)                                                       1
+ 23         #03    401-75870           DDL-9000CS SIMPLE MANUAL(CS)                                                        1
+ 24                401-75822           DDL-9000CS INSTRUCTION MANUAL CD                                                    1
+ 25         #01    401-74382           KA154 INSTRUCTION MANUAL/PARTS LIST                                                 1
+ 26   ☆            229-64001           BOBBIN A                                                                            1
+ 27       ＊ #04    MC-2005007-52       134 #75-2                                                                           1
+
+
+
+
+                                                                   -    -
+15. EXCLUSIVE PARTS DDL-9000C-SSH
+
+
+
+
+                                                     24
+                                     A                                                               31
+                                                                              6         1
+                                                           28
+
+                                     11       27                 28
+
+                                               A
+                                                                                       32       30            29
+
+                                                                25
+                                                    26
+                                                                                       12       5         10
+
+           22
+                                                                              3
+                                         13
+                                                                                        7                 8
+      20
+            18
+                    15
+                                                                              2
+                             17
+
+                                         19                              33
+                                                                                            9
+                                              21                              4   34                           23
+                                                    16
+                                                          14
+
+REF.NO      NOTE   PART NO                DESCRIPTION                                                          Qty
+
+  1         #01    400-89605              THROAT_PLATE_J                                                         1
+  2                401-07708              NEEDLE_BAR_METAL_LOWER_H                                               1
+  3                400-61767              NEEDLE BAR H                                                           1
+  4   ☆     #03    MDB-100B2100           NEEDLE DBX1 #21                                                        1
+  5                B9117-012-000          BOBBIN                                                                 1
+  6                B1505-552-000-A        PRESSER SPRING                                                         1
+  7         #01    D1524-555-EBL          PRESSER FOOT ASM.                                                      1
+  8                400-64839              PRESSER FOOT ASM.                                                      1
+  9                401-74353              INNER_HOOK_HOLDER_H                                                    1
+ 10   ☆            110-92251              LUBRICATING BOBBIN ASM.                                                1
+ 11                400-55604              THREAD TAKE UP COMP. H                                                 1
+ 12   ☆            400-00264              BOBBIN CASE ASM.                                                       1
+ 13                400-37313              THREAD TENSION DISK ASM. H                                             1
+ 14                236-26005              THREAD TENSION NUT                                                    (1)
+ 15                B3115-552-000          TENSION POST                                                          (1)
+ 16                B3120-125-000          ROTATING STOPPER                                                      (1)
+ 17                B3126-012-000          THREAD TENSION DISK                                                   (2)
+ 18   ☆            B3128-012-000          TAKE-UP SPRING                                                        (1)
+ 19                B3132-552-000          THREAD TENSION DISK PRESSER                                           (1)
+ 20                400-24845              TENSION POST SOCKET ASM.                                              (1)
+ 21                B3114-232-000          THREAD TENSION SPRING                                                 (1)
+ 22                SS-8090670-SP          SCREW 9/64-40 L=5.5                                                   (1)
+ 23                400-24124              NEEDLE BAR THREAD GUIDE                                                1
+ 24                400-55058              ASSY COUNTER WEIGHT H                                                  1
+ 25                400-53411              COUNTER WEIGHT H                                                      (1)
+ 26                400-04171              COUNTER_WEIGHT_SCREW                                                  (1)
+ 27                SM-8081652-TP          SCREW M8 L=16                                                         (1)
+ 28                SM-80606A2-TP          SCREW M6 L=6                                                          (2)
+ 29                400-63697              ARM THREAD GUIDE A H                                                   1
+ 30         #02    110-62601              FEED DOG                                                               1
+ 31         #02    110-62007              THROAT PLATE A                                                         1
+ 32         #01    114-03003              FEED J                                                                 1
+ 33                400-23223              NEEDLE BAR THREAD GUIDE                                                1
+ 34       ＊ #04    MC-2005013-00          NEEDLE 134 NM130                                                       1
+
+
+
+
+                                                            -        -
+16. TABLE & STAND COMPONENTS
+
+
+
+
+                                          15
+                                                       13
+                                          14           15        11
+                                                       12
+
+
+
+
+                                          5
+                                          3
+                                      7
+                                  6
+                 1
+                              4
+
+
+                     2
+
+
+
+
+                                                       10
+
+
+
+
+       18
+
+  21
+                         19
+
+
+                         17
+
+            16
+
+
+                                                  22
+                                                                                     9
+
+
+
+                                                                           20
+            8
+
+
+                                                                      23
+
+
+                                                            28
+                                                            27         26
+                                                            25
+                                                                                24
+
+
+
+
+                                              -   -
+REF.NO   NOTE PART NO          DESCRIPTION                 Qty
+
+  1            401-74410       TABLE ASM.                   1
+  2            401-72421       TABLE                       (1)
+  3            110-75900       RUBBER SPACER               (2)
+  4            110-75801       RUBBER SPACER               (2)
+  5            B8210-012-000   CUSHION SET NAIL            (4)
+  6            B8210-012-000   CUSHION SET NAIL            (4)
+  7            D8226-555-E00   FRAME RUBBER CUSHION A      (2)
+  8      #01   111-57567       T LEG JUNCTION               1
+  9      #02   GPK-700010A0    3-JOINT PEDAL 70             1
+ 10      #02   111-57559       T-STAND ASM.                 1
+ 11            111-55769       SMALL CASTINGS BOX B ASM.    1
+ 12            111-56007       CASE                        (1)
+ 13            111-55801       CASE MAGNET                 (1)
+ 14            111-55751       CASE ASM. B                 (1)
+ 15            SK-3382001-SC   WOOD SCREW D=3.8 L=20       (4)
+ 16            111-55157       DRAWER ASM.                  1
+ 17            111-55108       DRAWER                      (1)
+ 18            111-55207       DRAWER SUPPORT              (2)
+ 19            SK-3311600-SE   WOOD SCREW D=3.1 L=16       (6)
+ 20      #02   GPK-710010A0    2-PEDAL ASM. 71              1
+ 21            D8204-555-D00   DRAWER STOPPER               1
+ 22            SK-3513200-SC   WOOD SCREW D=5.1 L=32        4
+ 23      #03   111-59456       CASTER ASM.                  1
+ 24            SM-9086523-SE   HEXAGONAL BOLT              (2)
+ 25            111-59407       CASTER                      (4)
+ 26            111-59506       STRUT AUXILIARY PLATE       (2)
+ 27            WS-0861410-KR   SPRING WASHER 8.6X15X1.4    (2)
+ 28            WP-0871602-SE   WASHER 8.7X18X1.6           (2)
+
+
+
+
+                                               -     -
+17. SPECIAL ORDER PARTS
+
+
+
+
+                1
+                                                                                     6
+                                                                             4
+
+
+                                2
+
+                                                            3
+
+
+
+
+                         5
+
+
+
+
+                                                                                         8
+
+
+
+                                                                                 7
+
+
+
+
+REF.NO   NOTE       PART NO         DESCRIPTION                                              Qty
+
+  1                 400-65571       ELECTRIC FAN HOOK COOLING DEVICE                          1
+  2                 400-44065       FAN_RELAY_CABLE                                          (1)
+  3                 400-64805       FAN FILTER                                               (1)
+  4                 400-64806       FAN COOLING COVER                                        (1)
+  5                 400-65564       FAN MOTOR ASSY                                           (1)
+  6                 SK-3415001-SE   SCREW D=4.1 L=50                                         (2)
+  7                 MAO-11532000    CORD STAPLE                                              (3)
+  8                 400-65572       HOOK COOLING DEVICE INSTRUCTION MANUAL                   (1)
+
+
+
+
+                                                                -   -
+18. LIST FOR INFORMATION OF CHANGE
+
+
+   As to the place changed,refer to the corresponding Rev.No.
+   When previous parts(Obsoleted part)and new parts(Added parts)are
+   not interchangeable with each other:
+   In this case,even obsoleted parts(D.)can be ordered with the
+   obsoleted part number,so select the parts with changed dates and
+   place your orders.
+             ,   Rev.No.
+                              ,           ,
+                                                                ********
+                                                                No    1689-01     Rev.No.
+
+
+
+       *A:Added       parts       /D:Obsoleted        parts          /E:Erratum
+           Rev.PageRef.      Parts No.                    Rev.PageRef.          Parts    No.
+   *       No.      No.                           *       No.     No.
+       D    00    2    7 401-39753
+       D    00   10   60 401-74304                    A    01    10    60    401-74317
+                                                      A    01   10     61    SM-8050612-TP
+       D    00   12     10    401-68921               A    01   12     10    401-68922
+                                                      A    01   12     50    401-74396
+                                                      A    01   16     88    401-74398
+                                                      A    01   16     89    400-86709
+                                                      A    01   16     90    401-74315
+                                                      A    01   16     91    401-74316
+                                                      A    01   16     92    401-72485
+                                                      A    01   16     93    401-72488
+                                                      A    01   16     94    401-68860
+                                                      A    01   16     95    401-72477
+                                                      A    01   16     96    401-74314
+       D    00   19      4    401-68922               A    01   19       4   401-68921
+                                                      A    01   23     27    MC-2005007-52
+                                                      A    01   24     34    MC-2005013-00
+
+
+
+
+                                              -   -
+NUMERICAL INDEX OF PARTS
+
+NUMERICAL INDEX OF PARTS
+
+
+             PART NO       PAGE   REF     PART NO       PAGE   REF         PART NO       PAGE   REF     PART NO       PAGE   REF
+                                  NO                           NO                               NO                           NO
+
+     B1109-012-I0B            2    76   NM-6060003-SE      8    45       SM-4051255-SP      2     9   SS-4111015-SP     14    28
+     B1109-552-000            2    75   NS-6110310-SP     16    51       SM-4051255-SP     12    19   SS-6060210-SP      2    34
+     B1116-210-D00           16     8   NS-6150310-SP     16    77       SM-4051255-SP     12    22   SS-6090620-TP     10    12
+     B1116-210-D00           22    12   NS-6150310-SP     22    16       SM-4051255-SP     18     5   SS-6090620-TP     10    20
+     B1116-804-000           16    60   NS-6620310-SP      8    10       SM-4051255-SP     19     9   SS-6090670-TP      6     5
+     B1505-552-000-A         24     6                                    SM-4051405-SE     21    24   SS-6090670-TP     10     8
+     B1521-555-000            8    33   RC-0560711-KP      4    18       SM-5040655-SN      2    70   SS-6090670-TP     16    36
+     B1524-012-0BA            8     9   RC-0740811-KP     12    31       SM-5040655-SN      4    20   SS-6110710-TP     14    15
+     B1613-012-I00           12    45   RC-1200001-KP     12     4       SM-5040655-SN     18    55   SS-6110710-TP     16    47
+     B2431-215-000           10    51   RC-2651218-KP     16    32       SM-6040602-TP      8    31   SS-6121610-SP     10    18
+     B3114-232-000           24    21   RE-0300000-K0      6    36       SM-6040602-TP     18     9   SS-7080510-TP      6     7
+     B3115-552-000           24    15   RE-0400000-K0      4    19       SM-6041002-TP     12    11   SS-7091110-TP      8    20
+     B3118-552-F00            8     7   RE-0500000-K0      8     4       SM-6041002-TP     19     5   SS-8090670-SP      2    67
+     B3120-125-000           24    16   RE-0500000-K0      8    29       SM-6042000-SP      6    45   SS-8090670-SP     24    22
+     B3126-012-000           24    17   RE-0500000-K0      8    37       SM-6042000-SP     12    47   SS-8150822-TP     10     3
+     B3128-012-000           24    18   RE-0500000-K0     16    48       SM-6050802-TP     12    42   SS-8660610-TP     10    24
+     B3132-552-000           24    19   RE-1000000-K0     22    17       SM-6050802-TP     16    70   SV-4030802-SN     20     5
+     B4123-522-00A           10     4   RE-1000000-K0     22    18       SM-6050802-TP     18    50   SV-4030802-SN     20    10
+     B4123-522-00B           10     5   RO-0360802-00     14     5       SM-6051400-SP      8    19
+     B4123-522-00C           10     6   RO-0360802-00     14    35       SM-6051400-SP     10    29   TA-0180401-M0     14     8
+     B8210-012-000           26     5   RO-0371801-00      8    35       SM-6051402-TP      8    47   TA-0290301-M0     14     9
+     B8210-012-000           26     6   RO-0371801-00     18    45       SM-6051402-TP     16    18   TA-1250406-R0      2     6
+     B9117-012-000           24     5   RO-0442401-00      8    43       SM-6051602-TP     10    55   TA-1250406-R0      2    40
+     B9117-552-A00           14    33   RO-0481901-00     18    23       SM-6051602-TP     19     3   TA-1250406-R0      2    41
+     B9121-012-0A0           23    19   RO-0611801-00     18    18       SM-6051850-TP     10    57
+                                        RO-0681901-00     18    49       SM-6060802-TP      2    19   WP-0450801-SD     18    10
+     CM-3002000-01            2    27   RO-0982401-00     18    31       SM-6060802-TP      2    23   WP-0450801-SD     18    15
+     CM-3002000-03            2    28                                    SM-6061002-TP     12    13   WP-0450826-SC      4    23
+     CM-3003000-03           12    44   SB-1200018-00     12     3       SM-6061002-TP     16    81   WP-0501016-SD      8    48
+     CM-3003000-03           19    18   SB-1200027-00      6    10       SM-6061002-TP     19     7   WP-0531000-SD     10    30
+     CQ-2000000-01           18    57   SB-1200027-00      6    11       SM-8040412-TP      4    21   WP-0531001-SC     21    15
+     CQ-2500000-01           18    54   SB-4080001-00     12    27       SM-8040612-TP      2    51   WP-0550800-SP     12    20
+     CS-0800881-TP           16    22   SB-4080001-00     12    33       SM-8050402-TP     18     1   WP-0550800-SP     12    43
+     CS-1000881-TP            6    39   SB-4080001-00     14    18       SM-8050402-TP     18     2   WP-0621016-SD      8     8
+     CS-1201171-TP           12     7   SB-4080001-00     19    11       SM-8050502-TP      4    22   WP-0621016-SD     16    45
+                                        SB-4120001-00     12     6       SM-80506A2-TP      6    40   WP-0621016-SH     16    59
+     D1524-555-EBL           24     7   SD-0500403-TP     16    25       SM-80506A2-TP     10    37   WP-0621016-SH     16    78
+     D8204-555-D00           26    21   SD-0500701-TP     16    50       SM-80506A2-TP     16    23   WP-0650876-SD     22    22
+     D8226-555-E00           26     7   SD-0630275-SP     16    75       SM-80506A2-TP     16    31   WP-0820516-SP     12    32
+                                        SD-0641456-TP     16    38       SM-8050612-TP     10    61   WP-0871602-SE     26    28
+     EA-9500B01-00            2    36   SD-0720331-SP     22    19       SM-8050612-TP     19    10   WP-1612616-SE     21    22
+     EA-9500B01-00            6    29   SK-3311600-SE     26    19       SM-8050802-TP     20    16   WS-0410002-KR     16    43
+     EA-9500B01-00           20    19   SK-3382001-SC     26    15       SM-80606A2-TP      6    19   WS-0510002-KN     21    14
+     EA-9500B01-00           23    17   SK-3415001-SE     27     6       SM-80606A2-TP     10    39   WS-0861410-KR     26    27
+                                        SK-3513200-SC     26    22       SM-80606A2-TP     10    42
+     GPK-26023000             8    51   SL-4031081-SC     20    14       SM-80606A2-TP     12     8   105-23702         10    33
+     GPK-700010A0            26     9   SL-4031491-SC     12    37       SM-80606A2-TP     16    64   106-18304         16    49
+     GPK-710010A0            26    20   SL-4040881-SC      2    72       SM-80606A2-TP     24    28   110-15906         14     4
+     G1812-870-000           14    12   SL-4041281-SC      2    74       SM-80608A2-TP      2     7   110-28008          2    77
+                                        SL-4051091-SC     18    30       SM-80608A2-TP      2    56   110-38650         14    29
+     HM-0022300-00           12    36   SL-6040892-TN      2    39       SM-80608A2-TP      2    57   110-38759         14    25
+     HX-0015000-0A            8    49   SL-6040892-TN     18    24       SM-80608A2-TP      6    14   110-62007         24    31
+     HX-0015000-0K           18    43   SL-6051492-TN      2    15       SM-80608A2-TP      6    23   110-62601         24    30
+     HX-0033900-0E            2    38   SL-6052592-TN      6    28       SM-80608A2-TP      6    26   110-75801         26     4
+                                        SM-0050801-SC      4    24       SM-80608A2-TP      6    37   110-75900         26     3
+     KX-0000002-30            2    35   SM-0050801-SC      4    33       SM-80608A2-TP      8    41   110-79506         14    36
+                                        SM-2040750-TP      2    25       SM-80608A2-TP     12    48   110-92251         24    10
+     MAO-11532000            27     7   SM-2040955-TP      2    24       SM-80608A2-TP     14    24   111-55108         26    17
+     MC-2005007-52           23    27   SM-4040601-SC      8    50       SM-80608A2-TP     16    12   111-55157         26    16
+     MC-2005013-00           24    34   SM-4040655-SP      8    12       SM-8060812-TP     16    55   111-55207         26    18
+     MDB-100B1100             6    42   SM-4040655-SP     10    48       SM-8061010-TP     16    80   111-55751         26    14
+     MDB-100B1102            23    21   SM-4040655-SP     10    59       SM-8061050-TP     16    79   111-55769         26    11
+     MDB-100B1400             6    43   SM-4040655-SP     18    14       SM-8063012-TR     22     6   111-55801         26    13
+     MDB-100B1402            23    20   SM-4040855-SP      2    17       SM-8081652-TP      6    18   111-56007         26    12
+     MDB-100B2100            24     4   SM-4041055-SP      8    13       SM-8081652-TP     24    27   111-57559         26    10
+                                        SM-4041255-SP     12    39       SM-8480652-TP     12    25   111-57567         26     8
+     NM-6030001-SC           20    15   SM-4041455-SN      2    10       SM-8480652-TP     16    29   111-59407         26    25
+     NM-6040001-SE           16    42   SM-4050655-SP      2    21       SM-8480652-TP     19    15   111-59456         26    23
+     NM-6040001-SP           16    67   SM-4050655-SP      2    54       SM-9040650-TP     12    17   111-59506         26    26
+     NM-6050001-SC           16    16   SM-4050655-SP     16    10       SM-9061203-SE     22    29   114-03003         24    32
+     NM-6050001-SE           21    11   SM-4050855-SP      2     2       SM-9061853-SR     22    20   114-19504         16    83
+     NM-6050001-SE           21    13   SM-4050855-SP     10    31       SM-9061853-SR     22    21   114-19603         16    84
+     NM-6050001-SE           21    25   SM-4050855-SP     19    17       SM-9086523-SE     26    24   114-19702         16    85
+     NM-6060001-SC           16    58   SM-4051055-SP      2    13       SQ-2050453-MZ     18    63   114-19801         16    86
+     NM-6060001-SE           22     5   SM-4051055-SP      4    31       SS-4080620-TP     12    30   114-19900         16    87
+
+
+
+                                                                     -       -
+NUMERICAL INDEX OF PARTS
+
+
+   PART NO   PAGE   REF     PART NO   PAGE   REF         PART NO   PAGE   REF     PART NO   PAGE   REF
+                    NO                       NO                           NO                       NO
+
+ 114-20601     16     6   236-10306      8    21       400-44065     27     2   401-08402     21     1
+ 133-02708      2    42   236-16709     10    21       400-44857      6    12   401-12420      2    65
+ 133-19405     12    26   236-26005      2    61       400-50582      8     2   401-35803     23     1
+ 137-38802     16    82   236-26005     24    14       400-50583      8    36   401-35904      6    15
+                          236-26104      2    78       400-52933      2    55   401-35905      6    31
+ 225-02504     23    15   236-26807      8     3       400-53411     24    25   401-35907      6    35
+ 228-90206     14    31   236-28803     18    46       400-55058     24    24   401-35916      6    16
+ 228-90305     14    32   236-28902     18    47       400-55591     23    16   401-36258     18    62
+ 228-90404     14    30   236-29207     18    53       400-55604     24    11   401-36700      8    15
+ 228-96252     14    34   236-29256     18    52       400-58504     10    16   401-36701     16    14
+ 229-01300      2    33   236-29306     18    28       400-61215     16    34   401-41440      6    44
+ 229-01409      6     2   236-29405     18    27       400-61246     10    15   401-45927     14    10
+ 229-01409     18    51   236-29405     18    34       400-61767     24     3   401-49785     18    20
+ 229-01805      2    52   236-30007     18    26       400-62168     16    19   401-63141     20    13
+ 229-04106     10    23   236-30007     18    36       400-62321     22     1   401-68860     16    94
+ 229-04155     10    22   236-30007     18    56       400-63697     24    29   401-68921     19     4
+ 229-06309      6    47   236-30106     18    25       400-64805     27     3   401-68922     12    10
+ 229-06408      6     4   236-30106     18    38       400-64806     27     4   401-69408     20    12
+ 229-06457      6     3   236-30403     18    41       400-64839     24     8   401-72134     10    25
+ 229-07406      8    14   236-30502     18    42       400-65564     27     5   401-72135     14    16
+ 229-07802      8    32   236-30601     18    35       400-65571     27     1   401-72137     12     2
+ 229-08008      8    26   236-30601     18    40       400-65572     27     8   401-72138     10    44
+ 229-08552      8    34   236-30650     18    39       400-75404     18    59   401-72146      6    27
+ 229-11002     10    19   236-39008     22     2       400-85784     21    17   401-72362      2     1
+ 229-11101     10    11   236-39107     22     4       400-85785     21    18   401-72366      2    14
+ 229-12307     10    54   236-39156     22     3       400-85786     21     2   401-72367      2    30
+ 229-16506     14     3   236-39206     22     7       400-85787     21     3   401-72368      2    32
+ 229-16555     14     2   236-39305     22     8       400-85788     21     4   401-72369      2    29
+ 229-20300      8     5   236-39404     22     9       400-85789     21     5   401-72370      2    31
+ 229-20409      8     6   236-39503     22    10       400-85790     21     6   401-72371      2     3
+ 229-21209      2    60   236-39602     22    11       400-85791     21     7   401-72373      2     4
+ 229-21308      4    27   236-39701     23    12       400-85792     21    19   401-72374      2     5
+ 229-21407      2    62   262-60208      4     3       400-85793     21    20   401-72375      2    11
+ 229-21407      4    28   262-60307      4     4       400-85794     21     8   401-72376      2    12
+ 229-21506      2    63   262-60406      4     5       400-85795     21     9   401-72377      6    25
+ 229-21506      4    29   262-60505      4     6       400-85796     21    23   401-72378     10    46
+ 229-21605      2    64   262-60604      4     7       400-86597      6    20   401-72380      4     1
+ 229-21704      2    69   262-60802      4     8       400-86602      6     8   401-72381      4     2
+ 229-21704      4    30   262-61206      4    10       400-86604      6    48   401-72382      4    16
+ 229-21803      2    66   262-61305      4    11       400-86605      6     9   401-72383      4     9
+ 229-25101     18    58   262-61503      4    12       400-86606      8    17   401-72384      2    73
+ 229-26000     23     4   262-61602      4    13       400-86607      8    18   401-72386     20     7
+ 229-26208     23     6   262-61701      4    14       400-86616     10    45   401-72390      2    37
+ 229-26356     23     7                                400-86623     16    68   401-72391      2    18
+ 229-26505     23     3   400-00264     24    12       400-86624     16    63   401-72392      2    22
+ 229-31604     23    10   400-00344     18    21       400-86635     16    54   401-72393      6    22
+ 229-32404     22    14   400-04171      6    17       400-86639      2    68   401-72398      6    21
+ 229-32453     22    13   400-04171     24    26       400-86640      2    59   401-72399      6     1
+ 229-32800     23     9   400-09037      2    71       400-86691     14    13   401-72401      8    39
+ 229-33105     23    13   400-10278     19     8       400-86692     14    14   401-72402      8    40
+ 229-33204     23    14   400-10805     14    11       400-86695     10    35   401-72403      8    42
+ 229-34202     22    24   400-11144      4    15       400-86696     10    36   401-72417      4    17
+ 229-34251     22    23   400-13595     18    32       400-86697     18    22   401-72418      6    24
+ 229-34301     22    25   400-15671     16    66       400-86699     19    14   401-72420     20     8
+ 229-34400     22    26   400-23223     24    33       400-86709     16    89   401-72421     26     2
+ 229-34509     22    27   400-24124     24    23       400-86711     16    46   401-72422     20     3
+ 229-34608     22    28   400-24845     24    20       400-86712     16    52   401-72423     20     4
+ 229-34707     22    15   400-26277     10    10       400-86731      6    46   401-72430     18    16
+ 229-44508      8    11   400-26281     10    28       400-86735     10    34   401-72433     18    17
+ 229-45414      2    44   400-26282     10    32       400-86736     10    40   401-72436     18    29
+ 229-45604      2    46   400-29398     16    37       400-86748     16    65   401-72437     18    19
+ 229-45703      2    47   400-32269      6    38       400-88958      4    25   401-72439     12    41
+ 229-45802      2    48   400-35589      2    16       400-88959      4    26   401-72440     12    28
+ 229-50000     16    76   400-36706      8    44       400-89605     24     1   401-72443     12    14
+ 229-52501     10    56   400-36997     16    35       400-89663     23     8   401-72444     12    18
+ 229-58003     23     5   400-36998     16    33       400-90058      6     6   401-72446     12    21
+ 229-58052     23     2   400-37005     10    27       400-90099     16    61   401-72448     12    24
+ 229-63409      2    45   400-37008      4    32       400-95843     16    62   401-72451     12    34
+ 229-63458      2    43   400-37141      8    23       400-96325     21    21   401-72452     12    35
+ 229-64001     14    26   400-37144      8    24       400-96326     21    10   401-72453     12    29
+ 229-64001     23    26   400-37313     24    13       400-96327     21    12   401-72454     12    23
+ 236-05207      6    13   400-37359      8    22       401-02087     23    18   401-72455     12    12
+ 236-09456      8    27   400-37365     10     9       401-02261      2    26   401-72456     19     6
+ 236-09605      8    30   400-38328     18    48       401-07708     24     2   401-72457     19    13
+ 236-10207      8    16   400-42079     10    17       401-08401     21    16   401-72458     19    12
+
+
+
+                                         -         -
+NUMERICAL INDEX OF PARTS
+
+
+   PART NO   PAGE   REF     PART NO   PAGE   REF       PART NO   PAGE   REF   PART NO   PAGE   REF
+                    NO                       NO                         NO                     NO
+
+ 401-72459     19     2   401-74349      6    41
+ 401-72460     10    41   401-74351     14    27
+ 401-72461     12    38   401-74353     24     9
+ 401-72467     10    38   401-74356     18    60
+ 401-72469     18     6   401-74358     18     3
+ 401-72477     16    26   401-74359     18     4
+ 401-72477     16    95   401-74360     18     7
+ 401-72478     16    27   401-74361     18     8
+ 401-72479     16    28   401-74362     18    13
+ 401-72480     16    30   401-74365     18    44
+ 401-72481     16    20   401-74366     19     1
+ 401-72482     16    21   401-74368      2     8
+ 401-72483     16    57   401-74369     14    23
+ 401-72484     16    24   401-74372     19    16
+ 401-72485     16    92   401-74373      2    49
+ 401-72486     16     2   401-74377      8    28
+ 401-72487     16     3   401-74382     23    25
+ 401-72488     16    93   401-74385      2    53
+ 401-72489     16     5   401-74387      8    25
+ 401-72490     16    69   401-74388      8    38
+ 401-72491     16    39   401-74389      8     1
+ 401-72494     16    40   401-74392      2    50
+ 401-72495     16    53   401-74394     18    12
+ 401-72496     16    56   401-74396     12    50
+ 401-72497     16     7   401-74398     16    88
+ 401-72498     16     9   401-74399     18    61
+ 401-72499     16    11   401-74405     10    58
+ 401-72500     16    17   401-74408     20    17
+ 401-72501     16    72   401-74410     26     1
+ 401-72502     16    73   401-74570     23    11
+ 401-72503     16    74   401-74573      8    46
+ 401-72504     16    71   401-74575      2    58
+ 401-72508     10    43   401-74577     12    46
+ 401-72509     10    49   401-74580     20     9
+ 401-72510     10    50   401-74581     12    15
+ 401-73459     20     6   401-74582     12    16
+ 401-73460     20     1   401-74583     16    41
+ 401-73461     20     2   401-74584     16    44
+ 401-73462     20    11   401-74590     12     1
+ 401-73467     12    40   401-75585     20    18
+ 401-74291     10    47   401-75822     23    24
+ 401-74293     10    52   401-75824     23    22
+ 401-74294     10    53   401-75870     23    23
+ 401-74296     10     1   401-78658     18    37
+ 401-74297     10     2
+ 401-74298     10     7
+ 401-74299     10    26
+ 401-74300     10    13
+ 401-74302     10    14
+ 401-74305      2    20
+ 401-74306     18    11
+ 401-74307     18    33
+ 401-74314     16    96
+ 401-74315     16    90
+ 401-74316     16    91
+ 401-74317     10    60
+ 401-74318     16     4
+ 401-74319     16     1
+ 401-74321     12     5
+ 401-74323     16    13
+ 401-74324     16    15
+ 401-74325     12     9
+ 401-74328     14     1
+ 401-74331     14     6
+ 401-74332     14     7
+ 401-74333     14    17
+ 401-74334     12    49
+ 401-74335     14    19
+ 401-74336     14    20
+ 401-74337     14    21
+ 401-74338     14    22
+ 401-74341      6    30
+ 401-74342      6    32
+ 401-74343      6    33
+ 401-74344      6    34
+
+
+
+                                                   -    -
+

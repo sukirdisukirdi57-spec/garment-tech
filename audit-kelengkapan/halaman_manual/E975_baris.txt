@@ -1,0 +1,6 @@
+overload applied with an excessive load. runs smoothly.
+E975 | Presser motor * Presser motor maloperation.
+
+IPM over-current
+
+protection

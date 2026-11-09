@@ -1,0 +1,2 @@
+﻿local_part_id,local_catalog,part_number,local_part_name,status_awal,keputusan_audit,mekanisme_usulan,rujukan_katalog,catatan_auditor
+12559,57,SA4354001,"SHOULDER SCREW, 6-1.8",KANDIDAT_PART_BARU,PERLU_VERIFIKASI_KATALOG,BELUM DITETAPKAN,Cocokkan dengan diagram dan daftar komponen resmi Brother BAS-311HN/326H; kecocokan submodel -03S belum terkonfirmasi.,"Nama menunjukkan shoulder screw dengan spesifikasi 6-1.8, tetapi fungsi dan lokasi pemasangan belum diketahui. Verifikasi diagram resmi serta kecocokan untuk BAS-311HN-03S."

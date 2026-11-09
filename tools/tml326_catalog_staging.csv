@@ -1,0 +1,2 @@
+﻿model,machine_id,document_type,title,source_url,action,evidence,approval_status
+TML326,215,Product Catalog,PEGASUS TML Series Catalog,https://www.pegasus.co.jp/en/imgs/machine/series/pdf/e_TML_leaf.pdf,PROPOSE_ADD_SUPPORTING_CATALOG,"Katalog seri resmi PEGASUS; referensi identitas dan seri mesin, bukan manual troubleshooting lengkap.",PENDING_REVIEW

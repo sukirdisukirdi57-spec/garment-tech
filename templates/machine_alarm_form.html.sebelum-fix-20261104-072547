@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    <h2>{{ form_title }}</h2>
+    <p>Mesin: <strong>{{ machine["model"] }}</strong></p>
+
+    {% if error %}
+        <p style="color: #b00020;"><strong>{{ error }}</strong></p>
+    {% endif %}
+
+    <form method="POST">
+        <input type="hidden" name="_csrf_token" value="{{ csrf_token() }}">
+
+        <label>Kode alarm *</label>
+        <input type="text" name="alarm_code" required
+               value="{{ alarm['alarm_code'] if alarm else '' }}">
+
+        <label>Nama alarm *</label>
+        <input type="text" name="alarm_name" required
+               value="{{ alarm['alarm_name'] if alarm else '' }}">
+
+        <label>Kemungkinan penyebab</label>
+        <textarea name="possible_cause" rows="4">{{ alarm['possible_cause'] if alarm else '' }}</textarea>
+
+        <label>Solusi / tindakan</label>
+        <textarea name="solution" rows="5">{{ alarm['solution'] if alarm else '' }}</textarea>
+
+        <label>Judul manual *</label>
+        <input type="text" name="manual_title" required
+               value="{{ alarm['manual_title'] if alarm else '' }}">
+
+        <label>Versi manual</label>
+        <input type="text" name="manual_version"
+               value="{{ alarm['manual_version'] if alarm else '' }}">
+
+        <label>Bab manual</label>
+        <input type="text" name="manual_chapter"
+               value="{{ alarm['manual_chapter'] if alarm else '' }}">
+
+        <label>Halaman manual</label>
+        <input type="number" min="1" name="manual_page"
+               value="{{ alarm['manual_page'] if alarm and alarm['manual_page'] is not none else '' }}">
+
+        <label>URL sumber manual</label>
+        <input type="url" name="source_url"
+               value="{{ alarm['source_url'] if alarm else '' }}">
+
+        <label>Catatan sumber</label>
+        <textarea name="source_note" rows="3">{{ alarm['source_note'] if alarm else '' }}</textarea>
+
+        <button type="submit">{{ submit_label }}</button>
+        <a href="/machine/{{ machine['id'] }}#official-alarms">Batal</a>
+    </form>
+</div>
+{% endblock %}

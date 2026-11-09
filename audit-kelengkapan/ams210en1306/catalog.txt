@@ -1,0 +1,230 @@
+    AMS-210EN-1306/7450
+    Computer-controlled Cycle Sewing Machine with Input Function (Name Embroidery type)
+
+
+    This is the name (alphabetic/Japanese/Chinese characters) embroidering machine
+          which achieves the highest sewing speed of 2,000 sti/min.
+
+
+
+
+Features   The maximum sewing speed of 2,000 sti/min is
+           the highest one in the industrial sewing machine industry.
+           The machine produces beautifully finished seams
+           with a lower tension applied to the thread.
+           No exclusive embroidery frame is required.
+           The machine is provided with an operation panel
+           with an input function which supports USB.
+           The machine is able to embroider names
+           (alphabetic/Japanese/Chinese characters) continuously.
+
+
+
+
+AMS-210EN                                                                  -1306/ 7450
+Computer-controlled Cycle Sewing Machine with Input Function (Name Embroidery type)
+    This is the name (alphabetic/Japanese/Chinese characters)
+    which achieves the embroidering-machine industry's highest
+    The sewing machine is a computer-controlled cycle machine provided with an input function.
+    the sewing machine carries out the entire sequence of embroidering according to the preliminarily
+    in a fully-automatic manner. With this function, the machine enables even an inexperienced operator
+
+
+
+
+ Industry's highest sewing speed                                     No exclusive embroidery frame is required.
+This model has achieved the industry's highest sewing speed of      Since the machine does not need an exclusive embroidery frame,
+2,000 sti/min. Productivity is substantially increased.             it is easy to place the product to be embroidered on the sewing
+                                                                    machine, thereby increasing work efficiency.
+
+
+ The machine produces beautifully finished                           The machine is provided with an operation panel
+ seams with a lower tension applied to the thread.                   with an input function which supports USB.
+The thread tension controller with its rotary tension mechanism,    The machine has adopted the IP-420 with a large LCD panel and
+which is specific to embroidering, is adopted for the machine to    input functions as its operation panel. The operation panel supports
+promise beautifully finished name (alphabetic/Japanese/Chinese      USB, and various USB flash drives are also applicable. In addition,
+characters) embroideries with a lower thread tension. (Embroidery                                  the finished shape of the name
+thread can be used.)                                                                               embroidery is displayed on the LCD
+                                                                                                   panel screen. Consequently, the
+                                                                                                   operator can operate the sewing
+                                                                                                   machine while visually checking the
+                                                                                                   finished name embroidery shape.
+                                                                                                   The sewing machine can be directly
+                                                                                                   connected to a personal computer on
+                                                                                                   which PM-3 (name embroidery data
+                                                                                                   creation software) has been installed
+                                                                                                   by way of a USB cable (separately
+                                                                                                   available).
+                                                                                                   PM-3 is required to input
+                                                                                                   the characters of a name.
+
+
+
+
+ The sewing machine is capable of continuously                                                                             PC (PM-3)
+ carrying out embroidering of several different names.
+Data on several different name embroideries can be input. The
+sewing machine stops every time it completes the embroidering of
+                                                                                                         mini              MS
+one name. As a result, the sewing machine is able to embroider                                          SD      SD   CF           SM
+several different names continuously.
+                                                                                                                USB card reader
+
+
+
+ Embroidery Sample
+embroidering machine
+sewing speed of 2,000 sti/min.
+Once the operator places a piece of material on the sewing machine,
+input name data from start to the thread trimming under finish
+to beautifully and speedily embroider names with accuracy.
+
+
+
+
+                                      PM-3 Name embroidery data creation software
+                                      This software is developed exclusively for creating embroidery data.
+                                      With the software, the operator is able to enter/edit new/existing data as if he/she were operating
+                                      word processer software. The font data can be converted to the embroidery data.
+
+
+
+
+        Character data can be created with ease.
+                                                                                                    Embroidery data can be easily created simply by
+                                                                                                    inputting the character to be embroidered, selecting the
+                       1                    2              3    4
+                                                                                                    font and clicking the relevant icon.
+                                                                                                    1 Character entry box
+                                                                                                    2 Font selection box
+                                                                                                    3 Character size
+                                                                                                    4 Interval between characters
+
+                                                                                                     Data creation flow                         Input a character to be
+                                                                                                                Input a character.              embroidered in the
+                                                                                                                                                "character entry box".
+                                                                                                                                                Select the font to be
+                                                                                                                  Select a font.                employed in the
+                                                                                                                                                "font selection box".
+                                                                                                        Setting of the character size and       Select (input) the character
+                                                                                                                                                size and the interval between
+                                                                                                          interval between characters           characters.
+
+                                                                                                      Conversion of the entered characters
+                                                                                                                                                Click the "Stitch" icon.
+                                                                                                             into embroidery data
+
+                                                                                                         Transfer the data to the AMS.
+       Character entry screen
+
+
+
+
+        Many different editing functions                                                      Many different character fonts
+       Not only enlargement/reduction in                                                    The sewing machine has 80 or more different built-in
+       size, rotation, move and copy of                                                     alphabetical fonts. True Type Fonts prepared by Windows
+       the characters, but also changes                                                     are also applicable.
+       in sewing pitch and stitching order
+       and the insertion of thread
+       trimming can be carried out with
+       ease. It is also possible to read
+       images through the scanner to
+       create data on embroidery
+       (single-pattern embroidery).
+
+
+
+
+        Three different languages, i.e., English,                                           Example of an
+                                                                                            alphabetical font
+        Chinese and Japanese are supported.
+       The sewing machine supports three different languages;
+       English, Chinese and Japanese.
+
+
+                                                                                                                      Windows True Type Font selection screen
+
+
+        Operating environment of PM-3
+        CPU: Intel Pentium4 2.2 GHz or higher, or an equivalent processer is recommended.                CD-ROM drive, mouse and USB port(s) are required.
+        HDD: 1 G or more of space is recommended.                                                        OS: Windows XP, Windows VISTA, Windows 7
+        Screen resolution: 1024×768 pixels or larger, and 65,000 colors or higher are recommended
+             SPECIFICATIONS
+           Model name                                                                                              AMS-210EN-1306/7450
+           Max. sewing speed                                                                                             2,000sti/min
+           Sewing area                                                                                              X 130mm × Y 60mm
+           Application                                                                                       Standard (Light- to medium-weight)
+           Feeding frame type                                                                                      Monolithic feeding frame
+                                                                                                      Motor-driven feeding frame (lifting amount: 25mm)
+           Settable stitch length                                                                                0.1 12.7mm (0.05mm step)
+           Needle bar stroke                                                                                               41.2mm
+           Lift / Stroke of the intermediate presser                                             Lifting amount: 20mm / Stroke: Standard 4mm (0 10mm)
+           Variable lower position of the intermediate presser                                              Standard 0 3.5mm (max. 0 7.0mm)
+           Needle thread tension                                                                                         Rotary type
+           Hook                                                                                                     Standard shuttle hook
+           Needle                                                                                                        DP×17(#11)
+           Storage of pattern data in the memory                                   Main-body memory: Max. 500,000 stitches, 999 patterns (max. 50,000 stitches / pattern)
+                                                                                   External media: Max. 50,000,000 stitches, 999 patterns (max. 50,000 stitches / pattern)
+           Bobbin thread / Product counter                                                                      Up / Down system (0 9,999)
+           Lubrication                                                                        Semi-dry / hook section: minute-quantity lubrication (tank system)
+           Lubricating oil                                                                            JUKI New Defrix Oil No.2 (equivalent to ISO VG32)
+           Sewing machine motor                                                                           AC servomotor 550W (direct-drive system)
+           Power requirement / Power consumption                                                          Single-phase, 3-phase 200 240V/450VA
+           Weight                                                                                         Machine head: 69kg, Control box: 16.5kg
+           Dimensions                                                                       1,200mm(W)×710mm(D)×1,200mm(H) (thread stand is not included)
+           "sti/min" stands for "Stitches per Minute."
+
+
+
+
+             WHEN YOU PLACE ORDERS
+                   Machine head                                  Sewing area                      Code                      Subclass                      Code                   Pedal switch                     Code
+                                                              X:130mm - Y:60mm                    1306            Name embroidery type                    7450              2-pedal (PK78 type)                      C
+
+
+
+
+                              A M S 2 1 0 E N S S 1 3 0 6 S                                                                                                  7 4 5 0 C
+
+                                      Application                 Code                Feeding frame type                       Code          PM-3(Embroidery data creation software) Code
+                                      Standard                                           Stanndard                                                                  Not provided                                      Z
+                                                                     S                                                            S
+                             (Light- to medium-weight)                          (Motor-driven feeding frame)
+                                                                                                                                                                       Provided                                      A
+
+
+
+                     Control box                                                                                                           Table stand
+
+                              MC 5 8 7                                I P 420F                                                                         J T A M 1
+                                                         Power supply                          Code                                                             Feeding frame type                                Code
+                                          3-phase            200 240V                             E                                                          Motor-driven work clamp                                  1
+                                                             200 240V                             K
+                                      Single-phase           200 240V (for CE)                    N
+                                                             200 240V (for China)                 U                                              To order, please contact your nearest JUKI distributor.
+
+
+
+
+                                                                The AMS-210EN-1306/7450 is an eco-friendly product which complies
+                  JUKI ECO PRODUCTS                             with JUKI ECO PRODUCTS standards for protecting the environment.
+                                                                  The sewing machine complies with the "Juki Group Green Procurement Guidelines" on the use of
+                                                                  hazardous substances, which is stricter than other restrictions, such as those of the RoHS Directive.
+                                                                For details of JUKI ECO PRODUCTS, refer to: http://www.juki.co.jp/eco_e/index.html
+                                                                 The RoHS Directive is an EU Directive limiting the use of 6 hazardous substances (lead, hexavalent chromium, mercury, cadmium, PBB and PBDE) in
+                                                                 electrical and electronic equipment. The Juki Green Procurement Guideline is the voluntarily established criteria to eliminate not only the aforementioned
+                                                                 six substances, but also other ones which also adversely affect the environment.
+
+
+
+
+                                                    2-11-1, TSURUMAKI, TAMA-SHI,
+                                                    TOKYO 206-8551, JAPAN
+                                                    PHONE : (81) 42-357-2254
+                                                    FAX : (81) 42-357-2274
+INDUSTRIAL SEWING MACHINE DIV.                      http://www.juki.com
+✽ Specifications and appearance are subject to change without prior notice for improvement.
+✽ Read the instruction manual before putting the machine into service to ensure safety.
+✽ This catalogue prints with environment-friendly soyink on recycle paper.
+                                                                                                                                                                               AUGUST, 2011 Printed in Japan(C)
+

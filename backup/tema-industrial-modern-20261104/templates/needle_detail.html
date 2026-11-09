@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ needle['brand'] or 'Jarum' }} {{ needle['needle_system'] or '' }} | GarmentTech</title>
+    <meta name="description" content="Detail sistem, ukuran, nomor produsen, dan referensi jarum mesin jahit industri.">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="needle-catalog-page">
+<header>
+    <h1>🪡 DETAIL JARUM</h1>
+    <p>Garment Machine Tech Database</p>
+</header>
+<main class="needle-main">
+    <nav class="needle-nav">
+        <a href="/needle-catalog">← Kembali ke Katalog Jarum</a>
+        <a href="/">Beranda</a>
+    </nav>
+
+    <section class="needle-panel">
+        <h2>{{ needle['brand'] or 'Merek belum diisi' }}</h2>
+
+        {% if needle['needle_system'] %}
+        <p><strong>Sistem jarum:</strong> {{ needle['needle_system'] }}</p>
+        {% endif %}
+
+        {% if needle['size_nm_value'] is not none %}
+        <p><strong>Ukuran NM:</strong> {{ needle['size_nm_value']|int if needle['size_nm_value'] == needle['size_nm_value']|int else needle['size_nm_value'] }}</p>
+        {% endif %}
+
+        {% if needle['manufacturer_size'] %}
+        <p><strong>Nomor produsen:</strong> {{ needle['manufacturer_size'] }}</p>
+        {% endif %}
+
+        {% if needle['size_nm'] and needle['size_nm_value'] is none and not needle['manufacturer_size'] %}
+        <p><strong>Ukuran asli dari data:</strong> {{ needle['size_nm'] }}</p>
+        {% elif needle['size_nm'] %}
+        <details class="needle-original">
+            <summary>Lihat format ukuran asli</summary>
+            <p>{{ needle['size_nm'] }}</p>
+        </details>
+        {% endif %}
+
+        {% for label, key in [
+            ('Kode ujung', 'point_code'),
+            ('Deskripsi ujung', 'point_description'),
+            ('Bahan / aplikasi', 'material_application'),
+            ('Kode produk', 'product_code'),
+            ('Keterangan', 'description'),
+            ('Status verifikasi data', 'verification_status')
+        ] %}
+            {% if needle[key] %}
+            <p><strong>{{ label }}:</strong> {{ needle[key] }}</p>
+            {% endif %}
+        {% endfor %}
+
+        {% if needle['source_url'] %}
+        <p><strong>Sumber data jarum:</strong>
+            <a href="{{ needle['source_url'] }}" rel="noopener noreferrer" target="_blank">Buka referensi</a>
+        </p>
+        {% endif %}
+        {% if needle['verification_notes'] %}
+        <p><strong>Bukti verifikasi:</strong> {{ needle['verification_notes'] }}</p>
+        {% endif %}
+        {% if needle['verified_at'] %}
+        <p><strong>Waktu verifikasi:</strong> {{ needle['verified_at'] }}</p>
+        {% endif %}
+        {% if session.get('admin_logged_in') %}
+        <p><a href="/admin/needle/{{ needle['id'] }}/edit">Edit data jarum (admin)</a></p>
+        {% endif %}
+        <p class="needle-muted">Dibuat: {{ needle['created_at'] }}</p>
+    </section>
+
+    <section class="needle-panel">
+        <h2>Catatan Kecocokan Jarum dan Mesin</h2>
+        <div class="needle-compat-warning">
+            <strong>Perhatian: kecocokan belum tentu terjamin.</strong>
+            <p>Daftar berikut menunjukkan relasi yang tercatat di database, bukan jaminan bahwa jarum cocok digunakan. Periksa sistem jarum, ukuran, varian mesin, dan manual resmi sebelum memilih jarum.</p>
+        </div>
+
+        {% if compatible_machines %}
+        <div class="needle-compat-list">
+            {% for machine in compatible_machines %}
+            <article class="needle-compat-card">
+                <h3>{{ machine['brand_name'] }} — {{ machine['model'] }}</h3>
+                <p><strong>Status:</strong> {{ machine['compatibility_status'] or 'Belum diverifikasi' }}</p>
+                {% if machine['notes'] %}
+                <p><strong>Catatan:</strong> {{ machine['notes'] }}</p>
+                {% endif %}
+                {% if machine['source_url'] %}
+                <p><strong>Sumber kompatibilitas:</strong>
+                    <a href="{{ machine['source_url'] }}" rel="noopener noreferrer" target="_blank">Buka referensi</a>
+                </p>
+                {% endif %}
+            </article>
+            {% endfor %}
+        </div>
+        {% else %}
+        <p>Belum ada relasi mesin yang dicatat untuk jarum ini. Jangan menyimpulkan kompatibilitas hanya dari kesamaan merek atau sistem jarum.</p>
+        {% endif %}
+    </section>
+</main>
+<footer class="needle-footer"><a href="/needle-catalog">Katalog Jarum</a></footer>
+</body>
+</html>

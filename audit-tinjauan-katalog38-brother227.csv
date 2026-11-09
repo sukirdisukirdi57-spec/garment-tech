@@ -1,0 +1,2 @@
+﻿local_part_id,local_catalog,part_number,local_part_name,status_awal,keputusan_audit,mekanisme_usulan,rujukan_katalog,catatan_auditor
+12272,38,SA4797101,DRIVING WHEEL B-WINDER,KANDIDAT_PART_BARU,PERLU_VERIFIKASI_KATALOG,H - Bobbin winder mechanism (usulan),Cocokkan dengan diagram dan daftar komponen resmi Brother BAS-311HN/326H; kecocokan submodel -03S belum terkonfirmasi.,Nama mengarah ke roda penggerak bobbin winder. Mekanisme H hanya usulan berdasarkan nama; periksa posisi pada diagram resmi dan verifikasi kecocokan submodel BAS-311HN-03S.

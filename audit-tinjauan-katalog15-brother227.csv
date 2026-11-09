@@ -1,0 +1,5 @@
+﻿local_part_id,local_catalog,part_number,local_part_name,status_awal,keputusan_audit,mekanisme_usulan,rujukan_katalog,catatan_auditor
+12484,15,S23418002,SCREW M4X5,KANDIDAT_PART_BARU,PERLU_VERIFIKASI_KATALOG,,Belum ditemukan kecocokan terverifikasi pada katalog target BAS-311HN/326H.,"Nama SCREW M4X5 ditemukan pada katalog varian BAS-326H-484, tetapi bagian dan kecocokan submodel -03S perlu diverifikasi."
+12249,15,S25235001,SCREW M8,KANDIDAT_PART_BARU,PERLU_VERIFIKASI_KATALOG,,Rujukan katalog target belum terkonfirmasi.,SCREW M8 perlu dicocokkan berdasarkan nomor komponen dan diagram katalog resmi sebelum mekanisme ditetapkan.
+12297,15,SA6451101,BEARING HOLDER ASSY,KANDIDAT_PART_BARU,IDENTITAS_DIDUKUNG_KATALOG,C5 - Feed mechanism,"Katalog resmi Brother BAS-311HN/326H, bagian C5, halaman cetak 202.",BEARING HOLDER ASSY tercantum pada bagian C5. Pastikan kecocokan konfigurasi dan submodel -03S.
+12588,15,SB6552001,REAR STAND,KANDIDAT_PART_BARU,PERLU_VERIFIKASI_KATALOG,,Rujukan katalog target belum terkonfirmasi.,REAR STAND perlu dicocokkan dengan daftar komponen dan diagram katalog BAS-311HN/326H.

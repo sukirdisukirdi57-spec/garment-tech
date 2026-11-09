@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Troubleshooting - Garment Machine Tech Database</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body id="troubleshooting">
+
+<header>
+    <h1>🔧 TROUBLESHOOTING</h1>
+    <p>Database Teknisi Mesin Garment</p>
+</header>
+
+<main>
+
+    <section class="welcome">
+
+        <h2>Data Troubleshooting</h2>
+        {% if machine_id %}
+            {% for machine in machines %}
+                {% if machine_id == machine['id']|string and machine['model'] == 'DDL-9000CS' %}
+        <div class="warning" role="alert" style="padding:12px; margin:12px 0; border:1px solid #c58b24; border-radius:6px;">
+            <strong>⚠️ PERINGATAN: DATA MASIH DRAF</strong>
+            <p>Data troubleshooting DDL-9000CS ini belum diverifikasi secara teknis. Jangan menjadikannya acuan perbaikan sebelum setiap kode, penyebab, dan langkah penanganan diperiksa terhadap manual resmi yang tepat untuk varian mesin ini. Ikuti prosedur keselamatan dan manual resmi.</p>
+        </div>
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+
+        {% if machine_id %}
+            {% for machine in machines %}
+                {% if machine_id == machine['id']|string and machine['model'] in ['MA-04', 'UAM-02', 'UAM-03', 'UAM-04'] %}
+        <div class="warning" role="alert" style="padding:12px; margin:12px 0; border:1px solid #c58b24; border-radius:6px;">
+            <strong>⚠️ CATATAN VERIFIKASI DATA MAICA</strong>
+            <p>Data troubleshooting {{ machine['model'] }} merupakan panduan pemeriksaan umum berdasarkan referensi spesifikasi mesin. Data ini bukan daftar kode alarm resmi MAICA dan belum diverifikasi satu per satu menggunakan manual troubleshooting resmi.</p>
+            <p>Kolom kode error yang kosong berarti kode resmi belum tersedia. Jangan mengarang atau menggunakan kode error yang belum dikonfirmasi.</p>
+            {% if machine['model'] == 'UAM-02' %}
+            <p>Catatan: referensi spesifikasi UAM-02 yang tersedia berasal dari sumber pihak ketiga, belum dari halaman resmi MAICA.</p>
+            {% endif %}
+        </div>
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+
+        <p><strong>📊 Jumlah hasil:</strong> {{ troubleshooting_data|length }} data troubleshooting</p>
+
+{% if session.get("admin_logged_in") %}
+<form method="POST" action="/import-troubleshooting-csv" style="margin-bottom: 20px;">
+    <button type="submit" class="add-button">
+        📥 Import Troubleshooting CSV
+    </button>
+</form>
+{% endif %}
+<form method="GET" action="/troubleshooting"
+      style="margin-bottom: 20px;">
+
+    <label for="brand_id"><strong>1. Pilih Brand:</strong></label>
+    <select id="brand_id" name="brand_id" required
+            style="width: 100%; padding: 10px; box-sizing: border-box;"
+            onchange="this.form.submit()">
+        <option value="">Pilih brand</option>
+        {% for brand in brands %}
+        <option value="{{ brand['id'] }}"
+            {% if brand_id == brand['id']|string %}selected{% endif %}>
+            {{ brand['name'] }}
+        </option>
+        {% endfor %}
+    </select>
+
+    <br><br>
+
+    <label for="machine_id"><strong>2. Pilih Seri Mesin:</strong></label>
+    <select id="machine_id" name="machine_id" required
+            style="width: 100%; padding: 10px; box-sizing: border-box;"
+            {% if not brand_id %}disabled{% endif %}>
+        <option value="">Pilih seri mesin</option>
+        {% for machine in machines %}
+            {% if brand_id == machine['brand_id']|string %}
+            <option value="{{ machine['id'] }}"
+                {% if machine_id == machine['id']|string %}selected{% endif %}>
+                {{ machine['model'] }}
+            </option>
+            {% endif %}
+        {% endfor %}
+    </select>
+
+    <br><br>
+
+    <label for="search">
+        <strong>3. Cari kode error atau gejala:</strong>
+    </label>
+    <input type="text" id="search" name="search"
+           value="{{ search or '' }}"
+           placeholder="Contoh: E71 atau masalah motor"
+           style="width: 100%; box-sizing: border-box; padding: 10px;">
+
+    <br><br>
+
+    <button type="submit" class="add-button">
+        Cari Troubleshooting
+    </button>
+
+    {% if search or machine_id or brand_id %}
+    <a href="/troubleshooting" class="back-button">
+        Hapus Pencarian
+    </a>
+    {% endif %}
+</form>
+
+        {% if troubleshooting_data %}
+
+            {% for item in troubleshooting_data %}
+
+            <div class="machine-card">
+
+                {% if item['code'] %}
+                <p><strong>Kode Error:</strong> {{ item['code'] }}</p>
+                {% endif %}
+
+                <h3>
+                    {{ item['problem'] }}
+                </h3>
+
+                {% if item['brand_name'] or item['machine_model'] %}
+                <p>
+                    <strong>Mesin:</strong>
+                    {{ item['brand_name'] or '' }}
+                    {{ item['machine_model'] or '' }}
+                </p>
+                {% endif %}
+
+                {% if item['symptoms'] %}
+                <p>
+                    <strong>Gejala:</strong><br>
+                    {{ item['symptoms'] }}
+                </p>
+                {% endif %}
+
+                {% if item['possible_cause'] %}
+                <p>
+                    <strong>Kemungkinan Penyebab:</strong><br>
+                    {{ item['possible_cause'] }}
+                </p>
+                {% endif %}
+
+                {% if item['solution'] %}
+                <p>
+                    <strong>Solusi:</strong><br>
+                    {{ item['solution'] }}
+                </p>
+                {% endif %}
+
+                {% if item['safety_notes'] %}
+                <p class="safety-notes">
+                    <strong>⚠️ Catatan Keselamatan:</strong><br>
+                    {{ item['safety_notes'] }}
+                </p>
+                {% endif %}
+
+                {% if item['source'] %}
+                <p>
+                    <strong>Sumber:</strong><br>
+                    {{ item['source'] }}
+                </p>
+                {% endif %}
+
+            </div>
+
+            {% endfor %}
+
+        {% else %}
+
+            {% if not machine_id %}
+                <p>Silakan pilih model mesin terlebih dahulu untuk mencari troubleshooting.</p>
+            {% else %}
+                <p>Belum ada data troubleshooting untuk model mesin yang dipilih.</p>
+            {% endif %}
+
+        {% endif %}
+
+        <br>
+
+        <a href="/" class="back-button">
+            ← Kembali ke Database
+        </a>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>Garment Machine Tech Database — Local System</p>
+</footer>
+
+</body>
+</html>

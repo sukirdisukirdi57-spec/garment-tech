@@ -44,10 +44,10 @@
                 <span>{{ part["part_number"] }}</span>
             </div>
 
-            {% if part["quantity"] %}
+            {% if part["quantity_raw"] or part["quantity"] is not none %}
             <div class="part-info-item">
                 <strong>🔢 Quantity</strong>
-                <span>{{ part["quantity"] }}</span>
+                <span>{{ part["quantity_raw"] or part["quantity"] }}</span>
             </div>
             {% endif %}
 
@@ -65,10 +65,17 @@
             </div>
             {% endif %}
 
-            {% if part["note"] or part["notes"] %}
+            {% if part["note"] and part["note"].startswith("#") %}
+            <div class="part-info-item">
+                <strong>🏷️ Marker Katalog</strong>
+                <span>{{ part["note"] }}</span>
+            </div>
+            {% endif %}
+
+            {% if (part["note"] and not part["note"].startswith("#")) or part["notes"] %}
             <div class="part-info-item full-width">
                 <strong>📝 Catatan</strong>
-                <span>{{ part["note"] or part["notes"] }}</span>
+                <span>{{ part["note"] if part["note"] and not part["note"].startswith("#") else part["notes"] }}</span>
             </div>
             {% endif %}
 
@@ -96,6 +103,7 @@
                     <tr>
                         <th>No</th>
                         <th>Component</th>
+                        <th>Diagram</th>
                         <th>Nomor Part Component</th>
                         <th>Lokasi</th>
                         <th>Relasi</th>
@@ -114,6 +122,22 @@
                             <a href="/component/{{ component['id'] }}">
                                 <strong>{{ component["component_name"] }}</strong>
                             </a>
+                        </td>
+
+                        <td>
+                            {% if component["image_path"] %}
+                            <a href="/component/{{ component['id'] }}">
+                                <img
+                                    src="{{ url_for('static', filename=component['image_path']) }}"
+                                    alt="{{ component['component_name'] }}"
+                                    loading="lazy"
+                                    decoding="async"
+                                    style="width: 110px; max-width: 100%; height: 80px; object-fit: contain; border-radius: 6px;"
+                                >
+                            </a>
+                            {% else %}
+                            -
+                            {% endif %}
                         </td>
 
                         <td>

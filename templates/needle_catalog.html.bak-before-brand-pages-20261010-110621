@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Katalog Jarum Mesin Jahit | GarmentTech</title>
+    <meta name="description" content="Cari sistem, ukuran NM, nomor produsen, tipe ujung, dan kompatibilitas jarum mesin jahit industri.">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="needle-catalog-page">
+<header>
+    <h1>🪡 KATALOG JARUM MESIN JAHIT</h1>
+    <p>Database Teknisi Mesin Garment</p>
+</header>
+<main class="needle-main">
+    <nav class="needle-nav">
+        <a href="/">⌂ Beranda</a>
+        <a href="/components">Komponen &amp; Spare Part</a>
+    </nav>
+
+    <section class="needle-panel">
+        <h2>Temukan Jarum yang Dibutuhkan</h2>
+        <p>Cari merek, sistem jarum, ukuran NM, nomor produsen, kode ujung, kode produk, atau mesin terkait.</p>
+
+        <form method="get" action="/needle-catalog" class="needle-search">
+            <input type="search" name="search" value="{{ search }}"
+                   placeholder="Contoh: DBx1, 90, No. 22½, JUKI..."
+                   aria-label="Cari katalog jarum">
+            <button type="submit">Cari Jarum</button>
+            {% if search %}
+            <a href="/needle-catalog">Hapus pencarian</a>
+            {% endif %}
+        </form>
+
+        {% if session.get("admin_logged_in") %}
+        <p><a class="needle-button" href="/admin/needle/add">+ Tambah Data Jarum</a></p>
+        {% endif %}
+
+        <p class="needle-count">Jumlah data: <strong>{{ needles|length }}</strong></p>
+    </section>
+
+    {% if needles %}
+    <section class="needle-results">
+        {% for needle in needles %}
+        <article class="needle-card">
+            <h3>
+                <a href="/needle/{{ needle['id'] }}">
+                    {{ needle['brand'] or 'Merek belum diisi' }}
+                    {% if needle['needle_system'] %} — {{ needle['needle_system'] }}{% endif %}
+                </a>
+            </h3>
+
+            {% if needle['size_nm_value'] is not none or needle['manufacturer_size'] %}
+            <div class="needle-size">
+                {% if needle['size_nm_value'] is not none %}
+                <p><strong>Ukuran NM:</strong> {{ needle['size_nm_value']|int if needle['size_nm_value'] == needle['size_nm_value']|int else needle['size_nm_value'] }}</p>
+                {% endif %}
+                {% if needle['manufacturer_size'] %}
+                <p><strong>Nomor produsen:</strong> {{ needle['manufacturer_size'] }}</p>
+                {% endif %}
+            </div>
+            {% elif needle['size_nm'] %}
+            <p><strong>Ukuran asli:</strong> {{ needle['size_nm'] }}</p>
+            {% endif %}
+
+            {% if needle['point_code'] %}
+            <p><strong>Kode ujung:</strong> {{ needle['point_code'] }}</p>
+            {% endif %}
+            {% if needle['product_code'] %}
+            <p><strong>Kode produk:</strong> {{ needle['product_code'] }}</p>
+            {% endif %}
+
+            <p class="needle-status">{{ needle['verification_status'] or 'Belum diverifikasi' }}</p>
+            <a href="/needle/{{ needle['id'] }}">Lihat detail →</a>
+        </article>
+        {% endfor %}
+    </section>
+    {% else %}
+    <section class="needle-panel needle-empty">
+        <h2>{% if search %}Data belum ditemukan{% else %}Katalog sedang disiapkan{% endif %}</h2>
+        <p>
+            {% if search %}
+            Belum ada data jarum yang cocok dengan pencarian ini.
+            {% else %}
+            Data akan ditampilkan setelah katalog diisi dengan spesifikasi dari sumber yang dapat diperiksa.
+            {% endif %}
+        </p>
+        {% if not search and session.get("admin_logged_in") %}
+        <a class="needle-button" href="/admin/needle/add">Masukkan data pertama</a>
+        {% endif %}
+    </section>
+    {% endif %}
+</main>
+<footer class="needle-footer"><a href="/">Garment Machine Tech Database</a></footer>
+</body>
+</html>

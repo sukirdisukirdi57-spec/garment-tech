@@ -1,0 +1,25 @@
+983-<div class="mod-linkList mar_t0">
+984-<ul>
+985-<li><a href="/en-emea/support/catalog?category=Programmable+Electronic+Pattern+Sewing+Machine">BAS-H Series Catalog</a></li>
+986:<li><a href="/en-emea/support/manual?category=Programmable+Electronic+Pattern+Sewing+Machine">BAS-311HX/BAS-326H Instruction Manual</a></li>
+987:<li><a href="/en-emea/support/manual?category=Programmable+Electronic+Pattern+Sewing+Machine">BAS-H Series Operation Panel Instruction Manual</a></li>
+988:<li><a href="/en-emea/support/manual?category=Programmable+Electronic+Pattern+Sewing+Machine">BAS-H Series Programmer Instruction Manual</a></li>
+989-<li><a href="/en-emea/support/partbook?category=Programmable+Electronic+Pattern+Sewing+Machine">BAS-311HX/BAS-326H Parts Book</a></li>
+990-</ul>
+991-</div>
+--
+1122-
+1123-                <div class="content col-xs-12 col-sm-8 col-md-8">
+1124-                    <h3 class="title">Best User Experience with LCD Touch Panel</h3>
+1125:                    <div class="description"><p>7-inch large screen and easy programming functions via LCD touch panel enable an intuitive operation. It is easily understood without the instruction manual or previous experience in fewer steps.</p></div>
+1126-                </div>
+1127-            </div>
+1128-        </div>
+--
+1624-<div class="mod-mediaBlock1_text">
+1625-<!-- 3001:paragraph -->
+1626-<p class="mod-paragraph">
+1627:7-inch large screen and easy programming functions via LCD touch panel enable an intuitive operation. It is easily understood without the instruction manual or previous experience in fewer steps.
+1628-</p>
+1629-<!-- /3001:paragraph -->
+1630- 

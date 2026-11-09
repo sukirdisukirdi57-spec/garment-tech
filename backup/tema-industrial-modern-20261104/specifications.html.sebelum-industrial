@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spesifikasi Mesin - Garment Machine Tech Database</title>
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+    <style>
+
+        .welcome {
+            background-color: #ffffff !important;
+            color: #222222 !important;
+        }
+
+        .welcome h2,
+        .welcome p,
+        .welcome strong,
+        .welcome label {
+            color: #222222 !important;
+        }
+
+        .spec-table-wrap {
+            background-color: #ffffff !important;
+        }
+
+        .spec-table,
+        .spec-table tbody,
+        .spec-table td {
+            background-color: #ffffff;
+            color: #222222;
+        }
+
+        .spec-table tbody tr:nth-child(even) td {
+            background-color: #f2f4f7;
+        }
+\n        .spec-search {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .spec-search label {
+            display: block;
+            margin-bottom: 7px;
+            font-weight: bold;
+        }
+
+        .spec-search input,
+        .spec-search select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #d1d5db;
+            border-radius: 8px;
+            background: #fff;
+            color: #222;
+            font: inherit;
+        }
+
+        .spec-search input:focus,
+        .spec-search select:focus {
+            outline: 2px solid #64748b;
+            outline-offset: 1px;
+        }
+
+        .spec-table-wrap {
+            overflow-x: auto;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .spec-table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 750px;
+            background: #fff;
+        }
+
+        .spec-table th,
+        .spec-table td {
+            border: 1px solid #e5e7eb;
+            padding: 12px;
+            text-align: left;
+            vertical-align: top;
+            line-height: 1.5;
+        }
+
+        .spec-table th {
+            background: #17202a;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .spec-table tbody tr:nth-child(even) {
+            background: #f2f4f7;
+        }
+
+        .spec-table tbody tr:hover {
+            background: #e9eef3;
+        }
+
+        .spec-table a {
+            color: #17202a;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        .spec-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: center;
+            margin-top: 15px;
+        }
+
+        .spec-actions .back-button {
+            padding: 12px 16px;
+            border-radius: 8px;
+            background: #e5e7eb;
+            color: #17202a;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .spec-actions .back-button:hover {
+            background: #d1d5db;
+        }
+
+        @media (max-width: 600px) {
+            .spec-table th,
+            .spec-table td {
+                padding: 9px;
+            }
+
+            .spec-search {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+
+    <style>
+        .spec-search,
+        .spec-search * {
+            color: #222 !important;
+        }
+
+        .spec-search label {
+            color: #222 !important;
+        }
+
+        .spec-search input,
+        .spec-search select {
+            background-color: #fff !important;
+            color: #222 !important;
+            border: 1px solid #cbd5e1 !important;
+            color-scheme: light;
+        }
+
+        .spec-search input::placeholder {
+            color: #6b7280 !important;
+            opacity: 1;
+        }
+
+        .spec-search option {
+            background-color: #fff;
+            color: #222;
+        }
+    </style>
+
+
+    <style>
+        body:has(.spec-table) main section.welcome {
+            background: #ffffff !important;
+            background-image: none !important;
+            color: #222222 !important;
+            border: 1px solid #d1d5db !important;
+        }
+
+        body:has(.spec-table) main section.welcome h2,
+        body:has(.spec-table) main section.welcome p,
+        body:has(.spec-table) main section.welcome strong,
+        body:has(.spec-table) main section.welcome label {
+            color: #222222 !important;
+        }
+
+        body:has(.spec-table) main section.welcome input,
+        body:has(.spec-table) main section.welcome select {
+            background: #ffffff !important;
+            background-image: none !important;
+            color: #222222 !important;
+            border-color: #cbd5e1 !important;
+        }
+    </style>
+
+
+    <style>
+        body:has(main .spec-search) main section.welcome {
+            background: #ffffff !important;
+            background-image: none !important;
+            color: #222222 !important;
+            border-color: #d1d5db !important;
+        }
+
+        body:has(main .spec-search) main section.welcome h2,
+        body:has(main .spec-search) main section.welcome p,
+        body:has(main .spec-search) main section.welcome strong,
+        body:has(main .spec-search) main section.welcome label {
+            color: #222222 !important;
+        }
+
+        body:has(main .spec-search) main section.welcome form {
+            background: #ffffff !important;
+            background-image: none !important;
+        }
+
+        body:has(main .spec-search) .spec-search input,
+        body:has(main .spec-search) .spec-search select {
+            background: #ffffff !important;
+            background-image: none !important;
+            color: #222222 !important;
+            color-scheme: light;
+            border-color: #cbd5e1 !important;
+        }
+    </style>
+
+</head>
+<body>
+<header>
+    <h1>📋 SPESIFIKASI MESIN</h1>
+    <p>Garment Machine Tech Database</p>
+</header>
+
+<main>
+    <section class="welcome">
+        <h2>Daftar Spesifikasi Teknis Mesin</h2>
+        <p>
+            Jumlah seluruh data spesifikasi:
+            <strong>{{ total }}</strong>
+        </p>
+
+        <form method="GET" action="/specifications">
+            <div class="spec-search">
+                <div>
+                    <label for="brand_id">Merek mesin</label>
+                    <select id="brand_id" name="brand_id">
+                        <option value="">Semua merek</option>
+                        {% for brand in brands %}
+                        <option value="{{ brand['id'] }}"
+                            {% if brand_id == brand['id'] %}selected{% endif %}>
+                            {{ brand['name'] }}
+                        </option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div>
+                    <label for="model">Model atau seri</label>
+                    <input id="model" name="model" type="text"
+                           value="{{ model_search }}"
+                           placeholder="Contoh: DDL-8000">
+                </div>
+
+                <div>
+                    <label for="specification">Cari spesifikasi atau nilai</label>
+                    <input id="specification" name="specification" type="text"
+                           value="{{ spec_search }}"
+                           placeholder="Contoh: kecepatan, jarum">
+                </div>
+            </div>
+
+            <div class="spec-actions">
+                <button type="submit" class="add-button">
+                    🔎 Cari Spesifikasi
+                </button>
+                <a href="/specifications" class="back-button">
+                    Hapus Filter
+                </a>
+                <a href="/" class="back-button">🏠 Halaman Utama</a>
+            </div>
+        </form>
+
+        <p>
+            Hasil yang ditampilkan:
+            <strong>{{ rows|length }}</strong> data
+        </p>
+
+        {% if rows %}
+        <div class="spec-table-wrap">
+            <table class="spec-table">
+                <thead>
+                    <tr>
+                        <th>Merek</th>
+                        <th>Model / Seri</th>
+                        <th>Nama Spesifikasi</th>
+                        <th>Nilai</th>
+                        <th>Catatan</th>
+                        <th>Deskripsi</th>
+                        <th>Detail</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for item in rows %}
+                    <tr>
+                        <td>{{ item['brand_name'] or '-' }}</td>
+                        <td>{{ item['model'] or '-' }}</td>
+                        <td>{{ item['specification'] or '-' }}</td>
+                        <td>{{ item['value'] or '-' }}</td>
+                        <td>{{ item['notes'] or '-' }}</td>
+                        <td>{{ item['description'] or '-' }}</td>
+                        <td>
+                            <a href="/machine/{{ item['machine_id'] }}">
+                                Lihat mesin
+                            </a>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {% else %}
+        <p>Belum ada data yang cocok dengan filter tersebut.</p>
+        {% endif %}
+    </section>
+</main>
+</body>
+</html>

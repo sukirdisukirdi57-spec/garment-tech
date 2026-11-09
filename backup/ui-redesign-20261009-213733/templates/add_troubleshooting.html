@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tambah Troubleshooting - Garment Machine Tech Database</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<header>
+    <h1>➕ TAMBAH TROUBLESHOOTING</h1>
+    <p>Garment Machine Tech Database</p>
+</header>
+
+<main>
+
+    <section class="welcome">
+
+        <h2>Data Masalah Mesin</h2>
+
+        <form method="POST">
+
+            <label for="machine_id">
+                Mesin
+            </label>
+
+            <select name="machine_id" id="machine_id" required>
+
+                <option value="">
+                    -- Pilih Mesin --
+                </option>
+
+                {% for machine in machines %}
+
+                <option value="{{ machine['id'] }}">
+                    {{ machine['brand_name'] }} - {{ machine['model'] }}
+                </option>
+
+                {% endfor %}
+
+            </select>
+
+
+            <label for="problem">
+                Masalah
+            </label>
+
+            <input
+                type="text"
+                name="problem"
+                id="problem"
+                placeholder="Contoh: Mesin tidak bisa menjahit"
+                required
+            >
+
+
+            <label for="symptoms">
+                Gejala
+            </label>
+
+            <textarea
+                name="symptoms"
+                id="symptoms"
+                rows="4"
+                placeholder="Jelaskan gejala yang terlihat..."
+            ></textarea>
+
+
+            <label for="possible_cause">
+                Kemungkinan Penyebab
+            </label>
+
+            <textarea
+                name="possible_cause"
+                id="possible_cause"
+                rows="4"
+                placeholder="Contoh: sensor rusak, kabel putus, setting salah..."
+            ></textarea>
+
+
+            <label for="solution">
+                Solusi
+            </label>
+
+            <textarea
+                name="solution"
+                id="solution"
+                rows="5"
+                placeholder="Jelaskan langkah pemeriksaan dan solusi..."
+            ></textarea>
+
+
+            <label for="safety_notes">
+                ⚠️ Catatan Keselamatan
+            </label>
+
+            <textarea
+                name="safety_notes"
+                id="safety_notes"
+                rows="4"
+                placeholder="Catatan keselamatan sebelum melakukan perbaikan..."
+            ></textarea>
+
+
+            <label for="source">
+                Sumber
+            </label>
+
+            <input
+                type="text"
+                name="source"
+                id="source"
+                placeholder="Contoh: Manual JUKI DDL-8700"
+            >
+
+
+            <button type="submit">
+                💾 Simpan Troubleshooting
+            </button>
+
+        </form>
+
+        <br>
+
+        <a href="/troubleshooting" class="back-button">
+            ← Kembali ke Troubleshooting
+        </a>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>Garment Machine Tech Database — Local System</p>
+</footer>
+
+</body>
+</html>

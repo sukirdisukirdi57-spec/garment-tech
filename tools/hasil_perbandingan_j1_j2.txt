@@ -1,0 +1,89 @@
+PERBANDINGAN KATALOG BROTHER
+J1 = T-8421D | J2 = T-8422D
+Jumlah nomor part unik J1 : 48
+Jumlah nomor part unik J2 : 62
+Nomor part yang sama      : 46
+Khusus J1                 : 2
+Khusus J2                 : 16
+
+============================================================================
+PART YANG SAMA (46 nomor part)
+============================================================================
+PART NUMBER      REF J1    REF J2    DESKRIPSI
+----------------------------------------------------------------------------
+012501031        36        26        アナヒラ5X10             SET SCREW SOCKET (FT) M5X10
+021500316        33        23        3シュナット5              NUT 3 M5
+025060136        22        61        ヒラザガネショウ6            WASHER PLAIN S 6
+062061016        21        60        ナベコ6X10              SCREW PAN M6X10
+062300612        39        29        ナベコ3X6               SCREW PAN M3X6
+062400616        45        35        ナベコ4X6               SCREW PAN M4X6
+115947101        15        54        ザガネ                  WASHER PLAIN 6.35
+154965001        38        28        アナボルト3.57X8          BOLT, SOCKET SM3.57X8
+S01928151        23        62        ボビン                  BOBBIN
+S07419001        27        18        ストツプリング              RETAINING RING
+S07420000        26        17        ニ-ドルベアリング            NEEDLE BEARING
+S09260001        25+       16+       スラストリングA <t=1.2>     THRUST RING A: 1.2MM <t=1.2>
+S09261001        25+       16+       スラストリングB <t=1.4>     THRUST RING, B: 1.4MM <t=1.4>
+S38212001        37        27        オ-プナ-                OPENER
+SA2556001        14        53        シメネジM6X25            SCREW, M6X25
+SA2560001        31        22        オ-プナ-リンクジク           SHAFT O-LINK
+SA2562201        2         2         カマドダイカバ-L            ROTARY HOOK BASE COVER L
+SA2563301        8         9         カマドダイカバ-R            ROTARY HOOK BASE COVER R
+SA2565001        17        56        ピンチスリ-ブB             PINCH SLEEVE B
+SA2567001        19        58        ハリスキチヨウセツイタ          NEEDLE UPPER ADJUSTING PLATE
+SA2568001        20        59        ハリスキチヨウセツジク          NEEDLE UPPER POSITIONING SHAFT
+SA2572101        40        30        スパイラルギヤ ネジツキ         SPIRAL GEAR SCREW ASSY
+SA2574001        41        31        トメネジM6ホソメ            SET SCREW, (FT) M6
+SA2575001        42        32        トメネジM6ホソメ            SET SCREW (FT) M6
+SA2579001        9         10        スラストザガネ              SPACER
+SA2722001        16        55        ピンチスリ-ブA             PINCH SLEEVE A
+SA3054001        3         3         スラストザガネL             THRUST WASHER, L
+SA3859101        30        21        オ-プナ-レバ-             OPENER LEVER
+SA3889101        34        24        オ-プナ-レバ-ジク           O-LEVER SHAFT
+SA3894001        48        38        フエルトオサエ              FELT SUPPORT
+SA4012001        47        37        フエルト                 FELT
+SA4026001        35        25        クミヒモ4X4 L=100        WICK, 4X4 L=100
+SA4029001        24        15        カマジクメタルU             ROTARY HOOK SHAFT BUSH
+SA4038001        25+       16+       スラストリング <t=1.0>      THRUST RING <t=1.0>
+SA4044001        5         5         フエルトDLクミ             FELT DL ASSY
+SA4045001        11        12        フエルトDRクミ             FELT DR ASSY
+SA4444001        25+       16+       スラストリング0.8 <t=0.8>   THRUST RING 0.8MM <t=0.8>
+SA6307201        51        50        ピニオンセット              PINION GEAR SET
+SA6417001        13        52        シメネジM4X12            SCREW M4X12
+SA6424201        4         4         フエルトULクミ             FELT UL ASSY
+SA6425201        10        11        フエルトURクミ             FELT UR ASSY
+SA6462001        6         7         カマドダイカバ-FL           ROTARY HOOK BASE COVER FL
+SA6463001        12        14        カマドダイカバ-FR           ROTARY HOOK BASE COVER FR
+SA6474001        28        19        カマジクメタルD             ROTARY HOOK SHAFT BUSH
+SB2330001        32        51        ヒラザガネショウ4.76         WASHER PLAIN S SM4.76
+SB4193001        29        20        オ-プナ-リンク             OPENER LINK
+
+============================================================================
+PART KHUSUS J1 / T-8421D (2 nomor part)
+============================================================================
+PART NUMBER      REF J1    REF J2    DESKRIPSI
+----------------------------------------------------------------------------
+SB4823101        1         -         カマドダイ842ST-LクミC      R-HOOK BASE ASSY 842ST(L) C
+SB4824101        7         -         カマドダイ842ST-RクミC      R-HOOK BASE ASSY 842ST(R) C
+
+============================================================================
+PART KHUSUS J2 / T-8422D (16 nomor part)
+============================================================================
+PART NUMBER      REF J1    REF J2    DESKRIPSI
+----------------------------------------------------------------------------
+018501232        -         48        アナボルト5X12             BOLT SOCKET M5X12
+062400812        -         42        ナベコ4X8                SCREW PAN M4X8
+141544001        -         44        シメネジ3.18              SCREW, SM3.18-40X3
+148602001        -         63        クウテンボウシバネ        ANTI-SPIN SPRING
+S07525100        -         43        シタイトホジバネ              SPRING PLATE
+S23651001        -         47        アナヒラ6X6ホソメ            SET SCREW SOCKET (FT) M6X6
+SA2670101        -         13        イトキリレバ-R              THREAD TRIMMER LEVER R
+SA2671001        -         6         イトキリレバ-L              THREAD TRIMMER LEVER, L
+SA2675001        -         46        セツトカラ-                SET SCREW COLLAR
+SA2676001        -         41        イドウハウケ                MOVABLE KNIFE BRACKET
+SA2717001        -         40        ストツパネジ                STOPPER SCREW
+SA2826001        -         64+       イトキリレバ-バネ        SPRING, EXTENSION
+SA3912001        -         45        イドウハレバ-               MOVABLE KNIFE LEVER
+SA4458001        -         64+       イトキリレバ-バネB       SPRING EXTENSION B
+SB4827101        -         1         カマドダイ842TR-LクミC       R-HOOK BASE ASSY 842TR(L) C
+SB4828101        -         8         カマドダイ842TR-RクミC       R-HOOK BASE ASSY 842TR(R) C

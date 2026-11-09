@@ -1,0 +1,3 @@
+﻿part_number,section_code,printed_catalog_page,finding,source_evidence,recommended_action,database_change
+S58908-001,Ga1,53,ASTERISK_STANDARD_STATUS,Tabel Ga1 memberi tanda * pada kode; legenda menyatakan bagian bertanda * adalah standard parts. Indeks juga mencantumkan Ga1 halaman 53 dan section E ref 115.,Tinjau staging: is_standard seharusnya YES berdasarkan legenda; hapus interpretasi Alternative marked * jika tidak ada bukti lain.,NO
+S50686-001,Ga3,55,TABLE_VS_DIAGRAM_CODE_MISMATCH,Tabel Ga3 10 mm mencantumkan S50686-001; label diagram feed dog menampilkan S48143; indeks mencantumkan S50686001 sebagai Ga3 halaman 55.,Pertahankan kedua bacaan sebagai anomali sumber. Jangan menyamakan atau mengganti kode tanpa verifikasi.,NO

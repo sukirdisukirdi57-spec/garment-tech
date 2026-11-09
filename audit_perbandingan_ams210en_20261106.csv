@@ -1,0 +1,13 @@
+﻿id,component_name,part_number,location_database,location_usulan,function_database,function_usulan,notes_database,catalog_ref_database,diagram_page_database,metadata_asli_sesuai,audit_note
+443,STOP SW ASM.,400-29632,,Sistem sakelar mesin,,Sakelar untuk fungsi penghentian mesin,,50,6,YA,STOP SW ASM.; REF 50
+444,BOBBIN_WINDER_UNIT,400-28338,,Mekanisme bobbin winder,,Menggulung benang ke bobbin,,4,8,YA,BOBBIN WINDER UNIT; REF 4
+445,BOBBIN THREAD TENSION ASM.,141-13468,,Mekanisme bobbin winder,,Mengatur tegangan benang bobbin,,28,8,YA,BOBBIN THREAD TENSION ASM.; REF 28
+446,CRANK ROD ALL ASM.,400-89367,,Mekanisme poros utama,,Meneruskan gerakan mekanis melalui crank rod,,16,12,YA,CRANK ROD ALL ASM.; REF 16
+447,LOWEW_SHAFT_GEAR_ASM,400-72009,,Mekanisme lower shaft,,Meneruskan putaran melalui rangkaian roda gigi,,4,20,YA,LOWER SHAFT GEAR ASM.; REF 4
+448,SHUTTLE_ASM.,400-89364,,Mekanisme shuttle,,Bagian dari mekanisme pengait benang bawah,,12,20,YA,SHUTTLE ASM.; REF 12
+449,WIPER_ASM,400-86363,,Mekanisme thread wiper,,Menggerakkan wiper untuk mengendalikan ujung benang,,1,22,YA,WIPER ASM.; REF 1
+450,THREAD_TENSION_1_ASM.,400-10503,,Mekanisme thread tension,,Mengatur tegangan benang,,27,23,YA,THREAD TENSION 1 ASM.; REF 27
+451,THREAD_TENSION_2_ASM._H,400-29411,,Mekanisme thread tension varian H,,Mengatur tegangan benang pada varian H,,32,23,YA,THREAD TENSION 2 ASM. H; REF 32; berbeda dari varian standar
+452,NEEDLE_PLATE_H_ASM.,400-30933,,Mekanisme needle plate dan thread trimmer,,Menopang material dan menjadi bagian area pemotongan benang,,17,24,YA,NEEDLE PLATE H ASM.; REF 17; Section 11
+453,TC_DRIVING_ARM_ASM.,400-10527,,Mekanisme thread clamp,,Menggerakkan bagian penjepit benang,,22,26,YA,TC DRIVING ARM ASM.; REF 22; Section 12
+454,X-Y_TABLE_ASM_1510,400-77999,,Mekanisme meja X-Y,,Menopang dan menggerakkan material pada sumbu X-Y,,2,28,YA,X-Y TABLE ASM. 1510; REF 2; Section 13

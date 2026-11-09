@@ -1,0 +1,57 @@
+4-6. List of errors
+
+Error
+      Description of error                         Cause                                 Item to be checked
+code
+ E000 Execution of data         • In the case the machine head is
+      initialization (This is     changed.
+      not an error.)            • In the case the initialization operation is
+                                  executed.
+ E007 Motor overload            • In the case the machine head is
+                                  changed.
+ E009 Overtime of solenoid • In the case the machine head is locked. • Check whether the pulley is entangled
+      energization         • In the case of sewing extra-heavy             with thread.
+                             weight material that exceeds the            • Check whether the motor output
+                             guaranteed material thickness.                connector has loosened.
+                           • In the case the motor fails to rotate.      • Check whether the motor can be
+                           • In the case of the motor or driver failure. turned smoothly by hand.
+ E011 Media is not inserted • In the case no media is inserted.                 • Turn the power OFF and check for a
+                                                                                  media.
+ E012 Read error                • In the case data stored on the media          • Turn the power OFF and check for a
+                                  cannot be read.                                 media.
+ E013 Write error               • In the case data cannot be written on         • Turn the power OFF and check for a
+                                  the media.                                      media.
+ E014 Write protect             • In the case the media is placed in the        • Turn the power OFF and check for a
+                                  write-prohibition state.                        media.
+ E015 Format error              • In the case formatting of the media           • Turn the power OFF and check for a
+                                  cannot be carried out.                          media.
+ E016 External media over- • In the case the capacity of media is not           • Turn the power OFF and check for a
+      capacity               enough.                                              media.
+ E032 File compatibility        • In the case the file is not compatible.       • Turn the power OFF and check for a
+      error                                                                       media.
+ E071 Slip-off of the motor     • In the case the motor connector has           • Check for looseness and slip-off of
+      connector                   slipped off.                                    the motor output connector.
+                                • Motor current detection circuit has
+                                  broken.
+                                • In the case there is no current
+                                  feedback.
+ E072 Motor overload when • Overload state occurs while the thread
+      the thread trimmer    trimming operates.
+      operates
+ E081 Feed driving motor        • In the case the feed driving motor is         • Check whether the feed driving motor
+      lock                        locked.                                         operates smoothly.
+ E204 USB insertion             • In the case the sewing machine is             • Remove the USB thumb drive.
+                                  started up without removing the USB
+                                  thumb drive.
+ E220 Warning against           • When the predetermined number of              • Add grease to the specified points of
+      shortage of grease          stitches is reached.                            sewing machine and reset the error.
+ E221 Grease-shortage           • In the case the sewing machine                • Add grease to the specified points of
+      error                       cannot continue sewing since the                sewing machine and reset the error.
+                                  predetermined number of stitches is
+                                  reached.
+
+
+
+
+                                                         – 52 –
+

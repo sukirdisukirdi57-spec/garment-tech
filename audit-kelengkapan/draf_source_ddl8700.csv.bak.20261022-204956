@@ -1,0 +1,9 @@
+﻿troubleshooting_id,status_verifikasi,source_draf
+1,BELUM TERVERIFIKASI,Belum ditemukan bagian manual yang secara spesifik mendiagnosis mesin tidak bisa menjahit. Perlu verifikasi teknisi.
+2,PENDUKUNG SEBAGIAN,"Manual JUKI DDL-8700 Instruction Manual, bagian 8 dan 14-15, halaman cetak 5, 7-8. Mendukung pemeriksaan jarum, jalur benang, dan tegangan benang; penyebab spesifik belum dipastikan."
+3,PENDUKUNG SEBAGIAN,"Manual JUKI DDL-8700 Instruction Manual, bagian 9 dan 15, halaman cetak 5 dan 8. Mendukung pemeriksaan bobbin, bobbin case, dan tegangan; diagnosis kerusakan hook perlu verifikasi."
+4,PENDUKUNG SEBAGIAN,"Manual JUKI DDL-8700 Instruction Manual, bagian 8 dan 18, halaman cetak 5 dan 9. Mendukung pemeriksaan jarum dan hubungan jarum-hook."
+247,RELEVAN,"Manual JUKI DDL-8700 Instruction Manual, bagian 15, Thread Tension, halaman cetak 8."
+248,PENDUKUNG SEBAGIAN,"Manual JUKI DDL-8700 Instruction Manual, bagian 8 dan 18, halaman cetak 5 dan 9. Mendukung pemeriksaan jarum dan hubungan jarum-hook."
+249,PENDUKUNG SEBAGIAN,"Manual JUKI DDL-8700 Instruction Manual, bagian 11 dan 19-21, halaman cetak 6 dan 9-10. Mendukung pemeriksaan tekanan sepatu dan mekanisme feed."
+250,PENDUKUNG SEBAGIAN,"Manual JUKI DDL-8700 Instruction Manual, bagian 6-7, halaman cetak 3-4, untuk pelumasan. Manual belum cukup untuk memastikan penyebab semua suara atau getaran abnormal."

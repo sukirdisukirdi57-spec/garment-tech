@@ -1,0 +1,31 @@
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (8730): No font in show
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (131467): No font in show
+Syntax Error: Unknown font tag 'G2'
+Syntax Error (132425): No font in show
+Syntax Error: Unknown font tag 'G2'
+Syntax Error (132444): No font in show
+Syntax Error: Unknown font tag 'G2'
+Syntax Error (132444): No font in show
+Syntax Error: Unknown font tag 'G2'
+Syntax Error (132456): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (202764): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (202784): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (202906): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (202973): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (203007): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (203026): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (203183): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (203343): No font in show

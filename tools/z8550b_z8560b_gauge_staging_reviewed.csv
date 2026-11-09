@@ -1,0 +1,26 @@
+﻿printed_catalog_page,section_code,zigzag_width,part_role,part_number,is_standard,variant_description,source_note,review_status,asterisk_marked_standard
+53,Ga1,8 mm,needle_plate,S48065-001,YES,Standard,Needle plate; B ref 52+,EXISTS_IN_MAIN_CANDIDATES,YES
+53,Ga1,8 mm,feed_dog,S48143-101,YES,Standard,Kode sesuai tabel Ga1,NOT_FOUND_IN_MAIN_CANDIDATES,NO
+53,Ga1,8 mm,presser_foot_assy,S48293-201,YES,Standard,D ref 6+,EXISTS_IN_MAIN_CANDIDATES,YES
+53,Ga1,8 mm,stopper,SA9064-001,YES,Standard,B ref 59+,EXISTS_IN_MAIN_CANDIDATES,YES
+53,Ga1,8 mm,feed_dog,S58908-001,YES,Standard part marked *; verify any separate variant interpretation,E ref 115 juga memuat kode ini,SOURCE_VERIFIED_REVIEW_VARIANT,YES
+53,Ga1,8 mm,presser_foot_assy,S48305-201,NO,Black color,Alternatif warna hitam,NOT_FOUND_IN_MAIN_CANDIDATES,NO
+53,Ga1,8 mm,presser_foot_assy,S58950-201,NO,With tape guide,Alternatif tape guide,NOT_FOUND_IN_MAIN_CANDIDATES,NO
+54,Ga2,5 mm,needle_plate,S48066-001,YES,Standard,Tabel Ga2,NOT_FOUND_IN_MAIN_CANDIDATES,NO
+54,Ga2,5 mm,feed_dog,S06171-101,YES,Standard,Tabel Ga2,NOT_FOUND_IN_MAIN_CANDIDATES,NO
+54,Ga2,5 mm,presser_foot_assy,S48308-201,YES,Standard,Tabel Ga2,NOT_FOUND_IN_MAIN_CANDIDATES,NO
+54,Ga2,5 mm,stopper,S48074-000,YES,Standard,Z ref 49,EXISTS_IN_MAIN_CANDIDATES,NO
+54,Ga2,5 mm,needle_plate,S48067-001,NO,Black color,Alternatif needle plate,NOT_FOUND_IN_MAIN_CANDIDATES,NO
+54,Ga2,5 mm,feed_dog,S06166-001,NO,Feed dog listed in Ga2; interchangeability not confirmed,Varian; verifikasi konfigurasi; Ga2 page 54 lists this part; source text does not confirm interchangeability with other feed dogs.,REVIEW_REQUIRED,NO
+54,Ga2,5 mm,feed_dog,S06170-101,NO,Feed dog listed in Ga2; interchangeability not confirmed,Varian; verifikasi konfigurasi; Ga2 page 54 lists this part; source text does not confirm interchangeability with other feed dogs.,REVIEW_REQUIRED,NO
+54,Ga2,5 mm,feed_dog,S53410-001,NO,Feed dog listed in Ga2; interchangeability not confirmed,Varian; verifikasi konfigurasi; Ga2 page 54 lists this part; source text does not confirm interchangeability with other feed dogs.,REVIEW_REQUIRED,NO
+54,Ga2,5 mm,feed_dog,S52068-001,NO,Feed dog listed in Ga2; interchangeability not confirmed,Varian; verifikasi konfigurasi; Ga2 page 54 lists this part; source text does not confirm interchangeability with other feed dogs.,REVIEW_REQUIRED,NO
+54,Ga2,5 mm,feed_dog,S54937-001,NO,Feed dog listed in Ga2; interchangeability not confirmed,Varian; verifikasi konfigurasi; Ga2 page 54 lists this part; source text does not confirm interchangeability with other feed dogs.,REVIEW_REQUIRED,NO
+55,Ga3,10 mm,needle_plate,S50684-001,YES,Standard,B ref 52+,EXISTS_IN_MAIN_CANDIDATES,NO
+55,Ga3,10 mm,feed_dog,S50686-001,YES,Standard,Gunakan kode tabel; gambar menunjukkan S48143 | Table lists S50686-001; diagram label reads S48143; unresolved source discrepancy,REVIEW_REQUIRED,NO
+55,Ga3,10 mm,presser_foot_assy,S51227-201,YES,Standard,D ref 6+,EXISTS_IN_MAIN_CANDIDATES,NO
+55,Ga3,10 mm,stopper,S52046-000,YES,Standard,B ref 59+,EXISTS_IN_MAIN_CANDIDATES,NO
+55,Ga3,10 mm,needle_plate,S50685-001,NO,Snow-white color,Alternatif warna snow-white,NOT_FOUND_IN_MAIN_CANDIDATES,NO
+55,Ga3,3 mm,needle_plate,S54929-001,YES,Standard,Konfigurasi 3 mm,NOT_FOUND_IN_MAIN_CANDIDATES,NO
+55,Ga3,3 mm,feed_dog,S54945-001,YES,Standard,Konfigurasi 3 mm,NOT_FOUND_IN_MAIN_CANDIDATES,NO
+55,Ga3,3 mm,presser_foot_assy,S54957-201,YES,Standard,Tidak ada stopper 3 mm pada tabel,NOT_FOUND_IN_MAIN_CANDIDATES,NO

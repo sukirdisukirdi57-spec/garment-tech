@@ -1,0 +1,80 @@
+﻿code,problem,id
+E001,Kesalahan inisialisasi EEPROM pada papan kontrol utama,1865
+E007,Motor poros utama terkunci,1866
+E011,Media eksternal belum terpasang,1867
+E012,Kesalahan membaca data dari media eksternal,1868
+E013,Kesalahan menulis data ke media eksternal,1869
+E014,Media eksternal terlindungi dari penulisan,1870
+E015,Kesalahan pemformatan media eksternal,1871
+E016,Kapasitas media eksternal tidak mencukupi,1872
+E017,Kapasitas EEPROM tidak mencukupi,1873
+E018,Jenis EEPROM tidak sesuai,1874
+E019,Ukuran berkas terlalu besar,1875
+E022,Nomor berkas tidak ditemukan,1876
+E023,Motor pengangkat presser foot kehilangan langkah,1877
+E024,Ukuran data pola melebihi kapasitas,1878
+E025,Motor pemotong benang jarum kehilangan langkah,1879
+E026,Motor pemotong benang bobbin kehilangan langkah,1880
+E030,Jarum gagal berhenti pada posisi atas,1881
+E042,Operasi data jahitan gagal,1882
+E043,Jarak jahitan melebihi batas,1883
+E050,Sakelar berhenti ditekan saat mesin berjalan,1884
+E052,Kesalahan deteksi benang putus,1885
+E061,Kesalahan data memory switch,1886
+E062,Kesalahan data jahitan,1887
+E063,Identitas kepala mesin tidak cocok,1888
+E081,Motor pengayun jarum sumbu X kehilangan sinkronisasi,1889
+E082,Motor pengumpan sumbu Y kehilangan sinkronisasi,1890
+E083,Posisi presser foot terlalu tinggi,1891
+E098,Jumlah jahitan tidak mencukupi untuk pemotongan benang,1892
+E099,Perintah penurunan pisau berbenturan dengan gerakan pemotong benang,1893
+E204,Peringatan koneksi USB thumb drive saat menjahit,1894
+E302,Deteksi kepala mesin miring atau penutup hook terbuka,1895
+E303,Kesalahan sensor fase Z motor poros utama,1896
+E304,Kesalahan sensor pisau pemotong kain,1897
+E402,Penghapusan data jahitan individual tidak diizinkan,1898
+E407,Penghapusan data jahitan berkelanjutan tidak diizinkan,1899
+E430,Kesalahan penghitung (count-up),1900
+E485,Jumlah jahitan basting belum ditetapkan,1901
+E486,Panjang pisau eyelet terlalu pendek,1902
+E487,Panjang bentuk eyelet terlalu pendek,1903
+E488,Kesalahan kompensasi bartack meruncing,1904
+E489,Ukuran pisau tidak sesuai pada beberapa gerakan pisau,1905
+E492,Data jahitan bawah (basting) melebihi ukuran sepatu penekan,1906
+E493,Data jahitan pengunci akhir melebihi ukuran sepatu penekan,1907
+E494,Data jahitan pengunci awal melebihi ukuran sepatu penekan,1908
+E495,Data jahitan melampaui batas kanan sepatu penekan,1909
+E496,Data jahitan melampaui batas kiri sepatu penekan,1910
+E497,Data jahitan melampaui batas depan sepatu penekan,1911
+E498,Data jahitan melampaui batas lebar kanan dan kiri sepatu penekan,1912
+E499,Data jahitan melampaui batas belakang sepatu penekan,1913
+E703,Ketidaksesuaian tipe mesin saat komunikasi awal,1914
+E704,Ketidaksesuaian versi sistem,1915
+E730,Gangguan encoder motor poros utama,1916
+E731,Gangguan sensor lubang atau sensor posisi motor utama,1917
+E733,Motor poros utama berputar terbalik,1918
+E798,Kegagalan gerakan ayun jarum,1919
+E799,Kegagalan gerakan ayun jarum,1920
+E801,Kehilangan fase daya masukan,1921
+E802,Terjadi pemutusan daya sesaat,1922
+E811,Tegangan berlebih,1923
+E813,Tegangan rendah,1924
+E820,Sekring suplai 24 V DC putus,1925
+E901,Gangguan IPM motor poros utama,1926
+E902,Arus berlebih pada motor poros utama,1927
+E903,Nilai suplai daya motor langkah tidak normal,1928
+E904,Nilai suplai daya solenoid tidak normal,1929
+E905,Suhu heatsink papan kontrol servo tidak normal,1930
+E907,Kegagalan pencarian posisi awal motor ayun jarum,1931
+E908,Kegagalan pencarian posisi awal motor gerak Y,1932
+E909,Kegagalan pencarian posisi awal motor pemotong benang jarum,1933
+E910,Kegagalan pencarian posisi awal motor sepatu penekan,1934
+E911,Kegagalan pencarian posisi awal motor pemotong benang bobbin,1935
+E912,Gangguan deteksi kecepatan motor jahit,1942
+E915,Gangguan komunikasi antara panel operasi dan CPU utama,1936
+E916,Gangguan komunikasi antara CPU utama dan CPU poros utama,1937
+E918,Suhu heatsink papan kontrol utama tidak normal,1938
+E943,Gangguan penulisan EEPROM papan kontrol utama,1939
+E946,Gangguan penulisan EEPROM papan relay kepala mesin,1940
+E998,Kesalahan deviasi sepatu penekan,1943
+E999,Pisau pemotong kain gagal kembali ke posisi semula,1941

@@ -1,0 +1,34 @@
+﻿section,zigzag_width,part_role,part_number,variation_or_context,review_status
+Ga1,8mm,Needle plate,S48065-001,Baris konfigurasi utama 8mm,REVIEW_REQUIRED
+Ga1,8mm,Feed dog,S48143-101,Baris konfigurasi utama 8mm,REVIEW_REQUIRED
+Ga1,8mm,Presser foot assembly,S48293-201,Baris konfigurasi utama 8mm,REVIEW_REQUIRED
+Ga1,8mm,Stopper,SA9064-001,Baris konfigurasi utama 8mm,REVIEW_REQUIRED
+Ga2,5mm,Needle plate,S48066-001,Baris konfigurasi utama 5mm,REVIEW_REQUIRED
+Ga2,5mm,Feed dog,S06171-101,Baris konfigurasi utama 5mm,REVIEW_REQUIRED
+Ga2,5mm,Presser foot assembly,S48308-201,Baris konfigurasi utama 5mm,REVIEW_REQUIRED
+Ga2,5mm,Stopper,S48074-000,Baris konfigurasi utama 5mm,REVIEW_REQUIRED
+Ga3,10mm,Needle plate,S50684-001,Baris konfigurasi utama 10mm,REVIEW_REQUIRED
+Ga3,10mm,Feed dog,S50686-001,Baris konfigurasi utama 10mm,REVIEW_REQUIRED
+Ga3,10mm,Presser foot assembly,S51227-201,Baris konfigurasi utama 10mm,REVIEW_REQUIRED
+Ga3,10mm,Stopper,S52046-000,Baris konfigurasi utama 10mm,REVIEW_REQUIRED
+Ga3,3mm,Needle plate,S54929-001,Baris konfigurasi utama 3mm,REVIEW_REQUIRED
+Ga3,3mm,Feed dog,S54945-001,Baris konfigurasi utama 3mm,REVIEW_REQUIRED
+Ga3,3mm,Presser foot assembly,S54957-201,Baris konfigurasi utama 3mm,REVIEW_REQUIRED
+Ga1,8mm,UNCONFIRMED,S58908-001,Varian; peran perlu diverifikasi,REVIEW_REQUIRED
+Ga1,8mm,UNCONFIRMED,S48305-201,Presser foot alternatif; catatan warna hitam,REVIEW_REQUIRED
+Ga1,8mm,UNCONFIRMED,S58950-201,Varian; peran perlu diverifikasi,REVIEW_REQUIRED
+Ga2,5mm,UNCONFIRMED,S48067-001,Needle plate alternatif; catatan warna hitam,REVIEW_REQUIRED
+Ga2,5mm,UNCONFIRMED,S06166-001,Varian; peran perlu diverifikasi,REVIEW_REQUIRED
+Ga2,5mm,UNCONFIRMED,S06170-101,Varian; peran perlu diverifikasi,REVIEW_REQUIRED
+Ga2,5mm,UNCONFIRMED,S53410-001,Varian; peran perlu diverifikasi,REVIEW_REQUIRED
+Ga2,5mm,UNCONFIRMED,S52068-001,Varian; peran perlu diverifikasi,REVIEW_REQUIRED
+Ga2,5mm,UNCONFIRMED,S54937-001,Varian; peran perlu diverifikasi,REVIEW_REQUIRED
+Ga3,10mm,UNCONFIRMED,S50685-001,Needle plate alternatif; catatan warna putih salju,REVIEW_REQUIRED
+Wa1,,Warning label,SB8096-001,Label electrical shock; ukuran sumber: 36 x 150 mm,REVIEW_REQUIRED
+Wa1,,Warning label,SA9826-001,Label caution; ukuran sumber: 56 x 43 mm,REVIEW_REQUIRED
+Wa1,,Warning label,SA9957-001,Injury mark; ukuran sumber: L=16,REVIEW_REQUIRED
+Wa1,,Warning label,S37060-001,Label grounding; ukuran sumber: 12,REVIEW_REQUIRED
+Wa1,,Warning label,S37059-001,"Label, PE; ukuran sumber: 7.5 x 12.5 mm",REVIEW_REQUIRED
+Wa1,,Warning label,SB0827-001,High temp label; ukuran sumber: L=16,REVIEW_REQUIRED
+Wa2,,Warning label,SB1271-101,Oil warning label JP; ukuran sumber: 68 x 30 mm,REVIEW_REQUIRED
+Wa2,,Warning label,SB1270-001,Oil warning label EN; ukuran sumber: 68 x 30 mm,REVIEW_REQUIRED

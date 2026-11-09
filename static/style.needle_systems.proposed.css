@@ -1,0 +1,172 @@
+/* =========================================================
+   GARMENT TECH — NEEDLE SYSTEMS
+   PROPOSAL TEMA NAVY & ORANYE
+   Belum diaktifkan
+   ========================================================= */
+
+body.needle-systems-page {
+    background: #f1f5f9;
+    color: #263548;
+}
+
+/* Header */
+.needle-systems-page header {
+    background:
+        radial-gradient(ellipse at top, #1b4776 0%, transparent 68%),
+        linear-gradient(135deg, #102d4f, #081525);
+    color: #fff;
+    border-bottom: 4px solid #f28c28;
+}
+
+/* Tombol kembali */
+.needle-systems-page .back {
+    border: 1px solid #dce4ed;
+    background: #fff;
+    color: #102d4f;
+}
+
+/* Kartu sistem */
+.needle-systems-page .system-card {
+    background: #fff;
+    border: 1px solid #dce4ed;
+    border-radius: 14px;
+    box-shadow: 0 5px 18px rgba(16, 45, 79, .06);
+}
+
+/* Judul kartu */
+.needle-systems-page article.system-card h2 {
+    background: #102d4f;
+    color: #fff;
+}
+
+/* Label dan informasi */
+.needle-systems-page .label {
+    color: #174a70;
+}
+
+.needle-systems-page .field {
+    border-bottom: 1px solid #edf1f5;
+}
+
+/* Status verifikasi */
+.needle-systems-page .status {
+    color: #80520a;
+    background: #fff8e8;
+    border: 1px solid #f3d89b;
+}
+
+/* Tautan sumber */
+.needle-systems-page a.link {
+    color: #1769aa;
+}
+
+.needle-systems-page a.link:hover {
+    color: #d97706;
+}
+
+/* Pesan sukses */
+.needle-systems-page [role="status"] {
+    background: #e8f5e9 !important;
+    color: #216e39 !important;
+    border-left: 4px solid #2e8540;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 12px 0;
+}
+
+/* Input dan filter */
+.needle-systems-page input,
+.needle-systems-page select {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 46px;
+    padding: 12px;
+    border: 1px solid #dce4ed !important;
+    border-radius: 9px !important;
+    background: #fff !important;
+    color: #263548 !important;
+    font-size: 16px;
+}
+
+.needle-systems-page input:focus,
+.needle-systems-page select:focus {
+    border-color: #f28c28 !important;
+    outline: 3px solid rgba(242, 140, 40, .16);
+}
+
+/* Tombol pencarian */
+.needle-systems-page #searchButton {
+    padding: 11px 20px !important;
+    border: 0 !important;
+    border-radius: 9px !important;
+    background: #102d4f !important;
+    color: #fff !important;
+    font-weight: 700;
+}
+
+.needle-systems-page #searchButton:hover {
+    background: #f28c28 !important;
+    color: #102d4f !important;
+}
+
+/* Tombol reset */
+.needle-systems-page #resetButton {
+    padding: 11px 20px !important;
+    border: 1px solid #dce4ed !important;
+    border-radius: 9px !important;
+    background: #fff !important;
+    color: #102d4f !important;
+}
+
+/* Tombol tambah, kelola, dan edit */
+.needle-systems-page a[href="/admin/needle-systems/add"],
+.needle-systems-page a[href="/admin/needle-series"],
+.needle-systems-page a[href^="/admin/needle-systems/"][href$="/edit"] {
+    display: inline-block;
+    padding: 10px 14px !important;
+    border: 1px solid #102d4f;
+    border-radius: 9px !important;
+    background: #102d4f !important;
+    color: #fff !important;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.needle-systems-page a[href="/admin/needle-systems/add"]:hover,
+.needle-systems-page a[href="/admin/needle-series"]:hover,
+.needle-systems-page a[href^="/admin/needle-systems/"][href$="/edit"]:hover {
+    background: #f28c28 !important;
+    color: #102d4f !important;
+}
+
+/* Tombol hapus tetap merah */
+.needle-systems-page button[name="confirm-delete-needle"] {
+    padding: 9px 14px !important;
+    border: 0 !important;
+    border-radius: 9px !important;
+    background: #b42318 !important;
+    color: #fff !important;
+    font-weight: 700;
+}
+
+.needle-systems-page button[name="confirm-delete-needle"]:hover {
+    background: #8f1d15 !important;
+}
+
+/* Tampilan ponsel */
+@media (max-width: 600px) {
+    .needle-systems-page .container {
+        width: calc(100% - 20px);
+        margin: 15px auto 25px;
+    }
+
+    .needle-systems-page header {
+        padding: 23px 18px;
+    }
+
+    .needle-systems-page .system-card {
+        padding: 17px;
+    }
+}
+
+/* AKHIR PROPOSAL — JANGAN AKTIFKAN SEBELUM DITINJAU */

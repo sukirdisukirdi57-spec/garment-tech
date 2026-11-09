@@ -1,0 +1,29 @@
+--- a/app.py
++++ b/app.py
+@@ -1073,7 +1073,25 @@
+         INNER JOIN parts
+             ON component_parts.part_id = parts.id
+         WHERE component_parts.component_id = ?
+-        ORDER BY parts.catalog_ref IS NULL, CAST(parts.catalog_ref AS INTEGER), parts.id
++        ORDER BY
++            CASE WHEN component_parts.component_id = 506 THEN
++                CASE component_parts.notes
++                    WHEN 'For -[]03' THEN 0
++                    WHEN 'For -[]05' THEN 1
++                    ELSE 2
++                END
++                ELSE 0
++            END,
++            CASE WHEN component_parts.component_id = 506
++                THEN CAST(parts.catalog_ref AS INTEGER)
++            END,
++            CASE WHEN component_parts.component_id <> 506
++                THEN parts.catalog_ref IS NULL
++            END,
++            CASE WHEN component_parts.component_id <> 506
++                THEN CAST(parts.catalog_ref AS INTEGER)
++            END,
++            parts.id
+         """,
+         (component_id,)
+     ).fetchall()

@@ -1,0 +1,619 @@
+     WHEN YOU PLACE ORDERS
+     Please note when placing orders, that the model name should be written as follows:                                                                                                                                                                                                                     AMS-210EN Series
+    AMS-210EN Series                                                                                                                                                                                                                                                                                        AMS-221EN Series
+                                                                                                                                                                                                                                                                                                            Computer-controlled Cycle Machine with Input Function
+      Machine head                              Application                              Code                        Sewing area                         Code                 Subclass                  Code                              Panel included                          Code
+                                   Light- to medium-weight                                   S               X:130mm - Y:60mm                            1306                Standard                   5000                 Not provided
+                                   Medium- to heavy-weight                                   H               X:150mm - Y:100mm                           1510                Subclass                  5001~                 IP420 (USB) for AMS-210EN                               IP
+                                                                                                             X:220mm - Y:100mm                           2210
+
+
+
+
+                 AMS210EN                                                                                                                                                      Z                                                                   -
+                         Feeding frame type                             Code                     Applicable model                                                        Stitch type                               Code                        Pedal switch                      Code
+                     Motor-driven feeding frame                             S          AMS-210EN 1306 1510                                                With thread clamp device                                     S                 PK 2-pedal unit (PK78)                      C
+                     Pneumatic feeding frame                                L          AMS-210EN 1306* 1510 2210                                          Without thread clamp device                                  Z                 PK 3-pedal unit (PK47)                      D
+                      For the machine head of the area code 1306, the separately-driven feeding frame is provided.                                                                                                                       Feeding frame type
+                                                                                                                                                                                                                                       "C" (PK78) should be selected for feeding frame type
+                                                                                                                                                                                                                                       with the motor-driven feeding frame (S).
+                                                                                                                                                                                                                                       "D" (PK47) should be selected for feeding frame type
+                                                                                                                                                                                                                                       with the pneumatic feeding frame (L).
+
+
+
+        Control box                                                                                                                                                                                                                      Table stand                                                                                                                              2210
+         MC587                                                                                                                   -A A                                                                                                       JTAM                                                                                                                    1306
+
+                     Power supply                              Code                        Panels                     Code                   Voltage-setting of delivery                             Code                                        Feeding frame type                        Code
+           3-phase    200     240V                                 E               Not provided                                              100V (Single-phase)                                          A                                   Motor-driven work clamp                          1
+                      200     240V                                 K               IP panel (USB)                                            200 to 240V (Single/3-phase)                                 4                                   Pneumatic work clamp                             2
+                                                                                                                                                                                                                                                                                                                                                                           1510
+                                                                                                                     IP420F
+           Single-                                                                 for AMS-210EN
+                      200     240V (for CE)                        N
+           phase
+                      200     240V (for China)                     U
+
+
+
+                                                                                                                                                                                                                                                                                                          2516
+
+    AMS-221EN Series
+      Machine head                               Application                             Code                     Applicable model                                            Sewing area                         Code                       Subclass                 Code
+                                  Light-to medium-weight                                     S         AMS-221EN 2516                                                   X:250mm - Y:160mm                          2516                  Standard                     5000
+                                  Medium-to heavy-weight                                     H         AMS-221EN 2516 3020 7850                                         X:300mm - Y:200mm                          3020                  Without presser              7850
+                                  Heavy- to extra heavy-weight                               G         AMS-221EN 3020                                                                                                                    Subclass                    5001~
+
+
+
+
+                 AMS221EN                                                                                                                                                        Z                                                                   S
+          Feeding frame type                  Code Applicable model                                       Stitch type                Code                     Power supply                        Code                   Pedal switch                  Code          Applicable model
+
+      Pneumatic
+                  Monolithic
+                  feeding frame
+                                                  S        AMS-221EN 2516
+                                                           3020 7850
+                                                                                                       With thread
+                                                                                                       clamp device
+                                                                                                                                         S
+                                                                                                                                                        3-phase 200
+                                                                                                                                                                          200
+                                                                                                                                                                                     240V
+                                                                                                                                                                                     240V
+                                                                                                                                                                                                      D              3-pedal unit
+                                                                                                                                                                                                                     (PK47 type)
+                                                                                                                                                                                                                                                          D         AMS-221EN 2516
+                                                                                                                                                                                                                                                                    3020                                         3020
+      feeding                                                                                                                                                                                         K
+      frame     Separately-driven                                                                      Without thread                                   Single-                                                      2-pedal unit
+                                                  L        AMS-221EN 2516                                                                Z              phase             200 240V                                                                                  AMS-221EN 2516
+                feeding frame                                                                          clamp device                                                                                   N              (with a mechanical                    F
+                                                                                                                                                                          (for CE)                                                                                  3020 7850
+                                                                                                                                                                                                                     valve pedal)
+
+
+
+
+ JUKI ECO PRODUCTS           This is an environmentally friendly product that meets the standards of JUKI ECO PRODUCTS.
+
+                                The sewing machine complies with the “Juki Group Green Procurement Guidelines” on the use of hazardous substances,
+                                which is stricter than other restrictions, such as those of the RoHS Directive.
+
+
+
+
+                                                                                                                                                                                                                                                                                                                  AMS-210EN Series
+                             For details of JUKI ECO PRODUCTS, refer to: https://www.juki.co.jp/en/company/eco
+                              The RoHS Directive is an EU Directive limiting the use of 6 hazardous substances (lead, hexavalent chromium, mercury, cadmium, PBB and PBDE) in electrical and electronic equipment.
+                              The Juki Green Procurement Guideline is the voluntarily established criteria to eliminate not only the aforementioned six substances, but also other ones which also adversely affect the environment.         Registered Organization:                       Head Office
+                                                                                                                                                                                                                                             The Scope of the Registration: The activities of research,
+                                                                                                                                                                                                                                             development, design, sales, distribution, and maintenance
+                                                                                                                                                                                                                                             services of industrial sewing machines, household sewing
+                                                                                                                                                                                                                                             machines and industrial robots, etc., including sales and
+                                                                                                                                                                                                                                             maintenance services of data entry systems.
+
+
+
+
+                                                                                                                                                                                                                                                                                                                  AMS-221EN Series
+                                                          SEWING BUSINESS UNIT
+
+2-11-1, TSURUMAKI, TAMA-SHI, TOKYO 206-8551, JAPAN
+PHONE: ( 81) 42-357-2355 FAX: ( 81) 42-357-2274
+https://www.juki.co.jp/en
+
+ Speciﬁcations and appearance may be changed without notice for improvement purposes.
+ To ensure safe use, be sure to read the instruction manual before use.                                                                                                             The information in this catalog is current as of February 2026.Rev01                                         JC                Computer-controlled Cycle Machine with Input Function
+                                                                                                                                                                                                                                                                                                      Energy-
+                                                                                                                                                                                                                                                                                                       saving
+                                                                                                                                                                                  Productivity
+                                                                                                                                                                                                                                                                                                The new AMS Series models
+                                                                                                                                                                                                                                                                                                substantially decrease power
+                                                                                                                                                                                                                                                                                           consumption when compared with
+                                                                                                                                                                                  The sewing machine achieves                                                                                      the conventional ones.
+                                                                                                                                                                                   the highest sewing speed,                                                                                    They have been designed to
+
+                                                                                                                                                                                     2,800         sti/min ,
+                                                                                                                                                                                                                                                                                                  achieve eco-friendliness.
+
+                                                                                                                                                                                    in the industrial sewing
+                                                                                                                                                                                       machine industry.
+                                                                                                                                                                                    As a result, cycle time is
+                                                                                                                                                                                     dramatically reduced.
+
+   New technologies have helped the
+   AMS Series increase “productivity,”                                                                                                                                                                                                                  Quality
+   achieve “energy conservation” in                                                                                                                                                                                                             The feed accuracy is substantially
+                                                                                                                                                                                                                                                  improved due to the adoption
+   consideration of the global environment,                                                                                                                                                                                                       of the encoder control system.
+
+
+   and further improve “quality.”
+                                                                                                                                                                                                                                                                                                      "sti/min" stands for "Stitches per Minute."
+
+
+
+
+            Small sewing                                                                                                                                                          Medium sewing
+               area                                                                                                                                                                    area
+
+
+
+
+                                                                                                                                             AMS-210EN-HS1510SZ                                                                                                                                                     AMS-221EN-HL2516SZ
+                                                                                                                                                                                                                                                                                                                    The picture shows the sewing machine
+             Computer-controlled Cycle Machine with Input Function                                                                                                                  Computer-controlled Cycle Machine with Input Function
+
+
+
+
+             AMS-210EN Series                                                                                                                                                       AMS- 221EN Series
+                                                                                                                                                                                                                                                                                                                    with a separately-driven feeding frame.
+
+
+
+
+              The AMS-210EN Series comes in three different models which differ in sewing area.                                                                                          The AMS-221EN Series comes in two different models which differ in sewing area.
+
+
+1306
+(X: 130mm × Y: 60mm)
+                                                               1510
+                                                               (X: 150mm × Y: 100mm)
+                                                                                                          Motor-driven
+                                                                                                         feeding frame
+                                                                                                              type
+                                                                                                                         2210
+                                                                                                                         (X: 220mm × Y: 100mm)
+                                                                                                                                                                                    2516
+                                                                                                                                                                                   (X: 250mm × Y: 160mm)
+                                                                                                                                                                                                                                                                               3020
+                                                                                                                                                                                                                                                                                (X: 300mm × Y: 200mm)
+
+               S                                                               S                                                         S                                                           S
+    AMS-210EN- H S1306                                              AMS-210EN- H S1510                                        AMS-210EN- H L2210                                          AMS-221EN- H S2516                                                                         AMS-221EN-HS3020
+Motor-driven feeding frame   Monolithic feeding frame          Motor-driven feeding frame   Monolithic feeding frame       Pneumatic feeding frame    Monolithic feeding frame      Monolithic feeding frame          Pneumatic feeding frame                                   Monolithic feeding frame    Pneumatic feeding frame
+                                                                                                                         This model has a sewing area that is best-suited to                                                                                                    The sewing machine is applicable to sewing products
+               S                                                               S                                                                                                                    S
+    AMS-210EN- H L1306                                              AMS-210EN- H L1510                                   the sewing of large parts, including the shape-tacking
+                                                                                                                         of jean pockets. With this model, you may recognize
+                                                                                                                                                                                         AMS-221EN- H L2516                                                                     which require a wider sewing area than that of the
+                                                                                                                                                                                                                                                                                "AMS-221EN-2516SZ" It is best-suited to the
+ Pneumatic feeding frame     Separately-driven feeding frame    Pneumatic feeding frame     Monolithic feeding frame     the higher productivity of the cycle machine.              Separately-driven feeding frame   Pneumatic feeding frame                                   attaching of handles to bags and the shape-tacking of
+The sewing machine flexibly supports the sewing                The 1510 model is well received in the market due                                                                   The sewing machine is best-suited to the sewing of large labels and emblems,                 boots and shoes. The sewing machine is flexibly
+of small articles such as labels and emblems.                  to its moderate-sized sewing area. Responding to                                                                    the sewing of two or more pieces of small labels and emblems at one time, and                applicable to sewing requiring a medium sewing area.
+The sewing machine's small sewing area                         market demand, the 1510 area model with a                                                                           the shape-tacking of bags and shoes. The sewing machine is applicable to a
+promises ease of use when handling small                       motor-driven feeding frame has been newly                                                                           broad range of materials and processes, while leading the industrial sewing
+articles, thereby enabling smooth sewing                       developed. This model can be used in a plant which                                                                  machine industry in terms of improvement in quality and the promotion of
+operation.                                                     is not provided with pneumatic equipment.                                                                           production that does not require sewing-machine operators to have special skills.
+                                                                     The sewing speed has been increased to 2,800sti/min                                                                                                                                                                         A remarkable degree of energy conservation is
+                                                                     which is the highest sewing speed in the industrial                                                                                                                    Energy-                                              achieved by the adoption of the encoder-control system.
+Productivity                                                         sewing machine manufacturing industry.
+                                                                                                                                                                                                                                             saving                                              The sewing machine has been designed
+                                                                     Various functions contribute to increased productivity!                                                                                                                                                                     with additional consideration for the environment.
+
+
+
+                                                                                                                  The maximum sewing speed per
+Cycle time is shortened.                                                                                          stitching-pitch (stitch length) is increased.
+                                                                                                                                                                                                                             Power consumption is substantially decreased.
+
+The sewing machine has achieved the industry’s highest sewing                                                    Sewing at the maximum sewing speed of 2,800sti/min is possible up                                          The AMS Series are an economically-efficient model which has been
+speed of 2,800sti/min. The maximum sewing speed is reached by                                                    to stitching pitch of 4mm for the AMS-210EN or 3.5mm for the                                               designed to reduce power consumption. The AMS-210EN is an
+the 2nd stitch from the beginning of sewing. Since the sewing                                                    AMS-221EN (the highest sewing speed and stitching pitch in the                                             economically-efficient model which has been designed to reduce
+machine maintains its highest sewing speed immediately before the                                                industrial sewing machine industry). Even for the larger pitches, the                                      power consumption. The sewing machine has adopted a direct-drive
+end of sewing and instantaneously decreases its speed, cycle time                                                sewing speed is increased by 90% for the AMS-210EN and by 60%                                              system by means of a compact AC servomotor that is excellent in
+can be substantially decreased.                                                                                  for the AMS-221EN at the maximum when compared with the                                                    energy transmission to drive the main shaft, and has adopted an
+                                                                                                                 conventional models, thereby reducing the cycle time.                                                      encoder-control system which drives the stepping motor with a
+JUKI’s unique stepping-motor controlled thread trimming                                                                                                                                                                     minimum of power in accordance with the material thickness and
+mechanism is adopted to enable speedy and consistent thread                                                                        The sewing speed is automatically controlled according to the stitching pitch.
+                                                                                                                                                                                                                            stitch length to control the X-Y drive mechanism. Power consumption
+trimming performance.                                                                                                                                                                                                       of the new AMS Series is reduced by 30% when compared with
+The machine demonstrates enhanced responsiveness due to the                                                                                                                                                                 JUKI’s conventional AMS-210E or by 45% when compared with the
+adoption of a main-shaft direct-drive system.                                                                                                                                                                               conventional AMS-221E.
+
+
+
+
+              Cycle time                                           Machine time                                                                                                          210 Series                                        Power consumption                                                      W (watt)
+                                                                                                                                                                     Increased by
+                                                                                                                       Fast
+
+
+                AMS-210E
+                                                                                                                                                                    90%
+                                                                                                                                                                 at the maximum when
+                                                                                                                                                                                         Max. sewing speed
+                                                                                                                                                                                         2,800sti/min                                        AMS-210E
+
+
+ 210 Series                                                                                                                                                                                                                   210 Series
+                                                                                                                                                                   compared with the     (Stitching pitch: 4mm or less)
+                                                                                                                                                                  conventional models
+
+
+
+
+                                                                                                                    Sewing speed
+                                                                                          The cycle time is
+                                                                                       dramatically reduced by
+
+                                                                                           15%
+                                                                                                                                                                                                                                                                                                              The power consumption
+
+                AMS-210EN                                                                                                                                                                                                                    AMS-210EN                                                       is dramatically reduced by
+                                                                                        as compared with that
+                                                                                         of the conventional
+                                                                                               models.
+                                                                                                                                                                                                 AMS210EN
+                                                                                                                                                                                                                                                                                                                 30%
+                                                                                                                                                                                                                                                                                                              as compared with that
+               Sewing condition Pitch 4mm, 200 stitches
+                AMS-210EN: 2,800sti/min                                                                                                                                                          AMS210E                                   Sewing condition pitch 4mm, 200 stitches, standby time of            of the conventional
+                                                                                                                                                                                                                                            5 seconds, presser foot is lifted once                                    models.
+                AMS-210E : The maximum sewing speed when the stitching pitch is 4mm.                                                                                                                                                        AMS-210EN : 2,800sti/min
+                                                                                                                                                                                                                                            AMS-210E : The maximum sewing speed when the stitching pitch is 4mm.
+                                                                                                                                                                               Long
+                                                                                                                                                Stitching pitch
+                                                                   Machine time
+                                                                                                                                                                                                                                                                                                                  W (watt)
+                                                                                                                                                                                         221 Series
+                                                                                                                       Fast
+                                                                                                                                                                     Increased by
+                                                                                                                                                                                         Max. sewing speed
+                                                                                                                                                                    60%
+                AMS-221E
+
+
+
+ 221 Series
+                                                                                                                                                                                         2,800sti/min                                        AMS-221E
+
+
+
+                                                                                                                                                                                                                              221 Series
+                                                                                                                                                                 at the maximum when     (Stitching pitch: 3.5mm or less)
+                                                                                                                                                                   compared with the
+
+
+
+
+                                                                                                                    Sewing speed
+                                                                                          The cycle time is
+                                                                                       dramatically reduced by                                                    conventional models
+
+
+                AMS-221EN                                                                    8%                                                                                                                                              AMS-221EN
+                                                                                                                                                                                                                                                                                                              The power consumption
+                                                                                                                                                                                                                                                                                                             is dramatically reduced by
+
+
+
+               Sewing condition Pitch 3.5mm, 486 stitches
+                                                                                        as compared with that
+                                                                                         of the conventional
+                                                                                               models.                                                                                           AMS221EN
+                                                                                                                                                                                                                                                                                                                 45%
+                                                                                                                                                                                                                                                                                                               as compared with that
+               AMS-221EN : 2,800sti/min                                                                                                                                                          AMS221E                                   Sewing condition pitch 3.5mm, 486 stitches, standby time of          of the conventional
+               AMS-221E : The maximum sewing speed when the stitching pitch is 3.5mm.                                                                                                                                                       5 seconds, presser foot is lifted once                                    models.
+                                                                                                                                                                                                                                            AMS-221EN : 2,800sti/min
+                                                                                                                                                                                                                                            AMS-221E : The maximum sewing speed when the stitching pitch is 3.5mm.
+                                                                                                                                                Stitching pitch                Long
+
+
+
+
+                                 Comparison of cycle time                                                           Comparison between stitching pitch and sewing speed                                                                               Comparison of power consumption
+                                                                                                                                                                                                                                                                                            "sti/min" stands for "Stitches per Minute."
+
+
+
+
+                                                                                        The machine achieves the highest sewing speed of 2,800sti/min for a
+                           Max. sewing speed                                            computer-controlled cycle machine.
+
+                           Instantaneous                                                The maximum sewing speed is reached by the 2nd stitch from the beginning
+                           acceleration                                                 of sewing.
+
+                           Instantaneous                                                Instantaneous deceleration: The machine remains at the maximum sewing
+                           deceleration                                                 speed until just before the end of sewing and decelerates instantaneously.
+
+                                                                                        A stepping-motor controlled thread trimming mechanism is employed to
+                           Thread trimming                                              perform high-speed thread trimming without fail.
+                                                      In order to produce beautiful seams,
+        Quality                                       new functions have been added.
+
+
+
+
+ Improvement of seam quality                                                                                   Feeding frame                                                            The machine supports a broader range of materials
+                                                                                                                                                                                        and various sewing specifications.
+The position of the feed can be                                                                               Two different types of feeding frames
+checked during sewing by means                                                                                The feeding frame comes in two different types; the                       The machine can be used for free pattern stitching, parts sewing,
+of the encoder-controlled X-Y                                                                                 monolithic feeding frame and the separately-driven                        reinforcement stitching, etc.
+drive stepping motor. This                                                                                    feeding frame. The separately-driven feeding frame                        Examples of applications include the attaching of labels, emblems
+remarkably improves accuracy of                                                                               enables easy placement of the sewing material on                          and name labels, the attaching of Velcro, various shape-tacking,
+the feed. As a result, deformation                                                                            the machine since its right and left frame parts can                      and special bartacking.
+of a sewing pattern which is likely                                                                           be operated separately. Both the amount of lift and
+to occur when sewing at a high                                                                                the ascending/descending speed of the feeding
+speed or sewing a heavy-weight                                                                                frame can be adjusted differently for the right and
+material is significantly reduced.                                                                            left parts of the frame.
+
+
+
+
+ Semi-dry head
+The frame (needle bar unit and thread take-up unit) is lubricated with grease, and the hook
+is fed with a minute quantity of oil from the oil tank. JUKI’s advanced dry technology, which
+                                                                                                              The picture shows the sewing machine with a separately-driven
+is utilized in a number of our sewing machine models, protects your products from being                         feeding frame.
+                                                                                                                The separately-driven feeding frame can be selected only for the
+stained with oil.                                                                                               AMS-210EN/L1306 and AMS-221EN/L2516.
+
+  Conventional AMS Series                                  AMS-EN Series                                                                                                                 AMS-210EN-HS1306 Sewing emblems     AMS-221EN-HS2516 Shape-tacking of a toe box                                                Shape-tacking of a quarter
+                          Upper tank
+                                                                                                              Double-stepped stroke feeding frame
+                                                                                                              The feeding frame can be lowered in two steps. It is
+                                                              Frame                                           very convenient for finely positioning the material
+                                                               (dry)
+                                                                                                              on the sewing machine. The stopping height of the
+                                                                                                              feeding frame can be set as desired with ease.
+                                                                                                                                                                                        Slide-type thread take-up lever
+                                                               Hook
+
+
+
+
+                                                                                                                                                                                        AMS-210EN-HL1306/7300
+                                                           minute-quantity
+             Lower tank                                   ( lubrication )    Oil tank
+
+                    Lubrication/circulation diagram                                     Lubrication diagram
+
+
+
+
+ Programmable intermediate presser                                                                                                                                                      The machine with a slide-type thread take-up lever is designed for
+                                                                                                                                                                                        improved stitching with heavy threads tension. JUKI’s unique active
+                                                                                                              The double-stepped stroke feeding frame is provided as standard for all
+                                                                                                                models under the AMS-210EN Series and the AMS-221EN/L Series.           tension mechanism which has been re-designed specifically for
+To support the sewing of multi-layered parts of materials, the lower dead point height of the
+                                                                                                                                                                                        heavy-weight materials, as well as the slide-type thread take-up
+intermediate presser can be changed steplessly during sewing (standard: 0~3.5mm;
+                                                                                                                                                                                        lever which is suited for sewing heavy-weight materials, increase the
+maximum: 0~7.0mm). The intermediate presser will now be able to clamp the material
+                                                                                                                                                                                        maximum tension by 50% more compared to that of the standard
+without fail, thereby preventing troubles in sewing, such as stitch skipping and thread                        Active tension                                                           models of the JUKI AMS Series machines. The new model improves
+breakage. Furthermore, flaws on the sewing product are prevented by maintaining the
+                                                                                                                                                                                        seam quality (thread tension) for sewing seat belts and general
+intermediate height as desired according to the material thickness. (The intermediate presser                 Market-proven active tension has been introduced
+                                                                                                                                                                                        heavy-weight materials such as container belts and bags.
+stroke is adjustable between 0 and 10mm.)                                                                     to the needle thread tension controller. With the
+                                                                                                              active tension, pinpoint changes in the needle
+ Conventional intermediate presser (AMS-D Series)                                                             thread tension during sewing are enabled.
+                                                                                                              The needle thread tension, therefore, can be set in
+                                                                                                              conjunction with the material thickness and can be
+                                                                                                                                                                                                                                                                                             Example application: Reinforcing the stitching of seatbelts
+                                                                                                              corrected according to the direction of sewing on a                                                                                                                                               The feeding frame is special order item.
+                                                                                                              stitch-by-stitch basis through the operation panel.
+                                                                                                              Since the needle thread tension is reproducible,                               Model name                AMS-210EN-HL1306 / 7300                     Max. sewing speed       2,000sti/min    (when stitch length is 4.5mm or less)
+                                                                                                              supporting a broader range of sewing conditions,
+     The height of the intermediate presser is constant.                                                                                                                                 Sewing area                       X: 130mm × Y: 60mm                      Thread take-up           Slide-type thread take-up lever (dry frame)
+                                                                                                              the time required for setup changing upon process
+                                                                                                              changeover can be reduced.                                                 Feeding frame type     Pneumatic feeding frame (lifting amount: 30mm)                              Active tension for heavy-weight materials
+ New programmable
+ intermediate presser                                                                                                                                                                    Needle                           DP×17 #25 (max. #26)
+                                                                                                                                                                                                                                                                   Needle thread tension
+                                                                                                                                                                                                                                                                                           ( tension  increased by 50% more compared
+                                                                                                                                                                                                                                                                                             to that of the standard model          )
+                                                                                                                                                                                         Thread                            #2   #8 (nylon, Tetron)                 Hook                             Double-capacity shuttle hook
+
+                                                                                                                                                                                         Dimensions / Weight      In conformance with the standard model           Wiper                                    Side wiping type
+
+                                                                                                                                                                                                                                                                   Thread trimming                        Stepping motor drive
+
+The intermediate presser goes up and comes down according
+to the material thickness.                                                                                                                                                                                                                                                                                   sti/min is the abbreviation for “stitches per minute”
+Operation panel provided with programmable                                                                              Device/Parts
+functions IP-420 (provided as standard)
+                                                                                                                            AMS-210EN Series
+The large-sized liquid crystal touch panel,                                                                                                Description                             Part No.                                     Feature
+which has been developed to ensure ease of operation,                                                                                                                                          The model is best-suited to circular sewing, for attaching small patches
+                                                                                                                                                                                               such as labels and emblems.
+                                                                                                                         Pneumatic inverted clamp device
+dramatically increases efficiency in edit work.                                                                                                                                   40092951
+                                                                                                                                                                                               For the S type (motor-driven feeding frame), the AMS-210EN pneumatic
+                                                                                                                                                                                               set is required.
+The IP-420 touch panel offers market-proven ease of operation. It is provided with a                                                                                                           It blows air on the needle to prevent thread breakage due to heat.
+wide screen and programmable functions. Data can be input/edited while visually                                                                                                    40092717    For the S type (motor-driven feeding frame), the AMS-210EN pneumatic
+                                                                                                                         Needle cooler asm.
+                                                                                                                                                                                  (40035692)   set is required.
+checking the needle movement.
+                                                                                                                                                                                               (To use the side-sweeping wiper, part number 40035692 should be ordered.)
+The color LCD unit displays sewing data such as stitch shape, needle thread tension,
+enlargement/reduction ratio, sewing speed and the number of stitches at a glance. The                                                                                                          The pneumatic set is required when the S type (motor-driven feeding frame)
+                                                                                                                         AMS-210EN pneumatic set                                   40089848    uses pneumatic inverted clamp device and needle cooler.
+IP-420 is provided as standard with 14 different display languages.
+                                                                                                                         Side wiper asm.                                           40035867    A side wiping type is also available depending on the sewing products
+Key-lock customization function                                                                                                                                                                or sewing conditions.
+                                                                                                                         Relay cable asm. for the side wiper                     B4150210DA0
+ The key-lock state can be set as desired. It is therefore possible to hide items which
+ should not be handled by the operators.                                                                                 One-touch utility clamp
+                                                                                                                                                                                  40089692
+                                                                                                                         Exclusive to the monolithic feeding frame
+                                                                                                                                                                                               The feeding frame and the feed plate can be quickly changed without
+  Simplified operation mode                                                                                                                                                                    any tools.
+                                                                                                                         One-touch utility clamp
+  Simplification of set items and screen transition of the IP-420 increases ease of use                                                                                           40089695
+                                                                                                                         Exclusive to the separately-driven feeding frame
+  and helps reduce operator fatigue.
+                                                                                                                         Cassette holder asm.                                    B2594210DA0   The next material to be sewn can be placed between the top and
+                                                                                                                                                                                               bottom plates of the cassette holder while the machine is still engaged
+                                                                                                                         Cassette holder fixing base asm.                        B2593210DA0   in the sewing of the currently set material.
+
+The memory storage capability of the main body                                                                           Mechanical valve unit                                     40042352
+                                                                                                                                                                                               It is possible to make up and down movements same as manual pedal.
+                                                                                                                                                                                                  Not available to S type machine head.
+of the sewing machine has been dramatically enhanced.
+Now the USB-ready main body of the sewing machine                                                                                                                                              So as to prevent any accidents that may be caused when the feeding
+uses many different kinds of media.                                                                                      Bar-code reader                                           40089238    frame does not match a program, a program which matches the feeding
+                                                                                                                                                                                               frame can be invoked by reading the bar-code.
+Sewing data created with the IP-420 can be stored in the memory of the
+main body of the sewing machine. The memory storage capacity is                                                          Transformer for the single-phase high-voltage                         The transformer is required when the sewing machine is used in a
+                                                                                                                                                                                   40005422
+500,000 stitches and 999 patterns (max. 50,000 stitches per pattern) at                                                  power supply                                                          high-voltage area (380V/400V/415V).
+the maximum. In addition to the CompactFlash 33 card, the main body of
+                                                                                                                                                                                                                            Exclusive part for sewing area code 1306 (X:1306mm-Y:60mm).
+the sewing machine is provided as standard with a USB connector. Now,
+                                                                                          mini
+                                                                                                  SD   CF   MS     SM
+data can be input/output to/from various kinds of media (FD (floppy                       SD
+
+
+
+                                                                                                                            AMS-221EN Series
+disks), SM (SmartMedia), CF (CompactFlash), SD (Secure Digital Card)
+etc.) by means of a USB thumb device and a card reader. The maximum                              USB card reader
+number of stitches that can be stored in the memory for each medium is
+approximately 50,000,000.                                                                                                                  Description                             Part No.                                     Feature
+                                                                                                                        Side wiper asm.                                            40035867    A side wiping type is also available depending on the sewing products
+                                                                                                                        Relay cable asm. for the side wiper                        40036668    or sewing conditions.
+
+                                                                                                                                                                                   40092717    It blows air on the needle to prevent thread breakage due to heat.
+                                                                                                                        Needle cooler asm.                                                     (To use the side-sweeping wiper, part number 40035692 should be
+                                                                                                                                                                                  (40035692)   ordered.)
+                                                                                                                        Cassette holder asm. for 2516                            B25822210A0
+                                                                                                                        Cassette holder fixing base asm. for 2516                  40052328    The next material to be sewn can be placed between the top and
+
+OPTION                                                                                                                  Cassette holder asm. for 3020                              40053777
+                                                                                                                                                                                               bottom plates of the cassette holder while the machine is still engaged
+                                                                                                                                                                                               in the sewing of the currently set material.
+                                                                                                                        Cassette holder fixing base asm. for 3020                  40053782
+Programming software for computer-controlled sewing machines                                                                                                                                   The feeding frame and the feed plate can be quickly changed without
+                                                                                                                                                                                               any tools.
+                                                                                                                        One-touch utility clamp                                    40052330    The one-touch utility clamp has been specifically designed for Area
+                                                                                                                                                                                               Code 2516.
+
+   PM-1                                                                                                                 Bar-code reader                                            40089238
+                                                                                                                                                                                               So as to prevent any accidents that may be caused when the feeding
+                                                                                                                                                                                               frame does not match a program, a program which matches the feeding
+                                                                                                                                                                                               frame can be invoked by reading the bar-code.
+
+                                                                                                                         Transformer for the single-phase high-voltage                         The transformer is required when the sewing machine is used in a
+                                                                                                                                                                                   40005422
+                                                                                                                         power supply                                                          high-voltage area (380V/400V/415V).
+   On the PM-1 programming software,
+   a sewing data shape can be checked
+   more precisely as compared with the
+   IP-420
+   With the PM-1 programming software,
+   frequent trial stitching can be directly
+   done in repetition when editing
+   complicated and minute data, thereby
+   allowing the operator to create a
+   sewing pattern design as desired free
+   from stress during editing work.
+
+
+
+                                                                                                                                                               Cassette holder                             One-touch utility clamp                                 Bar-code reader
+                                                                                                                                                                                      AMS-210EN Series
+          Needle / Needle hole guide / Intermediate presser corresponding table                                                                                                            Model name                 AMS-210EN-SS1306                 AMS-210EN-HS1306                AMS-210EN-SL1306                   AMS-210EN-HL1306
+                                                                                                                                                                                  Sewing area                                                                         X 130mm × Y 60mm
+
+                                                             Needle                      Needle hole guide                                     Intermediate presser                                                                  Monolithic feeding frame                                      Separately-driven feeding frame
+                                                                                                                                                                                  Feeding frame type
+                       Application                                                                                                                                                                                     Motor-driven feeding frame (lifting amount: 25mm)                 Pneumatic feeding frame (lifting amount: 30mm)
+                                                             Number               Part No.        Needle hole diameter                  Part No.         Dimensions (A ×B × × )
+                                                                                                                                                                                  Application                        Light- to medium-weight         Medium- to heavy-weight         Light- to medium-weight         Medium- to heavy-weight
+      Knit and knitting fabric (option)                   #09#11               B242621000C       1.6                                                     1.6 ×2.6     ×5.7×37.0
+                                                                                                                                                                                  Needle                                   DP×5(#14)                        DP×17(#18)                       DP×5(#14)                       DP×17(#18)
+      Light- to medium-weight (S type)                    #11#14       1       B242621000A       1.6                                                     2.2 ×3.6     ×5.7×38.5   Thread                                    #80   #30                         #50   #2                       #80     #30                      #50    #2
+                                                                                                                                                                                  Compressed air / Air consumption                              —                                    0.35    0.4(max. 0.55)MPa, 1.8dm3/min(ANR)
+      Medium- to heavy-weight (H type)                    #14#18        2      B242621000B       2.0                                                     2.2 ×3.6     ×8.7×41.5
+                                                                                                                                                                                  Dimensions / Weight                   1,200mm(W)×710mm(D)×1,200mm(H) (thread stand is not included), Machine head: 69kg, Control box: 16.5kg
+      Heavy-weight (option)                                                    B242621000D       2.4
+                                                                                                                                                         2.7 ×4.1     ×5.7×38.5
+      Heavy-weight
+      (slide-type thread take-up lever: standard)                              B242621000F       3.0
+                                                          #18#25                                                                                                                           Model name                 AMS-210EN-SS1510                 AMS-210EN-HS1510                AMS-210EN-SL1510                   AMS-210EN-HL1510
+      Extra heavy-weight (option)                                              B242621000G       3.0 ( with counterbore
+                                                                                                                                                                                  Sewing area                                                                         X 150mm × Y 100mm
+                                                                                                                                                         3.5 ×5.5     ×5.7×38.5
+      For the prevention of stitch skipping
+      on heavy-weight materials (option)                                       B242621000H       3.0 (with eccentric                                                                                                                                                 Monolithic feeding frame
+                                                                                                                                                                                  Feeding frame type
+       S type: Fitting thread numbers #80#20                                                                                                                                                                           Motor-driven feeding frame (lifting amount: 25mm)                 Pneumatic feeding frame (lifting amount: 30mm)
+       1 The needle equipped as standard (DP   ×5 #14)                                                                                                                            Application                        Light- to medium-weight         Medium- to heavy-weight         Light- to medium-weight         Medium- to heavy-weight
+       H type: Fitting thread numbers #50#2
+       2 The needle equipped as standard (DP   ×17 #18)                                                                                                                           Needle                                   DP×5(#14)                        DP×17(#18)                       DP×5(#14)                       DP×17(#18)
+                                                                                                                                                                                  Thread                                    #80   #30                         #50   #2                       #80     #30                      #50    #2
+                                                                                                                                                                      A    L
+                                                                                                                                                                                  Compressed air / Air consumption                              —                                           0.35    0.4(max. 0.55)MPa, 1.8dm3/min(ANR)
+                                                                                                                                                                                  Dimensions / Weight                   1,200mm(W)×770mm(D)×1,200mm(H) (thread stand is not included), Machine head: 73kg, Control box: 16.5kg
+                                                                                                                                                         H
+
+                                                                                                                                                                       B
+                                                                                                                                                                                           Model name                                   AMS-210EN-SL2210                                                   AMS-210EN-HL2210
+                                                                                                                                                        Intermediate presser
+                                                                                                                                                                                  Sewing area                                                                         X 220mm × Y 100mm
+                                                                                                                                                                                                                                                                     Monolithic feeding frame
+                                                                                                                                                                                  Feeding frame type
+                                                                                                                                                                                                                                                          Pneumatic feeding frame (lifting amount: 30mm)
+                                                                                                                                                                                  Application                                        Light- to medium-weight                                          Medium- to heavy-weight
+
+SPECIFICATIONS                                                                                                                                                                    Needle                                                    DP×5(#14)                                                         DP×17(#18)
+                                                                                                                                                                                  Thread                                                    #80     #30                                                        #50   #2
+
+      Specification common to all models                                                                                                                                          Compressed air / Air consumption
+                                                                                                                                                                                  Dimensions / Weight
+                                                                                                                                                                                                                                                           0.35   0.4 max. 0.55 MPa / 1.8dm3/min(ANR)
+                                                                                                                                                                                                                        1,200mm(W)×770mm(D)×1,200mm(H) (thread stand is not included), Machine head: 77kg, Control box: 16.5kg
+(The machine with a slide-type thread take-up lever AMS-210EN-HL1306/7300 is excluded.)
+
+
+ Max. sewing speed                                                                                                       2,800sti/min
+ Stitch length                                                                                                 0.1   12.7mm (0.05mm step
+
+
+                                                                                                                                                                                      AMS-221EN Series
+ Needle bar stroke                                                                                                         41.2mm
+ Lift / Stroke of the intermediate presser                                                   Lifting amount: 20mm / Stroke: Standard 4mm (0           10mm
+
+ Variable lower position of the intermediate                                                                                                                                               Model name                 AMS-221EN-SS2516                 AMS-221EN-HS2516                AMS-221EN-SL2516                   AMS-221EN-HL2516
+                                                                                                         Standard 0      3.5mm (max. 0     7.0mm
+ presser
+                                                                                                                                                                                  Sewing area                                                                         X 250mm × Y 160mm
+ Needle thread tension                                                                    Active tension (electronic thread tension control mechanism)                                                                               Monolithic feeding frame                                      Separately-driven feeding frame
+                                                                                                                                                                                  Feeding frame type
+ Hook                                                                                                       Double-capacity shuttle hook                                                                                                                  Pneumatic feeding frame (lifting amount: 30mm)
+                                                                            Main-body memory: Max. 500,000 stitches, 999 patterns (max. 50,000 stitches / pattern)                Application                        Light- to medium-weight         Medium- to heavy-weight         Light- to medium-weight         Medium- to heavy-weight
+ Storage of pattern data in the memory
+                                                                            External media: Max. 50,000,000 stitches, 999 patterns (max. 50,000 stitches / pattern)               Needle                                   DP×5(#14)                        DP×17(#18)                       DP×5(#14)                       DP×17(#18)
+                                                                               1400% 0.1% step   , Pattern enlargement / reduction can be done by increasing /                    Thread                                    #80#20                            #50   #2                       #80     #20                      #50    #2
+ Enlarging / Reducing facility
+                                                                                         decreasing either stitch length or the number of stitches
+                                                                                                                                                                                  Compressed air / Air consumption                                          0.5   0.55(max. 0.55)MPa, 1.8dm3/min(ANR)
+ Bobbin thread / Product counter                                                                              Up / Down system (0        9,999)                                   Dimensions / Weight                                    1,200mm(W)×1,000mm(D)×1,200mm(H) (thread stand is not included), 197kg
+ Lubrication                                                                           Semi-dry / hook section: minute-quantity lubrication (tank system)
+ Lubricating oil                                                                                 JUKI New Defrix Oil No.2 (equivalent to ISO VG32)
+                                                                                                                                                                                           Model name                                                                    AMS-221EN-HS3020
+ Sewing machine motor                                                                                  AC servomotor 550W (direct-drive system)
+                                                                                                                                                                                  Sewing area                                                                         X 300mm × Y 200mm
+ Power requirement / Power consumption                                                                 Single-phase, 3-phase 200         240V/450VA
+                                                                                                                                                                                                                                                                      Monolithic feeding frame
+Stitch length is 4mm or less for the AMS-210EN and 3.5mm or less for the AMS-221EN.                                                                                               Feeding frame type
+sti/min is the abbreviation for “stitches per minute”                                                                                                                                                                                                     Pneumatic feeding frame (lifting amount: 30mm)
+For CompactFlash™, please use genuine JUKI products.                                                                                                                              Application                                                                        Medium- to heavy-weight
+"CompactFlash™"is a registered trademark of SanDisk Corporation, U.S.A.
+Microsoft Windows is a trademark of Microsoft Corporation, U.S.A., registered in the U.S.A. and other countries.                                                                  Needle                                                                                    DP×17(#18)
+Other company names and product names/brand names are trademarks or registered trademarks of the respective companies.
+                                                                                                                                                                                  Thread                                                                                     #50#2
+                                                                                                                                                                                  Compressed air / Air consumption                                          0.350.4(max. 0.55)MPa, 1.8dm     3
+                                                                                                                                                                                                                                                                                              /min(ANR)
+                                                                                                                                                                                  Dimensions / Weight                                      1,200mm(W)×1,000mm(D)×1,200mm(H) (thread stand is not included), 207kg
+

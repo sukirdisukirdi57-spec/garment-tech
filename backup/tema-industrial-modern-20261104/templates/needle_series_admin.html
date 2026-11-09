@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Master Seri Jarum | Garment Tech</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 16px;
+            background: #f3f5f7;
+            color: #222;
+            line-height: 1.6;
+        }
+        main {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 22px;
+            border-radius: 10px;
+            box-shadow: 0 2px 7px rgba(0,0,0,.08);
+        }
+        h1 { font-size: 25px; }
+        h2 { font-size: 20px; margin-top: 28px; }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .field { margin: 15px 0; }
+        input, textarea {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 11px;
+            border: 1px solid #bbb;
+            border-radius: 6px;
+            font-size: 16px;
+            font-family: inherit;
+        }
+        textarea { min-height: 80px; }
+        button {
+            padding: 12px 18px;
+            border: 0;
+            border-radius: 6px;
+            background: #075bb5;
+            color: white;
+            font-size: 16px;
+        }
+        .notice {
+            padding: 12px;
+            border-radius: 6px;
+            background: #eef5ff;
+            margin: 12px 0;
+        }
+        .error { background: #fff0f0; color: #8b1515; }
+        .entry {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 14px;
+            margin: 12px 0;
+        }
+        .muted { color: #555; font-size: 14px; }
+        .edit-link {
+            display: inline-block;
+            padding: 8px 14px;
+            border-radius: 6px;
+            background: #075bb5;
+            color: white;
+            text-decoration: none;
+        }
+        a { color: #075bb5; }
+    </style>
+</head>
+<body>
+<main>
+    <a href="/needle-systems">← Katalog sistem jarum</a>
+    <h1>🪡 Master Seri Jarum</h1>
+    <p>
+        Daftar seri dikelola terpisah dari sistem jarum dan ukuran
+        jarum. Seri baru otomatis berstatus Perlu diverifikasi.
+    </p>
+
+    {% if added %}
+    <div class="notice" role="status">
+        Seri jarum berhasil ditambahkan.
+    </div>
+    {% endif %}
+
+    {% if request.args.get('edited') == '1' %}
+    <div class="notice" role="status">
+        Perubahan seri jarum berhasil disimpan.
+    </div>
+    {% endif %}
+
+    {% if error %}
+    <div class="notice error" role="alert">{{ error }}</div>
+    {% endif %}
+
+    <h2>Tambah seri baru</h2>
+    <form method="post">
+        <input type="hidden" name="_csrf_token"
+               value="{{ csrf_token() }}">
+
+        <div class="field">
+            <label for="series_code">Kode seri *</label>
+            <input id="series_code" name="series_code"
+                   maxlength="50" required
+                   value="{{ values.get('series_code', '') }}"
+                   placeholder="Contoh: DB">
+        </div>
+
+        <div class="field">
+            <label for="series_name">Nama seri *</label>
+            <input id="series_name" name="series_name"
+                   maxlength="120" required
+                   value="{{ values.get('series_name', '') }}"
+                   placeholder="Contoh: Seri DB">
+        </div>
+
+        <div class="field">
+            <label for="description">Deskripsi</label>
+            <textarea id="description" name="description"
+                      placeholder="Keterangan seri berdasarkan referensi">{{ values.get('description', '') }}</textarea>
+        </div>
+
+        <div class="field">
+            <label for="verification_notes">Catatan verifikasi</label>
+            <textarea id="verification_notes"
+                      name="verification_notes"
+                      placeholder="Sumber atau hal yang perlu diperiksa">{{ values.get('verification_notes', '') }}</textarea>
+        </div>
+
+        <button type="submit">Simpan Seri</button>
+    </form>
+
+    
+    <div class="field">
+        <label for="seriesSearch">Cari seri jarum</label>
+        <input id="seriesSearch" type="search"
+               placeholder="Contoh: DB, Seri 134, diverifikasi"
+               autocomplete="off">
+        <p id="seriesSearchResult" class="muted" aria-live="polite"></p>
+    </div>
+
+    <h2 id="seriesHeading">Daftar seri tersimpan ({{ series|length }})</h2>
+    {% for item in series %}
+    <section class="entry series-entry"
+             data-search="{{ (item['series_code'] ~ ' ' ~ item['series_name'] ~ ' ' ~ item['verification_status'] ~ ' ' ~ (item['description'] or '') ~ ' ' ~ (item['verification_notes'] or ''))|lower|e }}">
+        <strong>{{ item["series_code"] }}</strong>
+        — {{ item["series_name"] }}
+        <p class="muted">
+            Status: {{ item["verification_status"] }}
+            <br>
+            Sistem jarum terhubung: {{ item["system_count"] }}
+        </p>
+        {% if item["description"] %}
+        <p>{{ item["description"] }}</p>
+        {% endif %}
+        {% if item["verification_notes"] %}
+        <p class="muted">{{ item["verification_notes"] }}</p>
+        {% endif %}
+
+        <p>
+            <a class="edit-link"
+               href="/admin/needle-series/{{ item['id'] }}/edit">
+                Edit seri ini
+            </a>
+        </p>
+    </section>
+    {% else %}
+    <p>Belum ada seri yang tersimpan.</p>
+    {% endfor %}
+</main>
+
+<script>
+(function () {
+    const input = document.getElementById("seriesSearch");
+    const cards = Array.from(document.querySelectorAll(".series-entry"));
+    const result = document.getElementById("seriesSearchResult");
+    const heading = document.getElementById("seriesHeading");
+    const originalCount = cards.length;
+
+    function filterSeries() {
+        const keyword = input.value.trim().toLocaleLowerCase("id");
+        let visible = 0;
+
+        cards.forEach(function (card) {
+            const text = card.dataset.search || "";
+            const matches = text.includes(keyword);
+            card.hidden = !matches;
+            if (matches) visible++;
+        });
+
+        heading.textContent =
+            "Daftar seri tersimpan (" + visible + " dari " +
+            originalCount + ")";
+
+        if (keyword) {
+            result.textContent = visible
+                ? visible + " seri cocok dengan pencarian."
+                : "Tidak ada seri yang cocok. Coba kata kunci lain.";
+        } else {
+            result.textContent = originalCount + " seri tersedia.";
+        }
+    }
+
+    input.addEventListener("input", filterSeries);
+    filterSeries();
+})();
+</script>
+</body>
+
+</html>

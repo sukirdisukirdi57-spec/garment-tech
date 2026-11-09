@@ -1,0 +1,6 @@
+deviation error because of an excessive load. runs smoothly.
+E971 | Feed horizontal « Pitch motor maloperation.
+
+motor IPM over-
+
+current protection

@@ -1,0 +1,246 @@
+                     separation of the elec-
+                     tronic label
+
+
+
+
+                                                         – 45 –
+ 4-26. List of error codes
+
+Error code                 Error description                                           Solution
+  E001       No reset                                        Click the [Reset] button to reset.
+  E002       No X zero signal                                Inspect the X sensor for poor contact or breakage
+  E003       No Y zero signal                                Inspect the Y sensor for poor contact or breakage
+  E004       No Z zero signal                                Inspect the Z sensor for poor contact or breakage
+  E005       No U zero signal                                Inspect the U sensor for poor contact or breakage
+  E006       Extended shaft infinite bit signal              Inspect the shaft sensor for poor contact or breakage
+  E007       No spindle zero signal                          Check the spindle encoder for breakage
+  E020       X axis overpressure
+  E021       X axis undervoltage
+  E022       X axis hardware overcurrent
+  E023       X axis software overcurrent
+  E024       X axis encoder failure
+  E025       X axis open circuit
+  E026       X axis overload
+  E027       Position out of the X axis allowable range
+  E028       X axis AD sampling failed
+  E029       X axis overheat
+  E030       Y axis overpressure
+  E031       Y axis undervoltage
+  E032       Y axis hardware overcurrent
+  E033       Y axis software overcurrent
+  E034       Y axis encoder failure
+  E035       Y axis open circuit
+  E036       Y axis overload
+  E037       Position out of the Y axis allowable range
+  E038       Y axis AD sampling failed
+  E039       Y axis overheat
+  E040       Z axis overpressure
+  E041       Z axis undervoltage
+  E042       Z axis hardware overcurrent
+  E043       Z axis software overcurrent
+  E044       Z axis encoder failure
+  E045       Z axis open circuit
+  E046       Z axis overload
+  E047       Position out of the Z axis allowable range
+  E048       Z axis AD sampling failed
+  E049       Z axis overheat
+  E050       Thread trimming shaft overpressure
+  E051       Thread trimming shaft undervoltage
+  E052       Thread trimming shaft hardware overcurrent
+  E053       Thread trimming shaft software overcurrent
+  E054       Thread trimming shaft encoder failure
+  E055       Thread trimming shaft open circuit
+
+
+
+                                                          – 46 –
+Error code                 Error description                        Solution
+  E056       Thread trimmer overload
+  E057       Position out of the thread trimming shaft
+             allowable range
+  E058       Thread trimmer AD sampling failed
+  E059       Thread trimming shaft overheat
+  E060       Spindle overpressure
+  E061       Spindle undervoltage
+  E062       Spindle hardware overcurrent
+  E063       Spindle software overcurrent
+  E064       Spindle encoder failure
+  E065       Spindle cannot rotate
+  E066       Spindle rotation fault detected
+  E067       Y servo hardware protection
+  E068       Y servo HOC
+  E069       Y servo AD module initial calibration fault
+  E070       Y servo parameter storage exception
+  E071       Y servo system parameter fault
+  E072       Y servo AD sampling module failure
+  E073       Y servo encoder disconnection
+  E074       Y servo encoder AB interference
+  E075       Y servo encoder Z interference
+  E076       Y servo bus undervoltage
+  E077       Y servo bus overvoltage
+  E078       Y servo software overcurrent
+  E079       Y servo motor overload
+  E080       Y servo drive overload
+  E081       Y servo motor overheat
+  E082       Y servo drive overheat
+  E083       Y servo fan fault
+  E084       Y servo overspeed
+  E085       Position out of the Y servo allowable range
+  E086       Y servo bus voltage phase loss
+  E087       Y servo motor phase sequence error
+  E088       Y servo driver rated current input error
+  E089       Y servo brake resistor overload
+  E090       Y servo absolute encoder overheat
+  E091       Y servo battery voltage is low
+  E092       Y servo position information has been lost
+  E093       Y servo drive does not match the motor
+  E094       Y servo origin retrieval has failed
+  E095       Y servo main power supply failure
+  E096       Learning of the Y servo offset angle has
+             failed
+  E097       Y servo power OFF restart
+  E098       Y servo initialization LAN9252 error
+
+
+
+
+                                                           – 47 –
+Error code                   Error description                                           Solution
+  E099       Communication between the Y servo DSP
+             and ESC is interrupted
+  E100       Communication between the Y servo net-
+             work cable and host is interrupted
+  E101       Exclusive for reading the Y servo PDO com-
+             munication parameter
+  E102       Y servo PDO communication has no index
+  E103       Y servo PDO communication synchroniza-
+             tion time is out of range
+  E104       Y servo PDO communication data is out of
+             range
+  E105       Y servo UVW short circuit
+  E106       Y servo inertia identification has failed
+  E107       Y servo encoder EEPROM reading / writing
+             has failed
+  E108       Y servo positive position limit
+  E109       Y servo position negative limit
+  E110       Y servo electronic gear ratio range
+  E111       Y servo input pulse frequency is too high
+  E200       XY drive alarm
+  E201       X drive alarm
+  E202       Y drive alarm
+  E203       Spindle returns to the initial position
+  E204       Main motor direction is wrong
+  E205       Pressure frame fails to come down                 Click the "Press the frame" button to place the frame.
+  E206       Head board failure                                The head plate has broken. It is necessary to change the
+                                                               broken head plate with a new one.
+  E207       Input I/O timeout error                           Check whether the input IO has "high" or "low" of the input
+                                                               signal.
+  E208       Insufficient air pressure                         Check whether the air supply unit supplies air normally.
+  E209       Clipper motor is not at the correct position      Check whether the zero signal of the clipper motor is nor-
+                                                               mal.
+  E210       Presser motor is not at the correct position      Check that the zero signal of the presser foot motor is nor-
+                                                               mal.
+  E211       Wire grab motor is not at the correct posi-       Check whether the zero line signal of the wire grab motor
+             tion                                              is normal.
+  E212       Cutter is not at the correct position             Check whether the zero signal of the cutter motor is nor-
+                                                               mal.
+  E213       Wire breaks                                       Execute the thread again or turn OFF the wire break detec-
+                                                               tion function before proceeding the operation.
+  E214       Number of jobs is too many                        Counted value on the counter has reached the total
+                                                               number you have set. The total number on the counter is
+                                                               cleared and the counter re-starts counting by re-starting
+                                                               the operation.
+  E215       Bottom line has been already used up              It is necessary to change the bobbin thread hook.
+  E216       File size is too large                            The number of pins in the graphics file has exceeded
+                                                               the maximum range. The current graphics file must be
+                                                               changed with a new one.
+
+
+
+                                                            – 48 –
+Error code                  Error description                                           Solution
+  E217       Work file is not found                          It is necessary to re-scan or change over the graphics file.
+  E218       Waiting for the work data                       Queuing time for processing graphic data differs with the
+                                                             size of graphic
+  E219       Electrical failure. Contact the manufacturer.   Contact the manufacturer of the equipment
+  E220       Wrong upgrade file                              It is necessary to replace the upgrade file with the new
+                                                             upgrade file.
+  E221       Error has occurred during upgrading of the      It is necessary to select the correct type of upgrade file for
+             file type                                       the file to be upgraded
+  E222       Not yet upgraded                                Contact the manufacturer of the equipment
+  E223       It is not an upgrade file made by the same      Contact the manufacturer of the equipment
+             OEM
+  E224       Cannot be connected to the head board           Inspect the head board for poor contact of the head board
+                                                             connection line and / or breakage of the desk head plate
+  E225       Connect to the main board                       If the mother board for the display or the electric cord has
+                                                             broken though the screen line connection is neither poor
+                                                             nor broken, check that replacement of the broken part is
+                                                             necessary.
+  E226       The current file is not valid                   It is necessary to change the graphics file if the graphical
+                                                             file has broken or the file is not intended to be used with
+                                                             this system type.
+  E227       File transfer has failed                        If the mother board for the display or the electric cord has
+                                                             broken though the screen line connection is neither poor
+                                                             nor broken, check that replacement of the broken part is
+                                                             necessary.
+  E228       Data out of range                               Check whether the current graphics file data is defective
+                                                             exceeding the ignorable range.
+  E229       This adjustment angle is too large              Corrected graphic angle is too large.
+                                                             Decrease the changed angle value.
+  E230       Reading of graphics                             Process the necessary graphic data. Then, wait for a while
+                                                             before starting operation.
+  E231       Presser foot error                              Check whether the presser foot motor is normal.
+  E232       U disk has not been detected                    Re-insert the U disk or replace the U disk with a new one.
+  E233       File reading / writing error                    ① Replace the graphics file with a different one.
+                                                             ② Re-insert the U disk or replace the U disk with a new
+                                                               one.
+  E234       Graphics out of range or head offset            ① Reset the position of reference point.
+                                                             ② Reset the offset value of the head 2 or head 3.
+                                                             ③ Replace the small-width graphic with the normal-width
+                                                               graphic.
+  E235       This file is not a file to be processed         Replace the graphics file with a different one.
+  E236       Ferroelectric damage                            Contact the manufacturer of the equipment
+  E237       Set an administration password                  Firstly, set the administration password.
+  E238       Edit is not supported                           Command or file that is not required to be edited
+  E239       Contact the manufacturer                        Contact the manufacturer of the equipment
+  E240       Communication fault 2                           CAN communication error has occurred, or the mother-
+                                                             board program is old one.
+  E241       At the time of fault                            ① Time has been modified illegally.
+                                                             ② Motherboard battery voltage is low.
+
+
+
+                                                          – 49 –
+Error code                 Error description                                         Solution
+  E242       No job IO                                    ① Work enable input IO signal is abnormal.
+                                                          ② Shut down the "Work enable input IO" function. Set the
+                                                            parameter value to 0 (zero).
+  E243       Input waiting IO                             Waiting for the input IO signal in the graphics file.
+  E244       Delay is executed                            Delay command is executed with the graphics file.
+  E245       File name is too long                        It is necessary to shorten the file name.
+  E246       Lift the presser foot in advance             It is necessary to lift the presser foot by clicking the "Press-
+                                                          er foot" button.
+  E247       Frame is not pressed                         It is necessary to press the frame in advance.
+  E248       Auxiliary pressure frame is not pressed      It is necessary to firstly press the auxiliary pressure frame.
+  E249       Pressure frame and auxiliary pressure        It is necessary to push down all of the back pressure
+             frame are not pressed                        blocks.
+  E250       Punched bottom material has run out          It is necessary to replace the material to be punched with a
+                                                          new one.
+
+
+
+
+                                                       – 50 –
+5. MAINTENANCE OF SAWING MACHINE
+
+No.                  Region                                   Explanation                  Operating time
+1     The area under the throat plate, area Clean up the surface of equipment         Eight hours
+      surrounding the hook, bobbin case      with a tool such as an air gun. In
+      and its inner portion, thread trimming particular, clean up the regions in
+      area, needle bar area, areas inside which the aforementioned thread
+      and outside of the presser foot,       waste, thread end and other stains
+      openings of the electronic control     are likely to remain.
+      box such as air inlet and outlet, and
+      the regions in which thread waste,
+      thread end and other stains are likely

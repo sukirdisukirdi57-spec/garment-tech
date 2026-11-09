@@ -1,0 +1,3091 @@
+                                                                                 パーツブック
+
+Z-8550B                                                                         PARTS BOOK
+
+
+Z-8560B
+本縫ダイレクトドライブ電子千鳥縫ミシン
+本縫ダイレクトドライブ電子千鳥縫自動糸切りミシン
+ELECTRONIC DIRECT DRIVE ZIGZAG LOCK STITCHER
+ELECTRONIC DIRECT DRIVE ZIGZAG LOCK STITCHER
+WITH THREAD TRIMMER
+
+
+
+
+最新の部品情報は Parts Navigation でご覧いただけます。http://partsbook.brother.co.jp/partsnavi/jpn/
+The latest parts information, refer to the Parts Navigation. http://partsbook.brother.co.jp/partsnavi/eng/
+BROTHER INDUSTRIES, LTD.
+
+
+Z-8550B- 31
+
+
+0:
+
+
+A:
+
+
+
+
+BROTHER INDUSTRIES, LTD.
+
+
+Z-8560B- 31
+
+
+
+3:
+         Description of model plate
+
+
+
+
+BROTHER INDUSTRIES, LTD.
+
+
+Z-8550B- 31
+
+
+0: Standard
+
+
+A: Standard + Back tack / Condence device
+
+
+
+
+BROTHER INDUSTRIES, LTD.
+
+
+Z-8560B- 31
+
+
+
+4: Thread trimmer + Upper thread feeding device + Back tack / Condence device + Thread wiper
+   (except for Japan)
+                       パーツブックご利用に際して
+1. この本は、2018年11月のデータに基づいて作成されたものです。
+2. 部品は予告なしに設計変更される場合があります。
+3. 組単位で補給する部品は、破線で示してあります。
+4. イラスト中で数字（REF.NO）に“＋”がついている部品は、仕様により異なります。
+   詳細は、リストを参照してください。
+
+
+                                                  目                      次
+                A. 主体関係 .......................................................................             1
+                B. 針棒・天秤関係 ...........................................................                      3
+               C. 千鳥関係 .......................................................................              7
+                D. 押え関係 ........................................................................            9
+                E. 送り関係 .........................................................................          11
+                F. 膝上げ関係 ...................................................................               17
+               G. 逆転関係 .......................................................................             19
+                H. かま関係 ........................................................................           21
+                J. 給油潤滑関係 ..............................................................                   23
+                K. 糸通し関係 ....................................................................              27
+                L. 糸巻関係 .......................................................................            29
+             M1. 糸切り関係 ....................................................................                31
+             M2. 糸切り関係 ....................................................................                33
+                N. 糸緩め関係 ...................................................................               35
+                P. 糸払い関係 ...................................................................               37
+             Q1. コントロールボックス関係 ........................................                                     39
+             Q2. コントロールボックス関係 ........................................                                     41
+                R. 逆転スイッチ関係 .......................................................                        43
+                S. 電装品関係 ...................................................................               45
+                T. 操作パネル関係 .........................................................                       47
+                U. モーター関係 ..............................................................                   49
+                Z. 付属品関係 ...................................................................               51
+            Ga1. ゲージ部品一覧表 .....................................................                            53
+            Ga2. ゲージ部品一覧表 .....................................................                            54
+            Ga3. ゲージ部品一覧表 .....................................................                            55
+            Wa1. 警告ラベル ....................................................................                56
+            Wa2. 警告ラベル ....................................................................                57
+                    索引 .................................................................................   58
+                           Notes for using this parts book
+1. This book was prepared based on information available in November 2018.
+2. Parts are subject to changes in design without prior notice.
+3. Parts supplied as complete assemblies are circled by a dotted line.
+4. The part which has the symbol "+" on its number (REF.NO) in the figure differs
+   depending on the specification. For details, refer to the parts list.
+
+
+                                                    CONTENTS
+                         A. Machine body ....................................................            1
+                         B. Needle bar and thread take-up mechanism .......                             3
+                         C. Zigzag mechanism .............................................              7
+                         D. Presser foot mechanism ....................................                  9
+                         E. Feed mechanism ...............................................              11
+                         F. Knee lifter mechanism .......................................               17
+                         G. Quick reverse mechanism .................................                   19
+                         H. Rotary hook mechanism ....................................                  21
+                          J. Lubrication .........................................................      23
+                         K. Threading mechanism .......................................                 27
+                         L. Bobbin winder mechanism .................................                   29
+                       M1. Thread trimmer mechanism ...............................                     31
+                       M2. Thread trimmer mechanism ...............................                     33
+                         N. Tension release mechanism ..............................                    35
+                         P. Thread wiper mechanism ..................................                   37
+                       Q1. Control box ......................................................           39
+                       Q2. Control box ......................................................           41
+                         R. Quick reverse switch mechanism ......................                       43
+                         S. Power supply equipment ...................................                  45
+                         T. Operation panel .................................................           47
+                         U. Motor mechanism ..............................................              49
+                         Z. Accessories .......................................................         51
+                      Ga1. Gauge parts list .................................….............             53
+                      Ga2. Gauge parts list .................................….............             54
+                      Ga3. Gauge parts list .................................….............             55
+                     Wa1. Warning labels ...................................................            56
+                     Wa2. Warning labels ...................................................            57
+                             Index ..................................................................   58
+A.               / Machine body
+
+
+
+
+                          36                    22
+                                     21                  20
+
+
+      33                                                                                                      31
+                                                                                                                         4
+                                                                                               1 27
+       32                                                                                                                        4
+                                                                                26
+
+
+     < 8550B                                         24
+       / For 8550B >                      23
+
+                                           24
+
+                                                                                                                             4
+                                               24                                                                    3
+                                                                           30
+
+
+                                                                                          30
+
+                                               6 5                                   25
+                          11                         9            30                                  2
+                                                                                                          2
+                               15
+                                                                  CB
+
+                18
+           16
+                                                                       U
+                                                          T
+
+     17                                                       D        Z
+
+
+                                     35
+
+
+                                    34
+                                                     9 10 7                 8
+                     13        14          12
+
+
+
+                                    19
+
+
+
+
+                                                                                                               Z-8550B/8560B-050
+                                                                                                                Z-8550B/8560B- 050
+1
+A. 主体関係 / Machine body
+REF.NO     CODE      Q'TY            品名                 NAME OF PARTS    RM
+1        117936001      1 ゴムセン9.4         RUBBER CAP, 9.4
+2        SA4897001      2 キャクチュウ          STUD
+3        SB8939001      1 モ-タカバ-          MOTOR COVER
+4        0A4501606      4 +ナベザクミ5X16DA    SCREW PAN (S/P WASHER) M5X16
+5        S48006001      1 メンイタメス          FACE PLATE KNIFE
+6        100257010      1 シメネジ3.57        SCREW, SM3.57X6
+7        SA4899101      1 メンイタ            FACE PLATE
+8        SB8946001      1 メンイタパツキン        FACE PLATE PACKING
+9        SA5124001      8 サラネジ4           SCREW, FLAT M4
+10       SA4900001      1 イトアンナイ          THREAD GUIDE
+11       SB9368201      1 テンビンガ-ドクミ       THREAD TAKE-UP GUARD ASSY
+12       SB8943101      1 テンビンガ-ド         THREAD TAKE-UP GUARD
+13       SB8944101      1 テンビンガ-ドカバ-      THREAD TAKE-UP GUARD COVER
+14       SB9376001      1 カバ-マド           COVER WINDOW
+15       085310516      3 バインドBタイト3X5     TAPTITE BIND B M3X5
+16       S52015201      1 ナミガタバネザガネ       WASHER WAVE SPRING
+17       S48012201      1 ダンネジ4.76        SHOULDER SCREW SM4.76
+18       SB8945001      1 ヒラザガネチュウ6.35    WASHER PLAIN M SM6.35
+19       062401016      2 ナベコ4X10         SCREW PAN M4X10
+20       SB8942001      1 ガワイタ            REAR COVER
+21       SB8941101      1 パルスモ-タカバ-       PULSE MOTOR COVER
+22       062501216      6 ナベコ5X12         SCREW PAN M5X12
+23       104449001      1 ゴムセン15.5        RUBBER CAP, 15.5
+24       104821001      3 ゴムセン10.5        RUBBER CAP, 10.5
+25       060400816      2 バインド4X8         SCREW BIND M4X8
+26       150592001      1 ゴムセン16          RUBBER CAP, 16
+27       SA9826001      1 ソウサチユウイラベル      LABEL CAUTION
+30       SA9957001      3 ワ-ニングマ-ク        INJURY MARK
+31       S37060001      1 ア-スマ-ク          LABEL GROUNDING
+
+                          <8550B用>        <For 8550B>
+32       SA4903101      1 マドイタ            WINDOW PLATE
+33       062500816      3 ナベコ5X8          SCREW PAN M5X8
+
+34       SB9372001      1 イタバネ            SPRING PLATE
+35       062400416      1 ナベコ4X4          SCREW, PAN M4X4
+36       0A4501206      3 +ナベザクミ5X12DA    SCREW PAN (S/P WASHER) M5X12
+
+
+
+
+Z-8550B/8560B-050
+Z-8550B/8560B- 050
+                                                                          2   2
+B.                          / Needle bar and thread take-up mechanism
+
+
+                4                                       6
+                                               5                                   1                                              7
+                                                                                                  13
+                                                                                                                                                    12
+                                                                                                                            10
+                                                                                                                  9
+
+                                          4                       6                     8
+                                                                                                                                                    11
+                                          3
+
+                       2                                              19
+                                                        15
+                                              16
+                     18          17
+
+
+
+
+                                                   28                                                  25
+                                                                  26          20                                                  71
+                                                                                                       23
+                                                             27                    22                                 62
+                       29                                              21                                    14
+                                                                                                  24
+
+
+                                                                                                                  69
+                                                                                                            68
+                                     35
+
+                                     61                                       70                                                               66
+     <               /                                                                                                                   65
+         Option parts >
+                                                                  64
+                                                   36                                                            63         67
+                           38        39
+     37                                                                                                                                              34
+                                                                                                                                          33
+
+                                                              51                                             30
+                                51
+                                                                                              42
+                                                                             47                                                                32
+                                                                       50
+                    54                                                            48
+          55                                                           52+                                              41
+                                                                                                                                 49
+                                                                                   31
+                                                                                                                                         47
+                                                                                                                       48
+          56                                                           53
+                                                                                            59+
+               57
+     < 8550B                          < 8560B                                                58
+       / For 8550B >                    / For 8560B >                                                                  60
+
+                                                                                                                                       Z-8550B/8560B-101
+                                                                                                                                        Z-8550B/8560B- 101
+3
+B. 針棒・天秤関係 / Needle bar and thread take-up mechanism
+REF.NO     CODE      Q'TY         品名                       NAME OF PARTS   RM
+1        SA4904001      1 ウワジククミ          UPPER SHAFT ASSY
+2        S25235001      1 シメネジ8           SCREW M8
+3        S25236001      1 アナヒラ6X10ホソメ     SET SCREW SOCKET (FT) M6X10
+4        S23651001      2 アナヒラ6X6ホソメ      SET SCREW SOCKET (FT) M6X6
+5        SA1120001      1 イトマキクドウリン       BOBBIN WINDER DRIVING WHEEL
+6        S23651001      2 アナヒラ6X6ホソメ      SET SCREW SOCKET (FT) M6X6
+7        SB1537001      1 ツギテソ-クミ         JOINT UNIT
+8        S23651001      2 アナヒラ6X6ホソメ      SET SCREW SOCKET (FT) M6X6
+9        SA2250101      1 タイミングプ-リU       TIMING PULLEY U
+10       S38712001      1 フランジ            FLANGE
+11       S38713100      1 フアン             FAN
+12       SA2404001      3 ナベザクミ4X35DB     SCREW, PAN (S WASHER) M4X35
+13       S23651001      2 アナヒラ6X6ホソメ      SET SCREW SOCKET (FT) M6X6
+14       SA4908101      1 タイミングベルト        TIMING BELT
+15       S48036101      1 ハリボウレンカンジク      N-BAR CONNECTING ROD SHAFT
+16       S48037001      1 テンビンイタクミ        ROTARY TAKE-UP MOUNTING PLATE
+17       SA4909101      1 テンビン            ROTARY THREAD TAKE-UP LEVER
+18       S48041001      3 サラネジ3.57        SCREW, FLAT SM3.57
+19       SA4910001      1 ハリボウレンカンクミ      NEEDLE BAR CONNECTING ROD ASSY
+20       SA4912001      1 ハリボウレンカンアンナイ    N-BAR CONNECTING ROD GUIDE
+21       SA5125001      1 オサエイタ           PRESSER PLATE
+22       018401036      2 アナボルト4X10       BOLT SOCKET M4X10
+23       SA4913001      1 ハリボウダキアンナイ      NEEDLE BAR CLAMP GUIDE
+24       018401036      2 アナボルト4X10       BOLT SOCKET M4X10
+25       SA6093001      1 フエルト            FELT
+26       SA6092001      1 フエルトオサエイタ       PRESSER PLATE
+27       062300416      1 ナベコ3X4          SCREW PAN M3X4
+28       SA4915001      1 ハリボウダキ          NEEDLE BAR CLAMP
+29       145318001      1 シメネジ4.37        SCREW, SM4.37
+30       SB9369001      1 ハリボウダイクミ        NEEDLE BAR BASE ASSY
+31       SA9061001      2 フタネジM3          SCREW M3
+32       SA6219001      1 メタルF            BUSH F
+33       012500536      1 アナヒラ5X5         SET SCREW SOCKET (FT) M5X5
+34       SA4922001      1 メタルR            BUSH,R
+35       SA4923001      1 ハリボウ            NEEDLE BAR
+36       140553102      1 アタマツキトメネジ3.18   SET SCREW, SM3.18
+39       S48371070      1 ミシンハリ134SUK     NEEDLE, 134SUK
+41       SB9370101      1 ピンF             PIN F
+42       SB9371001      1 ピンR             PIN R
+47       014300432      2 アナクボミ3X4        SET SCREW SOCKET (CP) M3X4
+48       012500536      2 アナヒラ5X5         SET SCREW SOCKET (FT) M5X5
+49       081005070      1 OリングP5          O RING P5
+50       S48063001      1 ホジヨハリイタ         AUXILIARY NEEDLE PLATE
+51       S48041001      4 サラネジ3.57        SCREW, FLAT SM3.57
+58       SA4928001      1 ストツパイタ          STOPPER PLATE
+60       S18291001      2 ボタンヘツドネジ5X8     SCREW, BUTTON HEAD M5X8
+61       SA8112001      1 ハリボウイトアンナイ      NEEDLE BAR THREAD GUIDE
+
+                          <振り幅8mm用>       <For zigzag width of 8 mm>
+52+      S48065001      1 ハリイタB           NEEDLE PLATE, B
+59+      SA9064001      1 ストツパ8           STOPPER 8
+                          <振り幅10mm用>      <For zigzag width of 10 mm>
+52+      S50684001      1 ハリイタ10A         NEEDLE PLATE, 10A
+59+      S52046000      1 ストツパ10          STOPPER, 10
+
+
+
+
+Z-8550B/8560B-101
+Z-8550B/8560B- 101
+                                                                            4   4
+B.                          / Needle bar and thread take-up mechanism
+
+
+                4                                       6
+                                               5                                   1                                              7
+                                                                                                  13
+                                                                                                                                                    12
+                                                                                                                            10
+                                                                                                                  9
+
+                                          4                       6                     8
+                                                                                                                                                    11
+                                          3
+
+                       2                                              19
+                                                        15
+                                              16
+                     18          17
+
+
+
+
+                                                   28                                                  25
+                                                                  26          20                                                  71
+                                                                                                       23
+                                                             27                    22                                 62
+                       29                                              21                                    14
+                                                                                                  24
+
+
+                                                                                                                  69
+                                                                                                            68
+                                     35
+
+                                     61                                       70                                                               66
+     <               /                                                                                                                   65
+         Option parts >
+                                                                  64
+                                                   36                                                            63         67
+                           38        39
+     37                                                                                                                                              34
+                                                                                                                                          33
+
+                                                              51                                             30
+                                51
+                                                                                              42
+                                                                             47                                                                32
+                                                                       50
+                    54                                                            48
+          55                                                           52+                                              41
+                                                                                                                                 49
+                                                                                   31
+                                                                                                                                         47
+                                                                                                                       48
+          56                                                           53
+                                                                                            59+
+               57
+     < 8550B                          < 8560B                                                58
+       / For 8550B >                    / For 8560B >                                                                  60
+
+                                                                                                                                       Z-8550B/8560B-101
+                                                                                                                                        Z-8550B/8560B- 101
+5
+B. 針棒・天秤関係 / Needle bar and thread take-up mechanism
+REF.NO     CODE      Q'TY       品名                      NAME OF PARTS   RM
+                          <8560B用>       <For 8560B>
+53       S06165001      1 ハリイタザガネ        SPACER, NEEDLE PLATE
+                          <8550B用>       <For 8550B>
+54       S48068001      1 スベリイタクミ        SLIDE PLATE ASSY
+55       S48069001      1 スベリイタ          SLIDE PLATE
+56       114561001      1 スベリイタウラバネ      SPRING, PLATE
+57       SA9523001      2 シメネジ2.38       SCREW SM2.38
+
+62       SB9374001      1 テンションプーリソウクミ   TENSION PULLEY UNIT
+63       S50165001      1 テンシヨンプ-リカラ-    COLLAR
+64       018102536      1 アナボルト10X25     BOLT SOCKET M10X25
+65       021100302      1 3シュナット10       NUT 3 M10
+66       SB9375001      1 プ-リドダイ         PULLEY BASE
+67       SA8060201      1 テンションプ-リイタ     TENSION PULLEY PLATE
+68       018061036      2 アナボルト6X10      BOLT SOCKET M6X10
+69       025060136      2 ヒラザガネショウ6      WASHER PLAIN S 6
+70       SA9763101      1 テンションプ-リクミ     TENSION PULLEY ASSY
+71       018061032      2 アナボルト6X10      BOLT SOCKET M6X10
+
+                          <オプション用>       <Option parts>
+37       SA4924001      1 ハリボウイトカケ       THREAD GUIDE
+38       100105005      1 シメネジ2.38       SCREW, SM2.38X2.4
+
+
+
+
+Z-8550B/8560B-101
+Z-8550B/8560B- 101
+                                                                         6   6
+C.        / Zigzag mechanism
+
+
+
+
+                                     18
+
+
+                                                            1
+
+
+
+
+                                           2                                13
+
+
+          4
+
+     18
+                                                                            15
+
+                                                                8                16
+
+
+                                                                    6
+                                                                        9
+                                                    8
+                 14                                     5                    7
+                                               12
+
+                               10
+
+
+
+                                          11
+
+
+
+
+                                    17
+
+
+
+
+                                                                        Z-8550B/8560B-105
+                                                                         Z-8550B/8560B- 105
+7
+C. 千鳥関係 / Zigzag mechanism
+REF.NO     CODE      Q'TY       品名                   NAME OF PARTS   RM
+1        SB9377001      1 ハリフリモ-タクミ    ZIGZAG MOTOR ASSY
+2        SB9378001      1 モ-タトリツケダイ    MOTOR SETTING BRACKET
+4        018401036      4 アナボルト4X10    BOLT SOCKET M4X10
+5        SA4931001      1 モ-タ-レバ-      MOTOR LEVER
+6        SA4932001      1 ザガネ          WASHER
+7        SA4933001      1 モ-タレバ-ジク     MOTOR LEVER SHAFT
+8        012500536      3 アナヒラ5X5      SET SCREW SOCKET (FT) M5X5
+9        SA4934001      1 ハリフリレンカン     ZIGZAG CONNECTING ROD
+10       SA4935101      1 ハリフリレンカンジク   ZIGZAG CONNECTING ROD SHAFT
+11       SA4936001      1 ハリフリツギテ      ZIGZAG JOINT
+12       012500536      2 アナヒラ5X5      SET SCREW SOCKET (FT) M5X5
+13       SA4937101      1 オイルチユ-ブ      OIL TUBE
+14       SA4938001      1 クミヒモ4X4      WICK, 4X4
+15       140647101      2 コ-ドオサエ       CORD HOLDER
+16       062400616      2 ナベコ4X6       SCREW PAN M4X6
+17       018062032      1 アナボルト6X20    BOLT SOCKET M6X20
+18       018061032      3 アナボルト6X10    BOLT SOCKET M6X10
+
+
+
+
+Z-8550B/8560B-105
+Z-8550B/8560B- 105
+                                                                      8   8
+D.             / Presser foot mechanism
+
+                                38
+           20                        37
+                                                                                        33     36
+                                                                                   32          35      32
+                                                                                                            31 34
+                                          23
+
+     22                                                                   29
+
+                                                    25
+
+                        < 8550B                                           30
+                          / For 8550B >                   26
+
+
+                                               19   28
+                                               18              27 26
+                                                         17
+                                                         16
+                           20
+
+                           30
+
+
+
+                   14      40
+
+                           50
+                                                                 < 8560B       / For 8560B >
+                                                                                         24
+                   15
+
+                   11
+
+                   12
+
+
+
+                   10
+
+
+                                                                 <                / Option parts >
+               2
+           3
+
+
+               4
+           5
+
+               1                                                     39
+               9
+
+
+                                      7
+                                      8
+      6+
+                                                                     41                        40
+
+
+
+
+                                                                                                     Z-8550B/8560B-201
+                                                                                                      Z-8550B/8560B- 201
+9
+D. 押え関係 / Presser foot mechanism
+REF.NO     CODE      Q'TY         品名                      NAME OF PARTS    RM
+1        S48281001      1 オサエボウ           PRESSER BAR
+2        SA4939201      1 オサエボウダキクミ       PRESSER BAR BRACKET ASSY
+3        S23616101      1 シメネジ4X10        SCREW, M4X10
+4        SA4941201      1 オサエボウメタル        PRESSER BAR BUSH
+5        012400432      1 アナヒラ4X4         SET SCREW SOCKET (FT) M4X4
+
+                          <振り幅8mm用>       <For zigzag width of 8 mm>
+6+       S48293201      1 オサエクミ           PRESSER FOOT ASSY W/F-G
+                          <振り幅10mm用>      <For zigzag width of 10 mm>
+6+       S51227201      1 オサエ10クミ         PRESSER FOOT ASSY 10
+
+7        S48297001      1 シメネジ3.18        SCREW, SM3.18
+8        S48298001      1 オサエアシバネ         COMPRESSION SPRING
+9        113050001      1 シメネジ3.57        SCREW, SM3.57
+10       SA7147001      1 オサエバネアンナイカラー    SPRING GUIDE COLLAR
+11       S24740001      1 オサエバネアンナイ       SPRING GUIDE
+12       S48285001      1 オサエバネ           PRESSER BAR SPRING
+14       SA1174002      1 オサエチヨウセツネジM14   PRESSER ADJUSTING SCREW M14
+15       SA1175002      1 チヨウセツネジナツトM14   ADJUST SCREW NUT
+16       S31952001      1 オサエアゲクランク       PRESSER BAR LIFTER CRANK
+17       081004070      1 OリングP4          O RING P4
+18       S31006002      1 オサエアゲテコ         LIFTING LEVER
+19       S39051001      1 ナベザクミ35X12      SCREW, PAN (S/P W) M3.5X12
+20       SA1181101      1 オサエアゲレバ-ジク      PRESSER BAR LIFTER LEVER SHAFT
+22       012500536      1 アナヒラ5X5         SET SCREW SOCKET (FT) M5X5
+
+                          <8550B用>        <For 8550B>
+23       SA4944101      1 イトユルメイタ         TENSION RELEASE PLATE
+                          <8560B用>        <For 8560B>
+24       SA4943101      1 イトユルメレンカンクミ     TENSION RELEASE CON. ROD ASSY
+
+25       S07350001      1 ザガネ             WASHER PLAIN
+26       048050342      2 トメワE5           RETAINING RING E5
+27       SA7839101      1 オサエアゲレバ-バネ      SPRING
+28       SA1177001      1 オサエアゲレバ-        PRESSER BAR LIFTER LEVER
+29       SA4947001      1 ヒザアゲレンカン        KNEE LIFTER CONNECTING ROD
+30       SA1179001      1 ダンネジ5           SHOULDER SCREW M5
+31       SA3980101      1 ヒザアゲレバ-         KNEE LIFTER LEVER
+32       SA1179001      2 ダンネジ5           SHOULDER SCREW M5
+33       SA2165001      1 ダンネジ6           SHOULDER SCREW, M6
+34       SB9379001      1 ヒザアゲボウ          KNEE LIFTER BAR
+35       SA5416001      1 チヨウセツネジ6        ADJUSTING SCREW M6
+36       021060306      1 3シュナット6         NUT 3 M6
+37       SA4949001      1 ササエネジ6          SCREW,M6
+38       021060306      1 3シュナット6         NUT 3 M6
+
+                          <オプション用>        <Option parts>
+39       S50114001      1 オサエボウジク         PRESSER BAR, U
+40       S50115001      1 オサエボウサキA        PRESSER BAR TIP, A
+41       S50116001      1 オサエボウサキB        PRESSER BAR TIP, B
+
+
+
+
+Z-8550B/8560B-201
+Z-8550B/8560B- 201
+                                                                           10   10
+E.                    / Feed mechanism
+
+                                                                                                                                                    41
+                                                                             19                      17 18
+                                                                       14               16
+                                                             10                                                                                               37
+                                                   9                                                                         43          38
+                                         15
+
+                                                                             14
+                                                                                                                                                    39
+                                   15         13
+
+                        12                                                                                      35                            36
+                 14
+                                                                                 30 32 33 34                   42
+                                                                                         8
+                                                            11
+                                              31
+                              29                                                                      4
+                                   28
+                                                                        7                                           5
+                                                                             6                                          3
+                51                  27                                                           1
+                51           46                                    20        25 26
+                                                   48                                                      2
+                                    44
+      50                 52                                                                 24
+                                                                                                 22                                                  85
+                                                             49
+                                                                              23
+                                                   47                              21
+                                              45                                                                            86
+                                                                            69
+                                                             68
+          55                                                                                                            76
+                             56                                                    83                     73
+                                         88                                                                                            61
+                       59
+
+      58        57                                                      72                                                   62                      78
+                             70                                                        84                                                      77
+                                                                                                                    75
+                                                                                                                             66
+                                                                                                          74                             80
+                                                       87                                                                                     81              82
+          89                                                                                 64                                                      60
+     90              89 71
+                90
+                                                                  93
+                                                        96                                                     65
+                                              97                                        67
+                                                                                                      116                    117                         81
+          111                                                                               115                                          53
+                                                                            92                                          63
+
+                                                                             112
+                                                                                                                                                    54
+                       91 103      110                                                                                           107
+       98                                               100
+ 95 94                                         109                                                                               106     99
+                       108                                                                       114                             101
+                                                             113
+                                                                   105           104
+                                                                                                                                   102
+
+
+
+                                                                                                                                              Z-8550B/8560B-202
+                                                                                                                                               Z-8550B/8560B- 202
+11
+E. 送り関係 / Feed mechanism
+REF.NO     CODE      Q'TY           品名                         NAME OF PARTS    RM
+1        S47433201      1 オクリチヨウセツネジ            FEED REGULATING STUD
+2        SA4951101      1 オクリメモリダイヤル5           STITCH LENGTH DIAL 5
+3        S21514201      1 シメネジ4.76              SCREW SM4.76
+4        108549001      1 Oリング                  O RING
+5        142746122      1 メモリイタオサエ              FEED REGULATING SUPPORTER
+6        SA4952001      1 メモリダイヤルピン             STITCH LENGTH DIAL PIN
+7        149622001      1 ハリボウストツパ-バネ           SPRING, N-BAR STOPPER
+8        SA4241001      1 ロックレバ-ピン              ROCK LEVER PIN
+9        SA4954001      1 オクリチヨウセツキクミ           FEED REGULATOR ASSY
+10       SA4957001      1 オクリチヨウセツレンカンU         CONNECTING ROD, U
+11       SA4958001      1 オクリチヨウセツレバ-U          FEED ADJUSTING LEVER, U
+12       SA4959001      1 オクリチヨウセツレンカンD         CONNECTING ROD, D
+13       S23651001      2 アナヒラ6X6ホソメ            SET SCREW SOCKET (FT) M6X6
+14       151308102      3 レンカンジク12.5            STUD 12.5
+15       012500536      3 アナヒラ5X5               SET SCREW SOCKET (FT) M5X5
+16       SA6227001      1 オクリチヨウセツキジク           FEED REGULATOR SHAFT
+17       S20356001      1 ヒラザガネ10               WASHER, PLAIN 10
+18       048080342      1 トメワE8                 RETAINING RING E8
+19       012060536      2 アナヒラ6X5               SET SCREW, SOCKET (FT) M6X5
+20       S47433201      1 オクリチヨウセツネジ            FEED REGULATING STUD
+21       S48113101      1 コンデンスダイヤル5            CONDENSE DIAL 5
+22       129458202      1 シメネジ4.76              SCREW SM4.76
+23       108549001      1 Oリング                  O RING
+24       142746122      1 メモリイタオサエ              FEED REGULATING SUPPORTER
+25       100328001      1 メモリイチキメピンバネ           NOTCH SPRING
+26       S50098201      1 メモリイチギメピン             POSITIONING PIN
+27       SA4961001      1 コンデンスチヨウセツキ           CONDENSE REGULATOR
+28       S23651001      2 アナヒラ6X6ホソメ            SET SCREW SOCKET (FT) M6X6
+29       142374100      1 ドライブツシユ               BUSH DRY :L=20
+30       S25469100      1 ドライブツシユ               BUSH DRY :L=12
+31       SA4963001      1 カエシヌイレバ-ジク            R-LEVER SHAFT
+32       048080342      1 トメワE8                 RETAINING RING E8
+33       025100132      1 ヒラザガネショウ10            WASHER PLAIN S 10
+34       SA1207001      1 カンザ                   SPACER
+35       SA7327001      1 カエシヌイレバ-オサエバネ         SPRING
+36       S07374102      1 カエシヌイレバ-              REVERSE STITCHING LEVER
+
+                          <8550B-A31, 8560B用>   <For 8550B-A31 & 8560B>
+37       SA2541001      1 カエシヌイレバ-イタ            REVERSE STITCHING LEVER PLATE
+                          <8550B-031用>          <For 8550B-031>
+38       SA3067001      1 レバ-ガイド                LEVER GUIDE
+39       S48367000      2 レバ-ガイドゴム              RUBBER
+
+41       SA6592001      1 シメネジM5                SCREW M5
+42       062500816      2 ナベコ5X8                SCREW PAN M5X8
+43       153132000      1 ナイロンチユ-ブ              NYLON TUBE L=13.5
+44       SA4966001      1 オクリチヨウセツレバ-D          FEED ADJUSTING LEVER, D
+45       018501636      1 アナボルト5X16             BOLT SOCKET M5X16
+46       151308102      1 レンカンジク12.5            STUD 12.5
+47       012500536      1 アナヒラ5X5               SET SCREW SOCKET (FT) M5X5
+48       SA4967001      1 オクリチヨウセツジクメタル         FEED ADJUSTING SHAFT BUSH
+49       012060536      1 アナヒラ6X5               SET SCREW, SOCKET (FT) M6X5
+
+                          <8550B-031用>          <For 8550B-031>
+50       SA4968101      1 セツトカラ-                SET SCREW COLLAR
+51       S23651001      2 アナヒラ6X6ホソメ            SET SCREW SOCKET (FT) M6X6
+
+52       SA4969001      1 オクリチヨウセツジク            FEED ADJUSTING SHAFT
+53       SA4970001      1 スイヘイオクリジクメタルR         BUSH, R
+54       SA4971001      1 オイルシ-ル                OIL SEAL
+55       SA4972001      1 オクリキリカエレバ-            FEED CONNECTING LEVER
+
+
+
+Z-8550B/8560B-202
+Z-8550B/8560B- 202
+                                                                                12   12
+E.                    / Feed mechanism
+
+                                                                                                                                                    41
+                                                                             19                      17 18
+                                                                       14               16
+                                                             10                                                                                               37
+                                                   9                                                                         43          38
+                                         15
+
+                                                                             14
+                                                                                                                                                    39
+                                   15         13
+
+                        12                                                                                      35                            36
+                 14
+                                                                                 30 32 33 34                   42
+                                                                                         8
+                                                            11
+                                              31
+                              29                                                                      4
+                                   28
+                                                                        7                                           5
+                                                                             6                                          3
+                51                  27                                                           1
+                51           46                                    20        25 26
+                                                   48                                                      2
+                                    44
+      50                 52                                                                 24
+                                                                                                 22                                                  85
+                                                             49
+                                                                              23
+                                                   47                              21
+                                              45                                                                            86
+                                                                            69
+                                                             68
+          55                                                                                                            76
+                             56                                                    83                     73
+                                         88                                                                                            61
+                       59
+
+      58        57                                                      72                                                   62                      78
+                             70                                                        84                                                      77
+                                                                                                                    75
+                                                                                                                             66
+                                                                                                          74                             80
+                                                       87                                                                                     81              82
+          89                                                                                 64                                                      60
+     90              89 71
+                90
+                                                                  93
+                                                        96                                                     65
+                                              97                                        67
+                                                                                                      116                    117                         81
+          111                                                                               115                                          53
+                                                                            92                                          63
+
+                                                                             112
+                                                                                                                                                    54
+                       91 103      110                                                                                           107
+       98                                               100
+ 95 94                                         109                                                                               106     99
+                       108                                                                       114                             101
+                                                             113
+                                                                   105           104
+                                                                                                                                   102
+
+
+
+                                                                                                                                              Z-8550B/8560B-202
+                                                                                                                                               Z-8550B/8560B- 202
+13
+E. 送り関係 / Feed mechanism
+REF.NO     CODE      Q'TY            品名                  NAME OF PARTS   RM
+56       012060536      2 アナヒラ6X5          SET SCREW, SOCKET (FT) M6X5
+57       SA4932001      1 ザガネ              WASHER
+58       151308102      1 レンカンジク12.5       STUD 12.5
+59       012500536      1 アナヒラ5X5          SET SCREW SOCKET (FT) M5X5
+60       SA7709001      1 キリカエキソウクミ        FEED REGULATOR UNIT
+61       SA4980001      1 オクリクドウレンカン       F-DRIVING CONNECTING ROD
+62       110562001      1 ジク               SHAFT
+63       SA4981001      1 シメネジ3.5          SCREW, SM3.5
+64       SA4982001      1 スイヘイオクリウデ        FEED ROCKER ARM
+65       062061616      1 ナベコ6X16          SCREW PAN M6X16
+66       S53825001      1 ジク7.24           SHAFT, 7.24
+67       012500536      1 アナヒラ5X5          SET SCREW SOCKET (FT) M5X5
+68       SA4983001      1 キリカエキウデ          FEED REGULATOR LEVER
+69       018501032      2 アナボルト5X10        BOLT SOCKET M5X10
+70       SA4984001      1 キリカエキレンカン        F-REGULATOR CONNECTING ROD
+71       SA4985001      1 ダンネジ5            SHOULDER SCREW, M5
+72       021500312      1 3シュナット5          NUT 3 M5
+73       SA4987101      1 スイヘイヘンシンリン       LEVEL FEED ECCENTRIC WHEEL
+74       S25240001      1 アナトガリ6X10ホソメ     SET SCREW SOCKET (CN) M6X10
+75       S25236001      1 アナヒラ6X10ホソメ      SET SCREW SOCKET (FT) M6X10
+76       SA4988001      1 ニ-ドルジクウケ20       ROLLER BEARING, RADIAL 20
+77       SA4989001      1 レンカンオサエ          HOLDER
+78       062350616      2 ナベコ35X6          SCREW PAN M3.5X6
+80       SA4990001      1 フエルト             FELT
+81       148743001      2 フエルト             FELT
+82       SA4991001      1 オイルシ-ル           OIL SEAL
+83       SA4992001      1 キリカエキトメ          F-REGULATOR STOPPER
+84       062060816      1 ナベコ6X8           SCREW PAN M6X8
+85       SA2377001      1 ゴムセンラベル          RUBBER CAP LABEL
+86       S34352101      1 ゴムセン13.5         RUBBER CAP, 13.5
+87       SA7499001      1 キリカエキバネ          EXTENSION SPRING
+88       SA4994101      1 バネカケ             SPRING HOOK
+89       SA4995001      2 オクリチヨウセツストツパ     FEED ADJUSTING STOPPER
+90       062061016      2 ナベコ6X10          SCREW PAN M6X10
+91       SA4996001      1 スイヘイオクリジク        FEED ROCKER SHAFT
+92       SA4997101      1 セツトカラ-           SET SCREW COLLAR
+93       S23651001      2 アナヒラ6X6ホソメ       SET SCREW SOCKET (FT) M6X6
+94       142628001      1 スイヘイオクリクランクリング   SPACER
+95       048110142      1 トメワジクヨウC11       RETAINING RING EXTERNAL C11
+96       SA4998001      1 スイヘイオクリジクメタルM    BUSH, M
+97       SA4999001      1 オイルシ-ル           OIL SEAL
+98       SA5001001      1 スイヘイオクリジクメタルL    BUSH, L
+99       012060536      1 アナヒラ6X5          SET SCREW, SOCKET (FT) M6X5
+100      SA5003001      1 オクリダイクミ          FEED BAR ASSY
+
+                          <8560B用>         <For 8560B>
+101      SA5016001      1 ジヨウゲオクリリンククミ     FEED LIFTING LINK ASSY
+                          <8550B用>         <For 8550B>
+102      SA5010001      1 ジヨウゲオクリリンククミ     FEED LIFTING LINK ASSY
+                          <8560B用>         <For 8560B>
+103      SA8038001      1 スイヘイオクリダイウデ      FEED ROCKER BRACKET ARM
+
+104      062401416      1 ナベコ4X14          SCREW PAN M4X14
+105      SA5006001      1 ジヨウゲヘンシンピン       PIN
+106      105161004      1 ザガネ              WASHER PLAIN
+107      062300616      1 ナベコ3X6           SCREW PAN M3X6
+
+                          <8550B用>         <For 8550B>
+108      SA8037001      1 スイヘイオクリダイウデ      FEED ROCKER BRACKET ARM
+
+109      SA7257001      2 シメネジ5X12         SCREW 5X12
+
+
+
+Z-8550B/8560B-202
+Z-8550B/8560B- 202
+                                                                         14   14
+E.                    / Feed mechanism
+
+                                                                                                                                                    41
+                                                                             19                      17 18
+                                                                       14               16
+                                                             10                                                                                               37
+                                                   9                                                                         43          38
+                                         15
+
+                                                                             14
+                                                                                                                                                    39
+                                   15         13
+
+                        12                                                                                      35                            36
+                 14
+                                                                                 30 32 33 34                   42
+                                                                                         8
+                                                            11
+                                              31
+                              29                                                                      4
+                                   28
+                                                                        7                                           5
+                                                                             6                                          3
+                51                  27                                                           1
+                51           46                                    20        25 26
+                                                   48                                                      2
+                                    44
+      50                 52                                                                 24
+                                                                                                 22                                                  85
+                                                             49
+                                                                              23
+                                                   47                              21
+                                              45                                                                            86
+                                                                            69
+                                                             68
+          55                                                                                                            76
+                             56                                                    83                     73
+                                         88                                                                                            61
+                       59
+
+      58        57                                                      72                                                   62                      78
+                             70                                                        84                                                      77
+                                                                                                                    75
+                                                                                                                             66
+                                                                                                          74                             80
+                                                       87                                                                                     81              82
+          89                                                                                 64                                                      60
+     90              89 71
+                90
+                                                                  93
+                                                        96                                                     65
+                                              97                                        67
+                                                                                                      116                    117                         81
+          111                                                                               115                                          53
+                                                                            92                                          63
+
+                                                                             112
+                                                                                                                                                    54
+                       91 103      110                                                                                           107
+       98                                               100
+ 95 94                                         109                                                                               106     99
+                       108                                                                       114                             101
+                                                             113
+                                                                   105           104
+                                                                                                                                   102
+
+
+
+                                                                                                                                              Z-8550B/8560B-202
+                                                                                                                                               Z-8550B/8560B- 202
+15
+E. 送り関係 / Feed mechanism
+REF.NO     CODE      Q'TY       品名                    NAME OF PARTS   RM
+110      SA1242001      2 アタマトメクボミ5X7   SET SCREW 5X7
+111      SA5009001      1 スイヘイオクリダイジク   F-ROCKER BASE SHAFT
+112      S48140001      1 ザガネ           WASHER
+113      062300416      1 ナベコ3X4        SCREW PAN M3X4
+114      062300416      1 ナベコ3X4        SCREW PAN M3X4
+115      S58908001      1 オクリバ          FEED DOG
+116      S07494001      2 シメネジ3.18      SCREW, W/SOCKET SM3.18X7
+117      SA7706001      1 ゴムセン12.5      RUBBER CAP 12.5
+
+
+
+
+Z-8550B/8560B-202
+Z-8550B/8560B- 202
+                                                                      16   16
+F.   / Knee lifter mechanism
+
+
+
+
+                                           4
+                                       2
+
+
+                               5
+                        6
+           9
+
+                                                       1
+                                       3
+
+                                   8
+                               7
+
+
+
+
+                                               Z-8550B/8560B-203
+                                                Z-8550B/8560B- 203
+17
+F. 膝上げ関係 / Knee lifter mechanism
+REF.NO     CODE      Q'TY         品名                 NAME OF PARTS   RM
+1        S35821021      1 ヒザアテクミ       KNEE LIFTER ASSY
+2        146039121      1 ヒザアテツギテ      KNEE LIFTER BRACKET
+3        100463021      1 4カクボルト7.94   BOLT SQUARE SM7.94
+4        S35820021      1 ボルト5.95X20   BOLT, SM5.95X20
+5        104619022      1 ヒザアゲタテジク     KNEE LIFTER BAR
+6        S34756021      1 ヒザアテ         KNEE LIFTER PLATE
+7        114967021      1 ヒザアテストツパ     KNEE LIFTER PLATE STOPPER
+8        110087021      1 ボルト5.95      BOLT SM5.95-28X8
+9        S31885001      1 ヒザアテカバ-      KNEE LIFTER PLATE COVER
+
+
+
+
+Z-8550B/8560B-203
+Z-8550B/8560B- 203
+                                                                     18   18
+G.   / Quick reverse mechanism
+
+
+
+
+                                             6
+
+
+
+
+         8                12
+                               10                     5
+                     11
+
+
+
+
+                                     7
+                                                             7
+               9
+
+
+
+
+                     3
+
+                          4
+                                 2
+
+
+
+
+                                                 13
+
+
+
+
+                                         1
+
+
+
+
+                                                          Z-8550B/8560B-205
+                                                           Z-8550B/8560B- 205
+19
+G. 逆転関係 / Quick reverse mechanism
+REF.NO     CODE      Q'TY          品名                         NAME OF PARTS   RM
+                          <8550B-A31, 8560B用>   <For 8550B-A31 & 8560B>
+1        SC0095001      1 ギヤクテンソレノイドソウクミ        QUICK REVERSE SOLENOID UNIT
+2        154729001      1 プランジヤ                 PLUNGER
+3        154730001      1 トメワE15                RETAINING RING E15
+4        154731000      1 ゴムストツパ-               RUBBER STOPPER
+5        SA5018001      1 ソレノイドダイ               SOLENOID BASE
+6        062500816      3 ナベコ5X8                SCREW PAN M5X8
+7        062061016      2 ナベコ6X10               SCREW PAN M6X10
+8        SA5019001      1 ソレノイドレバ-              SOLENOID LEVER
+9        S23651001      2 アナヒラ6X6ホソメ            SET SCREW SOCKET (FT) M6X6
+10       SA2992001      1 レンケツピン                PIN
+11       153138001      1 ザガネ                   WASHER, PLAIN 6.5
+12       048060142      1 トメワジクヨウC6             RETAINING RING EXTERNAL C6
+13       SB0827001      1 コウオンラベル               HIGH TEMP LABEL
+
+
+
+
+Z-8550B/8560B-205
+Z-8550B/8560B- 205
+                                                                              20   20
+H.                  / Rotary hook mechanism
+
+     < 8560B        / For 8560B >
+
+            50                        49                                            2
+          51                                                                                                                         4        4
+
+                                                                                                                            3
+                                                                                                                       6
+                    52
+                           53                                                       5
+
+                                                                 6
+                                                      17
+                                                                                                            8
+                                                                               7
+               45                                                                                 9              10
+               46                                                                                 11
+                                                           16   17                                                          1
+                    48
+
+               50
+          51                         47
+                                                54
+
+                     52                                                                 12
+                                                                          13
+                                                                                                                           20
+
+                                                                                                                                     18
+                                                                                                                           21
+                                                                                                            19
+
+                                                                                   14                                 22
+
+                          37                                                                 15
+                                                      56 55
+
+                                                                 23
+                                                                                        26
+                                                                                   24
+                           36
+                                                                                                       29
+                                                                                                                  30
+          41
+                                                                     26
+
+                                                                               30                                                        28
+                                                                                                                                               27
+          44
+     57             40                                 33
+                          41
+                                42
+                                      43
+                                                                                                                                28
+                                                                                                                                              25
+                                           33    32
+                                                                                             35
+                                                      31
+                                                                                                        34
+                                                                35
+
+                                                                                                                                Z-8550B/8560B-301
+                                                                                                                                 Z-8550B/8560B- 301
+21
+H. かま関係 / Rotary hook mechanism
+REF.NO     CODE      Q'TY            品名                 NAME OF PARTS      RM
+                          <8550B用>        <For 8550B>
+1        SA8428001      1 シタジク            LOWER SHAFT
+                          <8560B用>        <For 8560B>
+2        SA8427001      1 シタジク            LOWER SHAFT
+
+3        SA5022101      1 タイミングプ-リDクミ     TIMING PULLEY ASSY D
+4        S23651001      4 アナヒラ6X6ホソメ      SET SCREW SOCKET (FT) M6X6
+5        SA5007001      1 シタジクメタルMクミ      LOWER SHAFT BUSH M ASSY
+6        SA4971001      2 オイルシ-ル          OIL SEAL
+7        012060536      1 アナヒラ6X5         SET SCREW, SOCKET (FT) M6X5
+8        144875001      1 プランジヤ-          PLUNGER
+9        S52764001      1 プランジヤ-バネ        SPRING COMPRESSION
+10       081006670      1 OリングPW6         O RING PW6
+11       SA6367001      1 ポンプフタネジ         SCREW M8X7
+12       SA5027001      1 シタジクメタルF        LOWER SHAFT BUSH F
+13       SA4971001      1 オイルシ-ル          OIL SEAL
+14       SA5028001      1 クミヒモ            WICK
+15       012060536      1 アナヒラ6X5         SET SCREW, SOCKET (FT) M6X5
+16       SA5029001      1 シタジクセツトカラ-      SET SCREW COLLAR
+17       S23651001      2 アナヒラ6X6ホソメ      SET SCREW SOCKET (FT) M6X6
+18       SA5030001      1 ベベルギヤZクミ        BEVEL GEAR ASSY,Z
+19       SA5031001      1 シタジクベベルギヤZクミ    BEVEL GEAR ASSY,Z-LOWER
+20       014770632      2 アナクボミ635-40X6   SET SCREW SOCKET SM6.35-40X6
+21       183307001      1 シタジクベベルギヤクミ     BEVEL GEAR ASSY, L-SHAFT
+22       014770632      2 アナクボミ635-40X6   SET SCREW SOCKET SM6.35-40X6
+23       SA5033201      1 カマクドウジク         ROTARY HOOK DRIVING SHAFT
+24       SA5034301      1 ベアリングカラ-クミ      BEARING COLLAR ASSY
+25       081008870      1 OリングS8          O RING S8
+26       012500536      2 アナヒラ5X5         SET SCREW SOCKET (FT) M5X5
+27       SA5037101      1 ベアリングカラ-クミ      BEARING COLLAR ASSY
+28       012500536      2 アナヒラ5X5         SET SCREW SOCKET (FT) M5X5
+29       SA5040001      1 タイミングプ-リ39クミ    TIMING PULLEY ASSY,39
+30       012500536      2 アナヒラ5X5         SET SCREW SOCKET (FT) M5X5
+31       SA5043201      1 タイミングベルト        TIMING BELT
+32       SA5044101      1 タイミングプ-リ26      TIMING PULLEY 26
+33       012500536      2 アナヒラ5X5         SET SCREW SOCKET (FT) M5X5
+34       SA5037101      1 ベアリングカラ-クミ      BEARING COLLAR ASSY
+35       012500536      2 アナヒラ5X5         SET SCREW SOCKET (FT) M5X5
+36       SA8426201      1 カマジククミ          ROTARY HOOK SHAFT ASSY
+37       048080142      1 トメワジクヨウC8       RETAINING RING EXTERNAL C8
+40       SA5048101      1 カマジクメタル         ROTARY HOOK SHAFT BUSH
+41       SA5049101      2 オイルシ-ル          OIL SEAL
+42       081015070      1 OリングP15         O RING P15
+43       081014670      1 OリングPW14        O RING PW14
+44       012060536      1 アナヒラ6X5         SET SCREW, SOCKET (FT) M6X5
+45       S48179001      1 カマドメ            B-CASE HOLDER POSITION BRACKET
+46       060670812      1 バインド357-40X8    SCREW BIND SM3.57-40X8
+47       SA5126001      1 ボビン             BOBBIN
+50       S09477001      1 ボビンチヨウシバネ       SPRING
+51       180721001      1 チヨウシバネシメネジ      SCREW
+52       183507001      1 チヨウシネジ          ADJUSTING SCREW
+54       SA8194101      1 SA8195カマハコクミ    ROTARY HOOK ASSY W/BOX SA8195
+55       110367001      1 ザガネ             WASHER, PLAIN SPECIAL 8
+56       048080142      1 トメワジクヨウC8       RETAINING RING EXTERNAL C8
+57       S32263001      1 ゴムセン8.5         RUBBER CAP, 8.5
+
+                          <8550B用>        <For 8550B>
+48       SA8128001      1 ボビンケ-スクミ        BOBBIN CASE ASSY
+                          <8560B用>        <For 8560B>
+49       SA8127001      1 ボビンケ-スクミ        BOBBIN CASE ASSY
+53       SA8126001      1 クウテンボウシバネ       ANTI-SPIN SPRING
+
+
+
+Z-8550B/8560B-301
+Z-8550B/8560B- 301
+                                                                           22   22
+J.                   / Lubrication
+
+                                                      9
+                                                      8
+                                       10
+
+
+                          5                                    7
+                                                               6     3
+
+                               1                  2
+
+                                   4
+
+
+                                                                                                                                                29
+           46
+           45
+                                                               12
+                                                                          11
+                                        44
+      47
+                                        42                                          76
+                                                                                                                                           27
+                                                                                               13
+                                                                                                                   21
+                                                                    30
+                                                                                                                   15                      25
+                                                                               26
+                                                                                          14                                               23
+                                                                                    17
+           37                                                                                                                81 80
+           36                                43                                                                                                24
+           38              41
+                                                  31                                     79                         15
+                           40                                                  77                                             16                22
+           39                                                            18 78
+                                            32                                                20                    26
+           35             33                                                                             19
+                          34
+
+
+           50                                                                                       57                                         82
+
+                   48
+
+
+                                                                                                                                           69
+                     76                                             74                                                                           68
+           76                                                       75
+      51                                                  54                             72                                                      62
+                                                                                               74                             63
+     < 8550B    / For 8550B >                             55             70                              58
+                                                                                               75
+                                                                         73                                             58
+                   49                                                                                                                           67
+                                                                                          72                             69 66
+                                                                         73
+                                                                                                              61                    67
+     52                 53                                               71                                   65                          67
+                                                                                                                                                60
+                     76                                                                                       64
+           76                                                                                                                        65
+                                                                          56                                             63          64   59
+     < 8560B    / For 8560B >
+
+                                                                                                                                   Z-8550B/8560B-350
+                                                                                                                                    Z-8550B/8560B- 350
+23
+J. 給油潤滑関係 / Lubrication
+REF.NO     CODE      Q'TY         品名                      NAME OF PARTS   RM
+1        SA4265001      1 チユウユクチクミ       OIL FEEDING ASSY
+2        S51815001      1 オイルクチ8.6       OIL FEEDING PIPE 8.6
+3        SA5062001      1 チユウユクチトリツケイタ   OIL FEEDING SETTING PLATE
+4        SA5063001      1 ビニルチユ-ブ        VINYL TUBE
+5        0A5400806      2 +ナベザクミ4X8DB    SCREW PAN (S/P WASHER) M4X8
+6        081022870      1 OリングS22        O RING S22
+7        104450101      1 ゴムセン8          RUBBER CAP, 8
+8        140647101      1 コ-ドオサエ         CORD HOLDER
+9        062400616      1 ナベコ4X6         SCREW PAN M4X6
+10       062501016      2 ナベコ5X10        SCREW PAN M5X10
+11       SA5065101      1 オイルチヨウセツネジ     ADJUSTING SCREW
+12       081004870      1 OリングS4         O RING S4
+13       SA8995101      1 オイルタンククミ       OIL TANK ASSY
+14       SA8990001      1 オイルクチ9         OIL FEEDING PIPE 9
+15       S51815001      2 オイルクチ8.6       OIL FEEDING PIPE 8.6
+16       SA8996001      1 オイルチユ-ブ        OIL TUBE L=28
+
+                          <8550B用>       <For 8550B>
+17       SA5073001      1 オイルチユ-ブ        OIL TUBE L=340
+                          <8560B用>       <For 8560B>
+17       SA5071001      1 オイルチユ-ブ        OIL TUBE L=350
+
+18       SA8997001      1 ビニルチュ-ブ        VINYL TUBE L=122
+19       SA1303101      1 シメネジ8          SCREW M8
+20       081008070      1 OリングP8         O RING P8
+21       SA8991001      1 ゴムセン35-12      RUBBER CAP 35-12
+22       SA1306001      1 サブタンククミ        SUB TANK ASSY
+23       SA1307001      1 サブタンク          SUB TANK
+24       S51815001      1 オイルクチ8.6       OIL FEEDING PIPE 8.6
+25       081022870      1 OリングS22        O RING S22
+26       0A4501206      2 +ナベザクミ5X12DA   SCREW PAN (S/P WASHER) M5X12
+27       SA9795101      1 オイルゲ-ジクミ       FLOAT ASSY
+29       S47509001      1 ユリヨウケイマド       OIL GAUGE WINDOW
+30       SA5071001      1 オイルチユ-ブ        OIL TUBE L=350
+31       SA6094001      1 チユ-ブオサエイタA     PRESSER PLATE A
+32       062500616      1 ナベコ5X6         SCREW PAN M5X6
+33       SA6095001      1 チユ-ブオサエイタB     PRESSER PLATE B
+34       062500616      1 ナベコ5X6         SCREW PAN M5X6
+35       SA5076101      1 ベツドソコフタクミ      BED BOTTOM COVER ASSY
+36       S51272100      1 ソコフタマド         OIL WINDOW B-COVER
+37       081015870      1 OリングS15        O RING S15
+38       SA1313101      1 マドフタ           WINDOW COVER
+39       062500616      4 ナベコ5X6         SCREW PAN M5X6
+40       SA1303101      2 シメネジ8          SCREW M8
+41       081008070      2 OリングP8         O RING P8
+42       SA5078001      1 ソコフタパツキン       BOTTOM COVER PACKING
+43       062501216      9 ナベコ5X12        SCREW PAN M5X12
+44       SA5079001      1 ソコフタフエルト       BOTTOM COVER FELT
+45       025040332      2 ヒラザガネダイ4       WASHER PLAIN L 4
+46       062400616      2 ナベコ4X6         SCREW PAN M4X6
+47       SA6165001      1 クミヒモオサエ        WICK SUPPORT
+50       081013870      2 OリングS12.5      O RING S12.5
+
+
+
+
+Z-8550B/8560B-350
+Z-8550B/8560B- 350
+                                                                          24   24
+J.                   / Lubrication
+
+                                                      9
+                                                      8
+                                       10
+
+
+                          5                                    7
+                                                               6     3
+
+                               1                  2
+
+                                   4
+
+
+                                                                                                                                                29
+           46
+           45
+                                                               12
+                                                                          11
+                                        44
+      47
+                                        42                                          76
+                                                                                                                                           27
+                                                                                               13
+                                                                                                                   21
+                                                                    30
+                                                                                                                   15                      25
+                                                                               26
+                                                                                          14                                               23
+                                                                                    17
+           37                                                                                                                81 80
+           36                                43                                                                                                24
+           38              41
+                                                  31                                     79                         15
+                           40                                                  77                                             16                22
+           39                                                            18 78
+                                            32                                                20                    26
+           35             33                                                                             19
+                          34
+
+
+           50                                                                                       57                                         82
+
+                   48
+
+
+                                                                                                                                           69
+                     76                                             74                                                                           68
+           76                                                       75
+      51                                                  54                             72                                                      62
+                                                                                               74                             63
+     < 8550B    / For 8550B >                             55             70                              58
+                                                                                               75
+                                                                         73                                             58
+                   49                                                                                                                           67
+                                                                                          72                             69 66
+                                                                         73
+                                                                                                              61                    67
+     52                 53                                               71                                   65                          67
+                                                                                                                                                60
+                     76                                                                                       64
+           76                                                                                                                        65
+                                                                          56                                             63          64   59
+     < 8560B    / For 8560B >
+
+                                                                                                                                   Z-8550B/8560B-350
+                                                                                                                                    Z-8550B/8560B- 350
+25
+J. 給油潤滑関係 / Lubrication
+REF.NO     CODE      Q'TY            品名                 NAME OF PARTS   RM
+                          <8550B用>        <For 8550B>
+48       SA9394001      1 カマジクカバ-         ROTARY HOOK SHAFT COVER
+51       062501016      4 ナベコ5X10         SCREW PAN M5X10
+                          <8560B用>        <For 8560B>
+49       SA9393001      1 カマジクカバ-         ROTARY HOOK SHAFT COVER
+52       062501016      2 ナベコ5X10         SCREW PAN M5X10
+53       062501216      2 ナベコ5X12         SCREW PAN M5X12
+
+54       SA6646001      1 チューブホルダ         TUBE HOLDER
+55       062500616      2 ナベコ5X6          SCREW PAN M5X6
+56       SB9630101      1 オイルパンクミ         OIL PAN ASSY
+57       SB9631101      1 オイルパン           OIL PAN
+58       149578000      4 ヨコジクブツシユ        BUSH
+59       SA5082001      1 ヒザアゲヨコジクL       KNEE LIFTER SHAFT L
+60       SA1324001      1 ヒザアゲヨコジクR       KNEE LIFTER SHAFT R
+61       SA1325101      1 ヒザアゲ            KNEE LIFTER
+62       SA1326101      1 ヒザアゲR           KNEE LIFTER, R
+63       S25344001      2 ボルト6            BOLT M6
+64       SB0687001      2 トメネジ6           SET SCREW M6X24
+65       021060306      2 3シュナット6         NUT 3 M6
+66       SA3508001      1 ヒザアゲネジリバネ       TWIST SPRING
+67       146293001      3 トメワE10          RETAINING RING E10
+68       SA5083001      1 ヒザアゲレンケツカン      KNEE LIFTER CONNECTING ROD
+69       SA1179001      2 ダンネジ5           SHOULDER SCREW M5
+70       SB9614001      1 ファンモータ          FAN MOTOR
+71       062302506      4 ナベコ3X25         SCREW PAN M3X25
+72       SB9629001      2 フィルタ            FILTER
+73       SA6645001      2 ファンカバー          FAN COVER
+74       625010000      4 ナイロンクランプNK-2N   NYLON CLAMP NK-2N
+75       062400816      4 ナベコ4X8          SCREW PAN M4X8
+76       S07876101      3 チユ-ブストツパ-       TUBE CLIP
+77       081006670      1 OリングPW6         O RING PW6
+78       SA8989001      1 オイルクチ           OIL FEEDING PIPE
+79       SA8987001      1 フイルタ            FILTER
+80       SA8999001      1 オイルクチ3.8        OIL FEEDING PIPE 3.8
+81       081006070      1 OリングP6          O RING P6
+82       SB0827001      1 コウオンラベル         HIGH TEMP LABEL
+
+
+
+
+Z-8550B/8560B-350
+Z-8550B/8560B- 350
+                                                                        26   26
+K.                 / Threading mechanism
+
+
+
+                                                25
+
+
+
+
+                                                10
+
+                                                                                     26
+
+
+
+
+                                                                                                        3
+
+
+
+
+                                                                                     6
+                                           23
+
+                                                                                              4    5
+
+                                                                                                             7
+                                                                                                                      8
+         1
+                                                                                                                           9
+                  2       29
+                                28                                       13
+                                      27
+                                                                                                        11
+                                                     24
+
+                                                                14
+                                                                           12
+                                                                                22
+                                                                                         15
+                                                                                              18
+     <                / Option parts >
+                                                                                                   19
+                                                                                                         18
+                           40                                                                                    16
+                                                30                                                                    42
+                                                                                                                           17
+             35                                                                                                                 20
+                   31                                                                                                                21
+
+                            32
+                                     33
+                                           37
+                                                34
+                                                                     0
+                                                                 1   4 3
+                                                                 2
+
+
+
+              41                                      36         39
+                                                           38
+
+                                                                                                                  Z-8550B/8560B-401
+                                                                                                                   Z-8550B/8560B- 401
+27
+K. 糸通し関係 / Threading mechanism
+REF.NO     CODE      Q'TY       品名                     NAME OF PARTS   RM
+1        SA5084101      1 イトアンナイ         THREAD GUIDE
+2        SA5124001      2 サラネジ4          SCREW, FLAT M4
+3        SA5085101      1 プレテンシヨンクミ      PRE-TENSION ASSY
+4        SA5086001      1 イトアンナイ         THREAD GUIDE
+5        S45563001      1 イトアンナイチヨウシボウ   THREAD GUIDE TENSION STUD
+6        SA2363001      1 プレテンシヨンダイ      PRE-TENSION BASE
+7        144504001      2 イトアンナイサラ       THREAD GUIDE DISC
+8        SA2358101      1 プレテンシヨンバネB     PRE-TENSION SPRING B
+9        SA6167001      1 イトチョウシナット      THREAD TENSION NUT
+10       012500536      1 アナヒラ5X5        SET SCREW SOCKET (FT) M5X5
+11       SA5088401      1 イトチヨウシボウダイクミ   THREAD TENSION BRACKET ASSY
+12       S50390101      1 イトチヨウシボウダイ     TENSION STUD BRACKET
+13       100402004      1 トメネジ3.57       SET SCREW SM3.57
+14       081014870      1 OリングS14        O RING S14
+15       SA7988101      1 イトチヨウシボウ       TENSION STUD
+16       SA7990001      1 イトチヨウシサラオサエ    TENSION DISC PRESSER
+17       SA7872001      1 イトチヨウシバネ       SPRING TENSION
+18       S48089000      4 イトチヨウシサラフエルト   TENSION DISC FELT
+19       S48090001      1 ロ-タリ-サラ        ROTARY DISC
+20       151148001      1 MLマワリドメ        STOPPER ML
+21       S48370001      1 イトチヨウシナツト      TENSION NUT
+22       SA5089101      1 イトトリバネ         THREAD TAKE-UP SPRING
+23       SA1229101      1 アナトメネジ6トガリ     SET SCREW (FT) M6X6
+24       152873001      1 イトユルメピン        TENSION RELEASE PIN
+25       SA2636001      1 ミツメイトカケ        THREAD RETAINER
+26       012500536      1 アナヒラ5X5        SET SCREW SOCKET (FT) M5X5
+27       SA5090001      1 イトユルメボウ        TENSION RELEASE STUD
+28       S29132001      1 マイクロチヨウセツバネ    SPRING, MICRO ADJUSTING
+29       048040342      1 トメワE4          RETAINING RING E4
+42       SA4233001      1 ツマミストッパ        KNOB NUT STOPPER
+
+                          <オプション用>       <Option parts>
+30       SA7439101      1 イトチヨウシクミ       THREAD TENSION ASSY
+31       S50390101      1 イトチヨウシボウダイ     TENSION STUD BRACKET
+32       S02620401      1 イトトリバネ         THREAD TAKE-UP SPRING
+33       116922201      1 イトチヨウシボウ       TENSION STUD
+34       159805001      1 イトチヨウシサラオサエ    TENSION DISC PRESSER
+35       081014870      1 OリングS14        O RING S14
+36       SA7275001      1 イトチヨウシバネ       TENSION SPRING
+37       145446002      2 イトチヨウシサラ       DISC TENSION
+38       S12441001      1 チヨウシバネウエザガネ    WASHER
+39       S31032002      1 イトチヨウシナツト      TENSION NUT
+40       100402004      1 トメネジ3.57       SET SCREW SM3.57
+41       SA7440001      1 イトユルメピン        TENSION RELEASE PIN
+
+
+
+
+Z-8550B/8560B-401
+Z-8550B/8560B- 401
+                                                                       28   28
+L.         / Bobbin winder mechanism
+
+
+
+
+                      1
+
+
+                                                                           28
+                              20
+     19                                35
+     18                                                                         31
+     16                                36                                       32
+     14
+                                   4                25                          30
+     15
+                     17            5                                            29
+                                                                                29
+                                       37
+
+
+                          22
+     24
+                          21
+     15
+                                                     8   27
+                          3
+      12
+                                                                   34
+                          23                7   9
+                                                              26
+      11
+                13         2
+
+           10
+
+
+
+
+                                                                                33
+
+
+
+
+                                                                        Z-8550B/8560B-402
+                                                                         Z-8550B/8560B- 402
+29
+L. 糸巻関係 / Bobbin winder mechanism
+REF.NO     CODE      Q'TY       品名                    NAME OF PARTS   RM
+1        SB2245002      1 イトマキユニツト      BOBBIN WINDER UNIT
+2        048040342      1 トメワE4         RETAINING RING E4
+3        SA8508001      1 イトマキジクウケクミ    B-WINDER SHAFT SUPPORT ASSY
+4        SB2247001      1 イトマキジク        BOBBIN WINDER SHAFT
+5        108549001      1 Oリング          O RING
+7        SA8507001      1 イトマキクルマ       BOBBIN WINDER WHEEL
+8        012400636      2 アナヒラ4X6       SET SCREW SOCKET (FT) M4X6
+9        SA8503001      1 ゴムリング         RUBBER RING
+10       SA1981301      1 ボビンオサエカムクミ    BOBBIN PRESSER CAM ASSY
+11       SA1982101      1 ボビンオサエカム      BOBBIN PRESSER CAM
+12       SA1983201      1 イトマキウデジク      BOBBIN WINDER ARM SHAFT
+13       012500536      1 アナヒラ5X5       SET SCREW SOCKET (FT) M5X5
+14       048040342      1 トメワE4         RETAINING RING E4
+15       025060136      2 ヒラザガネショウ6     WASHER PLAIN S 6
+16       SA1984001      1 ボビンオサエウデ      BOBBIN PRESSER ARM
+17       018401236      1 アナボルト4X12     BOLT SOCKET M4X12
+18       SA1985001      1 ボビンオサエ        BOBBIN PRESSER
+19       S23418002      1 シメネジ4X5       SCREW M4X5
+20       SB2246001      1 ボビンウケ         BOBBIN SUPPORT
+21       SA8512101      1 イトマキレバ-       BOBBIN WINDER LEVER
+22       SA1990101      1 モドシバネ         SPRING
+23       SA8509001      1 イトマキダイバネ      BOBBIN WINDER BASE SPRING
+24       SA2190001      1 0リングSS5       O RING SS5
+25       SA1992101      3 イトマキコテイネジ     BOBBIN WINDER FIXED SCREW
+26       SA1360101      1 メス            KNIFE
+27       062500616      1 ナベコ5X6        SCREW PAN M5X6
+28       SA5091001      1 イトマキチョウシクミ    BOBBIN WINDER TENSION ASSY
+29       145446002      2 イトチヨウシサラ      DISC TENSION
+30       115188101      1 シユイトチヨウシバネ    TENSION SPRING
+31       S31032001      1 イトチヨウシナツト     TENSION NUT
+32       S12441001      1 チヨウシバネウエザガネ   WASHER
+33       012500536      1 アナヒラ5X5       SET SCREW SOCKET (FT) M5X5
+34       SA1359001      1 イトタテボウ        SPOOL PIN
+35       SB2275001      1 シート           SHEET
+36       SA9563001      1 ボビンコテイバネ      BOBBIN FIXED SPRING
+37       SA8982202      1 イトマキダイ        BOBBIN WINDER BASE
+
+
+
+
+Z-8550B/8560B-402
+Z-8550B/8560B- 402
+                                                                      30   30
+M1.        / Thread trimmer mechanism
+
+                                                             2        1        4
+                                                                  3                     5
+
+
+
+
+      36             37
+                                                         6
+
+
+                                                    17
+                                                    16
+                                                                                        40
+                                                    15
+
+
+                               23
+
+                               22
+                                                        13
+                                                        14
+                               20
+
+
+
+                               18                                39
+
+                               19                                38
+
+
+
+                                         25                                        12
+      31
+
+                32                             21
+                                         41
+                34                                           10                    24
+                                                             24
+                          26                       28
+
+                                                                                             8
+                                         29                                                  7
+                                    27             30
+
+                                                                      11   9
+      28        29
+
+
+
+                                33
+      30
+                                              35
+
+                                                                                        Z-8560B-403
+                                                                                        Z-8560B- 403
+31
+M1. 糸切り関係 / Thread trimmer mechanism
+REF.NO     CODE      Q'TY        品名                     NAME OF PARTS    RM
+                          <8560B用>        <For 8560B>
+1        SA5092201      1 イトキリカム          THREAD TRIMMER CAM
+2        S23651001      2 アナヒラ6X6ホソメ      SET SCREW SOCKET (FT) M6X6
+3        SA2378001      2 カンザ4.8          SPACER,4.8
+4        SA4968101      1 セツトカラ-          SET SCREW COLLAR
+5        S23651001      2 アナヒラ6X6ホソメ      SET SCREW SOCKET (FT) M6X6
+6        SB9607001      1 イトキリソレノイド       THREAD TRIMMER SOLENOID
+7        SA2644001      1 ソレノイドツギテ        SOLENOID JOINT
+8        012500536      1 アナヒラ5X5         SET SCREW SOCKET (FT) M5X5
+9        S48226101      1 ソレノイドレバ-        SOLENOID LEVER
+10       SA2647001      1 ソレノイドレバ-ジク      SOLENOID LEVER SHAFT
+11       SA4985001      1 ダンネジ5           SHOULDER SCREW, M5
+12       SA5094201      1 シジドダイ           SUPPORT BASE
+13       SA6096001      1 イトキリジク          DRIVING ROD
+14       148546001      1 プランジヤピン         PLUNGER PIN
+15       S48229001      1 イトキリジクイタ        T-TRIMMER DRIVING ROD PLATE
+16       116662003      1 ザガネ             WASHER
+17       062501016      1 ナベコ5X10         SCREW PAN M5X10
+18       SB1450001      1 シユレバ-クミ         MAIN LEVER ASSY
+19       148559100      1 ゴム              RUBBER
+20       SA5095001      1 シユレバ-ジク         MAIN LEVER SHAFT
+21       012060636      1 アナヒラ6X6         SET SCREW SOCKET (FT) M6X6
+22       S48230001      1 シユレバ-バネ         COMPRESSION SPRING
+23       048070342      1 トメワE7           RETAINING RING E7
+24       062061616      3 ナベコ6X16         SCREW PAN M6X16
+25       SA5096001      1 スタツド            STUD
+26       SA5097201      1 メスクドウレンカンクミ     KNIFE DRIVING ROD ASSY
+27       SA5098101      1 メスクドウレンカン       KNIFE DRIVING ROD
+28       SA2663001      2 タマツギテRクミ        ROUND JOINT ASSY R
+29       021060306      2 3シュナット6         NUT 3 M6
+30       SA2669001      2 タマツギテダンネジ       SHOULDER SCREW M6
+31       SA5099101      1 イトキリクドウレバ-      THREAD TRIMMER DRIVING LEVER
+32       SA5100201      1 ダンネジ6           SHOULDER SCREW M6
+33       021060306      1 3シュナット6         NUT 3 M6
+34       S48234101      1 クドウレバ-バネ        SPRING
+35       SA5101001      1 クドウレバ-ストツパ      STOPPER
+36       112751003      1 シメネジ3.57        SCREW, SM3.57X7
+37       100257010      1 シメネジ3.57        SCREW, SM3.57X6
+38       S10243000      1 ナイロンクランプNK-3N   CORD HOLDER:NK-3N
+39       0A5401006      1 +ナベザクミ4X10DB    SCREW PAN (S/P WASHER) M4X10
+40       SA8201001      1 エアギヤツプスペ-サ      AIR GAP SPACER
+41       025060232      1 ヒラザガネチュウ6       WASHER PLAIN M 6
+
+
+
+
+Z-8560B-403
+Z-8560B- 403
+                                                                         32   32
+M2.   / Thread trimmer mechanism
+
+
+
+
+                                        1
+
+
+                                              7
+
+
+
+
+                       10
+                       11
+                       12                         9
+                                                  8
+                                                          4
+                                                          3
+
+
+
+                                                      5
+                             13     2                 6
+
+
+
+
+                   <              / Option parts >
+
+                                         14
+
+                                                  20
+
+
+
+
+                        23
+                        24
+                        25                        22
+                                                  21
+                                                          17
+                                                          16
+
+
+
+                                                          18
+                             26         15                19
+
+
+
+
+                                                                      Z-8560B-403
+                                                               Z-8550B/Z-8560B- 403
+33
+M2. 糸切り関係 / Thread trimmer mechanism
+REF.NO      CODE       Q'TY         品名                  NAME OF PARTS   RM
+                            <8560B用>      <For 8560B>
+1         S48236401       1 メスユニツト        KNIFE UNIT
+2         S48238101       1 メスホルダ-        KNIFE HOLDER
+3         S48239001       1 シタイトオサエバネ     PLATESPRING
+4         100105005       1 シメネジ2.38      SCREW, SM2.38X2.4
+5         S48240001       1 チヨウセツバネ       ADJUSTING SPRING
+6         S48247001       1 シメネジ2.38      SCREW, SM2.38X5
+7         SA8458001       1 メスドダイイタ       KNIFE BRACKET
+8         S55863101       1 イドウハ          MOVABLE KNIFE
+9         SA8459001       1 コテイハ          FIXED KNIFE
+10        S55865001       1 コテイハクラツチ      FIXED KNIFE CLUTCH
+11        S48246001       1 クラツチバネ        SPRING
+12        155103001       1 ダンネジ3.18      SHOULDER SCREW, SM3.18
+13        062670712       4 ナベコ357-40X7   SCREW PAN SM3.57-40X7
+
+                            <オプション用>      <Option parts>
+14        S58941201       1 メスユニツトH       KNIFE UNIT H
+15        S48238101       1 メスホルダ-        KNIFE HOLDER
+16        S48239001       1 シタイトオサエバネ     PLATESPRING
+17        100105005       1 シメネジ2.38      SCREW, SM2.38X2.4
+18        S48240001       1 チヨウセツバネ       ADJUSTING SPRING
+19        S48247001       1 シメネジ2.38      SCREW, SM2.38X5
+20        SA8458001       1 メスドダイイタ       KNIFE BRACKET
+21        S58943001       1 イドウハH         MOVABLE KNIFE, H
+22        SA8459001       1 コテイハ          FIXED KNIFE
+23        S55865001       1 コテイハクラツチ      FIXED KNIFE CLUTCH
+24        S48246001       1 クラツチバネ        SPRING
+25        155103001       1 ダンネジ3.18      SHOULDER SCREW, SM3.18
+26        062670712       4 ナベコ357-40X7   SCREW PAN SM3.57-40X7
+
+
+
+
+Z-8560B-403
+Z-8550B/Z-8560B- 403
+                                                                        34   34
+N.                   / Tension release mechanism
+
+
+
+
+                                                         29
+                                                    24
+
+
+
+                                           25
+
+
+
+             7
+                         22                    28
+
+
+
+     6
+
+
+
+                                                                       23         26
+                                                              5                   30
+                                           5
+                                                          10                      27
+                                                                  11
+         5
+                                           4
+
+                                       3                                14
+                                                     8
+                 4
+                     8             2                                         12
+                         9
+                              11                                                  21
+                                                                                       20
+                                               1                                            16
+                                                    13                                           17
+                                                                                                       15
+                                                                                                              18
+
+
+
+
+                                                                                                      19
+
+
+
+
+                                                                                                            Z-8560B-404
+                                                                                                            Z-8560B- 404
+35
+N. 糸緩め関係 / Tension release mechanism
+REF.NO     CODE      Q'TY        品名                     NAME OF PARTS   RM
+                          <8560B用>        <For 8560B>
+1        SA5102001      1 イトクリダシレバ-A      LEVER A
+2        014500536      2 アナクボミ5X5        SET SCREW SOCKET (CP) M5X5
+3        SA6239001      1 ダンネジ4           SHOULDER SCREW M4
+4        SA7864001      2 イトクリダシレバ-B      LEVER B
+5        014500536      4 アナクボミ5X5        SET SCREW SOCKET (CP) M5X5
+6        SA6239001      1 ダンネジ4           SHOULDER SCREW M4
+7        SA5588001      1 ダンネジM4          SHOULDER SCREW M4
+8        SA7987001      2 ミゾツキピン          PIN
+9        S48313001      1 イトクリダシバネA       SPRING, A
+10       SA5087101      1 イトクリダシバネB       SPRING B
+11       S48314100      2 イトクリダシジクメタル     BUSH
+12       SA5104001      1 イトクリダシジクメタルB    BUSH, B
+13       S48315001      1 イトクリダシジクA       SHAFT, A
+14       SA5105001      1 イトクリダシジクB       SHAFT, B
+15       SA5106001      1 イトクリダシダイ        BASE
+16       SA5107001      1 イトクリダシイタ        PLATE
+17       SA5108101      1 イトクリダシワイヤ-      WIRE
+18       018401232      2 アナボルト4X12       BOLT SOCKET M4X12
+19       014060632      1 アナクボミ6X6        SET SCREW SOCKET (CP) M6X6
+20       048060142      1 トメワジクヨウC6       RETAINING RING EXTERNAL C6
+21       S03695001      1 ザガネ6            WASHER, 6
+22       SA7863101      1 イトクリダシレンカン      LINK
+23       SA7232001      1 イトクリダシSOLクミ     SOLENOID ASSY
+24       062300616      3 ナベコ3X6          SCREW PAN M3X6
+25       SA7248001      1 ソレノイドトリツケイタ     SOLENOID SETTING PLATE
+26       625010000      1 ナイロンクランプNK-2N   NYLON CLAMP NK-2N
+27       062400616      1 ナベコ4X6          SCREW PAN M4X6
+28       S25456001      1 プランジヤピン         PLUNGER PIN
+29       062500816      3 ナベコ5X8          SCREW PAN M5X8
+30       026040236      1 ヒラザガネミガキ4       WASHER PLAIN M 4
+
+
+
+
+Z-8560B-404
+Z-8560B- 404
+                                                                        36   36
+P.                 / Thread wiper mechanism
+
+     <         / Except for Japan >
+
+
+                                                                                   30 29
+
+
+                                   2
+              14
+         13
+
+
+                          19
+                                                                                    1
+
+
+
+
+                               17
+                                       19
+                               3            11
+                                                 12                           28
+                               4
+
+                              18                                                        28
+
+                                            8
+                                                 7
+
+                                                                     6
+                           15
+                                            11
+                                                 12        5
+                         16
+                              32
+                                                                         10
+                                                      31
+
+
+                                                      21
+                          20
+
+
+                                            26
+
+
+                                                      24
+                                                           23
+                                       22
+                                                                27
+
+                                            25
+
+
+
+
+                                                                                        Z-8560B-405
+                                                                                        Z-8560B- 405
+37
+P. 糸払い関係 / Thread wiper mechanism
+REF.NO     CODE      Q'TY        品名                    NAME OF PARTS   RM
+                          <日本向以外用>       <Except for Japan>
+1        SB9610001      1 イトハライソウチクミ     THREAD WIPER DEVICE ASSY
+2        SB9611001      1 イトハライソレノイドクミ   THREAD WIPER SOLENOID ASSY
+3        SA6512001      1 イトハライバネ        THREAD WIPER SPRING
+4        S41205001      1 ヒラザガネ          WASHER, PLAIN
+5        SB9613001      1 ソレノイドトリツケイタ    SOLENOID SETTING PLATE
+6        062300616      3 ナベコ3X6         SCREW PAN M3X6
+7        140647101      1 コ-ドオサエ         CORD HOLDER
+8        062300616      1 ナベコ3X6         SCREW PAN M3X6
+10       SA8054001      1 イトハライドダイ       THREAD WIPER BASE
+11       062400616      2 ナベコ4X6         SCREW PAN M4X6
+12       026040236      2 ヒラザガネミガキ4      WASHER PLAIN M 4
+13       SA8002002      1 ソレノイドカバ-       SOLENOID COVER
+14       060400516      1 バインド4X5        SCREW BIND M4X5
+15       SA8071001      1 イトハライロツド       THREAD WIPER ROD
+16       048040142      1 トメワジクヨウC4      RETAINING RING EXTERNAL C4
+17       S25456001      1 プランジヤピン        PLUNGER PIN
+18       S41207000      1 スペ-サゴム         SPACER RUBBER
+19       S25456001      2 プランジヤピン        PLUNGER PIN
+20       SA8048101      1 ワイパ-ブラケット      WIPER BRACKET
+21       SA8082001      1 イトハライレバ-       THREAD WIPER LEVER
+22       SA8081001      1 イトハライクランクジク    THREAD WIPER CRANK SHAFT
+23       SA8070001      1 イトハライジクカラ-     THREAD WIPER STUD COLLAR
+24       S03677001      1 ザガネ            WASHER
+25       SA7950001      1 イトハライ          THREAD WIPER
+26       018401436      1 アナボルト4X14      BOLT SOCKET M4X14
+27       060400416      1 バインド4X4        SCREW, BIND M4X4
+28       060501016      2 バインド5X10       SCREW BIND M5X10
+29       SA2689101      1 コ-ドオサエ         CORD HOLDER
+30       062500816      1 ナベコ5X8         SCREW PAN M5X8
+31       062400816      1 ナベコ4X8         SCREW PAN M4X8
+32       026040136      1 ヒラザガネコガタ4      WASHER PLAIN S 4
+
+
+
+
+Z-8560B-405
+Z-8560B- 405
+                                                                       38   38
+Q1.                     / Control box
+
+
+                       <        230V AC / For Single phase 230V AC >
+                       <            / For Europe >
+
+
+
+                                     22
+
+
+
+                                                                       20
+
+
+                       21
+
+
+
+
+           2       1
+                                               8                                     16
+
+
+
+
+                                                                                                18
+                                          8                                                     19
+                                          9                                                     17
+                                                                                                17
+                                11                                               8        23
+
+                                12
+                                                                                           24
+               3                              13
+
+
+
+                                                   5
+
+
+                            4                          6
+                                          7
+
+
+
+                                                                            14             15
+
+
+
+
+      10
+
+                                                                            Z-8550B/8560B-502
+                                                                             Z-8550B/8560B- 502
+39
+Q1. コントロールボックス関係 / Control box
+REF.NO     CODE      Q'TY          品名                       NAME OF PARTS   RM
+1        SB8922001      1 メインキバンクミEZ        MAIN PCB ASSY EZ
+2        SB3275001      2 GFUSE10A          GLASS FUSE 10A-50T100H
+3        0A5400806      7 +ナベザクミ4X8DB       SCREW PAN (S/P WASHER) M4X8
+4        SB8924001      1 デンゲンキバンクミEZ       POWER PCB ASSY EZ
+5        0A5400806      6 +ナベザクミ4X8DB       SCREW PAN (S/P WASHER) M4X8
+6        SA3797001      1 DCファンモ-タクミ        DC-FAN MOTOR ASSY
+7        0A5403006      2 +ナベザクミ4X30DB      SCREW PAN (S/P WASHER) M4X30
+8        S37060001      3 ア-スマｰク            LABEL GROUNDING
+9        S37059001      1 PEマｰク             LABEL, PE
+10       SB8096001      1 ラベルカンデン6カコク       LABEL ELECTRICAL SHOCK 36X150
+11       J04100001      1 セメントR40/220クミ#6   CEMENT RESISTOR ASSY 401220#6
+12       SA3805001      1 テイコウコテイカナグ        RESISTOR HOLDER
+13       0A5400806      2 +ナベザクミ4X8DB       SCREW PAN (S/P WASHER) M4X8
+14       SB4587301      1 フミコミユニット-US       TREADLE UNIT-US
+15       J00353001      4 +ナベセツト5X14DB      SCREW PAN (S/P WASHER) M5X14
+16       SA9893001      4 カクネボルト8X65        BOLT M8X65
+17       021080206      8 2シュナット8           NUT 2 M8
+18       025080336      4 ヒラザガネダイ8          WASHER PLAIN L 8
+19       028080246      4 バネザガネ2-8          WASHER SPRING 2-8
+23       J04504001      1 EZア-スコ-ドクミ        EARTH CORD ASSY EZ
+24       0A4400806      1 +ナベザクミ4X8DA       SCREW PAN (S/P WASHER) M4X8
+
+                          <単相 230V AC用>     <For single phase 230V AC>
+                          <欧州向用>            <For Europe>
+20       SB9750001      1 CEフィルタクミTYPE7     CE FILTER UNIT TYPE7
+21       SB7074001      1 CEフィルターケース        CE FILTER CASE
+22       SB7065001      1 CEフィルタキバンクミ       CE FILTER PCB ASSY TYPE3
+
+
+
+
+Z-8550B/8560B-502
+Z-8550B/8560B- 502
+                                                                            40   40
+Q2.   / Control box
+
+
+
+
+                             ON
+                      OFF
+                                       4
+
+                                  1+
+                      3
+
+
+
+
+                              ON
+                       OFF
+                                       4
+
+                            2+
+                       3
+
+
+
+
+                                           Z-8550B/8560B-502
+                                            Z-8550B/8560B- 502
+41
+Q2. コントロールボックス関係 / Control box
+REF.NO           CODE           Q'TY          品名                NAME OF PARTS          RM
+                                     <三相 200V AC 用>   <For Three phase 200V AC>
+                                     <日本向用>           <For Japan>
+1+             SA9616001           1 デンSW クミ SJT      POWER SWITCH ASSY SJT
+
+                                     <三相 220V AC 用>   <For Three phase 220V AC>
+                                     <北米・メキシコ向用>      <For USA, Canada and Mexico>
+1+             SA9831001           1 デンSW クミ SJT#2    POWER SWITCH ASSY SJT#2
+
+                                     <単相 220V AC用>    <For Single phase 220V AC>
+                                     <アジア・一般・欧州向用>    <For Asia, General and Europe>
+2+             SA9535001           1 デンSWクミCCC        POWER SUPPLY SWITCH ASSY CCC
+
+                                     <単相 220V AC用>    <For Single phase 220V AC>
+                                     <中国向用>           <For China>
+2+       BMP3010-0000001-3S00      1 デンゲンSW 220V      POWER SWITCH 220V
+
+3              S03816001           2 +マルモク45X16       WOOD SCREW M4.5X16
+4              200190001           2 ステツプル 10X20      STAPLE 10X20
+
+
+
+
+Z-8550B/8560B-502
+Z-8550B/8560B- 502
+                                                                                       42   42
+R.               / Quick reverse switch mechanism
+
+
+
+
+     3
+         2
+
+
+                            1
+
+
+
+
+                                                    8
+
+
+                                    4
+             6
+                                                        5
+                                          5
+                                                        8
+                                          4
+
+                                                        7
+
+
+
+
+                                                            Z-8550B/8560B-508
+                                                             Z-8550B/8560B- 508
+43
+R. 逆転スイッチ関係 / Quick reverse switch mechanism
+REF.NO     CODE      Q'TY          品名                          NAME OF PARTS   RM
+1        SB9383001      1 LEDギャクテンSWクミ         LED REVERSE SW ASSY
+2        SB3849001      2 ヒラザガネチュウ5            WASHER_PLAIN_M_5
+3        062500816      2 ナベコ5X8               SCREW PAN M5X8
+4        SA1394101      1 コ-ドオサエU3             CORD HOLDER U3
+5        062500816      2 ナベコ5X8               SCREW PAN M5X8
+6        S38687000      1 コネクタ5557-14R         CONNECTOR 5557-14R
+
+                          <8560B日本向以外用>        <Except for 8560B Japan>
+7        SA1388101      1 コ-ドオサエ               CORD HOLDER
+                          <8550B, 8560B日本向用>   <For 8550B, 8560B Japan>
+8        SA2689101      1 コ-ドオサエ               CORD HOLDER
+
+
+
+
+Z-8550B/8560B-508
+Z-8550B/8560B- 508
+                                                                               44   44
+S.         / Power supply equipment
+
+
+
+
+      16
+
+
+
+     15
+
+
+
+
+                                                  3
+
+                                                      6         9
+                                                  7
+                                          8
+
+                                      5
+
+                                                  4
+                                                          10
+
+
+
+
+                                          12 11
+
+
+
+
+                                                               Z-8550B/8560B-515
+                                                                Z-8550B/8560B- 515
+45
+S. 電装品関係 / Power supply equipment
+REF.NO     CODE      Q'TY        品名                      NAME OF PARTS    RM
+3        SB9603001      1 セ-フテイ-スイツチクミ     SAFETY SWITCH ASSY
+4        SB9604001      1 マイクロスイツチクミ       MICRO SWITCH ASSY
+5        SA7292101      1 アンゼンスイッチイタ       SAFETY SWITCH PLATE
+6        SA9865001      1 アンゼンスイツチベ-ス      SAFETY SWITCH BASE
+7        SA9866001      1 アンゼンスイツチレバ-      SAFETY SWITCH LEVER
+8        SA9867001      1 アンゼンスイツチバネ       SAFETY SWITCH SPRING
+9        SA7293001      2 ナベザクミM3X12       SCREW PAN (S/P W) M3X12
+10       SB4155001      1 バンド              BAND
+11       062060816      1 ナベコ6X8           SCREW PAN M6X8
+12       025060136      1 ヒラザガネショウ6        WASHER PLAIN S 6
+15       SC0038001      1 ケンシュツホキュウ8560B   H-DETECTOR SUPPLY ASSY 8560B
+16       0A4501206      2 +ナベザクミ5X12DA     SCREW PAN (S/P WASHER) M5X12
+
+
+
+
+Z-8550B/8560B-515
+Z-8550B/8560B- 515
+                                                                          46   46
+T.   / Operation panel
+
+
+
+
+                         1+
+
+
+
+
+                              Z-8550B/8560B-530
+                               Z-8550B/8560B- 530
+47
+T. 操作パネル関係 / Operation panel
+REF.NO     CODE      Q'TY       品名                      NAME OF PARTS   RM
+                          ‹輸出一般向用>     <For General export>
+1+       SB9273001      1 ソウサパネルクミ     OPERATION PANEL ASSY
+                          <輸出一般向用以外>   <Except for General export>
+1+       SB9273002      1 ソウサパネルクミ     OPERATION PANEL ASSY
+
+
+
+
+Z-8550B/8560B-530
+Z-8550B/8560B- 530
+                                                                        48   48
+U.   / Motor mechanism
+
+
+
+
+                             3
+                                 6   4
+                     1
+
+
+
+
+                         2
+
+
+
+
+                             5
+
+
+
+
+                                 Z-8550B/8560B-650
+                                  Z-8550B/8560B- 650
+49
+U. モーター関係 / Motor mechanism
+REF.NO     CODE      Q'TY         品名                   NAME OF PARTS   RM
+1        SB8903001      1 モ-タクミ          MOTOR ASSY
+2        SA2354001      3 +ナベセットネジ5X18   SCREW PAN M5X18
+3        SB8940101      1 プ-リ            PULLEY
+4        060501016      3 バインド5X10       SCREW BIND M5X10
+5        218859001      2 バインダM150       BINDER M150
+6        SA9452001      3 プ-リワッシャ-       PULLEY WASHER
+
+
+
+
+Z-8550B/8560B-650
+Z-8550B/8560B- 650
+                                                                       50   50
+Z.                / Accessories
+
+                                   16
+
+
+                              37
+
+              33                                 38
+
+              34
+                                     35 36
+                             35 36
+
+
+
+                   29          37 24                   3
+                                                                     5    4
+
+                   19
+             18                                  39        14
+             17
+                                     32                              60
+                   30                                                          15
+                                                      59
+                   31
+
+
+
+
+                              12
+                         9                                                58
+                                        8
+                                                      49
+     7
+                                                                50
+                                        11
+
+
+
+
+         <                    / Option parts >
+
+                         73
+
+             82 83 81
+                                            79
+                                            75
+                         80
+
+                                            74
+                    76
+                                            75
+              77         78
+
+
+
+
+                                                                          Z-8550B/8560B-910
+                                                                           Z-8550B/8560B- 910
+51
+Z. 付属品関係 / Accessories
+REF.NO     CODE      Q'TY        品名                       NAME OF PARTS   RM
+3        SA5126001      2 ボビン               BOBBIN
+4        S48363001      1 マクラ               HEAD REST
+5        SB3831001      1 ヒザアゲオシボウ          KNEE LIFTER COMPLYING BAR
+7        SA7329001      1 ラバ-ヒンジクミ          RUBBER HINGE ASSY
+8        143882021      2 トウブヒンジ            HEAD HINGE
+9        143910009      2 トウブヒンジウケゴム        RUBBER CUSHION
+11       SA1963001      4 トウブシキゴム           HEAD CUSHION
+12       109714000      4 クギ                NAIL
+14       SA8239301      1 オイルタンククミ          OIL TANK ASSY
+15       144226001      1 トウブカバ-            HEAD COVER
+16       S02763702      1 イトタテダイクミ2DR       COTTON STAND ASSY 2DR
+17       S51283001      2 ウケザラ              SPOOL STAND BASE
+18       150182000      2 スプ-ルマツト           SPOOL MAT
+19       S51282101      2 スプ-ルクツシヨン         SPOOL CUSHION
+24       S02747101      1 イトカケバネ            SPRING
+29       150179002      2 スプ-ルジクB           SPOOL SHAFT B
+30       028050243      2 バネザガネ2-5          WASHER, SPRING 2-5
+31       021500203      2 2シユナツト5           NUT, 2 M5
+32       SA6607001      1 スプ-ルホルダ-2         SPOOL HOLDER 2
+33       SA6608001      1 スレツドハンガ-クミ2       THREAD HANGER ASSY 2
+34       SA6607001      1 スプ-ルホルダ-2         SPOOL HOLDER 2
+35       150183000      2 イトカケハンガ-ダイ        THREAD HANGER BASE
+36       142990001      2 スレツドブツシユ          THREAD BUSH
+37       SA6609001      2 スプ-ルホルダ-ササエ       SPOOL HOLDER SUPPORTER
+38       062061603      1 ナベコ6X16           SCREW PAN M6X16
+39       062061603      1 ナベコ6X16           SCREW PAN M6X16
+49       S48074000      1 ストツパ5             STOPPER, 5
+50       SA5128001      1 ハリボウタカサゲ-ジ        NEEDLE BAR HEIGHT GAUGE
+58       SB6659101      1 グリスクミ             GREASE UNIT
+59       SB1270001      1 オイルケイコクラベル エイブン   OIL WARNING LABEL EN
+60       SB1271101      1 オイルケイコクラベル ワブン    OIL WARNING LABEL JP
+
+                          <オプション用>          <Option parts>
+73       133797121      1 レンケツカンクミ          CONNECTING ROD ASSY
+74       119711021      2 レンカン              CONNECTING ROD
+75       S36119021      2 1シュナット6           NUT 1 M6
+76       119101021      1 レンカンダキ            CONNECTING ROD CLAMP
+77       S36114021      1 ボルト8X16           BOLT M8X16
+78       S36120021      1 ナツト1シユ8           NUT 1 M8
+79       133793021      2 スタツド              STUD
+80       133794021      2 ホンタイ              BODY
+81       133795021      2 リング               RING
+82       S36119021      2 1シュナット6           NUT 1 M6
+83       S36121021      2 バネザガネ2-6          WASHER SPRING 2-6
+
+
+
+
+Z-8550B/8560B-910
+Z-8550B/8560B- 910
+                                                                          52   52
+Ga1.                                   / Gauge parts list
+
+*
+The parts indicted with * are standard parts.
+
+
+     Zigzag
+      width              Needle plate                                        Feed dog                                     Presser foot assy                               Stopper
+      8mm               * S48065-001 18                                  S48143-101                                         * S48293-201                            * SA9064-001
+                                                                                    37.3                                                               1.7
+                                                                             17.4
+
+                                                                                                                                                             10.2
+                                  54                            11.8                                   8
+                                  34.5
+                                                S48065                                     S48143
+                                                                                                                          S48293
+                 1.15                                    29.5                                              4
+                                     19.5
+                        9.8   12.5    17                        7.5
+
+                                                                                1.7                                                                                       16.4
+
+                                             19.05                     0.8                                     6.05
+                                                                                                                                          10.2
+                                            32.6                                                                                                                    (
+                                                                   * S58908-001                                                        S48305-201                       / Black color )
+                                                                                    37.3
+                                                                                                                                                      1.7
+                                                                             17.4
+
+                                                                                                       8                                                     10.2
+                                                                12.7
+                                                         29.5                                 S58908       2              S48305
+
+
+
+                                                                 8.5                                                                              Chamfer
+
+                                                                                    1.5
+
+                                                                       0.8
+                                                                                                               4.05                       10.2
+
+                                                                                                                                       S58950-201
+                                                                                                                                                      1.7
+
+
+
+                                                                                                                                                             10.2
+                                                                                                                                   0
+                                                                                                                          Br S5895
+
+
+
+
+                                                                                                               6.05
+                                                                                                                                           10.2
+
+                                                                                                                      (
+                                                                                                                          / With tape guide )
+
+
+
+
+                                                                                                                                                                      Z-8550B/8560B-Ga1
+                                                                                                                                                                    Z-8550B/8560B-Ga1
+53
+53
+Ga2.                               / Gauge parts list
+
+
+   Zigzag
+    width           Needle plate                                          Feed dog                                  Presser foot assy                        Stopper
+
+    5mm              S48066-001 13                                    S06171-101                                              S48308-201                    S48074-000
+                                                                                 35.3
+                                                                                                                                           1.7
+                                                                      12.4
+
+                             54                                                                    5                                             7.2
+                                                               10
+                              31.8
+                                              S48066
+             1.5                                       25.6                              S06171        4             S48308
+                           2.5 15.9
+                   6.8
+
+                                                                             1.7                                                                              13.4
+
+                                         19.05                      0.8                                      6.05
+                                        32.6                                                                                      7.2
+                                                                                                                                                       (
+                     S48067-001 13                                                                                                                         / Black color )
+
+                             54
+                              31.8
+            1.15                              S48067
+                           2.5 15.9
+                   6.4
+
+
+
+                                         19.05
+                                        32.6
+                     S06166-001                                       S06170-101
+                                       13.3                                      35.3
+                                                                          12.4
+
+
+                              54                               10                                  5
+                           13.4 18.6                   25.6                               S06170
+             1.5                              S06166
+                                                                                                       4
+                           11.6 16                            4.2
+                   6.7
+                                                                             1.7
+
+                                         19.05                      0.8
+                                        32.6
+                     S53410-001                                       S52068-001
+                                       13.3                                   34.95
+                                                                          12.7
+
+
+                            54                                11.5                                 5
+                             32                        26.2                               S52068
+            1.15              18.6            S53410                                                   2.5
+                         11.6 16                               6.7
+                   6.7
+                                                                                 1.5
+
+                                         19.05                      0.8
+                                        32.6
+                                                                      S54937-001
+                                                                              34.95
+                                                                          12.7
+
+                                                                                                   5
+                                                              11.3
+                                                       26.5                               S54937       2.5
+
+                                                              6.95
+
+                                                                                  1.15
+
+                                                                      0.8
+
+
+
+
+Z-8550B/8560B-Ga2
+Z-8550B/8560B-Ga2
+                                                                                                                                                                             54
+                                                                                                                                                                             54
+Ga3.                                  / Gauge parts list
+
+
+     Zigzag
+      width            Needle plate                                           Feed dog                                            Presser foot assy                              Stopper
+
+     10mm                  S50684-001 18.8                                 S50686-001                                                       S51227-201                          S52046-000
+                                                                                     37.8                                                                   1.7
+                                                                              18.4
+
+                                 54                                                                           10                                                  11.8
+                                                                  11.8
+                                 34.5                                                                                             S51227
+              1.5                                 S50684   29.5                                      S48143          2.5
+                                    19.5
+                      11.8   12.5    17
+                                                                  7.5
+                                                                                 1.7
+                                                                                                                                                                                  18.0
+                                                                        0.8                                                6.05
+                                            19.05                                                                                              11.8
+                                           32.6
+                                                                                                                                                                         (
+                           S50685-001 18.8                                                                                                                                   / Snow-white color )
+
+                                 54
+                                 34.5
+              1.15                                S50685
+                                    19.5
+                      11.8   12.5    17
+
+
+
+                                            19.05
+                                           32.6
+
+     3mm                   S54929-001 11                                   S54945-001                                                       S54957-201
+                                                                                     33.9                                                             1.7
+
+                                                                                 10.6
+
+                                 54                                                                           3                                                   5.4
+                                                                  11.8
+                                 33.5
+                                               S54929
+                                                                                            S54945
+                1.5                                        28.2                                                    2.5
+                                    19.5
+                                                                                                                                   Br
+                                                                                                                                   S54957
+
+
+
+
+                       5     11.5 17
+                                                                   7.2
+                                                                                1.5
+
+                                                                     0.8                                                   8.05
+                                            19.05                                                                                               5.4
+                                           32.6
+
+
+
+
+                                                                                                                                                                               Z-8550B/8560B-Ga3
+                                                                                                                                                                             Z-8550B/8560B-Ga3
+55
+55
+Wa1.               / Warning labels
+
+                 / Warning labels            / Name of parts   Size(mm)       Code
+
+
+
+                                      Label electrical shock   36 X 150     SB8096-001
+                                      36 X 150
+
+
+
+
+                                                                56 X 43     SA9826-001
+                                      Label caution
+
+
+
+
+                                                                 L=16       SA9957-001
+                                      Injury mark
+                       L
+
+
+
+
+                                                                   12       S37060-001
+                                      Label grounding
+
+
+
+
+                                      PE
+                                                               7.5 X 12.5   S37059-001
+                                      Label, PE
+
+
+
+
+                                                                 L=16       SB0827-001
+                                      High temp label
+                       L
+
+
+
+
+Z-8550B/8560B-Wa1
+   Z-8550B/8560B-Wa1
+                                                                                     56 56
+  Wa2.     / Warning labels
+
+         / Warning labels           / Name of parts   Size(mm)      Code
+
+
+
+
+                                                      68 X 30    SB1271-101
+                              Oil warning label JP
+
+
+
+
+                                                      68 X 30    SB1270-001
+                              Oil warning label EN
+
+
+
+
+                                                                  Z-8550B/8560B-Wa2
+                                                                 Z-8550B/8560B-Wa2
+57 57
+                                                                                            索引 / Index
+ CODE     REF.NO Page       CODE     REF.NO Page        CODE     REF.NO Page       CODE     REF.NO Page
+012060536 E    - 19   12   025100132 E    - 33    12   062500816 R    -5      44 114967021 F   -7       18
+012060536 E    - 49   12   026040136 P    - 32    38   062501016 J    - 10    24 115188101 L   - 30     30
+012060536 E    - 56   14   026040236 N    - 30    36   062501016 J    - 51    26 116662003 M1 - 16      32
+012060536 E    - 99   14   026040236 P    - 12    38   062501016 J    - 52    26 116922201 K   - 33     28
+012060536 H    -7     22   028050243 Z    - 30    52   062501016 M1   - 17    32 117936001 A   -1        2
+012060536 H    - 15   22   028080246 Q1   - 19    40   062501216 A    - 22     2 119101021 Z   - 76     52
+012060536 H    - 44   22   048040142 P    - 16    38   062501216 J    - 43    24 119711021 Z   - 74     52
+012060636 M1   - 21   32   048040342 K    - 29    28   062501216 J    - 53    26 129458202 E   - 22     12
+012400432 D    -5     10   048040342 L    -2      30   062670712 M2   - 13    34 133793021 Z   - 79     52
+012400636 L    -8     30   048040342 L    - 14    30   062670712 M2   - 26    34 133794021 Z   - 80     52
+012500536 B    - 33    4   048050342 D    - 26    10   081004070 D    - 17    10 133795021 Z   - 81     52
+012500536 B    - 48    4   048060142 G    - 12    20   081004870 J    - 12    24 133797121 Z   - 73     52
+012500536 C    -8      8   048060142 N    - 20    36   081005070 B    - 49     4 140553102 B   - 36      4
+012500536 C    - 12    8   048070342 M1   - 23    32   081006070 J    - 81    26 140647101 C - 15        8
+012500536 D    - 22   10   048080142 H    - 37    22   081006670 H    - 10    22 140647101 J   -8       24
+012500536 E    - 15   12   048080142 H    - 56    22   081006670 J    - 77    26 140647101 P   -7       38
+012500536 E    - 47   12   048080342 E    - 18    12   081008070 J    - 20    24 142374100 E   - 29     12
+012500536 E    - 59   14   048080342 E    - 32    12   081008070 J    - 41    24 142628001 E   - 94     14
+012500536 E    - 67   14   048110142 E    - 95    14   081008870 H    - 25    22 142746122 E   -5       12
+012500536 H    - 26   22   060400416 P    - 27    38   081013870 J    - 50    24 142746122 E   - 24     12
+012500536 H    - 28   22   060400516 P    - 14    38   081014670 H    - 43    22 142990001 Z   - 36     52
+012500536 H    - 30   22   060400816 A    - 25     2   081014870 K    - 14    28 143882021 Z   -8       52
+012500536 H    - 33   22   060501016 P    - 28    38   081014870 K    - 35    28 143910009 Z   -9       52
+012500536 H    - 35   22   060501016 U    -4      50   081015070 H    - 42    22 144226001 Z   - 15     52
+012500536 K    - 10   28   060670812 H    - 46    22   081015870 J    - 37    24 144504001 K   -7       28
+012500536 K    - 26   28   062060816 E    - 84    14   081022870 J    -6      24 144875001 H - 8        22
+012500536 L    - 13   30   062060816 S    - 11    46   081022870 J    - 25    24 145318001 B   - 29      4
+012500536 L    - 33   30   062061016 E    - 90    14   085310516 A    - 15     2 145446002 K   - 37     28
+012500536 M1   -8     32   062061016 G    -7      20   0A4400806 Q1   - 24    40 145446002 L   - 29     30
+014060632 N    - 19   36   062061603 Z    - 38    52   0A4501206 A    - 36     2 146039121 F   -2       18
+014300432 B    - 47    4   062061603 Z    - 39    52   0A4501206 J    - 26    24 146293001 J   - 67     26
+014500536 N    -2     36   062061616 E    - 65    14   0A4501206 S    - 16    46 148546001 M1 - 14      32
+014500536 N    -5     36   062061616 M1   - 24    32   0A4501606 A    -4       2 148559100 M1 - 19      32
+014770632 H    - 20   22   062300416 B    - 27     4   0A5400806 J    -5      24 148743001 E   - 81     14
+014770632 H    - 22   22   062300416 E    - 113   16   0A5400806 Q1   -3      40 149578000 J   - 58     26
+018061032 B    - 71    6   062300416 E    - 114   16   0A5400806 Q1   -5      40 149622001 E   -7       12
+018061032 C    - 18    8   062300616 E    - 107   14   0A5400806 Q1   - 13    40 150179002 Z   - 29     52
+018061036 B    - 68    6   062300616 N    - 24    36   0A5401006 M1   - 39    32 150182000 Z   - 18     52
+018062032 C    - 17    8   062300616 P    -6      38   0A5403006 Q1   -7      40 150183000 Z   - 35     52
+018102536 B    - 64    6   062300616 P    -8      38   100105005 B    - 38     6 150592001 A   - 26      2
+018401036 B    - 22    4   062302506 J    - 71    26   100105005 M2   -4      34 151148001 K   - 20     28
+018401036 B    - 24    4   062350616 E    - 78    14   100105005 M2   - 17    34 151308102 E   - 14     12
+018401036 C    -4      8   062400416 A    - 35     2   100257010 A    -6       2 151308102 E   - 46     12
+018401232 N    - 18   36   062400616 C    - 16     8   100257010 M1   - 37    32 151308102 E   - 58     14
+018401236 L    - 17   30   062400616 J    -9      24   100328001 E    - 25    12 152873001 K   - 24     28
+018401436 P    - 26   38   062400616 J    - 46    24   100402004 K    - 13    28 153132000 E   - 43     12
+018501032 E    - 69   14   062400616 N    - 27    36   100402004 K    - 40    28 153138001 G - 11       20
+018501636 E    - 45   12   062400616 P    - 11    38   100463021 F    -3      18 154729001 G - 2        20
+021060306 D    - 36   10   062400816 J    - 75    26   104449001 A    - 23     2 154730001 G - 3        20
+021060306 D    - 38   10   062400816 P    - 31    38   104450101 J    -7      24 154731000 G - 4        20
+021060306 J    - 65   26   062401016 A    - 19     2   104619022 F    -5      18 155103001 M2 - 12      34
+021060306 M1   - 29   32   062401416 E    - 104   14   104821001 A    - 24     2 155103001 M2 - 25      34
+021060306 M1   - 33   32   062500616 J    - 32    24   105161004 E    - 106   14 159805001 K   - 34     28
+021080206 Q1   - 17   40   062500616 J    - 34    24   108549001 E    -4      12 180721001 H - 51       22
+021100302 B    - 65    6   062500616 J    - 39    24   108549001 E    - 23    12 183307001 H - 21       22
+021500203 Z    - 31   52   062500616 J    - 55    26   108549001 L    -5      30 183507001 H - 52       22
+021500312 E    - 72   14   062500616 L    - 27    30   109714000 Z    - 12    52 200190001 Q2 - 4       42
+025040332 J    - 45   24   062500816 A    - 33     2   110087021 F    -8      18 218859001 U - 5        50
+025060136 B    - 69    6   062500816 E    - 42    12   110367001 H    - 55    22 625010000 J   - 74     26
+025060136 L    - 15   30   062500816 G    -6      20   110562001 E    - 62    14 625010000 N - 26       36
+025060136 S    - 12   46   062500816 N    - 29    36   112751003 M1   - 36    32 BMP3010-0000001-3S00
+025060232 M1   - 41   32   062500816 P    - 30    38   113050001 D    -9      10           Q2 - 2+      42
+025080336 Q1   - 18   40   062500816 R    -3      44   114561001 B    - 56     6 J00353001 Q1 - 15      40
+                                                                                                             58
+     索引 / Index
+      CODE      REF.NO Page      CODE      REF.NO Page      CODE      REF.NO Page      CODE     REF.NO Page
+     J04100001 Q1 - 11     40   S36121021 Z   - 83    52   S48363001 Z   -4      52   SA1388101 R    -7     44
+     J04504001 Q1 - 23     40   S37059001 Q1 - 9      40   S48367000 E   - 39    12   SA1394101 R    -4     44
+     S02620401 K   - 32    28   S37059001 Wa1         56   S48370001 K   - 21    28   SA1963001 Z    - 11   52
+     S02747101 Z   - 24    52   S37060001 A   - 31     2   S48371070 B   - 39     4   SA1981301 L    - 10   30
+     S02763702 Z   - 16    52   S37060001 Q1 - 8      40   S50098201 E   - 26    12   SA1982101 L    - 11   30
+     S03677001 P   - 24    38   S37060001 Wa1         56   S50114001 D - 39      10   SA1983201 L    - 12   30
+     S03695001 N - 21      36   S38687000 R - 6       44   S50115001 D - 40      10   SA1984001 L    - 16   30
+     S03816001 Q2 - 3      42   S38712001 B   - 10     4   S50116001 D - 41      10   SA1985001 L    - 18   30
+     S06165001 B   - 53     6   S38713100 B   - 11     4   S50165001 B   - 63     6   SA1990101 L    - 22   30
+     S06166001 Ga2         54   S39051001 D - 19      10   S50390101 K   - 12    28   SA1992101 L    - 25   30
+     S06170101 Ga2         54   S41205001 P   -4      38   S50390101 K   - 31    28   SA2165001 D    - 33   10
+     S06171101 Ga2         54   S41207000 P   - 18    38   S50684001 B   - 52+    4   SA2190001 L    - 24   30
+     S07350001 D - 25      10   S45563001 K   -5      28   S50684001 Ga3         55   SA2250101 B    -9      4
+     S07374102 E   - 36    12   S47433201 E   -1      12   S50685001 Ga3         55   SA2354001 U    -2     50
+     S07494001 E   - 116   16   S47433201 E   - 20    12   S50686001 Ga3         55   SA2358101 K    -8     28
+     S07876101 J   - 76    26   S47509001 J   - 29    24   S51227201 D - 6+      10   SA2363001 K    -6     28
+     S09477001 H - 50      22   S48006001 A   -5       2   S51227201 Ga3         55   SA2377001 E    - 85   14
+     S10243000 M1 - 38     32   S48012201 A   - 17     2   S51272100 J   - 36    24   SA2378001 M1   -3     32
+     S12441001 K   - 38    28   S48036101 B   - 15     4   S51282101 Z   - 19    52   SA2404001 B    - 12    4
+     S12441001 L   - 32    30   S48037001 B   - 16     4   S51283001 Z   - 17    52   SA2541001 E    - 37   12
+     S18291001 B   - 60     4   S48041001 B   - 18     4   S51815001 J   -2      24   SA2636001 K    - 25   28
+     S20356001 E   - 17    12   S48041001 B   - 51     4   S51815001 J   - 15    24   SA2644001 M1   -7     32
+     S21514201 E   -3      12   S48063001 B   - 50     4   S51815001 J   - 24    24   SA2647001 M1   - 10   32
+     S23418002 L   - 19    30   S48065001 B   - 52+    4   S52015201 A   - 16     2   SA2663001 M1   - 28   32
+     S23616101 D - 3       10   S48065001 Ga1         53   S52046000 B   - 59+    4   SA2669001 M1   - 30   32
+     S23651001 B   -4       4   S48066001 Ga2         54   S52046000 Ga3         55   SA2689101 P    - 29   38
+     S23651001 B   -6       4   S48067001 Ga2         54   S52068001 Ga2         54   SA2689101 R    -8     44
+     S23651001 B   -8       4   S48068001 B   - 54     6   S52764001 H - 9       22   SA2992001 G    - 10   20
+     S23651001 B   - 13     4   S48069001 B   - 55     6   S53410001 Ga2         54   SA3067001 E    - 38   12
+     S23651001 E   - 13    12   S48074000 Z   - 49    52   S53825001 E   - 66    14   SA3508001 J    - 66   26
+     S23651001 E   - 28    12   S48074000 Ga2         54   S54929001 Ga3         55   SA3797001 Q1   -6     40
+     S23651001 E   - 51    12   S48089000 K   - 18    28   S54937001 Ga2         54   SA3805001 Q1   - 12   40
+     S23651001 E   - 93    14   S48090001 K   - 19    28   S54945001 Ga3         55   SA3980101 D    - 31   10
+     S23651001 G - 9       20   S48113101 E   - 21    12   S54957201 Ga3         55   SA4233001 K    - 42   28
+     S23651001 H - 4       22   S48140001 E   - 112   16   S55863101 M2 - 8      34   SA4241001 E    -8     12
+     S23651001 H - 17      22   S48143101 Ga1         53   S55865001 M2 - 10     34   SA4265001 J    -1     24
+     S23651001 M1 - 2      32   S48179001 H - 45      22   S55865001 M2 - 23     34   SA4897001 A    -2      2
+     S23651001 M1 - 5      32   S48226101 M1 - 9      32   S58908001 E   - 115   16   SA4899101 A    -7      2
+     S24740001 D - 11      10   S48229001 M1 - 15     32   S58908001 Ga1         53   SA4900001 A    - 10    2
+     S25235001 B   -2       4   S48230001 M1 - 22     32   S58941201 M2 - 14     34   SA4903101 A    - 32    2
+     S25236001 B   -3       4   S48234101 M1 - 34     32   S58943001 M2 - 21     34   SA4904001 B    -1      4
+     S25236001 E   - 75    14   S48236401 M2 - 1      34   S58950201 Ga1         53   SA4908101 B    - 14    4
+     S25240001 E   - 74    14   S48238101 M2 - 2      34   SA1120001 B   -5       4   SA4909101 B    - 17    4
+     S25344001 J   - 63    26   S48238101 M2 - 15     34   SA1174002 D - 14      10   SA4910001 B    - 19    4
+     S25456001 N - 28      36   S48239001 M2 - 3      34   SA1175002 D - 15      10   SA4912001 B    - 20    4
+     S25456001 P   - 17    38   S48239001 M2 - 16     34   SA1177001 D - 28      10   SA4913001 B    - 23    4
+     S25456001 P   - 19    38   S48240001 M2 - 5      34   SA1179001 D - 30      10   SA4915001 B    - 28    4
+     S25469100 E   - 30    12   S48240001 M2 - 18     34   SA1179001 D - 32      10   SA4922001 B    - 34    4
+     S29132001 K   - 28    28   S48246001 M2 - 11     34   SA1179001 J   - 69    26   SA4923001 B    - 35    4
+     S31006002 D - 18      10   S48246001 M2 - 24     34   SA1181101 D - 20      10   SA4924001 B    - 37    6
+     S31032001 L   - 31    30   S48247001 M2 - 6      34   SA1207001 E   - 34    12   SA4928001 B    - 58    4
+     S31032002 K   - 39    28   S48247001 M2 - 19     34   SA1229101 K   - 23    28   SA4931001 C    -5      8
+     S31885001 F   -9      18   S48281001 D - 1       10   SA1242001 E   - 110   16   SA4932001 C    -6      8
+     S31952001 D - 16      10   S48285001 D - 12      10   SA1303101 J   - 19    24   SA4932001 E    - 57   14
+     S32263001 H - 57      22   S48293201 D - 6+      10   SA1303101 J   - 40    24   SA4933001 C    -7      8
+     S34352101 E   - 86    14   S48293201 Ga1         53   SA1306001 J   - 22    24   SA4934001 C    -9      8
+     S34756021 F   -6      18   S48297001 D - 7       10   SA1307001 J   - 23    24   SA4935101 C    - 10    8
+     S35820021 F   -4      18   S48298001 D - 8       10   SA1313101 J   - 38    24   SA4936001 C    - 11    8
+     S35821021 F   -1      18   S48305201 Ga1         53   SA1324001 J   - 60    26   SA4937101 C    - 13    8
+     S36114021 Z   - 77    52   S48308201 Ga2         54   SA1325101 J   - 61    26   SA4938001 C    - 14    8
+     S36119021 Z   - 75    52   S48313001 N - 9       36   SA1326101 J   - 62    26   SA4939201 D    -2     10
+     S36119021 Z   - 82    52   S48314100 N - 11      36   SA1359001 L   - 34    30   SA4941201 D    -4     10
+     S36120021 Z   - 78    52   S48315001 N - 13      36   SA1360101 L   - 26    30   SA4943101 D    - 24   10
+59
+                                                                                              索引 / Index
+ CODE     REF.NO Page        CODE     REF.NO Page       CODE      REF.NO Page      CODE      REF.NO Page
+SA4944101 D    - 23    10   SA5049101 H    - 41   22   SA7147001 D - 10      10   SA9393001 J   - 49   26
+SA4947001 D    - 29    10   SA5062001 J    -3     24   SA7232001 N - 23      36   SA9394001 J   - 48   26
+SA4949001 D    - 37    10   SA5063001 J    -4     24   SA7248001 N - 25      36   SA9452001 U - 6      50
+SA4951101 E    -2      12   SA5065101 J    - 11   24   SA7257001 E   - 109   14   SA9523001 B   - 57    6
+SA4952001 E    -6      12   SA5071001 J    - 17   24   SA7275001 K   - 36    28   SA9535001 Q2 - 2+    42
+SA4954001 E    -9      12   SA5071001 J    - 30   24   SA7292101 S   -5      46   SA9563001 L   - 36   30
+SA4957001 E    - 10    12   SA5073001 J    - 17   24   SA7293001 S   -9      46   SA9616001 Q2 - 1+    42
+SA4958001 E    - 11    12   SA5076101 J    - 35   24   SA7327001 E   - 35    12   SA9763101 B   - 70    6
+SA4959001 E    - 12    12   SA5078001 J    - 42   24   SA7329001 Z   -7      52   SA9795101 J   - 27   24
+SA4961001 E    - 27    12   SA5079001 J    - 44   24   SA7439101 K   - 30    28   SA9826001 A   - 27    2
+SA4963001 E    - 31    12   SA5082001 J    - 59   26   SA7440001 K   - 41    28   SA9826001 Wa1        56
+SA4966001 E    - 44    12   SA5083001 J    - 68   26   SA7499001 E   - 87    14   SA9831001 Q2 - 1+    42
+SA4967001 E    - 48    12   SA5084101 K    -1     28   SA7706001 E   - 117   16   SA9865001 S   -6     46
+SA4968101 E    - 50    12   SA5085101 K    -3     28   SA7709001 E   - 60    14   SA9866001 S   -7     46
+SA4968101 M1   -4      32   SA5086001 K    -4     28   SA7839101 D - 27      10   SA9867001 S   -8     46
+SA4969001 E    - 52    12   SA5087101 N    - 10   36   SA7863101 N - 22      36   SA9893001 Q1 - 16    40
+SA4970001 E    - 53    12   SA5088401 K    - 11   28   SA7864001 N - 4       36   SA9957001 A   - 30    2
+SA4971001 E    - 54    12   SA5089101 K    - 22   28   SA7872001 K   - 17    28   SA9957001 Wa1        56
+SA4971001 H    -6      22   SA5090001 K    - 27   28   SA7950001 P   - 25    38   SB0687001 J   - 64   26
+SA4971001 H    - 13    22   SA5091001 L    - 28   30   SA7987001 N - 8       36   SB0827001 G - 13     20
+SA4972001 E    - 55    12   SA5092201 M1   -1     32   SA7988101 K   - 15    28   SB0827001 J   - 82   26
+SA4980001 E    - 61    14   SA5094201 M1   - 12   32   SA7990001 K   - 16    28   SB0827001 Wa1        56
+SA4981001 E    - 63    14   SA5095001 M1   - 20   32   SA8002002 P   - 13    38   SB1270001 Z   - 59   52
+SA4982001 E    - 64    14   SA5096001 M1   - 25   32   SA8037001 E   - 108   14   SB1270001 Wa2        57
+SA4983001 E    - 68    14   SA5097201 M1   - 26   32   SA8038001 E   - 103   14   SB1271101 Z   - 60   52
+SA4984001 E    - 70    14   SA5098101 M1   - 27   32   SA8048101 P   - 20    38   SB1271101 Wa2        57
+SA4985001 E    - 71    14   SA5099101 M1   - 31   32   SA8054001 P   - 10    38   SB1450001 M1 - 18    32
+SA4985001 M1   - 11    32   SA5100201 M1   - 32   32   SA8060201 B   - 67     6   SB1537001 B   -7      4
+SA4987101 E    - 73    14   SA5101001 M1   - 35   32   SA8070001 P   - 23    38   SB2245002 L   -1     30
+SA4988001 E    - 76    14   SA5102001 N    -1     36   SA8071001 P   - 15    38   SB2246001 L   - 20   30
+SA4989001 E    - 77    14   SA5104001 N    - 12   36   SA8081001 P   - 22    38   SB2247001 L   -4     30
+SA4990001 E    - 80    14   SA5105001 N    - 14   36   SA8082001 P   - 21    38   SB2275001 L   - 35   30
+SA4991001 E    - 82    14   SA5106001 N    - 15   36   SA8112001 B   - 61     4   SB3275001 Q1 - 2     40
+SA4992001 E    - 83    14   SA5107001 N    - 16   36   SA8126001 H - 53      22   SB3831001 Z   -5     52
+SA4994101 E    - 88    14   SA5108101 N    - 17   36   SA8127001 H - 49      22   SB3849001 R - 2      44
+SA4995001 E    - 89    14   SA5124001 A    -9      2   SA8128001 H - 48      22   SB4155001 S   - 10   46
+SA4996001 E    - 91    14   SA5124001 K    -2     28   SA8194101 H - 54      22   SB4587301 Q1 - 14    40
+SA4997101 E    - 92    14   SA5125001 B    - 21    4   SA8201001 M1 - 40     32   SB6659101 Z   - 58   52
+SA4998001 E    - 96    14   SA5126001 H    - 47   22   SA8239301 Z   - 14    52   SB7065001 Q1 - 22    40
+SA4999001 E    - 97    14   SA5126001 Z    -3     52   SA8426201 H - 36      22   SB7074001 Q1 - 21    40
+SA5001001 E    - 98    14   SA5128001 Z    - 50   52   SA8427001 H - 2       22   SB8096001 Q1 - 10    40
+SA5003001 E    - 100   14   SA5416001 D    - 35   10   SA8428001 H - 1       22   SB8096001 Wa1        56
+SA5006001 E    - 105   14   SA5588001 N    -7     36   SA8458001 M2 - 7      34   SB8903001 U - 1      50
+SA5007001 H    -5      22   SA6092001 B    - 26    4   SA8458001 M2 - 20     34   SB8922001 Q1 - 1     40
+SA5009001 E    - 111   16   SA6093001 B    - 25    4   SA8459001 M2 - 9      34   SB8924001 Q1 - 4     40
+SA5010001 E    - 102   14   SA6094001 J    - 31   24   SA8459001 M2 - 22     34   SB8939001 A   -3      2
+SA5016001 E    - 101   14   SA6095001 J    - 33   24   SA8503001 L   -9      30   SB8940101 U - 3      50
+SA5018001 G    -5      20   SA6096001 M1   - 13   32   SA8507001 L   -7      30   SB8941101 A   - 21    2
+SA5019001 G    -8      20   SA6165001 J    - 47   24   SA8508001 L   -3      30   SB8942001 A   - 20    2
+SA5022101 H    -3      22   SA6167001 K    -9     28   SA8509001 L   - 23    30   SB8943101 A   - 12    2
+SA5027001 H    - 12    22   SA6219001 B    - 32    4   SA8512101 L   - 21    30   SB8944101 A   - 13    2
+SA5028001 H    - 14    22   SA6227001 E    - 16   12   SA8982202 L   - 37    30   SB8945001 A   - 18    2
+SA5029001 H    - 16    22   SA6239001 N    -3     36   SA8987001 J   - 79    26   SB8946001 A   -8      2
+SA5030001 H    - 18    22   SA6239001 N    -6     36   SA8989001 J   - 78    26   SB9273001 T   - 1+   48
+SA5031001 H    - 19    22   SA6367001 H    - 11   22   SA8990001 J   - 14    24   SB9273002 T   - 1+   48
+SA5033201 H    - 23    22   SA6512001 P    -3     38   SA8991001 J   - 21    24   SB9368201 A   - 11    2
+SA5034301 H    - 24    22   SA6592001 E    - 41   12   SA8995101 J   - 13    24   SB9369001 B   - 30    4
+SA5037101 H    - 27    22   SA6607001 Z    - 32   52   SA8996001 J   - 16    24   SB9370101 B   - 41    4
+SA5037101 H    - 34    22   SA6607001 Z    - 34   52   SA8997001 J   - 18    24   SB9371001 B   - 42    4
+SA5040001 H    - 29    22   SA6608001 Z    - 33   52   SA8999001 J   - 80    26   SB9372001 A   - 34    2
+SA5043201 H    - 31    22   SA6609001 Z    - 37   52   SA9061001 B   - 31     4   SB9374001 B   - 62    6
+SA5044101 H    - 32    22   SA6645001 J    - 73   26   SA9064001 B   - 59+    4   SB9375001 B   - 66    6
+SA5048101 H    - 40    22   SA6646001 J    - 54   26   SA9064001 Ga1         53   SB9376001 A   - 14    2
+                                                                                                            60
+     索引 / Index
+      CODE     REF.NO Page      CODE   REF.NO Page   CODE   REF.NO Page   CODE   REF.NO Page
+     SB9377001 C    -1      8
+     SB9378001 C    -2      8
+     SB9379001 D    - 34   10
+     SB9383001 R    -1     44
+     SB9603001 S    -3     46
+     SB9604001 S    -4     46
+     SB9607001 M1   -6     32
+     SB9610001 P    -1     38
+     SB9611001 P    -2     38
+     SB9613001 P    -5     38
+     SB9614001 J    - 70   26
+     SB9629001 J    - 72   26
+     SB9630101 J    - 56   26
+     SB9631101 J    - 57   26
+     SB9750001 Q1   - 20   40
+     SC0038001 S    - 15   46
+     SC0095001 G    -1     20
+
+
+
+
+61
+                                             パーツブック
+                                             PARTS BOOK
+
+
+
+
+© 2019 Brother Industries, Ltd. All Rights Reserved.      Z-8550B, 8560B
+                                                           I9021288B J/E
+                                                             2019.02.B (1)
+

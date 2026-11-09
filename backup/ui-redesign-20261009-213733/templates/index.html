@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garment Machine Tech Database | Database Mesin Jahit Industri</title>
+<meta name="description" content="Garment Machine Tech Database adalah database teknisi mesin jahit industri berisi merek, model, spesifikasi, komponen, troubleshooting, dan dokumentasi mesin garment.">
+<link rel="canonical" href="{{ request.url_root.rstrip('/') }}{{ request.path }}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Garment Machine Tech Database">
+<meta property="og:description" content="Database teknisi mesin jahit industri untuk mencari model, spesifikasi, komponen, troubleshooting, dan dokumentasi mesin garment.">
+<meta property="og:url" content="{{ request.url }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<header>
+    <h1>GARMENT MACHINE TECH DATABASE</h1>
+    <p>Database Teknisi Mesin Garment</p>
+</header>
+
+<main>
+
+    <section class="welcome">
+        <h2>🔧 Database Teknisi</h2>
+{% if session.get("admin_logged_in") %}
+        <p><a href="/add-machine" class="add-button">➕ Tambah Mesin</a></p>
+{% endif %}
+        <p><a href="/components" class="add-button">🔩 Database Komponen</a></p>
+        <p>
+            Cari mesin berdasarkan merek, model, fungsi,
+            atau deskripsi mesin.
+        </p>
+
+        <form method="GET" action="/">
+            <input
+                type="text"
+                name="search"
+                value="{{ search }}"
+                placeholder="🔍 Cari merek atau model mesin..."
+            >
+            <button type="submit">Cari</button>
+        </form>
+    </section>
+
+
+    <section class="database-overview">
+
+        <h2>📊 Database Overview</h2>
+
+        <div class="stats-grid">
+
+            <div class="stat-card">
+                <strong>{{ statistics["brands"] }}</strong>
+                <span>🏷️ Merek</span>
+            </div>
+
+            <div class="stat-card">
+                <strong>{{ statistics["machines"] }}</strong>
+                <span>🏭 Mesin</span>
+            </div>
+
+            <div class="stat-card">
+                <strong>{{ statistics["documents"] }}</strong>
+                <span>📄 Dokumen</span>
+            </div>
+
+            <div class="stat-card">
+                <strong>{{ statistics["components"] }}</strong>
+                <span>🔩 Komponen</span>
+            </div>
+
+            <div class="stat-card">
+                <strong>{{ statistics["parts"] }}</strong>
+                <span>⚙️ Parts</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    {% if search %}
+    <section>
+        <h2>🔎 Hasil pencarian: "{{ search }}"</h2>
+
+        {% if machines %}
+            <div class="machine-list">
+
+                {% for machine in machines %}
+                <div class="machine-card">
+
+                    <h3>
+                        {{ machine["brand_name"] or "Merek belum ada" }}
+                        — {{ machine["model"] }}
+                    </h3>
+
+                    <p>
+                        <strong>Jenis:</strong>
+                        {{ machine["type_name"] or "Belum ditentukan" }}
+                    </p>
+
+                    <p>
+                        <strong>Fungsi:</strong>
+                        {{ machine["function"] or "Belum ada data" }}
+                    </p>
+
+                    <p>
+                        {{ machine["description"] or "Belum ada deskripsi" }}
+                    </p>
+
+                    <div class="machine-stats">
+                        <span>📋 {{ machine["specifications_count"] }} Spesifikasi</span>
+                        <span>🔧 {{ machine["components_count"] }} Komponen</span>
+                        <span>⚙️ {{ machine["parts_count"] }} Parts</span>
+                        <span>⚠️ {{ machine["troubleshooting_count"] }} Troubleshooting</span>
+                        <span>📄 {{ machine["documents_count"] }} Dokumen</span>
+                    </div>
+
+                    <p>
+    <a href="/machine/{{ machine['id'] }}" class="add-button">
+        🔎 Detail Mesin
+    </a>
+</p>
+
+                </div>
+                {% endfor %}
+
+            </div>
+        {% else %}
+            <div class="empty">
+                <p>❌ Mesin dengan kata kunci tersebut belum ditemukan.</p>
+            </div>
+        {% endif %}
+    </section>
+    {% endif %}
+
+
+    <section>
+        <h2>🏭 Merek Mesin</h2>
+
+        <div class="grid">
+            {% for brand in brands %}
+            <a href="{{ url_for('brand_machines', brand_id=brand['id']) }}" class="card">
+                {% if brand["name"]|upper == "JUKI" %}
+                    <div class="brand-logo">
+                        <img src="{{ url_for('static', filename='images/brands/juki.svg') }}" alt="JUKI">
+                    </div>
+                {% elif brand["name"]|upper == "BROTHER" %}
+                    <div class="brand-logo">
+                        <img src="{{ url_for('static', filename='images/brands/brother.svg') }}" alt="BROTHER">
+                    </div>
+                {% elif brand["name"]|upper == "YAMATO" %}
+                    <div class="brand-logo">
+                        <img src="{{ url_for('static', filename='images/brands/yamato.svg') }}" alt="YAMATO">
+                    </div>
+                {% elif brand["name"]|upper == "PEGASUS" %}
+                    <div class="brand-logo">
+                        <img src="{{ url_for('static', filename='images/brands/pegasus.svg') }}" alt="PEGASUS">
+                    </div>
+                {% elif brand["name"]|upper == "HIKARI" %}
+                    <div class="brand-logo">
+                        <img src="{{ url_for('static', filename='images/brands/hikari.svg') }}" alt="HIKARI">
+                    </div>
+                {% elif brand["name"]|upper == "MAICA" %}
+                    <div class="brand-logo">
+                        <img src="{{ url_for('static', filename='images/brands/maica.svg') }}" alt="MAICA">
+                    </div>
+                {% elif brand["name"]|upper == "KANSAI SPECIAL" %}
+                    <div class="brand-logo">
+                        <img src="{{ url_for('static', filename='images/brands/kansai-special.svg') }}" alt="KANSAI SPECIAL">
+                    </div>
+                {% elif brand["name"]|upper == "KM" %}
+                    <div class="brand-logo">
+                        <img src="{{ url_for('static', filename='images/brands/km.svg') }}" alt="KM">
+                    </div>
+                {% elif brand["name"]|upper == "IMB" %}
+                    <div class="brand-logo">
+                        <img src="{{ url_for('static', filename='images/brands/imb.svg') }}" alt="IMB">
+                    </div>
+                {% elif brand["name"]|upper == "JUITA" %}
+                    <div class="brand-logo">
+                        <img src="{{ url_for('static', filename='images/brands/juita.svg') }}" alt="JUITA">
+                    </div>
+                {% else %}
+                    <h3>{{ brand["name"] }}</h3>
+                {% endif %}
+
+                <p>{{ brand["country"] or "Data negara belum tersedia" }}</p>
+            </a>
+            {% endfor %}
+        </div>
+    </section>
+
+
+    <section>
+        <h2>⚙️ Jenis Mesin</h2>
+
+        <div class="grid">
+            {% for machine_type in machine_types %}
+            <a href="{{ url_for('type_machines', type_id=machine_type['id']) }}" class="card">
+                <h3>{{ machine_type["name"] }}</h3>
+                <p>{{ machine_type["description"] }}</p>
+            </a>
+            {% endfor %}
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>Garment Machine Tech Database — Local System</p>
+</footer>
+
+</body>
+</html>

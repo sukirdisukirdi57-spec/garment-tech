@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tambah Dokumen Mesin</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<header>
+    <h1>📚 Tambah Dokumen Mesin</h1>
+</header>
+
+<main>
+
+    <section class="machine-card">
+
+        <h2>
+            {{ machine["brand_name"] }} — {{ machine["model"] }}
+        </h2>
+
+        <form method="POST">
+
+            <label for="document_type">
+                Jenis Dokumen
+            </label>
+
+            <input
+                type="text"
+                id="document_type"
+                name="document_type"
+                placeholder="Contoh: Manual servis"
+            >
+
+            <label for="title">
+                Judul Dokumen
+            </label>
+
+            <input
+                type="text"
+                id="title"
+                name="title"
+                placeholder="Judul manual atau dokumen"
+                required
+            >
+
+            <label for="source_url">
+                Link Sumber
+            </label>
+
+            <input
+                type="url"
+                id="source_url"
+                name="source_url"
+                placeholder="https://..."
+            >
+
+            <label for="local_file">
+                Lokasi File Lokal
+            </label>
+
+            <input
+                type="text"
+                id="local_file"
+                name="local_file"
+                placeholder="Contoh: documents/juki/ddl8700.pdf"
+            >
+
+            <label for="notes">
+                Catatan
+            </label>
+
+            <textarea
+                id="notes"
+                name="notes"
+                rows="4"
+                placeholder="Catatan dokumen..."
+            ></textarea>
+
+            <br>
+
+            <button type="submit" class="add-button">
+                💾 Simpan Dokumen
+            </button>
+
+            <a
+                href="/machine/{{ machine['id'] }}"
+                class="add-button"
+            >
+                ↩️ Kembali
+            </a>
+
+        </form>
+
+    </section>
+
+</main>
+
+</body>
+</html>

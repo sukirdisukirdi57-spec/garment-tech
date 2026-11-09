@@ -1,0 +1,248 @@
+import argparse
+import json
+import sqlite3
+import sys
+from pathlib import Path
+
+BASE = Path(__file__).resolve().parent
+ROOT = BASE.parents[1]
+DB = ROOT / "database" / "garment.db"
+DATA = json.loads((BASE / "migration.json").read_text(encoding="utf-8"))
+EXPECTED_MACHINE_ID = 52
+EXPECTED_DOCUMENT_ID = 219
+EXPECTED_MODEL = "S-6200A"
+EXPECTED_COMPONENT = "G. Rotary hook mechanism"
+
+
+def fail(message):
+    raise RuntimeError(message)
+
+
+def normalize_ref(value):
+    value = str(value).strip()
+    if value.endswith("+"):
+        value = value[:-1]
+    if not value.isdigit():
+        fail(f"Referensi katalog tidak valid: {value!r}")
+    return int(value)
+
+
+def verify_component(row):
+    fields = (
+        "component_name", "part_number", "location", "function",
+        "notes", "image_path", "source_url", "catalog_ref", "diagram_page"
+    )
+    for field in fields:
+        if row[field] != DATA["component"].get(field):
+            fail(f"Konflik komponen pada kolom {field!r}; tidak diubah.")
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="Migrasi Brother S-6200A mechanism 29 secara transaksional."
+    )
+    parser.add_argument(
+        "--apply", action="store_true",
+        help="Simpan perubahan. Tanpa opsi ini, semua perubahan dibatalkan."
+    )
+    args = parser.parse_args()
+
+    if not DB.is_file():
+        fail(f"Database tidak ditemukan: {DB}")
+
+    if args.apply:
+        backups = list(DB.parent.glob(
+            "garment.db.backup-before-s6200a-migration-*"
+        ))
+        if not backups:
+            fail("Backup produksi yang sesuai tidak ditemukan; migrasi dibatalkan.")
+
+    component_data = DATA["component"]
+    relations = DATA["relations"]
+
+    if len(relations) != 36:
+        fail(f"Jumlah relasi harus 36, ditemukan {len(relations)}.")
+    if component_data.get("machine_id") != EXPECTED_MACHINE_ID:
+        fail("machine_id pada JSON tidak cocok.")
+    if component_data.get("component_name") != EXPECTED_COMPONENT:
+        fail("Nama komponen pada JSON tidak cocok.")
+    if any(
+        r.get("machine_id") != EXPECTED_MACHINE_ID
+        or r.get("source_document_id") != EXPECTED_DOCUMENT_ID
+        for r in relations
+    ):
+        fail("Referensi mesin/dokumen dalam JSON tidak konsisten.")
+
+    conn = sqlite3.connect(DB, timeout=20)
+    conn.row_factory = sqlite3.Row
+    created_parts = 0
+    reused_parts = 0
+    created_relations = 0
+    reused_relations = 0
+    created_component = False
+
+    try:
+        conn.execute("BEGIN IMMEDIATE")
+
+        machine = conn.execute(
+            "SELECT id, model FROM machines WHERE id = ?",
+            (EXPECTED_MACHINE_ID,)
+        ).fetchone()
+        if not machine or machine["model"] != EXPECTED_MODEL:
+            fail("Identitas mesin produksi tidak cocok.")
+
+        document = conn.execute(
+            "SELECT id, machine_id, title FROM documents WHERE id = ?",
+            (EXPECTED_DOCUMENT_ID,)
+        ).fetchone()
+        if not document or document["machine_id"] != EXPECTED_MACHINE_ID:
+            fail("Dokumen sumber tidak cocok dengan mesin.")
+
+        existing_component = conn.execute(
+            """SELECT * FROM components
+               WHERE machine_id = ? AND component_name = ?""",
+            (EXPECTED_MACHINE_ID, EXPECTED_COMPONENT)
+        ).fetchall()
+
+        if len(existing_component) > 1:
+            fail("Ada lebih dari satu komponen dengan identitas yang sama.")
+        if existing_component:
+            component_id = existing_component[0]["id"]
+            verify_component(existing_component[0])
+        else:
+            columns = (
+                "machine_id", "component_name", "part_number", "location",
+                "function", "notes", "image_path", "source_url",
+                "catalog_ref", "diagram_page"
+            )
+            values = [EXPECTED_MACHINE_ID] + [
+                component_data.get(k) for k in columns[1:]
+            ]
+            cursor = conn.execute(
+                f"INSERT INTO components ({','.join(columns)}) "
+                f"VALUES ({','.join('?' for _ in columns)})",
+                values
+            )
+            component_id = cursor.lastrowid
+            created_component = True
+
+        for item in relations:
+            ref = normalize_ref(item.get("catalog_ref"))
+            part_values = {
+                "machine_id": EXPECTED_MACHINE_ID,
+                "source_document_id": EXPECTED_DOCUMENT_ID,
+                "part_number": item.get("part_number"),
+                "part_name": item.get("part_name"),
+                "quantity": item.get("quantity"),
+                "catalog_ref": ref,
+                "diagram_page": item.get("diagram_page"),
+                "note": item.get("note"),
+                "source_url": item.get("source_url"),
+                "notes": item.get("notes"),
+                "quantity_raw": item.get("quantity_raw"),
+            }
+            if not part_values["part_number"] or not part_values["part_name"]:
+                fail("Ada part tanpa nomor atau nama.")
+
+            matches = conn.execute(
+                """SELECT * FROM parts
+                   WHERE machine_id = ? AND source_document_id = ?
+                     AND part_number = ? AND part_name = ?
+                     AND catalog_ref = ? AND quantity_raw IS ?
+                     AND source_url IS ?""",
+                (
+                    part_values["machine_id"],
+                    part_values["source_document_id"],
+                    part_values["part_number"],
+                    part_values["part_name"],
+                    part_values["catalog_ref"],
+                    part_values["quantity_raw"],
+                    part_values["source_url"],
+                )
+            ).fetchall()
+
+            if len(matches) > 1:
+                fail(f"Part cocok ganda: {part_values['part_number']}.")
+            if matches:
+                part = matches[0]
+                for key, value in part_values.items():
+                    if part[key] != value:
+                        fail(
+                            f"Konflik data part {part_values['part_number']} "
+                            f"pada kolom {key!r}; tidak ditimpa."
+                        )
+                part_id = part["id"]
+                reused_parts += 1
+            else:
+                cols = list(part_values)
+                cursor = conn.execute(
+                    f"INSERT INTO parts ({','.join(cols)}) "
+                    f"VALUES ({','.join('?' for _ in cols)})",
+                    [part_values[k] for k in cols]
+                )
+                part_id = cursor.lastrowid
+                created_parts += 1
+
+            relation_notes = item.get("relation_notes")
+            relation_type = item.get("relation_type") or "catalog_section"
+            existing_relation = conn.execute(
+                """SELECT relation_type, notes FROM component_parts
+                   WHERE component_id = ? AND part_id = ?""",
+                (component_id, part_id)
+            ).fetchone()
+
+            if existing_relation:
+                if (
+                    existing_relation["relation_type"] != relation_type
+                    or existing_relation["notes"] != relation_notes
+                ):
+                    fail(
+                        f"Konflik relasi untuk part {part_values['part_number']}; "
+                        "catatan yang ada tidak ditimpa."
+                    )
+                reused_relations += 1
+            else:
+                conn.execute(
+                    """INSERT INTO component_parts
+                       (component_id, part_id, relation_type, notes)
+                       VALUES (?, ?, ?, ?)""",
+                    (component_id, part_id, relation_type, relation_notes)
+                )
+                created_relations += 1
+
+        check = conn.execute("PRAGMA integrity_check").fetchone()[0]
+        if check != "ok":
+            fail(f"Integrity check gagal: {check}")
+
+        print("Database:", DB)
+        print("Mode:", "TERAPKAN" if args.apply else "SIMULASI — ROLLBACK")
+        print("Mesin:", EXPECTED_MODEL, "ID", EXPECTED_MACHINE_ID)
+        print("Dokumen sumber:", EXPECTED_DOCUMENT_ID)
+        print("ID komponen tujuan:", component_id)
+        print("Komponen baru:", created_component)
+        print("Part baru / digunakan kembali:", created_parts, "/", reused_parts)
+        print("Relasi baru / digunakan kembali:",
+              created_relations, "/", reused_relations)
+        print("Total baris katalog:", len(relations))
+        print("Integrity check:", check)
+
+        if args.apply:
+            conn.commit()
+            print("HASIL: perubahan berhasil disimpan.")
+        else:
+            conn.rollback()
+            print("HASIL: simulasi selesai; semua perubahan dibatalkan.")
+
+    except Exception:
+        conn.rollback()
+        raise
+    finally:
+        conn.close()
+
+
+if __name__ == "__main__":
+    try:
+        main()
+    except Exception as exc:
+        print("MIGRASI DIBATALKAN:", exc, file=sys.stderr)
+        sys.exit(1)

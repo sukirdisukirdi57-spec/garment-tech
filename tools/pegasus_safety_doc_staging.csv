@@ -1,0 +1,3 @@
+﻿model,machine_id,document_type,title,source_url,action,evidence,approval_status
+E22L,216,Safety Precautions,PEGASUS E22L/E32L/E52L/E256 Safety Precautions,https://www.pegasus.co.jp/webcatalog/file.php?docflg=8&itemcd=9B9020000009&pageseq=1&rev=00,PROPOSE_ADD_SUPPORTING_DOCUMENT,"Dokumen resmi mencantumkan E22L dan E256; dokumen keselamatan, bukan manual troubleshooting lengkap.",PENDING_REVIEW
+E256,213,Safety Precautions,PEGASUS E22L/E32L/E52L/E256 Safety Precautions,https://www.pegasus.co.jp/webcatalog/file.php?docflg=8&itemcd=9B9020000009&pageseq=1&rev=00,PROPOSE_ADD_SUPPORTING_DOCUMENT,"Dokumen resmi mencantumkan E22L dan E256; dokumen keselamatan, bukan manual troubleshooting lengkap.",PENDING_REVIEW

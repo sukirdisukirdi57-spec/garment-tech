@@ -1,0 +1,9 @@
+﻿id,problem,machine_id,teks_lama_cocok,detail,integrity_check,database_diubah
+1,Mesin tidak bisa menjahit,3,YA,,ok,TIDAK - hanya-baca
+2,Benang atas sering putus,3,YA,,ok,TIDAK - hanya-baca
+3,Benang bawah sering putus,3,YA,,ok,TIDAK - hanya-baca
+4,Jahitan loncat,3,YA,,ok,TIDAK - hanya-baca
+247,Jahitan terlalu kencang atau terlalu longgar,3,YA,,ok,TIDAK - hanya-baca
+248,Jarum sering patah,3,YA,,ok,TIDAK - hanya-baca
+249,Kain tidak maju dengan baik,3,YA,,ok,TIDAK - hanya-baca
+250,Suara atau getaran mesin tidak normal,3,YA,,ok,TIDAK - hanya-baca

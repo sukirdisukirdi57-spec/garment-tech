@@ -1,0 +1,4 @@
+﻿id,specification,value,notes,description
+2269,Produsen,"Brother Industries, Ltd.",Tercantum pada label mesin.,Nama produsen sesuai tulisan pada label.
+2270,Negara pembuatan,China,Tercantum sebagai MADE IN CHINA pada label.,"Negara pembuatan mesin, bukan negara asal merek."
+2271,Kode pada label,GOZ01903,Kode terlihat pada label; jenis kode belum terverifikasi.,Jangan dianggap sebagai nomor seri sebelum dikonfirmasi.

@@ -1,0 +1,388 @@
+﻿troubleshooting_id,model,code,problem,symptoms,possible_cause,solution,baris_manual_ditemukan,konteks_manual,status_audit_isi,catatan_auditor
+1415,DDL-9000CS,E000,Inisialisasi data (bukan error),Operasi inisialisasi data; manual menyatakan ini bukan error.,Kepala mesin diganti atau operasi inisialisasi dijalankan.,Manual menyatakan ini bukan error; tidak ada tindakan perbaikan khusus yang dicantumkan.,2797,"2796: code
+2797:  E000 Execution of data         • In the case the machine head is
+2798:       initialization (This is     changed.
+2799:       not an error.)            • In the case the initialization operation is
+2800:                                   executed.
+2801:  E007 Motor overload            • In the case the machine head is
+2802:                                   changed.
+2803:  E009 Overtime of solenoid • In the case the machine head is locked. • Check whether the pulley is entangled
+2804:       energization         • In the case of sewing extra-heavy             with thread.",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1416,DDL-9000CS,E007,Motor overload,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Manual menyebut penggantian kepala mesin.,Tidak ada item pemeriksaan yang tercantum pada baris ini.,2801,"2800:                                   executed.
+2801:  E007 Motor overload            • In the case the machine head is
+2802:                                   changed.
+2803:  E009 Overtime of solenoid • In the case the machine head is locked. • Check whether the pulley is entangled
+2804:       energization         • In the case of sewing extra-heavy             with thread.
+2805:                              weight material that exceeds the            • Check whether the motor output
+2806:                              guaranteed material thickness.                connector has loosened.
+2807:                            • In the case the motor fails to rotate.      • Check whether the motor can be
+2808:                            • In the case of the motor or driver failure. turned smoothly by hand.",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1417,DDL-9000CS,E009,Solenoid energized terlalu lama,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Kepala mesin terkunci; bahan terlalu berat; motor tidak berputar; atau motor/driver bermasalah.,"Manual: periksa pulley terlilit benang, konektor output motor longgar, dan apakah motor dapat diputar dengan lancar menggunakan tangan. Matikan daya dan lakukan pemeriksaan mekanis hanya jika aman.",2803,"2802:                                   changed.
+2803:  E009 Overtime of solenoid • In the case the machine head is locked. • Check whether the pulley is entangled
+2804:       energization         • In the case of sewing extra-heavy             with thread.
+2805:                              weight material that exceeds the            • Check whether the motor output
+2806:                              guaranteed material thickness.                connector has loosened.
+2807:                            • In the case the motor fails to rotate.      • Check whether the motor can be
+2808:                            • In the case of the motor or driver failure. turned smoothly by hand.
+2809:  E011 Media is not inserted • In the case no media is inserted.                 • Turn the power OFF and check for a
+2810:                                                                                   media.",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1418,DDL-9000CS,E011,Media tidak terpasang,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Tidak ada media yang dimasukkan.,Manual: matikan daya dan periksa media.,2809,"2808:                            • In the case of the motor or driver failure. turned smoothly by hand.
+2809:  E011 Media is not inserted • In the case no media is inserted.                 • Turn the power OFF and check for a
+2810:                                                                                   media.
+2811:  E012 Read error                • In the case data stored on the media          • Turn the power OFF and check for a
+2812:                                   cannot be read.                                 media.
+2813:  E013 Write error               • In the case data cannot be written on         • Turn the power OFF and check for a
+2814:                                   the media.                                      media.
+2815:  E014 Write protect             • In the case the media is placed in the        • Turn the power OFF and check for a
+2816:                                   write-prohibition state.                        media.",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1419,DDL-9000CS,E012,Kesalahan membaca data,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Data pada media tidak dapat dibaca.,Manual: matikan daya dan periksa media.,2811,"2810:                                                                                   media.
+2811:  E012 Read error                • In the case data stored on the media          • Turn the power OFF and check for a
+2812:                                   cannot be read.                                 media.
+2813:  E013 Write error               • In the case data cannot be written on         • Turn the power OFF and check for a
+2814:                                   the media.                                      media.
+2815:  E014 Write protect             • In the case the media is placed in the        • Turn the power OFF and check for a
+2816:                                   write-prohibition state.                        media.
+2817:  E015 Format error              • In the case formatting of the media           • Turn the power OFF and check for a
+2818:                                   cannot be carried out.                          media.",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1420,DDL-9000CS,E013,Kesalahan menulis data,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Data tidak dapat ditulis ke media.,Manual: matikan daya dan periksa media.,2813,"2812:                                   cannot be read.                                 media.
+2813:  E013 Write error               • In the case data cannot be written on         • Turn the power OFF and check for a
+2814:                                   the media.                                      media.
+2815:  E014 Write protect             • In the case the media is placed in the        • Turn the power OFF and check for a
+2816:                                   write-prohibition state.                        media.
+2817:  E015 Format error              • In the case formatting of the media           • Turn the power OFF and check for a
+2818:                                   cannot be carried out.                          media.
+2819:  E016 External media over- • In the case the capacity of media is not           • Turn the power OFF and check for a
+2820:       capacity               enough.                                              media.",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1421,DDL-9000CS,E014,Media terlindungi dari penulisan,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Media berada dalam keadaan write-protect.,Manual: matikan daya dan periksa media.,2815,"2814:                                   the media.                                      media.
+2815:  E014 Write protect             • In the case the media is placed in the        • Turn the power OFF and check for a
+2816:                                   write-prohibition state.                        media.
+2817:  E015 Format error              • In the case formatting of the media           • Turn the power OFF and check for a
+2818:                                   cannot be carried out.                          media.
+2819:  E016 External media over- • In the case the capacity of media is not           • Turn the power OFF and check for a
+2820:       capacity               enough.                                              media.
+2821:  E032 File compatibility        • In the case the file is not compatible.       • Turn the power OFF and check for a
+2822:       error                                                                       media.",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1422,DDL-9000CS,E015,Kesalahan format media,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Media tidak dapat diformat.,Manual: matikan daya dan periksa media.,2817,"2816:                                   write-prohibition state.                        media.
+2817:  E015 Format error              • In the case formatting of the media           • Turn the power OFF and check for a
+2818:                                   cannot be carried out.                          media.
+2819:  E016 External media over- • In the case the capacity of media is not           • Turn the power OFF and check for a
+2820:       capacity               enough.                                              media.
+2821:  E032 File compatibility        • In the case the file is not compatible.       • Turn the power OFF and check for a
+2822:       error                                                                       media.
+2823:  E071 Slip-off of the motor     • In the case the motor connector has           • Check for looseness and slip-off of
+2824:       connector                   slipped off.                                    the motor output connector.",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1423,DDL-9000CS,E016,Kapasitas media tidak mencukupi,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Kapasitas media tidak cukup.,Manual: matikan daya dan periksa media.,2819,"2818:                                   cannot be carried out.                          media.
+2819:  E016 External media over- • In the case the capacity of media is not           • Turn the power OFF and check for a
+2820:       capacity               enough.                                              media.
+2821:  E032 File compatibility        • In the case the file is not compatible.       • Turn the power OFF and check for a
+2822:       error                                                                       media.
+2823:  E071 Slip-off of the motor     • In the case the motor connector has           • Check for looseness and slip-off of
+2824:       connector                   slipped off.                                    the motor output connector.
+2825:                                 • Motor current detection circuit has
+2826:                                   broken.",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1424,DDL-9000CS,E032,Kesalahan kompatibilitas file,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,File tidak kompatibel.,Manual: matikan daya dan periksa media.,2821,"2820:       capacity               enough.                                              media.
+2821:  E032 File compatibility        • In the case the file is not compatible.       • Turn the power OFF and check for a
+2822:       error                                                                       media.
+2823:  E071 Slip-off of the motor     • In the case the motor connector has           • Check for looseness and slip-off of
+2824:       connector                   slipped off.                                    the motor output connector.
+2825:                                 • Motor current detection circuit has
+2826:                                   broken.
+2827:                                 • In the case there is no current
+2828:                                   feedback.",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1425,DDL-9000CS,E071,Konektor motor terlepas,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,"Konektor motor terlepas, rangkaian deteksi arus rusak, atau umpan balik arus tidak tersedia.",Manual: periksa apakah konektor output motor longgar atau terlepas.,2823,"2822:       error                                                                       media.
+2823:  E071 Slip-off of the motor     • In the case the motor connector has           • Check for looseness and slip-off of
+2824:       connector                   slipped off.                                    the motor output connector.
+2825:                                 • Motor current detection circuit has
+2826:                                   broken.
+2827:                                 • In the case there is no current
+2828:                                   feedback.
+2829:  E072 Motor overload when • Overload state occurs while the thread
+2830:       the thread trimmer    trimming operates.",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1426,DDL-9000CS,E072,Motor overload saat thread trimmer beroperasi,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Kondisi overload terjadi ketika pemotong benang bekerja.,Manual tidak mencantumkan item pemeriksaan pada baris ini.,2829,"2828:                                   feedback.
+2829:  E072 Motor overload when • Overload state occurs while the thread
+2830:       the thread trimmer    trimming operates.
+2831:       operates
+2832:  E081 Feed driving motor        • In the case the feed driving motor is         • Check whether the feed driving motor
+2833:       lock                        locked.                                         operates smoothly.
+2834:  E204 USB insertion             • In the case the sewing machine is             • Remove the USB thumb drive.
+2835:                                   started up without removing the USB
+2836:                                   thumb drive.",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1427,DDL-9000CS,E081,Motor penggerak feed terkunci,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Motor penggerak feed terkunci.,Manual: periksa apakah motor penggerak feed bekerja dengan lancar.,2832,"2831:       operates
+2832:  E081 Feed driving motor        • In the case the feed driving motor is         • Check whether the feed driving motor
+2833:       lock                        locked.                                         operates smoothly.
+2834:  E204 USB insertion             • In the case the sewing machine is             • Remove the USB thumb drive.
+2835:                                   started up without removing the USB
+2836:                                   thumb drive.
+2837:  E220 Warning against           • When the predetermined number of              • Add grease to the specified points of
+2838:       shortage of grease          stitches is reached.                            sewing machine and reset the error.
+2839:  E221 Grease-shortage           • In the case the sewing machine                • Add grease to the specified points of",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1428,DDL-9000CS,E204,USB masih terpasang,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Mesin dinyalakan tanpa melepas USB thumb drive.,Manual: lepaskan USB thumb drive.,2834,"2833:       lock                        locked.                                         operates smoothly.
+2834:  E204 USB insertion             • In the case the sewing machine is             • Remove the USB thumb drive.
+2835:                                   started up without removing the USB
+2836:                                   thumb drive.
+2837:  E220 Warning against           • When the predetermined number of              • Add grease to the specified points of
+2838:       shortage of grease          stitches is reached.                            sewing machine and reset the error.
+2839:  E221 Grease-shortage           • In the case the sewing machine                • Add grease to the specified points of
+2840:       error                       cannot continue sewing since the                sewing machine and reset the error.
+2841:                                   predetermined number of stitches is",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1429,DDL-9000CS,E220,Peringatan kekurangan grease,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Jumlah jahitan yang telah ditentukan tercapai.,Manual: tambahkan grease pada titik yang ditentukan dan reset error sesuai petunjuk resmi.,2837;4059;4065;4075,"2836:                                   thumb drive.
+2837:  E220 Warning against           • When the predetermined number of              • Add grease to the specified points of
+2838:       shortage of grease          stitches is reached.                            sewing machine and reset the error.
+2839:  E221 Grease-shortage           • In the case the sewing machine                • Add grease to the specified points of
+2840:       error                       cannot continue sewing since the                sewing machine and reset the error.
+2841:                                   predetermined number of stitches is
+2842:                                   reached.
+2843: 
+2844: ",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1430,DDL-9000CS,E221,Error kekurangan grease,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Mesin tidak dapat melanjutkan jahitan karena jumlah jahitan yang ditentukan tercapai.,Manual: tambahkan grease pada titik yang ditentukan dan reset error sesuai petunjuk resmi.,116;2839;4074;4076,"115:        7-6-1. Regarding the grease shortage alarm.................................................................................... 76
+116:        7-6-2. E221 Grease-shortage error. ................................................................................................... 76
+117:        7-6-3. Regarding K118 error resetting procedure. ........................................................................... 77
+118: 
+119: 8. HOW TO USE THE OPERATION PANEL (APPLICATION). ......................................... 78
+120:   8-1. Setting up the polygonal-shape stitching........................................................................ 78
+121:        8-1-1. Edit method............................................................................................................................... 78
+122:   8-2. Cycle pattern. ..................................................................................................................... 80
+123:        8-2-1. Selecting the cycle pattern...................................................................................................... 80",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1431,DDL-9000CS,E302,Error deteksi kemiringan kepala mesin,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Sakelar deteksi tilt aktif saat daya mesin masih menyala.,Manual: periksa apakah kepala mesin dimiringkan sebelum daya dimatikan; periksa kabel sakelar tilt yang terjepit dan kabel pada INT PCB. Periksa rangkaian internal hanya oleh teknisi kompeten.,2852,"2851: code
+2852: E302 Head-tilt detection     • In the case the Tilt detection switch       • Check whether the machine head
+2853:      error                     is turned ON when the power to the            is tilted before turning OFF the
+2854:      (When the safety          sewing machine remains ON.                    power switch (The sewing machine
+2855:      switch operates)                                                        operation is prohibited for the sake of
+2856:                                                                              safety.)
+2857:                                                                            • Check whether the head-tilt detection
+2858:                                                                              switch cord is caught under the
+2859:                                                                              machine head, etc.",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1432,DDL-9000CS,E303,Kesalahan sensor meniskus (meniscus sensor),Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Sinyal sensor meniskus tidak dapat dideteksi.,Manual: periksa kesesuaian pengaturan model kepala mesin dan konektor encoder motor yang mungkin putus.,2862,"2861:                                                                              cord, check the cable of the INT PCB.
+2862: E303 Meniscus sensor         • In the case the meniscus sensor signal      • Check whether the machine head
+2863:      error                     cannot be detected                            model setting matches the actual
+2864:                                                                              machine head.
+2865:                                                                            • Check for a break in the motor
+2866:                                                                              encoder connector.
+2867: E704 Data failure (system- • In the case the system version does not • Re-write the system version to the
+2868:      version mismatch)       match the machine head setting.           applicable one.
+2869: E730 Encoder fault           • In the case the motor signal is not input • Check whether the motor signal",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1433,DDL-9000CS,E704,Kegagalan data / ketidakcocokan versi sistem,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Versi sistem tidak cocok dengan pengaturan kepala mesin.,Manual menyebut penulisan ulang versi sistem yang sesuai; lakukan hanya dengan prosedur servis resmi.,2867,"2866:                                                                              encoder connector.
+2867: E704 Data failure (system- • In the case the system version does not • Re-write the system version to the
+2868:      version mismatch)       match the machine head setting.           applicable one.
+2869: E730 Encoder fault           • In the case the motor signal is not input • Check whether the motor signal
+2870: E731 Motor hole sensor         properly.                                   connector (CN39) has loosened or
+2871:      fault                                                                 slipped off.
+2872:                                                                          • Check whether the motor signal cord
+2873:                                                                            has broken by being caught under
+2874:                                                                            the machine head.",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1434,DDL-9000CS,E730,Gangguan encoder,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Sinyal motor tidak masuk dengan benar.,"Manual: periksa konektor sinyal motor CN39, kabel sinyal yang mungkin terjepit/putus, dan arah pemasangan konektor encoder.",2869,"2868:      version mismatch)       match the machine head setting.           applicable one.
+2869: E730 Encoder fault           • In the case the motor signal is not input • Check whether the motor signal
+2870: E731 Motor hole sensor         properly.                                   connector (CN39) has loosened or
+2871:      fault                                                                 slipped off.
+2872:                                                                          • Check whether the motor signal cord
+2873:                                                                            has broken by being caught under
+2874:                                                                            the machine head.
+2875:                                                                          • Check whether the insertion direction
+2876:                                                                            of the motor encoder connector is",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1435,DDL-9000CS,E731,Gangguan sensor lubang motor,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Sinyal motor tidak masuk dengan benar.,"Manual mencantumkan pemeriksaan konektor sinyal motor CN39, kabel sinyal, dan arah pemasangan konektor encoder.",2870,"2869: E730 Encoder fault           • In the case the motor signal is not input • Check whether the motor signal
+2870: E731 Motor hole sensor         properly.                                   connector (CN39) has loosened or
+2871:      fault                                                                 slipped off.
+2872:                                                                          • Check whether the motor signal cord
+2873:                                                                            has broken by being caught under
+2874:                                                                            the machine head.
+2875:                                                                          • Check whether the insertion direction
+2876:                                                                            of the motor encoder connector is
+2877:                                                                            correct.",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1436,DDL-9000CS,E733,Motor berputar terbalik,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,"Pada kecepatan 500 sti/min atau lebih, motor berputar berlawanan dengan arah yang ditentukan.",Manual: periksa sambungan kabel encoder motor poros utama dan kabel daya motor poros utama.,2878,"2877:                                                                            correct.
+2878: E733 Reverse rotation of     • When the motor runs at a speed of           • Check whether the main shaft motor
+2879:      motor                     500 sti/min. or more, the motor runs in       encoder wire connection is correct.
+2880:                                the reverse direction of the indicated      • Check whether the main shaft motor
+2881:                                direction of rotation.                        wire connection for power is correct.
+2882: E811 Over-voltage            • In the case a voltage that is equal to or   • Check whether the supply voltage of
+2883:                                more than the guaranteed voltage is           ""rated supply voltage ±10 % or more""
+2884:                                input.                                        is applied.
+2885:                              • In the case a voltage of 200 V is applied   • Check whether the 100 V/200 V",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1437,DDL-9000CS,E811,Tegangan berlebih,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,"Tegangan masukan mencapai atau melampaui batas yang dijamin. Manual juga menyebut ketidakcocokan konfigurasi, termasuk suplai 200 V pada konfigurasi 100 V, 220 V pada kotak JA:120 V, atau 400 V pada kotak CE:230 V.",Manual: teknisi kompeten memeriksa kesesuaian tegangan suplai dengan spesifikasi dan konektor pemilih 100 V/200 V. Jangan mengubah konfigurasi tegangan tanpa prosedur servis resmi.,2882,"2881:                                direction of rotation.                        wire connection for power is correct.
+2882: E811 Over-voltage            • In the case a voltage that is equal to or   • Check whether the supply voltage of
+2883:                                more than the guaranteed voltage is           ""rated supply voltage ±10 % or more""
+2884:                                input.                                        is applied.
+2885:                              • In the case a voltage of 200 V is applied   • Check whether the 100 V/200 V
+2886:                                though the voltage is set to 100 V.           changeover connector is set correctly.
+2887:                              • In the case a voltage of 220 V is input     In the above-described cases, the
+2888:                                to the box of ""JA: 120 V"".                  power PCB has broken.
+2889:                              • In the case a voltage of 400 V is applied",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1438,DDL-9000CS,E813,Tegangan rendah,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,"Tegangan masukan berada pada atau di bawah batas yang dijamin. Manual juga menyebut konfigurasi yang tidak sesuai, termasuk suplai 100 V pada konfigurasi 200 V atau 120 V pada kotak JUS:220 V, serta kemungkinan kerusakan rangkaian internal akibat tegangan berlebih.",Manual: teknisi kompeten memeriksa kesesuaian tegangan suplai dengan spesifikasi dan konektor pemilih 100 V/200 V. Jangan mengubah konfigurasi tegangan tanpa prosedur servis resmi.,2891,"2890:                                to the box of ""CE: 230 V"".
+2891: E813 Low voltage             • In the case a voltage that is equal to      • Check whether the supply voltage of
+2892:                                or less than the guaranteed voltage is        ""rated supply voltage -10 % or less""
+2893:                                input                                         is applied.
+2894:                              • In the case a voltage of 100 V is applied   • Check whether the 100 V/200 V
+2895:                                though the voltage is set to 200 V            changeover connector is set correctly.
+2896:                              • In he case a voltage of 120 V is input to   In the above-described cases, the
+2897:                                the box of ""JUS: 220 V""                     power PCB has broken.
+2898:                              • In the case the internal circuit has",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1439,DDL-9000CS,E815,Resistor regeneratif tidak terhubung,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Resistor regeneratif tidak terhubung.,Manual: periksa sambungan resistor regeneratif pada konektor CN11. Matikan daya sebelum pemeriksaan.,2901,"2900:                                voltage
+2901: E815 Regenerative            • In the case the regenerative resistor is    • Check whether the regenerative
+2902:      resistor is not           not connected.                                resister is connected to the
+2903:      connected                                                               regenerative resistor connector
+2904:                                                                              (CN11).
+2905: 
+2906: 
+2907: 
+2908: ",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1440,DDL-9000CS,E903,Gangguan catu daya 85 V,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Tegangan 85 V tidak keluar dengan benar.,Manual: periksa kemungkinan motor bermasalah dan sekring F2. Pemeriksaan kelistrikan oleh teknisi kompeten.,2914,"2913: code
+2914: E903 85-V power supply        • In the case the 85-V voltage is not        • Check whether the motor is faulty
+2915:      fault                      properly output.                           • Check the F2 fuse.
+2916: E904 24-V power supply        • In the case the 24-V voltage is not
+2917:      fault                      properly output.
+2918: E910 The presser motor        • In the case the presser motor has failed • Check whether the presser setting is
+2919:      origin retrieval error     to return to its origin.                   correct (memory switch No. 23).
+2920:                                                                          • Check whether the presser motor
+2921:                                                                            origin has been correctly adjusted.",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1441,DDL-9000CS,E904,Gangguan catu daya 24 V,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Tegangan 24 V tidak keluar dengan benar.,Manual tidak mencantumkan item pemeriksaan pada baris ini; serahkan pemeriksaan rangkaian kepada teknisi kompeten.,2916,"2915:      fault                      properly output.                           • Check the F2 fuse.
+2916: E904 24-V power supply        • In the case the 24-V voltage is not
+2917:      fault                      properly output.
+2918: E910 The presser motor        • In the case the presser motor has failed • Check whether the presser setting is
+2919:      origin retrieval error     to return to its origin.                   correct (memory switch No. 23).
+2920:                                                                          • Check whether the presser motor
+2921:                                                                            origin has been correctly adjusted.
+2922: E912 Main shaft motor         • In the case the main shaft motor runs      • Check whether connection encoder
+2923:      speed detection            at a speed that exceeds the assumed          wire of the main shaft motor is",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1442,DDL-9000CS,E910,Error pencarian titik asal motor presser,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Motor presser gagal kembali ke titik asal.,Manual: periksa pengaturan presser (memory switch No. 23) dan penyetelan titik asal motor presser.,2918,"2917:      fault                      properly output.
+2918: E910 The presser motor        • In the case the presser motor has failed • Check whether the presser setting is
+2919:      origin retrieval error     to return to its origin.                   correct (memory switch No. 23).
+2920:                                                                          • Check whether the presser motor
+2921:                                                                            origin has been correctly adjusted.
+2922: E912 Main shaft motor         • In the case the main shaft motor runs      • Check whether connection encoder
+2923:      speed detection            at a speed that exceeds the assumed          wire of the main shaft motor is
+2924:      error                      speed.                                       correct.
+2925:                                                                            • Check whether connection of the",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1443,DDL-9000CS,E912,Error deteksi kecepatan motor poros utama,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Motor poros utama berjalan melebihi kecepatan yang diperkirakan.,Manual: periksa sambungan kabel encoder dan kabel motor poros utama.,2922,"2921:                                                                            origin has been correctly adjusted.
+2922: E912 Main shaft motor         • In the case the main shaft motor runs      • Check whether connection encoder
+2923:      speed detection            at a speed that exceeds the assumed          wire of the main shaft motor is
+2924:      error                      speed.                                       correct.
+2925:                                                                            • Check whether connection of the
+2926:                                                                              main shaft motor wire is correct.
+2927: E915 Failure of               • In the case the operation panel            • Check whether CN38 of the CTL PCB
+2928:      communication with         connector is not inserted properly.          or CN200 of the panel is connected
+2929:      operation panel                                                         properly or whether the cable has",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1444,DDL-9000CS,E915,Gangguan komunikasi dengan panel operasi,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Konektor panel operasi tidak terpasang dengan benar.,"Manual: periksa koneksi CN38 pada CTL PCB atau CN200 pada panel, serta kemungkinan kabel putus.",2927,"2926:                                                                              main shaft motor wire is correct.
+2927: E915 Failure of               • In the case the operation panel            • Check whether CN38 of the CTL PCB
+2928:      communication with         connector is not inserted properly.          or CN200 of the panel is connected
+2929:      operation panel                                                         properly or whether the cable has
+2930:                                                                              broken.
+2931: E922 Main shaft control       • In the case the main shaft fails to
+2932:      failure                    operate as assumed.
+2933: E924 Motor driver fault       • In the case the motor driver has broken.
+2934: E946 Machine-head       • In the case data cannot be written on            • Check whether the machine-head",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1445,DDL-9000CS,E922,Kegagalan kontrol poros utama,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Poros utama tidak beroperasi sebagaimana mestinya.,Manual tidak mencantumkan item pemeriksaan pada baris ini; perlu diagnosis teknisi kompeten.,2931,"2930:                                                                              broken.
+2931: E922 Main shaft control       • In the case the main shaft fails to
+2932:      failure                    operate as assumed.
+2933: E924 Motor driver fault       • In the case the motor driver has broken.
+2934: E946 Machine-head       • In the case data cannot be written on            • Check whether the machine-head
+2935:      EEPROM write error   the machine-head EEPROM.                           INT PCB is connected properly.
+2936: E955 Electric current         • The electric current of the main shaft     • Check whether connection of the
+2937:      sensor error               motor exceeds the assumed value.             main-shaft motor wire for power is
+2938:                                                                              correct.",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1446,DDL-9000CS,E924,Gangguan driver motor,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Driver motor rusak.,Manual tidak mencantumkan item pemeriksaan pada baris ini; diagnosis dan penggantian oleh teknisi kompeten.,2933,"2932:      failure                    operate as assumed.
+2933: E924 Motor driver fault       • In the case the motor driver has broken.
+2934: E946 Machine-head       • In the case data cannot be written on            • Check whether the machine-head
+2935:      EEPROM write error   the machine-head EEPROM.                           INT PCB is connected properly.
+2936: E955 Electric current         • The electric current of the main shaft     • Check whether connection of the
+2937:      sensor error               motor exceeds the assumed value.             main-shaft motor wire for power is
+2938:                                                                              correct.
+2939: E961 Pitch motor deviation • In the case the pitch motor fails to          • Check whether the pitch motor runs
+2940:      error                   operate because of an excessive load.           smoothly.",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1447,DDL-9000CS,E946,Error penulisan EEPROM kepala mesin,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Data tidak dapat ditulis ke EEPROM kepala mesin.,Manual: periksa koneksi INT PCB kepala mesin.,2934,"2933: E924 Motor driver fault       • In the case the motor driver has broken.
+2934: E946 Machine-head       • In the case data cannot be written on            • Check whether the machine-head
+2935:      EEPROM write error   the machine-head EEPROM.                           INT PCB is connected properly.
+2936: E955 Electric current         • The electric current of the main shaft     • Check whether connection of the
+2937:      sensor error               motor exceeds the assumed value.             main-shaft motor wire for power is
+2938:                                                                              correct.
+2939: E961 Pitch motor deviation • In the case the pitch motor fails to          • Check whether the pitch motor runs
+2940:      error                   operate because of an excessive load.           smoothly.
+2941: E962 Presser motor            • In the case the presser fails to operate   • Check whether the presser motor",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1448,DDL-9000CS,E955,Error sensor arus listrik,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Arus motor poros utama melebihi nilai yang diperkirakan.,Manual: periksa sambungan kabel daya motor poros utama.,2936,"2935:      EEPROM write error   the machine-head EEPROM.                           INT PCB is connected properly.
+2936: E955 Electric current         • The electric current of the main shaft     • Check whether connection of the
+2937:      sensor error               motor exceeds the assumed value.             main-shaft motor wire for power is
+2938:                                                                              correct.
+2939: E961 Pitch motor deviation • In the case the pitch motor fails to          • Check whether the pitch motor runs
+2940:      error                   operate because of an excessive load.           smoothly.
+2941: E962 Presser motor            • In the case the presser fails to operate   • Check whether the presser motor
+2942:      deviation error            because of an excessive load.                runs smoothly.
+2943: E971 Feed horizontal          • Pitch motor maloperation.",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1449,DDL-9000CS,E961,Error deviasi motor pitch,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Motor pitch gagal bekerja akibat beban berlebih.,Manual: periksa apakah motor pitch bergerak dengan lancar.,2939,"2938:                                                                              correct.
+2939: E961 Pitch motor deviation • In the case the pitch motor fails to          • Check whether the pitch motor runs
+2940:      error                   operate because of an excessive load.           smoothly.
+2941: E962 Presser motor            • In the case the presser fails to operate   • Check whether the presser motor
+2942:      deviation error            because of an excessive load.                runs smoothly.
+2943: E971 Feed horizontal          • Pitch motor maloperation.
+2944:      motor IPM over-
+2945:      current protection
+2946: E972 Feed horizontal          • In the case the pitch motor is applied     • Check whether the pitch motor runs",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1450,DDL-9000CS,E962,Error deviasi motor presser,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Presser gagal bekerja akibat beban berlebih.,Manual: periksa apakah motor presser bergerak dengan lancar.,2941,"2940:      error                   operate because of an excessive load.           smoothly.
+2941: E962 Presser motor            • In the case the presser fails to operate   • Check whether the presser motor
+2942:      deviation error            because of an excessive load.                runs smoothly.
+2943: E971 Feed horizontal          • Pitch motor maloperation.
+2944:      motor IPM over-
+2945:      current protection
+2946: E972 Feed horizontal          • In the case the pitch motor is applied     • Check whether the pitch motor runs
+2947:      motor overload             with an excessive load.                      smoothly.
+2948: E973 Feed vertical motor      • Feed driving motor maloperation.",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1451,DDL-9000CS,E971,Proteksi arus berlebih IPM motor feed horizontal,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Operasi motor pitch tidak normal.,Manual tidak mencantumkan item pemeriksaan pada baris ini.,2943,"2942:      deviation error            because of an excessive load.                runs smoothly.
+2943: E971 Feed horizontal          • Pitch motor maloperation.
+2944:      motor IPM over-
+2945:      current protection
+2946: E972 Feed horizontal          • In the case the pitch motor is applied     • Check whether the pitch motor runs
+2947:      motor overload             with an excessive load.                      smoothly.
+2948: E973 Feed vertical motor      • Feed driving motor maloperation.
+2949:      IPM over-current
+2950:      protection",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1452,DDL-9000CS,E972,Motor feed horizontal overload,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Motor pitch menerima beban berlebih.,Manual: periksa apakah motor pitch bergerak dengan lancar.,2946,"2945:      current protection
+2946: E972 Feed horizontal          • In the case the pitch motor is applied     • Check whether the pitch motor runs
+2947:      motor overload             with an excessive load.                      smoothly.
+2948: E973 Feed vertical motor      • Feed driving motor maloperation.
+2949:      IPM over-current
+2950:      protection
+2951: E974 Feed vertical motor      • In the case the feed driving motor is      • Check whether the feed driving motor
+2952:      overload                   applied with an excessive load.              runs smoothly.
+2953: E975 Presser motor            • Presser motor maloperation.",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1453,DDL-9000CS,E973,Proteksi arus berlebih IPM motor feed vertikal,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Operasi motor penggerak feed tidak normal.,Manual tidak mencantumkan item pemeriksaan pada baris ini.,2948,"2947:      motor overload             with an excessive load.                      smoothly.
+2948: E973 Feed vertical motor      • Feed driving motor maloperation.
+2949:      IPM over-current
+2950:      protection
+2951: E974 Feed vertical motor      • In the case the feed driving motor is      • Check whether the feed driving motor
+2952:      overload                   applied with an excessive load.              runs smoothly.
+2953: E975 Presser motor            • Presser motor maloperation.
+2954:      IPM over-current
+2955:      protection",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1454,DDL-9000CS,E974,Motor feed vertikal overload,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Motor penggerak feed menerima beban berlebih.,Manual: periksa apakah motor penggerak feed bergerak dengan lancar.,2951,"2950:      protection
+2951: E974 Feed vertical motor      • In the case the feed driving motor is      • Check whether the feed driving motor
+2952:      overload                   applied with an excessive load.              runs smoothly.
+2953: E975 Presser motor            • Presser motor maloperation.
+2954:      IPM over-current
+2955:      protection
+2956: E976 Presser horizontal       • In the case the presser motor is applied • Check whether the presser motor
+2957:      motor overload             with an excessive load.                    runs smoothly.
+2958: E985 Return-to-origin      • In the case the pitch motor has failed to • Check whether the origin of the pitch",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1455,DDL-9000CS,E975,Proteksi arus berlebih IPM motor presser,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Operasi motor presser tidak normal.,Manual tidak mencantumkan item pemeriksaan pada baris ini.,2953,"2952:      overload                   applied with an excessive load.              runs smoothly.
+2953: E975 Presser motor            • Presser motor maloperation.
+2954:      IPM over-current
+2955:      protection
+2956: E976 Presser horizontal       • In the case the presser motor is applied • Check whether the presser motor
+2957:      motor overload             with an excessive load.                    runs smoothly.
+2958: E985 Return-to-origin      • In the case the pitch motor has failed to • Check whether the origin of the pitch
+2959:      error of pitch motor    return to its origin.                       motor has been adjusted properly.
+2960:      or feed driving motor • In the case the feed driving motor has    • Check whether the origin of the feed",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1456,DDL-9000CS,E976,Motor presser horizontal overload,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Motor presser menerima beban berlebih.,Manual: periksa apakah motor presser bergerak dengan lancar.,2956,"2955:      protection
+2956: E976 Presser horizontal       • In the case the presser motor is applied • Check whether the presser motor
+2957:      motor overload             with an excessive load.                    runs smoothly.
+2958: E985 Return-to-origin      • In the case the pitch motor has failed to • Check whether the origin of the pitch
+2959:      error of pitch motor    return to its origin.                       motor has been adjusted properly.
+2960:      or feed driving motor • In the case the feed driving motor has    • Check whether the origin of the feed
+2961:                              failed to return to its origin.             driving motor has been adjusted
+2962:                                                                          properly.
+2963: ",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."
+1457,DDL-9000CS,E985,Error pengembalian ke titik asal motor pitch atau feed,Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.,Motor pitch atau motor penggerak feed gagal kembali ke titik asal.,Manual: periksa penyetelan titik asal motor pitch dan motor penggerak feed.,2958,"2957:      motor overload             with an excessive load.                    runs smoothly.
+2958: E985 Return-to-origin      • In the case the pitch motor has failed to • Check whether the origin of the pitch
+2959:      error of pitch motor    return to its origin.                       motor has been adjusted properly.
+2960:      or feed driving motor • In the case the feed driving motor has    • Check whether the origin of the feed
+2961:                              failed to return to its origin.             driving motor has been adjusted
+2962:                                                                          properly.
+2963: 
+2964: 
+2965: ",PERLU_BANDINGKAN_ISI,"Kode ditemukan. Bandingkan deskripsi, penyebab, dan solusi dengan konteks manual; jangan menganggap seluruh isi sudah terverifikasi."

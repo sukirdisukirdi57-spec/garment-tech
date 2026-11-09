@@ -1,0 +1,257 @@
+Total record: 180
+Record yang perlu ditinjau: 24
+\n================================================================
+ID=1297 | model=E22L
+Indikasi: symptoms berisi kata tindakan
+problem: Kain mengerut
+symptoms: Permukaan kain berkerut atau tertarik setelah proses menjahit.
+possible_cause: Tarikan benang tidak seimbang, tekanan sepatu tidak sesuai, atau mekanisme feed tidak sesuai material.
+solution: Periksa keseimbangan tegangan benang, tekanan sepatu, dan mekanisme feed sesuai jenis kain.
+safety_notes: Matikan mesin sebelum melakukan penyetelan pada tegangan benang, tekanan sepatu, atau mekanisme feed.
+source: Prosedur troubleshooting umum PEGASUS E22L
+\n================================================================
+ID=1282 | model=E256
+Indikasi: symptoms berisi kata tindakan
+problem: Kain mengerut
+symptoms: Permukaan kain berkerut atau tertarik setelah proses menjahit.
+possible_cause: Perbedaan tarikan benang, tekanan sepatu, atau mekanisme feed yang tidak sesuai dengan material.
+solution: Periksa keseimbangan tegangan benang dan kondisi mekanisme feed, kemudian sesuaikan dengan jenis kain.
+safety_notes: Matikan mesin sebelum melakukan penyetelan pada tegangan benang, tekanan sepatu, atau mekanisme feed.
+source: Prosedur troubleshooting umum PEGASUS E256
+\n================================================================
+ID=1302 | model=E32L
+Indikasi: symptoms berisi kata tindakan
+problem: Kain mengerut
+symptoms: Permukaan kain berkerut atau tertarik setelah proses menjahit.
+possible_cause: Tarikan benang tidak seimbang, tekanan sepatu tidak sesuai, atau mekanisme feed tidak sesuai material.
+solution: Periksa keseimbangan tegangan benang, tekanan sepatu, dan mekanisme feed sesuai jenis kain.
+safety_notes: Matikan mesin sebelum melakukan penyetelan pada tegangan benang, tekanan sepatu, atau mekanisme feed.
+source: Prosedur troubleshooting umum PEGASUS E32L
+\n================================================================
+ID=1312 | model=E52L
+Indikasi: symptoms berisi kata tindakan
+problem: Kain mengerut
+symptoms: Permukaan kain berkerut atau tertarik setelah proses menjahit.
+possible_cause: Tarikan benang tidak seimbang, tekanan sepatu tidak sesuai, atau mekanisme feed tidak sesuai material.
+solution: Periksa keseimbangan tegangan benang, tekanan sepatu, dan mekanisme feed sesuai jenis kain.
+safety_notes: Matikan mesin sebelum melakukan penyetelan pada tegangan benang, tekanan sepatu, atau mekanisme feed.
+source: Prosedur troubleshooting umum PEGASUS E52L
+\n================================================================
+ID=1262 | model=EX2200
+Indikasi: symptoms berisi kata tindakan
+problem: Kain mengerut
+symptoms: Material mengerut setelah dijahit.
+possible_cause: Ketegangan benang atau feeding tidak sesuai dengan karakter material.
+solution: Sesuaikan ketegangan dan feeding dengan material yang digunakan.
+safety_notes: Hentikan mesin sebelum melakukan penyetelan. Jauhkan tangan dari jarum dan bagian bergerak.
+source: Prosedur troubleshooting umum PEGASUS EX2200
+\n================================================================
+ID=1252 | model=EX3200
+Indikasi: symptoms berisi kata tindakan
+problem: Kain mengerut
+symptoms: Material mengerut setelah dijahit.
+possible_cause: Ketegangan benang atau feeding tidak sesuai dengan karakter material.
+solution: Sesuaikan ketegangan dan feeding dengan material yang digunakan.
+safety_notes: Hentikan mesin sebelum melakukan penyetelan. Jauhkan tangan dari jarum dan bagian bergerak.
+source: Prosedur troubleshooting umum PEGASUS EX3200
+\n================================================================
+ID=1257 | model=EX5200
+Indikasi: symptoms berisi kata tindakan
+problem: Kain mengerut
+symptoms: Material mengerut setelah dijahit.
+possible_cause: Ketegangan benang atau feeding tidak sesuai dengan karakter material.
+solution: Sesuaikan ketegangan dan feeding dengan material yang digunakan.
+safety_notes: Hentikan mesin sebelum melakukan penyetelan. Jauhkan tangan dari jarum dan bagian bergerak.
+source: Prosedur troubleshooting umum PEGASUS EX5200
+\n================================================================
+ID=1287 | model=EX5400
+Indikasi: symptoms berisi kata tindakan
+problem: Kain mengerut
+symptoms: Permukaan kain berkerut atau tertarik setelah proses menjahit.
+possible_cause: Perbedaan tarikan benang, tekanan sepatu, atau mekanisme feed yang tidak sesuai dengan material.
+solution: Periksa keseimbangan tegangan benang dan kondisi mekanisme feed, kemudian sesuaikan dengan jenis kain.
+safety_notes: Matikan mesin sebelum melakukan penyetelan pada tegangan benang, tekanan sepatu, atau mekanisme feed.
+source: Prosedur troubleshooting umum PEGASUS EX5400
+\n================================================================
+ID=1237 | model=FV200
+Indikasi: symptoms berisi kata tindakan
+problem: Kain mengerut
+symptoms: Material mengerut setelah dijahit.
+possible_cause: Ketegangan benang atau feeding tidak sesuai dengan karakter material.
+solution: Sesuaikan ketegangan dan feeding dengan material yang digunakan.
+safety_notes: Hentikan mesin sebelum melakukan penyetelan. Jauhkan tangan dari jarum dan bagian bergerak.
+source: Prosedur troubleshooting umum PEGASUS FV200
+\n================================================================
+ID=1242 | model=FW703
+Indikasi: symptoms berisi kata tindakan
+problem: Kain mengerut
+symptoms: Material mengerut setelah dijahit.
+possible_cause: Ketegangan benang atau feeding tidak sesuai dengan karakter material.
+solution: Sesuaikan ketegangan dan feeding dengan material yang digunakan.
+safety_notes: Hentikan mesin sebelum melakukan penyetelan. Jauhkan tangan dari jarum dan bagian bergerak.
+source: Prosedur troubleshooting umum PEGASUS FW703
+\n================================================================
+ID=1247 | model=FW803
+Indikasi: symptoms berisi kata tindakan
+problem: Kain mengerut
+symptoms: Material mengerut setelah dijahit.
+possible_cause: Ketegangan benang atau feeding tidak sesuai dengan karakter material.
+solution: Sesuaikan ketegangan dan feeding dengan material yang digunakan.
+safety_notes: Hentikan mesin sebelum melakukan penyetelan. Jauhkan tangan dari jarum dan bagian bergerak.
+source: Prosedur troubleshooting umum PEGASUS FW803
+\n================================================================
+ID=1222 | model=GX3200
+Indikasi: symptoms berisi kata tindakan
+problem: Kain mengerut
+symptoms: Material mengerut setelah dijahit.
+possible_cause: Tekanan sepatu atau ketegangan benang tidak sesuai dengan material.
+solution: Sesuaikan tekanan dan ketegangan benang dengan karakter material.
+safety_notes: Hentikan mesin sebelum melakukan penyetelan. Jauhkan tangan dari jarum dan bagian bergerak.
+source: Prosedur troubleshooting umum PEGASUS GX3200
+\n================================================================
+ID=1317 | model=MX3200
+Indikasi: symptoms berisi kata tindakan
+problem: Kain mengerut
+symptoms: Permukaan kain berkerut atau tertarik setelah proses menjahit.
+possible_cause: Tarikan benang tidak seimbang, tekanan sepatu tidak sesuai, atau mekanisme feed tidak sesuai material.
+solution: Periksa keseimbangan tegangan benang, tekanan sepatu, dan mekanisme feed sesuai jenis kain.
+safety_notes: Matikan mesin sebelum melakukan penyetelan pada tegangan benang, tekanan sepatu, atau mekanisme feed.
+source: Prosedur troubleshooting umum PEGASUS MX3200
+\n================================================================
+ID=1322 | model=MX5200
+Indikasi: symptoms berisi kata tindakan
+problem: Kain mengerut
+symptoms: Permukaan kain berkerut atau tertarik setelah proses menjahit.
+possible_cause: Tarikan benang tidak seimbang, tekanan sepatu tidak sesuai, atau mekanisme feed tidak sesuai material.
+solution: Periksa keseimbangan tegangan benang, tekanan sepatu, dan mekanisme feed sesuai jenis kain.
+safety_notes: Matikan mesin sebelum melakukan penyetelan pada tegangan benang, tekanan sepatu, atau mekanisme feed.
+source: Prosedur troubleshooting umum PEGASUS MX5200
+\n================================================================
+ID=1227 | model=TM625
+Indikasi: symptoms berisi kata tindakan
+problem: Kain mengerut
+symptoms: Material mengalami kerutan setelah proses jahit.
+possible_cause: Ketegangan benang terlalu tinggi atau feeding tidak sesuai.
+solution: Sesuaikan ketegangan benang dan kondisi feeding dengan material.
+safety_notes: Hentikan mesin sebelum melakukan penyetelan. Jauhkan tangan dari jarum dan bagian bergerak.
+source: Prosedur troubleshooting umum PEGASUS TM625
+\n================================================================
+ID=1292 | model=TML326
+Indikasi: symptoms berisi kata tindakan
+problem: Kain mengerut
+symptoms: Permukaan kain berkerut atau tertarik setelah proses menjahit.
+possible_cause: Perbedaan tarikan benang, tekanan sepatu, atau mekanisme feed yang tidak sesuai dengan material.
+solution: Periksa keseimbangan tegangan benang dan kondisi mekanisme feed, kemudian sesuaikan dengan jenis kain.
+safety_notes: Matikan mesin sebelum melakukan penyetelan pada tegangan benang, tekanan sepatu, atau mekanisme feed.
+source: Prosedur troubleshooting umum PEGASUS TML326
+\n================================================================
+ID=1307 | model=TML626
+Indikasi: symptoms berisi kata tindakan
+problem: Kain mengerut
+symptoms: Permukaan kain berkerut atau tertarik setelah proses menjahit.
+possible_cause: Tarikan benang tidak seimbang, tekanan sepatu tidak sesuai, atau mekanisme feed tidak sesuai material.
+solution: Periksa keseimbangan tegangan benang, tekanan sepatu, dan mekanisme feed sesuai jenis kain.
+safety_notes: Matikan mesin sebelum melakukan penyetelan pada tegangan benang, tekanan sepatu, atau mekanisme feed.
+source: Prosedur troubleshooting umum PEGASUS TML626
+\n================================================================
+ID=1192 | model=W3522P
+Indikasi: symptoms berisi kata tindakan
+problem: Kain mengerut
+symptoms: Permukaan kain tertarik atau berkerut setelah dijahit.
+possible_cause: Keseimbangan tarikan kain dan pembentukan jahitan tidak sesuai dengan material.
+solution: Periksa pengaturan mesin dan kondisi mekanisme pengumpan sesuai jenis kain.
+safety_notes: Lakukan penyetelan secara bertahap dengan mesin dalam kondisi aman.
+source: Prosedur troubleshooting umum PEGASUS W3522P
+\n================================================================
+ID=1202 | model=W542P
+Indikasi: symptoms berisi kata tindakan
+problem: Kain mengerut
+symptoms: Permukaan kain tertarik atau berkerut setelah dijahit.
+possible_cause: Keseimbangan tarikan kain dan pembentukan jahitan tidak sesuai dengan material.
+solution: Periksa pengaturan mesin dan kondisi mekanisme pengumpan sesuai jenis kain.
+safety_notes: Lakukan penyetelan secara bertahap dengan mesin dalam kondisi aman.
+source: Prosedur troubleshooting umum PEGASUS W542P
+\n================================================================
+ID=1197 | model=W562P
+Indikasi: symptoms berisi kata tindakan
+problem: Kain mengerut
+symptoms: Permukaan kain tertarik atau berkerut setelah dijahit.
+possible_cause: Keseimbangan tarikan kain dan pembentukan jahitan tidak sesuai dengan material.
+solution: Periksa pengaturan mesin dan kondisi mekanisme pengumpan sesuai jenis kain.
+safety_notes: Lakukan penyetelan secara bertahap dengan mesin dalam kondisi aman.
+source: Prosedur troubleshooting umum PEGASUS W562P
+\n================================================================
+ID=1217 | model=W562PC
+Indikasi: symptoms berisi kata tindakan
+problem: Kain mengerut
+symptoms: Permukaan kain tertarik atau berkerut setelah dijahit.
+possible_cause: Keseimbangan tarikan kain dan pembentukan jahitan tidak sesuai dengan material.
+solution: Periksa pengaturan mesin dan kondisi mekanisme pengumpan sesuai jenis kain.
+safety_notes: Lakukan penyetelan secara bertahap dengan mesin dalam kondisi aman.
+source: Prosedur troubleshooting umum PEGASUS W562PC
+\n================================================================
+ID=1207 | model=W664P
+Indikasi: symptoms berisi kata tindakan
+problem: Kain mengerut
+symptoms: Permukaan kain tertarik atau berkerut setelah dijahit.
+possible_cause: Keseimbangan tarikan kain dan pembentukan jahitan tidak sesuai dengan material.
+solution: Periksa pengaturan mesin dan kondisi mekanisme pengumpan sesuai jenis kain.
+safety_notes: Lakukan penyetelan secara bertahap dengan mesin dalam kondisi aman.
+source: Prosedur troubleshooting umum PEGASUS W664P
+\n================================================================
+ID=1232 | model=W674
+Indikasi: symptoms berisi kata tindakan
+problem: Kain mengerut
+symptoms: Material mengerut setelah dijahit.
+possible_cause: Ketegangan benang atau feeding tidak sesuai dengan karakter material.
+solution: Sesuaikan ketegangan dan feeding dengan material yang digunakan.
+safety_notes: Hentikan mesin sebelum melakukan penyetelan. Jauhkan tangan dari jarum dan bagian bergerak.
+source: Prosedur troubleshooting umum PEGASUS W674
+\n================================================================
+ID=1212 | model=WT264P
+Indikasi: symptoms berisi kata tindakan
+problem: Kain mengerut
+symptoms: Permukaan kain tertarik atau berkerut setelah dijahit.
+possible_cause: Keseimbangan tarikan kain dan pembentukan jahitan tidak sesuai dengan material.
+solution: Periksa pengaturan mesin dan kondisi mekanisme pengumpan sesuai jenis kain.
+safety_notes: Lakukan penyetelan secara bertahap dengan mesin dalam kondisi aman.
+source: Prosedur troubleshooting umum PEGASUS WT264P
+\nRingkasan sumber:
+  5 | Prosedur troubleshooting umum PEGASUS WX664P
+  5 | Prosedur troubleshooting umum PEGASUS WT664P
+  5 | Prosedur troubleshooting umum PEGASUS WT562P
+  5 | Prosedur troubleshooting umum PEGASUS WT264P
+  5 | Prosedur troubleshooting umum PEGASUS WT169P
+  5 | Prosedur troubleshooting umum PEGASUS W674
+  5 | Prosedur troubleshooting umum PEGASUS W664P
+  5 | Prosedur troubleshooting umum PEGASUS W662PC
+  5 | Prosedur troubleshooting umum PEGASUS W562PC
+  5 | Prosedur troubleshooting umum PEGASUS W562P
+  5 | Prosedur troubleshooting umum PEGASUS W542P
+  5 | Prosedur troubleshooting umum PEGASUS W3664P
+  5 | Prosedur troubleshooting umum PEGASUS W3562P
+  5 | Prosedur troubleshooting umum PEGASUS W3522P
+  5 | Prosedur troubleshooting umum PEGASUS W264P
+  5 | Prosedur troubleshooting umum PEGASUS TML626
+  5 | Prosedur troubleshooting umum PEGASUS TML326
+  5 | Prosedur troubleshooting umum PEGASUS TM625
+  5 | Prosedur troubleshooting umum PEGASUS MX5200
+  5 | Prosedur troubleshooting umum PEGASUS MX3200
+  5 | Prosedur troubleshooting umum PEGASUS M952
+  5 | Prosedur troubleshooting umum PEGASUS M932
+  5 | Prosedur troubleshooting umum PEGASUS M922
+  5 | Prosedur troubleshooting umum PEGASUS GX3200
+  5 | Prosedur troubleshooting umum PEGASUS FW803
+  5 | Prosedur troubleshooting umum PEGASUS FW703
+  5 | Prosedur troubleshooting umum PEGASUS FV200
+  5 | Prosedur troubleshooting umum PEGASUS FS703P
+  5 | Prosedur troubleshooting umum PEGASUS EX5400
+  5 | Prosedur troubleshooting umum PEGASUS EX5200
+  5 | Prosedur troubleshooting umum PEGASUS EX3200
+  5 | Prosedur troubleshooting umum PEGASUS EX2200
+  5 | Prosedur troubleshooting umum PEGASUS E52L
+  5 | Prosedur troubleshooting umum PEGASUS E32L
+  5 | Prosedur troubleshooting umum PEGASUS E256
+  5 | Prosedur troubleshooting umum PEGASUS E22L
+\nIntegritas: ok
+SELESAI — DATABASE TIDAK DIUBAH

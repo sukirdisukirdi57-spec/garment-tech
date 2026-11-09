@@ -1,0 +1,3391 @@
+Syntax Warning: Invalid Font Weight
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (364657): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (364897): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (364924): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (364942): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (365064): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (365206): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (365232): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (365327): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (365439): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (365524): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (365661): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (365751): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (365828): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (365937): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (365960): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (366083): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (366105): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (366189): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (366326): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (366401): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error: No font in show
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (366848): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (366961): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (367058): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (367177): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (367282): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (367301): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (367319): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (367444): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error: No font in show
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (367798): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (368003): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (534705): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (534871): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (535616): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (535750): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (535793): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (535862): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (535906): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (535962): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (535977): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (536048): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (536110): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (536187): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (536229): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (536304): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (536310): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (536376): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (536441): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (536502): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (536555): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (536600): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (536679): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (536694): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (536760): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (536763): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (536825): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (536842): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (536906): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (536921): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (536936): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (536985): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (537050): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (537076): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (537136): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (537143): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (537195): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (537265): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (537332): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (537362): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (537409): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (537422): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (537505): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (537548): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (537628): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (537659): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (537674): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (537769): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (537843): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (537884): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (537899): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (537951): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (537983): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (538039): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (538119): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (538188): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (538244): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (538295): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (538356): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (538416): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (538459): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (538544): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (538592): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (538668): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (538737): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (538792): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (538813): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (539169): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (539369): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (618385): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (618522): No font in show/space
+Syntax Error (618571): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (618703): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (619466): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (619574): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (619646): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (619734): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (619794): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (619841): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (619893): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (619924): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (619957): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (620039): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (620132): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (620226): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (620267): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (620317): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (620357): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (620396): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (620423): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (620522): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (620594): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (620664): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (620739): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (620808): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (620909): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (620977): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (621041): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (621079): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (621122): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (621227): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (621325): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (621374): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (621461): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (621547): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (621629): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (621728): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (621853): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (621980): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (622038): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (622120): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (622147): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (622174): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (622190): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (622203): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (622292): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (622341): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (622409): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (622479): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (622541): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (622611): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (622676): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (622701): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (623042): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (623246): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (764900): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (765042): No font in show/space
+Syntax Error (765098): No font in show/space
+Syntax Error (765116): No font in show/space
+Syntax Error (765129): No font in show/space
+Syntax Error (765212): No font in show/space
+Syntax Error (765231): No font in show/space
+Syntax Error (765281): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (765417): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (766169): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (766323): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (766407): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (766487): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (766602): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (766742): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (766829): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (766920): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (766980): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (767061): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (767190): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (767264): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (767293): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (767377): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (767451): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (767544): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (767635): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (767671): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (767740): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (767797): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (767810): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (767860): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (767910): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (767925): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (767997): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (768077): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (768151): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (768197): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (768282): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (768308): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (768371): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (768461): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (768548): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (768567): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (768620): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (768635): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (768695): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (768718): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (768777): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (768837): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (768890): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (768937): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (768966): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (768982): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (769062): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (769086): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (769166): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (769246): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (769286): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (769338): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (769369): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (769432): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (769550): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (769575): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (769588): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (769648): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (769685): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (769723): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (769819): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (769880): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (769904): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (769979): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (770045): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (770100): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (770173): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (770225): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (770293): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (770322): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (770402): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (770472): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (770532): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (770557): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (770618): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (770690): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (770738): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (770843): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (770910): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (770960): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (771051): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (771120): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (771190): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (771218): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (771593): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (771783): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (916705): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (916856): No font in show/space
+Syntax Error (916945): No font in show/space
+Syntax Error (916994): No font in show/space
+Syntax Error (917018): No font in show/space
+Syntax Error (917037): No font in show/space
+Syntax Error (917088): No font in show/space
+Syntax Error (917134): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (917264): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (918012): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (918150): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (918271): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (918289): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (918384): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (918393): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (918423): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (918495): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (918583): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (918669): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (918760): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (918782): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (918799): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (918813): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (918936): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (919019): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (919111): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (919202): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (919212): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (919280): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (919360): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (919438): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (919493): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (919538): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (919636): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (919692): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (919735): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (919789): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (919854): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (919877): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (919896): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (919923): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (920031): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (920076): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (920089): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (920163): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (920208): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (920279): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (920324): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (920391): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (920462): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (920516): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (920526): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (920586): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (920674): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (920716): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (920799): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (920884): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (920948): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (920986): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (921021): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (921040): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (921050): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (921134): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (921200): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (921261): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (921306): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (921391): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (921452): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (921542): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (921632): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (921696): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (921742): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (921845): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (921892): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (921916): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (921994): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (922033): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (922054): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (922112): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (922152): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (922162): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (922216): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (922261): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (922284): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (922344): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (922375): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (922447): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (922532): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (922581): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (922690): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (922771): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (922846): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (922886): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (922960): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (922993): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (923025): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (923068): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (923133): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (923517): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (923739): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1060981): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1061139): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1061271): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1061997): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1062110): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1062187): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1062271): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1062328): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1062422): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1062457): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1062490): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1062567): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1062661): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1062725): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1062767): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1062840): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1062944): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1063076): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1063107): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1063149): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1063169): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1063252): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1063329): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1063411): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1063498): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1063538): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1063603): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1063630): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1063690): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1063734): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1063779): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1063829): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1063926): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1063950): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1064031): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1064103): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1064144): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1064192): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1064256): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1064304): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1064324): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1064405): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1064449): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1064517): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1064575): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1064622): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1064698): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1064751): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1064782): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1064810): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1064866): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1064912): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1064965): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1065011): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1065076): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1065135): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1065193): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1065254): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1065274): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1065320): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1065396): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1065428): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1065496): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1065519): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1065544): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1065624): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1065661): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1065678): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1065711): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1066076): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1066296): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1194937): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1195101): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1195836): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1195875): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1195888): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1195965): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1196034): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1196067): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1196163): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1196214): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1196245): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1196332): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1196417): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1196481): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1196541): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1196645): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1196734): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1196759): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1196884): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1196900): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1196984): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1197067): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1197151): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1197194): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1197294): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1197365): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1197449): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1197523): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1197566): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1197699): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1197714): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1197726): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1197797): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1197805): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1197887): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1197895): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1197982): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1198037): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1198105): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1198189): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1198242): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1198337): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1198411): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1198468): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1198480): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1198518): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1198533): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1198626): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1198718): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1198792): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1198876): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1198949): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1198986): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1199024): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1199364): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1199573): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1387001): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1387156): No font in show/space
+Syntax Error (1387189): No font in show/space
+Syntax Error (1387207): No font in show/space
+Syntax Error (1387237): No font in show/space
+Syntax Error (1387257): No font in show/space
+Syntax Error (1387271): No font in show/space
+Syntax Error (1387290): No font in show/space
+Syntax Error (1387332): No font in show/space
+Syntax Error (1387353): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1387490): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1388229): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1388374): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1388461): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1388576): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1388665): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1388733): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1388782): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1388878): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1388939): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1389010): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1389074): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1389167): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1389226): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1389302): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1389382): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1389440): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1389459): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1389484): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1389501): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1389525): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1389652): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1389772): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1389833): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1389898): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1389973): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1390030): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1390086): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1390115): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1390196): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1390262): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1390379): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1390404): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1390474): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1390503): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1390548): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1390604): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1390648): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1390718): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1390783): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1390808): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1390882): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1390970): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1391056): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1391082): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1391146): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1391176): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1391234): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1391263): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1391346): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1391397): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1391485): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1391542): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1391594): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1391609): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1391642): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1391705): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1391726): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1391759): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1391836): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1391847): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1391930): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1392028): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1392125): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1392206): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1392246): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1392296): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1392392): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1392415): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1392426): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1392453): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1392525): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1392606): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1392684): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1393049): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1393217): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1481341): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1481485): No font in show/space
+Syntax Error (1481538): No font in show/space
+Syntax Error (1481557): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1481688): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1482430): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1482524): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1482592): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1482678): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1482720): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1482795): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1482835): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1482853): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1482946): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1483044): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1483062): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1483139): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1483194): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1483302): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1483321): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1483414): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1483489): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1483595): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1483699): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1483762): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1483850): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1483925): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1483972): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1484036): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1484100): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1484189): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1484268): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1484351): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1484382): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1484477): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1484530): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1484560): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1484630): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1484655): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1484671): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1484678): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1484763): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1484773): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1484854): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1484928): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1485010): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1485101): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1485153): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1485215): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1485308): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1485325): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1485421): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1485444): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1485491): No font in show
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1485833): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1485997): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1519529): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1520083): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1520161): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1520244): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1520277): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1520307): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1520351): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1520402): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1520428): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1520457): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1520519): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1520545): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1520568): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1520612): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1520647): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1520675): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1520699): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1520773): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1520820): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1520864): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1520947): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1521023): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1521110): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1521160): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1521207): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1521247): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1521260): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1521291): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1521322): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1521382): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1521416): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1521475): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1521517): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1521558): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1521618): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1521662): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1521694): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1521726): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1521763): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1521800): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1521835): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1522164): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1522363): No font in show/space
+Syntax Error (1522491): No font in show/space
+Syntax Error (1522563): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1594079): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1594663): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1594824): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1594909): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1594954): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1594986): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1595042): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1595120): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1595170): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1595198): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1595305): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1595389): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1595441): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1595501): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1595534): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1595578): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1595607): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1595652): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1595701): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1595752): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1595794): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1595828): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1595863): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1595875): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1595907): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1595935): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1595979): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1596030): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1596063): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1596122): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1596155): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1596220): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1596295): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1596330): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1596376): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1596405): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1596463): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1596495): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1596524): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1596564): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1596594): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1596626): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1596713): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1596742): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1596775): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1596811): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1596871): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1596918): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1596963): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1597319): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1597510): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1667120): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1667262): No font in show/space
+Syntax Error (1667317): No font in show/space
+Syntax Error (1667336): No font in show/space
+Syntax Error (1667371): No font in show/space
+Syntax Error (1667427): No font in show/space
+Syntax Error (1667433): No font in show/space
+Syntax Error (1667458): No font in show/space
+Syntax Error (1667470): No font in show/space
+Syntax Error (1667483): No font in show/space
+Syntax Error (1667538): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1667665): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1668403): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1668506): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1668542): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1668689): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1668712): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1668729): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1668747): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1668819): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1668913): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1669004): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1669091): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1669157): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1669222): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1669285): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1669366): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1669460): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1669496): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1669547): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1669658): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1669771): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1669788): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1669809): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1669823): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1669852): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1669938): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1670037): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1670069): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1670124): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1670218): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1670297): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1670374): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1670436): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1670546): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1670570): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1670691): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1670782): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1670842): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1670900): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1670994): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1671111): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1671181): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1671259): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1671590): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1671758): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1715476): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1715640): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1716353): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1716447): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1716524): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1716633): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1716688): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1716766): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1716844): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1716939): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1716983): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1717064): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1717132): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1717213): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1717294): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1717329): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1717401): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1717471): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1717525): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1717591): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1717648): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1717721): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1717750): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1717831): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1717884): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1717956): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1718028): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1718080): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1718111): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1718188): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1718258): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1718337): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1718402): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1718449): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1718506): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1718588): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1718652): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1718661): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1718691): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1718707): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1718765): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1719092): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1719258): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1803119): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1803250): No font in show/space
+Syntax Error (1803287): No font in show/space
+Syntax Error (1803307): No font in show/space
+Syntax Error (1803351): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1803482): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1804251): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1804303): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1804326): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1804398): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1804423): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1804480): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1804572): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1804633): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1804702): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1804779): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1804848): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1804893): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1804946): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1805002): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1805052): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1805099): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1805154): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1805205): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1805301): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1805363): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1805415): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1805452): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1805563): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1805642): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1805704): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1805720): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1805742): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1805820): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1805832): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1805902): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1805975): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1806051): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1806131): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1806147): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1806167): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1806192): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1806225): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1806296): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1806315): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1806365): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1806387): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1806474): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1806574): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1806635): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1806672): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1806759): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1806787): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1806864): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1807197): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1807361): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1925320): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1925475): No font in show/space
+Syntax Error (1925501): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1925633): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1926394): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1926426): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1926566): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1926598): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1926703): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1926786): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1926853): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1926959): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1927025): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1927109): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1927199): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1927262): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1927319): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1927370): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1927436): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1927471): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1927523): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1927616): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1927690): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1927750): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1927791): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1927812): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1927852): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1927878): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1927890): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1927914): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1927930): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1928019): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1928081): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1928154): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1928249): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1928273): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1928309): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1928324): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1928345): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1928363): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1928429): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1928501): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1928567): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1928648): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1928702): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1928735): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1928795): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1928801): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1928912): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1929234): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (1929458): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2086519): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2086666): No font in show/space
+Syntax Error (2086710): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2086849): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2087574): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2087695): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2087749): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2087825): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2087885): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2087948): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2087998): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2088072): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2088112): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2088215): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2088276): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2088330): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2088344): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2088397): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2088462): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2088521): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2088578): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2088637): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2088749): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2088819): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2088871): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2088952): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2089017): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2089030): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2089051): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2089115): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2089227): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2089302): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2089352): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2089403): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2089438): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2089457): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2089497): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2089543): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2089628): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2089668): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2089726): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2089810): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2089832): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2089857): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2089910): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2089962): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2090018): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2090064): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2090081): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2090128): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2090145): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2090212): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2090280): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2090312): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2090371): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2090374): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2090388): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2090411): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2090445): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2090488): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2090564): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2090592): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2090648): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2091001): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2091225): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2207606): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2207755): No font in show/space
+Syntax Error (2207796): No font in show/space
+Syntax Error (2207815): No font in show/space
+Syntax Error (2207832): No font in show
+Syntax Error (2207871): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2208001): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2208734): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2208834): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2208860): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2208942): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2209050): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2209087): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2209139): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2209201): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2209268): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2209356): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2209467): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2209549): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2209606): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2209683): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2209748): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2209767): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2209827): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2209944): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2209980): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2210021): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2210061): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2210109): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2210163): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2210170): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2210217): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2210304): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2210413): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2210437): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2210501): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2210575): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2210602): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2210689): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2210757): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2210773): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2210807): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2210822): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2210876): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2210937): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2210967): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2211050): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2211120): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2211153): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2211206): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2211264): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2211339): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2211365): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2211394): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2211454): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2211486): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2211497): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2211566): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2211582): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2211632): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2211687): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2211724): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2211744): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2211763): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2211787): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2211844): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2211867): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2211918): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2212282): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2212420): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2286445): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2286582): No font in show/space
+Syntax Error (2286647): No font in show/space
+Syntax Error (2286668): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2286800): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2287559): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2287692): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2287772): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2287863): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2287931): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2288004): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2288060): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2288123): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2288163): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2288249): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2288363): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2288395): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2288477): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2288590): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2288704): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2288762): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2288845): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2288929): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2288994): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2289063): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2289097): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2289178): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2289248): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2289370): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2289417): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2289430): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2289522): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2289541): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2289610): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2289685): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2289742): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2289800): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2289881): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2289953): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2290004): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2290074): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2290115): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2290179): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2290287): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2290361): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2290402): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2290429): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2290484): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2290551): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2290618): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2290652): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2290687): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2290726): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2290784): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2290854): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2291191): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2291430): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2348179): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2348778): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2348882): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2348957): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2349082): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2349153): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2349260): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2349309): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2349407): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2349509): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2349625): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2349692): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2349780): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2349818): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2349878): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2349978): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2350070): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2350145): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2350191): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2350205): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2350268): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2350343): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2350419): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2350460): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2350506): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2350571): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2350657): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2350744): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2350763): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2350812): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2351133): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2351294): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2376945): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2377595): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2377709): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2377765): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2377842): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2377865): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2377959): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2378036): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2378110): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2378153): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2378212): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2378283): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2378352): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2378431): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2378497): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2378567): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2378681): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2378687): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2378738): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2378830): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2378882): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2379186): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2379355): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2436225): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2436404): No font in show/space
+Syntax Error (2436471): No font in show/space
+Syntax Error (2436549): No font in show/space
+Syntax Error (2436621): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2436748): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2437508): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2437611): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2437686): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2437731): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2437810): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2437865): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2437896): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2438003): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2438072): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2438146): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2438203): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2438295): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2438347): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2438462): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2438539): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2438627): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2438681): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2438767): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2438827): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2438948): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2439059): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2439152): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2439175): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2439307): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2439329): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2439387): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2439469): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2439577): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2439648): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2439701): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2439764): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2439866): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2439927): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2440003): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2440077): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2440175): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2440277): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2440333): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2440400): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2440427): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2440463): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2440568): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2440656): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2440714): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2440744): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2440811): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2440927): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2440961): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2440985): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2441104): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2441164): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2441503): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2441657): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2529739): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2529859): No font in show/space
+Syntax Error (2529938): No font in show/space
+Syntax Error (2529953): No font in show/space
+Syntax Error (2529998): No font in show/space
+Syntax Error (2530015): No font in show/space
+Syntax Error (2530055): No font in show/space
+Syntax Error (2530059): No font in show/space
+Syntax Error (2530071): No font in show/space
+Syntax Error (2530075): No font in show/space
+Syntax Error (2530087): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2530237): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2530975): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2531017): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2531033): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2531118): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2531194): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2531258): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2531366): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2531375): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2531493): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2531565): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2531636): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2531675): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2531748): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2531804): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2531878): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2531931): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2531989): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2532000): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2532085): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2532094): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2532138): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2532198): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2532252): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2532300): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2532338): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2532345): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2532415): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2532425): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2532458): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2532528): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2532598): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2532683): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2532785): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2532837): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2532877): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2532937): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2532955): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2533015): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2533089): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2533149): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2533193): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2533283): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2533341): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2533376): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2533400): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2533469): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2533557): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2533616): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2533625): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2533686): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2533705): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2533771): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2533827): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2533876): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2533967): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2533996): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2534082): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2534181): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2534255): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2534305): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2534320): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2534337): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2534346): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2534361): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2534422): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2534433): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2534794): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2534928): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2568979): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2569113): No font in show/space
+Syntax Error (2569201): No font in show/space
+Syntax Error (2569248): No font in show/space
+Syntax Error (2569262): No font in show/space
+Syntax Error (2569334): No font in show/space
+Syntax Error (2569383): No font in show/space
+Syntax Error (2569469): No font in show/space
+Syntax Error (2569491): No font in show
+Syntax Error (2569562): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2569693): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2570426): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2570542): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2570645): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2570725): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2570796): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2570852): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2570917): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2570994): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2571052): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2571098): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2571180): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2571199): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2571256): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2571311): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2571355): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2571403): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2571468): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2571475): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2571543): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2571625): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2571644): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2571734): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2571838): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2571855): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2571904): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2571971): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2572028): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2572087): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2572140): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2572158): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2572247): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2572277): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2572298): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2572370): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2572428): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2572494): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2572568): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2572630): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2572710): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2572762): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2572841): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2572891): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2572933): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2573008): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2573032): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2573056): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2573097): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2573161): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2573208): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2573275): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2573356): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2573378): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2573403): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2573414): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2573460): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2573496): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2573548): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2573598): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2573631): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2573684): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2573714): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2573733): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2573761): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2573785): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2573856): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2573928): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2574293): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2574426): No font in show/space
+Syntax Error (2574545): No font in show/space
+Syntax Error (2574596): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2596756): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2597625): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2597743): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2597842): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2598113): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2598271): No font in show/space
+Syntax Error (2598385): No font in show/space
+Syntax Error (2598434): No font in show/space
+Syntax Error (2598466): No font in show/space
+Syntax Error (2598534): No font in show/space
+Syntax Error (2598557): No font in show/space
+Syntax Error (2598586): No font in show/space
+Syntax Error (2598602): No font in show/space
+Syntax Error (2598624): No font in show/space
+Syntax Error (2598676): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2616562): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2617105): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2617223): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2617279): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2617359): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2617392): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2617446): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2617518): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2617606): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2617673): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2617745): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2617812): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2617879): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2617908): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2617968): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2618017): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2618095): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2618149): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2618192): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2618231): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2618274): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2618329): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2618375): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2618436): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2618462): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2618490): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2618583): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2618898): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2619095): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2689988): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2690135): No font in show/space
+Syntax Error (2690193): No font in show/space
+Syntax Error (2690252): No font in show/space
+Syntax Error (2690364): No font in show/space
+Syntax Error (2690484): No font in show/space
+Syntax Error (2690505): No font in show/space
+Syntax Error (2690522): No font in show/space
+Syntax Error (2690606): No font in show/space
+Syntax Error (2690626): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2690762): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2691531): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2691671): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2691773): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2691866): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2691948): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2692041): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2692128): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2692214): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2692278): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2692390): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2692469): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2692548): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2692598): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2692695): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2692749): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2692853): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2692948): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2693046): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2693087): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2693157): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2693229): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2693293): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2693361): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2693440): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2693529): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2693581): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2693650): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2693694): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2693707): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2693784): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2693834): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2693901): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2693932): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2693961): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2693968): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2693992): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2694053): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2694076): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2694150): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2694249): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2694324): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2694349): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2694442): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2694517): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2694581): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2694705): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2694798): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2694906): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2694979): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2695040): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2695079): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2695149): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2695239): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2695303): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2695371): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2695444): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2695488): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2695533): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2695562): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2695600): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2695662): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2695723): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2695804): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2695904): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2695913): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2695937): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2695980): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2696063): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2696123): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2696223): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2696290): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2696356): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2696399): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2696486): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2696511): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2696608): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2696647): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2696731): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2696742): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2696784): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2696847): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2696900): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2696937): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2696983): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2697077): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2697144): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2697195): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2697247): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2697312): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2697386): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2697465): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2697573): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2697632): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2698032): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2698228): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2777030): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2777214): No font in show/space
+Syntax Error (2777311): No font in show/space
+Syntax Error (2777367): No font in show/space
+Syntax Error (2777386): No font in show/space
+Syntax Error (2777403): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2777544): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2778318): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2778428): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2778499): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2778529): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2778625): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2778703): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2778763): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2778877): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2778898): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2778955): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2779025): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2779050): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2779178): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2779203): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2779304): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2779381): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2779479): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2779520): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2779611): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2779683): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2779725): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2779809): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2779913): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2779958): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2780051): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2780172): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2780225): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2780243): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2780311): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2780357): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2780396): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2780445): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2780578): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2780680): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2780776): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2780820): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2780838): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2780890): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2780927): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2781022): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2781052): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2781125): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2781144): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2781171): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2781183): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2781196): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2781208): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2781220): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2781233): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2781248): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2781285): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2781334): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2781345): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2781352): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2781361): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2781375): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2781389): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2781399): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2781408): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2781439): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2781454): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2781522): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2781590): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2781598): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2781613): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2781636): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2781654): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2781723): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2781771): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2781872): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2781932): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2781987): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2782055): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2782158): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2782226): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2782297): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2782377): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2782420): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2782458): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2782532): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2782619): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2782688): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2782722): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2782814): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2782868): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2782969): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2783015): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2783109): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2783195): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2783291): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2783342): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2783417): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2783468): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2783512): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2783539): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2783619): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2783662): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2783795): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2783877): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2783946): No font in show
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2784346): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2784540): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2839634): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2839766): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2839901): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2840704): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2840817): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2840919): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2841044): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2841156): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2841251): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2841304): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2841381): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2841442): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2841562): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2841613): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2841714): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2841736): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2841746): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2841829): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2841914): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2841968): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2841980): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2841991): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2842074): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2842098): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2842119): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2842137): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2842217): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2842318): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2842397): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2842451): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2842562): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2842680): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2842779): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2842838): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2842894): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2842946): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2843051): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2843153): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2843231): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2843290): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2843349): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2843416): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2843499): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2843580): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2843639): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2843682): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2843692): No font in show/space
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2843767): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2844090): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2844271): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2856533): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2856634): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2856739): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2856942): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2862526): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2862635): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2862889): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2867858): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2867962): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2868183): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2872323): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2872435): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2872692): No font in show/space
+Syntax Error: Missing language pack for 'Adobe-Japan1' mapping
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2875592): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2875695): No font in show
+Syntax Error: Unknown font tag 'G1'
+Syntax Error (2875916): No font in show/space

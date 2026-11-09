@@ -1,0 +1,3457 @@
+    PS-800-12080
+INSTRUCTION MANUAL
+                                            CONTENTS
+1. SPECIFICATIONS..............................................................................................1
+2. CONFIGURATION..............................................................................................2
+3. INSTALLATION. .................................................................................................3
+    3-1. Setting up the sewing machine. ..............................................................3
+    3-2. Installing the air hose...............................................................................9
+    3-3. Cautions for the compressed air supply (source of supply air) facility. .10
+    3-4. Installing the bobbin winder device...................................................... 11
+    3-5. Precautions for installation of the machine. ........................................ 11
+4. PREPARATION OF THE SEWING MACHINE.................................................12
+   4-1. Lubricating method and check of the oil quantity...............................12
+   4-2. Attaching the needle...............................................................................13
+   4-3. Threading the machine head. ................................................................14
+   4-4. Bobbin replacement procedure.............................................................15
+   4-5. Adjusting the thread tension. ................................................................16
+   4-6. Adjusting the thread take-up spring and the thread breakage
+         detector plate. .......................................................................................17
+   4-7. Adjusting the thread take-up stroke......................................................17
+   4-8. Needle-to-hook relationship. .................................................................18
+   4-9. How to wind a bobbin.............................................................................20
+  4-10. Adjusting the needle bar height............................................................21
+  4-11. Adjusting the position of the thread trimmer.......................................22
+  4-12. How to attach / remove the cylinder lifting plate.................................24
+  4-13. How to confirm the amount of oil (oil splashes) in the hook. ............25
+  4-14. Adjusting the amount of oil in the hook...............................................26
+  4-15. Adjusting the needle hole in the throat plate and the needle.............27
+  4-16. Setting the mechanical origin. ..............................................................28
+  4-17. Adjusting the disk presser pressure. ...................................................29
+  4-18. Adjusting the thread end position at the beginning of sewing..........30
+  4-19. Adjusting the electronic intermediate presser stroke.........................31
+  4-20. Adjusting the needle thread air blower. ...............................................32
+  4-21. Making a template. .................................................................................33
+  4-22. Preparation for sewing...........................................................................35
+  4-23. Configuration of the operation panel. ..................................................37
+  4-24. Maintenance mode. ................................................................................39
+  4-25. List of parameters. .................................................................................40
+  4-26. List of error codes..................................................................................46
+
+
+                                                       i
+5. MAINTENANCE OF SAWING MACHINE........................................................51
+   5-1. Troubles and corrective measures (Sewing conditions). ...................56
+   5-2. Disposal of batteries...............................................................................58
+6. SUBCLASS MODEL. .......................................................................................59
+   6-1. Barcode reader........................................................................................59
+   6-2. Rotary knife. ............................................................................................64
+      6-2-1. Safety precautions. ........................................................................64
+      6-2-2. How to carry out coaxial adjustment............................................65
+      6-2-3 How to adjust the timing belt tension. ..........................................68
+      6-2-4 How to adjust he knife pressure....................................................68
+      6-2-5. Changing the moving knife......................................................................................72
+      6-2-6. Adjusting the operating speed of template when the knife
+         operates.................................................................................................72
+      6-2-7. Usage instructions.........................................................................73
+      6-2-8. Definition of the electrical control buttons..................................75
+      6-2-9. Function-related precautions........................................................75
+
+
+
+
+                                                            ii
+     1. SPECIFICATIONS
+ 1    Sewing area (X,Y)(mm)                      1200 × 800
+                                                 (Cutting area      Rotary knife type : 698 × 391
+                                                                    Laser type : 646.5 × 426.5)
+ 2    Feed motion of feeding frame               Intermittent feed (2-shaft drive by stepping motor)
+ 3    Needle bar stroke                          39.5 mm
+ 4    Max. sewing speed                          [S type] 3,000 sti/min (When stitching pitch is 2.2 mm or less)
+                                                 [H type] 1,800 sti/min (When stitching pitch is 3.5 mm or less)
+                                                 For other stitch pitches and numbers of revolutions, refer to Fig. 1.
+ 5    Settable stitch length                     0.5 to 12.7 mm
+ 6    Needle                                     [S type] DB × 1 #8 (#7 to #14), DP × 5 #8 (#7 to #14)
+                                                 [H type] DP17 #21
+                                                 To be chosen according to the model.
+ 7    Hook                                       Double-capacity full-rotary hook
+ 8    Intermediate presser stroke                4 mm (Standard)
+ 9    Lift of intermediate presser               20 mm
+10 Lift of disc presser                          15 mm
+11 Memory of pattern data                        Max. 999 patterns
+12 Number of patterns that can be identified     Max. 999 patterns
+13 Program input method                          USB
+14 Data format                                   DXF.AI.PLT.DST
+15 Main shaft servomotor power                   [S type] 550W      [H type] 750W
+16 Power consumption                             470VA
+17 Input voltage                                 220V ± 10%
+18 Mass (gross mass)                             780 kg       [Rotary knife type] 788kg     [Laser type] 850kg
+19 Dimensions                                    2,180 mm (W) × 2,185 mm (L) × 1,250 mm (H)
+20 Operating temperature range                   5 to 35 ˚C      [Laser type] 1 to 35 ˚C
+21 Operating humidity range                      35 to 85 % (No dew condensation)           [Laser type] 5 to 70 %
+22 Storage temperature range                     -5 to 60 ˚C     [Laser type] -10 to 100 ˚C
+23 Storage humidity range                        20 to 85 % (No dew condensation, 85 % applies to the case where the tem-
+                                                 perature is 40 ˚C or lower)
+                                                 [Laser type] 20 to 85 % (No dew condensation)
+24 Air pressure used                             0.5 to 0.6 MPa
+25 Needle highest position stop facility         After the completion of sewing, the needle can be brought up to its highest
+                                                 position.
+26 Noise                                         - Equivalent continuous emission sound pressure level (LpA) at the worksta-
+                                                   tion :
+                                                   A-weighted value of 78.0 dB ; (Includes KpA = 2.5 dB) ; according to ISO
+                                                   10821- C.6.2 -ISO 11204 GR2 at 2,800 sti/min.
+27 Lubricating oil                               #10 (Equivalent to JUKI NEW DEFRIX OIL No. 1)
+                                                 #32 (Equivalent to JUKI NEW DEFRIX OIL No. 2), Lithium based grease No. 2
+                                                 Grease information
+                                                 Manufacturer: WERATCHE
+                                                 Type and number: Lithium base 2# grease
+
+S type                                                                   H type
+                 Stitch pitch and the sewing speed                                  Stitch pitch and the sewing speed
+ Number          Stitch pitch        Sewing speed         Remarks         Number      Stitch pitch     Sewing speed      Remarks
+      1            2.8 mm            2,800 sti/min                            1            3.5 mm       1,800 sti/min
+      2            3.0 mm            2,500 sti/min                            2            4.0 mm       1,600 sti/min
+      3            4.0 mm            2,200 sti/min                            3            4.5 mm       1,400 sti/min
+      4            5.0 mm            1,800 sti/min                            4            5.0 mm       1,200 sti/min
+Note: The sewing machine must not run at the maximum num-                 Note: The number of revolutions may vary even if the
+ber of revolutions continuously for more than 15 minutes. The             pitch is consistent due to the change in the needle
+number of revolutions may vary even if the pitch is consistent            and material.
+due to the change in the needle and material.
+
+                                                               Fig. 1
+
+                                                                –1–
+2. CONFIGURATION
+
+
+                        ❻                     ❶
+
+                                                                         
+
+
+
+    ❷                                                                        ❸
+
+
+                         
+
+                                                            ❹
+
+                                                      ❺
+
+
+
+         ❼
+
+
+
+                                 ❽
+
+                                                                         
+
+                                      ❾
+
+
+
+
+❶ Machine head
+                                                          Rotary knife
+❷ Table
+❸ X-axis feed mechanism
+❹ Y-axis feed mechanism
+❺ Cassette clamp device
+                                                  
+❻ Operation panel
+❼ Air control box
+❽ Electrical control box
+❾ Power switch (also used as the emergency
+  stop switch)
+ Thread stand
+ Bobbin winder device
+ Rotary knife device (subclass)
+
+
+
+
+                                        –2–
+3. INSTALLATION
+
+3-1. Setting up the sewing machine
+
+                                           3-1-1. Unpacking
+          ❶
+                                           1) Lift up clamp ❶ as shown in the picture.
+
+                                                    If the clamp is not lifted up suf-
+                                                    ficiently, unpacking will not be
+                                                    smoothly carried out.
+   ❷
+                                           2) Firstly remove upper cover ❷ . Then,
+                                              remove the covers of the remaining four
+                                              surfaces.
+
+
+
+
+                                           3) Detach the fixed metal plate of front and
+                                              rear caster seats ❸ of the sewing ma-
+                                              chine.
+
+
+
+
+              ❸
+
+
+                                           4) Remove the plastic cover.
+
+
+
+
+                                     –3–
+    Cut the cable clip band to detach
+    the sewing machine parts.
+
+
+                                        5) Remove the parts, accessory box and
+                                           feed mechanism from the crate.
+
+
+                                        6) Move the sewing machine to the specified
+                                           place with a folk lift. (Sewing machine
+                                           weighs 640 kg)
+
+
+
+
+* Insert the claw of
+  a folk lift here.
+
+
+                                        7) Turn the casters to check to make sure
+                                           that the sewing machine is levelled. Also
+                                           make sure that the sewing machine is
+                                           placed steadily with little wobbling.
+                                           Turn red pad ❹ to adjust the fixing pad.
+
+                       ❹
+
+
+
+
+                                        * Necessary tools are contained in the ac-
+                                          cessory box.
+
+
+
+
+                              –4–
+                               3-1-2. Setting up the X feed mechanism
+                                  and the table
+
+                               1) Detach the package.
+                               2) Detach the fixing plate. Put the screw and
+                                  nut you have detached in the accessory
+                                  box.
+
+                         Pin
+
+
+❺                              3) Remove rubber plugs ❺ . Tighten the
+                                  screws that are placed under the rubber
+                                  plugs with a wrench. Then, attach rubber
+                                  plugs ❺ .
+
+
+
+
+                               4) Move the clamp to the center of the X
+                                  feed mechanism before removing six nuts
+                                  in order to prevent the clamp from inter-
+                                  fering with screws when attaching them.
+                               5) Take care not to allow the screws from
+                                  slipping off the mounting holes after de-
+                                  taching the nuts.
+                                  Put the nuts you have removed in the
+    Align the pin with            accessory box.
+    the pin hole.
+
+
+
+
+                               * Store the tools in the accessory box.
+
+
+
+
+                    –5–
+                 3-1-3. Setting up the table
+
+                 1) Loosen the thumb screw as shown in Fig.
+                    I when setting up the left table, right table
+                    and front table (center).
+                 2) Tighten the nuts and screws that are ex-
+                    clusive to the aluminum frame as shown
+                    in Figs. II and III when setting up the front
+                    table (left) and the front table (right).
+
+
+
+
+Fig. I
+
+
+
+
+Fig. II
+
+
+
+
+Fig. III
+
+
+
+
+           –6–
+                           3-1-4. Setting up the switches, bobbin
+                              winder and switch button (asm.)
+
+                           * Necessary tools are contained in the ac-
+                             cessory box.
+
+
+
+
+                           1) Secure the power switch plate to the alu-
+          A       B           minum frame of the front table (right) with
+                              two Phillips head screws A.
+                              Secure power switch C to the plate with
+                              two Phillips head screws B.
+
+
+                           2) Secure switch button (asms.) F to the
+                              aluminum frame of the front table (right)
+              C               with T screws E and nuts D.
+                              Secure three switch buttons so that they
+                              point upward.
+DE
+
+
+F
+
+
+
+
+                           3) Secure the bobbin winder to the alumi-
+                              num plate of the front table (right) with T
+                              screw E and nut D.
+
+     DE               DE
+
+
+
+
+                  –7–
+      3-1-5. Check points and precautions be-
+         fore turning the power ON
+
+      1) Inspect the levelness of the sewing ma-
+         chine.
+
+
+
+
+      2) Inspect that the electric components and
+         pneumatic components of the sewing
+         machine have been securely assembled.
+
+
+
+
+      3) Inspect the alignment between the needle
+         entry point and the center of needle hole
+         in the throat plate of the sewing machine.
+
+
+
+
+      4) Detach the throat plate and inspect the
+         relation between the needle and the hook.
+
+
+
+
+      5) Check the clearance provided between
+         the X feed origin detection sensor and the
+         detection plate.
+
+
+
+
+      6) Check that the X feed mechanism moves
+         smoothly.
+
+
+
+
+–8–
+3-2. Installing the air hose
+
+     WARNING :
+     Check to be sure that the air hose is fully inserted into the air cock before supplying the air to the
+     machine so as to prevent the air from being blown directly to the human body. Then, carefully open
+     the air cock.
+
+                                                      1) Connecting the air hose
+                                                         Connect the air hose to ❶ .
+
+
+
+
+                  ❶
+
+
+
+
+                                                      2) Adjustment of air pressure
+                    ❷
+                                                         Pull up air regulating knob ❷ . Then, turn it to
+                                     ❸
+                                                         adjust the air pressure to 0.5 - 0.55 MPa.
+                                                         Then, push down air regulator knob ❷ .
+                                                         Pull up air regulating knob ❸ . Then, turn it to
+                                                         adjust the air pressure to 0.15 MPa.
+                                                         Then, push down air regulator knob ❸ .
+
+
+                                                            ❷ : Adjustment of the air pressure of the entire
+                                                            sewing machine
+                                                            ❸ : Adjustment of the air pressure of the disk
+                                                            presser
+
+
+
+
+                                                 –9–
+  3-3. Cautions for the compressed air supply (source of supply air) facility
+
+As large as 90 % of failures in pneumatic equipment (air cylinders, air solenoid valves) are caused by "con-
+taminated air."
+Compressed air contains lots of impurities such as moisture, dust, deteriorated oil and carbon particles. If
+such "contaminated air" is used without taking any measures, it can a cause of troubles, inviting reduction in
+productivity due to mechanical failures and reduced availability.
+Be sure to install the standard air supply facility shown below whenever the machine provided with pneumat-
+ic equipment is used.
+
+
+                       Standard air supply facility to be prepared by the user
+       Air compressor
+
+         After cooler
+                                      Auto-drain
+           Air tank
+
+        Main line filter
+
+                                      Auto-drain
+
+
+
+           Air dryer            Quality of the air supply
+                                When the supply air contains a considerable amount of moisture
+
+                                Ambient environment
+                                When our machine is installed at a place where the temperature greatly
+                                changes in the morning and in the evening from that in the daytime or
+                                freeze is like to occur.
+                                In the aforementioned cases, be sure to install an air dryer.
+
+
+
+        Mist separator
+                                When the supply air contains a considerable amount of carbon
+                                and dust
+                                (Most troubles in the air solenoid valves are caused by carbon.)
+                                Be sure to install a mist separator.
+
+
+
+                               Standard equipment supplied by JUKI
+
+        Filter regulator
+
+      Air solenoid valve
+
+         Air cylinder
+
+
+
+         Cautions for main piping
+         • Be sure to slope main piping by a falling gradient of 1 cm per 1 m in the direction of air flow.
+         • If the main piping is branched off, the outlet port of the compressed air should be provided at
+           the top part of the piping using a tee in order to prevent drain settling inside the piping from
+           flowing out.
+         • Auto drains should be provided at all lower points or dead ends in order to prevent the drain
+           from settling in those parts.
+
+
+                                                    – 10 –
+3-4. Installing the bobbin winder device
+
+                                                     1) Insert bobbin winder disk mounting bar ❶ into
+                                                        hole ❷ in the bobbin winder and secure with nut
+                                                        ❸.
+
+
+                             ❷
+
+
+
+
+                         ❸
+            ❶
+
+
+
+
+3-5. Precautions for installation of the machine
+
+                                                                        1. Depending on the size of
+                                                                           template, the sewing ma-
+                                                                           chine may extend beyond
+                                                                           the sewing machine table
+                                                                           in X direction. Take care not
+                                                                           to allow the machine to hit
+                                                                           against someone standing
+                                                                           near the table to cause inju-
+                                                                           ry.
+                                                                        2. Be sure to secure a space
+                                                                           as wide as 500 mm or more
+                                                                           around the sewing machine
+                                                                           table (i.e., both in lateral and
+                Sewing machine table Template                              longitudinal directions).
+
+420mm
+
+
+
+
+                                                    2285mm
+
+
+
+
+    115mm                 2180mm                115mm
+
+
+
+
+                                                – 11 –
+4. PREPARATION OF THE SEWING MACHINE
+
+4-1. Lubricating method and check of the oil quantity
+
+     WARNING :
+     Turn OFF the power before starting the work so as to prevent accidents caused by abrupt start of the
+     sewing machine.
+
+                                                    1) Detach cylinder lifting plate ❶ .
+
+
+
+
+❶
+
+
+
+
+                                                    2) Remove rubber plug ❷ from the oil tank.
+
+
+
+                                      ❷
+
+
+
+
+                                                    3) Fill the oil tank with the accessory oil (or the spec-
+                                                       ified oil).
+
+
+
+
+                                                    4) The adequate oil amount is obtained when the
+                                                       oil surface stays between the oil tank indications
+                                                       "Min" and "Max".
+
+                                                             1. Do not use any oil other than the spec-
+                                                                ified oil. After the completion of lubri-
+                                                                cation, securely attach the rubber plug
+                                                                and cylinder lifting plate to their original
+                                                                positions.
+      Max                                                    2. When you put the sewing machine into
+                                                                use for the first time after delivery or
+                                                                after having disused it for a long time,
+        Min                                                     replenish the hook with a small amount
+                                                                of oil in advance.
+
+
+                                               – 12 –
+4-2. Attaching the needle
+
+     WARNING :
+     Turn OFF the power before starting the work so as to prevent accidents caused by abrupt start of the
+     sewing machine.
+
+                                                    1) Loosen screw ❶ to remove the needle.
+
+                                                              Be sure to hold the needle so that its
+       ❷                                    ❶
+                      ❷                                       groove ❷ faces toward blade point ❸ of
+                                                              the rotary hook.
+       ❸
+                       ❸
+                                                    2) Tighten screw ❶ .
+
+                                                              In the case of replacing the needle with a
+                                                              needle which differs in specifications, be
+                                                              sure to re-adjust the distance from the
+                                                              rotary hook to the needle. If you neglect
+                                                              this re-adjustment, the problems listed
+                                                              below can occur.
+                                                              1. Stitch skipping
+                                                              2. Thread fray
+                                                              3. Breakage of blade point of hook
+                                                              4. Breakage of needle
+
+
+
+
+                                                – 13 –
+4-3. Threading the machine head
+
+    WARNING :
+    Turn OFF the power before starting the work so as to prevent accidents caused by abrupt start of the
+    sewing machine.
+
+                                                    1) Put sewing machine thread ❶ on thread stand ❷ .
+
+
+
+
+                              ❷             ❶
+
+
+
+
+                                                    2) Pass the thread as illustrated in the figure.
+                                                       Lastly, draw out thread end through needle eyelet
+                                                       by 50 to 60 mm.
+
+
+
+
+                                                – 14 –
+4-4. Bobbin replacement procedure
+
+    WARNING :
+    Turn OFF the power before starting the work so as to prevent accidents caused by abrupt start of the
+    sewing machine.
+
+                                                   (1) Removing the bobbin case
+                                                   1) Open cover ❶ . Then, the bobbin can be
+                                                      changed.
+                                                   2) Raise latch A of bobbin case ❸ , and remove the
+                                                      bobbin case ❸ and the bobbin ❷ .
+
+                                                             Check the position of your hands and the
+                                                             locations of goods before opening / clos-
+                                                             ing cover ❶ so as to prevent the goods
+                                                             from being caught under the cover and
+                                                             to prevent bodily injury.
+                                                             In addition, do not push cover ❶ with
+                                                             your hands placed on it.
+           ❶
+
+                                                   (2) Installing the bobbin
+                                                   1) Set the bobbin ❷ into bobbin case ❸ in the direc-
+                              ❷                       tion shown in the figure.
+                                                   2) Pass the thread through thread slit B of bobbin
+                                                      case ❸ , and pull the thread as it is. By so doing,
+                                      A               the thread will pass under the tension spring and
+                                      ❸               be pulled out from thread hole C.
+                                                   3) Pull out the thread by 50 mm from thread opening
+                                                       C.
+
+                                                             If the bobbin ❷ is installed in the bobbin
+                                                             case orienting the reverse direction, the
+                                                             bobbin thread pulling out will result in an
+                                                             inconsistent state.
+                                      50 mm
+                         C
+
+                                                   (3) Installing the bobbin case
+                                                   1) Place the bobbin case in the hook with its knob A
+                                                      tilted and fully push it into the hook until you hear
+                     B                                it click.
+                          ❷       ❸                2) Close cover ❶ .
+
+                                                             If it is not fully inserted, bobbin case ❸
+                                                             may slip off during sewing.
+
+
+
+
+                                              – 15 –
+4-5. Adjusting the thread tension
+
+                                             (1) Adjusting the needle thread tension
+                                             Thread tension controller No. 1 ❶
+   ❶
+                                               When the tension disk of thread tension controller
+                                               No. 2 ❸ is loosened, such a small tension as to
+                                               control the thread trimmer has to remain. The re-
+                                               maining tension is produced by tension controller
+       ❷                                       ❶ . It is possible to determine the length of thread
+                                               trailing from the needle after automatic thread
+                                               trimming by adjusting nut ❷ of the thread tension
+                                               controller. The length of thread trailing from the
+                                               needle is reduced by turning nut ❷ clockwise (+).
+                       ❸                       It is increased by turning nut ❷ counterclockwise
+                   ❹                           (-).
+                                             Thread tension controller No. 2 ❸
+                                               The tension (applied to the thread coming from
+                                               the needle) controlled with thread tension con-
+                                Fig. A
+                                               troller No. 2 ❸ should be set as low as possible
+                                                  so that the needle thread and bobbin thread are
+                                Fig. B
+                                                  interlaced together at the center of material thick-
+                                                  ness (Fig. A). If the thread tension is excessively
+                                                  high when sewing a light-weight material, the ma-
+                                Fig. C            terial may become wrinkled or thread may break.
+                                                  The tension applied to the thread coming from the
+                                                  needle is increased by turning nut ❹ clockwise
+                                                  (+).
+                                                  It is decreased by turning nut ❹ counterclockwise
+                                                  (-).
+
+
+                                             Fig. A: Threads are interlaced together accurately at
+                                                     the center of material thickness.
+                                             Fig. B: Needle thread tension is too low or bobbin
+                                                     thread tension is too high.
+                                             Fig. C: Needle thread tension is too high or bobbin
+                                                     thread tension is too low.
+
+
+
+                                             (2) Adjusting the bobbin thread tension
+                                             1) Turn tension adjusting screw ❺ clockwise (in
+                                                direction A) to increase or counterclockwise (in
+           ❺                                    direction B) to reduce the bobbin thread tension.
+               A                                Recommended value: Approximately 25 g
+       B                                        The bobbin case will come down slowly by its
+                                                dead weight by holding it as illustrated in the fig-
+                                                ure.
+
+
+
+
+                                         – 16 –
+4-6. Adjusting the thread take-up spring and the thread breakage detector plate
+
+                                           1) Adjusting the stroke
+         ❶                 ❺                  Loosen setscrew ❷ . Turn thread tension con-
+                                              troller ❸ . Turning it clockwise will increase the
+                                              stroke of the thread take-up spring ❶ and the
+                                              thread drawing amount will increase.
+                                   ❻
+                                           2) Adjusting the pressure
+                                              To change the pressure of the thread take-up
+                               ❹              spring ❶ , insert a thin screwdriver into the slot of
+                                              thread tension post ❹ while screw ❷ is tightened,
+                                              and turn it. Turning it clockwise will increase the
+                       ❸                      pressure of the thread take-up spring ❶ . Turning
+                   ❷                          it counterclockwise will decrease the pressure.
+                                           3) Adjusting the thread breakage detector plate
+                                              Loosen setscrew ❻ . Adjust the position of thread
+                                              breakage detection plate ❺ so that the contact
+                                              depth between thread breakage detection plate
+                                              ❺ and thread take-up spring ❶ becomes 0 to 0.2
+                                                mm.
+
+                                                      Adjust so that thread breakage detector
+                                                      plate ❶ does not touch any adjacent
+                                                      metallic parts other than thread take-up
+                                                      spring ❷ . If the thread breakage detec-
+                                                      tion plate comes in contact with any oth-
+                                                      er metal part, a maloperation can occur.
+
+
+
+
+4-7. Adjusting the thread take-up stroke
+
+                                           1) When sewing heavy-weight materials, move
+              A         B                     thread guide ❶ to the left (in direction A) to
+                                              increase the length of thread pulled out by the
+                               ❶
+                                              thread take-up.
+                                           2) When sewing light-weight materials, move thread
+                                              guide ❶ to the right (in direction B) to decrease
+                                              the length of thread pulled out by the thread take-
+                                              up.
+                                           3) Normally, thread guide ❶ is positioned in a way
+                                              that the center of elongated hole is aligned with
+                                              the center of the screw.
+
+
+
+
+                                       – 17 –
+  4-8. Needle-to-hook relationship
+
+        WARNING :
+        Turn OFF the power before starting the work so as to prevent accidents caused by abrupt start of the
+        sewing machine.
+
+(1) Needle and hook, and angle setting
+                                                       1) For the S type, the relation between the needle
+                                                          bar height and the hook position should be adjust-
+                                                          ed when the needle bar goes up from its lower
+                          S type: 2.9 ± 0.3 mm
+                          H type: 2.4 ± 0.3 mm            dead point by 2.9 ± 0.3 mm. For the H type, it
+                                                          should be adjusted when the needle bar goes up
+                                                          from its lower dead point by 2.4 ± 0.3 mm.
+                                                       2) When observing from the front face of the sewing
+                                                          machine, the blade point of hook seems to over-
+                            0.05 to 0.2 mm                lap with the center of needle.
+                                                       3) When observing from the side face of the sewing
+                                                          machine, the clearance provided between the
+        Front face   Side face
+                                                          blade point of hook and the scarf of needle is 0.05
+                                                          to 0.2 mm.
+
+                                                                 If thread breakage occurs, the thread can
+                                                                 be tangled in the hook. In such a case,
+                                                                 remove the thread being tangled in the
+                                                                 hook carefully. Then, re-start sewing.
+
+                                                       4) As shown in the figure, the electrical shaft angle
+                                                          setting QEP value displayed on the operation
+                                                          panel becomes 570 to 575.
+
+
+
+
+(2) Position of the needle and the inner hook holder
+                                                       Longitudinal position of the inner hook holder and
+                                                       needle: The front end of needle is aligned with the
+                                                       inner hook.
+
+
+
+
+                                                       Lateral position of the inner hook holder and needle:
+                                                       The rightmost end of projection of inner hook holder
+                                                       is aligned with the right side of needle.
+
+
+
+
+                                                  – 18 –
+(3) Adjusting the hook timing
+
+The timing gauge is supplied for the machine as an accessory.
+
+                                                                             Adjust the hook timing according to
+          Lower dead point    Position for adjusting the
+            of the needle     timing between the hook                        the sewing type (S type / H type) of
+          bar of the S type   and the needle bar of the                      the sewing machine.
+          sewing machine       S type sewing machine
+                                                                             Turn the timing gauge upside down
+                                                                             according to the sewing machine
+                                                                             type as shown in the figure on the
+                                                                             left.
+                                                                             For the S type :
+      Position for adjusting the        Lower dead point                               Position the timing gauge
+      timing between the hook          of the needle bar of
+      and the needle bar of the         the H type sewing                              with its S inscription
+       H type sewing machine                 machine                                   turned up
+                                                                             For the H type :
+                                                                                       Position the timing gauge
+                                                                                       with its H inscription
+                                                                                       turned up
+
+
+                                                           1) Put the timing gauge on the resin cover. Then,
+                                                              adjust the lower dead point of the needle bar first.
+                                                           2) Then, turn the timing gauge by 180 degrees of an
+                                                              angle longitudinally. Adjust the hook timing posi-
+                                                              tion.
+                                                              When adjusting the hook timing, it is necessary to
+                                                              put the jig on the left side of the needle to prevent
+                                                              the jig from coming in contact with the needle bar
+                                                              thread guide.
+    Loosen needle bar connection
+    setscrew. Adjust the height of                                   Align the timing gauge with the end
+           the needle bar.
+                                                                     surface of the needle bar.
+
+
+
+
+                  Needle bar connection setscrew
+
+
+
+
+                                                    – 19 –
+4-9. How to wind a bobbin
+
+                                                1) Put bobbin ❷ on bobbin winder shaft ❸ .
+                                                2) Pass sewing thread ❻ through spool rest rod.
+                                                3) Pass the thread as illustrated in the figure.
+                                        ❶
+                                                4) Manually wind thread on bobbin ❷ by several
+                                        ❷          turns clockwise.
+                                                5) Press button ❹ to start winding thread on the
+                                    ❸              bobbin.
+                                                6) When the bobbin thread amount wound on the
+                                                   bobbin reaches the set amount (80 %), the bob-
+                                    ❹              bin winder automatically stops turning. Or, press
+                                ❺                  button ❺ to stop the bobbin winder.
+                                                7) Trim the thread with thread trimmer ❶ . Detach
+                                                   bobbin ❷ .
+                            ❻
+
+
+
+
+                                            – 20 –
+4-10. Adjusting the needle bar height
+
+            WARNING :
+            Turn OFF the power before starting the work so as to prevent accidents caused by abrupt start of the
+            sewing machine.
+
+                                                               Turn pulley ❶ counterclockwise to lower the nee-
+                          ❶                                    dle bar to its lower dead point.
+
+
+
+
+                                                               At this time, the needle bar connecting rod and
+                                                               the needle bar are located on the straight line as
+                                                               illustrated in the figure.
+
+
+
+
+                                                           S type
+                                    Needle
+                                                               Expose a half of the needle eyelet from the inner
+                                                               hook (standard position).
+                                         Inner hook
+
+Needle eyelet                                                        Determine the needle bar height accord-
+                                                                     ing to the material to be used.
+                                                                     1. Since woven fabric in general con-
+                                                                        sists of two or three layers of material,
+                                                                        expose a half of the needle eyelet from
+                                                                        the inner hook.
+                                                                     2. For the resilient materials such as knit
+                                                                        or comparatively heavy-weight materi-
+H type
+                                                                        als, expose two-thirds of needle eyelet
+                                                                        from the inner hook.
+                                                                     3. The appropriate needle bar height
+                                                                        varies depending on the type and/or
+                                                                        thickness of material.
+
+                                                           H type
+                                                               Adjust the distance from the flat portion of needle
+                                                               bar to the throat plate to 18.4 ± 0.3 mm. Expose
+                                                               two-thirds of the needle eyelet from the inner
+                                                               hook.
+
+
+         18.4 ± 0.3 mm
+
+
+
+
+                                                      – 21 –
+ 4-11. Adjusting the position of the thread trimmer
+
+        WARNING :
+        Turn OFF the power before starting the work so as to prevent accidents caused by abrupt start of the
+        sewing machine.
+
+
+                 ❶                                     (1) Adjusting the position of the thread trim-
+                                                           ming cam
+                                                       1) Turn pulley ❶ to engage needle bearing ❸ of the
+                                                          thread trimmer connecting rod with groove ❷ in
+                                                          the thread trimming cam.
+
+
+
+
+                                      ❸
+
+
+               ❷
+
+                                                            The specified QEP value of the electrical shaft an-
+                                                            gle setting parameter has been factory-adjusted
+                                                            to 290 at the time of shipment. Finely adjust the
+                                                            parameter according to the difference in material.
+
+
+
+
+                                                       (2) Adjusting the position of the moving knife
+The moving knife is in                                     and counter knife
+parallel with the moving             ❶                 1) Attach the moving knife to the moving knife base.
+knife base
+                                                          Push the moving knife to the right to make the
+                                                          tail of the moving knife in parallel with the moving
+                                                          knife base. At this time, the blade point of moving
+                                                          knife is aligned with the needle. Tighten moving
+                                                          knife clamping screw ❶ .
+
+
+
+
+                                                           Blade point of
+              Blade point of moving knife                  moving knife
+              is aligned with the needle
+
+
+
+                                                  – 22 –
+                                      2) Attaching the counter knife
+                          ❷              The tail portion of the counter knife has a hole.
+                                         Inserting 2.5 hexagonal wrench key ❷ into that
+                                         hole, tighten the fixation screw of the counter
+                                         knife while aligning the tail portion of the counter
+                                         knife with the hexagonal wrench key.
+
+
+
+
+                                      3) Mark the 5 mm position of the moving knife blade
+                                         with a black marker pen. Adjust the counter knife
+Mark both sides of the moving
+                                         pressure with counter knife pressure adjustment
+knife with a black marker pen.
+                                         screw ❸ .
+                                         After you have completed adjustment, push down
+                                         the moving knife to re-adjust the moving knife
+                                         pressure in repetition until both sides, with black
+                                         markers, of the moving knife are simultaneously
+                                           rubbed by the counter knife without fail. In addi-
+                                           tion, the friction force between the moving knife
+                                           and the counter knife can be minimized by trim-
+                                           ming three used machine-sewing threads.
+
+         ❸
+
+
+
+
+  Black markers on both sides of
+  the moving knife are rubbed by
+  the counter knife simultaneously.
+
+
+
+
+                                  – 23 –
+4-12. How to attach / remove the cylinder lifting plate
+
+                                            1) While the power to the sewing machine is turned
+                                               ON, press switch ❶ .
+
+
+
+
+                     ❶
+                                            2) Cylinder lifting plate ❷ comes off upward. Re-
+                                               move it. (The cylinder pushes up the lifting plate.)
+
+
+
+
+                                    ❷
+                                            3) To install cylinder lifting plate ❷ , press switch ❶ .
+                                               (The cylinder comes down to allow the cylinder
+                                               lifting plate to be installed. The lifting plate is then
+                                               secured with a magnet.)
+
+
+
+
+                                        – 24 –
+   4-13. How to confirm the amount of oil (oil splashes) in the hook
+
+            WARNING :
+            Be extremely careful about the operation of the machine since the amount of oil has to be checked
+            by turning the hook at a high speed.
+
+(1) How to confirm the amount of oil (oil splashes)
+
+  ❶ Amount of oil (oil splashes) confirmation paper        ❷ Position to confirm the amount of oil (oil splashes)
+
+
+  Approx.
+  30 mm
+
+                                                                  10 mm
+                       Approx. 100 mm
+
+            * Use any paper available regardless
+              of the material.                                  Oil splashes confirmation paper
+
+
+            When carrying out the procedure described below, confirm the state that the needle thread from
+            the thread take-up lever to the needle and the bobbin thread are removed, the presser foot is
+            lifted and the slide plate is removed. At this time, take extreme caution not to allow your fingers
+            to come in contact with the hook.
+
+1) Check to make sure that the oil quantity is adequate referring to "4-1. Lubricating method and check of
+   the oil quantity" p. 12.
+2) If the machine has not been sufficiently warmed up for operation, make the machine run idle for approxi-
+   mately fifteen minutes.
+3) Place the amount of oil (oil splashes) confirmation paper under the hook while the sewing machine is in
+   operation.
+4) Confirmation of the amount of oil (oil splashes) should be completed in ten seconds.
+
+
+(2) Sample showing the appropriate amount of oil (oil splashes)
+
+            Appropriate amount of oil (smaller)                       Appropriate amount of oil (larger)
+
+                 Splashes of oil from the hook                            Splashes of oil from the hook
+
+
+
+
+                                                                                Min. 0.5 mm
+
+
+
+1) The state given in the figure above shows the appropriate amount of oil (oil splashes).
+2) Check the oil amount (oil splashes) three times (on the three sheets of paper), and adjust so that it should
+   not change.
+
+            Do not excessively increase/decrease the amount of oil in the hook. If the amount of oil is too
+            small, the hook will be seized (the hook will be hot). If the amount of oil is too much, the sewing
+            product may be stained with oil.
+
+
+
+
+                                                      – 25 –
+4-14. Adjusting the amount of oil in the hook
+
+     WARNING :
+     Turn OFF the power before starting the work so as to prevent accidents caused by abrupt start of the
+     sewing machine.
+
+                                                     1) Remove the cylinder lifting plate.
+                         B                           2) The oil amount is increased by turning screw ❶ in
+                                                        the direction of arrow A, or decreased by turning
+                                                        it in the direction of arrow B.
+                         A                           3) After the completion of adjustment, attach the
+                                                        cylinder lifting plate.
+
+
+
+
+                         ❶
+
+
+
+
+    1. After the adjustment, check the oil quantity by running the sewing machine idle for
+      approximately 30 seconds, as well as by checking it in comparison with the sample showing
+      the adequate oil quantity. (Refer to "4-13. How to confirm the amount of oil (oil splashes) in
+       the hook" p. 25.)
+    2. In the case of adjusting the hook oil quantity, firstly adjust the oil quantity by turning oil
+      quantity adjustment screw in the direction of arrow A to increase it. Then, adjust the hook oil
+      quantity by turning the adjustment screw in the direction of arrow B to decrease it.
+    3. The hook oil quantity has been factory-adjusted at the time of shipment, based on the
+       maximum sewing speed of sewing machine. When the customer always operate the sewing
+      machine at a low speed, the hook oil quantity may run short causing a sewing machine failure.
+      To prevent such a failure, adjustment of the hook oil quantity is required when the customer
+      runs the sewing machine at a low speed at all times.
+
+
+
+
+                                                – 26 –
+4-15. Adjusting the needle hole in the throat plate and the needle
+
+     WARNING :
+     Turn OFF the power before starting the work so as to prevent accidents caused by abrupt start of the
+     sewing machine.
+
+                                                    In the case the needle does not come down to the
+                                                    center of needle hole in The throat plate, the position
+                                                    of the throat plate can be adjusted with screw ❶ .
+                                                    1) Attach the throat plate.
+                                                    2) Loosen two needle hole adjustment eccentric
+                                                        screws ❷ of the throat plate. Adjust the position
+      ❶
+                                                        of the throat plate so that the needle is aligned
+                                                        with the center of needle hole in the throat plate
+                                                        by moving the throat plate.
+                                                    3) Tighten needle hole adjustment eccentric screws
+                     ❷                                  ❷ of the throat plate.
+
+
+
+
+                                               – 27 –
+4-16. Setting the mechanical origin
+
+                                          1) Slightly tighten screw ❷ on the lower shaft side.
+                                             Then, turn the pulley to position screw ❶ on the
+                                             main shaft motor so that it is levelled and faces
+                                             upward.
+                                          2) Holding the pulley, press        ❸ on the main
+                                             screen of the electrical box.
+                                          3) When you press the "Machine setting parame-
+                                             ter", ❹ is displayed. When you enter password
+            ❶                                "11111111", screen ❺ is displayed.
+                                          4) On the screen that is displayed by pressing the
+                                             "Axial angle setting", set the QEP value to 245,
+                                             tighten screw ❶ on the main shaft motor side,
+                                             and loosen screw ❷ on the lower shaft side.
+                                             Then, turn the pulley to bring the needle bar to its
+                                             upper dead point.
+                        ❷                 5) Holding the pulley (not to allow the needle bar to
+                                             move), click the "QEP value" of the "Axial setting
+                                             parameter" on the screen. Adjust the QEP value
+                                             to 0 (zero). Then, tighten screw ❷ on the lower
+                                             shaft side.
+                                          6) At this point, the origin adjustment has been com-
+                                             pleted. Now, turn the pulley again to check that
+                                             the QEP value of the needle bar at its upper dead
+                                             point is 0 (zero). As long as the aforementioned
+                                             QEP value is 0 (zero), the mechanical origin has
+                                             been adjusted properly.
+     ❸
+
+
+
+
+                                               ❺
+
+
+
+
+                ❹
+
+
+
+
+                                      – 28 –
+4-17. Adjusting the disk presser pressure
+
+                                            1) Adjust the disk presser air cylinder pressure regu-
+                         ❷                     lation valve ❶ . Pull up nut ❷ . Then, turn the nut
+                     ❶                         clockwise to increase the disk presser pressure
+                                               or turn it counterclockwise to decrease it. The
+                                               air pressure has been factory-set to 0.15 MPa at
+                                               the time of shipment. Adjust it appropriately while
+                                               checking the actual sewing state.
+
+
+
+
+                                            2) Adjust the lifting speed of disk presser air cylinder
+         ❸                                     by adjusting cylinder speed control valve ❸ that
+                                               is located outside the disk presser air cylinder.
+
+
+
+
+                                            3) Changing the disk presser
+                                               Check the actual sewing operation. Use the disk
+  A                                            presser or the plastic disk presser according to
+                                               the condition of actual sewing operation.
+                                               A Disk presser (factory-attached at the time of
+                                                   shipment)
+                                               B Plastic disk presser
+                                               When changing the disk presser with the plastic
+                                               disk presser or vice versa, try to position the disk
+                                               presser so that its bottom surface is in parallel
+                                               with the hook cover. Adjust the height of the disk
+                                               presser according to the actual material thickness
+   B
+                                               (i.e., height) while taking care not to allow the disk
+                                               pressers to come in contact with the intermediate
+                                               presser.
+
+
+
+
+                                     – 29 –
+4-18. Adjusting the thread end position at the beginning of sewing
+
+                                              It is possible to set the needle thread end posi-
+                                              tion at the beginning of sewing to top side ❶ or
+                                              underside ❷ of material.
+                                              The condition of the needle thread end is
+❶                                             changed over between the aforementioned two
+                                              settings by actuating the function for pulling the
+                                              thread by the wiper and for holding the thread by
+❷                                             upward air blow.
+
+
+                                              ❶ To put the needle thread end on the top of
+           Wrong side of material                material
+                                              The function for pulling the thread by the wiper
+                                              and for holding the thread by blowing air upward
+                                              is actuated.
+                                              ❷ To put the needle thread end on the underside
+                                                 of material
+                                              The function for pulling the thread by the wiper
+                                              and for holding the thread by blowing air upward
+                                              is de-actuated.
+
+
+
+
+                                     – 30 –
+4-19. Adjusting the electronic intermediate presser stroke
+
+                                         It is necessary to adjust the intermediate presser
+                                         stroke (A) appropriately since there would be the
+                                         need for preventing stitch skipping depending on
+                         A               thickness or type of the material.
+
+
+                                         1) Press        ❶ on the main screen of electrical
+                                            box.
+                                         2) When you press the "Machine setting parameter",
+                                            ❷ is displayed.
+                                            When you enter the password "11111111", screen
+                                            ❸ is displayed.
+                                         3) On the screen that is displayed by pressing the
+                                            "Presser follow-up setting", set the parameter (the
+                                            follow-up height of presser foot has been facto-
+     ❶
+                                            ry-adjusted to 2 mm at the time of shipment).
+
+
+
+
+              ❷
+
+ ❸
+
+
+
+
+                                     – 31 –
+4-20. Adjusting the needle thread air blower
+
+                                         Blow-up pipe ❶ blows air to blow up the thread end
+                                         trailing from the needle to bring it under disk presser
+                                         ❷ at the beginning of sewing by controlling the sole-
+                                         noid valve of the electrical system.
+                                         Thread end is pushed by air between the disk press-
+                                         er and the pattern at the beginning of sewing. In the
+                                         case the thread end cannot be pushed due to the lo-
+                                         cation and direction of slits on the pattern, adjust the
+                                         blowing direction of the air to allow the thread end to
+    ❶                                    be pushed by air.
+
+
+     ❷
+
+
+
+
+                                         Launch the pattern creation software to operate and
+                                         process the pattern to be sewn.
+                                         On the screen that is displayed by clicking "Op-
+                                         eration processing" ❸ , click ❹ ("Enter I/O") and
+                                         change the "I/O" to 5.
+                                         Change the "Level" to "high" ("low" refers to "turning
+                                         OFF"). Click ❺ ("Delay"). Change the "Delay (msec)"
+                                         to 225.
+
+❸
+                                                   The needle thread air blower and the
+                                                   wiper cannot be used simultaneously.
+                                                  1. The wiper provides the function for
+                                                     bringing the needle thread above the
+                                ❹                    presser foot.
+                                                  2. The needle thread air blower provides
+                                                     the function for bringing the needle
+                                                     thread under the disk presser.
+
+
+
+
+                                ❺
+
+
+
+
+                                     – 32 –
+    4-21. Making a template
+
+(1) Machining a template
+
+12080 type template of dimensions of the maximum sewing range
+・ Material of template: PVC plate
+・ Template thickness: 1.5 mm thick PVC plate
+・ Adjust the template size according to the cloths and/or pattern to be sewn.
+  The size must not exceed the maximum dimensions of the relevant specifications.
+・ Check complexity of the pattern to be sewn. Then, select the sewing slits from the range of 6 mm to 8 mm
+  according to the complexity of the pattern.
+・ Locus of sewing slits on the template should be designed according to the pattern to be sewn or intended
+  machining.
+・ Select the suitable pattern carving machine. The template must be machined by the qualified engineers
+  who have successfully finished the on-the-job training.
+・ After the completion of machining upper and lower templates, deburr the templates and the top surface of
+  the template mounting plate.
+
+
+                                                                 Position to which an elec-
+                                                                 tronic label is attached
+
+
+
+
+                                                                                                                                                                                                                                                              ø3 Milling path
+
+
+
+
+                                                                                              Rotary knife cloth cutting range in Y direction 743(Y3)   Laser knife cloth cutting range in Y direction 776(Y2)
+                                                                                                                                                                                                                 Y-direction sewing range 800(Y1)
+                                                                               Slit width 8
+
+
+                                                                Slit width 8
+
+
+
+                     Laser knife cloth cutting range in X direction 1046(X2)
+                      Rotary knife cloth cutting range in X direction 1099(X3)
+
+                                   X-direction sewing range 1200(X1)
+
+
+  Caution :                                                                                                                                                                                                                                                                                        ø3 Milling path
+      1.Standard machine sewing range: X:Y=1200mm(X1):800mm(Y1)
+      2.Laser knife cloth cutting range : X:Y=1046mm(X2):776mm(Y2)
+                                                                                        ø3 φ
+                                                                                          Milling path
+                                                                                               3 铣刀通道
+      3.Rotary knife cloth cutting range : X:Y=1099mm(X3):743mm(Y3)
+
+
+
+
+              Laser knife template                             Rotary knife template
+              engraving schematic                              engraving schematic
+     Edge of laser                                  Edge of rotary
+    knife template                                  旋刀切线模板边
+                                                    knife template
+   Thread trimmer                                  Thread trimmer
+                                                              切线
+           Sewing                                           Sewing
+                                                              缝线
+
+                                                  Edge of template
+                                                            模板边
+  Edge of template
+
+     T: Distance from sewing                           T: Distance from sewing
+        to thread trimming                             to thread trimming
+     A: Laser knife template                           B、C: Rotary knife
+                                                       template slit width
+                                                                                                                                                                                                                                                      Technical requirements
+       slit width
+     A=4+T+2.5                                         Straight line: B=4+T+2.5
+                                                       Curve: C=4+T+4
+                                                                                                                                                                                                                                                      1. There is neither burrs nor acute edges at rims of the
+                                                                                                                                                                                                                                                         template.
+                                                                                                                                                                                                                                                      2. Determine the slit width within the range of 6 to 10
+                                                                                                                                                                                                                                                         mm according to the pattern template. It is normally
+                                                                                                                                                                                                                                                         set to 8 mm.
+
+
+
+
+                                                                                                                                                                                                                                                    – 33 –
+(2) Attaching the templates
+
+                                              Machine the upper and lower templates based on
+            ❶        ❷        ❸       ❹
+                                              the design.
+                                              1) Put the upper template on the lower template, as
+                                                 shown in the figure, and adjust so that sewing slits
+                                                 A on the upper and lower templates are aligned.
+                                                 Affix exclusive template tape (36 mm wide) to por-
+ A                                               tions ❶ , ❷ , ❸ and ❹ as illustrated in the figure.
+                                              2) To produce more beautiful seams, it is recom-
+                                                 mended to firmly secure the material at the cor-
+                                                 rect position by affixing sand tape, double-sided
+                                                 adhesive tape, etc. on the slits of the upper and
+                                                 lower templates or put positioning pins at appro-
+                                                 priate locations in order to prevent the material
+                                                 slippage.
+
+
+
+
+        ❶        ❷        ❸       ❹
+
+
+
+
+                                          – 34 –
+   4-22. Preparation for sewing
+
+                                                         1) Turning ON the main power switch.
+                                                            Press button ❶ to turn ON the main power switch.
+
+
+                                                         2) Turning ON the main air source switch
+                                                            Move main air valve ❷ to the right to open the
+          ❷                                                 main air source.
+                                                ❶
+
+
+
+
+                                                         3) Resetting the equipment
+                                                             When the equipment is reset by pressing
+                                                             ❸ , the needle stops at its upper stop position,
+                                                             and the disk presser and intermediate presser go
+                                                             up.
+
+
+                                                         4) Read the pattern data to be sewn, or directly edit
+                                                            the pattern data on the operation panel.
+              ❸                                             Refer to the Instruction Manual for the comput-
+                                                            er-control system for details.
+
+                                                         5) Attaching a pattern
+ S type
+                                                            Moving an empty pattern (with no material), fit
+                                                            positioning hole A on the pattern positioning
+                                                            plate on the positioning pin. Fit other two auxiliary
+                                                            positioning holes B on the positioning sleeves
+                                                            and fully push them until they will go no further.
+    BA B                                 BA B
+
+
+
+ H type
+
+
+
+
+              B            A           B
+
+
+
+
+6) Reading the sewing pattern data
+   1. In the case an IC card is attached to the pattern, activate the electronic scanner on the operation screen
+   (refer to the Instruction Manual for the electrical system).
+   The electrical system automatically identifies the sewing pattern program that matches the pattern from
+   those stored on the IC card
+   2. In the case no IC card is attached to the pattern, manually select the sewing pattern data that matches
+   the relevant pattern on the operation screen.
+
+                                                    – 35 –
+                                 ❺                       7) Selecting the reference
+                                                            In order to align the locus of sewing pattern with
+                                                            the sewing slits of the pattern, it is necessary to
+                                                            set a reference. Specifically, set the reference re-
+                                                            ferring to the Instruction Manual for the electrical
+                                                            system scanner.
+                                                            After the completion of establishment of a refer-
+                                                            ence, display the operation screen. When you
+                                                            keep button ❺ held pressed, the pattern locus
+                                                            simulation sewing starts.
+                                                            Operate the sewing machine once to check
+                                                            whether or not the sewing pattern locus is aligned
+                                                            with the pattern slits. If they are not aligned,
+             ❼                  ❹     ❻                     re-adjust the reference.
+                                                            To stop the operation while the simulation opera-
+                                                            tion is being carried out, press button ❼ to stop it.
+
+
+
+8) Placing the material to be sewn
+   1. Detaching the pattern
+   When you move the pattern to the reset position and press clamp button ❹ on the operation panel, two air
+   cylinders on the X-direction linear module release the pattern. Take out the pattern.
+   2. Placing the material
+   Place the material to be sewn on the pattern. Then, check that the material is neatly arranged horizontally.
+   In addition, secure the material with the holding method that matches the pattern to prevent the material
+   from moving out of position. If the material has an infill of feather or cotton, squeeze the material to push
+   out air as far as possible.
+
+
+9) Setting the reset, pattern on which the material is placed, and the reference
+ * Carry out resetting following the step of procedure 3).
+ * Handling of the pattern on which the material is placed is described in the step of procedure 5).
+ * Reference setting is carried out following the step of procedure 7).
+
+
+10) Starting
+    Press the start button ❻ on the operation panel to start sewing. Then, the sewing machine enters the
+    automatic sewing mode.
+11) Temporary stop
+    If any accident occurs during sewing, press the temporary stop button ❼ on the operation panel. Then,
+    the sewing machine immediately stops operation.
+12) Re-starting
+    Once the aforementioned accident is eliminated, turn temporary stop button ❼ . Then, the button pops
+    up and the emergency stop mode is reset. Then, press start button ❻ to re-start automatic sewing.
+
+
+
+
+                                                    – 36 –
+   4-23. Configuration of the operation panel
+
+
+
+
+                                                                  A
+
+
+
+
+               B         F         C      D        E
+
+
+ A    LCD portion of the touch panel
+ B    PAUSE key            Used to temporarily stop sewing
+ C    OPEN key             Used to move up/down the top plate
+ D    PRESS key            Used to move up/down the cassette holder
+ E    START key            Used to start sewing
+ F    USB port
+
+
+
+
+                                                           G
+
+
+
+
+     H
+
+
+
+
+ G    Reset button         Used to re-start the operation panel
+ H    COM port             RS232C
+
+* This product is not provided with the Wi-Fi function.
+
+
+
+
+                                                       – 37 –
+Explanation of the operation panel screen
+
+
+
+
+                 ❶
+                 ❷
+                                                                                           
+                 ❸
+
+
+                 ❹
+                 ❺
+
+
+
+
+                            ❻     ❼  ❽           ❾                    
+
+
+
+             Buttons / display                                     Description
+ ❶    Lock key                       Used to lock the sewing pattern
+
+ ❷    Threading key                  Used to thread the machine head
+
+ ❸    Main shaft speed change key    Used to change the sewing machine main shaft speed
+
+ ❹    Bobbin thread usage key        Used to display the amount of use of the bobbin thread and to move
+                                     the screen to the setting screen *1
+ ❺    Sewing count key               Used to display the sewing count and to move the screen to the set-
+                                     ting screen *1
+ ❻    Menu                           Used to move the screen to the menu screen *1
+
+ ❼    Ready key                      Used to return the sewing machine to its origin
+
+ ❽    Reference setting key          Used to move the screen to the reference setting screen *1
+
+ ❾    Cassette holder key            Used to move the cassette holder
+
+     Presser foot key               Used to operate the presser foot
+
+     Presser foot setting key       Used to move the screen to the presser foot setting screen *1
+
+     Page move key                  Used to move the screen to the test mode screen *1
+
+     Test key                       Used to operate the sewing pattern by jumping
+
+     Line segment return key        Used to return the sewing machine to the starting position of the pre-
+                                     vious continuous sewing by jumping
+     Line segment feed key          Used to feed the sewing machine to the starting position of the next
+                                     continuous sewing by jumping
+     Single stitch return key       Used to return the sewing machine to the previous stitch. If this key is
+                                     held pressed, fast-backward mode starts
+     Single stitch feed key         Used to feed the sewing machine to the next stitch. If this key is held
+                                     pressed, fast-forward mode starts
+     File key                       Used to move the screen to the sewing pattern selection screen
+
+     Sewing pattern selection       Select the sewing pattern to be used by touching it
+
+*1. Refer to the Instruction Manual for the operation panel for details.
+
+
+
+
+                                                  – 38 –
+  4-24. Maintenance mode
+
+The maintenance mode is the mode under which the notice telling that the duration of use of the sewing
+machine has reached the time requiring maintenance is provided in order to extend the product life of the
+sewing machine. Under this mode, the maintenance screen is displayed on the operation panel. When the
+maintenance staff enters the user password, the maintenance screen is erased.
+
+
+
+
+                                                       1) The maintenance screen is displayed when the
+                                                          time at which the sewing machine requires main-
+                                                          tenance has come. (Approximately once every
+                                                          three months)
+                                                          When cancel button A is pressed, the mainte-
+                                                          nance screen returns to the sewing screen. How-
+                                                          ever, the maintenance screen is re-displayed one
+                                                          hour later.
+
+                  A           B
+
+                                                       2) When enter button B is pressed, the user pass-
+                                                          word input screen is displayed provided that the
+                                                          user password has been set up in prior.
+
+
+
+
+                                                       3) Add grease referring to "5. MAINTENANCE OF
+                                                          SAWING MACHINE" p. 51.
+
+
+
+                                                       4) Enter the user password. Then, the maintenance
+                                                          screen returns to the sewing screen.
+
+
+
+
+                                                  – 39 –
+  4-25. List of parameters
+
+Classifica-
+                                                                   Standard
+tion of pa-    No.      Parameter name               Range                     Meaning of parameter and comment
+                                                                     value
+ rameters
+Automatic P1         Clamp is opened after      Yes/No             Yes        Cassette clamp is lifted every time the
+machining            the completion of auto-                                  continuous sewing cycle is completed
+                     matic machining
+              P2     Number of stitches to be 0 to 8               2          Number of stitches during which the in-
+                     sewn at the beginning                                    termediate presser presses the material
+                     and end of sewing with                                   at the beginning and end of sewing
+                     the intermediate presser
+                     lowered
+              P3     Thread trimming after      Yes/No             Yes        Thread trimming is carried out every
+                     the completion of auto-                                  time the continuous sewing cycle is
+                     matic machining                                          completed.
+              P4     Position to which the      Origin / secondary Origin     "Origin" is the origin of absolute coordi-
+                     needle is returned after   origin                        nates.
+                     the completion of auto-
+                     matic machining                                          "Secondary origin" is the secondary
+                                                                              origin (offset point) added to the pattern.
+              P5     Whether or not the         Yes/No             No         Whether or not the tension on the
+                     thread tension is re-                                    thread is loosened during jump
+                     quired to be lowered
+              P173   Clamp foot is retained     Yes/No             No         The clamp foot is retained while a refer-
+                     when setting a refer-                                    ence is being set.
+                     ence                                                     On the "Main screen", keep the clamp
+                                                                              foot held at its current position while
+                                                                              moving the shaft. (Lifted or lowered)
+                                                                              The "Main screen" is displayed after the
+                                                                              operation panel is started up.
+              P259   Automatic operation of     Yes/No             No         Whether the cassette clamp is turned
+                     the clamp                                                ON at the beginning of sewing
+              P240   Clamp operation in prior Yes/No               No         Whether the cassette clamp is turned
+                     to the manual feed                                       ON before the manual feed is carried
+                                                                              out
+              P6     Number of stitches to be OFF / 1 / 2          OFF        In the case of set value "1" or "2", sew-
+                     sewn with overlapped at                                  ing is carried out once or twice in rep-
+                     the beginning of sewing                                  etition at the first needle entry position
+                                                                              before proceeding to the next needle
+                                                                              entry position at the time of starting the
+                                                                              sewing machine.
+                                                                              Setting of the number of reverse feed
+                                                                              stitches at the beginning of sewing
+                                                                              In the case of "OFF", the sewing ma-
+                                                                              chine does not repeat sewing
+              P7     Number of stitches to be 0 to 255             0          The thread tension release mechanism
+                     sewn at the beginning                                    is turned OFF while the sewing machine
+                     of sewing without the                                    sews the set number of stitches at the
+                     thread tension release                                   beginning of sewing
+                     mechanism
+              P147   Height of the interme-     0 to 4             0.5        Intermediate presser height at the be-
+                     diate presser when it is                                 ginning of sewing
+                     lowered at the begin-
+                     ning of sewing
+              P148   Height of the interme-     0 to 4             0.5        Intermediate presser height at the end
+                     diate presser when it is                                 of sewing
+                     lowered at the end of
+                     sewing
+
+
+
+
+                                                         – 40 –
+Classifica-
+                                                                   Standard
+tion of pa-    No.      Parameter name                Range                    Meaning of parameter and comment
+                                                                     value
+ rameters
+Automatic P161       Setting of the oscillating Normal / half cut / Normal
+machining            width of the presser foot increase
+                     at the beginning and
+                     end of sewing
+              P172   Intermediate presser is     Yes/No            Yes        Intermediate presser motor is reset at
+                     reset after the comple-                                  the end of sewing
+                     tion of operation
+              P248   Whether or not the shaft Yes/No               Yes
+                     travel is required before
+                     setting a reference
+              P252   Clamp opening error         Yes/No            No
+                     at the time of setting a
+                     reference
+              P794   Output IO 1 at the end      Yes/No            No
+                     of operation
+              P796                               High/Low          Low
+              P795   Output IO 2 at the end      Yes/No            No
+                     of operation
+              P797                               High/Low          Low
+Startup       P8     First stitch startup speed 100 to 3000        300        First stitch sewing speed
+speed                (r/min)
+              P9     Second stitch startup       100 to 3000       600        Second stitch sewing speed
+                     speed (r/min)
+              P10    Third stitch startup        100 to 3000       900        Third stitch sewing speed
+                     speed (r/min)
+              P11    4th stitch startup speed    100 to 3000       1500       4th stitch sewing speed
+                     (r/min)
+              P12    5th stitch startup speed    100 to 3000       2100       5th stitch sewing speed
+                     (r/min)
+              P170   Number of revolutions       100 to 3000       1200       Reverse feed stitching speed
+                     of the reverse feed
+                     stitching (r/min)
+              P13    Whether or not the soft     Yes/No            Yes        Whether the machine is started at a low
+                     start is required                                        speed
+              P162   Whether or not the soft     Yes/No            No         Whether the second stitch is sewn at a
+                     start is required for the                                low speed
+                     second stitch at the
+                     beginning of sewing
+              P163   Whether or not the sew- Yes/No                No         Two stitches at the end of sewing are
+                     ing speed reduction is                                   sewn at a low speed
+                     required for two stitches
+                     at the end of sewing
+Speed     P14        Maximum number of           100 to 3000       S: 3000    Maximum number of revolutions of the
+parameter            revolutions of the main                       H: 1800    main shaft
+                     shaft (r/min)
+              P15    Jump speed (mm/min)         100 to 40000      20000      Jump speed
+              P916   Inching speed of the        100 to 20000      5000       Travel speed during correction and cre-
+                     feed (mm/min)                                            ation of patterns
+              P160   Trial stitching speed       100 to 60000      8000       Demonstration speed
+                     (mm/min)
+              P17    Button sewing speed         100 to 20000      500        Eight direction keys support the case of
+                     1 after the button is                                    manual movement of the box or collec-
+                     pressed (mm/min)                                         tion of files
+                                                                              Operation speed using       icon
+              P18    Button sewing speed         100 to 20000      1500       Eight direction keys are supported
+                     2 after the button is
+                                                                              Operation speed using       icon
+                     pressed (mm/min)
+
+
+                                                          – 41 –
+Classifica-
+                                                                    Standard
+tion of pa-    No.      Parameter name               Range                       Meaning of parameter and comment
+                                                                      value
+ rameters
+Speed     P19        Button sewing speed        100 to 20000        8000        Eight direction keys are supported
+parameter            3 after the button is
+                                                                                Operation speed using        icon
+                     pressed (mm/min)
+              P174   Machine head 2 speed       0 to 2000           0           XY axes speed when using a laser knife
+                     (mm/s)
+              P175   Machine head 3 speed       0 to 2000           0           XY axes speed when using a laser knife
+                     (mm/s)
+              P178   Continuous inching         Reduce / mini-      Reduce      Travel speed during pattern creation
+                     speed                      mum / normal
+              P773   Number of revolutions      100 to 3000         0           Reverse feed stitching speed
+                     in the reverse direction
+                     (r/min)
+              P774   Number of stitches to be 0 to 30               0           Setting of the number of stitch from
+                     sewn at a limited speed                                    which the sewing speed is limited at the
+                     at the end of sewing                                       end of sewing a pattern
+              P775   Limited sewing speed to 100 to 1800            0           This parameter is used in combination
+                     be employed at the end                                     with P774 to obtain the specific limited
+                     of sewing                                                  speed value.
+Clamp         P22    Prohibition of sewing      Yes/No              Yes         Prohibition of sewing during lifting of the
+setting              during lifting of the                                      cassette clamp
+                     clamp
+              P25    Thread clamp starting      1 to 990            10          Thread clamp ON angle at the begin-
+                     angle at the beginning                                     ning of sewing
+                     of sewing
+              P26    Thread clamp ending        1 to 990            10          Thread clamp OFF angle at the begin-
+                     angle at the beginning                                     ning of sewing
+                     of sewing
+              P27    Thread clamp starting      1 to 990            15          Thread clamp starting angle during
+                     angle during thread                                        thread trimming
+                     trimming
+              P28    Thread clamp ending        1 to 990            180         Thread clamp ending angle during
+                     angle during thread                                        thread trimming
+                     trimming
+              P781   Whether or not the       Yes/No                No
+                     clamp is required during
+                     travel
+              P743   Delay in opening of the    0 to 5000           0
+                     double clamp (ms)
+              P744   Delay in lowering of the   0 to 5000           0
+                     double clamp (ms)
+Bobbin        P29    Bobbin winder status       Allowed / prohibit- Allowed     Bobbin winder
+winder                                          ed
+                                                                                Default state
+setting
+              P30    Winding speed (r/min)      100 to 4500         2200        Bobbin winding speed
+              P31    Bobbin winding time        1 to 63000          200         Time setting of bobbin winding
+                     setting (s)
+Reset         P36    Clamp at the time of       Yes/No              No          Cassette clamp comes down when
+setting              resetting                                                  returning to origin
+              P264   Clamp is opened after      Yes/No              Yes         Cassette clamp goes up when returning
+                     manual resetting                                           to origin by pressing the reset button
+              P38    Return-to-origin method XY simultaneous        XY simul-   "xy simultaneous" means that the x and
+                                             / X preference / Y     taneous     y axes are simultaneously reset to their
+                                             preference                         origins. "x preference" means that the
+                                                                                x axis is firstly reset to the origin, and
+                                                                                "y preference" means that the y axis is
+                                                                                firstly reset to the origin.
+
+
+
+                                                           – 42 –
+Classifica-
+                                                                       Standard
+tion of pa-    No.       Parameter name                 Range                        Meaning of parameter and comment
+                                                                         value
+ rameters
+Reset         P39     Return-to-origin speed       100 to 60000        15000        x, y axes speed during resetting to the
+setting               (mm/min)                                                      origin
+              P756-   Output I/O setting be-       OUT1 to OUT6 /      Not set      Setting of IO before resetting
+              P761    fore resetting               Not set
+              P762-                                High level / low    High level
+              P797                                 level
+              P649    Alarm in the case of a       Yes/No              No
+                      resetting error
+              P782-   Output IO setting after      OUT1 to OUT6 /      Not set      Setting of IO after returning to the origin
+              P787    resetting                    Not set
+              P788-                                High level / low    High level
+              P793                                 level
+Setting of    P40     Automatic thread trim-       Yes/No              Yes          Whether automatic thread trimming is
+stop                  ming during temporary                                         performed at temporary stop
+                      stop
+              P41     Needle position during       Upper stop posi-    Upper        Needle bar position when temporary
+                      temporary stop               tion / Lower stop   stop posi-   stop
+                                                   position            tion
+              P45     Temporary stop switch        Self lock / Normal Self lock     Soft type of temporary stop, self-lock-
+                      type                                                          ing and normal
+                                                                                    "Normal" automatically bounces when
+                                                                                    touched
+              P799    Presser foot is not lifted   Yes/No              No
+                      during temporary stop
+Statistics    P49     Bobbin thread remain-    Yes/No                  No           Whether the remaining amount of
+settings              ing amount is cleared at                                      bobbin thread is reset to 0 (zero) when
+                      the time of turning the                                       turning the power ON
+                      power ON
+              P50     Operation stops after        Yes/No              Yes          In the case of "Enable", the sewing ma-
+                      the bobbin thread has                                         chine stops when the consumed bobbin
+                      run out                                                       thread length has reached the "entire
+                                                                                    length".
+              P51     Bobbin thread counter        Yes/No              Yes          In the case of "Set", statistics automat-
+                      setting is enabled                                            ically indicate the consumed bobbin
+                                                                                    thread length
+              P46     Bobbin thread counter        Yes/No              Yes          Whether the sewing counter is reset to
+                      is cleared at the time of                                     0 (zero) when turning the power ON
+                      turning the power ON
+              P47     Operation continues          Yes/No              Yes          Whether the operation is continued after
+                      after the counter has                                         the sewing counter has reached the set
+                      reached the set value                                         value
+              P48     Counter setting is en-       Yes/No              Yes          Whether the sewing counter is enabled
+                      abled
+              P52     Working hours counter        Yes/No              Yes          In the case of "Enable", the machining
+                                                                                    time statistics function is enabled
+              P779    Bobbin thread count          IN1 to IN4 / de-    Default      Statics mode of the bobbin thread
+                      mode                         fault                            amount
+              P780    Adjustment value of          0 to 600000         0            Adjustment of the bobbin thread remain-
+                      the surplus amount of                                         ing amount
+                      bobbin thread (mm)
+
+
+
+
+                                                            – 43 –
+Classifica-
+                                                                     Standard
+tion of pa-    No.      Parameter name                Range                      Meaning of parameter and comment
+                                                                       value
+ rameters
+Thread     P54       Thread clamp position    0 to 200               0          Thread clamp position at the beginning
+clamp set-           at the beginning of sew-                                   of sewing
+ting                 ing
+              P236   Laser output IO             Yes/No              No         Laser output
+              P693   Enabling automatically      Yes/No              No
+                     changeable hook
+Detection     P55    Automatic detection of      Yes/No              Yes        In the case of "Detect", the operation is
+of thread            thread breakage                                            stopped and the description of error is
+breakage                                                                        displayed.
+                                                                                Thread breakage detection function
+              P56    Neglect of detection of     Provided / not      Provided   In the case of "Detect", thread trimming
+                     thread breakage             provided                       is automatically carried out after detec-
+                                                                                tion thread breakage
+                                                                                Thread breakage is followed by thread
+                                                                                trimming
+              P57    Detection is ignored for 1 to 255               3          For the number of stitches firstly set,
+                     the set number of stitch-                                  thread breakage will not be detected
+                     es during sewing
+              P58    Detection of the effec-     1 to 255            2          In the case thread breakage is detect-
+                     tive number of stitches                                    ed continuously to reach the specified
+                     in the case of thread                                      maximum number of broken stitches,
+                     breakage                                                   it is assumed that thread has broken
+                                                                                definitely.
+              P237   Thread breakage output Yes/No                   No
+                     IO
+Thread        P60    The number of revo-         10 to 500           260        Thread trimmer main shaft speed
+breakage             lutions of the thread
+setting              trimmer main shaft (r/
+                     min)
+              P61    Delay in the start of       0.01 to 6.55        0.01       Delay time at the start of thread trim-
+                     thread trimmer (s)                                         ming
+              P62    Continuous operating        0.01 to 6.55        0.15       Wiper operating time
+                     time of the wiper (s)
+              P63    Delay in the lifting of     0.01 to 6.55        0.25       Wiper OFF delay time
+                     presser foot after turn-
+                     ing OFF the wiper (s)
+              P65    Whether or not the       Yes/No                 Yes        Whether thread is trimmed at the time of
+                     thread is trimmed during                                   jump
+                     jump after sewing
+              P66    Whether or not the wip-     Yes/No              Yes        Whether the wiper is used
+                     er is used
+              P169   Thread slackening start     Angle / delay       Angle      Starting timing method for turning OFF
+                     mode                                                       the thread tension release mechanism
+              P168   Thread slackening an-       0 to 999            850        Thread tension release mechanism
+                     gle                                                        turning-OFF angle
+Energi-       P70    The sewing machine         Yes/No               Yes        Needle bar is at upper position when
+zation               is returned to the "stop                                   turning the power ON
+setting              with its needle up" state
+                     at the time of turning the
+                     power ON
+              P71    Clamp is automatically      Yes/No              No         Cassette automatically returns to its
+                     returned to its origin at                                  origin when turning the power ON
+                     the time of turning the
+                     power ON
+              P73    Presser foot is lifted at   Yes/No              Yes        Presser foot goes up when turning the
+                     the time of turning the                                    power ON
+                     power ON
+
+
+                                                            – 44 –
+Classifica-
+                                                                  Standard
+tion of pa-    No.      Parameter name              Range                      Meaning of parameter and comment
+                                                                    value
+ rameters
+Other         P74    Whether or not the air    Yes/No             No          In the case of "Enable", the sewing
+settings             pressure detection is                                    machine stops and generates the alarm
+                     required                                                 if the detected air pressure is low during
+                                                                              work
+              P75    Whether or not the        Yes/No             No          "Enable" means that cyclic machining of
+                     repetitive operation is                                  the same file is started after turning the
+                     required                                                 power ON
+              P76    Repetitive machining      1 to 65535         1440        Cyclic machining total time: When the
+                     time (min)                                               set time has elapsed, cyclic machining
+                                                                              is stopped
+              P77    Repetitive machining      0 to 20            2           Interval from the completion of machin-
+                     interval (s)                                             ing to re-starting of machining under the
+                                                                              cyclic machining mode
+Other         P78    Work ending position      Return to 0 (zero) Return to   Return to 0 (zero): All of x / y axes
+settings                                       / sewing starting  0 (zero)    coordinates return to 0 (zero); sewing
+                                               position / default             machine terminates sewing; reset point
+                                                                              Right side: Rightmost position within the
+                                                                              machining range
+                                                                              Sewing starting position: First sewing
+                                                                              point of the machining file
+                                                                              Default: The sewing machine stops after
+                                                                              the completion of machining
+              P395   Template recognition      Barcode / elec-    Electronic By serial number of file: Barcode identi-
+                     method                    tronic tag         tag        fication mode
+                                                                              By file name: Electronic tag identifica-
+                                                                              tion mode
+              P81    Interface style           Classic / simple   Classic     Classic: Button style of the virtual body
+                                                                              Simple: Flat button style
+              P681   Motion mode is started    XY simultaneous / XY simul-
+                     before operation          X precedence / Y taneous
+                                               precedence
+              P755   Jump mode during op-      X precedence / Y   X prece-    Jump travel mode
+                     eration                   precedence / XY    dence
+                                               simultaneous
+              P241   Connection to the ex-     Yes/No             No          In the case of "Use", information on the
+                     tended screen                                            operation file can be displayed on the
+                                                                              external add-on display
+              P79    Reverse feed after main 0 to 160             0
+                     shaft needle stops
+              P242   Voice prompt              High / medium /    OFF         "High", "medium" and "low" respectively
+                                               low / OFF                      refer to the magnitude of sound
+              P21    Enabling the memory       Enable / disable   Enable      After re-energization of the sewing
+                     function during power                                    machine, the sewing sequence carried
+                     failure                                                  out before power failure is resumed to
+                                                                              continue sewing from that interrupted
+                                                                              sequence.
+              P194   The file is enabled upon Enable / disable    Disable
+                     separation of the elec-
+                     tronic label
+
+
+
+
+                                                         – 45 –
+ 4-26. List of error codes
+
+Error code                 Error description                                           Solution
+  E001       No reset                                        Click the [Reset] button to reset.
+  E002       No X zero signal                                Inspect the X sensor for poor contact or breakage
+  E003       No Y zero signal                                Inspect the Y sensor for poor contact or breakage
+  E004       No Z zero signal                                Inspect the Z sensor for poor contact or breakage
+  E005       No U zero signal                                Inspect the U sensor for poor contact or breakage
+  E006       Extended shaft infinite bit signal              Inspect the shaft sensor for poor contact or breakage
+  E007       No spindle zero signal                          Check the spindle encoder for breakage
+  E020       X axis overpressure
+  E021       X axis undervoltage
+  E022       X axis hardware overcurrent
+  E023       X axis software overcurrent
+  E024       X axis encoder failure
+  E025       X axis open circuit
+  E026       X axis overload
+  E027       Position out of the X axis allowable range
+  E028       X axis AD sampling failed
+  E029       X axis overheat
+  E030       Y axis overpressure
+  E031       Y axis undervoltage
+  E032       Y axis hardware overcurrent
+  E033       Y axis software overcurrent
+  E034       Y axis encoder failure
+  E035       Y axis open circuit
+  E036       Y axis overload
+  E037       Position out of the Y axis allowable range
+  E038       Y axis AD sampling failed
+  E039       Y axis overheat
+  E040       Z axis overpressure
+  E041       Z axis undervoltage
+  E042       Z axis hardware overcurrent
+  E043       Z axis software overcurrent
+  E044       Z axis encoder failure
+  E045       Z axis open circuit
+  E046       Z axis overload
+  E047       Position out of the Z axis allowable range
+  E048       Z axis AD sampling failed
+  E049       Z axis overheat
+  E050       Thread trimming shaft overpressure
+  E051       Thread trimming shaft undervoltage
+  E052       Thread trimming shaft hardware overcurrent
+  E053       Thread trimming shaft software overcurrent
+  E054       Thread trimming shaft encoder failure
+  E055       Thread trimming shaft open circuit
+
+
+
+                                                          – 46 –
+Error code                 Error description                        Solution
+  E056       Thread trimmer overload
+  E057       Position out of the thread trimming shaft
+             allowable range
+  E058       Thread trimmer AD sampling failed
+  E059       Thread trimming shaft overheat
+  E060       Spindle overpressure
+  E061       Spindle undervoltage
+  E062       Spindle hardware overcurrent
+  E063       Spindle software overcurrent
+  E064       Spindle encoder failure
+  E065       Spindle cannot rotate
+  E066       Spindle rotation fault detected
+  E067       Y servo hardware protection
+  E068       Y servo HOC
+  E069       Y servo AD module initial calibration fault
+  E070       Y servo parameter storage exception
+  E071       Y servo system parameter fault
+  E072       Y servo AD sampling module failure
+  E073       Y servo encoder disconnection
+  E074       Y servo encoder AB interference
+  E075       Y servo encoder Z interference
+  E076       Y servo bus undervoltage
+  E077       Y servo bus overvoltage
+  E078       Y servo software overcurrent
+  E079       Y servo motor overload
+  E080       Y servo drive overload
+  E081       Y servo motor overheat
+  E082       Y servo drive overheat
+  E083       Y servo fan fault
+  E084       Y servo overspeed
+  E085       Position out of the Y servo allowable range
+  E086       Y servo bus voltage phase loss
+  E087       Y servo motor phase sequence error
+  E088       Y servo driver rated current input error
+  E089       Y servo brake resistor overload
+  E090       Y servo absolute encoder overheat
+  E091       Y servo battery voltage is low
+  E092       Y servo position information has been lost
+  E093       Y servo drive does not match the motor
+  E094       Y servo origin retrieval has failed
+  E095       Y servo main power supply failure
+  E096       Learning of the Y servo offset angle has
+             failed
+  E097       Y servo power OFF restart
+  E098       Y servo initialization LAN9252 error
+
+
+
+
+                                                           – 47 –
+Error code                   Error description                                           Solution
+  E099       Communication between the Y servo DSP
+             and ESC is interrupted
+  E100       Communication between the Y servo net-
+             work cable and host is interrupted
+  E101       Exclusive for reading the Y servo PDO com-
+             munication parameter
+  E102       Y servo PDO communication has no index
+  E103       Y servo PDO communication synchroniza-
+             tion time is out of range
+  E104       Y servo PDO communication data is out of
+             range
+  E105       Y servo UVW short circuit
+  E106       Y servo inertia identification has failed
+  E107       Y servo encoder EEPROM reading / writing
+             has failed
+  E108       Y servo positive position limit
+  E109       Y servo position negative limit
+  E110       Y servo electronic gear ratio range
+  E111       Y servo input pulse frequency is too high
+  E200       XY drive alarm
+  E201       X drive alarm
+  E202       Y drive alarm
+  E203       Spindle returns to the initial position
+  E204       Main motor direction is wrong
+  E205       Pressure frame fails to come down                 Click the "Press the frame" button to place the frame.
+  E206       Head board failure                                The head plate has broken. It is necessary to change the
+                                                               broken head plate with a new one.
+  E207       Input I/O timeout error                           Check whether the input IO has "high" or "low" of the input
+                                                               signal.
+  E208       Insufficient air pressure                         Check whether the air supply unit supplies air normally.
+  E209       Clipper motor is not at the correct position      Check whether the zero signal of the clipper motor is nor-
+                                                               mal.
+  E210       Presser motor is not at the correct position      Check that the zero signal of the presser foot motor is nor-
+                                                               mal.
+  E211       Wire grab motor is not at the correct posi-       Check whether the zero line signal of the wire grab motor
+             tion                                              is normal.
+  E212       Cutter is not at the correct position             Check whether the zero signal of the cutter motor is nor-
+                                                               mal.
+  E213       Wire breaks                                       Execute the thread again or turn OFF the wire break detec-
+                                                               tion function before proceeding the operation.
+  E214       Number of jobs is too many                        Counted value on the counter has reached the total
+                                                               number you have set. The total number on the counter is
+                                                               cleared and the counter re-starts counting by re-starting
+                                                               the operation.
+  E215       Bottom line has been already used up              It is necessary to change the bobbin thread hook.
+  E216       File size is too large                            The number of pins in the graphics file has exceeded
+                                                               the maximum range. The current graphics file must be
+                                                               changed with a new one.
+
+
+
+                                                            – 48 –
+Error code                  Error description                                           Solution
+  E217       Work file is not found                          It is necessary to re-scan or change over the graphics file.
+  E218       Waiting for the work data                       Queuing time for processing graphic data differs with the
+                                                             size of graphic
+  E219       Electrical failure. Contact the manufacturer.   Contact the manufacturer of the equipment
+  E220       Wrong upgrade file                              It is necessary to replace the upgrade file with the new
+                                                             upgrade file.
+  E221       Error has occurred during upgrading of the      It is necessary to select the correct type of upgrade file for
+             file type                                       the file to be upgraded
+  E222       Not yet upgraded                                Contact the manufacturer of the equipment
+  E223       It is not an upgrade file made by the same      Contact the manufacturer of the equipment
+             OEM
+  E224       Cannot be connected to the head board           Inspect the head board for poor contact of the head board
+                                                             connection line and / or breakage of the desk head plate
+  E225       Connect to the main board                       If the mother board for the display or the electric cord has
+                                                             broken though the screen line connection is neither poor
+                                                             nor broken, check that replacement of the broken part is
+                                                             necessary.
+  E226       The current file is not valid                   It is necessary to change the graphics file if the graphical
+                                                             file has broken or the file is not intended to be used with
+                                                             this system type.
+  E227       File transfer has failed                        If the mother board for the display or the electric cord has
+                                                             broken though the screen line connection is neither poor
+                                                             nor broken, check that replacement of the broken part is
+                                                             necessary.
+  E228       Data out of range                               Check whether the current graphics file data is defective
+                                                             exceeding the ignorable range.
+  E229       This adjustment angle is too large              Corrected graphic angle is too large.
+                                                             Decrease the changed angle value.
+  E230       Reading of graphics                             Process the necessary graphic data. Then, wait for a while
+                                                             before starting operation.
+  E231       Presser foot error                              Check whether the presser foot motor is normal.
+  E232       U disk has not been detected                    Re-insert the U disk or replace the U disk with a new one.
+  E233       File reading / writing error                    ① Replace the graphics file with a different one.
+                                                             ② Re-insert the U disk or replace the U disk with a new
+                                                               one.
+  E234       Graphics out of range or head offset            ① Reset the position of reference point.
+                                                             ② Reset the offset value of the head 2 or head 3.
+                                                             ③ Replace the small-width graphic with the normal-width
+                                                               graphic.
+  E235       This file is not a file to be processed         Replace the graphics file with a different one.
+  E236       Ferroelectric damage                            Contact the manufacturer of the equipment
+  E237       Set an administration password                  Firstly, set the administration password.
+  E238       Edit is not supported                           Command or file that is not required to be edited
+  E239       Contact the manufacturer                        Contact the manufacturer of the equipment
+  E240       Communication fault 2                           CAN communication error has occurred, or the mother-
+                                                             board program is old one.
+  E241       At the time of fault                            ① Time has been modified illegally.
+                                                             ② Motherboard battery voltage is low.
+
+
+
+                                                          – 49 –
+Error code                 Error description                                         Solution
+  E242       No job IO                                    ① Work enable input IO signal is abnormal.
+                                                          ② Shut down the "Work enable input IO" function. Set the
+                                                            parameter value to 0 (zero).
+  E243       Input waiting IO                             Waiting for the input IO signal in the graphics file.
+  E244       Delay is executed                            Delay command is executed with the graphics file.
+  E245       File name is too long                        It is necessary to shorten the file name.
+  E246       Lift the presser foot in advance             It is necessary to lift the presser foot by clicking the "Press-
+                                                          er foot" button.
+  E247       Frame is not pressed                         It is necessary to press the frame in advance.
+  E248       Auxiliary pressure frame is not pressed      It is necessary to firstly press the auxiliary pressure frame.
+  E249       Pressure frame and auxiliary pressure        It is necessary to push down all of the back pressure
+             frame are not pressed                        blocks.
+  E250       Punched bottom material has run out          It is necessary to replace the material to be punched with a
+                                                          new one.
+
+
+
+
+                                                       – 50 –
+5. MAINTENANCE OF SAWING MACHINE
+
+No.                  Region                                   Explanation                  Operating time
+1     The area under the throat plate, area Clean up the surface of equipment         Eight hours
+      surrounding the hook, bobbin case      with a tool such as an air gun. In
+      and its inner portion, thread trimming particular, clean up the regions in
+      area, needle bar area, areas inside which the aforementioned thread
+      and outside of the presser foot,       waste, thread end and other stains
+      openings of the electronic control     are likely to remain.
+      box such as air inlet and outlet, and
+      the regions in which thread waste,
+      thread end and other stains are likely
+      to remain.
+
+
+
+
+2     Lubricate the machine through the        1. Remove screw ❶ . Detach mid- According to the usage
+      Y-direction ball screw nut oil hole.        plate back cover ❸ .                 environment, the sewing
+                                               2. Enter the manual frame travel        machine may sew 100
+                                                  screen from the operation panel. million stitches.
+                                             ❶    Press key ❷ to move the X-di- (Lubrication should be
+                                                  rection linear module backward. carried out when one of
+                                                  In addition, move oil hole ❹ on the following conditions
+                ❶                                 the Y-direction ball screw nut       has been reached.)
+                                                  to the lower side of the middle      When the sewn number
+                             ❸                    plate rear cover.                    of stitches has reached
+                                               3. Aligning tip ❺ of grease-filled      100 million stitches; or
+                                 ❷                syringe (in Fig. 1) with oil hole    When the sewing ma-
+                                                  ❹ , add oil through the oil hole. chine has been used for
+                                               4. Lubricate each portions requir- three months
+                                                  ing lubrication at least five times.
+                    ❼                    ❻        The oil amount for each portion
+                                                  should not fall below 5cm3.
+                                               5. Every time the grease is added
+                                     ❹            through oil hole, press key ❻
+                                                  and ❷ several times to move
+                                     ❺            the Y ball screw nut back and
+                                                  forth to spread the lubricating
+                                                  oil over the clearance between
+                                                  balls.
+                                               6. After the completion of lubrica-
+                                                  tion, check to make sure that the
+                                                  grease exudes between the ball
+                                                  screw and the nut.
+                                               7. After the completion of lubrica-
+                                                  tion, move the rear cover of the
+                                                  middle plate to its home position,
+                                                  and tighten screw ❶ .
+                        Fig. 1                 8. Lithium based grease No. 2
+                                                  should be used as lubricating
+                                                  grease. Do not use it with mixed
+                                                  with other type of lubricating
+                                                  grease.
+
+
+
+
+                                                     – 51 –
+No.                 Region                                Explanation                  Operating time
+3     Lubricate the machine through X-di-   1. Detach rubber plug ❶ .               According to the usage
+      rection ball screw nut oil hole.      2. Enter the frame travel screen        environment, the sewing
+                                               from the operation panel. Press machine may sew 100
+                          ❽
+                                               key ❼ to move the pattern            million stitches.
+                                               presser device on the X-direc-       (Lubrication should be
+                                               tion linear module to the left. In carried out when one of
+                   ❼              ❻            addition, move oil hole ❹ on the the following conditions
+                                               X-direction ball screw nut to the has been reached.)
+                                               underside of hole ❷ in cover ❺ . When the sewn number
+                                            3. Aligning syringe tip ❸ with filler of stitches has reached
+                                               port ❹ , squeeze the syringe to 100 million stitches; or
+                                               add oil through the oil hole.        When the sewing ma-
+                                            4. Lubricate each portions requir- chine has been used for
+                                               ing lubrication at least five times. three months
+                                               The oil amount for each portion
+          ❺                                    should not fall below 5cm3.
+              ❹              ❶
+                       ❸❷                   5. Every time the grease is applied
+                                               through oil hole, press key ❻
+                    ❹
+                                               and ❽ several times to move
+                                               the X ball screw nut to the right
+                                               and left to spread the lubricating
+                                               oil over the clearance between
+                                               balls.
+                                            6. After the completion of lubrica-
+                                               tion, check to make sure that the
+                                               grease exudes between the ball
+                                               screw and the nut.
+                                            7. After the completion of lubrica-
+                                               tion, return rubber plug ❶ to its
+                                               original position.
+                                            8. Lithium based grease No. 2
+                                               should be used as lubricating
+                                               grease. Do not use it with mixed
+                                               with other type of lubricating
+                                               grease.
+
+
+
+
+                                                 – 52 –
+No.                   Region                                  Explanation                    Operating time
+4     Lubricate two Y-direction linear guide 1. Aligning needle tip ❶ with Y-di- 1. Replenish the ma-
+      sliders through their four oil holes.     rection linear guides ❷ , ❸ , ❹         chine with lubricating
+                                                and ❺ , squeeze the syringe             grease again after
+                                                to add oil to the oil hole of the       the equipment has
+                                    ❶           respective linear guides.               run 6400 km or for
+                                    ❷        2. Lubricate each portions requir-         five years.
+                                                ing lubrication at least five times. 2. According to the envi-
+                                                The oil amount for each portion         ronment of usage,
+                                                should not fall below 5cm3.             apply the lubricating
+                                             3. Every time the grease is applied        grease once every
+                                                through the oil hole, press the         three months or when
+                                  ❸
+                                                slider on the linear guide several      the sewing machine
+                          ❶                     times to spread the grease over         has sewn 100 million
+                             ❹                  the  clearance  between    balls.       stitches after the first
+                                             4. After a sufficient amount of            lubrication.
+                                                grease is added, check to make
+                                                sure that the grease exudes
+                                                between the ball screw and the
+                                                nut.
+                                             5. Lithium based grease No. 2
+                                                should be used as lubricating
+                              ❺                 grease. Do not use it with mixed
+                                                with other type of lubricating
+                                                grease.
+
+
+
+
+5     Apply oil to two oil holes of the X-di-   1. Aligning the tip of syringe with     1. Replenish the ma-
+      rection linear guide sliders.                oil holes ❶ and ❷ , squeeze the         chine with lubricating
+                                                   syringe to respectively add oil         grease again after
+                                                   through oil holes ❶ and ❷ until         the equipment has
+                                                   oil they are filled with oil once.      run 6400 km or for
+                                                2. Lubricate each portions requir-         five years.
+                                                   ing lubrication at least five times. 2. According to the envi-
+                                   ❷
+                                                   The oil amount for each portion         ronment of usage,
+                              ❶
+                                                   should not fall below 5cm3.             apply the lubricating
+                                                3. Every time the grease is added          grease once every
+                                                   through the oil hole, press the         three months or when
+                                                   slider on the linear guide sev-         the sewing machine
+                                                   eral times to spread the grease         has sewn 100 million
+                                                   sufficiently over the clearance         stitches after the first
+                                                   between balls.                          lubrication.
+                                                4. After a sufficient amount of
+                                                   grease is added, check to make
+                                                   sure that the grease exudes
+                                                   between the linear guide and the
+                                                   slider.
+                                                5. Lithium based grease No. 2
+                                                   should be used as lubricating
+                                                   grease. Do not use it with mixed
+                                                   with other type of lubricating
+                                                   grease.
+
+
+
+
+                                                     – 53 –
+No.                  Region                               Explanation                     Operating time
+6     Apply grease to the upper and lower 1. Loosen screw ❶ of the face        1. Replenish the ma-
+      covers of needle bar, needle bar       plate. Detach the face plate.        chine with lubricating
+      slide groove, guide frame groove of 2. Loosen and remove screw ❷ of         grease again after
+      the presser bar, presser bar, etc.     the needle bar upper bushing         the equipment has
+                                             and ❸ of the needle bar lower        run 6400 km or for
+                                             bushing.                             five years.
+                                          3. Align the grease gun oil hole     2. According to the envi-
+                                             with tapped holes ❷ and ❸ of         ronment of usage,
+                                             the upper and lower bushings of      apply the lubricating
+                                             the needle bar to lubricate.         grease once every
+                                    ❶     4. The oil amount to be added           three months or when
+                                                                          3
+                                             should not fall below 0.5cm .        the sewing machine
+                                          5. After the completion of lubrica-     has sewn 100 million
+                                             tion, tighten the screws of upper    stitches after the first
+                                             and lower bushings of the nee-       lubrication.
+                                             dle bar.
+                                          6. At the same time, apply an
+                                             appropriate amount of grease
+                                     ❷       to the needle bar slide groove,
+                                             needle bar guide frame grove,
+                                             presser bar, etc.
+                                          7. Lithium based grease No. 2
+                                             should be used as lubricating
+                                             grease. Do not use it with mixed
+                                             with other type of lubricating
+                                             grease.
+                 ❸
+
+7     Lubricate the hook oil tank.          1. Detach cover ❶ .                   If the oil level in the oil
+                                            2. Remove rubber plug ❷ of the oil tank drops below the
+                                               tank.                              lower scale marker,
+                                            3. Pour accessory (or specified) oil replenish the oil tank
+                                               to the oil tank through the rubber with the accessory (or
+                                               plug hole.                         specified) oil.
+                                            4. When the oil amount in the oil
+                                               tank reaches the upper scale
+                                               mark, stop pouring oil.
+                                            5. Return the rubber plug to and
+                                     ❶         return the cover to their original
+                                               positions.
+
+
+
+
+                                     ❷
+
+
+
+
+                                                 – 54 –
+No.                  Region                                  Explanation                 Operating time
+8     Adding the lubricating oil to the gear   1. Remove four screws ❶ . Detach Replenish the gear box
+      box.                                        hook cover ❷ .                     with No. 32 white oil if
+                                                  Remove six screw ❸ . Detach        the oil surface shown on
+                                                  gear box cover ❹ and gasket.       the level gauge falls be-
+                                               2. Pour No. 32 white oil to the gear low the lower scale mark
+                                                  box little by little.              A.
+                                               3. When the oil amount reaches
+                                                  the upper scale mark B of the
+           B                                      oil level gauge, stop pouring oil.
+                                               4. Return the cover and gasket of
+           A                                      the gear box, and hook cover to
+                                                  their original positions. Tighten
+                                                  the screw.
+
+                                       ❷
+
+
+
+
+                                         ❶
+
+
+
+
+                 ❸         ❹
+
+
+
+
+                                                    – 55 –
+  5-1. Troubles and corrective measures (Sewing conditions)
+
+       Trouble                            Cause                                      Corrective measures
+1. The needle thread ① Stitches are slipped at the start.           ◦ Adjust the clearance provided between the nee-
+   slips off at the                                                   dle and the hook.
+   start of bar-tack-                                               ◦ Set soft-start sewing at the beginning of sewing.
+   ing.               ② The needle thread remaining on the nee- ◦ Decrease the tension of the thread tension con-
+                        dle after thread trimming is too short.       troller No. 1.
+                                                                    ◦ Increase the tension of the thread take-up spring.
+                      ③ The bobbin thread is too short.             ◦ Decrease the bobbin thread tension.
+                                                                    ◦ Increase the clearance between the needle and
+                                                                      the counter knife.
+                      ④ Needle thread tension at 1st stitch is too ◦ Decrease the needle thread tension at 1st stitch,
+                        high.                                         and extend the duration of the AT operation at the
+                                                                      beginning of sewing.
+                      ⑤ Stitching pitch at 1st stitch is too small. ◦ Make the stitching pitch at 1st stitch longer.
+                                                                    ◦ Decrease the needle thread tension at 1st stitch.
+
+2. Thread often        ① The hook or the inner hook holder has       ◦ Remove the hook and grind hook or the inner
+   breaks or syn-        scratches.                                    hook holder with a fine grind stone or buff them.
+   thetic fiber thread ② The needle hole guide has scratches.        ◦ Buff the needle hole guide or replace it with a
+   splits finely.                                                      new one.
+                       ③ Thread enters the groove in the hook.       ◦ Detach the hook to remove the thread.
+                       ④ The needle thread tension is too high.      ◦ Decrease the needle thread tension.
+                       ⑤ The tension of the thread take-up spring    ◦ Decrease the tension of the thread take-up
+                         is too high.                                  spring.
+                       ⑥ The synthetic fiber thread melts due to     ◦ Use the optional needle cooler.
+                         heat generated on the needle.
+                       ⑦ When taking up the thread, the needle       ◦ Check the rough state of needle tip.
+                         tip penetrates the thread.                  ◦ Use the ball-pointed needle.
+
+3. The needle often    ① The needle is bent.                         ◦ Replace the bent needle.
+   breaks.             ② The needle comes in contact with the        ◦ Adjust the position of the intermediate presser.
+                         intermediate presser.
+                       ③ The needle is too thin for the material.    ◦ Replace it with a thicker needle according to the
+                                                                       material.
+                       ④ Clearance between the needle and the        ◦ Adjust the clearance between the needle and the
+                         hook is too small.                            hook.
+
+4. Threads are not     ① The counter knife is dull.                  ◦ Replace the counter knife.
+   trimmed.            ② Knife pressure of the counter knife is      ◦ Adjust the knife pressure of the counter knife.
+                         low.
+                       ③ The counter knife has been improperly       ◦ Correct the position of the counter knife.
+                         positioned.
+  (Bobbin thread       ④ The last stitch is skipped.                 ◦ Correct the timing between the needle and the
+  only)                                                                hook.
+                       ⑤ Bobbin thread tension is too low.           ◦ Increase the bobbin thread tension.
+                       ⑥ Flopping of cloth                           ◦ Lower the intermediate presser height.
+
+5. Stitch skipping     ① Clearance provided between the needle       ◦ Adjust the clearance between the needle and the
+   often occurs.         and the hook is not correct.                  hook.
+                       ② Position of the inner hook holder against   ◦ Adjust the position of the inner hook holder
+                         the needle is not correct.                    against the needle.
+                       ③ The needle is bent.                         ◦ Replace the bent needle.
+                       ④ The needle thread after thread trimming     ◦ Decrease the tension of the thread take-up
+                         is too long.                                  spring.
+                                                                     ◦ Increase the tension of the thread tension control-
+                                                                       ler No. 1.
+
+6. The needle thread ① The needle thread tension is not high      ◦ Increase the needle thread tension.
+   comes out on the    enough.
+   wrong side of the ② The needle thread after thread trimming is ◦ Increase the tension of the thread tension control-
+   material.           too long.                                    ler No. 1.
+
+7. Threads break       ① The knife has been improperly position.     ◦ Correct the position of the knife.
+   at time of thread
+   trimming.
+
+
+
+                                                          – 56 –
+       Trouble                           Cause                                       Corrective measures
+8. Thread end of the ① Stitch skipping at the 1st stitch.           ◦ Increase the length of needle thread remaining at
+   1st stitch comes                                                   the needle after thread trimming.
+   out on the right    ② Needle used and thread used are thick      ◦ Change the current intermediate presser with
+   side of the materi-   in terms of the inner diameter of the        another one which has a larger inner diameter.
+   al.                   intermediate presser.
+                       ③ Intermediate presser is not properly       ◦ Adjust the eccentricity between intermediate
+                         positioned in terms of the needle.           presser and needle so that needle enters in the
+                                                                      center of intermediate presser.
+                      ④ The direction of air blower is incorrect.   ◦ Adjust the air-blowing direction of the air blower
+                        As a result, needle thread at the tip of      according to the direction of sewing so that the
+                        needle cannot be clamped with the disc        needle thread at the tip of needle can be clamped
+                        presser.                                      with the disc presser.
+
+9. The needle thread ① The clearance provided between the           ◦ Adjust the clearance provided between the inner
+   is entangled in the inner hook holder and the inner hook is        hook holder and the inner hook appropriately
+   inner hook holder.  too small.                                     according to the thickness of needle thread to be
+                                                                      used.
+
+10. The knotting       ① The bobbin runs idle excessively.          ◦ Adjust the height of idling prevention spring of the
+    section of bobbin                                                 bobbin case appropriately.
+    thread at 2nd      ② Bobbin thread tension is too low.          ◦ Increase the bobbin thread tension.
+    stitch at the sew- ③ The needle thread tension at 1st stitch is ◦ Decrease the needle thread tension at 1st stitch.
+    ing start appears    too high.
+    on the right side.
+
+
+
+
+                                                          – 57 –
+    5-2. Disposal of batteries
+
+         The operation panel has a built-in battery in order to operate the clock even when the power is
+         turned OFF. Be sure to dispose of the battery following the local laws and regulations.
+
+
+■ How to remove the battery
+                                                      1) Release lock ❶ of the door at the back or side
+                                                         face of the sewing machine to open the door.
+
+
+
+
+                                                 ❶
+
+
+
+
+                                                       2) Remove cover setscrews ❷ of electrical box ❸
+                                                 ❸        that is located inside the door. Then, detach the
+                                                          front cover of the electrical box.
+
+❷                                                ❷
+
+
+
+
+                                                       3) Slide stopper A of battery ❹ in the direction of
+                                                          the arrow to detach battery ❹ .
+
+
+
+
+              A                              ❹
+
+
+
+
+                                                  – 58 –
+6. SUBCLASS MODEL
+
+6-1. Barcode reader
+
+     WARNING :
+     Be sure to turn OFF the power supply and air supply to the sewing machine before attaching the
+     parts in order to protect against accidents caused by an unintended start of the sewing machine.
+
+                                                    1. Installing the parts
+                                                    1) Secure barcode reader ❷ and mounting plate ❶
+                         ❸
+                                                       with screw ❹ .
+       ❸
+                                                     No.    Part number     Part name            Quantity
+                                                        ❶   40234788        Barcode reader              1
+         ❾
+                                                                            mounting plate
+                                ❶                       ❷   40235199        Barcode reader              1
+                                                        ❸   40234468        Screw                       4
+                                                        ❹   40235200        Screw                       2
+                                                        ❺   40235332        Cable clip band             1
+                                         ❷
+                                                        ❻   40235331        Barcode                     1
+
+         ❼                                              ❼   40234514        Washer                      2
+                                                        ❽   40240831        Mounting plate              1
+
+
+   ❹            ❼
+                                                    2) Detach screws ❾ (four pieces) of the operation
+                                                       panel mounting base. Install mounting plate ❶
+                                                       under the operation panel mounting base with
+                                                       screws ❸ (two pieces).
+                                                       Install mounting plate ❾ under the operation pan-
+                                                       el mounting base with screws ❸ (two pieces).
+                                     ❺
+               ❽
+
+
+
+
+                                                    3) Adjust the position of barcode reader ❷ so that it
+                                                       is spaced 60±5 mm. Then, secure it with screw ❹ .
+                                                       Connect the plug of barcode reader to the pan-
+                                                       el. Pass cable clip band ❺ through the hole in
+                                                       mounting plate ❶ and bundle the barcode reader
+                                                       cable with the cable clip band.
+                                60±5mm
+                                                              When bundling the barcode cable, slightly
+                                                              loosen the cable near the barcode reader.
+
+
+                                               – 59 –
+                     4) Take out a seal from barcode seals ❻ provided.
+
+
+                              One hundred barcode seals (with serial
+                              numbers from 001 to 100) are provided.
+
+
+
+
+ ❻
+
+
+
+                     5) Stick the barcode seal to the cassette at the posi-
+        250 mm          tion that is 250 mm left from the center of cassette
+30 mm                   (setup guide) and 30 mm below the upper side of
+                        cassette.
+
+
+                              The aforementioned sticking position is
+ ❻                            recommended. It is acceptable to stick
+                              the barcode seal at any position that will
+                              not interfere with the recognition of the
+                              barcode seal by the barcode reader.
+
+
+
+
+                 – 60 –
+                    2. Setting the barcode functions
+                    ● Setting the barcode functions on the oper-
+                      ation panel
+                    1) Press button A.
+
+
+
+
+A
+
+                    2) Press button B.
+                       In the default state, the factory-set password is
+                       provided. The password is "11111111".
+
+
+
+
+    B
+
+                    3) Press button C.
+
+
+
+
+        C
+
+                    4) To allow the barcode reader to recognize the
+                       template, change D from "Electronic identification
+                       label" to "Barcode".
+                       Then, press E.
+                  E
+
+
+
+
+            D
+
+
+
+
+                – 61 –
+                    ● Setting the barcode number
+                    1) Press button A.
+
+
+
+
+A
+
+                    2) Press button B.
+
+
+
+
+    B
+
+
+                    3) Select the sewing pattern file you want to read
+                       and press button C.
+
+
+
+
+            C
+
+
+                    4) Press button D.
+                       Save the data.
+
+
+
+
+        D
+
+
+
+
+                – 62 –
+● Cancelling the barcode number
+
+When you want to cancel the barcode reader number, it is necessary to set the current number to the largest
+value (the largest one of unassigned numbers, such as 100) first. Then, change that number to "0".
+
+Example)
+      1  2 3       4       5                    6       When the number "3" is changed to "0", the subse-
+					      ↓                                            quent numbers registered "4, 5 and 6" will also be
+			0		                                                  erased.
+					
+      1  2 3       4       5                    6       To prevent the aforementioned erasure of registered
+					      ↓                                            numbers you do not want to erase, firstly set the bar-
+			7		       (or 8 to 100)                              code number to the largest available value "7", then
+                                                        change it to "0".
+
+
+● How to use the barcode reader
+
+  A                                         B
+                                                        1) Press button A to lock the pattern conversion.
+
+
+                                                                 The barcode is enabled by locking the
+                                                                 pattern conversion.
+                                                                 When the pattern conversion is locked,
+                                                                 pattern list B changes its color to gray.
+
+
+
+
+                                                        2) Place the barcode seal in the cassette right under
+                                                           the barcode reader.
+                                                           When the barcode reader recognizes the bar-
+                                                           code, the barcode reader beeps.
+
+
+                                                                 If the barcode reader does not beep,
+                                                                 adjust the vertical position of the
+                                                                 barcode reader.
+                                                                 If the pattern is not converted even when
+                                                                 the barcode reader beeps, check the self
+                                                                 lock.
+
+
+
+
+                                                        3) Check whether the pattern is converted appropri-
+                                                           ately.
+
+
+
+
+                                                    – 63 –
+  6-2. Rotary knife
+
+6-2-1. Safety precautions
+
+
+
+
+                                                             Putting a hand here is pro-
+                                                              hibited in order to protect
+                                                             against cuts and laceration.
+
+
+
+       1. Anyone other than the workers (persons concerned) is prohibited from touching the machine
+          during installation and adjustment procedures.
+       2. Keep your hands away from the moving parts in order to protect against cuts while the knife
+          is in operation.
+       3. Direct contact with the blade point of the counter knife and moving knife is prohibited in order
+          to protect against scrapes and scratches.
+
+
+
+
+                                                 – 64 –
+6-2-2. How to carry out coaxial adjustment
+
+
+                Counter knife device                                     Moving knife device
+
+
+                                   ❶
+                                                                                      ❺
+
+                                       ❷
+
+                                                                                            ❹
+
+
+
+
+                                       ❸
+                                                                    ❶
+
+
+1) Turn OFF the power and air.
+2) Detach upper fixing plate ❷ , lower fixing plate ❹ , timing belt cover ❶ , moving knife cover ❺ and knife
+   clamp ❸ .
+
+                                                        3) Detach the moving knife components (clamp plate
+                                       ❻                   ❼ (one piece), one moving knife ❻ (one piece)
+                                                           and setscrews ❽ (two pieces)).
+
+               ❼
+
+               ❽
+
+
+
+
+                                                        4) Loosen setscrews ❾ (two pieces). Detach the
+                                       ❾                   counter knife asm.
+
+
+
+
+                                                   – 65 –
+                                                                                     5) Loosen setscrews 
+                                                                                       (seven pieces) of the
+                                                                                        counter knife unit.
+
+
+
+
+                                                                
+
+
+
+
+                                                                
+
+
+
+
+6) Fit the bushing jig into the moving knife shaft. Push down link  of the counter knife unit to put the coun-
+   ter knife shaft into the bushing jig.
+
+
+                                                      7) Remove reposition spring  of the moving knife. Lift
+                                                         up the drive motor.
+                                                      8) Lifting bushing jig  while taking care to prevent it
+                                                         from interfering with the flat portion of moving knife
+                                                         shaft  / counter knife shaft  , adjust the position
+                                                         of the counter knife unit so that the bushing shaft
+                                                         lightly moves up and down and also lightly moves in
+                                                         the direction of rotation.
+                                                         Temporarily tighten the setscrew No. 4 of the counter
+                                                         knife unit.
+                                                     9) Put reposition spring  on the spring hook. Turn ON
+                                                         the power and air to the sewing machine. Reset the
+                                                        origin.
+
+                           ① Lightly moves
+                             up and down
+                          ② Lightly moves
+                             in the direction
+                         ②   of rotation
+
+          ①
+
+
+           
+
+
+                                                     – 66 –
+10) After resetting, proceed to the next page of the operation panel. ⇒
+    Press the "OUT1 (for single-substrate type machine head) / OUT 9 (for double-substrate type machine
+    head)" to bring the tip of the counter knife shaft and that of the moving knife shaft closer to each other
+    while fitting the bushing jig in position. v
+
+
+
+
+11) Press the manual feed. ⇒ , press the "shaft 2+ / shaft 2 -" button to turn the rotary knife for lifting the
+    bushing jig as No. 6. Now, check that the bushing jig freely drops in each of the four directions (0 °, 90 °,
+    180 °, 270 °) and that it rotates smoothly.
+    If any malfunction occurs, adjust the position of the counter knife unit.
+                                                                   12) Check the operation status of the bush-
+   0°                            90°
+                                                                        ing jig respectively in the aforemen-
+                                                                        tioned four directions. Then, securely
+                                                                        tighten the setscrew No. 4.
+                                                                     The position of the bushing jig may
+                                                                     slightly shift from the adjusted position by
+                                                                     securely tightening the setscrew No. 4. It
+                                                                     is therefore necessary to check that the
+                                                                     bushing jig smoothly rotates in the afore-
+   180°                          270°                                mentioned four directions respectively.
+
+
+
+
+          Longer service life of the moving knife and counter knife is ensured provided that the mainte-
+          nance workers from the manufacturer or the maintenance workers who have been trained with
+          the related technology adjust the knife pressure optimally.
+
+
+
+
+                                                     – 67 –
+6-2-3 How to adjust the timing belt tension
+  ❶            Motor shaft                                                                   Measure the belt tension
+                                                       ❶
+                                                                                             with a thrust meter and a
+                                                                                             pair of vernier calipers. If
+                                                                                             the belt tension falls out of
+                                                                                             the specification, loosen
+                                                                                             motor fixation screws ❶
+
+                                          0.5 to 1mm
+                                                                                             (four pieces) and adjust
+                                                                                             the position of the motor
+                                                                                             appropriately.
+
+
+
+                                                       Thrust: 500 g
+
+
+               ❶             ❶
+
+
+6-2-4 How to adjust he knife pressure
+                                   6-2-4-1. Adjusting the mounting position of the moving
+                                            knife
+                                                   Install the moving knife vertically while shifting it toward the
+                                                   blade portion (in the direction of the arrow) so as to prevent the
+                                                   blade portion of the moving knife from coming in contact with
+                             * Note                the knife pressure adjustment screw of the counter knife.
+                                                   *Note: Do not allow the moving knife to interfere with the screw.
+
+
+
+
+6-2-4-2. Adjusting the direction of installation of the moving knife
+Turn ON the power and air to the sewing machine. Reset the origin.
+Shift setscrew ❸ of the moving knife toward the far side of the sewing machine. Check to make sure that the
+moving knife is in parallel to the end face of the unit by observing the scale marks of scale ❷ .
+If the moving knife is not in parallel with the end face of the unit, adjust the parallelism between them by loos-
+ening clamp screws ❶ .
+
+
+
+                                                                                           ❸
+                                                                                ❷
+
+
+
+
+                                                                                             Parallelism adjustment
+
+
+
+                                      ❶
+
+
+
+                                                                  – 68 –
+                               6-2-4-3. Position of the knife pressure adjust-
+                                        ment screw of the counter knife
+                               Adjust the position of the knife pressure adjustment
+                               screw so that it does not protrude the end face of the
+                               counter knife.
+
+
+
+
+               ❶
+
+
+
+
+                               6-2-4-4. Position of the knife pressure adjust-
+                                        ment screw of the counter knife
+
+                       ❶       Temporarily tighten setscrew ❸ to allow the counter
+                               knife to be pressed against two portions ❹ of mount-
+                               ing base ❷ .
+                               Loosen connection screw ❶ . Turn the counter knife
+                               shaft by hand to adjust so that the counter knife is
+                               almost in parallel with the moving knife.
+                               Under the operation panel manual mode, press the
+                               OUT1 (before the port change) / OUT9 (after the
+                               port change) button to place it in the ON state. Bring
+               ❹
+                               the moving knife closer to the counter knife. Adjust
+                               the parallelism between them.
+❷                  ❸
+
+                                        Under the operation panel manual mode,
+                                        press the "OUT1 (before the port change)
+                                        / OUT9 (after the port change)" button to
+                                        place it in the ON state. Bring the moving
+                                        knife closer to the counter knife. Adjust
+                                        the parallelism between them.
+
+
+
+
+    Parallel
+
+
+
+                           – 69 –
+6-2-4-5. Adjustment of the height of the counter knife and moving knife
+
+
+                                                                                                                             ❸
+
+
+
+
+                                             At the time of shipment: 3 mm
+                                       ❶
+
+                                                                                                                              ❹
+
+
+
+                                                                                           3 mm or less
+
+
+  Cylinder lifting plate                                                                                                    ❺
+                                                                                  Interference with                                ❻
+                                                                                  the top surface of
+                                                                                  the lower cassette
+                                                                                  must be prevented.                        Moving knife
+
+1) Loosen setscrews ❶ and ❷ of the counter knife base. Adjust the height of the counter knife.
+2) In the normally shipped state, the sewing machine has been factory-adjusted so that the height of the
+   blade point (lower end point) of the counter knife is 3 mm above the top surface of lifting plate ❺ .
+   If the total thickness of material ❹ and lower cassette ❻ is 3 mm or less, adjustment of the height of
+   counter knife ❸ will not be necessary.
+   If this total thickness exceeds 3 mm, it will be necessary to adjust the height of counter knife ❸ . (Up to 5.5
+   mm)
+
+                                                                                 3) After you have adjusted the counter knife to an
+                                   ❷                                                appropriate height, tighten first setscrew ❷ so
+                                                                                    that it is flush with the flat part of the counter knife
+         ❶
+                                                                                    shaft. Then, tighten setscrew ❶ .
+                                                                                    (Fix setscrew ❷ on the flat part of the counter
+                                                                                    knife shaft.)
+
+
+
+
+                                                                                 4) After you have adjusted the height of the counter
+                                                                                    knife, adjust the height of drive motor lifting stop-
+                                                                                      per ❼ so that the engagement amount between
+      0.5 mm to 1 mm                                                                  the moving knife and the counter knife is 0.5 to 1
+                                                                                      mm.
+                                                                                              Lifting the drive motor by hand, check to
+                                                                                              make sure that the square portion of the
+                                                                                              moving knife blade does not interfere
+                                       ❼                                                      with the top surface of the lower cassette
+                                                                                              when the moving knife is at its lower
+                                                                                              dead point.
+                                     Drive motor
+
+
+
+
+                                                                             – 70 –
+                                                             6-2-4-6. Adjusting the knife pressure
+                                                             Under the manual mode, press the axis 2 button.
+                                                             Turn the knife to change its direction so as to allow
+                                                             easy adjustment.
+                                                             Push a hexagonal wrench key into the slot in the set-
+                                                             screw (in the direction of the left arrow) and loosen
+                                                             the setscrew until the counter knife is aligned with
+                                                             the moving knife while lifting the setscrew in the
+                                                             direction of the up arrow to allow the counter knife to
+                                                             be pressed against the mounting base.
+                              Press against
+                                                             After you have loosened the setscrew, push the ad-
+                                                ❶            justment screw keeping the setscrew held loosened.
+
+            ❷                                                           Target knife pressure is 0 (zero). (So that
+                                                                        the moving knife comes in slight contact
+                                                                        with the counter knife)
+
+                                                             After you have pushed the adjustment screw, tighten
+                                                             the setscrew.
+                                                             Adjust the counter knife and the moving knife until
+                                                             they are aligned well with each other.
+
+
+
+
+6-2-4-7. Cutting test
+After you have adjusted the knife pressure, try to cut the material.
+If the knife fails to cut the material, it will be necessary to re-adjust the knife pressure to a slightly higher val-
+ue than the adjustment value given in「6-2-4-6. Adjusting the knife pressure」p.71.
+
+          In order to ensure the service life of the moving knife and counter knife, it is recommended that
+          a profession engineer carries out adjustment of the knife pressure so as to adjust the knife
+          pressure to the best-suited value.
+
+
+
+
+                                                        – 71 –
+6-2-5. Changing the moving knife
+Loosen two screws (rotary moving knife parts catalog number 53) on the moving knife. Detach the moving
+knife and change it with a new one. Then, tighten the aforementioned two screws. When you attach a moving
+knife, take care to attach it so that its bottom portion comes in contact with the moving knife rod without fail.
+
+
+6-2-6. Adjusting the operating speed of template when the knife operates
+                                                                                                    ❷
+
+
+
+
+  ❶                                 ❸
+
+
+
+
+                                                                                                  ❹
+                       ❺
+                                                          Start the machine and proceed to the main inter-
+                                                          face. Then, click "Menu" ❶ . Click "Param File" ❷ ,
+                                                          "Speed param" ❸ , and click the "Next" ❹ . Then,
+                                                          adjust the "Head 2 speed (mm/s)" parameter value
+                                                          as shown in ❺ . When you want to adjust the relat-
+                                                          ed parameter(s), contact the manufacturer or the
+                                                          professional worker who is an expert on the related
+                                                          technology (The Head 2 speed has been factory-set
+                                                          to 40 mm/s at the time of shipment).
+
+
+
+
+                                                     – 72 –
+6-2-7. Usage instructions
+
+6-2-7-1. Creating patterns
+When you want to create a knife pattern, take care to ensure that the shortest distance of 3 mm or more is
+provided from the knife locus line to the seam line. Sewing patterns are created using the Layer 1, and knife
+patterns are created using the Layer 2.
+
+6-2-7-2. Installing the sewing software
+Open the exclusive rotary knife sewing software. Select the file and click it to open. Select the file you want
+to edit. Set a graphic of the knife you want to use to the Layer 2 (as shown in Fig. 1). Double-click on Layer 2
+to open the interface (as shown in Fig. 2). Change the Head 1 with the Head 2. Then, confirm with a click on
+the OK button to complete the procedure.
+
+
+
+
+                                                                     Fig. 2
+
+
+
+
+                                                     Fig. 1
+
+
+
+
+                                                    – 73 –
+6-2-7-3. Setting the references
+
+                                              Start the machine and proceed to the main interface.
+                                              Then, click "Next" ❶ . Click "Move frame" ❷ , "Head
+                                              Offset" ❸ , and the "Head 2 displacement". Enter
+                                              "98.5" in the X-axis direction field and "54.5" in the
+                                              Y-axis direction field (The head 2 position should be
+                                              adjusted according to the cutting position and the
+                                              displacement of sewing position. The smaller the
+                                              X-axis travel amount is entered, the more the knife
+                                              position is moved to the left. The smaller the Y-axis
+                                              travel amount is entered, the closer the sewing posi-
+                                      ❶       tion that faces to the knife position is brought to the
+                                              work position).
+
+
+
+
+                                  ❷
+
+
+
+
+  ❸
+
+
+
+
+                                          – 74 –
+6-2-8. Definition of the electrical control buttons
+OUT9      Lifting / lowering of the rotary counter knife / moving knife
+OUT11     Starting the cutting operation of the rotary moving knife
+OUT12     Lifting / lowering of the clamp foot of the rotary counter knife
+
+
+
+
+6-2-9. Function-related precautions
+
+
+
+
+1. Do not cut a graphic that has a corner R of which is less than 5 (radius is less than 5 mm)
+2. When cutting a graphic that has no corner with an excessive R, it is possible to cut it without interrupting
+   the cutting operation at connection points provided that the angle is 135 ° or more. If the angle is less than
+   135 °, the connection points intersect with each other at the position that is 0.1 mm ahead of them (as
+   shown in the figure).
+3. From the beginning to the end of cutting, cutting effect will be maximized by extending or shortening the
+   cutting lines according to the specific effect of cutting. (Extend or shorten the length of cutting lines when
+   cutting a graphic)
+
+
+
+
+                                                     – 75 –
+

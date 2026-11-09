@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Preview Katalog Sistem Jarum — Garment Tech</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.needle_systems.proposed.css">
+<style>
+body { padding: 16px; }
+.preview-label {
+    max-width: 1080px;
+    margin: 12px auto;
+    padding: 10px 14px;
+    background: #fff8e8;
+    border: 1px solid #f3d89b;
+    border-radius: 8px;
+    color: #704b00;
+    font-weight: 700;
+}
+.admin-actions, .filter-actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 14px 0;
+}
+</style>
+</head>
+<body class="needle-systems-page">
+
+<div class="preview-label">
+    PREVIEW — DATA CONTOH, BUKAN DATA DATABASE AKTIF
+</div>
+
+<main class="container">
+<a class="back" href="#">← Kembali ke halaman utama</a>
+
+<header>
+    <h1>🪡 Katalog Sistem Jarum</h1>
+    <p>Referensi sistem jarum mesin jahit industri berdasarkan data Garment Tech.</p>
+    <p><strong>Jumlah data:</strong> 4 sistem contoh</p>
+    <div class="note">
+        Status verifikasi menunjukkan batas bukti yang tersedia.
+        Periksa manual resmi mesin sebelum memilih jarum.
+    </div>
+</header>
+
+<div class="admin-actions">
+    <a href="/admin/needle-systems/add">+ Tambah Sistem Jarum</a>
+    <a href="/admin/needle-series">Kelola Master Seri</a>
+</div>
+
+<div class="system-card" role="status">
+    ✓ Perubahan sistem jarum berhasil disimpan.
+</div>
+
+<section class="system-card">
+    <h2>Cari Sistem Jarum</h2>
+    <div class="field">
+        <label class="label">Kata kunci</label>
+        <input type="search" placeholder="Contoh: DB×K5, lockstitch, obras...">
+    </div>
+    <div class="field">
+        <label class="label">Filter merek</label>
+        <select><option>Semua merek</option><option>ORGAN</option></select>
+    </div>
+    <div class="field">
+        <label class="label">Jenis jahitan</label>
+        <select><option>Semua jenis</option><option>Lockstitch</option></select>
+    </div>
+    <div class="field">
+        <label class="label">Seri jarum</label>
+        <select><option>Semua seri</option><option>DB×1</option></select>
+    </div>
+    <div class="field">
+        <label class="label">Kategori mesin</label>
+        <select><option>Semua kategori mesin</option></select>
+    </div>
+    <div class="filter-actions">
+        <button id="searchButton" type="button">🔍 Cari</button>
+        <button id="resetButton" type="button">↺ Reset</button>
+    </div>
+</section>
+
+<article class="system-card">
+    <h2>DB×1</h2>
+    <div class="field"><span class="label">Merek:</span> ORGAN</div>
+    <div class="field"><span class="label">Nama alternatif:</span> 16×231</div>
+    <div class="field"><span class="label">Jenis jahitan:</span> Lockstitch</div>
+    <div class="field"><span class="label">Kategori mesin:</span> Mesin jahit jarum satu</div>
+    <div class="field"><span class="label">Deskripsi:</span> Contoh tampilan data sistem jarum.</div>
+    <div class="field">
+        <span class="label">Status verifikasi:</span><br>
+        <span class="status">Belum diverifikasi</span>
+    </div>
+    <div class="field"><span class="label">Catatan verifikasi:</span> Perlu pemeriksaan manual mesin.</div>
+    <div class="field"><span class="label">Sumber utama:</span><br><a class="link" href="#">Contoh sumber</a></div>
+    <div class="field"><span class="label">Referensi silang:</span><br>Belum tersedia</div>
+    <p><a href="/admin/needle-systems/1/edit">Edit Sistem Jarum</a></p>
+    <button name="confirm-delete-needle" type="button">Hapus Sistem Jarum</button>
+</article>
+
+<article class="system-card">
+    <h2>DP×5</h2>
+    <div class="field"><span class="label">Merek:</span> SCHMETZ</div>
+    <div class="field"><span class="label">Jenis jahitan:</span> Lockstitch</div>
+    <div class="field"><span class="label">Kategori mesin:</span> Mesin jahit industri</div>
+    <div class="field"><span class="label">Status verifikasi:</span><br><span class="status">Perlu verifikasi</span></div>
+</article>
+
+</main>
+</body>
+</html>

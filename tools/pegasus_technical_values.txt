@@ -1,0 +1,696 @@
+
+======================================================================
+M922 | M922-A-02
+https://www.pegasus.co.jp/en/machine/detail/series/s106/M922-A-02
+HTTP: 200
+- Fully-automatic ・6,000 sti/min | M900neo series catalog | Specifications
+- Stitch length adjustment | Push-button | Differential feed ratio adjustment
+- Differential feed ratio adjustment | Lever | Lubricaｔion
+- Lubricaｔion | Fully-automtic | Fabric Weight
+- Fabric Weight | Light～Medium | Max. machine speed(sti/min)
+- Max. machine speed(sti/min) | 6,000 | No. of needles
+- No. of needles | 2 | No. of threads
+- No. of threads | 4 | Needle space(mm)
+- Needle space(mm) | 5 | Overedge width
+- Overedge width | 24 | Seam
+- Seam | 2-needles, double chainstitch (attaching tape) | Labor-saving devices and optional devices
+- Search by seams | Stitch Library | Discontinued Products
+- Search by seams | Stitch Library | What are industrial sewing machines like?
+
+======================================================================
+M932 | M932-A-38
+https://www.pegasus.co.jp/en/machine/series/s106
+HTTP: 200
+- Maximum speed | Seam | Video
+- Seam | Video | M932-A-38
+- Plain seaming | ・[Maximum speed] | 7,000 sti/min
+- ・[Maximum speed] | 7,000 sti/min | ・[Seam]
+- 7,000 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | M932-A-44
+- ・[Seam] | ・[Video] | M932-A-70
+- ・[Seam] | ・[Video] | M932-A-86
+- Plain seaming | ・[Maximum speed] | 5,500 sti/min
+- ・[Maximum speed] | 5,500 sti/min | ・[Seam]
+- 5,500 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | M932-A-86H
+- ・[Seam] | ・[Video] | M932-A-48
+- ・[Seam] | ・[Video] | M932-A-48P2
+- ・[Maximum speed] | 5,000 sti/min | ・[Seam]
+- 5,000 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | M932-A-355
+- 3-needle versatile machine for plain seaming | ・[Maximum speed] | 6,000 sti/min
+- ・[Maximum speed] | 6,000 sti/min | ・[Seam]
+- 6,000 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | M932-A-551
+- ・[Seam] | ・[Video] | M952 ： Overlock
+- Seam | Video | M952-A-01
+- ・[Seam] | ・[Video] | M952-A-17
+- ・[Seam] | ・[Video] | M952-A-13
+
+======================================================================
+M932 | M932-A-44
+https://www.pegasus.co.jp/en/machine/series/s106
+HTTP: 200
+- Maximum speed | Seam | Video
+- Seam | Video | M932-A-38
+- Plain seaming | ・[Maximum speed] | 7,000 sti/min
+- ・[Maximum speed] | 7,000 sti/min | ・[Seam]
+- 7,000 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | M932-A-44
+- ・[Seam] | ・[Video] | M932-A-70
+- ・[Seam] | ・[Video] | M932-A-86
+- Plain seaming | ・[Maximum speed] | 5,500 sti/min
+- ・[Maximum speed] | 5,500 sti/min | ・[Seam]
+- 5,500 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | M932-A-86H
+- ・[Seam] | ・[Video] | M932-A-48
+- ・[Seam] | ・[Video] | M932-A-48P2
+- ・[Maximum speed] | 5,000 sti/min | ・[Seam]
+- 5,000 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | M932-A-355
+- 3-needle versatile machine for plain seaming | ・[Maximum speed] | 6,000 sti/min
+- ・[Maximum speed] | 6,000 sti/min | ・[Seam]
+- 6,000 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | M932-A-551
+- ・[Seam] | ・[Video] | M952 ： Overlock
+- Seam | Video | M952-A-01
+- ・[Seam] | ・[Video] | M952-A-17
+- ・[Seam] | ・[Video] | M952-A-13
+
+======================================================================
+M932 | M932-A-70
+https://www.pegasus.co.jp/en/machine/series/s106
+HTTP: 200
+- Maximum speed | Seam | Video
+- Seam | Video | M932-A-38
+- Plain seaming | ・[Maximum speed] | 7,000 sti/min
+- ・[Maximum speed] | 7,000 sti/min | ・[Seam]
+- 7,000 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | M932-A-44
+- ・[Seam] | ・[Video] | M932-A-70
+- ・[Seam] | ・[Video] | M932-A-86
+- Plain seaming | ・[Maximum speed] | 5,500 sti/min
+- ・[Maximum speed] | 5,500 sti/min | ・[Seam]
+- 5,500 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | M932-A-86H
+- ・[Seam] | ・[Video] | M932-A-48
+- ・[Seam] | ・[Video] | M932-A-48P2
+- ・[Maximum speed] | 5,000 sti/min | ・[Seam]
+- 5,000 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | M932-A-355
+- 3-needle versatile machine for plain seaming | ・[Maximum speed] | 6,000 sti/min
+- ・[Maximum speed] | 6,000 sti/min | ・[Seam]
+- 6,000 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | M932-A-551
+- ・[Seam] | ・[Video] | M952 ： Overlock
+- Seam | Video | M952-A-01
+- ・[Seam] | ・[Video] | M952-A-17
+- ・[Seam] | ・[Video] | M952-A-13
+
+======================================================================
+M932 | M932-A-86
+https://www.pegasus.co.jp/en/machine/detail/series/s106/M932-A-86
+HTTP: 200
+- Fully-automatic ・5,500 sti/min | M900neo series catalog | Specifications
+- Stitch length adjustment | Push-button | Differential feed ratio adjustment
+- Differential feed ratio adjustment | Lever | Lubricaｔion
+- Lubricaｔion | Fully-automtic | Fabric Weight
+- Fabric Weight | Extra heavy | Max. machine speed(sti/min)
+- Max. machine speed(sti/min) | 5,500 | No. of needles
+- No. of needles | 2 | No. of threads
+- No. of threads | 5 | Needle space(mm)
+- Needle space(mm) | 5 | Overedge width
+- Overedge width | 6 | Accessories
+- Seam | 2-needls 5-threads, safety stitch (plain seaming) | Labor-saving devices and optional devices
+- 2-needls 5-threads, safety stitch (plain seaming) | Labor-saving devices and optional devices | KH device
+- Search by seams | Stitch Library | Discontinued Products
+- Search by seams | Stitch Library | What are industrial sewing machines like?
+
+======================================================================
+M952 | M952-A-52H
+https://www.pegasus.co.jp/en/machine/series/s106
+HTTP: 200
+- Maximum speed | Seam | Video
+- Seam | Video | M932-A-38
+- Plain seaming | ・[Maximum speed] | 7,000 sti/min
+- ・[Maximum speed] | 7,000 sti/min | ・[Seam]
+- 7,000 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | M932-A-44
+- ・[Seam] | ・[Video] | M932-A-70
+- ・[Seam] | ・[Video] | M932-A-86
+- Plain seaming | ・[Maximum speed] | 5,500 sti/min
+- ・[Maximum speed] | 5,500 sti/min | ・[Seam]
+- 5,500 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | M932-A-86H
+- ・[Seam] | ・[Video] | M932-A-48
+- ・[Seam] | ・[Video] | M932-A-48P2
+- ・[Maximum speed] | 5,000 sti/min | ・[Seam]
+- 5,000 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | M932-A-355
+- 3-needle versatile machine for plain seaming | ・[Maximum speed] | 6,000 sti/min
+- ・[Maximum speed] | 6,000 sti/min | ・[Seam]
+- 6,000 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | M932-A-551
+- ・[Seam] | ・[Video] | M952 ： Overlock
+- Seam | Video | M952-A-01
+- ・[Seam] | ・[Video] | M952-A-17
+- ・[Seam] | ・[Video] | M952-A-13
+
+======================================================================
+M952 | M952-A-23B
+https://www.pegasus.co.jp/en/machine/series/s106
+HTTP: 200
+- Maximum speed | Seam | Video
+- Seam | Video | M932-A-38
+- Plain seaming | ・[Maximum speed] | 7,000 sti/min
+- ・[Maximum speed] | 7,000 sti/min | ・[Seam]
+- 7,000 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | M932-A-44
+- ・[Seam] | ・[Video] | M932-A-70
+- ・[Seam] | ・[Video] | M932-A-86
+- Plain seaming | ・[Maximum speed] | 5,500 sti/min
+- ・[Maximum speed] | 5,500 sti/min | ・[Seam]
+- 5,500 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | M932-A-86H
+- ・[Seam] | ・[Video] | M932-A-48
+- ・[Seam] | ・[Video] | M932-A-48P2
+- ・[Maximum speed] | 5,000 sti/min | ・[Seam]
+- 5,000 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | M932-A-355
+- 3-needle versatile machine for plain seaming | ・[Maximum speed] | 6,000 sti/min
+- ・[Maximum speed] | 6,000 sti/min | ・[Seam]
+- 6,000 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | M932-A-551
+- ・[Seam] | ・[Video] | M952 ： Overlock
+- Seam | Video | M952-A-01
+- ・[Seam] | ・[Video] | M952-A-17
+- ・[Seam] | ・[Video] | M952-A-13
+
+======================================================================
+M952 | M952-A-16S2
+https://www.pegasus.co.jp/en/machine/series/s106
+HTTP: 200
+- Maximum speed | Seam | Video
+- Seam | Video | M932-A-38
+- Plain seaming | ・[Maximum speed] | 7,000 sti/min
+- ・[Maximum speed] | 7,000 sti/min | ・[Seam]
+- 7,000 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | M932-A-44
+- ・[Seam] | ・[Video] | M932-A-70
+- ・[Seam] | ・[Video] | M932-A-86
+- Plain seaming | ・[Maximum speed] | 5,500 sti/min
+- ・[Maximum speed] | 5,500 sti/min | ・[Seam]
+- 5,500 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | M932-A-86H
+- ・[Seam] | ・[Video] | M932-A-48
+- ・[Seam] | ・[Video] | M932-A-48P2
+- ・[Maximum speed] | 5,000 sti/min | ・[Seam]
+- 5,000 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | M932-A-355
+- 3-needle versatile machine for plain seaming | ・[Maximum speed] | 6,000 sti/min
+- ・[Maximum speed] | 6,000 sti/min | ・[Seam]
+- 6,000 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | M932-A-551
+- ・[Seam] | ・[Video] | M952 ： Overlock
+- Seam | Video | M952-A-01
+- ・[Seam] | ・[Video] | M952-A-17
+- ・[Seam] | ・[Video] | M952-A-13
+
+======================================================================
+M952 | M952-A-180
+https://www.pegasus.co.jp/en/machine/series/s106
+HTTP: 200
+- Maximum speed | Seam | Video
+- Seam | Video | M932-A-38
+- Plain seaming | ・[Maximum speed] | 7,000 sti/min
+- ・[Maximum speed] | 7,000 sti/min | ・[Seam]
+- 7,000 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | M932-A-44
+- ・[Seam] | ・[Video] | M932-A-70
+- ・[Seam] | ・[Video] | M932-A-86
+- Plain seaming | ・[Maximum speed] | 5,500 sti/min
+- ・[Maximum speed] | 5,500 sti/min | ・[Seam]
+- 5,500 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | M932-A-86H
+- ・[Seam] | ・[Video] | M932-A-48
+- ・[Seam] | ・[Video] | M932-A-48P2
+- ・[Maximum speed] | 5,000 sti/min | ・[Seam]
+- 5,000 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | M932-A-355
+- 3-needle versatile machine for plain seaming | ・[Maximum speed] | 6,000 sti/min
+- ・[Maximum speed] | 6,000 sti/min | ・[Seam]
+- 6,000 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | M932-A-551
+- ・[Seam] | ・[Video] | M952 ： Overlock
+- Seam | Video | M952-A-01
+- ・[Seam] | ・[Video] | M952-A-17
+- ・[Seam] | ・[Video] | M952-A-13
+
+======================================================================
+M952 | M952-A-181
+https://www.pegasus.co.jp/en/machine/series/s106
+HTTP: 200
+- Maximum speed | Seam | Video
+- Seam | Video | M932-A-38
+- Plain seaming | ・[Maximum speed] | 7,000 sti/min
+- ・[Maximum speed] | 7,000 sti/min | ・[Seam]
+- 7,000 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | M932-A-44
+- ・[Seam] | ・[Video] | M932-A-70
+- ・[Seam] | ・[Video] | M932-A-86
+- Plain seaming | ・[Maximum speed] | 5,500 sti/min
+- ・[Maximum speed] | 5,500 sti/min | ・[Seam]
+- 5,500 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | M932-A-86H
+- ・[Seam] | ・[Video] | M932-A-48
+- ・[Seam] | ・[Video] | M932-A-48P2
+- ・[Maximum speed] | 5,000 sti/min | ・[Seam]
+- 5,000 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | M932-A-355
+- 3-needle versatile machine for plain seaming | ・[Maximum speed] | 6,000 sti/min
+- ・[Maximum speed] | 6,000 sti/min | ・[Seam]
+- 6,000 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | M932-A-551
+- ・[Seam] | ・[Video] | M952 ： Overlock
+- Seam | Video | M952-A-01
+- ・[Seam] | ・[Video] | M952-A-17
+- ・[Seam] | ・[Video] | M952-A-13
+
+======================================================================
+M952 | M952-A-90
+https://www.pegasus.co.jp/en/machine/series/s106
+HTTP: 200
+- Maximum speed | Seam | Video
+- Seam | Video | M932-A-38
+- Plain seaming | ・[Maximum speed] | 7,000 sti/min
+- ・[Maximum speed] | 7,000 sti/min | ・[Seam]
+- 7,000 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | M932-A-44
+- ・[Seam] | ・[Video] | M932-A-70
+- ・[Seam] | ・[Video] | M932-A-86
+- Plain seaming | ・[Maximum speed] | 5,500 sti/min
+- ・[Maximum speed] | 5,500 sti/min | ・[Seam]
+- 5,500 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | M932-A-86H
+- ・[Seam] | ・[Video] | M932-A-48
+- ・[Seam] | ・[Video] | M932-A-48P2
+- ・[Maximum speed] | 5,000 sti/min | ・[Seam]
+- 5,000 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | M932-A-355
+- 3-needle versatile machine for plain seaming | ・[Maximum speed] | 6,000 sti/min
+- ・[Maximum speed] | 6,000 sti/min | ・[Seam]
+- 6,000 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | M932-A-551
+- ・[Seam] | ・[Video] | M952 ： Overlock
+- Seam | Video | M952-A-01
+- ・[Seam] | ・[Video] | M952-A-17
+- ・[Seam] | ・[Video] | M952-A-13
+
+======================================================================
+EX3200 | EX3216-01A/222
+https://www.pegasus.co.jp/en/machine/series/s102
+HTTP: 200
+- Maximum speed | Seam | Video
+- Seam | Video | EX3216-01A/222
+- Plain seaming | ・[Maximum speed] | 7,500 sti/min
+- ・[Maximum speed] | 7,500 sti/min | ・[Seam]
+- 7,500 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | EX3216N-01/222
+- ・[Seam] | ・[Video] | EX3216N-01/232
+- ・[Seam] | ・[Video] | EX3215-02/223
+- ・[Seam] | ・[Video] | EX3216-02/223
+- ・[Seam] | ・[Video] | EX3215-03/233
+- ・[Seam] | ・[Video] | EX3216-03/233
+- ・[Seam] | ・[Video] | EX3215(6)-03/333
+- Plain seaming | ・[Maximum speed] | 7,000 sti/min
+- ・[Maximum speed] | 7,000 sti/min | ・[Seam]
+- 7,000 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | EX3244-03/333
+- ・[Seam] | ・[Video] | EX3216-A04/435
+- Plain seaming | ・[Maximum speed] | 6,500 sti/min
+- ・[Maximum speed] | 6,500 sti/min | ・[Seam]
+- 6,500 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | EX3244-A04/435(K)
+- ・[Seam] | ・[Video] | EX3215H-A05/535
+- Plain seaming | ・[Maximum speed] | 6,000 sti/min
+- ・[Maximum speed] | 6,000 sti/min | ・[Seam]
+- 6,000 sti/min | ・[Seam] | ・[Video]
+
+======================================================================
+EX3200 | EX3216N-01/222
+https://www.pegasus.co.jp/en/machine/series/s102
+HTTP: 200
+- Maximum speed | Seam | Video
+- Seam | Video | EX3216-01A/222
+- Plain seaming | ・[Maximum speed] | 7,500 sti/min
+- ・[Maximum speed] | 7,500 sti/min | ・[Seam]
+- 7,500 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | EX3216N-01/222
+- ・[Seam] | ・[Video] | EX3216N-01/232
+- ・[Seam] | ・[Video] | EX3215-02/223
+- ・[Seam] | ・[Video] | EX3216-02/223
+- ・[Seam] | ・[Video] | EX3215-03/233
+- ・[Seam] | ・[Video] | EX3216-03/233
+- ・[Seam] | ・[Video] | EX3215(6)-03/333
+- Plain seaming | ・[Maximum speed] | 7,000 sti/min
+- ・[Maximum speed] | 7,000 sti/min | ・[Seam]
+- 7,000 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | EX3244-03/333
+- ・[Seam] | ・[Video] | EX3216-A04/435
+- Plain seaming | ・[Maximum speed] | 6,500 sti/min
+- ・[Maximum speed] | 6,500 sti/min | ・[Seam]
+- 6,500 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | EX3244-A04/435(K)
+- ・[Seam] | ・[Video] | EX3215H-A05/535
+- Plain seaming | ・[Maximum speed] | 6,000 sti/min
+- ・[Maximum speed] | 6,000 sti/min | ・[Seam]
+- 6,000 sti/min | ・[Seam] | ・[Video]
+
+======================================================================
+EX3200 | EX3216N-01/232
+https://www.pegasus.co.jp/en/machine/series/s102
+HTTP: 200
+- Maximum speed | Seam | Video
+- Seam | Video | EX3216-01A/222
+- Plain seaming | ・[Maximum speed] | 7,500 sti/min
+- ・[Maximum speed] | 7,500 sti/min | ・[Seam]
+- 7,500 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | EX3216N-01/222
+- ・[Seam] | ・[Video] | EX3216N-01/232
+- ・[Seam] | ・[Video] | EX3215-02/223
+- ・[Seam] | ・[Video] | EX3216-02/223
+- ・[Seam] | ・[Video] | EX3215-03/233
+- ・[Seam] | ・[Video] | EX3216-03/233
+- ・[Seam] | ・[Video] | EX3215(6)-03/333
+- Plain seaming | ・[Maximum speed] | 7,000 sti/min
+- ・[Maximum speed] | 7,000 sti/min | ・[Seam]
+- 7,000 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | EX3244-03/333
+- ・[Seam] | ・[Video] | EX3216-A04/435
+- Plain seaming | ・[Maximum speed] | 6,500 sti/min
+- ・[Maximum speed] | 6,500 sti/min | ・[Seam]
+- 6,500 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | EX3244-A04/435(K)
+- ・[Seam] | ・[Video] | EX3215H-A05/535
+- Plain seaming | ・[Maximum speed] | 6,000 sti/min
+- ・[Maximum speed] | 6,000 sti/min | ・[Seam]
+- 6,000 sti/min | ・[Seam] | ・[Video]
+
+======================================================================
+EX5200 | EX5214N-01/283
+https://www.pegasus.co.jp/en/machine/series/s102
+HTTP: 200
+- Maximum speed | Seam | Video
+- Seam | Video | EX3216-01A/222
+- Plain seaming | ・[Maximum speed] | 7,500 sti/min
+- ・[Maximum speed] | 7,500 sti/min | ・[Seam]
+- 7,500 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | EX3216N-01/222
+- ・[Seam] | ・[Video] | EX3216N-01/232
+- ・[Seam] | ・[Video] | EX3215-02/223
+- ・[Seam] | ・[Video] | EX3216-02/223
+- ・[Seam] | ・[Video] | EX3215-03/233
+- ・[Seam] | ・[Video] | EX3216-03/233
+- ・[Seam] | ・[Video] | EX3215(6)-03/333
+- Plain seaming | ・[Maximum speed] | 7,000 sti/min
+- ・[Maximum speed] | 7,000 sti/min | ・[Seam]
+- 7,000 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | EX3244-03/333
+- ・[Seam] | ・[Video] | EX3216-A04/435
+- Plain seaming | ・[Maximum speed] | 6,500 sti/min
+- ・[Maximum speed] | 6,500 sti/min | ・[Seam]
+- 6,500 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | EX3244-A04/435(K)
+- ・[Seam] | ・[Video] | EX3215H-A05/535
+- Plain seaming | ・[Maximum speed] | 6,000 sti/min
+- ・[Maximum speed] | 6,000 sti/min | ・[Seam]
+- 6,000 sti/min | ・[Seam] | ・[Video]
+
+======================================================================
+EX5200 | EX5204-02/233
+https://www.pegasus.co.jp/en/machine/series/s102
+HTTP: 200
+- Maximum speed | Seam | Video
+- Seam | Video | EX3216-01A/222
+- Plain seaming | ・[Maximum speed] | 7,500 sti/min
+- ・[Maximum speed] | 7,500 sti/min | ・[Seam]
+- 7,500 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | EX3216N-01/222
+- ・[Seam] | ・[Video] | EX3216N-01/232
+- ・[Seam] | ・[Video] | EX3215-02/223
+- ・[Seam] | ・[Video] | EX3216-02/223
+- ・[Seam] | ・[Video] | EX3215-03/233
+- ・[Seam] | ・[Video] | EX3216-03/233
+- ・[Seam] | ・[Video] | EX3215(6)-03/333
+- Plain seaming | ・[Maximum speed] | 7,000 sti/min
+- ・[Maximum speed] | 7,000 sti/min | ・[Seam]
+- 7,000 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | EX3244-03/333
+- ・[Seam] | ・[Video] | EX3216-A04/435
+- Plain seaming | ・[Maximum speed] | 6,500 sti/min
+- ・[Maximum speed] | 6,500 sti/min | ・[Seam]
+- 6,500 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | EX3244-A04/435(K)
+- ・[Seam] | ・[Video] | EX3215H-A05/535
+- Plain seaming | ・[Maximum speed] | 6,000 sti/min
+- ・[Maximum speed] | 6,000 sti/min | ・[Seam]
+- 6,000 sti/min | ・[Seam] | ・[Video]
+
+======================================================================
+EX5200 | EX5214-03/333
+https://www.pegasus.co.jp/en/machine/series/s102
+HTTP: 200
+- Maximum speed | Seam | Video
+- Seam | Video | EX3216-01A/222
+- Plain seaming | ・[Maximum speed] | 7,500 sti/min
+- ・[Maximum speed] | 7,500 sti/min | ・[Seam]
+- 7,500 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | EX3216N-01/222
+- ・[Seam] | ・[Video] | EX3216N-01/232
+- ・[Seam] | ・[Video] | EX3215-02/223
+- ・[Seam] | ・[Video] | EX3216-02/223
+- ・[Seam] | ・[Video] | EX3215-03/233
+- ・[Seam] | ・[Video] | EX3216-03/233
+- ・[Seam] | ・[Video] | EX3215(6)-03/333
+- Plain seaming | ・[Maximum speed] | 7,000 sti/min
+- ・[Maximum speed] | 7,000 sti/min | ・[Seam]
+- 7,000 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | EX3244-03/333
+- ・[Seam] | ・[Video] | EX3216-A04/435
+- Plain seaming | ・[Maximum speed] | 6,500 sti/min
+- ・[Maximum speed] | 6,500 sti/min | ・[Seam]
+- 6,500 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | EX3244-A04/435(K)
+- ・[Seam] | ・[Video] | EX3215H-A05/535
+- Plain seaming | ・[Maximum speed] | 6,000 sti/min
+- ・[Maximum speed] | 6,000 sti/min | ・[Seam]
+- 6,000 sti/min | ・[Seam] | ・[Video]
+
+======================================================================
+EX5200 | EX5214-M03/333
+https://www.pegasus.co.jp/en/machine/series/s102
+HTTP: 200
+- Maximum speed | Seam | Video
+- Seam | Video | EX3216-01A/222
+- Plain seaming | ・[Maximum speed] | 7,500 sti/min
+- ・[Maximum speed] | 7,500 sti/min | ・[Seam]
+- 7,500 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | EX3216N-01/222
+- ・[Seam] | ・[Video] | EX3216N-01/232
+- ・[Seam] | ・[Video] | EX3215-02/223
+- ・[Seam] | ・[Video] | EX3216-02/223
+- ・[Seam] | ・[Video] | EX3215-03/233
+- ・[Seam] | ・[Video] | EX3216-03/233
+- ・[Seam] | ・[Video] | EX3215(6)-03/333
+- Plain seaming | ・[Maximum speed] | 7,000 sti/min
+- ・[Maximum speed] | 7,000 sti/min | ・[Seam]
+- 7,000 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | EX3244-03/333
+- ・[Seam] | ・[Video] | EX3216-A04/435
+- Plain seaming | ・[Maximum speed] | 6,500 sti/min
+- ・[Maximum speed] | 6,500 sti/min | ・[Seam]
+- 6,500 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | EX3244-A04/435(K)
+- ・[Seam] | ・[Video] | EX3215H-A05/535
+- Plain seaming | ・[Maximum speed] | 6,000 sti/min
+- ・[Maximum speed] | 6,000 sti/min | ・[Seam]
+- 6,000 sti/min | ・[Seam] | ・[Video]
+
+======================================================================
+EX5200 | EX5214-M03/333K
+https://www.pegasus.co.jp/en/machine/series/s102
+HTTP: 200
+- Maximum speed | Seam | Video
+- Seam | Video | EX3216-01A/222
+- Plain seaming | ・[Maximum speed] | 7,500 sti/min
+- ・[Maximum speed] | 7,500 sti/min | ・[Seam]
+- 7,500 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | EX3216N-01/222
+- ・[Seam] | ・[Video] | EX3216N-01/232
+- ・[Seam] | ・[Video] | EX3215-02/223
+- ・[Seam] | ・[Video] | EX3216-02/223
+- ・[Seam] | ・[Video] | EX3215-03/233
+- ・[Seam] | ・[Video] | EX3216-03/233
+- ・[Seam] | ・[Video] | EX3215(6)-03/333
+- Plain seaming | ・[Maximum speed] | 7,000 sti/min
+- ・[Maximum speed] | 7,000 sti/min | ・[Seam]
+- 7,000 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | EX3244-03/333
+- ・[Seam] | ・[Video] | EX3216-A04/435
+- Plain seaming | ・[Maximum speed] | 6,500 sti/min
+- ・[Maximum speed] | 6,500 sti/min | ・[Seam]
+- 6,500 sti/min | ・[Seam] | ・[Video]
+- ・[Seam] | ・[Video] | EX3244-A04/435(K)
+- ・[Seam] | ・[Video] | EX3215H-A05/535
+- Plain seaming | ・[Maximum speed] | 6,000 sti/min
+- ・[Maximum speed] | 6,000 sti/min | ・[Seam]
+- 6,000 sti/min | ・[Seam] | ・[Video]
+
+======================================================================
+W562P | W562P-01G
+https://www.pegasus.co.jp/en/machine/detail/series/s205/W562P-01G
+HTTP: 200
+- Fully-automatic ・6,000 sti/min | Produces beautiful and quality decorative stitches which are soft to the skin. | W500P series catalog
+- Stitch length adjustment | Push-button | Differential feed ratio adjustment
+- Differential feed ratio adjustment | Lever that can be adjusted intermittently during sewing | Lubricaｔion
+- Lubricaｔion | Fully-automtic | Max. machine speed(sti/min)
+- Max. machine speed(sti/min) | 6,000 | No. of needles
+- No. of needles | 2, 3 | No. of threads
+- No. of threads | 4, 5 | Needle space(mm)
+- Needle space(mm) | 3.2, 4.0, 4.8, 5.6, 6.4 | Type of needle plate finger
+- Seam | Coverstitch (Plain seaming) *without a top cover thread | Coverstitch (Plain seaming)
+- Coverstitch (Plain seaming) *without a top cover thread | Coverstitch (Plain seaming) | Covering (Flattening out overlock seams) *without a top cover thread
+- Coverstitch (Plain seaming) | Covering (Flattening out overlock seams) *without a top cover thread | Covering (Flattening out overlock seams)
+- Covering (Flattening out overlock seams) *without a top cover thread | Covering (Flattening out overlock seams) | Hemming *without a top cover thread
+- Covering (Flattening out overlock seams) | Hemming *without a top cover thread | Hemming
+- Presser foot lift | Industrial sewing machine | Search by series names
+- Search by seams | Stitch Library | Discontinued Products
+- Search by seams | Stitch Library | What are industrial sewing machines like?
+
+======================================================================
+W562P | W562P-01M
+https://www.pegasus.co.jp/en/machine/detail/series/s205/W562P-01M
+HTTP: 200
+- Fully-automatic ・6,000 sti/min | Produces beautiful and quality decorative stitches which are soft to the skin. | W500P series catalog
+- Stitch length adjustment | Push-button | Differential feed ratio adjustment
+- Differential feed ratio adjustment | Lever that can be adjusted intermittently during sewing | Lubricaｔion
+- Lubricaｔion | Fully-automtic | Max. machine speed(sti/min)
+- Max. machine speed(sti/min) | 6,000 | No. of needles
+- No. of needles | 2 | No. of threads
+- No. of threads | 4 | Needle space(mm)
+- Needle space(mm) | 4.0 | Type of needle plate finger
+- Seam | Coverstitch (Plain seaming) *without a top cover thread | Coverstitch (Plain seaming)
+- Coverstitch (Plain seaming) *without a top cover thread | Coverstitch (Plain seaming) | Covering (Flattening out overlock seams) *without a top cover thread
+- Coverstitch (Plain seaming) | Covering (Flattening out overlock seams) *without a top cover thread | Covering (Flattening out overlock seams)
+- Covering (Flattening out overlock seams) *without a top cover thread | Covering (Flattening out overlock seams) | Hemming *without a top cover thread
+- Covering (Flattening out overlock seams) | Hemming *without a top cover thread | Hemming
+- Presser foot lift | Industrial sewing machine | Search by series names
+- Search by seams | Stitch Library | Discontinued Products
+- Search by seams | Stitch Library | What are industrial sewing machines like?
+
+======================================================================
+W562P | W562P-02G
+https://www.pegasus.co.jp/en/machine/detail/series/s205/W562P-02G
+HTTP: 200
+- Fully-automatic ・6,000 sti/min | Produces beautiful and quality decorative stitches which are soft to the skin. | W500P series catalog
+- Stitch length adjustment | Push-button | Differential feed ratio adjustment
+- Differential feed ratio adjustment | Lever that can be adjusted intermittently during sewing | Lubricaｔion
+- Lubricaｔion | Fully-automtic | Max. machine speed(sti/min)
+- Max. machine speed(sti/min) | 6,000 | No. of needles
+- No. of needles | 2, 3 | No. of threads
+- No. of threads | 4, 5 | Needle space(mm)
+- Needle space(mm) | 2.4, 3.2, 4.0, 4.8, 5.6, 6.4 | Type of needle plate finger
+- Seam | Binding tape *without a top cover thread | Binding tape
+- Automatic differential feed ratio switching | AT device | Automatic tape cutter
+- Presser foot lift | Sewing product to use this machine for | Under shirts_A
+- Search by seams | Stitch Library | Discontinued Products
+- Search by seams | Stitch Library | What are industrial sewing machines like?
+
+======================================================================
+W562P | W562P-02H
+https://www.pegasus.co.jp/en/machine/detail/series/s205/W562P-02H
+HTTP: 200
+- Fully-automatic ・6,000 sti/min | Produces beautiful and quality decorative stitches which are soft to the skin. | W500P series catalog
+- Stitch length adjustment | Push-button | Differential feed ratio adjustment
+- Differential feed ratio adjustment | Lever that can be adjusted intermittently during sewing | Lubricaｔion
+- Lubricaｔion | Fully-automtic | Max. machine speed(sti/min)
+- Max. machine speed(sti/min) | 6,000 | No. of needles
+- No. of needles | 2, 3 | No. of threads
+- No. of threads | 4, 5 | Needle space(mm)
+- Needle space(mm) | 3.2, 4.0, 4.8, 5.6, 6.4 | Type of needle plate finger
+- Seam | Binding tape *without a top cover thread | Binding tape
+- Automatic differential feed ratio switching | AT device | Automatic tape cutter
+- Presser foot lift | Industrial sewing machine | Search by series names
+- Search by seams | Stitch Library | Discontinued Products
+- Search by seams | Stitch Library | What are industrial sewing machines like?
+
+======================================================================
+W562P | W562P-05B
+https://www.pegasus.co.jp/en/machine/detail/series/s205/W562P-05B
+HTTP: 200
+- Fully-automatic ・5,500 (5,000 with MD) sti/min | Produces beautiful and quality decorative stitches which are soft to the skin. | W500P series catalog
+- Stitch length adjustment | Push-button | Differential feed ratio adjustment
+- Differential feed ratio adjustment | Lever that can be adjusted intermittently during sewing | Lubricaｔion
+- Lubricaｔion | Fully-automtic | Max. machine speed(sti/min)
+- Max. machine speed(sti/min) | 5,500 (5,000 with MD) | No. of needles
+- No. of needles | 2, 3 | No. of threads
+- No. of threads | 4, 5 | Needle space(mm)
+- Needle space(mm) | 2.4, 3.2, 4.0, 4.8, 5.6, 6.4 | Type of needle plate finger
+- Seam | Attaching elastic lace *without a top cover thread | Attaching elastic lace
+- Automatic differential feed ratio switching | AT device | Automatic tape cutter
+- Presser foot lift | LC device | Pneumatic lint collector
+- Search by seams | Stitch Library | Discontinued Products
+- Search by seams | Stitch Library | What are industrial sewing machines like?
+
+======================================================================
+W562P | W562P-05M
+https://www.pegasus.co.jp/en/machine/detail/series/s205/W562P-05M
+HTTP: 200
+- Fully-automatic ・5,500 (5,000 with MD) sti/min | Produces beautiful and quality decorative stitches which are soft to the skin. | W500P series catalog
+- Stitch length adjustment | Push-button | Differential feed ratio adjustment
+- Differential feed ratio adjustment | Lever that can be adjusted intermittently during sewing | Lubricaｔion
+- Lubricaｔion | Fully-automtic | Max. machine speed(sti/min)
+- Max. machine speed(sti/min) | 5,500 (5,000 with MD) | No. of needles
+- No. of needles | 2, 3 | No. of threads
+- No. of threads | 4, 5 | Needle space(mm)
+- Needle space(mm) | 4.0, 5.6, 6.4 | Type of needle plate finger
+- Seam | Attaching elastic lace *without a top cover thread | Attaching elastic lace
+- Automatic differential feed ratio switching | AT device | Automatic tape cutter
+- Presser foot lift | LC device | Pneumatic lint collector
+- Search by seams | Stitch Library | Discontinued Products
+- Search by seams | Stitch Library | What are industrial sewing machines like?
+
+======================================================================
+W562P | W562P-05T
+https://www.pegasus.co.jp/en/machine/detail/series/s205/W562P-05T
+HTTP: 200
+- Fully-automatic ・5,500 (5,000 with MD) sti/min | Produces beautiful and quality decorative stitches which are soft to the skin. | W500P series catalog
+- Stitch length adjustment | Push-button | Differential feed ratio adjustment
+- Differential feed ratio adjustment | Lever that can be adjusted intermittently during sewing | Lubricaｔion
+- Lubricaｔion | Fully-automtic | Max. machine speed(sti/min)
+- Max. machine speed(sti/min) | 5,500 (5,000 with MD) | No. of needles
+- No. of needles | 3 | No. of threads
+- No. of threads | 5 | Needle space(mm)
+- Needle space(mm) | 5.6 | Type of needle plate finger
+- Seam | Attaching elastic lace *without a top cover thread | Attaching elastic lace
+- Automatic differential feed ratio switching | AT device | Automatic tape cutter
+- Presser foot lift | LC device | Pneumatic lint collector
+- Search by seams | Stitch Library | Discontinued Products
+- Search by seams | Stitch Library | What are industrial sewing machines like?
+
+======================================================================
+W562P | W562P-82A
+https://www.pegasus.co.jp/en/machine/detail/series/s205/W562P-82A
+HTTP: 200
+- Fully-automatic ・5,500 sti/min | Produces beautiful and quality decorative stitches which are soft to the skin. | W500P series catalog
+- Stitch length adjustment | Push-button | Differential feed ratio adjustment
+- Differential feed ratio adjustment | Lever that can be adjusted intermittently during sewing | Lubricaｔion
+- Lubricaｔion | Fully-automtic | Max. machine speed(sti/min)
+- Max. machine speed(sti/min) | 5,500 | No. of needles
+- No. of needles | 3 | No. of threads
+- No. of threads | 5 | Needle space(mm)
+- Needle space(mm) | 5.6, 6.4 | Type of needle plate finger
+- Seam | Angled decorative stitching | Labor-saving devices and optional devices
+- Presser foot lift | Industrial sewing machine | Search by series names
+- Search by seams | Stitch Library | Discontinued Products
+- Search by seams | Stitch Library | What are industrial sewing machines like?

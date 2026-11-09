@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ form_title }} - Garment Tech</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="machine-alarm-form-page">
+
+<header>
+    <h1>🚨 {{ form_title }}</h1>
+</header>
+
+<main>
+    <section class="machine-card">
+
+        <h2>{{ machine["model"] }}</h2>
+
+        {% if error %}
+        <p style="color: #b00020;"><strong>{{ error }}</strong></p>
+        {% endif %}
+
+        <form method="POST">
+            <input type="hidden" name="_csrf_token" value="{{ csrf_token() }}">
+
+            <label for="alarm_code">Kode alarm *</label>
+            <input type="text" id="alarm_code" name="alarm_code" required
+                   value="{{ alarm['alarm_code'] if alarm else '' }}">
+
+            <label for="alarm_name">Nama alarm *</label>
+            <input type="text" id="alarm_name" name="alarm_name" required
+                   value="{{ alarm['alarm_name'] if alarm else '' }}">
+
+            <label for="possible_cause">Kemungkinan penyebab</label>
+            <textarea id="possible_cause" name="possible_cause" rows="4">{{ (alarm['possible_cause'] or '') if alarm else '' }}</textarea>
+
+            <label for="solution">Solusi / tindakan</label>
+            <textarea id="solution" name="solution" rows="5">{{ (alarm['solution'] or '') if alarm else '' }}</textarea>
+
+            <label for="manual_title">Judul manual *</label>
+            <input type="text" id="manual_title" name="manual_title" required
+                   value="{{ alarm['manual_title'] if alarm else '' }}">
+
+            <label for="manual_version">Versi manual</label>
+            <input type="text" id="manual_version" name="manual_version"
+                   value="{{ (alarm['manual_version'] or '') if alarm else '' }}">
+
+            <label for="manual_chapter">Bab manual</label>
+            <input type="text" id="manual_chapter" name="manual_chapter"
+                   value="{{ (alarm['manual_chapter'] or '') if alarm else '' }}">
+
+            <label for="manual_page">Halaman manual</label>
+            <input type="number" min="1" id="manual_page" name="manual_page"
+                   value="{{ (alarm['manual_page'] or '') if alarm else '' }}">
+
+            <label for="source_url">URL sumber manual</label>
+            <input type="url" id="source_url" name="source_url"
+                   value="{{ (alarm['source_url'] or '') if alarm else '' }}">
+
+            <label for="source_note">Catatan sumber</label>
+            <textarea id="source_note" name="source_note" rows="3">{{ (alarm['source_note'] or '') if alarm else '' }}</textarea>
+
+            <br>
+
+            <button type="submit" class="add-button">
+                💾 {{ submit_label }}
+            </button>
+
+            <a href="/machine/{{ machine['id'] }}#official-alarms"
+               class="add-button">
+                ↩️ Kembali
+            </a>
+        </form>
+
+    </section>
+</main>
+
+</body>
+</html>

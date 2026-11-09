@@ -1,0 +1,29 @@
+SUMBER
+Manual JUKI DDL-9000C-S, halaman tercetak 54 (PDF halaman 58).
+
+METODE
+OCR lokal Tesseract pada gambar 1241x1754, pemotongan baris,
+pembesaran gambar, dan pencatatan koordinat teks.
+
+TEMUAN TEKSTUAL SEMENTARA
+E904: item pemeriksaan tidak tampak jelas pada baris kode.
+E922: item pemeriksaan tidak tampak jelas pada baris kode.
+E924: item pemeriksaan tidak tampak jelas; kode E924 sendiri
+      belum terdeteksi langsung pada daftar koordinat OCR.
+E971: item pemeriksaan tidak tampak jelas pada baris kode.
+E973: item pemeriksaan tidak tampak jelas pada baris kode.
+E975: item pemeriksaan tidak tampak jelas pada baris kode.
+
+PEMBANDING BARIS BERDEKATAN
+E972: pemeriksaan kelancaran motor pitch.
+E974: pemeriksaan kelancaran motor feed.
+E976: pemeriksaan kelancaran motor presser.
+
+KETERBATASAN
+OCR dan koordinat teks bukan verifikasi visual final atas batas sel
+tabel. Jangan menganggap item pemeriksaan pasti tidak ada sebelum
+tata letak tabel dapat diperiksa dengan memadai.
+
+STATUS
+BELUM_DIVERIFIKASI untuk seluruh enam kode.
+Tidak ada perubahan pada database.

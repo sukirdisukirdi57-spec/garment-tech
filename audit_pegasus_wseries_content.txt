@@ -1,0 +1,310 @@
+AUDIT ISI TROUBLESHOOTING PEGASUS W-SERIES
+MODE: READ ONLY
+Database: /data/data/com.termux/files/home/garment-tech/database/garment.db
+Integritas awal: ok
+Record W-series ditemukan: 35
+
+========================================================================
+MODEL W3522P: 5 record
+
+ID 1189 | Benang sering putus
+GEJALA : Benang putus saat proses jahit.
+PENYEBAB: Jalur benang tidak tepat, jarum atau benang tidak sesuai, atau bagian jalur benang kotor/terganggu.
+SOLUSI : Periksa jalur benang, kondisi jarum, kesesuaian benang, dan bersihkan area jalur benang.
+KEAMANAN: Lakukan pemeriksaan dengan mesin berhenti dan sumber daya dimatikan.
+SUMBER : Prosedur troubleshooting umum PEGASUS W3522P
+POLA IDENTIK DI MODEL LAIN: W542P, W562P, W562PC, W664P, WT264P
+
+ID 1190 | Jahitan loncat
+GEJALA : Ada bagian jahitan yang tidak terbentuk dengan benar.
+PENYEBAB: Jarum rusak atau pemasangan jarum kurang tepat; pembentukan loop benang terganggu.
+SOLUSI : Periksa dan ganti jarum bila perlu, kemudian periksa pemasangan serta jalur benang.
+KEAMANAN: Matikan mesin sebelum mengganti jarum atau melakukan pemeriksaan.
+SUMBER : Prosedur troubleshooting umum PEGASUS W3522P
+POLA IDENTIK DI MODEL LAIN: W542P, W562P, W562PC, W664P, WT264P
+
+ID 1191 | Jahitan tidak rapi atau tidak stabil
+GEJALA : Kerapatan atau bentuk jahitan berubah-ubah.
+PENYEBAB: Ketegangan benang tidak seimbang, jarum/benang tidak sesuai, atau mekanisme pembentukan jahitan perlu diperiksa.
+SOLUSI : Periksa jalur dan ketegangan benang serta kondisi jarum; lakukan penyetelan sesuai manual.
+KEAMANAN: Jangan melakukan penyetelan mekanisme saat mesin sedang berjalan.
+SUMBER : Prosedur troubleshooting umum PEGASUS W3522P
+POLA IDENTIK DI MODEL LAIN: W542P, W562P
+
+ID 1192 | Kain mengerut
+GEJALA : Permukaan kain tertarik atau berkerut setelah dijahit.
+PENYEBAB: Keseimbangan tarikan kain dan pembentukan jahitan tidak sesuai dengan material.
+SOLUSI : Periksa pengaturan mesin dan kondisi mekanisme pengumpan sesuai jenis kain.
+KEAMANAN: Lakukan penyetelan secara bertahap dengan mesin dalam kondisi aman.
+SUMBER : Prosedur troubleshooting umum PEGASUS W3522P
+POLA IDENTIK DI MODEL LAIN: W542P, W562P, W562PC, W664P, WT264P
+
+ID 1193 | Kain tidak terumpan dengan stabil
+GEJALA : Material bergerak tidak konsisten selama proses jahit.
+PENYEBAB: Area pengumpan kotor, komponen pengumpan aus, atau tekanan/tarikan material tidak sesuai.
+SOLUSI : Bersihkan area pengumpan dan periksa kondisi komponen; sesuaikan pengaturan dengan material.
+KEAMANAN: Matikan mesin sebelum membersihkan atau memeriksa mekanisme pengumpan.
+SUMBER : Prosedur troubleshooting umum PEGASUS W3522P
+POLA IDENTIK DI MODEL LAIN: W542P, W562P, W562PC, W664P, WT264P
+
+========================================================================
+MODEL W542P: 5 record
+
+ID 1199 | Benang sering putus
+GEJALA : Benang putus saat proses jahit.
+PENYEBAB: Jalur benang tidak tepat, jarum atau benang tidak sesuai, atau bagian jalur benang kotor/terganggu.
+SOLUSI : Periksa jalur benang, kondisi jarum, kesesuaian benang, dan bersihkan area jalur benang.
+KEAMANAN: Lakukan pemeriksaan dengan mesin berhenti dan sumber daya dimatikan.
+SUMBER : Prosedur troubleshooting umum PEGASUS W542P
+POLA IDENTIK DI MODEL LAIN: W3522P, W562P, W562PC, W664P, WT264P
+
+ID 1200 | Jahitan loncat
+GEJALA : Ada bagian jahitan yang tidak terbentuk dengan benar.
+PENYEBAB: Jarum rusak atau pemasangan jarum kurang tepat; pembentukan loop benang terganggu.
+SOLUSI : Periksa dan ganti jarum bila perlu, kemudian periksa pemasangan serta jalur benang.
+KEAMANAN: Matikan mesin sebelum mengganti jarum atau melakukan pemeriksaan.
+SUMBER : Prosedur troubleshooting umum PEGASUS W542P
+POLA IDENTIK DI MODEL LAIN: W3522P, W562P, W562PC, W664P, WT264P
+
+ID 1201 | Jahitan tidak rapi atau tidak stabil
+GEJALA : Kerapatan atau bentuk jahitan berubah-ubah.
+PENYEBAB: Ketegangan benang tidak seimbang, jarum/benang tidak sesuai, atau mekanisme pembentukan jahitan perlu diperiksa.
+SOLUSI : Periksa jalur dan ketegangan benang serta kondisi jarum; lakukan penyetelan sesuai manual.
+KEAMANAN: Jangan melakukan penyetelan mekanisme saat mesin sedang berjalan.
+SUMBER : Prosedur troubleshooting umum PEGASUS W542P
+POLA IDENTIK DI MODEL LAIN: W3522P, W562P
+
+ID 1202 | Kain mengerut
+GEJALA : Permukaan kain tertarik atau berkerut setelah dijahit.
+PENYEBAB: Keseimbangan tarikan kain dan pembentukan jahitan tidak sesuai dengan material.
+SOLUSI : Periksa pengaturan mesin dan kondisi mekanisme pengumpan sesuai jenis kain.
+KEAMANAN: Lakukan penyetelan secara bertahap dengan mesin dalam kondisi aman.
+SUMBER : Prosedur troubleshooting umum PEGASUS W542P
+POLA IDENTIK DI MODEL LAIN: W3522P, W562P, W562PC, W664P, WT264P
+
+ID 1203 | Kain tidak terumpan dengan stabil
+GEJALA : Material bergerak tidak konsisten selama proses jahit.
+PENYEBAB: Area pengumpan kotor, komponen pengumpan aus, atau tekanan/tarikan material tidak sesuai.
+SOLUSI : Bersihkan area pengumpan dan periksa kondisi komponen; sesuaikan pengaturan dengan material.
+KEAMANAN: Matikan mesin sebelum membersihkan atau memeriksa mekanisme pengumpan.
+SUMBER : Prosedur troubleshooting umum PEGASUS W542P
+POLA IDENTIK DI MODEL LAIN: W3522P, W562P, W562PC, W664P, WT264P
+
+========================================================================
+MODEL W562P: 5 record
+
+ID 1194 | Benang sering putus
+GEJALA : Benang putus saat proses jahit.
+PENYEBAB: Jalur benang tidak tepat, jarum atau benang tidak sesuai, atau bagian jalur benang kotor/terganggu.
+SOLUSI : Periksa jalur benang, kondisi jarum, kesesuaian benang, dan bersihkan area jalur benang.
+KEAMANAN: Lakukan pemeriksaan dengan mesin berhenti dan sumber daya dimatikan.
+SUMBER : Prosedur troubleshooting umum PEGASUS W562P
+POLA IDENTIK DI MODEL LAIN: W3522P, W542P, W562PC, W664P, WT264P
+
+ID 1195 | Jahitan loncat
+GEJALA : Ada bagian jahitan yang tidak terbentuk dengan benar.
+PENYEBAB: Jarum rusak atau pemasangan jarum kurang tepat; pembentukan loop benang terganggu.
+SOLUSI : Periksa dan ganti jarum bila perlu, kemudian periksa pemasangan serta jalur benang.
+KEAMANAN: Matikan mesin sebelum mengganti jarum atau melakukan pemeriksaan.
+SUMBER : Prosedur troubleshooting umum PEGASUS W562P
+POLA IDENTIK DI MODEL LAIN: W3522P, W542P, W562PC, W664P, WT264P
+
+ID 1196 | Jahitan tidak rapi atau tidak stabil
+GEJALA : Kerapatan atau bentuk jahitan berubah-ubah.
+PENYEBAB: Ketegangan benang tidak seimbang, jarum/benang tidak sesuai, atau mekanisme pembentukan jahitan perlu diperiksa.
+SOLUSI : Periksa jalur dan ketegangan benang serta kondisi jarum; lakukan penyetelan sesuai manual.
+KEAMANAN: Jangan melakukan penyetelan mekanisme saat mesin sedang berjalan.
+SUMBER : Prosedur troubleshooting umum PEGASUS W562P
+POLA IDENTIK DI MODEL LAIN: W3522P, W542P
+
+ID 1197 | Kain mengerut
+GEJALA : Permukaan kain tertarik atau berkerut setelah dijahit.
+PENYEBAB: Keseimbangan tarikan kain dan pembentukan jahitan tidak sesuai dengan material.
+SOLUSI : Periksa pengaturan mesin dan kondisi mekanisme pengumpan sesuai jenis kain.
+KEAMANAN: Lakukan penyetelan secara bertahap dengan mesin dalam kondisi aman.
+SUMBER : Prosedur troubleshooting umum PEGASUS W562P
+POLA IDENTIK DI MODEL LAIN: W3522P, W542P, W562PC, W664P, WT264P
+
+ID 1198 | Kain tidak terumpan dengan stabil
+GEJALA : Material bergerak tidak konsisten selama proses jahit.
+PENYEBAB: Area pengumpan kotor, komponen pengumpan aus, atau tekanan/tarikan material tidak sesuai.
+SOLUSI : Bersihkan area pengumpan dan periksa kondisi komponen; sesuaikan pengaturan dengan material.
+KEAMANAN: Matikan mesin sebelum membersihkan atau memeriksa mekanisme pengumpan.
+SUMBER : Prosedur troubleshooting umum PEGASUS W562P
+POLA IDENTIK DI MODEL LAIN: W3522P, W542P, W562PC, W664P, WT264P
+
+========================================================================
+MODEL W562PC: 5 record
+
+ID 1214 | Benang sering putus
+GEJALA : Benang putus saat proses jahit.
+PENYEBAB: Jalur benang tidak tepat, jarum atau benang tidak sesuai, atau bagian jalur benang kotor/terganggu.
+SOLUSI : Periksa jalur benang, kondisi jarum, kesesuaian benang, dan bersihkan area jalur benang.
+KEAMANAN: Lakukan pemeriksaan dengan mesin berhenti dan sumber daya dimatikan.
+SUMBER : Prosedur troubleshooting umum PEGASUS W562PC
+POLA IDENTIK DI MODEL LAIN: W3522P, W542P, W562P, W664P, WT264P
+
+ID 1215 | Jahitan loncat
+GEJALA : Ada bagian jahitan yang tidak terbentuk dengan benar.
+PENYEBAB: Jarum rusak atau pemasangan jarum kurang tepat; pembentukan loop benang terganggu.
+SOLUSI : Periksa dan ganti jarum bila perlu, kemudian periksa pemasangan serta jalur benang.
+KEAMANAN: Matikan mesin sebelum mengganti jarum atau melakukan pemeriksaan.
+SUMBER : Prosedur troubleshooting umum PEGASUS W562PC
+POLA IDENTIK DI MODEL LAIN: W3522P, W542P, W562P, W664P, WT264P
+
+ID 1216 | Jahitan tidak rapi atau tidak stabil
+GEJALA : Kerapatan atau bentuk jahitan berubah-ubah.
+PENYEBAB: Ketegangan benang tidak seimbang, jarum atau benang tidak sesuai, atau mekanisme pembentukan jahitan perlu diperiksa.
+SOLUSI : Periksa jalur dan ketegangan benang serta kondisi jarum; lakukan penyetelan sesuai manual.
+KEAMANAN: Jangan melakukan penyetelan mekanisme saat mesin sedang berjalan.
+SUMBER : Prosedur troubleshooting umum PEGASUS W562PC
+POLA IDENTIK DI MODEL LAIN: W664P, WT264P
+
+ID 1217 | Kain mengerut
+GEJALA : Permukaan kain tertarik atau berkerut setelah dijahit.
+PENYEBAB: Keseimbangan tarikan kain dan pembentukan jahitan tidak sesuai dengan material.
+SOLUSI : Periksa pengaturan mesin dan kondisi mekanisme pengumpan sesuai jenis kain.
+KEAMANAN: Lakukan penyetelan secara bertahap dengan mesin dalam kondisi aman.
+SUMBER : Prosedur troubleshooting umum PEGASUS W562PC
+POLA IDENTIK DI MODEL LAIN: W3522P, W542P, W562P, W664P, WT264P
+
+ID 1218 | Kain tidak terumpan dengan stabil
+GEJALA : Material bergerak tidak konsisten selama proses jahit.
+PENYEBAB: Area pengumpan kotor, komponen pengumpan aus, atau tekanan/tarikan material tidak sesuai.
+SOLUSI : Bersihkan area pengumpan dan periksa kondisi komponen; sesuaikan pengaturan dengan material.
+KEAMANAN: Matikan mesin sebelum membersihkan atau memeriksa mekanisme pengumpan.
+SUMBER : Prosedur troubleshooting umum PEGASUS W562PC
+POLA IDENTIK DI MODEL LAIN: W3522P, W542P, W562P, W664P, WT264P
+
+========================================================================
+MODEL W664P: 5 record
+
+ID 1204 | Benang sering putus
+GEJALA : Benang putus saat proses jahit.
+PENYEBAB: Jalur benang tidak tepat, jarum atau benang tidak sesuai, atau bagian jalur benang kotor/terganggu.
+SOLUSI : Periksa jalur benang, kondisi jarum, kesesuaian benang, dan bersihkan area jalur benang.
+KEAMANAN: Lakukan pemeriksaan dengan mesin berhenti dan sumber daya dimatikan.
+SUMBER : Prosedur troubleshooting umum PEGASUS W664P
+POLA IDENTIK DI MODEL LAIN: W3522P, W542P, W562P, W562PC, WT264P
+
+ID 1205 | Jahitan loncat
+GEJALA : Ada bagian jahitan yang tidak terbentuk dengan benar.
+PENYEBAB: Jarum rusak atau pemasangan jarum kurang tepat; pembentukan loop benang terganggu.
+SOLUSI : Periksa dan ganti jarum bila perlu, kemudian periksa pemasangan serta jalur benang.
+KEAMANAN: Matikan mesin sebelum mengganti jarum atau melakukan pemeriksaan.
+SUMBER : Prosedur troubleshooting umum PEGASUS W664P
+POLA IDENTIK DI MODEL LAIN: W3522P, W542P, W562P, W562PC, WT264P
+
+ID 1206 | Jahitan tidak rapi atau tidak stabil
+GEJALA : Kerapatan atau bentuk jahitan berubah-ubah.
+PENYEBAB: Ketegangan benang tidak seimbang, jarum atau benang tidak sesuai, atau mekanisme pembentukan jahitan perlu diperiksa.
+SOLUSI : Periksa jalur dan ketegangan benang serta kondisi jarum; lakukan penyetelan sesuai manual.
+KEAMANAN: Jangan melakukan penyetelan mekanisme saat mesin sedang berjalan.
+SUMBER : Prosedur troubleshooting umum PEGASUS W664P
+POLA IDENTIK DI MODEL LAIN: W562PC, WT264P
+
+ID 1207 | Kain mengerut
+GEJALA : Permukaan kain tertarik atau berkerut setelah dijahit.
+PENYEBAB: Keseimbangan tarikan kain dan pembentukan jahitan tidak sesuai dengan material.
+SOLUSI : Periksa pengaturan mesin dan kondisi mekanisme pengumpan sesuai jenis kain.
+KEAMANAN: Lakukan penyetelan secara bertahap dengan mesin dalam kondisi aman.
+SUMBER : Prosedur troubleshooting umum PEGASUS W664P
+POLA IDENTIK DI MODEL LAIN: W3522P, W542P, W562P, W562PC, WT264P
+
+ID 1208 | Kain tidak terumpan dengan stabil
+GEJALA : Material bergerak tidak konsisten selama proses jahit.
+PENYEBAB: Area pengumpan kotor, komponen pengumpan aus, atau tekanan/tarikan material tidak sesuai.
+SOLUSI : Bersihkan area pengumpan dan periksa kondisi komponen; sesuaikan pengaturan dengan material.
+KEAMANAN: Matikan mesin sebelum membersihkan atau memeriksa mekanisme pengumpan.
+SUMBER : Prosedur troubleshooting umum PEGASUS W664P
+POLA IDENTIK DI MODEL LAIN: W3522P, W542P, W562P, W562PC, WT264P
+
+========================================================================
+MODEL W674: 5 record
+
+ID 1229 | Benang sering putus
+GEJALA : Benang putus selama proses jahit.
+PENYEBAB: Ketegangan benang tidak sesuai atau jalur benang dan komponen pembentuk jahitan kotor.
+SOLUSI : Periksa jalur benang, bersihkan komponen terkait dan sesuaikan ketegangan.
+KEAMANAN: Matikan mesin sebelum melakukan pemeriksaan.
+SUMBER : Prosedur troubleshooting umum PEGASUS W674
+POLA IDENTIK DI MODEL LAIN: Tidak ditemukan
+
+ID 1230 | Jahitan loncat
+GEJALA : Jahitan tidak terbentuk secara konsisten.
+PENYEBAB: Jarum tidak sesuai atau timing mekanisme pembentuk jahitan bermasalah.
+SOLUSI : Periksa kondisi dan pemasangan jarum serta lakukan pemeriksaan timing oleh teknisi.
+KEAMANAN: Matikan mesin sebelum pemeriksaan.
+SUMBER : Prosedur troubleshooting umum PEGASUS W674
+POLA IDENTIK DI MODEL LAIN: Tidak ditemukan
+
+ID 1231 | Jahitan tidak rapi atau tidak stabil
+GEJALA : Bentuk jahitan berubah-ubah.
+PENYEBAB: Ketegangan beberapa jalur benang tidak seimbang.
+SOLUSI : Periksa setiap jalur benang dan lakukan penyetelan secara bertahap.
+KEAMANAN: Pastikan mesin dalam kondisi berhenti saat penyetelan.
+SUMBER : Prosedur troubleshooting umum PEGASUS W674
+POLA IDENTIK DI MODEL LAIN: Tidak ditemukan
+
+ID 1232 | Kain mengerut
+GEJALA : Material mengerut setelah dijahit.
+PENYEBAB: Ketegangan benang atau feeding tidak sesuai dengan karakter material.
+SOLUSI : Sesuaikan ketegangan dan feeding dengan material yang digunakan.
+KEAMANAN: Lakukan penyetelan secara bertahap.
+SUMBER : Prosedur troubleshooting umum PEGASUS W674
+POLA IDENTIK DI MODEL LAIN: Tidak ditemukan
+
+ID 1233 | Kain tidak terumpan dengan stabil
+GEJALA : Material bergerak tidak stabil selama jahit.
+PENYEBAB: Mekanisme feeding kotor atau komponen feeding mengalami keausan.
+SOLUSI : Bersihkan area feeding dan periksa kondisi komponen pengumpan.
+KEAMANAN: Matikan mesin sebelum pemeriksaan mekanis.
+SUMBER : Prosedur troubleshooting umum PEGASUS W674
+POLA IDENTIK DI MODEL LAIN: Tidak ditemukan
+
+========================================================================
+MODEL WT264P: 5 record
+
+ID 1209 | Benang sering putus
+GEJALA : Benang putus saat proses jahit.
+PENYEBAB: Jalur benang tidak tepat, jarum atau benang tidak sesuai, atau bagian jalur benang kotor/terganggu.
+SOLUSI : Periksa jalur benang, kondisi jarum, kesesuaian benang, dan bersihkan area jalur benang.
+KEAMANAN: Lakukan pemeriksaan dengan mesin berhenti dan sumber daya dimatikan.
+SUMBER : Prosedur troubleshooting umum PEGASUS WT264P
+POLA IDENTIK DI MODEL LAIN: W3522P, W542P, W562P, W562PC, W664P
+
+ID 1210 | Jahitan loncat
+GEJALA : Ada bagian jahitan yang tidak terbentuk dengan benar.
+PENYEBAB: Jarum rusak atau pemasangan jarum kurang tepat; pembentukan loop benang terganggu.
+SOLUSI : Periksa dan ganti jarum bila perlu, kemudian periksa pemasangan serta jalur benang.
+KEAMANAN: Matikan mesin sebelum mengganti jarum atau melakukan pemeriksaan.
+SUMBER : Prosedur troubleshooting umum PEGASUS WT264P
+POLA IDENTIK DI MODEL LAIN: W3522P, W542P, W562P, W562PC, W664P
+
+ID 1211 | Jahitan tidak rapi atau tidak stabil
+GEJALA : Kerapatan atau bentuk jahitan berubah-ubah.
+PENYEBAB: Ketegangan benang tidak seimbang, jarum atau benang tidak sesuai, atau mekanisme pembentukan jahitan perlu diperiksa.
+SOLUSI : Periksa jalur dan ketegangan benang serta kondisi jarum; lakukan penyetelan sesuai manual.
+KEAMANAN: Jangan melakukan penyetelan mekanisme saat mesin sedang berjalan.
+SUMBER : Prosedur troubleshooting umum PEGASUS WT264P
+POLA IDENTIK DI MODEL LAIN: W562PC, W664P
+
+ID 1212 | Kain mengerut
+GEJALA : Permukaan kain tertarik atau berkerut setelah dijahit.
+PENYEBAB: Keseimbangan tarikan kain dan pembentukan jahitan tidak sesuai dengan material.
+SOLUSI : Periksa pengaturan mesin dan kondisi mekanisme pengumpan sesuai jenis kain.
+KEAMANAN: Lakukan penyetelan secara bertahap dengan mesin dalam kondisi aman.
+SUMBER : Prosedur troubleshooting umum PEGASUS WT264P
+POLA IDENTIK DI MODEL LAIN: W3522P, W542P, W562P, W562PC, W664P
+
+ID 1213 | Kain tidak terumpan dengan stabil
+GEJALA : Material bergerak tidak konsisten selama proses jahit.
+PENYEBAB: Area pengumpan kotor, komponen pengumpan aus, atau tekanan/tarikan material tidak sesuai.
+SOLUSI : Bersihkan area pengumpan dan periksa kondisi komponen; sesuaikan pengaturan dengan material.
+KEAMANAN: Matikan mesin sebelum membersihkan atau memeriksa mekanisme pengumpan.
+SUMBER : Prosedur troubleshooting umum PEGASUS WT264P
+POLA IDENTIK DI MODEL LAIN: W3522P, W542P, W562P, W562PC, W664P
+
+========================================================================
+Integritas akhir: ok
+Database tidak diubah.

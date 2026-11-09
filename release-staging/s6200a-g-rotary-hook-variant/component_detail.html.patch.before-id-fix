@@ -1,0 +1,28 @@
+--- a/templates/component_detail.html
++++ b/templates/component_detail.html
+@@ -1141,6 +1141,9 @@
+             <table class="component-subparts">
+                 <thead>
+                     <tr>
++                        {% if component["id"] == 506 %}
++                        <th>Varian</th>
++                        {% endif %}
+                         <th>Ref.</th>
+                         <th>Part Number</th>
+                         <th>Nama Part</th>
+@@ -1150,6 +1153,15 @@
+                 <tbody>
+                     {% for part in sub_parts %}
+                     <tr>
++                        {% if component["id"] == 506 %}
++                        <td>
++                            {% if part["relation_notes"] in ["For -[]03", "For -[]05"] %}
++                                {{ part["relation_notes"] }}
++                            {% else %}
++                                Umum
++                            {% endif %}
++                        </td>
++                        {% endif %}
+                         <td>{{ part["catalog_ref"] if part["catalog_ref"] is not none else "—" }}</td>
+                         <td><strong>{{ part["part_number"] or "—" }}</strong></td>
+                         <td>{{ part["part_name"] or "—" }}</td>

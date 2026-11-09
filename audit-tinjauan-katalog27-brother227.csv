@@ -1,0 +1,3 @@
+﻿local_part_id,local_catalog,part_number,local_part_name,status_awal,keputusan_audit,mekanisme_usulan,rujukan_katalog,catatan_auditor
+12261,27,018401636,BOLT SOCKET M4X16,KANDIDAT_PART_BARU,PERLU_VERIFIKASI_KATALOG,BELUM DITETAPKAN,Perlu dicocokkan dengan diagram dan daftar komponen resmi Brother BAS-311HN/326H.,Posisi pemasangan baut belum diketahui; verifikasi diagram resmi dan kecocokan submodel -03S.
+12309,27,SB4364101,BEARING HOLDER SPACER,KANDIDAT_PART_BARU,PERLU_VERIFIKASI_KATALOG,BELUM DITETAPKAN,Perlu dicocokkan dengan diagram dan daftar komponen resmi Brother BAS-311HN/326H.,"Nama mengarah ke spacer dudukan bearing, tetapi posisi dan mekanisme belum terbukti; periksa diagram resmi serta kecocokan submodel -03S."

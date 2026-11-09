@@ -1,0 +1,248 @@
+AUDIT STRUKTUR TROUBLESHOOTING PEGASUS
+MODE: READ-ONLY
+Total catatan: 180
+========================================================================================
+Catatan bertanda untuk ditinjau: 30
+Model yang memiliki tanda: 24
+  E22L: 1 catatan
+  E256: 1 catatan
+  E32L: 1 catatan
+  E52L: 1 catatan
+  EX2200: 1 catatan
+  EX3200: 1 catatan
+  EX5200: 1 catatan
+  EX5400: 1 catatan
+  FV200: 1 catatan
+  FW703: 1 catatan
+  FW803: 1 catatan
+  GX3200: 1 catatan
+  MX3200: 1 catatan
+  MX5200: 1 catatan
+  TM625: 1 catatan
+  TML326: 1 catatan
+  TML626: 1 catatan
+  W3522P: 2 catatan
+  W542P: 2 catatan
+  W562P: 2 catatan
+  W562PC: 2 catatan
+  W664P: 2 catatan
+  W674: 1 catatan
+  WT264P: 2 catatan
+
+DETAIL CATATAN YANG DITANDAI
+========================================================================================
+
+ID=1297 | MODEL=E22L | MASALAH=Kain mengerut
+TANDA: GEJALA MENGANDUNG KATA TINDAKAN
+GEJALA : Permukaan kain berkerut atau tertarik setelah proses menjahit.
+PENYEBAB: Tarikan benang tidak seimbang, tekanan sepatu tidak sesuai, atau mekanisme feed tidak sesuai material.
+SOLUSI : Periksa keseimbangan tegangan benang, tekanan sepatu, dan mekanisme feed sesuai jenis kain.
+KEAMANAN: Matikan mesin sebelum melakukan penyetelan pada tegangan benang, tekanan sepatu, atau mekanisme feed.
+
+ID=1282 | MODEL=E256 | MASALAH=Kain mengerut
+TANDA: GEJALA MENGANDUNG KATA TINDAKAN
+GEJALA : Permukaan kain berkerut atau tertarik setelah proses menjahit.
+PENYEBAB: Perbedaan tarikan benang, tekanan sepatu, atau mekanisme feed yang tidak sesuai dengan material.
+SOLUSI : Periksa keseimbangan tegangan benang dan kondisi mekanisme feed, kemudian sesuaikan dengan jenis kain.
+KEAMANAN: Matikan mesin sebelum melakukan penyetelan pada tegangan benang, tekanan sepatu, atau mekanisme feed.
+
+ID=1302 | MODEL=E32L | MASALAH=Kain mengerut
+TANDA: GEJALA MENGANDUNG KATA TINDAKAN
+GEJALA : Permukaan kain berkerut atau tertarik setelah proses menjahit.
+PENYEBAB: Tarikan benang tidak seimbang, tekanan sepatu tidak sesuai, atau mekanisme feed tidak sesuai material.
+SOLUSI : Periksa keseimbangan tegangan benang, tekanan sepatu, dan mekanisme feed sesuai jenis kain.
+KEAMANAN: Matikan mesin sebelum melakukan penyetelan pada tegangan benang, tekanan sepatu, atau mekanisme feed.
+
+ID=1312 | MODEL=E52L | MASALAH=Kain mengerut
+TANDA: GEJALA MENGANDUNG KATA TINDAKAN
+GEJALA : Permukaan kain berkerut atau tertarik setelah proses menjahit.
+PENYEBAB: Tarikan benang tidak seimbang, tekanan sepatu tidak sesuai, atau mekanisme feed tidak sesuai material.
+SOLUSI : Periksa keseimbangan tegangan benang, tekanan sepatu, dan mekanisme feed sesuai jenis kain.
+KEAMANAN: Matikan mesin sebelum melakukan penyetelan pada tegangan benang, tekanan sepatu, atau mekanisme feed.
+
+ID=1262 | MODEL=EX2200 | MASALAH=Kain mengerut
+TANDA: GEJALA MENGANDUNG KATA TINDAKAN
+GEJALA : Material mengerut setelah dijahit.
+PENYEBAB: Ketegangan benang atau feeding tidak sesuai dengan karakter material.
+SOLUSI : Sesuaikan ketegangan dan feeding dengan material yang digunakan.
+KEAMANAN: Hentikan mesin sebelum melakukan penyetelan. Jauhkan tangan dari jarum dan bagian bergerak.
+
+ID=1252 | MODEL=EX3200 | MASALAH=Kain mengerut
+TANDA: GEJALA MENGANDUNG KATA TINDAKAN
+GEJALA : Material mengerut setelah dijahit.
+PENYEBAB: Ketegangan benang atau feeding tidak sesuai dengan karakter material.
+SOLUSI : Sesuaikan ketegangan dan feeding dengan material yang digunakan.
+KEAMANAN: Hentikan mesin sebelum melakukan penyetelan. Jauhkan tangan dari jarum dan bagian bergerak.
+
+ID=1257 | MODEL=EX5200 | MASALAH=Kain mengerut
+TANDA: GEJALA MENGANDUNG KATA TINDAKAN
+GEJALA : Material mengerut setelah dijahit.
+PENYEBAB: Ketegangan benang atau feeding tidak sesuai dengan karakter material.
+SOLUSI : Sesuaikan ketegangan dan feeding dengan material yang digunakan.
+KEAMANAN: Hentikan mesin sebelum melakukan penyetelan. Jauhkan tangan dari jarum dan bagian bergerak.
+
+ID=1287 | MODEL=EX5400 | MASALAH=Kain mengerut
+TANDA: GEJALA MENGANDUNG KATA TINDAKAN
+GEJALA : Permukaan kain berkerut atau tertarik setelah proses menjahit.
+PENYEBAB: Perbedaan tarikan benang, tekanan sepatu, atau mekanisme feed yang tidak sesuai dengan material.
+SOLUSI : Periksa keseimbangan tegangan benang dan kondisi mekanisme feed, kemudian sesuaikan dengan jenis kain.
+KEAMANAN: Matikan mesin sebelum melakukan penyetelan pada tegangan benang, tekanan sepatu, atau mekanisme feed.
+
+ID=1237 | MODEL=FV200 | MASALAH=Kain mengerut
+TANDA: GEJALA MENGANDUNG KATA TINDAKAN
+GEJALA : Material mengerut setelah dijahit.
+PENYEBAB: Ketegangan benang atau feeding tidak sesuai dengan karakter material.
+SOLUSI : Sesuaikan ketegangan dan feeding dengan material yang digunakan.
+KEAMANAN: Hentikan mesin sebelum melakukan penyetelan. Jauhkan tangan dari jarum dan bagian bergerak.
+
+ID=1242 | MODEL=FW703 | MASALAH=Kain mengerut
+TANDA: GEJALA MENGANDUNG KATA TINDAKAN
+GEJALA : Material mengerut setelah dijahit.
+PENYEBAB: Ketegangan benang atau feeding tidak sesuai dengan karakter material.
+SOLUSI : Sesuaikan ketegangan dan feeding dengan material yang digunakan.
+KEAMANAN: Hentikan mesin sebelum melakukan penyetelan. Jauhkan tangan dari jarum dan bagian bergerak.
+
+ID=1247 | MODEL=FW803 | MASALAH=Kain mengerut
+TANDA: GEJALA MENGANDUNG KATA TINDAKAN
+GEJALA : Material mengerut setelah dijahit.
+PENYEBAB: Ketegangan benang atau feeding tidak sesuai dengan karakter material.
+SOLUSI : Sesuaikan ketegangan dan feeding dengan material yang digunakan.
+KEAMANAN: Hentikan mesin sebelum melakukan penyetelan. Jauhkan tangan dari jarum dan bagian bergerak.
+
+ID=1222 | MODEL=GX3200 | MASALAH=Kain mengerut
+TANDA: GEJALA MENGANDUNG KATA TINDAKAN
+GEJALA : Material mengerut setelah dijahit.
+PENYEBAB: Tekanan sepatu atau ketegangan benang tidak sesuai dengan material.
+SOLUSI : Sesuaikan tekanan dan ketegangan benang dengan karakter material.
+KEAMANAN: Hentikan mesin sebelum melakukan penyetelan. Jauhkan tangan dari jarum dan bagian bergerak.
+
+ID=1317 | MODEL=MX3200 | MASALAH=Kain mengerut
+TANDA: GEJALA MENGANDUNG KATA TINDAKAN
+GEJALA : Permukaan kain berkerut atau tertarik setelah proses menjahit.
+PENYEBAB: Tarikan benang tidak seimbang, tekanan sepatu tidak sesuai, atau mekanisme feed tidak sesuai material.
+SOLUSI : Periksa keseimbangan tegangan benang, tekanan sepatu, dan mekanisme feed sesuai jenis kain.
+KEAMANAN: Matikan mesin sebelum melakukan penyetelan pada tegangan benang, tekanan sepatu, atau mekanisme feed.
+
+ID=1322 | MODEL=MX5200 | MASALAH=Kain mengerut
+TANDA: GEJALA MENGANDUNG KATA TINDAKAN
+GEJALA : Permukaan kain berkerut atau tertarik setelah proses menjahit.
+PENYEBAB: Tarikan benang tidak seimbang, tekanan sepatu tidak sesuai, atau mekanisme feed tidak sesuai material.
+SOLUSI : Periksa keseimbangan tegangan benang, tekanan sepatu, dan mekanisme feed sesuai jenis kain.
+KEAMANAN: Matikan mesin sebelum melakukan penyetelan pada tegangan benang, tekanan sepatu, atau mekanisme feed.
+
+ID=1227 | MODEL=TM625 | MASALAH=Kain mengerut
+TANDA: GEJALA MENGANDUNG KATA TINDAKAN
+GEJALA : Material mengalami kerutan setelah proses jahit.
+PENYEBAB: Ketegangan benang terlalu tinggi atau feeding tidak sesuai.
+SOLUSI : Sesuaikan ketegangan benang dan kondisi feeding dengan material.
+KEAMANAN: Hentikan mesin sebelum melakukan penyetelan. Jauhkan tangan dari jarum dan bagian bergerak.
+
+ID=1292 | MODEL=TML326 | MASALAH=Kain mengerut
+TANDA: GEJALA MENGANDUNG KATA TINDAKAN
+GEJALA : Permukaan kain berkerut atau tertarik setelah proses menjahit.
+PENYEBAB: Perbedaan tarikan benang, tekanan sepatu, atau mekanisme feed yang tidak sesuai dengan material.
+SOLUSI : Periksa keseimbangan tegangan benang dan kondisi mekanisme feed, kemudian sesuaikan dengan jenis kain.
+KEAMANAN: Matikan mesin sebelum melakukan penyetelan pada tegangan benang, tekanan sepatu, atau mekanisme feed.
+
+ID=1307 | MODEL=TML626 | MASALAH=Kain mengerut
+TANDA: GEJALA MENGANDUNG KATA TINDAKAN
+GEJALA : Permukaan kain berkerut atau tertarik setelah proses menjahit.
+PENYEBAB: Tarikan benang tidak seimbang, tekanan sepatu tidak sesuai, atau mekanisme feed tidak sesuai material.
+SOLUSI : Periksa keseimbangan tegangan benang, tekanan sepatu, dan mekanisme feed sesuai jenis kain.
+KEAMANAN: Matikan mesin sebelum melakukan penyetelan pada tegangan benang, tekanan sepatu, atau mekanisme feed.
+
+ID=1191 | MODEL=W3522P | MASALAH=Jahitan tidak rapi atau tidak stabil
+TANDA: PENYEBAB MENGANDUNG INSTRUKSI
+GEJALA : Kerapatan atau bentuk jahitan berubah-ubah.
+PENYEBAB: Ketegangan benang tidak seimbang, jarum/benang tidak sesuai, atau mekanisme pembentukan jahitan perlu diperiksa.
+SOLUSI : Periksa jalur dan ketegangan benang serta kondisi jarum; lakukan penyetelan sesuai manual.
+KEAMANAN: Jangan melakukan penyetelan mekanisme saat mesin sedang berjalan.
+
+ID=1192 | MODEL=W3522P | MASALAH=Kain mengerut
+TANDA: GEJALA MENGANDUNG KATA TINDAKAN
+GEJALA : Permukaan kain tertarik atau berkerut setelah dijahit.
+PENYEBAB: Keseimbangan tarikan kain dan pembentukan jahitan tidak sesuai dengan material.
+SOLUSI : Periksa pengaturan mesin dan kondisi mekanisme pengumpan sesuai jenis kain.
+KEAMANAN: Lakukan penyetelan secara bertahap dengan mesin dalam kondisi aman.
+
+ID=1201 | MODEL=W542P | MASALAH=Jahitan tidak rapi atau tidak stabil
+TANDA: PENYEBAB MENGANDUNG INSTRUKSI
+GEJALA : Kerapatan atau bentuk jahitan berubah-ubah.
+PENYEBAB: Ketegangan benang tidak seimbang, jarum/benang tidak sesuai, atau mekanisme pembentukan jahitan perlu diperiksa.
+SOLUSI : Periksa jalur dan ketegangan benang serta kondisi jarum; lakukan penyetelan sesuai manual.
+KEAMANAN: Jangan melakukan penyetelan mekanisme saat mesin sedang berjalan.
+
+ID=1202 | MODEL=W542P | MASALAH=Kain mengerut
+TANDA: GEJALA MENGANDUNG KATA TINDAKAN
+GEJALA : Permukaan kain tertarik atau berkerut setelah dijahit.
+PENYEBAB: Keseimbangan tarikan kain dan pembentukan jahitan tidak sesuai dengan material.
+SOLUSI : Periksa pengaturan mesin dan kondisi mekanisme pengumpan sesuai jenis kain.
+KEAMANAN: Lakukan penyetelan secara bertahap dengan mesin dalam kondisi aman.
+
+ID=1196 | MODEL=W562P | MASALAH=Jahitan tidak rapi atau tidak stabil
+TANDA: PENYEBAB MENGANDUNG INSTRUKSI
+GEJALA : Kerapatan atau bentuk jahitan berubah-ubah.
+PENYEBAB: Ketegangan benang tidak seimbang, jarum/benang tidak sesuai, atau mekanisme pembentukan jahitan perlu diperiksa.
+SOLUSI : Periksa jalur dan ketegangan benang serta kondisi jarum; lakukan penyetelan sesuai manual.
+KEAMANAN: Jangan melakukan penyetelan mekanisme saat mesin sedang berjalan.
+
+ID=1197 | MODEL=W562P | MASALAH=Kain mengerut
+TANDA: GEJALA MENGANDUNG KATA TINDAKAN
+GEJALA : Permukaan kain tertarik atau berkerut setelah dijahit.
+PENYEBAB: Keseimbangan tarikan kain dan pembentukan jahitan tidak sesuai dengan material.
+SOLUSI : Periksa pengaturan mesin dan kondisi mekanisme pengumpan sesuai jenis kain.
+KEAMANAN: Lakukan penyetelan secara bertahap dengan mesin dalam kondisi aman.
+
+ID=1216 | MODEL=W562PC | MASALAH=Jahitan tidak rapi atau tidak stabil
+TANDA: PENYEBAB MENGANDUNG INSTRUKSI
+GEJALA : Kerapatan atau bentuk jahitan berubah-ubah.
+PENYEBAB: Ketegangan benang tidak seimbang, jarum atau benang tidak sesuai, atau mekanisme pembentukan jahitan perlu diperiksa.
+SOLUSI : Periksa jalur dan ketegangan benang serta kondisi jarum; lakukan penyetelan sesuai manual.
+KEAMANAN: Jangan melakukan penyetelan mekanisme saat mesin sedang berjalan.
+
+ID=1217 | MODEL=W562PC | MASALAH=Kain mengerut
+TANDA: GEJALA MENGANDUNG KATA TINDAKAN
+GEJALA : Permukaan kain tertarik atau berkerut setelah dijahit.
+PENYEBAB: Keseimbangan tarikan kain dan pembentukan jahitan tidak sesuai dengan material.
+SOLUSI : Periksa pengaturan mesin dan kondisi mekanisme pengumpan sesuai jenis kain.
+KEAMANAN: Lakukan penyetelan secara bertahap dengan mesin dalam kondisi aman.
+
+ID=1206 | MODEL=W664P | MASALAH=Jahitan tidak rapi atau tidak stabil
+TANDA: PENYEBAB MENGANDUNG INSTRUKSI
+GEJALA : Kerapatan atau bentuk jahitan berubah-ubah.
+PENYEBAB: Ketegangan benang tidak seimbang, jarum atau benang tidak sesuai, atau mekanisme pembentukan jahitan perlu diperiksa.
+SOLUSI : Periksa jalur dan ketegangan benang serta kondisi jarum; lakukan penyetelan sesuai manual.
+KEAMANAN: Jangan melakukan penyetelan mekanisme saat mesin sedang berjalan.
+
+ID=1207 | MODEL=W664P | MASALAH=Kain mengerut
+TANDA: GEJALA MENGANDUNG KATA TINDAKAN
+GEJALA : Permukaan kain tertarik atau berkerut setelah dijahit.
+PENYEBAB: Keseimbangan tarikan kain dan pembentukan jahitan tidak sesuai dengan material.
+SOLUSI : Periksa pengaturan mesin dan kondisi mekanisme pengumpan sesuai jenis kain.
+KEAMANAN: Lakukan penyetelan secara bertahap dengan mesin dalam kondisi aman.
+
+ID=1232 | MODEL=W674 | MASALAH=Kain mengerut
+TANDA: GEJALA MENGANDUNG KATA TINDAKAN
+GEJALA : Material mengerut setelah dijahit.
+PENYEBAB: Ketegangan benang atau feeding tidak sesuai dengan karakter material.
+SOLUSI : Sesuaikan ketegangan dan feeding dengan material yang digunakan.
+KEAMANAN: Hentikan mesin sebelum melakukan penyetelan. Jauhkan tangan dari jarum dan bagian bergerak.
+
+ID=1211 | MODEL=WT264P | MASALAH=Jahitan tidak rapi atau tidak stabil
+TANDA: PENYEBAB MENGANDUNG INSTRUKSI
+GEJALA : Kerapatan atau bentuk jahitan berubah-ubah.
+PENYEBAB: Ketegangan benang tidak seimbang, jarum atau benang tidak sesuai, atau mekanisme pembentukan jahitan perlu diperiksa.
+SOLUSI : Periksa jalur dan ketegangan benang serta kondisi jarum; lakukan penyetelan sesuai manual.
+KEAMANAN: Jangan melakukan penyetelan mekanisme saat mesin sedang berjalan.
+
+ID=1212 | MODEL=WT264P | MASALAH=Kain mengerut
+TANDA: GEJALA MENGANDUNG KATA TINDAKAN
+GEJALA : Permukaan kain tertarik atau berkerut setelah dijahit.
+PENYEBAB: Keseimbangan tarikan kain dan pembentukan jahitan tidak sesuai dengan material.
+SOLUSI : Periksa pengaturan mesin dan kondisi mekanisme pengumpan sesuai jenis kain.
+KEAMANAN: Lakukan penyetelan secara bertahap dengan mesin dalam kondisi aman.
+
+========================================================================================
+INTEGRITY CHECK: ok
+Database tidak diubah.
+CATATAN: tanda otomatis adalah indikasi, bukan vonis kesalahan.

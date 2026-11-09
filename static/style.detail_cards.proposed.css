@@ -1,0 +1,91 @@
+/* ==========================================
+   GT DETAIL MACHINE — INDUSTRIAL CARDS V2
+   Khusus kompatibilitas jarum dan catatan teknisi
+   ========================================== */
+
+body:has(.machine-hero) #needle-compatibility .machine-card,
+body:has(.machine-hero) #technician-notes .machine-card {
+    background: #ffffff !important;
+    color: #34465a !important;
+    border: 1px solid #d6e1eb !important;
+    border-left: 5px solid #f28c28 !important;
+    border-radius: 12px !important;
+    padding: 18px !important;
+    margin-bottom: 14px !important;
+    box-shadow: 0 4px 14px rgba(16, 45, 79, 0.07) !important;
+}
+
+body:has(.machine-hero) #needle-compatibility .machine-card h3,
+body:has(.machine-hero) #technician-notes .machine-card h3 {
+    color: #102d4f !important;
+}
+
+body:has(.machine-hero) #needle-compatibility .machine-card p,
+body:has(.machine-hero) #technician-notes .machine-card p,
+body:has(.machine-hero) #needle-compatibility .machine-card li,
+body:has(.machine-hero) #technician-notes .machine-card li {
+    color: #435469 !important;
+}
+
+body:has(.machine-hero) #needle-compatibility .machine-card strong,
+body:has(.machine-hero) #technician-notes .machine-card strong {
+    color: #173f68 !important;
+}
+
+body:has(.machine-hero) #needle-compatibility .machine-card a,
+body:has(.machine-hero) #technician-notes .machine-card a {
+    color: #1769aa !important;
+}
+
+body:has(.machine-hero) #needle-compatibility .machine-card a:hover,
+body:has(.machine-hero) #technician-notes .machine-card a:hover {
+    color: #d97706 !important;
+}
+
+/* Peringatan kompatibilitas jarum — dipertahankan */
+body:has(.machine-hero) .needle-compat-warning {
+    background: #fff8ed !important;
+    color: #59452c !important;
+    border: 1px solid #f3c98e !important;
+    border-left: 5px solid #f28c28 !important;
+    border-radius: 10px !important;
+    padding: 16px !important;
+}
+
+body:has(.machine-hero) .needle-compat-warning p {
+    color: #59452c !important;
+}
+
+/* Tabel Section 27 — dipertahankan */
+body:has(.machine-hero) #section27-catalog table {
+    background: #ffffff !important;
+    color: #34465a !important;
+    border-collapse: collapse !important;
+}
+
+body:has(.machine-hero) #section27-catalog th {
+    background: #102d4f !important;
+    color: #ffffff !important;
+    padding: 11px !important;
+}
+
+body:has(.machine-hero) #section27-catalog td {
+    background: #ffffff !important;
+    color: #435469 !important;
+    border: 1px solid #d6e1eb !important;
+    padding: 10px !important;
+}
+
+body:has(.machine-hero) #section27-catalog tr:nth-child(even) td {
+    background: #f3f7fb !important;
+}
+
+@media (max-width: 600px) {
+    body:has(.machine-hero) #needle-compatibility .machine-card,
+    body:has(.machine-hero) #technician-notes .machine-card {
+        padding: 15px !important;
+        border-radius: 10px !important;
+    }
+}
+
+/* END GT DETAIL MACHINE — INDUSTRIAL CARDS V2 */

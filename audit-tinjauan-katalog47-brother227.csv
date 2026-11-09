@@ -1,0 +1,2 @@
+﻿local_part_id,local_catalog,part_number,local_part_name,status_awal,keputusan_audit,mekanisme_usulan,rujukan_katalog,catatan_auditor
+12280,47,SB0910201,PULLEY,KANDIDAT_PART_BARU,PERLU_VERIFIKASI_KATALOG,BELUM DITETAPKAN,Cocokkan dengan diagram dan daftar komponen resmi Brother BAS-311HN/326H; kecocokan submodel -03S belum terkonfirmasi.,"Nama hanya menyebut pulley tanpa fungsi atau lokasi spesifik. Verifikasi nomor komponen, posisi, dan mekanisme pada diagram resmi serta pastikan kecocokan untuk submodel BAS-311HN-03S."

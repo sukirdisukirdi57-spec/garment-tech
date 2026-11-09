@@ -1,0 +1,2 @@
+﻿local_part_id,local_catalog,part_number,local_part_name,status_awal,keputusan_audit,mekanisme_usulan,rujukan_katalog,catatan_auditor
+12275,42,SB1038001,PULLEY BUSH,KANDIDAT_PART_BARU,PERLU_VERIFIKASI_KATALOG,BELUM DITETAPKAN,Cocokkan dengan diagram dan daftar komponen resmi Brother BAS-311HN/326H; kecocokan submodel -03S belum terkonfirmasi.,"Nama menunjukkan bushing pulley, tetapi mekanisme dan posisi pemasangan belum dapat ditentukan dari nama saja. Periksa diagram resmi dan verifikasi kecocokan submodel BAS-311HN-03S."

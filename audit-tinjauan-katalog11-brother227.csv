@@ -1,0 +1,3 @@
+﻿local_part_id,local_catalog,part_number,local_part_name,status_awal,keputusan_audit,mekanisme_usulan,rujukan_katalog,catatan_auditor
+12480,11,SA3293001,STUD B-WINDER CLAW,KANDIDAT_PART_BARU,IDENTITAS_DIDUKUNG_KATALOG,H - Bobbin winder mechanism,"Katalog Brother BAS-311HN/326H, bagian H, halaman cetak 37, item 11.",Nomor dan nama STUD B-WINDER CLAW cocok dengan katalog. Kecocokan khusus submodel BAS-311HN-03S belum dikonfirmasi.
+12584,11,SB6545001,SIDE COVER SD,KANDIDAT_PART_BARU,IDENTITAS_DIDUKUNG_KATALOG,Q - Motor mechanism and LCD panel,"Katalog Brother BAS-311HN/326H, bagian Q, halaman cetak 58, item 11.",Nomor dan nama SIDE COVER SD cocok dengan katalog. Pastikan konfigurasi panel dan kecocokan khusus submodel BAS-311HN-03S sebelum impor.

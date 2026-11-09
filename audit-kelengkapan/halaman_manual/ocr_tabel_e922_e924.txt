@@ -1,0 +1,13 @@
+Sumber: manual JUKI, halaman tercetak 54 (PDF halaman 58)
+Metode: OCR lokal Tesseract, potongan tabel diperbesar
+Catatan: OCR tidak memastikan batas kolom secara visual.
+
+| | broken.
+il il I
+failure operate as assumed.
+
+924 | Molor diver faull__|+ I the case the molor drverhas broken |
+O Eerontwe o | e e oo || T B mecut ot
+EEPROM write error | the machine-head EEPROM. INT PCB is connected properly.
+
+E955 | Electric current » The electric current of the main shaft * Check whether connection of the

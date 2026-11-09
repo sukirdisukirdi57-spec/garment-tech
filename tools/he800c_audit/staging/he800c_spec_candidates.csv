@@ -1,0 +1,12 @@
+﻿machine_id,model,status,specification,value,notes,description
+102,HE-800C,KANDIDAT_BARU,Ukuran lubang kancing,Panjang lubang 4–32 mm; panjang total maksimum 40 mm,"Manual resmi Brother HE-800C, bagian 2-1, halaman cetak 2",Bedakan panjang lubang dari panjang total lubang kancing.
+102,HE-800C,KANDIDAT_BARU,Panjang tusuk zigzag maksimum,36 mm,"Manual resmi Brother HE-800C, bagian 2-1, halaman cetak 2",Nilai batas yang tercantum pada diagram ukuran lubang kancing.
+102,HE-800C,KANDIDAT_BARU,Metode penggerak cutter,Double position solenoid,"Manual resmi Brother HE-800C, bagian 2-1, halaman cetak 2",Metode penggerak pemotong material.
+102,HE-800C,KANDIDAT_BARU,Jumlah jahitan maksimum per program,999 jahitan,"Manual resmi Brother HE-800C, bagian 2-1, halaman cetak 2",Manual juga menyebut 3.000 jahitan untuk program siklus keseluruhan.
+102,HE-800C,KANDIDAT_BARU,Jumlah jahitan program siklus,3.000 jahitan,"Manual resmi Brother HE-800C, bagian 2-1, halaman cetak 2",Batas untuk keseluruhan program siklus; bukan batas per program biasa.
+102,HE-800C,KANDIDAT_BARU,Media penyimpanan data,SD memory card,"Manual resmi Brother HE-800C, bagian 2-1, halaman cetak 2",Manual tidak menjamin semua media SD dapat beroperasi.
+102,HE-800C,KANDIDAT_BARU,Jarum untuk spesifikasi -2,Schmetz 134 Nm90,"Manual resmi Brother HE-800C, bagian 2-1, halaman cetak 2; parts book ref. 37+",Varian -2; kode jarum parts book SA9253090.
+102,HE-800C,KANDIDAT_BARU,Jarum untuk spesifikasi -3,Schmetz 134 Nm75,"Manual resmi Brother HE-800C, bagian 2-1, halaman cetak 2; parts book ref. 37+",Varian -3; kode jarum parts book SA9253075.
+102,HE-800C,KANDIDAT_BARU,Catu daya,1 fase 100/220 V; 3 fase 220/380/400 V,"Manual resmi Brother HE-800C, bagian 2-1, halaman cetak 2",Trans box diperlukan untuk 1 fase 100 V dan 3 fase 380/400 V. Konfirmasi konfigurasi unit sebelum penggunaan.
+102,HE-800C,KANDIDAT_BARU,Perlengkapan penahan benang bawah,Standar,"Manual resmi Brother HE-800C, bagian 2-1, halaman cetak 2",Lower thread holding device.
+102,HE-800C,KANDIDAT_BARU,Bobbin presser,Standar,"Manual resmi Brother HE-800C, bagian 2-1, halaman cetak 2",Tercantum sebagai perlengkapan standar.

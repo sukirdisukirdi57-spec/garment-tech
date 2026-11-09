@@ -53,9 +53,91 @@
             border-radius: 6px;
         }
         a { color: #075bb5; }
-    </style>
+    
+/* GT NEEDLE SERIES EDIT - INDUSTRIAL MODERN V1 */
+body.needle-series-edit-page {
+    margin: 0;
+    padding: 24px 16px;
+    background: #eef2f7;
+    color: #263548;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+.needle-series-edit-page main {
+    width: min(100%, 780px);
+    margin: 0 auto;
+    padding: 0;
+}
+.needle-series-edit-page main > h1 {
+    margin: 16px 0 20px;
+    padding: 25px 26px;
+    color: #fff;
+    background: linear-gradient(135deg, #102d4f, #081525);
+    border-left: 6px solid #f28c28;
+    border-radius: 14px;
+    font-size: 25px;
+}
+.needle-series-edit-page a {
+    color: #174d7c;
+    font-weight: 600;
+}
+.needle-series-edit-page form {
+    padding: 24px;
+    background: #fff;
+    border: 1px solid #dce4ed;
+    border-radius: 14px;
+    box-shadow: 0 5px 18px rgba(16,45,79,.07);
+}
+.needle-series-edit-page input,
+.needle-series-edit-page textarea,
+.needle-series-edit-page select {
+    box-sizing: border-box;
+    max-width: 100%;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    padding: 11px 12px;
+    background: #fbfdff;
+    font: inherit;
+}
+.needle-series-edit-page input:focus,
+.needle-series-edit-page textarea:focus,
+.needle-series-edit-page select:focus {
+    outline: 2px solid rgba(242,140,40,.25);
+    border-color: #f28c28;
+}
+.needle-series-edit-page button {
+    padding: 11px 19px;
+    border: 0;
+    border-radius: 8px;
+    background: #102d4f;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+.needle-series-edit-page button:hover {
+    background: #f28c28;
+    color: #102d4f;
+}
+.needle-series-edit-page .notice {
+    padding: 12px 15px;
+    border-radius: 9px;
+    background: #fff2e5;
+    border: 1px solid #f5c48f;
+    color: #80501b;
+}
+@media (max-width: 600px) {
+    body.needle-series-edit-page { padding: 14px 10px; }
+    .needle-series-edit-page main > h1 {
+        padding: 19px 16px;
+        font-size: 21px;
+    }
+    .needle-series-edit-page form { padding: 16px; }
+}
+/* END GT NEEDLE SERIES EDIT */
+
+</style>
 </head>
-<body>
+<body class="needle-series-edit-page">
 <main>
     <a href="/admin/needle-series">← Kembali ke Master Seri Jarum</a>
 

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garment Machine Tech Database | Database Mesin Jahit Industri</title>
+<meta name="description" content="Garment Machine Tech Database adalah database teknisi mesin jahit industri berisi merek, model, spesifikasi, komponen, troubleshooting, dan dokumentasi mesin garment.">
+<link rel="canonical" href="{{ request.url_root.rstrip('/') }}{{ request.path }}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Garment Machine Tech Database">
+<meta property="og:description" content="Database teknisi mesin jahit industri untuk mencari model, spesifikasi, komponen, troubleshooting, dan dokumentasi mesin garment.">
+<meta property="og:url" content="{{ request.url }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<header>
+    <h1>GARMENT MACHINE TECH DATABASE</h1>
+    <p>Database Teknisi Mesin Garment</p>
+</header>
+
+<main>
+
+    <section class="industrial-hero">
+    <div class="industrial-hero-content">
+        <span class="industrial-eyebrow">GARMENT MACHINE TECH DATABASE</span>
+        <h2>Pusat Referensi Teknis Mesin Garment</h2>
+        <p>
+            Temukan informasi mesin jahit industri, spesifikasi teknis,
+            komponen, suku cadang, dokumen, dan panduan troubleshooting
+            dalam satu database.
+        </p>
+
+        <form method="GET" action="/" class="industrial-search">
+            <select name="brand_id" aria-label="Pilih merek mesin">
+                <option value="">Semua Merek</option>
+                {% for brand in brands %}
+                <option value="{{ brand['id'] }}" {% if brand_id == brand['id'] %}selected{% endif %}>{{ brand['name'] }}</option>
+                {% endfor %}
+            </select>
+            <input
+                type="text"
+                name="model"
+                value="{{ model_search }}"
+                placeholder="Seri / model, contoh AMS, DDL, DLN, KE, HE"
+                aria-label="Cari seri atau model mesin"
+            >
+            <button type="submit">Cari Mesin</button>
+        </form>
+
+        <div class="industrial-quick-links">
+            <a href="#brand-list">Daftar Merek</a>
+            <a href="#machine-type-list">Jenis Mesin</a>
+            <a href="/components">Komponen &amp; Spare Part</a>
+            <a href="/needle-catalog">🪡 Katalog Jarum</a>
+            <a href="/troubleshooting">🔧 Troubleshooting</a>
+        </div>
+
+        {% if session.get("admin_logged_in") %}
+        <p class="industrial-admin-link">
+            <a href="/add-machine" class="add-button">Tambah Mesin</a>
+        </p>
+        {% endif %}
+    </div>
+</section>
+
+
+    <section class="database-overview">
+
+        <h2>📊 Database Overview</h2>
+
+        <div class="stats-grid">
+
+            <a href="#brand-list" class="stat-card stat-card-link">
+                <strong>{{ statistics["brands"] }}</strong>
+                <span>🏷️ Merek</span>
+            </a>
+
+            <a href="#machine-type-list" class="stat-card stat-card-link">
+                <strong>{{ statistics["machines"] }}</strong>
+                <span>🏭 Mesin</span>
+            </a>
+
+            <div class="stat-card">
+                <strong>{{ statistics["documents"] }}</strong>
+                <span>📄 Dokumen</span>
+            </div>
+
+            <a href="{{ url_for('components_list') }}" class="stat-card stat-card-link">
+                <strong>{{ statistics["components"] }}</strong>
+                <span>🔩 Komponen</span>
+            </a>
+
+            <div class="stat-card">
+                <strong>{{ statistics["parts"] }}</strong>
+                <span>⚙️ Parts</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    {% if brand_id or model_search %}
+    <section>
+        <h2>🔎 Hasil pencarian mesin{% if selected_brand_name %} — {{ selected_brand_name }}{% endif %}{% if model_search %} — {{ model_search }}{% endif %}</h2>
+
+        {% if machines %}
+            <div class="machine-list">
+
+                {% for machine in machines %}
+                <div class="machine-card">
+
+                    <h3>
+                        {{ machine["brand_name"] or "Merek belum ada" }}
+                        — {{ machine["model"] }}
+                    </h3>
+
+                    <p>
+                        <strong>Jenis:</strong>
+                        {{ machine["type_name"] or "Belum ditentukan" }}
+                    </p>
+
+                    <p>
+                        <strong>Fungsi:</strong>
+                        {{ machine["function"] or "Belum ada data" }}
+                    </p>
+
+                    <p>
+                        {{ machine["description"] or "Belum ada deskripsi" }}
+                    </p>
+
+                    <div class="machine-stats">
+                        <span>📋 {{ machine["specifications_count"] }} Spesifikasi</span>
+                        <span>🔧 {{ machine["components_count"] }} Komponen</span>
+                        <span>⚙️ {{ machine["parts_count"] }} Parts</span>
+                        <span>⚠️ {{ machine["troubleshooting_count"] }} Troubleshooting</span>
+                        <span>📄 {{ machine["documents_count"] }} Dokumen</span>
+                    </div>
+
+                    <p>
+    <a href="/machine/{{ machine['id'] }}" class="add-button">
+        🔎 Detail Mesin
+    </a>
+</p>
+
+                </div>
+                {% endfor %}
+
+            </div>
+        {% else %}
+            <div class="empty">
+                <p>❌ Mesin dengan kata kunci tersebut belum ditemukan.</p>
+            </div>
+        {% endif %}
+    </section>
+    {% endif %}
+
+
+    <section>
+        <h2 id="brand-list">🏭 Merek Mesin</h2>
+
+        <div class="grid">
+            {% for brand in brands %}
+            <a href="{{ url_for('brand_machines', brand_id=brand['id']) }}" class="card">
+                {% if brand["name"]|upper == "JUKI" %}
+                    <div class="brand-logo">
+                        <img src="{{ url_for('static', filename='images/brands/juki.svg') }}" alt="JUKI">
+                    </div>
+                {% elif brand["name"]|upper == "BROTHER" %}
+                    <div class="brand-logo">
+                        <img src="{{ url_for('static', filename='images/brands/brother.svg') }}" alt="BROTHER">
+                    </div>
+                {% elif brand["name"]|upper == "YAMATO" %}
+                    <div class="brand-logo">
+                        <img src="{{ url_for('static', filename='images/brands/yamato.svg') }}" alt="YAMATO">
+                    </div>
+                {% elif brand["name"]|upper == "PEGASUS" %}
+                    <div class="brand-logo">
+                        <img src="{{ url_for('static', filename='images/brands/pegasus.svg') }}" alt="PEGASUS">
+                    </div>
+                {% elif brand["name"]|upper == "HIKARI" %}
+                    <div class="brand-logo">
+                        <img src="{{ url_for('static', filename='images/brands/hikari.svg') }}" alt="HIKARI">
+                    </div>
+                {% elif brand["name"]|upper == "MAICA" %}
+                    <div class="brand-logo">
+                        <img src="{{ url_for('static', filename='images/brands/maica.svg') }}" alt="MAICA">
+                    </div>
+                {% elif brand["name"]|upper == "KANSAI SPECIAL" %}
+                    <div class="brand-logo">
+                        <img src="{{ url_for('static', filename='images/brands/kansai-special.svg') }}" alt="KANSAI SPECIAL">
+                    </div>
+                {% elif brand["name"]|upper == "KM" %}
+                    <div class="brand-logo">
+                        <img src="{{ url_for('static', filename='images/brands/km.svg') }}" alt="KM">
+                    </div>
+                {% elif brand["name"]|upper == "IMB" %}
+                    <div class="brand-logo">
+                        <img src="{{ url_for('static', filename='images/brands/imb.svg') }}" alt="IMB">
+                    </div>
+                {% elif brand["name"]|upper == "JUITA" %}
+                    <div class="brand-logo">
+                        <img src="{{ url_for('static', filename='images/brands/juita.svg') }}" alt="JUITA">
+                    </div>
+                {% else %}
+                    <h3>{{ brand["name"] }}</h3>
+                {% endif %}
+
+                <p>{{ brand["country"] or "Data negara belum tersedia" }}</p>
+            </a>
+            {% endfor %}
+        </div>
+    </section>
+
+
+    <section>
+        <h2 id="machine-type-list">⚙️ Jenis Mesin</h2>
+
+        <div class="grid">
+            {% for machine_type in machine_types %}
+            <a href="{{ url_for('type_machines', type_id=machine_type['id']) }}" class="card{% if machine_type['name'] == 'Other' %} card-other-empty{% endif %}">
+                <h3>{{ machine_type["name"] }}</h3>
+                <p>{{ machine_type["description"] if machine_type["description"] and machine_type["description"]|string|lower != "none" else "Keterangan belum tersedia" }}</p>
+            </a>
+            {% endfor %}
+        </div>
+    </section>
+
+
+    <section id="about-garmenttech" class="about-garmenttech">
+        <div class="about-heading">
+            <span class="industrial-eyebrow">MENGENAL GARMENTTECH</span>
+            <h2>Referensi Teknis Mesin Garment yang Terintegrasi</h2>
+            <p>
+                GarmentTech adalah pusat referensi teknis mesin garment yang membantu teknisi, mekanik, dan pengguna menemukan informasi mesin secara lebih terarah. Database menghubungkan informasi merek dan model mesin dengan spesifikasi teknis, komponen, suku cadang, dokumen, serta panduan troubleshooting yang tersedia.
+            </p>
+        </div>
+
+        <div class="garmenttech-feature-grid">
+            <article class="garmenttech-feature">
+                <h3>Mesin dan Merek</h3>
+                <p>Temukan mesin berdasarkan merek dan awalan seri atau model untuk mengakses informasi teknis yang sesuai.</p>
+            </article>
+            <article class="garmenttech-feature">
+                <h3>Komponen dan Spare Part</h3>
+                <p>Jelajahi informasi komponen dan suku cadang beserta keterkaitannya dengan mesin yang tercatat dalam database.</p>
+            </article>
+            <article class="garmenttech-feature">
+                <h3>Spesifikasi Teknis</h3>
+                <p>Pelajari spesifikasi teknis setiap model berdasarkan data yang telah tersedia.</p>
+            </article>
+            <article class="garmenttech-feature">
+                <h3>Manual dan Katalog</h3>
+                <p>Akses manual pengoperasian, katalog suku cadang, dan dokumen teknis yang telah dimasukkan ke database.</p>
+            </article>
+            <article class="garmenttech-feature">
+                <h3>Troubleshooting</h3>
+                <p>Pelajari catatan masalah dan solusi teknis yang tersedia sebagai referensi pemeriksaan dan perbaikan mesin.</p>
+            </article>
+            <article class="garmenttech-feature">
+                <h3>Pencarian Terpadu</h3>
+                <p>Pilih merek mesin dan masukkan awalan seri atau model untuk menemukan mesin yang sesuai.</p>
+            </article>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>Garment Machine Tech Database — Local System</p>
+</footer>
+
+</body>
+</html>

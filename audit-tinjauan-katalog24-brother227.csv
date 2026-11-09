@@ -1,0 +1,4 @@
+﻿local_part_id,local_catalog,part_number,local_part_name,status_awal,keputusan_audit,mekanisme_usulan,rujukan_katalog,catatan_auditor
+12596,24,200190001,STAPLE 10X20,KANDIDAT_PART_BARU,PERLU_VERIFIKASI_KATALOG,BELUM DITETAPKAN,Perlu dicocokkan dengan diagram dan daftar komponen resmi Brother BAS-311HN/326H.,Fungsi dan lokasi pemasangan belum diketahui; verifikasi diagram katalog resmi.
+12493,24,S10268001,SPRING,KANDIDAT_PART_BARU,PERLU_VERIFIKASI_KATALOG,BELUM DITETAPKAN,Perlu dicocokkan dengan diagram dan daftar komponen resmi Brother BAS-311HN/326H.,Nama komponen terlalu umum untuk menentukan mekanisme; periksa diagram dan posisi pemasangan.
+12306,24,SA4197101,FEED GEAR,KANDIDAT_PART_BARU,PERLU_VERIFIKASI_KATALOG,C5 - Feed mechanism (usulan),Perlu dicocokkan dengan diagram dan daftar komponen resmi Brother BAS-311HN/326H.,Nama mengarah ke mekanisme pengumpan; verifikasi posisi pada diagram resmi dan kecocokan submodel -03S.

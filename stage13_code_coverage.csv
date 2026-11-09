@@ -1,0 +1,80 @@
+﻿id,machine_id,code,problem,prefix
+1865,6,E001,Kesalahan inisialisasi EEPROM pada papan kontrol utama,E
+1866,6,E007,Motor poros utama terkunci,E
+1867,6,E011,Media eksternal belum terpasang,E
+1868,6,E012,Kesalahan membaca data dari media eksternal,E
+1869,6,E013,Kesalahan menulis data ke media eksternal,E
+1870,6,E014,Media eksternal terlindungi dari penulisan,E
+1871,6,E015,Kesalahan pemformatan media eksternal,E
+1872,6,E016,Kapasitas media eksternal tidak mencukupi,E
+1873,6,E017,Kapasitas EEPROM tidak mencukupi,E
+1874,6,E018,Jenis EEPROM tidak sesuai,E
+1875,6,E019,Ukuran berkas terlalu besar,E
+1876,6,E022,Nomor berkas tidak ditemukan,E
+1877,6,E023,Motor pengangkat presser foot kehilangan langkah,E
+1878,6,E024,Ukuran data pola melebihi kapasitas,E
+1879,6,E025,Motor pemotong benang jarum kehilangan langkah,E
+1880,6,E026,Motor pemotong benang bobbin kehilangan langkah,E
+1881,6,E030,Jarum gagal berhenti pada posisi atas,E
+1882,6,E042,Operasi data jahitan gagal,E
+1883,6,E043,Jarak jahitan melebihi batas,E
+1884,6,E050,Sakelar berhenti ditekan saat mesin berjalan,E
+1885,6,E052,Kesalahan deteksi benang putus,E
+1886,6,E061,Kesalahan data memory switch,E
+1887,6,E062,Kesalahan data jahitan,E
+1888,6,E063,Identitas kepala mesin tidak cocok,E
+1889,6,E081,Motor pengayun jarum sumbu X kehilangan sinkronisasi,E
+1890,6,E082,Motor pengumpan sumbu Y kehilangan sinkronisasi,E
+1891,6,E083,Posisi presser foot terlalu tinggi,E
+1892,6,E098,Jumlah jahitan tidak mencukupi untuk pemotongan benang,E
+1893,6,E099,Perintah penurunan pisau berbenturan dengan gerakan pemotong benang,E
+1894,6,E204,Peringatan koneksi USB thumb drive saat menjahit,E
+1895,6,E302,Deteksi kepala mesin miring atau penutup hook terbuka,E
+1896,6,E303,Kesalahan sensor fase Z motor poros utama,E
+1897,6,E304,Kesalahan sensor pisau pemotong kain,E
+1898,6,E402,Penghapusan data jahitan individual tidak diizinkan,E
+1899,6,E407,Penghapusan data jahitan berkelanjutan tidak diizinkan,E
+1900,6,E430,Kesalahan penghitung (count-up),E
+1901,6,E485,Jumlah jahitan basting belum ditetapkan,E
+1902,6,E486,Panjang pisau eyelet terlalu pendek,E
+1903,6,E487,Panjang bentuk eyelet terlalu pendek,E
+1904,6,E488,Kesalahan kompensasi bartack meruncing,E
+1905,6,E489,Ukuran pisau tidak sesuai pada beberapa gerakan pisau,E
+1906,6,E492,Data jahitan bawah (basting) melebihi ukuran sepatu penekan,E
+1907,6,E493,Data jahitan pengunci akhir melebihi ukuran sepatu penekan,E
+1908,6,E494,Data jahitan pengunci awal melebihi ukuran sepatu penekan,E
+1909,6,E495,Data jahitan melampaui batas kanan sepatu penekan,E
+1910,6,E496,Data jahitan melampaui batas kiri sepatu penekan,E
+1911,6,E497,Data jahitan melampaui batas depan sepatu penekan,E
+1912,6,E498,Data jahitan melampaui batas lebar kanan dan kiri sepatu penekan,E
+1913,6,E499,Data jahitan melampaui batas belakang sepatu penekan,E
+1914,6,E703,Ketidaksesuaian tipe mesin saat komunikasi awal,E
+1915,6,E704,Ketidaksesuaian versi sistem,E
+1916,6,E730,Gangguan encoder motor poros utama,E
+1917,6,E731,Gangguan sensor lubang atau sensor posisi motor utama,E
+1918,6,E733,Motor poros utama berputar terbalik,E
+1919,6,E798,Kegagalan gerakan ayun jarum,E
+1920,6,E799,Kegagalan gerakan ayun jarum,E
+1921,6,E801,Kehilangan fase daya masukan,E
+1922,6,E802,Terjadi pemutusan daya sesaat,E
+1923,6,E811,Tegangan berlebih,E
+1924,6,E813,Tegangan rendah,E
+1925,6,E820,Sekring suplai 24 V DC putus,E
+1926,6,E901,Gangguan IPM motor poros utama,E
+1927,6,E902,Arus berlebih pada motor poros utama,E
+1928,6,E903,Nilai suplai daya motor langkah tidak normal,E
+1929,6,E904,Nilai suplai daya solenoid tidak normal,E
+1930,6,E905,Suhu heatsink papan kontrol servo tidak normal,E
+1931,6,E907,Kegagalan pencarian posisi awal motor ayun jarum,E
+1932,6,E908,Kegagalan pencarian posisi awal motor gerak Y,E
+1933,6,E909,Kegagalan pencarian posisi awal motor pemotong benang jarum,E
+1934,6,E910,Kegagalan pencarian posisi awal motor sepatu penekan,E
+1935,6,E911,Kegagalan pencarian posisi awal motor pemotong benang bobbin,E
+1936,6,E915,Gangguan komunikasi antara panel operasi dan CPU utama,E
+1937,6,E916,Gangguan komunikasi antara CPU utama dan CPU poros utama,E
+1938,6,E918,Suhu heatsink papan kontrol utama tidak normal,E
+1939,6,E943,Gangguan penulisan EEPROM papan kontrol utama,E
+1940,6,E946,Gangguan penulisan EEPROM papan relay kepala mesin,E
+1941,6,E999,Pisau pemotong kain gagal kembali ke posisi semula,E
+1942,6,E912,Gangguan deteksi kecepatan motor jahit,E
+1943,6,E998,Kesalahan deviasi sepatu penekan,E

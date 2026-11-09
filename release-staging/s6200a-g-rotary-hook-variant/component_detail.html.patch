@@ -1,0 +1,44 @@
+--- a/templates/component_detail.html
++++ b/templates/component_detail.html
+@@ -1133,7 +1133,7 @@
+     </section>
+ {% endif %}
+ 
+-{% if component["machine_id"] == 52 and sub_parts %}
++{% if component["machine_model"] == "S-6200A" and component["component_name"] == "G. Rotary hook mechanism" and sub_parts %}
+     <section class="component-info" id="s6200a-parts-table">
+         <h2>📋 Daftar Suku Cadang — Brother S-6200A</h2>
+         <p>Ref. katalog, nomor part, nama part, dan kuantitas berdasarkan data PartsBook.</p>
+@@ -1141,7 +1141,7 @@
+             <table class="component-subparts">
+                 <thead>
+                     <tr>
+-                        {% if component["id"] == 506 %}
++                        {% if component["machine_model"] == "S-6200A" and component["component_name"] == "G. Rotary hook mechanism" %}
+                         <th>Varian</th>
+                         {% endif %}
+                         <th>Ref.</th>
+@@ -1153,16 +1153,19 @@
+                 <tbody>
+                     {% for part in sub_parts %}
+                     <tr>
+-                        {% if component["id"] == 506 %}
++                        {% if component["machine_model"] == "S-6200A" and component["component_name"] == "G. Rotary hook mechanism" %}
+                         <td>
+-                            {% if part["relation_notes"] in ["For -[]03", "For -[]05"] %}
+-                                {{ part["relation_notes"] }}
++                            {% set variant_note = (part["relation_notes"] or "")|replace(" ", "")|replace("-", "")|lower %}
++                            {% if "for[]03" in variant_note %}
++                                For -[]03
++                            {% elif "for[]05" in variant_note %}
++                                For -[]05
+                             {% else %}
+                                 Umum
+                             {% endif %}
+                         </td>
+                         {% endif %}
+-                        <td>{{ part["catalog_ref"] if part["catalog_ref"] is not none else "—" }}</td>
++                        <td>{{ part["catalog_ref"] if part["catalog_ref"] is not none else "—" }}{% set ref_variant = (part["relation_notes"] or "")|replace(" ", "")|replace("-", "")|lower %}{% if part["catalog_ref"] in [29, 30] and ("for[]03" in ref_variant or "for[]05" in ref_variant) %}+{% endif %}</td>
+                         <td><strong>{{ part["part_number"] or "—" }}</strong></td>
+                         <td>{{ part["part_name"] or "—" }}</td>
+                         <td>{{ part["quantity_raw"] or part["quantity"] or "—" }}</td>

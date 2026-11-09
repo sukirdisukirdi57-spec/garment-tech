@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Preview Edit Sistem Jarum | Garment Tech</title>
+<link rel="stylesheet" href="style.needle_system_edit.proposed.css">
+</head>
+<body>
+<main>
+<p><a href="preview_needle_systems.html">← Kembali ke katalog</a></p>
+<section>
+<h1>Edit Sistem Jarum</h1>
+<p class="note">Status verifikasi tidak berubah saat formulir ini disimpan. Pastikan kode didukung katalog resmi dan cocok dengan manual model mesin sebelum menyatakan kompatibilitas.</p>
+
+<form>
+<label for="system_code">Kode sistem jarum *</label>
+<input id="system_code" value="DBx1">
+
+<label for="manufacturer">Merek / produsen</label>
+<input id="manufacturer" value="Organ">
+
+<label for="alternative_names">Nama alternatif</label>
+<input id="alternative_names" value="16x231">
+
+<label for="stitch_type">Jenis jahitan</label>
+<select id="stitch_type">
+<option>Belum ditentukan</option>
+<option selected>Lockstitch</option>
+<option>Chainstitch</option>
+</select>
+
+<label for="machine_category">Kategori mesin</label>
+<input id="machine_category" value="Mesin jahit lockstitch">
+
+<label for="description">Deskripsi</label>
+<textarea id="description">Contoh data untuk melihat tampilan formulir.</textarea>
+
+<label for="source_url">Sumber utama (URL)</label>
+<input id="source_url" type="url" placeholder="https://...">
+
+<label for="reference_url">Referensi silang (URL)</label>
+<input id="reference_url" type="url" placeholder="https://...">
+
+<label for="verification_notes">Catatan verifikasi</label>
+<textarea id="verification_notes">Contoh catatan verifikasi.</textarea>
+
+<label for="verification_status">Status verifikasi</label>
+<select id="verification_status">
+<option selected>Belum diverifikasi</option>
+<option>Kode ditemukan di referensi resmi</option>
+<option>Terverifikasi - sistem dan jenis jahitan</option>
+</select>
+
+<button type="button">Simpan Perubahan</button>
+</form>
+</section>
+</main>
+</body>
+</html>

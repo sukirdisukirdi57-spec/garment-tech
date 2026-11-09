@@ -1,0 +1,116 @@
+/* PROPOSAL TEMA — Edit Sistem Jarum */
+/* Belum diterapkan ke template aktif */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    color: #263548;
+    margin: 0;
+    padding: 20px 16px;
+    line-height: 1.6;
+}
+
+main {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+main > p a {
+    color: #102d4f;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+main > p a:hover {
+    color: #f28c28;
+    text-decoration: underline;
+}
+
+section {
+    background: #ffffff;
+    padding: 24px;
+    border: 1px solid #dce4ed;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(16, 45, 79, 0.06);
+}
+
+h1 {
+    color: #102d4f;
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    color: #102d4f;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 11px 12px;
+    border: 1px solid #dce4ed;
+    border-radius: 7px;
+    background: #ffffff;
+    color: #263548;
+    font: inherit;
+    font-size: 16px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid rgba(242, 140, 40, 0.25);
+    border-color: #f28c28;
+}
+
+textarea {
+    min-height: 90px;
+    resize: vertical;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background: #f28c28;
+    color: #ffffff;
+    border: 0;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #d97516;
+}
+
+.note {
+    background: #fff8e8;
+    color: #59451f;
+    border: 1px solid #f1dfb8;
+    padding: 12px 14px;
+    border-radius: 7px;
+}
+
+.error {
+    background: #ffe7e7;
+    color: #8b0000;
+    border: 1px solid #efbcbc;
+    padding: 12px 14px;
+    border-radius: 7px;
+}
+
+@media (max-width: 520px) {
+    body {
+        padding: 12px;
+    }
+
+    section {
+        padding: 18px;
+    }
+}

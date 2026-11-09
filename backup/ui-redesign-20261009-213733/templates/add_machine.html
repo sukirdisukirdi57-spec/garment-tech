@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambah Mesin - Garment Machine Tech Database</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<header>
+    <h1>➕ TAMBAH MESIN</h1>
+    <p>Garment Machine Tech Database</p>
+</header>
+
+<main>
+
+    <section class="welcome">
+
+        <h2>Data Mesin Baru</h2>
+
+        <form method="POST">
+
+            <label for="brand_id">Merek Mesin</label>
+
+            <select name="brand_id" id="brand_id" required>
+                <option value="">-- Pilih Merek --</option>
+
+                {% for brand in brands %}
+                <option value="{{ brand['id'] }}">
+                    {{ brand['name'] }}
+                </option>
+                {% endfor %}
+
+            </select>
+
+
+            <label for="machine_type_id">Jenis Mesin</label>
+
+            <select name="machine_type_id" id="machine_type_id" required>
+                <option value="">-- Pilih Jenis Mesin --</option>
+
+                {% for machine_type in machine_types %}
+                <option value="{{ machine_type['id'] }}">
+                    {{ machine_type['name'] }}
+                </option>
+                {% endfor %}
+
+            </select>
+
+
+            <label for="model">Model Mesin</label>
+
+            <input
+                type="text"
+                name="model"
+                id="model"
+                placeholder="Contoh: DDL-8700"
+                required
+            >
+
+
+            <label for="function">Fungsi Mesin</label>
+
+            <input
+                type="text"
+                name="function"
+                id="function"
+                placeholder="Contoh: Jahitan lurus"
+            >
+
+
+            <label for="description">Deskripsi</label>
+
+            <textarea
+                name="description"
+                id="description"
+                rows="5"
+                placeholder="Masukkan deskripsi mesin..."
+            ></textarea>
+
+
+            <button type="submit">
+                💾 Simpan Mesin
+            </button>
+
+        </form>
+
+        <br>
+
+        <a href="/" class="back-button">
+            ← Kembali ke Database
+        </a>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>Garment Machine Tech Database — Local System</p>
+</footer>
+
+</body>
+</html>

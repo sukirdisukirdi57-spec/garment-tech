@@ -1,0 +1,2 @@
+﻿local_part_id,local_catalog,part_number,local_part_name,status_awal,keputusan_audit,mekanisme_usulan,rujukan_katalog,catatan_auditor
+12282,49,SB4500001,PULLEY GEAR R,KANDIDAT_PART_BARU,PERLU_VERIFIKASI_KATALOG,BELUM DITETAPKAN,Cocokkan dengan diagram dan daftar komponen resmi Brother BAS-311HN/326H; kecocokan submodel -03S belum terkonfirmasi.,"Nama menunjukkan pulley gear sisi kanan, tetapi fungsi spesifik dan posisi pemasangan belum terkonfirmasi. Verifikasi diagram resmi dan kecocokan untuk submodel BAS-311HN-03S."

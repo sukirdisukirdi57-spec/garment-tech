@@ -1,0 +1,4 @@
+﻿local_part_id,local_catalog,part_number,local_part_name,status_awal,keputusan_audit,mekanisme_usulan,rujukan_katalog,catatan_auditor
+12239,5,SA3206001,BALL BEARING BUSH,KANDIDAT_PART_BARU,IDENTITAS_DIDUKUNG_KATALOG,B - Upper shaft and needle bar mechanism,"Katalog Brother BAS-311HN/326H, bagian B, halaman cetak 123.",BALL BEARING BUSH tercantum di bagian B. Periksa konteks katalog dan kecocokan submodel -03S sebelum impor.
+12474,5,SA4171001,SPRING HOOK,KANDIDAT_PART_BARU,IDENTITAS_DIDUKUNG_KATALOG,H - Bobbin winder mechanism,"Katalog Brother, bagian H, halaman cetak 37.",SPRING HOOK tercantum di bagian H. Pastikan daftar tersebut berlaku untuk BAS-311HN-03S.
+12578,5,SB6525001,PROGRAMMER KEY PCB ASSY,KANDIDAT_PART_BARU,IDENTITAS_DIDUKUNG_KATALOG,Q - Motor mechanism and LCD panel,"Katalog Brother BAS-311HN/326H, bagian Q, halaman cetak 58.",PROGRAMMER KEY PCB ASSY tercantum di bagian Q. Kecocokan submodel -03S tetap perlu diverifikasi.

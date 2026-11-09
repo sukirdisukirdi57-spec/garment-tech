@@ -1,0 +1,5722 @@
+Sewing machine needles
+
+ミシン針
+
+縫紉針
+
+Product Brochure
+
+製品カタログ
+
+產品目錄
+
+
+Ａ
+軸（シャンク）径
+Shank diameter
+針柄直徑
+
+Ｂ
+幹径
+Blade diameter
+針杆直徑
+
+Ｄ
+穴上寸法
+Butt to eye length
+針眼上方尺寸
+
+Ｅ
+全長
+Total length
+全長
+
+Ｆ
+穴先寸法
+Distance from end of eye to tip
+針眼下方尺寸
+
+Ｓ
+エグリ深さ
+Depth of scarf
+針冠深
+
+Ｈ
+エグリ長さ
+Length of scarf
+針冠長
+
+Ｊ
+穴縦寸法
+Length of eye
+針眼長
+
+Ｋ
+穴横寸法
+Width of eye
+針眼寬
+
+Ｎ
+軸寸法
+Length of shank
+針柄尺寸
+
+Ｚ
+溝深さ
+Depth of groove
+針槽深
+
+Ｙ
+テーパー部寸法
+Length of shank taper
+針肩尺寸
+
+①
+針先部
+Needle point
+針頭部
+
+②
+先端
+Tip of the point
+針尖
+
+③
+糸穴
+Needle eye
+針眼
+
+④
+針幹
+Blade
+針杆
+
+⑤
+表溝
+Long groove
+表槽
+
+⑥
+テーパー部
+Shank taper
+針肩
+
+⑦
+シャンク・軸
+Shank
+針柄
+
+⑧
+短溝
+Point groove
+短槽
+
+⑨
+エグリ
+Scarf
+針冠
+
+⑩
+裏溝
+Short groove
+裏槽
+
+主 要 寸 法  
+MAIN DIMENSIONS
+主 要 尺 寸 
+
+ミシン針の主要部位名称
+
+ANATOMY OF THE NEEDLE
+縫紉機針的各部名称
+
+☆本カタログには、A, D, N, E寸法が記載されています。
+（E寸法は「二重環縫い関係」のみの記載になります。）
+☆The measurements A, D, N and E are given in this brochure.（The measurement for E is shown in the "Double chainstitch" part only.）
+☆本目錄登載了各种針的A·D·N·E尺寸。（只有與「雙綫鎖縫紉」有關的產品登載了E尺寸。）
+
+①
+
+
+糸と針の関係表
+Interrelationship Table (Thread/Needle Sizes)
+※This table is only for reference purposes.
+
+綫號和針號的關係表
+※請作為參考資料。
+
+②
+
+※参考資料としてお使い下さい。
+
+呼び番手
+
+対応する針番手/Needle Size/針號
+
+綿糸
+Cotton
+全棉縫紉綫
+
+ポリエステルスパン
+
+Polyester spun
+滌綸短纖維縫紉綫
+
+ポリエステルフィラメント
+Polyester filament
+
+滌綸長絲縫紉綫
+
+ナイロンフィラメント
+
+Nylon filament
+尼龍長絲縫紉綫
+
+呼び番手表
+
+（日本）
+Japanese Ticket
+
+綫號針號對應表
+
+（日本）
+
+120
+7
+7
+
+100
+7～8
+7～8
+7
+7～9
+
+80
+7～11
+7～9
+7～9
+7～10
+
+60
+8～14
+8～12
+7～10
+7～11
+
+50
+10～16
+10～14
+8～12
+9～14
+
+40
+14～19
+12～18
+11～16
+11～14
+
+30
+16～21
+14～19
+14～20
+16～19
+
+20
+19～23
+19～23
+18～22
+18～21
+
+10
+20～23
+20～23
+19～23
+
+8
+22～24
+22～24
+19～24
+
+5
+24～25
+
+糸の太さ/Thread Size/ 綫號
+対応する針番手
+
+Needle Size
+
+針號
+Tex
+dTex
+Nm
+Ticket
+
+スパン
+
+Spun
+短纖維縫紉綫
+
+16
+160
+200
+200
+50/6～55/7
+
+18
+180
+180
+180
+55/7～65/9
+
+21
+210
+140
+150
+60/8～80/12
+
+27
+270
+120
+120
+65/9～90/14
+
+30
+300
+120
+90
+70/10～100/16
+
+40
+400
+75
+75
+80/12～110/18
+
+60
+600
+50
+50
+90/14～120/19
+
+70
+700
+50
+60
+90/14～120/19
+
+80
+800
+30
+100/16～125/20
+
+105
+1050
+30
+25
+110/18～130/21
+
+120
+1200
+25
+24
+120/19～160/23
+
+糸の太さ/Thread Size/ 綫號
+対応する針番手
+
+Needle Size
+
+針號
+Tex
+dTex
+Nm
+Ticket
+
+フィラメント
+
+Filament
+長絲縫紉綫
+
+10
+100
+250
+55/7
+
+12
+120
+230
+55/7～65/9
+
+16
+160
+180
+200
+55/7～70/10
+
+24
+240
+160
+120
+60/8～80/12
+
+30
+300
+100
+80
+70/10～100/16
+
+50
+500
+60
+80/12～110/18
+
+60
+600
+40
+40
+90/14～125/20
+
+80
+800
+30
+30
+100/16～130/21
+
+105
+1050
+25
+25
+110/18～140/22
+
+180
+1800
+20
+130/21～180/24
+
+糸の太さ/Thread Size/針號
+対応する針番手
+
+Needle Size
+
+針號
+Tex
+dTex
+Nm
+Ticket
+
+コアスパン
+Core Spun
+
+包芯綫
+
+18
+180
+160
+180
+60/8～65/9
+
+21
+210
+150
+150
+60/8～70/10
+
+24
+240
+120
+120
+70/10～80/12
+
+30
+300
+100
+100
+70/10～90/14
+
+40
+400
+75
+80
+80/12～100/16
+
+50
+500
+60
+90/14～100/18
+
+60
+600
+50
+50
+90/14～120/19
+
+80
+800
+36
+40
+100/16～120/19
+
+105
+1050
+30
+30
+100/16～140/22
+
+140
+1400
+25
+25
+120/19～160/23
+
+200
+2000
+14
+140/22～160/23
+
+Denir
+対応する針番手/Needle Size/針號
+
+刺繍糸
+Embroidery Thread
+
+綉花綫
+
+75
+60/8～70/10
+
+120
+65/9～75/11
+
+200
+75/11～90/14
+
+
+ミシン針の針先形状及び先端形状
+
+POINT STYLE and TIP OF THE POINT STYLE
+縫紉機針的針頭形狀及針尖形狀
+
+表面処理のご紹介 
+縫製条件に合わせて三種類の表面処理をご用意します。
+ 
+＊HPのみ＃14以下の針では、先端はJボールポイントが標準仕様となっています。
+
+COATING STYLE 
+We have three types of coatings depending on 
+sewing conditions.
+ 
+＊Regarding HP coating, the J-ball has been adapted for needles of 
+ 
+ size #14 and under to maintain consistency.
+
+關於表面處理 
+針對縫紉條件現在共有三种表面處理方式。
+ 
+＊HP、＃14以下的針的針尖標準為J圓頭。
+
+③
+
+HP
+LP
+PD
+
+針熱トラブル
+粘着トラブル
+摩耗・先つぶれが引き起こすトラブル
+
+Trouble due to Needle Heat
+Trouble due to Adhesion
+Trouble due to Wear and Point Damage
+
+針熱而引起的縫紉問題
+粘着而引起的縫紉問題
+磨損・針尖損傷而引起的縫紉問題
+
+先端形状
+
+Symbol
+針頭形狀
+
+針先図
+Illustration of Needle Point
+
+針尖圖
+
+オルガン記号
+ORGAN Designation
+
+風琴公司記號
+
+R
+TRI
+SPI
+
+他社記号
+Other Maker Designation
+
+其它公司記號
+
+R, SET
+SD1, TRI TIP
+RS, S SET
+
+特徴
+Description
+
+特徴
+
+正規型
+Regular point
+
+標準針頭
+
+小三角型
+Light triangular point
+
+小三角形頭
+
+尖頭細身型
+Slim sharp point
+
+尖頭細身形頭
+
+
+④
+
+ボールポイント 
+工業用ミシン針のすべての種別・番手にボールポイント加工を施すことができます。詳しくはお問い合わせください。
+Ball Point series
+
+Ball-Point 
+Ball Points can be supplied on all ORGAN needles.  Please contact our representative for further information.
+圓頭針 
+圓頭針的加工處理可以對風琴針品牌工業縫紉機針的所有種類的各種型號。具體事宜請向敝公司詢問。
+
+※スリムポイントは、先端がJボールで、糸穴から先端までの針先の形状は当社標準針よりも細身になっています。
+ Slim point has adopted a slimmer needle point (from the side of the eye to the tip) along with the J-ball than our regular needle.
+ 細身圓頭針的針尖為J圓頭、從針眼到針尖的針頭部分比標準針細
+
+ボールポイント表示例
+description example of ball point on package
+圓頭針的包裝樣例
+
+-10ｐｃｓ-
+DPｘ134
+
+Size 9S
+
+-10ｐｃｓ-
+DBｘ1KN
+
+Size 11U
+
+-10ｐｃｓ-
+DPｘ17-NY2
+
+Size 21SPD
+
+先端形状
+
+Symbol
+針頭形狀
+
+針先図
+Illustration of Needle Point
+
+針尖圖
+
+オルガン記号
+ORGAN Designation
+
+風琴公司記號
+
+S
+Q
+J
+B
+U
+Y
+
+他社記号
+Other Maker Designation
+
+其它公司記號
+
+RG
+SES, FFG, L BALL,
+SIN, R-K, NYR, BPL
+
+SUK, FG, M BALL, SI
+
+R-KB, LAC, BMP
+
+STR, TR, H BALL,
+
+KAL, BPH
+SKF, G, EH BALL, BIL
+
+特徴
+Description
+
+特徴
+
+スリムポイント
+
+Slim point
+
+纖細針頭
+
+Qボール
+Extra light ball point
+
+極小圓頭
+
+Jボール
+Light ball point
+
+小圓頭
+
+Bボール
+Medium ball point
+
+中圓頭
+
+Uボール
+Heavy ball point
+
+大圓頭
+
+Yボール
+Extra heavy ball point
+
+特大圓頭
+
+ 
+
+
+カッティングポイント
+
+Cutting-Point
+刀針
+
+⑤
+
+先端形状
+
+Symbol
+針頭形狀
+
+針先図
+Illustration of Needle Point
+
+針尖圖
+
+縫い目
+Stitch
+
+縫跡
+
+オルガン記号
+ORGAN Designation
+
+風琴公司記號
+
+LL
+LR
+S
+P
+D
+DⅠ
+TQ
+
+他社記号
+Other Maker Designation
+
+其它公司記號
+
+TW, NTW
+RTW, NRTW
+CR, NCR
+W, NW
+TRI
+DIA
+QR, RSQ
+
+
+先端形状
+
+Symbol
+針頭形狀
+
+針先図
+Illustration of Needle Point
+
+針尖圖
+
+   
+
+縫い目
+Stitch
+
+縫跡
+
+オルガン記号
+ORGAN Designation
+
+風琴公司記號
+
+M-LL
+M-LR
+M-S
+M-P
+M-D
+M-DⅠ
+
+他社記号
+Other Maker Designation
+
+其它公司記號
+
+SD
+
+⑥
+
+-10pcs-
+DP x 17LL
+
+Size 21M
+
+包装表示例
+PACKAGING
+
+包裝樣例
+
+小カッティングポイント 
+小カッティングポイントタイプをご注文の際は番手の後に「Ｍ」を記載してください
+Small Cutting Point(M) 
+When placing an order for the small cutting point,please indicate with an M after the size number
+小劍尾針 
+訂購小劍尾針時,請在針號後加上“M”。
+
+
+⑦
+小カッティングポイント 
+小カッティングポイントタイプをご注文の際は番手の後に「Ｍ」を記載してください
+SMALL CUTTING POINT(M) 
+When placing an order for the small cutting point,please indicate with an M after the size number
+小劍尾針 
+訂購小劍尾針時,請在針號後加上“M”。
+
+針先図
+Illustration of Needle Point
+
+針尖圖
+
+先端形状
+
+Symbol
+針頭形狀
+
+EM
+
+EK
+
+EL
+
+ER
+
+CL
+
+CR
+
+HR
+
+HO
+
+オルガン記号
+ORGAN Designation
+
+風琴公司記號
+
+R-E0°, LG G ECC SET, SEM, EXEM
+
+R-E180°, SH G ECC SET, SEK, EXEK
+
+R-E270°, LF G ECC SET, SEL, EXEL
+
+R-E90°, RT G ECC SET, SER, EXER
+
+CL
+
+CR
+
+他社記号
+Other Maker Designation
+
+其它公司記號
+
+特徴
+Description
+
+特徴
+
+上偏芯
+Eccentric towards long groove (down-side of needle)
+上偏芯
+
+下偏芯
+Eccentric towards short groove (up-side of needle)
+下偏芯
+
+左偏芯
+Eccentric left
+左偏芯
+
+右偏芯
+Eccentric right
+右偏芯
+
+短溝左ひねり
+Left-twist point groove at point
+針槽向左扭
+
+短溝右ひねり
+Right-twist point groove at point
+針槽向右扭
+
+ハーフポイント
+Half round point
+半細身針頭
+
+フック
+
+Hook point
+針鈎
+
+先端形状
+
+Symbol
+針頭形狀
+
+オルガン記号
+ORGAN Designation
+
+風琴公司記號
+
+DI
+
+VR
+
+PCL
+
+PCR
+
+LLCR
+
+PS
+DIA
+
+R TWSP, NRTWSP
+SS
+
+BUT
+
+オルガン記号
+ORGAN Designation
+
+風琴公司記號
+
+特徴
+Description
+
+特徴
+
+先端形状
+
+Symbol
+針頭形狀
+
+他社記号
+Other Maker Designation
+
+其它公司記號
+
+他社記号
+Other Maker Designation
+
+其它公司記號
+
+特徴
+Description
+
+特徴
+
+皮革用 横メス 小
+For leather Narrow cross point
+皮革用 反狹扁針頭
+
+ボタン用
+For button
+鈕扣用
+
+皮革用 縦メス 短溝左ひねり
+For leather Narrow wedge point with left-twist point groove
+皮革用 扁針頭 針槽向左扭
+
+皮革用 縦メス 短溝右ひねり
+For leather Narrow wedge point with right-twist point groove
+皮革用 扁針頭 針槽向右扭
+
+皮革用 45°ひねり 短溝右ひねり
+For leather 45-degree twist with right-twist point groove
+皮革用 45°斜扁針頭 針槽向右扭
+
+皮革用 繊細メス 小
+For leather Narrow wedge point
+皮革用 狹扁針頭 小
+
+皮革用 クロスダイヤ
+For leather
+Diamond point
+皮革用 菱形針頭
+
+皮革用 45°逆ひねり
+For leather narrow reversed 45-degree twist point
+皮革用  45°反轉
+
+
+⑧
+
+9 10 11 12
+65 70 75 80
+糸締り不良対策
+preventing  loose seams
+
+A:1.62 
+D:33.80
+N:16.00
+
+■本縫い関係 For Lockstitch
+
+DB × 1
+
+DB × 1KN
+
+DB × 1KNLE
+
+DB × 1SF
+
+DB × 1NS
+
+DB × 1 - NY2
+
+DB × A20
+
+DB × 287WKH
+
+DB × 1KK
+
+DA × 1
+
+DA × 1KN
+
+DI × 3
+
+DP × 17
+
+DP × 17 - NY2
+
+DP - C80 - NY2
+
+DP - C119 - NY2
+
+DP × 17 - SK
+
+16 × 231
+16 × 257
+7
+8
+9 10 11 12 13 14
+16
+18
+19
+20
+21
+22 22½ 23
+24
+25
+55 60 65 70 75 80 85 90 100 110 120 125 130 140 150 160 180 200
+1本針本縫い
+1-needle lockstitch
+
+A:1.62～2.02 
+D:33.80
+N:16.00～10.50
+
+8
+9 10 11 12 14
+60 65 70 75 80 90
+地糸切れ対策針
+preventing fabric yarn breakage
+
+A:1.62 
+D:33.80
+N:16.00
+
+8
+9 10 11 12 14
+60 65 70 75 80 90
+パッカリング対策
+preventing seam puckering
+
+糸引け対策針
+preventing needle line
+
+A:1.62 
+D:33.80
+N:16.00～10.50
+
+9 10 11 12 14
+16
+18
+19
+65 70 75 80 90 100 110 120
+目飛び対策針
+preventing skipped stitches
+
+A:1.62～1.90 
+D:33.80
+N:16.00～12.50
+
+8
+9 10 11
+60 65 70 75
+地糸切れ対策針
+preventing fabric yarn breakage
+
+A:1.62 
+D:33.80
+N:16.00
+
+287WK
+SY6633
+
+19
+20
+21
+22
+23
+120 125 130 140 160
+A寸＝1.62mm DB×1 #19～
+(shank diameter = 1.62mm)
+
+A:1.62 
+D:33.80
+N:12.50～10.50
+
+7
+8
+9 10 11 12 13 14
+16
+18
+19
+21
+55 60 65 70 75 80 85 90 100 110 120 130
+DB × 1のF寸短
+DB×1with shorter distance from tip of the point to end of needle eye
+
+A:1.63 
+D:33.90
+N:16.00
+
+上記以外にも様々な種類の針があります。 詳しくは、お問い合わせください。／Please Note: we have many other types of needles that are not indicated above. Please contact us for details.
+
+135 × 17
+9 10 11 12 13 14
+16
+18
+19
+20
+21
+22
+23
+24
+25
+26
+65 70 75 80 85 90 100 110 120 125 130 140 160 180 200 230
+1～2本針本縫い厚物用
+1or2-needle lock stitch for thick materials
+
+A:2.00 
+D:39.00
+N:16.00～13.00
+
+88 × 1
+SY1315
+
+7
+8
+9 10 11 12 13 14
+16
+18
+19
+20
+21
+22
+55 60 65 70 75 80 85 90 100 110 120 125 130 140
+1本針本縫い
+1-needles lockstitch
+
+A:1.62 
+D:29.60
+N:14.50
+
+8
+9 10 11
+60 65 70 75
+地糸切れ対策針
+preventing fabric yarn breakage
+
+A:1.62 
+D:29.60
+N:13.50
+
+12 14
+16
+18
+19
+20
+21
+22 22½
+23
+24
+25
+80 90 100 110 120 125 130 140 150 160 180 200
+26
+230
+靴、袋物縫用
+for shoes, bags, etc
+
+1～2本針本縫い
+1or2-needle lock stitch
+
+A:1.98 
+D:39.20～39.00
+N:14.50
+
+1738KK
+11 14
+16
+75 90 100
+1のN寸短
+shorter shank
+
+A:1.62 
+D:33.80
+N:12.50
+
+11 12 14
+16
+18
+19
+20
+21
+22
+23
+75  8090 100 110 120 125 130 140 160
+目飛び対策針
+preventing skipped stitches
+
+A:2.00 
+D:39.00
+N:16.00～13.00
+
+記号
+SYSTEM
+SYSTEM
+SISTEMA
+型號
+
+他社記号
+OTHER MAKER SYSTEM
+PARALLELSYSTEME
+SISTEMAS EQUIVALENTES
+其他公司型號
+
+先端
+POINT
+SPITZE
+PUNTA
+針尖
+
+ミシン針イラスト
+
+ILLUSTRATION OF NEEDLE
+NADELFOTO
+FOTO DE AGUJA
+縫紉機針示意圖
+
+用途
+APPLICATION
+ANMERKUNG
+NOTAS
+用途
+
+番手
+NEEDLE SIZES
+NADELSTÄRKEN
+TAMAÑOS DE AGUJAS
+針號
+
+従来名称：DP×17-SK1
+former system:DP×17-SK1
+
+14
+16
+18
+19
+20
+21
+22
+23
+24
+90 100 110 120 125 130 140 160 180
+
+A:2.00
+D:39.00
+N:16.00～13.50
+
+目飛び対策針
+preventing skipped stitches
+
+18
+19
+21
+22
+23
+110 120 130 140 160
+DP × 17 - NY2の平取針
+DP×17 - NY2 with flat shank
+
+A:2.00
+D:39.00
+N:13.00～16.00
+
+19
+22
+23
+120 140 160
+DP × 17 - NY2の平取針
+DP×17 - NY2 with flat shank
+
+A:2.00
+D:39.00
+N:13.00
+
+
+⑨
+
+上記以外にも様々な種類の針があります。 詳しくは、お問い合わせください。／Please Note: we have many other types of needles that are not indicated above. Please contact us for details.
+
+記号
+SYSTEM
+SYSTEM
+SISTEMA
+型號
+
+他社記号
+OTHER MAKER SYSTEM
+PARALLELSYSTEME
+SISTEMAS EQUIVALENTES
+其他公司型號
+
+先端
+POINT
+SPITZE
+PUNTA
+針尖
+
+ミシン針イラスト
+
+ILLUSTRATION OF NEEDLE
+NADELFOTO
+FOTO DE AGUJA
+縫紉機針示意圖
+
+用途
+APPLICATION
+ANMERKUNG
+NOTAS
+用途
+
+番手
+NEEDLE SIZES
+NADELSTÄRKEN
+TAMAÑOS DE AGUJAS
+針號
+
+8
+9 10 11 12 13 14
+16
+18
+19
+60 65 70 75 80 85 90 100 110 120
+刺繍用（DB×１の糸穴大）
+embroidery (DB × 1 with large needle eye)
+
+A:1.62～1.90
+D:33.80
+N:16.00～12.50
+
+8
+9 10 11 12 14
+60 65 70 75 80 90
+強度対策針
+DB × K5 with reinforced blade
+
+A:1.62
+D:33.80
+N:16.00
+
+8
+9 10 11
+60 65 70 75
+上糸切れ・ルーピング対策針
+
+preventing upper thread breakage and poor embroidery stitches appearance
+
+A:1.62
+D:33.80
+N:16.50
+
+8
+9 10 11 12 14
+60 65 70 75 80 90
+  18
+110
+  21
+130
+  23
+160
+刺繍用
+for multi-head embroidery machine
+
+A:1.62
+D:33.80
+N:16.00
+
+14
+16
+18
+19
+21
+22
+23
+90 100 110 120
+20
+125 130 140 160
+24
+180
+糸穴大
+large needle eye
+
+A:2.00
+D:39.00
+N:16.00
+
+9 10
+65 70
+地糸切れ対策針
+preventing fabric yarn breakage
+
+A:2.00
+D:39.00
+N:16.00
+
+14
+90
+針穴跡防止
+preventing poor needle hole
+
+A:2.00
+D:39.00
+N:16.00
+
+8
+9 10 11 12 13 14
+16
+18
+19
+20
+21
+22 22½ 23 23½ 24
+25
+60 65 70 75 80 85 90 100 110 120 125 130 140 150 160 170 180 200
+1～2本針本縫い厚物用
+1or2-needle lock stitch for thick materials
+
+A:2.00
+D:38.20
+N:13.50
+
+14
+16
+18
+19
+20
+21
+22
+23
+90 100 110 120 125 130 140 160
+目飛び対策針
+preventing skipped stitches
+
+目飛び対策針
+preventing skipped stitches
+
+従来名称：DP×35R-SK1
+former system:DP×35R-SK1
+
+A:2.00
+D:38.20
+N:13.50
+
+18
+19
+21
+22
+110 120 130 140
+DP × 35R - NY2の平取針
+DP × 35R - NY2 with flat shank
+
+A:2.00
+D:38.20
+N:13.50
+
+14
+16
+18
+19
+20
+21
+22
+23
+90 100 110 120 125 130 140 160
+
+A:2.00
+D:38.20
+N:13.50
+
+18
+110
+DP × 17の地糸切れ対策針
+DP × 17 preventing fabric yarn breakage
+
+A:2.00
+D:39.00
+N:19.00
+
+23
+160
+樹脂縫製対策針
+A:2.00
+D:39.00
+N:13.00
+
+DP × 17SF
+
+DP × 17NS
+
+DP × 17LE
+
+DP × 35R
+
+DP × 35R - NY2
+
+DP - C126 - NY2
+
+DP × 35R - SK
+
+DP - N45
+
+DP × 17RS
+
+DB × K5
+
+DB × K5 - NY
+
+DB × K5 - YORI
+
+DB × K5Z1
+
+■刺繍関係 For Embroidery
+
+BUT
+
+
+⑩
+
+DB × K5Z1 - NY
+
+DB × K5Z2 - NY
+
+DB × K5Q1
+
+DB × K5KK
+
+DB × 5ST
+
+DB × 7ST
+
+DB × 9ST
+
+PH - C70
+
+PH - C70LE
+
+PH × 1
+
+PH × 1SM
+
+PH × 1TR
+
+PH × 1WS
+
+TQ × 1
+
+TQ × 3
+
+上記以外にも様々な種類の針があります。 詳しくは、お問い合わせください。／Please Note: we have many other types of needles that are not indicated above. Please contact us for details.
+
+記号
+SYSTEM
+SYSTEM
+SISTEMA
+型號
+
+他社記号
+OTHER MAKER SYSTEM
+PARALLELSYSTEME
+SISTEMAS EQUIVALENTES
+其他公司型號
+
+先端
+POINT
+SPITZE
+PUNTA
+針尖
+
+ミシン針イラスト
+
+ILLUSTRATION OF NEEDLE
+NADELFOTO
+FOTO DE AGUJA
+縫紉機針示意圖
+
+用途
+APPLICATION
+ANMERKUNG
+NOTAS
+用途
+
+番手
+NEEDLE SIZES
+NADELSTÄRKEN
+TAMAÑOS DE AGUJAS
+針號
+
+29 - S
+175 × 1
+1985
+
+9 10 11 12 13 14
+16
+18
+19
+20
+21
+22
+65 70 75 80 85 90 100 110 120 125 130 140
+ボタン付け
+button sewing
+
+A:1.75
+D:37.20
+N:11.50
+
+175 × 3
+1661LG
+11 12 14
+16
+18
+19
+20
+21
+22
+75 80 90 100 110 120 125 130 140
+ボタン付け
+button sewing
+
+A:1.75
+D:41.50
+N:11.50
+
+14
+16
+90 100
+ハンドル刺繍用
+for chenille embroidery
+
+A:1.42
+
+N:26.00
+
+16
+20
+22
+100 125 140
+DB×１の糸穴大
+DB×１with large needle eye
+
+A:1.62
+D:33.80
+N:16.00～11.50
+
+9 11 12 14
+16
+18
+65 75 80 90 100 110
+DB×１の糸穴大
+DB×１with large needle eye
+
+A:1.62
+D:33.00
+N:16.00～11.50
+
+9 11 14
+16
+18
+65 75 90 100 110
+DB×１の糸穴大
+DB×１with large needle eye
+
+A:1.62
+D:33.80
+N:16.00
+
+11 14
+16
+18
+19
+21
+75 90 100 110 120 130
+ハンドル刺繍用
+for chenille embroidery
+
+A:1.62
+
+N:26.00
+
+14
+16
+90 100
+18
+110
+ハンドル刺繍用
+for chenille embroidery
+
+A:1.62
+D:57.65
+N:26.00
+
+9 11 12 13 14 15
+16
+18
+19
+20
+21
+22
+23
+26
+65 75 80 85 90 95 100 110 120 125 130 140 160 230
+ハンドル刺繍用
+for chenille embroidery
+
+A:1.52
+
+N:26.00～10.00
+
+14
+16
+18
+19
+90 100 110 120
+ハンドル刺繍用
+for chenille embroidery
+
+A:1.46
+
+N:26.00
+
+12 14
+16
+18
+19
+80 90 100 110 120
+ハンドル刺繍用
+for chenille embroidery
+
+A:1.46
+
+N:26.00
+
+■ボタン付け関係 For Button sewing
+
+刺繍用
+for multi-head embroidery machine
+
+A:1.62
+D:33.80
+N:16.00
+
+Ｎ寸短
+shorter shank
+
+A:1.62
+D:33.80
+N:13.50
+
+8
+9 10 11 12 14
+60 65 70 75 80 90
+
+9 10 11 12 14
+65 70 75 80 90
+
+9 10 11 12 14
+65 70 75 80 90
+刺繍用強度対策針
+DB × K5Z1 with reinforced blade
+
+A:1.62
+D:33.80
+N:16.50
+
+9 10 11 12 14
+65 70 75 80 90
+刺繍 厚物、円筒枠用
+for cylindrical frame, thick materials
+
+A:1.62
+D:33.80
+N:13.50
+
+
+⑪
+
+上記以外にも様々な種類の針があります。 詳しくは、お問い合わせください。／Please Note: we have many other types of needles that are not indicated above. Please contact us for details.
+
+記号
+SYSTEM
+SYSTEM
+SISTEMA
+型號
+
+他社記号
+OTHER MAKER SYSTEM
+PARALLELSYSTEME
+SISTEMAS EQUIVALENTES
+其他公司型號
+
+先端
+POINT
+SPITZE
+PUNTA
+針尖
+
+ミシン針イラスト
+
+ILLUSTRATION OF NEEDLE
+NADELFOTO
+FOTO DE AGUJA
+縫紉機針示意圖
+
+用途
+APPLICATION
+ANMERKUNG
+NOTAS
+用途
+
+番手
+NEEDLE SIZES
+NADELSTÄRKEN
+TAMAÑOS DE AGUJAS
+針號
+
+TQ × 7
+
+TQ × 7KK
+
+TQ × 9
+
+TQ × 13
+
+SM × 332LG
+
+SM × 332EXTLG
+
+SM × 332EXTLG- NY
+
+SM × 332SUPLG
+
+DP - N29
+
+DP × 17KK
+
+DP × 5
+
+DP × 5KN
+
+DP × 5SF
+
+DP × 5NS
+
+29 - L
+175 × 7
+2091
+
+9 10 11 12 13 14
+16
+18
+19
+20
+21
+22
+23
+65 70 75 80 85 90 100 110 120 125 130 140 160
+24
+190
+ボタン付け
+button sewing
+
+A:1.75
+D:47.00
+N:17.50
+
+10 12 14
+16
+18
+19
+20
+21
+22
+70 80 90 100 110 120 125 130 140
+N寸短
+shorter shank
+
+A:1.75
+D:47.00
+N:11.50
+
+29 - LSS
+175 × 9
+9 10 11 12 14
+16
+18
+19
+20
+21
+22
+65 70 75 80 90 100 110 120 125 130 140
+ボタン付け
+button sewing
+
+A:1.75
+D:47.00
+N:14.00～10.00
+
+175 × 13
+13
+16
+18
+20
+22
+85 100 110 125 140
+ボタン付け
+button sewing
+
+A:1.75
+D:50.00
+N:14.00
+
+11 14
+75 90
+ボタン付けDP × 17 N寸短
+button sewing DP×17 with shorter shank
+
+A:2.00
+D:39.00
+N:10.00
+
+11 14
+75 90
+ボタン付けDP × 17 N寸短
+button sewing DP×17 with shorter shank
+
+A:2.00
+D:39.00
+N:11.50
+
+134R
+135 × 5
+797
+
+7
+8
+9 10 11 12 13 14
+16
+18
+19
+20
+21
+22 22½
+23 23½
+24
+25
+55 60 65 70 75 80 85 90 100 110 120 125 130 140 150 160 170 180 200
+穴かがり・千鳥縫用
+buttonholing, zigzag stitching
+
+A:2.00
+D:33.90
+N:12.50～11.50
+
+8
+9 10 11 12
+60 65 70 75 80
+地糸切れ対策針
+preventing fabric yarn breakage
+
+A:2.00
+D:33.90
+N:12.50
+
+8
+9 10 11 12 14
+60 65 70 75 80 90
+パッカリング対策
+preventing seam puckering
+
+糸引け対策針
+preventing needle line
+
+A:2.00
+D:33.90
+N:12.50～11.50
+
+9 10 11
+65 70 75
+地糸切れ対策針
+preventing fabric yarn breakage
+
+A:2.00
+D:33.90
+N:12.50
+
+332EXT LG
+9 10 11 12 14
+16
+18
+65 70 75 80 90 100 110
+
+A:1.98
+D:54.50
+N:18.00
+
+11 12 14
+16
+18
+75 80 90 100 110
+
+16
+18
+100 110
+
+強度対策針
+SM × 332EXTLG with reinforced blade
+
+A:1.98
+D:54.50
+N:18.00
+
+332LGHKSP
+11 12 14
+16
+18
+19
+21
+22
+23
+75 80 90 100 110 120 130 140 160
+
+ボタン付け
+button sewing
+
+ボタン付け
+button sewing
+
+A:1.98
+D:48.50
+N:18.00
+
+12 14
+16
+80 90 100
+ボタン付け
+button sewing
+
+A:1.98
+
+N:18.00
+
+■千鳥縫い関係（穴かがり、閂止用）For Zigzag stitching, Buttonholing and Bartacking
+
+D:59.50
+
+
+⑫
+
+DP × 134 - NY2
+
+DP × 134 - SK1
+
+DP × 134HS
+
+PF × 134KK
+
+DP × 1
+
+DP × 58
+
+DP × 265
+
+DP × 438
+
+DP × 438KK
+
+DP - G65
+
+DP × 134LE
+
+SG × 1906
+
+SG × 1963
+
+SG × 1965
+
+DO × 5
+
+DO × 5 - NY
+
+DO × 558
+
+DO × 558- NY2
+
+上記以外にも様々な種類の針があります。 詳しくは、お問い合わせください。／Please Note: we have many other types of needles that are not indicated above. Please contact us for details.
+
+記号
+SYSTEM
+SYSTEM
+SISTEMA
+型號
+
+他社記号
+OTHER MAKER SYSTEM
+PARALLELSYSTEME
+SISTEMAS EQUIVALENTES
+其他公司型號
+
+先端
+POINT
+SPITZE
+PUNTA
+針尖
+
+ミシン針イラスト
+
+ILLUSTRATION OF NEEDLE
+NADELFOTO
+FOTO DE AGUJA
+縫紉機針示意圖
+
+用途
+APPLICATION
+ANMERKUNG
+NOTAS
+用途
+
+番手
+NEEDLE SIZES
+NADELSTÄRKEN
+TAMAÑOS DE AGUJAS
+針號
+
+135 × 53
+SY1906
+
+8
+9 10 11 12 13 14
+16
+18
+19
+20
+21
+60 65 70 75 80 85 90 100 110 120 125 130
+千鳥縫用 ファンデーション用
+zigzag stitching, for underwear
+
+A:2.00
+D:33.90
+N:13.50～11.50
+
+SY1963
+8
+9 10 11 12
+60 65 70 75 80
+千鳥縫用 ファンデーション用
+zigzag stitching, for underwear
+
+A:2.00
+D:33.90
+N:13.50
+
+SY1965
+9 10 11 12 14
+65 70 75 80 90
+千鳥縫用 ファンデーション用
+zigzag stitching, for underwear
+
+A:2.00
+D:33.90
+N:13.50
+
+142 × 5
+SY1413
+
+11 12 14
+16
+18
+19
+20
+21
+22
+75 80 90 100 110 120 125 130 140
+鳩目穴かがり用
+eyelet buttonholing
+
+A:2.02
+D:31.30
+N:10.00
+
+16
+18
+19
+100 110 120
+強度対策針
+DO × 5 with reinforced blade
+
+A:2.02
+D:31.30
+N:10.00
+
+558
+10 11 12 14
+16
+18
+19
+21
+70 75 80 90 100 110 120 130
+鳩目穴かがり用
+eyelet buttonholing
+
+A:2.00
+D:33.90
+N:11.00
+
+12  14
+16
+18
+19
+80  90100 110 120
+目飛び対策針
+preventing skipped stitches
+
+A:2.00
+D:33.90
+N:11.00
+
+9 10 11 12 14
+16
+18
+19
+21
+22
+23
+65 70 75 80 90 100 110 120
+20
+125 130 140 160
+飾りステッチ用（DP ×5 糸穴大）
+decoration stitch（DP×5 with large needle eye）
+
+A:2.00
+D:33.90
+N:13.50～11.50
+
+9 10 11 12 14
+16
+18
+19
+20
+21
+22
+23
+65 70 75 80 90 100 110 120 125 130 140 160
+DP×5の目飛び対策針
+DP×5 with preventing skipped stitches
+
+目飛び対策針
+preventing skipped stitches
+
+従来名称：DP×134-SK1
+former system:DP×134-SK1
+
+A:2.00
+D:33.90
+N:13.50～11.50
+
+10 11 12 14
+16
+18
+22
+70 75 80 90 100 110 140
+熱対策針
+preventing needle heat
+
+8 10 11 12 13 14
+16
+18
+19
+21
+22
+60 70 75 80 85 90 100 110 120 130 140
+DP × 5のN寸短
+DP × 5 with shorter shank
+
+14
+16
+18
+19
+20
+21
+22
+23
+90 100 110 120 125 130 140 160
+
+135 × 1
+354
+8
+9 10 11 12 13 14
+16
+18
+19
+20
+21
+22 22Z
+23
+24
+25
+60 65 70 75 80 85 90 100 110 120 125 130 140 150 160 180 200
+本縫い
+lockstitch
+
+9 10 11 12 14
+16
+18
+19
+65 70 75 80 90 100 110 120
+千鳥縫用
+zigzag stitching
+
+A:2.00
+D:33.90
+N:13.50～11.50
+A:2.00
+D:33.90
+N:11.50
+
+A:2.00
+D:33.90
+N:13.50～11.50
+
+A:2.00
+D:31.90
+N:12.50～11.50
+
+A:2.00
+D:33.90
+N:12.50～11.50
+
+265 - 50EO
+438 - 80EO
+10 11 12 14
+16
+18
+19
+70 75 80 90 100 110 120
+ファンデーション用
+for underwear
+
+A:2.00
+D:34.00
+N:13.50
+
+265
+438
+8
+9 10 11 12 14
+16
+18
+19
+60 65 70 75 80 90 100 110 120
+本縫千鳥用
+lockstitch, zigzag stitching
+
+A:2.00
+D:33.90
+N:13.50
+
+10 12 14
+16
+18
+19
+70 80 90 100 110 120
+DP × 438のN寸短
+DP × 438 with shorter shank
+
+A:2.00
+D:33.90
+N:11.50
+
+9 10 11
+65 70 75
+ファンデーション用（DP ×5 スリムUボール）
+
+for underwear (DP ×5 with slim U-ball point)
+
+A:2.00
+D:33.90
+N:12.50
+
+
+⑬
+
+上記以外にも様々な種類の針があります。 詳しくは、お問い合わせください。／Please Note: we have many other types of needles that are not indicated above. Please contact us for details.
+
+記号
+SYSTEM
+SYSTEM
+SISTEMA
+型號
+
+他社記号
+OTHER MAKER SYSTEM
+PARALLELSYSTEME
+SISTEMAS EQUIVALENTES
+其他公司型號
+
+先端
+POINT
+SPITZE
+PUNTA
+針尖
+
+ミシン針イラスト
+
+ILLUSTRATION OF NEEDLE
+NADELFOTO
+FOTO DE AGUJA
+縫紉機針示意圖
+
+用途
+APPLICATION
+ANMERKUNG
+NOTAS
+用途
+
+番手
+NEEDLE SIZES
+NADELSTÄRKEN
+TAMAÑOS DE AGUJAS
+針號
+
+EB × 750
+
+EB × 755
+
+EB × 755NS
+
+DV × 1
+
+DV × 43
+
+DV × G9
+
+DV × 57
+
+DV × 57 - NY2
+
+DV × 57LE
+
+DV × 57LE- NY2
+
+DV × 59
+
+DV × 210
+
+DV × 600
+
+DV × 63
+
+UY × 128GAS
+
+UY121GS
+759
+1628
+MY1001
+
+7
+8
+9 10 11 12 13 14
+16
+18
+19
+20
+21
+22
+23
+24
+25
+55 60 65 70 75 80 85 90 100 110 120 125 130 140 160 180 200
+平2本二重環縫用
+2-needle double chainstitch
+
+A:2.00  D:39.00
+N:13.50
+（E:46.00～43.70）
+
+501（SC）
+755H
+1807
+1807D
+
+8
+9 10 11 12 14
+16
+18
+19
+20
+21
+23
+60 65 70 75 80 90 100 110 120 125 130 160
+鳩目穴かがり用
+eyelet buttonholing
+
+A:1.62
+D:33.00
+N:12.00
+
+750（SC）
+8
+9 10 11 12 14
+16
+18
+19
+20
+21
+22
+60 65 70 75 80 90 100 110 120 125 130 140
+穴かがり閂止用
+buttonholing, bartacking
+
+A:1.62
+D:33.20
+N:12.50
+
+11 12 14
+75 80 90
+新合繊用
+for new synthetic materials
+
+A:1.62
+D:33.00
+N:12.00
+
+62 × 43
+9 10 11 12 13 14
+16
+18
+65 70 75 80 85 90 100 110
+二重環縫用
+#19以上＝TV × 3
+double chainstitch
+over#19＝TV × 3
+
+A:2.00  D:39.00
+N:13.50
+（E:44.90～44.70）
+
+■二重環縫い関係 For Double chainstitch
+
+62 × 57
+5640
+9 10 11 12 13 14
+16
+18
+19
+20
+21
+22 22½
+23
+24
+25
+65 70 75 80 85 90 100 110 120 125 130 140 150 160 180 200
+厚物二重環縫用 溝ひねり針
+for thick materials （twist groove）
+
+8
+9 11 12 13 14
+60 65 75 80 85 90
+DV ×43
+エグリ付き
+DV × 43 with scarf
+
+目飛び対策針
+preventing skipped stitches
+
+糸穴大
+large needle eye
+
+16
+18
+19
+20
+21
+22
+24
+100 110 120 125 130 140 180
+
+18
+19
+110 120
+
+A:2.00  D:38.60
+N:13.00
+（E:44.20）
+
+18
+19
+20
+21
+22
+110 120 125 130 140
+目飛び対策針
+
+preventing skipped stitches
+
+B - 63
+7
+8
+9 10 11 12 13 14
+16
+18
+19
+20
+21
+22
+23
+55 60 65 70 75 80 85 90 100 110 120 125 130 140 160
+2～3本針二重環縫用
+2 or 3-needle double chainstitch
+
+A:2.00  D:39.00
+N:13.50
+（E:43.70）
+
+UY128GAS
+MY1040
+
+7
+8
+9 10 11 12 13 14
+16
+18
+19
+20
+21
+22 22½ 23 23½ 25
+55 60 65 70 75 80 85 90 100 110 120 125 130 140 150 160 170 200
+平2～3本針
+2 or 3-needle double chainstitch
+
+A:2.00  D:39.00
+N:14.50～13.50
+（E:44.80～44.60）
+
+62 × 59
+14
+16
+18
+19
+20
+21
+22
+23
+24
+25
+90 100 110 120 125 130 140 160 180 200
+厚物二重環縫用 溝ひねり針
+for thick materials （twist groove）
+
+A:2.00  D:41.50
+N:13.00
+（E:48.50）
+
+21
+22
+23
+24
+130 140 160 180
+キルティング用
+for quilting
+
+A:2.00  D:49.00
+
+N:13.00（E:56.00）
+
+14
+18
+21
+23
+24
+90 110 130 160 180
+キルティング用
+for quilting
+
+A:2.00  D:54.00
+
+N:20.00～17.00（E:63.00）
+
+A:2.00  D:38.60
+N:13.00
+（E:44.20）
+
+A:2.00  D:39.00
+N:13.50
+（E:44.80～44.50）
+
+A:2.00  D:38.70
+N:13.00
+（E:44.70）
+
+A:2.00  D:38.60
+N:13.00
+（E:44.20）
+
+
+⑭
+
+UY × 128GASKN
+
+UY × 128KK
+
+UY × 128KK - KN
+
+UY × 128GAS - NY2
+
+UY × 128GAS - SK1
+
+UY × 128LE
+
+UY × 128FL
+
+DV - C65
+
+TV × 1
+
+TV × 3
+
+TV × 5
+
+TV × 5 - SK
+
+TV × 5HS
+
+TV × 7
+
+TV × 7HS
+
+TV × 64
+
+UO × 113GS
+
+UO × 113GS-NY2
+
+上記以外にも様々な種類の針があります。 詳しくは、お問い合わせください。／Please Note: we have many other types of needles that are not indicated above. Please contact us for details.
+
+記号
+SYSTEM
+SYSTEM
+SISTEMA
+型號
+
+他社記号
+OTHER MAKER SYSTEM
+PARALLELSYSTEME
+SISTEMAS EQUIVALENTES
+其他公司型號
+
+先端
+POINT
+SPITZE
+PUNTA
+針尖
+
+ミシン針イラスト
+
+ILLUSTRATION OF NEEDLE
+NADELFOTO
+FOTO DE AGUJA
+縫紉機針示意圖
+
+用途
+APPLICATION
+ANMERKUNG
+NOTAS
+用途
+
+番手
+NEEDLE SIZES
+NADELSTÄRKEN
+TAMAÑOS DE AGUJAS
+針號
+
+14
+16
+18
+90 100 110
+熱対策針
+preventing needle heat
+
+B - 64
+8
+9 10 11 12 13 14
+16
+18
+19
+20
+21
+22
+23
+25
+60 65 70 75 80 85 90 100 110 120 125 130 140 160 200
+伏せ縫用
+felled seam
+
+UY113GS
+8
+9 10 11 12 13 14
+16
+18
+19
+20
+21
+22
+23
+60 65 70 75 80 85 90 100 110 120 125 130 140 160
+スモッキング等 二重環縫い
+smocking, double chainstitch
+
+14
+90
+目飛び対策針
+preventing skipprd stitches
+
+A:2.00  D:37.00
+N:13.50
+（E:42.80～42.30）
+
+A:2.00  D:36.60
+N:13.50
+（E:41.60～41.10）
+
+A:2.00  D:36.60
+N:14.50～13.50
+（E:41.50）
+
+A:2.00  D:36.60
+N:13.50
+（E:41.50）
+
+7
+8
+9 10 11 12
+55 60 65 70 75 80
+地糸切れ対策針
+preventing fabric yarn breakage
+
+A:2.00  D:39.00
+N:14.50
+（E:44.80～44.60）
+
+7
+8
+9 10 11
+55 60 65 70 75
+
+7
+8
+9 10 11
+55 60 65 70 75
+
+UY × 128GASのN寸短
+UY × 128GAS with short shank
+
+A:2.00  D:39.00
+N:12.00
+（E:44.70）
+
+8
+9 10 11
+14
+16
+18
+19
+21
+23
+60 65 70 75
+12
+80 90 100 110 120 130 160
+UY × 128GASの糸穴大
+UY × 128GAS with large needle eye
+
+A:2.00  D:39.00
+N:14.50
+（E:44.70）
+
+8
+9 10
+60 65 70
+UY × 128GASの平取針
+UY × 128GAS with flat shank
+
+A:2.00  D:39.00
+N:14.50
+（E:44.70）
+
+UY × 128GASKNのN寸短
+UY × 128GASKN with short shank
+
+A:2.00  D:39.00
+N:12.00
+（E:44.60～44.80）
+
+7
+8
+9 10 11 12 14
+16
+18
+19
+20
+21
+22
+55 60 65 70 75 80 90 100 110 120 125 130 140
+目飛び対策針
+preventing skipped stitches
+
+A:2.00  D:39.00
+N:14.50
+（E:44.70）
+
+16
+18
+19
+20
+21
+100
+14
+90
+110 120 125 130
+目飛び対策針
+
+preventing skipped stitches
+
+A:2.00  D:39.00
+N:14.50～13.50
+（E:44.70）
+
+8
+9 10 11
+60 65 70 75
+UY × 128GASの平取針
+UY × 128GAS with flat shank
+
+A:2.00  D:39.00
+N:14.50
+（E:44.70）
+
+18
+19
+21
+110 120 130
+熱対策針
+preventing needle heat
+
+149 × 3
+UY124GS
+
+19
+20
+21
+22
+23
+24
+120 125 130 140 160 180
+脇縫用
+＃18以下＝DV×43
+for side seam   ＃18 and under＝DV×43
+
+149 × 1
+7
+8
+9 10 11 12 13 14
+16
+18
+19
+20
+21
+22
+23
+55 60 65 70 75 80 85 90 100 110 120 125 130 140 160
+ヘム縫、伏せ縫用
+hemming, felled seam
+
+149 × 5
+62 × 53
+8
+9 10 11 12 13 14
+16
+18
+19
+20
+21
+22
+23
+24
+25
+60 65 70 75 80 85 90 100 110 120 125 130 140 160 180 200
+伏せ縫用
+felled seam
+
+12
+80
+目飛び対策針
+preventing skipped stitches
+
+従来名称：UY×128GAS-SK1
+
+former system:UY×128GAS-SK1
+
+従来名称：TV×5-SK2
+former system：TV×5-SK2
+
+149 × 7
+MY1002A
+
+8
+9 10 11 12 13 14
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+60 65 70 75 80 85 90 100 105 110 120 125 130 140 160 180 200
+ヘム縫、伏せ縫用
+hemming, felled seam
+
+A:2.00  D:41.40
+N:13.50
+（E:47.20～47.00）
+
+A:2.00  D:39.00
+N:13.50
+（E:45.00）
+
+A:2.00  D:37.00
+N:13.50
+（E:41.90～41.60）
+
+A:2.00  D:41.40
+N:13.50
+（E:47.40～46.50）
+
+A:2.00  D:41.40
+N:13.50
+（E:46.70）
+
+A:2.00  D:37.00
+N:13.50
+（E:42.80～42.50）
+
+
+⑮
+
+上記以外にも様々な種類の針があります。 詳しくは、お問い合わせください。／Please Note: we have many other types of needles that are not indicated above. Please contact us for details.
+
+記号
+SYSTEM
+SYSTEM
+SISTEMA
+型號
+
+他社記号
+OTHER MAKER SYSTEM
+PARALLELSYSTEME
+SISTEMAS EQUIVALENTES
+其他公司型號
+
+先端
+POINT
+SPITZE
+PUNTA
+針尖
+
+ミシン針イラスト
+
+ILLUSTRATION OF NEEDLE
+NADELFOTO
+FOTO DE AGUJA
+縫紉機針示意圖
+
+用途
+APPLICATION
+ANMERKUNG
+NOTAS
+用途
+
+番手
+NEEDLE SIZES
+NADELSTÄRKEN
+TAMAÑOS DE AGUJAS
+針號
+
+UO × 163
+
+UO × 163GAS
+
+UY × 121
+
+UY × 121GBS
+
+SM × 1014A
+
+SM × 1014B
+
+SM × 1014H
+
+FL × 118A
+
+FL × 118GBS
+
+FL × 118GCS
+
+FL × 118GCS - NY2
+
+FL × 118GCSSF
+
+FL × 118KK
+
+FL × 118 - SK2
+
+FLG - 1
+
+FLG - 8
+
+UY163GAS
+8
+9 10 11 12 13 14
+16
+18
+19
+21
+22 22½
+60 65 70 75 80 85 90 100 110 120 130 140 150
+ピコット縫用
+for picot stitch
+
+UY163GAS
+SY7185
+
+11 12 14
+16
+18
+19
+20
+75 80 90 100 110 120 125
+ピコット縫用
+for picot stitch
+
+UY121GBS
+9 10 11 12 14
+16
+18
+19
+21
+65 70 75 80 90 100 110 120 130
+平2本二重環縫用
+2-needle double chainstitch
+
+MY1014A
+
+MY1014B
+
+MY1014H
+
+4本針偏平縫用
+4-needle interlock stitch
+
+4本針偏平縫用 エグリ付き
+4-needle interlock stitch （with scarf）
+
+4本針偏平縫用 目飛び対策針
+4-needle interlock stitch preventing skipped stitches
+
+UY121GS
+MY1001
+759
+
+7
+8
+9 10 11 12 13 14
+16
+18
+19
+20
+21
+22
+23
+55 60 65 70 75 80 85 90 100 110 120 125 130 140 160
+平2本二重環縫用
+2-needle double chainstitch
+
+8
+9 10 11 12 14
+60 65 70 75 80 90
+
+8
+9 10 11 12 14
+16
+18
+60 65 70 75 80 90 100 110
+
+9 10 11 12
+65 70 75 80
+
+A:2.00  D:37.50
+N:13.50
+（E:43.90）
+
+A:2.00  D:37.50
+N:13.50
+（E:43.90） 
+
+A:2.00  D:39.00
+N:14.50～13.50
+（E:43.70）
+
+A:2.00  D:39.00
+N:13.50
+（E:43.70）
+
+A:1.48  D:39.00
+N:15.50
+（E:44.20）
+
+A:1.48  D:39.00
+N:15.50
+（E:44.20）
+
+A:1.48  D:39.00
+N:15.50
+（E:43.80）
+
+UY118GAS
+8
+9 10 11 12 14
+16
+18
+60 65 70 75 80 90 100 110
+フラットシーマー
+flat seamer
+
+A:1.51
+D:36.60
+N:16.50
+
+UY118GBS
+8
+9 10 11 12 14
+16
+60 65 70 75 80 90 100
+フラットシーマー
+flat seamer
+
+A:1.51
+D:36.60
+N:16.50
+
+UY118GKS
+8
+9 10 11 12
+60 65 70 75 80
+フラットシーマー
+エグリ付き
+flat seamer with scarf
+
+A:1.51
+D:36.60
+N:16.50
+A:1.51
+D:36.60
+N:16.50
+
+9 10 11
+65 70 75
+
+9 10 11
+65 70 75
+
+地糸切れ対策針
+preventing fabric yarn breakage
+
+A:1.51
+D:36.60
+N:16.50
+
+FL × 118GCSの目飛び対策針
+FL × 118GCS preventing skipped stitches
+
+7
+8
+9 10 11 12
+55 60 65 70 75 80
+フラットシーマー リテーナ針
+retainer needle
+A:1.51（E:41.20）
+N:15.00
+
+8
+60
+フラットシーマー リテーナ針エグリ付
+retainer needlewith scarf
+A:1.51（E:41.20）
+N:15.00
+
+9 10 11
+65 70 75
+FL × 118GCSのN寸短
+FL × 118GCS with short shank
+
+A:1.51
+D:36.60
+N:15.50
+
+8
+9 10 11
+60 65 70 75
+目飛び対策針
+preventing skipped stitches
+
+従来名称：FL×118-SK2
+former system:FL×118-SK2
+
+A:1.51
+D:36.60
+N:16.50
+
+■フラットシーマー関係 For Flat seamer
+
+
+⑯
+
+■オーバーロック関係 For Overlock
+
+DC × 1
+
+DC × 1NS
+
+DC × 1KN
+
+DC × 1SF
+
+DC × 3
+
+DC × 3KN
+
+DC × 27
+
+DC - C47
+
+DC × 27LE
+
+DC - N17
+
+DC - N17SF
+
+DC - N24
+
+DC - N25
+
+DC - N25SF
+
+DM × 13
+
+DM × 13KN
+
+上記以外にも様々な種類の針があります。 詳しくは、お問い合わせください。／Please Note: we have many other types of needles that are not indicated above. Please contact us for details.
+
+記号
+SYSTEM
+SYSTEM
+SISTEMA
+型號
+
+他社記号
+OTHER MAKER SYSTEM
+PARALLELSYSTEME
+SISTEMAS EQUIVALENTES
+其他公司型號
+
+先端
+POINT
+SPITZE
+PUNTA
+針尖
+
+ミシン針イラスト
+
+ILLUSTRATION OF NEEDLE
+NADELFOTO
+FOTO DE AGUJA
+縫紉機針示意圖
+
+用途
+APPLICATION
+ANMERKUNG
+NOTAS
+用途
+
+番手
+NEEDLE SIZES
+NADELSTÄRKEN
+TAMAÑOS DE AGUJAS
+針號
+
+81 × 1
+MY1023A
+621
+
+6
+7
+8
+9 10 11 12 13 14
+16
+18
+19
+20
+21
+22
+23
+24
+25
+50 55 60 65 70 75 80 85 90 100 110 120 125 130 140 160 180 200
+
+A:2.02
+D:28.60
+N:10.00
+
+オーバーロック用
+overlock
+（～♯11＝J ball）
+
+8
+9 10 11 12
+60 65 70 75 80
+パッカリング対策
+preventing seam puckering
+
+A:2.02
+D:28.60
+N:10.00
+
+8
+9 10 11 12 14
+60 65 70 75 80 90
+地糸切れ対策針
+preventing fabric yarn breakage
+
+A:2.02
+D:28.60
+N:10.00
+
+8
+9 10 11
+60  6570 75
+地糸切れ対策針
+preventing fabric yarn breakage
+
+A:2.02
+D:28.60
+N:10.00
+
+9 10 11
+65 70 75
+地糸切れ対策針
+preventing fabric yarn breakage
+
+A:1.22
+D:28.60
+N:13.00
+
+B - 27
+MY1023
+
+6
+7
+8
+9 10 11 12 13 14
+16
+18
+19
+20
+21
+22
+23
+24
+50 55 60 65 70 75 80 85 90 100 110 120 125 130 140 160 180
+
+A:2.02
+D:28.60
+N:10.00
+
+1～3本針オーバーロック用
+1to3-needle overlock（～♯11＝J ball）
+
+SY8358
+7
+8
+9 10 11 12 13 14
+16
+18
+19
+20
+21
+22
+55 60 65 70 75 80 85 90 100 110 120 125 130 140
+まつり縫い用 2本針オーバーロック
+blind stitch, 2-needle overlock
+
+A:1.22
+D:28.50
+N:13.00
+
+9 10 11 12 13
+16
+18
+65 70 75 80 85 100 110
+両面平取
+flat shank on both sides
+
+A:2.02
+D:28.60
+N:10.00
+
+9 10 11
+65 70 75
+DC ×1KNのN寸短
+DC × 1KN with shorter shank
+
+A:2.02
+D:28.60
+N:8.00
+
+9
+65
+地糸切れ対策針
+preventing fabric yarn breakage
+
+A:2.02
+D:28.60
+N:11.50
+
+82 × 13
+1886KK
+7
+8
+9 10 11 12 13 14
+16
+18
+19
+20
+21
+22
+23
+24
+55 60 65 70 75 80 85 90 100 110 120 125 130 140 160 180
+
+A:2.02
+D:28.60
+N:8.00
+
+DC ×1のN寸短
+DC ×1 with shorter shank（～♯11＝J ball）
+
+11
+14
+16
+75
+12
+80 90 100
+糸穴大
+large needle eye
+
+糸締り不良対策
+preventing  loose seams
+
+A:2.02
+D:28.60
+N:10.00
+
+81 × 1
+621
+MY1023A
+
+7
+8
+9 10 11 12 13 14
+16
+18
+19
+20
+21
+22
+55 60 65 70 75 80 85 90 100 110 120 125 130 140
+DC ×1N寸＝13mm
+shank length = 13mm
+
+A:2.02
+D:28.60
+N:13.00
+
+9 10
+65 70
+地糸切れ対策針
+preventing fabric yarn breakage
+
+A:2.02
+D:28.60
+N:13.00
+
+11 14
+75 90
+DC ×27N寸＝13mm
+shank length = 13mm
+
+A:2.02
+D:28.60
+N:13.00
+
+7
+8
+9 10 11
+55 60 65 70 75
+DC ×1N寸＝11.50mm
+shank length = 11.50mm
+
+A:2.02
+D:28.60
+N:11.50
+
+
+⑰
+
+■曲げ針オーバーロック関係 For Curved overlock needle
+
+■マツリ、スクイ縫い関係 For Blind stitch
+
+上記以外にも様々な種類の針があります。 詳しくは、お問い合わせください。／Please Note: we have many other types of needles that are not indicated above. Please contact us for details.
+
+UN × 154
+
+UN - R7
+
+UN - R12
+
+UO × 154
+
+UY × 154GAS
+
+UY × 154GBS
+
+UY × 154GCS
+
+MR - R9
+
+LW × 1T
+
+LW × 2T
+
+LW × 3T
+
+記号
+SYSTEM
+SYSTEM
+SISTEMA
+型號
+
+他社記号
+OTHER MAKER SYSTEM
+PARALLELSYSTEME
+SISTEMAS EQUIVALENTES
+其他公司型號
+
+先端
+POINT
+SPITZE
+PUNTA
+針尖
+
+ミシン針イラスト
+
+ILLUSTRATION OF NEEDLE
+NADELFOTO
+FOTO DE AGUJA
+縫紉機針示意圖
+
+用途
+APPLICATION
+ANMERKUNG
+NOTAS
+用途
+
+番手
+NEEDLE SIZES
+NADELSTÄRKEN
+TAMAÑOS DE AGUJAS
+針號
+
+UY8454GS
+7
+8
+9 10 11 12 13 14
+16
+18
+21
+55 60 65 70 75 80 85 90 100 110 130
+曲針オーバーロック
+curved overlock needle
+
+A:2.02
+D:31.40
+N:14.50
+
+9 11 14
+65 75 90
+曲針オーバーロック 両面平取
+curved overlock needle（flat shank on both sides）
+
+A:2.02
+D:31.40
+N:14.50
+
+9 11 14
+65 75 90
+曲針オーバーロック 両面平取
+curved overlock needle（flat shank on both sides） 
+
+A:2.02
+D:31.40
+N:14.50
+
+7
+8
+9 10 11 12 13 14
+16
+18
+19
+20
+22
+55 60 65 70 75 80 85 90 100 110 120 125 140
+曲針オーバーロック
+curved overlock needle
+
+A:2.02
+D:31.40
+N:14.50
+
+UY154GAS
+SY1431
+
+7
+8
+9 10 11 12 14
+16
+18
+19
+20
+21
+22
+55 60 65 70 75 80 90 100 110 120 125 130 140
+曲針オーバーロック 片面平取
+curved overlock needle（flat shank on one side）
+
+A:2.02
+D:31.60
+N:14.50
+
+UY154GBS
+SY6430
+
+9 10 11 12 14
+16
+18
+65 70 75 80 90 100 110
+曲針オーバーロック 片面平取
+curved overlock needle（flat shank on one side）
+
+A:2.02
+D:31.60
+N:14.50
+
+UY154GCS
+SY6431
+
+9 10 11 12 14
+16
+65 70 75 80 90 100
+曲針オーバーロック 両面平取
+curved overlock needle（flat shank on both sides） 
+
+A:2.02
+D:31.60
+N:14.50
+
+8
+9 10 11 12 13 14
+16
+18
+19
+21
+22½
+60 65  7075 80 85 90 100 110 120 130 150
+メローオーバーロック用
+for merrow overlock
+
+A:2.03
+D:29.20
+N:15.00
+
+29 - 12
+8
+9 10 11 12 14
+16
+18
+19
+21
+60 65 70 75 80 90 100 110 120 130
+伏せ縫 マツリ縫用
+felled seam, blind stitch
+
+A:2.02
+D:36.20
+N:10.00
+
+29 - 34
+8
+9 10 11 12 13 14
+16
+18
+19
+21
+60 65 70 75 80 85 90 100 110 120 130
+伏せ縫 マツリ縫用
+felled seam, blind stitch
+
+A:2.02
+D:39.90
+N:15.00
+
+29 - C - 300
+8
+9 10 11 12 13 14
+16
+18
+19
+20
+21
+22
+60 65 70 75 80 85 90 100 110 120 125 130 140
+盲縫 マツリ縫用
+blind stitch
+
+A:2.02
+D:38.70
+N:15.50
+
+
+⑱
+上記以外にも様々な種類の針があります。 詳しくは、お問い合わせください。／Please Note: we have many other types of needles that are not indicated above. Please contact us for details.
+
+記号
+SYSTEM
+SYSTEM
+SISTEMA
+型號
+
+他社記号
+OTHER MAKER SYSTEM
+PARALLELSYSTEME
+SISTEMAS EQUIVALENTES
+其他公司型號
+
+先端
+POINT
+SPITZE
+PUNTA
+針尖
+
+ミシン針イラスト
+
+ILLUSTRATION OF NEEDLE
+NADELFOTO
+FOTO DE AGUJA
+縫紉機針示意圖
+
+用途
+APPLICATION
+ANMERKUNG
+NOTAS
+用途
+
+番手
+NEEDLE SIZES
+NADELSTÄRKEN
+TAMAÑOS DE AGUJAS
+針號
+
+29 - C - 300
+8
+9 11 12 14
+16
+60 65 75 80 90 100
+盲縫 マツリ縫用
+blind stitch
+
+A:2.02
+D:38.70
+N:15.50
+
+1669E EO
+8
+9 10 12 14
+16
+60 65 70 80 90 100
+ハザシ用
+for lapel padding and collar
+
+A:2.02
+D:38.60
+N:14.00
+
+1669E
+8
+9 10 11 12 13 14
+16
+18
+19
+21
+60 65 70 75 80 85 90 100 110 120 130
+
+8
+9 10 11 12
+15
+16
+18
+60 65 70 75 80
+14
+90
+100 110
+
+ハザシ用
+for lapel padding and collar
+
+A:2.02
+D:38.90～38.60
+N:13.50 
+
+29 - 34
+
+251EU
+
+1½
+2 2½
+3
+3½
+4
+4½
+5
+7
+8
+9 10 11 12 13 14
+16
+18
+19
+
+55 60 65 70 75 80 85 90 100 110 120
+
+伏せ縫 マツリ縫用
+felled seam, blind stitch
+
+盲縫 マツリ縫用
+blind stitch
+
+A:2.02
+D:40.00
+N:15.00
+
+A:2.02
+D:38.90
+N:14.50
+
+29 - C - 300LG
+0
+5 10 15 20 25 30
+35
+40
+45
+50
+65 70 75 80 85 90 95 100 105 110 120
+奥マツリ用
+blind stitch
+
+A:2.02
+D:40.70
+N:15.50
+
+29 - 39
+8
+9 10 11 12 14
+16
+18
+19
+21
+60 65 70 75 80 90 100 110 120 130
+
+伏せ縫 マツリ縫用
+felled seam, blind stitch
+LW×１Tの逆平取針
+
+A:2.02
+D:36.20
+N:10.00
+
+LW × 4T
+
+LW × 5T
+
+LW × 6T
+
+LW × 251EU
+
+LW × 1669E
+
+LW × 1669E EO
+
+LW - C5
+
+
+⑲
+
+DP × 17LL＊
+
+DP × 17LR＊
+
+DP × 17S
+
+DP × 17P＊
+
+上記以外にも様々な種類の針があります。 詳しくは、お問い合わせください。／Please Note: we have many other types of needles that are not indicated above. Please contact us for details.
+
+記号
+SYSTEM
+SYSTEM
+SISTEMA
+型號
+
+他社記号
+OTHER MAKER SYSTEM
+PARALLELSYSTEME
+SISTEMAS EQUIVALENTES
+其他公司型號
+
+先端
+POINT
+SPITZE
+PUNTA
+針尖
+
+ミシン針イラスト
+
+ILLUSTRATION OF NEEDLE
+NADELFOTO
+FOTO DE AGUJA
+縫紉機針示意圖
+
+用途
+APPLICATION
+ANMERKUNG
+NOTAS
+用途
+
+番手
+NEEDLE SIZES
+NADELSTÄRKEN
+TAMAÑOS DE AGUJAS
+針號
+
+32
+38
+49
+80 100 115
+ハンドステッチ用
+for hand stitch
+A.1.00
+(E:44.40)
+
+A:2.00
+D:39.00
+N:16.00～13.00
+
+135x16TW
+
+135x16RTW
+
+135x16NW
+
+0200021002200230024
+1250130014001600180
+ 
+1400160018001900200021002200230024
+9001000110012001250130014001600180
+ 
+140016001800190020002100220023
+900100011001200125013001400160
+ 
+12014001600180019002000210022002300240025
+80090010001100120012501300140016001800200
+
+皮革用 従来名称：DPx16N
+
+皮革用 従来名称：DPx17LR/DPx16LR
+
+皮革用
+
+皮革用 従来名称：DPx16
+
+for leather    former system : DP×16N
+
+for leather    former system : DP×17LR/DP×16LR
+
+for leather
+
+for leather    former system : DP×16
+
+A:2.00
+D:39.00
+N:13.50～13.00
+
+＊ 記号を変更いたしましたのでご注意ください
+＊ Please Note ： we have renamed the system．
+＊ 種類名稱已經更改，敬請注意。
+
+A:2.00
+D:39.00
+N:16.00～13.50
+A:2.00
+D:39.00
+N:16.00～13.00
+
+■レザー針関係 For Leather
+
+14
+16
+18
+19
+21
+90 100 110 120 130
+星飾り縫い・ピンポイント用
+pinpoint and decoration stitch
+A:2.02
+N:12.50
+
+14
+16
+18
+19
+90 100 110 120
+星飾り縫い・ピンポイント用
+pinpoint and decoration stitch
+
+A:2.02
+D:34.50
+N:14.00
+
+CP × 1
+
+CP × 1J
+
+CP × 2
+
+CP × 12
+
+CP × 12J
+
+CP × 13
+
+CP × 17
+
+CP × 170
+
+CP × 200
+
+DPN - 1032B
+
+9 11 12 14
+16
+18
+19
+20
+21
+22
+23
+65 75 80 90 100 110 120 125 130 140 160
+星飾り縫い・ピンポイント用
+pinpoint and decoration stitch
+A:2.02
+N:14.00
+
+11 14
+16
+18
+19
+21
+75 90 100 110 120 130
+星飾り縫い・ピンポイント用
+pinpoint and decoration stitch
+A:2.02
+N:12.50
+
+29 - C - 151
+151
+151S
+
+11 12 14
+16
+18
+19
+20
+21
+22
+23
+75 80 90 100 110 120 125 130 140 160
+星飾り縫い・ピンポイント用
+pinpoint and decoration stitch
+A:2.02
+N:18.00
+
+19
+20
+21
+22
+23
+120 125 130 140 160
+星飾り縫い・ピンポイント用
+pinpoint and decoration stitch
+A:2.02
+N:18.00
+
+14
+16
+18
+19
+21
+22
+90
+12
+80
+100 110 120 130 140
+星飾り縫い・ピンポイント用
+pinpoint and decoration stitch
+
+A:2.02
+D:34.50
+N:18.00
+
+14
+16
+18
+19
+21
+22
+23
+90 100 110 120 130 140 160
+星飾り縫い・ピンポイント用
+pinpoint and decoration stitch
+
+A:2.02
+D:34.50
+N:14.00
+
+29 - C - 150
+SY1902
+
+14
+16
+18
+19
+21
+22
+90 100 110120 130 140
+星飾り縫い・ピンポイント用
+pinpoint and decoration stitch
+
+A:2.02
+D:34.50
+N:18.00
+
+■ハンドステッチ関係 For Hand stitch
+
+
+⑳
+上記以外にも様々な種類の針があります。 詳しくは、お問い合わせください。／Please Note: we have many other types of needles that are not indicated above. Please contact us for details.
+
+記号
+SYSTEM
+SYSTEM
+SISTEMA
+型號
+
+他社記号
+OTHER MAKER SYSTEM
+PARALLELSYSTEME
+SISTEMAS EQUIVALENTES
+其他公司型號
+
+先端
+POINT
+SPITZE
+PUNTA
+針尖
+
+ミシン針イラスト
+
+ILLUSTRATION OF NEEDLE
+NADELFOTO
+FOTO DE AGUJA
+縫紉機針示意圖
+
+用途
+APPLICATION
+ANMERKUNG
+NOTAS
+用途
+
+番手
+NEEDLE SIZES
+NADELSTÄRKEN
+TAMAÑOS DE AGUJAS
+針號
+
+DP × 17DIA＊
+
+DP × 17TQ
+
+DP × 17LBR
+
+DP × 35LL
+
+DP × 35LR
+
+DP × 35S
+
+DP × 35P
+
+DP × 35D
+
+DP × 35PCL
+
+DP × 134LL＊
+
+DP × 134LR＊
+
+DP × 134S＊
+
+DP × 134P＊
+
+DP × 134DIA＊
+
+DP × 134D＊
+
+PF × 134KKLR
+
+PF × 134KKD
+
+PF × 134KKPCL
+
+135x16DIA
+
+134-35LL
+
+134-35LR
+
+134-35PCL
+
+134LL
+
+134LR
+
+134S
+
+134P
+
+134DIA 135ｘ8
+
+134D
+
+A:2.00
+D:33.90
+N:14.50～11.50
+A:2.00
+D:33.90
+N:14.50～11.50
+A:2.00
+D:33.90
+N:14.50～11.50
+
+A:2.00
+D:33.90
+N:14.50～11.50
+
+A:2.00
+D:33.90
+N:14.50～11.50
+A:2.00
+D:33.90
+N:14.50～11.50
+
+A:2.00
+D:33.90
+N:14.50～11.50
+A:2.00
+D:33.90
+N:14.50～11.50
+
+A:2.00
+D:39.00
+N:16.00～13.00
+A:2.00
+D:39.00
+N:16.00～13.00
+A:2.00
+D:39.00
+N:13.00
+
+A:2.00
+D:38.20
+N:13.50
+A:2.00
+D:38.20
+N:13.50
+A:2.00
+D:38.20
+N:13.50
+A:2.00
+D:38.20
+N:13.50
+
+A:2.00
+D:33.90
+N:14.50～11.50
+
+A:2.00
+D:38.20
+N:13.50
+A:2.00
+D:38.20
+N:13.50
+
+TQ
+
+01600180019002000210022002300240025
+10001100120012501300140016001800200
+ 
+14001600180019002100220023
+90010001100120013001400160
+ 
+023
+160
+ 
+1201400160018001900210022002300240025
+8009001000110012001300140016001800200
+ 
+100120130140016001800190020002100220022½023002400250026
+70080085090010001100120012501300140015000160018002000230
+ 
+14001600180019002100220023
+90010001100120013001400160
+ 
+100120140016001900210022
+700800900100012001300140
+ 
+14001600180019002100220022½0230024
+90010001100120013001400150001600180
+ 
+100120140016001800190021
+700800900100011001200130
+ 
+100110120130140016001800190021002200230024
+700750800850900100011001200130014001600180
+ 
+090100110120130140016001800190020002100220022½02300240025
+6507007508008509001000110012001250130014001500016001800200
+
+09010011012013014001600180019002100220022½0230025
+650700750800850900100011001200130014001500 1600200
+ 
+100110120130140016001800190020002100220023
+700750800850900100011001200125013001400160
+ 
+1001201400160018001900200021002200230024
+7008009001000110012001250130014001600180
+ 
+100110120130140016001800190020002100220022½02300240025
+7007508008509001000110012001250130014001500016001800200
+ 
+090100110120140016001800190022
+650700750800900100011001200140
+ 
+1101400160018
+2509001000110
+ 
+09010011012014001600180019002000210022
+65070075080090010001100120012501300140
+
+皮革用 従来名称：DPx16DIA
+
+皮革用
+
+皮革用
+
+皮革用
+
+皮革用
+
+皮革用
+
+皮革用
+
+皮革用
+
+皮革用
+
+皮革用 従来名称：PFx134LL
+
+皮革用 従来名称：PFx134LR
+
+皮革用 従来名称：PFx134KS
+
+皮革用 従来名称：PFx134P
+
+皮革用 従来名称：DPx8
+
+皮革用 従来名称：PFx134D
+
+皮革用 DPx134LRのN寸短
+
+皮革用 DPx134DのN寸短
+
+皮革用 PFx134PCLのN寸短
+
+for leather    former system : DP×16DIA
+
+for leather
+
+for leather
+
+for leather
+
+for leather
+
+for leather
+
+for leather
+
+for leather
+
+for leather
+
+for leather    former system : PF×134LL
+
+for leather    former system : PF×134LR
+
+for leather    former system : PF×134KS
+
+for leather    former system : PF×134P
+
+for leather    former system : DP×8
+
+for leather    former system : PF×134D
+
+for leather    DP×134LR with short shank
+
+for leather    DP×134D with short shank
+
+for leather    PF×134PCL with short shank
+
+
+㉑
+
+上記以外にも様々な種類の針があります。 詳しくは、お問い合わせください。／Please Note: we have many other types of needles that are not indicated above. Please contact us for details.
+
+記号
+SYSTEM
+SYSTEM
+SISTEMA
+型號
+
+他社記号
+OTHER MAKER SYSTEM
+PARALLELSYSTEME
+SISTEMAS EQUIVALENTES
+其他公司型號
+
+先端
+POINT
+SPITZE
+PUNTA
+針尖
+
+ミシン針イラスト
+
+ILLUSTRATION OF NEEDLE
+NADELFOTO
+FOTO DE AGUJA
+縫紉機針示意圖
+
+用途
+APPLICATION
+ANMERKUNG
+NOTAS
+用途
+
+番手
+NEEDLE SIZES
+NADELSTÄRKEN
+TAMAÑOS DE AGUJAS
+針號
+
+PF × 134PCL
+
+PF × 134PCR
+
+PF × 134VR
+
+DP × F22
+
+PF × 34P
+
+DB × F2
+
+DB-F42
+
+DB × F17
+
+TF × 2
+
+TF × 2LR
+
+TF × 2D
+
+TF × 4
+
+TF × 6
+
+TF × F8
+
+A:1.62/1.90/2.02
+D:33.8
+N:13.50～11.00
+A:1.62/1.90/2.02
+D:33.85
+N:13.50～11.00
+A:1.62/1.90/2.02
+D:33.80
+N:13.50～10.50
+
+08  9  10 11 12 13 14  16  18   19  20   21
+60 65 70 75 80 85 90 100 110 120 125 130
+
+08  9  10 11 12 13 14  16  18   19  20   21  22   23  24
+60 65 70 75 80 85 90 100 110 120 125 130 140 160 180
+
+07  8   9 10 11 12 14  16   18  19   21  22
+55 60 65 70 75 80 90 100 110 120 130 140
+
+A:1.62/1.90/2.02
+D:33.80
+N:13.50～10.50
+A:1.62/1.90/2.02
+D:33.80
+N:13.50～10.50
+A:1.62/1.90/2.02
+D:33.80
+N:13.50～10.50
+
+A:2.00
+D:33.90
+N:14.50～11.50
+
+A:2.00
+D:33.90
+N:12.50～11.50
+
+A:1.62
+D:34.00
+N:13.50
+A:1.62～2.02
+D:33.80
+N:16.00～10.50
+A:1.62
+D:33.8
+N:11.50～12.50
+A:1.62～1.90
+D:33.80
+N:16.00～12.50
+
+A:2.00
+D:33.90
+N:14.50～11.50
+A:2.00
+D:33.90
+N:14.50～11.50
+
+134PCL
+
+134PCR
+
+134KKS
+
+34P
+
+1738LR
+
+1738S
+
+34LL
+
+34LR
+
+34DIA
+
+34PCL
+
+34PCR
+
+SY2078 34S
+
+080090100110120130140016001800190020002100220022½02300240025
+6006507007508008509001000110012001250130014001500016001800200
+ 
+1001101201301400160018001900210022
+7007508008509001000110012001300140
+ 
+1400160018001900210022
+9001000110012001300140
+  
+090100110120140016001800190020002100220023
+650700750800900100011001200125013001400160
+ 
+1001101201301400160018
+7007508008509001000110
+ 
+09011012013014001600180019002000210022002300240025
+65075080085090010001100120012501300140016001800200
+ 
+019002000210022
+120012501300140
+ 
+08009010011012014001600180019
+60065070075080090010001100120
+ 
+07008009010011012013014001600180019002000210022002300240025
+55060065070075080085090010001100120012501300140016001800200
+ 
+07008009010011012013014001600180019002000210022002300240025
+55060065070075080085090010001100120012501300140016001800200
+ 
+09010011012014001600180019002000210022
+65070075080090010001100120012501300140
+
+皮革用
+
+皮革用
+
+皮革用
+
+皮革用
+
+皮革用
+
+皮革用
+
+皮革用
+
+皮革用
+
+皮革用
+
+皮革用
+
+皮革用
+
+皮革用
+
+皮革用
+
+皮革用
+
+for leather
+
+for leather
+
+for leather
+
+for leather
+
+for leather
+
+for leather
+
+for leather
+
+for leather
+
+for leather
+
+for leather
+
+for leather
+
+for leather
+
+for leather
+
+for leather
+
+
+㉒
+上記以外にも様々な種類の針があります。 詳しくは、お問い合わせください。／Please Note: we have many other types of needles that are not indicated above. Please contact us for details.
+
+記号
+SYSTEM
+SYSTEM
+SISTEMA
+型號
+
+他社記号
+OTHER MAKER SYSTEM
+PARALLELSYSTEME
+SISTEMAS EQUIVALENTES
+其他公司型號
+
+先端
+POINT
+SPITZE
+PUNTA
+針尖
+
+ミシン針イラスト
+
+ILLUSTRATION OF NEEDLE
+NADELFOTO
+FOTO DE AGUJA
+縫紉機針示意圖
+
+用途
+APPLICATION
+ANMERKUNG
+NOTAS
+用途
+
+番手
+NEEDLE SIZES
+NADELSTÄRKEN
+TAMAÑOS DE AGUJAS
+針號
+
+HA × 1
+
+HA × 1DE
+
+HA × 1GT
+
+HA × 1LL
+
+HA × 1SP
+
+HA × 1QU
+
+HA × 1EB
+
+HA × 1BR
+
+EL × 705
+
+BL × 1
+
+HL × 5
+
+DC × 1F
+
+DC - C87
+
+15 × 2NTW
+130LL
+130/705HLL
+レザー用
+for leather
+
+A:2.02
+D:33.80
+N:11.70
+
+9
+11 12 14
+65
+75
+10
+70
+80 90
+ニット用
+for knitted fabrics
+
+A:2.02
+D:33.80 
+N:11.70
+
+11 14
+75 90
+キルト用
+for quilting
+
+A:2.02
+D:33.80 
+N:11.70
+
+7
+55
+ジョーゼット用
+for georgette
+
+A:2.02
+D:33.80
+N:11.70
+
+9 10 11 12 14
+65 70 75 80 90
+ベビーロック用(DC × 1KNの平取針)
+babylock (DC × 1KN with flat shank )
+
+A:2.02
+D:28.60
+N:10.00
+
+9 11 12 14
+16
+18
+65 75 80 90 100 110
+ベビーロック用(DC × 1の平取針)
+babylock (DC × 1 with flat shank)
+
+A:2.02
+D:28.60
+N:10.00
+
+9 10 11 12 14
+16
+18
+20
+65 70 75 80 90 100 110 125
+家庭用ロック針
+for home overlock
+
+職業用
+for professional
+
+A:2.00
+D:33.90
+N:12.50
+
+9 10 11 12 14
+16
+65 70 75 80 90 100
+ベビーロック職業用
+for babylock
+
+A:1.62
+D:33.80
+N:13.50
+
+11 14
+75 90
+刺繍用
+for embroidery
+
+A:2.02
+D:33.90 
+N:11.70
+
+11 12 14
+75 80 90
+家庭用ロック針
+for home overlock
+
+カバーステッチ用
+for cover stitches
+
+A:2.02
+D:33.90
+N:11.50
+
+9 11 14
+16
+65 75 90 100
+家庭用ミシン針
+for home sewing machine
+
+A:2.02
+D:33.80
+N:12.50～11.70
+
+デニム用
+for denim
+
+A:2.02
+D:33.80
+N:11.70
+
+15 × 1
+130/705H
+7
+8
+9 10 11 12 13 14
+16
+18
+19
+20
+21
+22
+23
+55 60 65 70 75 80 85 90 100 110 120 125 130 140 160
+家庭用ミシン針
+for home sewing machine
+
+A:2.02
+D:33.80
+N:11.70
+
+■家庭用ミシン関係 For Home sewing machine
+
+14
+16
+18
+90 100 110
+
+11 12 14
+16
+21
+75 80 90 100 130
+
+
+㉓
+
+STEP1
+STEP3
+STEP2
+
+ミシン針相談のご案内 
+縫製トラブルが解消しないときに、適正針選定のお手伝いをします。
+
+お申し込みの流れ / Application Process / 申請流程
+
+弊社所定のミシン針相談受付用紙*へ記入
+
+・ 弊社からのご連絡、お問い合わせ先
+
+・ どのようなトラブルが発生しているのか
+
+・ どのような縫製条件下でトラブルが発生しているのか
+
+できるだけ詳しくご記入ください。
+
+填寫敝公司所定的縫紉機針諮詢受理表
+
+・ 聯係方法
+
+・ 目前發生的縫製問題的內容
+・ 發生縫製問題的縫製條件 
+
+請盡可能詳細地填寫。
+
+Complete Application Form
+
+* Applicant's contact info
+* Description of trouble
+* Condition when trouble occured
+All of the above in as much detail as possible
+
+弊社取扱い代理店もしくは弊社営業担
+当までお送りください。
+
+Send Application to our dealer or any of 
+our sales personnel.
+
+請發送到敝公司代理店或敝公司營業
+擔當処。
+
+＊ ミシン針相談受付用紙は、弊社のホームページより日本語版のみダウンロードできます。
+
+ 
+URL: http://www.organ-needles.com/pdf/trouble2.pdf
+ 
+オルガン針株式会社トップページの左側メニューより、縫製トラブル対策情報＞ミシン針相談受付用紙
+ 
+尚、ミシン針相談受付用紙にご記入の際は、記載されている事項をよくご確認のうえ、詳しくご記入ください。
+ 
+英語版、中国語版の受付用紙については、営業担当にお問い合わせください。
+
+ 
+To obtain an English copy of the application, please contact any of our sales personnel.
+ 
+中文版的縫紉機針諮詢受理表,請向敝公司營業擔當詢問。
+
+ミシン針相談についてご不明な点は、営業担当にお問い合わせください。
+
+For any further information required, please contact any of our sales personnel.
+如果您對縫紉機針咨詢服務有任何不明之処，請向敝公司營業擔當詢問。
+
+SEWING MACHINE NEEDLES INQUIRIES 
+For ongoing sewing problems, we can help by recommending the appropriate needle.
+縫紉機針諮詢服務的介紹 
+縫製問題無法解決時,敝公司為您提供選定合適縫紉機針的幫助。
+
+そのほかにご準備いただくもの
+
+・  縫製試験用テスト生地  1m×1m程度
+・  トラブルが発生している縫い見本
+・  副資材を一緒に縫製する場合は、その副資材
+
+受理表以外需要準備的東西
+
+・縫製試驗用的面料 1m×1m
+
+・實際發生了問題的縫製樣品
+・一起縫製的輔料（如果有的話,）  
+
+Additional Item to be submitted
+
+* 1mx1m of desired material to test
+* Sample of problemed material
+* Where a sub-material was used, 
+  please submit it as well
+
+お急ぎの場合は、トラブル見本照合での回答とさせていただきます。
+
+ご希望にそって、下の方法のどちらかにてご回答します。
+
+縫製試験
+縫製試験を行い、その結果をご連絡します。
+トラブル見本照合縫い見本から原因を推察し、その結果をご連絡します。
+
+For quickest response, please select the inspection method.
+
+Depending on your needs, select one of the methods below:
+
+Sewing Test:
+Conduct test and notify you of results
+
+Inspection Method: Inspect problemed materials to determine causes of problem and notify you
+
+您若是急的話，我們將採用觀察問題樣本方式匯報結果。
+
+我們將根據您的意願，選擇如下方式中的一種進行回答。
+
+縫製試驗方式: 
+進行縫製試驗後,匯報結果。
+觀察問題樣品方式: 由問題樣品推測發生的原因並匯報結果。
+
+
+縫製トラブルと対策針 薄物生地の縫製 
+（アパレル・ファンデーション・スポーツウェア）
+SEWING TROUBLE and COUNTERMEASURE 
+-Needle for thin fabrics sewing (Apparel・Underwear・Sportswear)-
+縫紉問題及對策針 
+～輕薄面料的（服裝縫製・内衣縫製・運動服縫製）～
+
+Knit
+針織面料
+ニット
+Unsuitable Point
+Size and Thickness
+
+Ball point series
+
+KN/SF series
+針太尖且太粗而切斷
+針の先端と
+太さで切断する
+
+原  因
+原  因
+
+面料斷綫
+地糸切れ
+
+Woven
+機織面料
+布  帛
+Unsuitable Thickness
+NS series
+針太粗而切斷
+針の太さで切断する
+
+Net
+網狀面料
+ネット
+Unsuitable Point Size
+Ball point series
+針太尖而切斷
+針の先端で切断する
+
+Needle Penetrates up to
+
+Shank Taper
+針刺入太深
+針が深く刺さる
+
+Heat Buildup
+針發熱而切斷
+熱で切断する
+
+Needle Deflection・
+Poor Loop Formation
+針晃動,線拋不穩定
+針振れ・ループが不安定
+
+High Friction/Resistance
+between Needle and Material
+面料上下擺動
+生地をばたつかせる
+
+Poor Seam Appearance
+針孔留下的痕跡過大
+針穴跡が大きい
+
+Down Clinging to Needle
+針會把羽絨帶上來
+針がダウンを引き上げる
+
+Inside Down Leaks out from
+
+Fabric Yarn Breakage Hole
+
+羽绒从面料断线的
+
+針洞中露出
+地糸切れした穴から
+
+ダウンが噴き出す
+
+Loose Woven Yarn
+縫綫將織綫擠開
+織糸を寄せる
+
+織綫翻轉
+織糸が裏返る
+
+Gum Protrusion
+針尖造成的橡皮觔突齣
+針先端でゴムを突き出す
+
+Visible Yarn Movement
+花紋紊亂
+柄がずれる
+
+Twist Displacement of
+
+Woven Yarn
+針造成的織綫解撚
+針で織糸を解撚する
+
+Needle Penetrates
+up to Shank Taper
+
+針後端的錐形部分
+
+會穿過麵料
+針のテーパー部が
+
+生地に入る
+
+KK series
+
+HP coating
+
+跳  綫
+目飛び
+
+縫縮起皺
+パッカリング
+
+Woven
+機織面料
+布  帛
+NS series
+羽絨面料鉆毛
+ダウンの噴出し
+
+LP coating
+
+Knit
+針織面料
+ニット
+KN/SF series
+
+Twill Weave/
+Sateen Weave
+
+斜紋面料·
+
+緞紋面料
+斜文織・朱子織
+NS series
+急  針
+糸引け
+
+Printed Material
+印花面料
+プリント生地
+露  白
+糸返り
+
+Gum
+松緊帶
+ゴ  ム
+Ball point series
+頂  出
+突き出し
+
+Woven
+機織面料
+布  帛
+
+Ball point series
+
+Sequins with
+
+a Small Hole
+小孔珠片
+穴の小さな
+スパンコール
+KK series
+珠片破碎
+スパンコール割れ
+
+面  料
+素  材
+縫紉問題
+トラブル
+
+NY2 series
+
+SK series
+
+NS series
+LP coating
+
+Ball point series
+
+KN/SF series
+
+Ball point series
+
+NS series
+
+對策針
+対策針
+
+Loose Woven Yarn
+
+with Strands 
+
+Fabric Yarn
+
+Breakage
+
+Skipped Stitches
+
+Seam Puckering
+
+Leaking Down
+
+Needle Line
+
+Pulling Linings out
+
+of Needle Holes
+
+Protrusion
+
+Sequins Breakage
+
+CAUSE
+MATERIAL
+SUGGESTED NEEDLE
+TROUBLE
+
+㉔
+
+
+縫製トラブルと対策針 厚物生地の縫製 
+（デニム・鞄・靴・家具・自動車関係）
+SEWING TROUBLE and COUNTERMEASURE 
+ -Needle for thick materials sewing (Denim・Bag・Shoes・Furniture・Car Seat)-
+縫紉問題及對策針 
+～用於厚重面料的（牛仔服縫製・包・鞋・家具・汽車座墊）～
+
+針織面料
+ニット
+面料斷綫
+地糸切れ
+
+LE series
+
+Ball point series
+針太尖且太粗而切斷
+針の先端と太さで
+
+切断する
+
+Ball point series
+
+LE series
+
+KK series
+
+NY2 series
+
+SK series
+
+LE series
+
+Ball point series
+
+PD plating
+
+KK series
+
+LP coating
+
+SK series
+
+NY2 series
+
+SK series
+
+機織面料
+布  帛
+針太粗而切斷
+針の太さで切断する
+
+針刺入太深
+針が深く刺さる
+
+跳  綫
+目飛び
+針晃動,線拋不穩定
+針振れ・ループが
+
+不安定
+
+抛  綫
+糸締り不良
+
+針尖鈍化·磨損
+先潰れ摩耗
+
+縫綫太粗
+太い縫い糸
+相對針孔使用的
+
+縫線過粗
+糸穴に対して
+縫い糸が太い
+
+真  皮
+本  革
+針腳顯眼
+針穴跡が目立つ
+針刺入太深
+針が深く刺さる
+
+襯  布
+芯  地
+粘着問題
+粘  着
+胶和面料的
+碎屑黏着在針上
+針に糊と生地カスが
+
+付着する
+
+樹  脂
+樹  脂
+斷上綫
+上糸切れ
+解  撚
+糸の撚り戻り
+
+厚面料,硬面料
+厚い素材・
+
+硬い素材
+斷  針
+針折れ
+針尖的磨損,變形
+針先端の潰れ・変形
+
+原  因
+原  因
+面  料
+素  材
+縫紉問題
+トラブル
+對策針
+対策針
+CAUSE
+MATERIAL
+SUGGESTED NEEDLE
+TROUBLE
+
+Knit
+Unsuitable Point Size
+
+and Thickness
+
+Woven
+Unsuitable Thickness
+
+Needle Penetrates
+up to Shank Taper
+
+Needle Deflection・
+Poor Loop Formation
+
+Thicker Thread
+Unsuitable Thread
+
+Thickness
+
+Genuine Leather
+Needle Penetrates
+up to Shank Taper
+
+Interlining
+Unsuitable and Material
+Waste Clinging to Needle
+
+Plastic
+Twist Displacement
+
+of Thread
+
+Thick and Hard
+
+Material
+
+Worn and Damaged Point
+
+Fabric Yarn
+
+Breakage
+
+Skipped Stitches
+
+Loose Seams
+
+Trouble due to Wear
+
+and Point Damage
+
+Poor Seams
+Appearance
+
+Trouble due
+to Adhesion
+
+Upper Thread
+
+Breakage
+
+Needle Breakage
+
+㉕
+
+
+㉖
+
+
+販売ネットワーク/SALES NETWORK/營業網點
+
+URL: http://www.organ-needles.com/
+弊社ホームページより当カタログをダウンロードできます。
+This brochure can be downloaded from our site. 
+從弊公司主頁能夠下載產品目錄
+
+ⒸORGAN 2017.7  3,000 Rev.2
+
+風琴針業有限公司
+香港香港仔黃竹坑道26號建德工業大廈15字樓
+Tel:+852-2552-8262  Fax:+852-2873-6037
+
+ORGAN NEEDLE CO., LTD.
+Kin Teck Industrial Bldg., 15th Floor, 
+26Wong Chuk Hang Road, Aberdeen, 
+P. R. O. C. Special Administration Region, Hong Kong 
+Tel:+852-2552-8262  Fax:+852-2873-6037
+
+風琴針業(上海)有限公司
+郵編200040
+中國上海市北京西路1277號國旅大廈1007室
+Tel:+86-21-6279-3330  Fax:+86-21-6279-1109
+
+ORGAN NEEDLE (SHANGHAI) CO., LTD.
+Room No.1007, Guo Lu Bldg., No.1277 Beijing West Road, 
+Shanghai, China 200040
+Tel:+86-21-6279-3330  Fax:+86-21-6279-1109
+
+重慶風琴針業有限公司
+郵編401122
+中國重慶市北部新區金渝大道102號附1號
+Tel:+86-23-8607-6080/6087  Fax:+86-23-6746-3408
+
+CHONGQING ORGAN NEEDLE CO., LTD.
+No.102-1 of Jinyu Road， New North Zone， Chongqing， 
+China 401122
+Tel:+86-23-8607-6080/6087  Fax:+86-23-6746-3408
+
+台灣風琴針貿易股份有限公司
+台灣台北市承徳路三段30號3F
+Tel:+886-2-2585-5190/5193 Fax:+886-2-2585-5182
+
+TAIWAN ORGAN NEEDLE TRADING CO., LTD
+3F., No.30, Sec.3, Cheng-The Road, Taipei, Taiwan
+Tel:+886-2-2585-5190/5193  Fax:+886-2-2585-5182
+
+ORGAN NEEDLE (SINGAPORE) CO. PTE LTD.
+No.190, Middle Road, #13-05 Fortune Centre, 
+Singapore 188979 
+Tel:+65-6339-3581/3588  Fax:+65-6339-5550
+風琴針業(新加坡)私人有限公司
+No.190, Middle Road, #13-05 Fortune Centre, 
+Singapore 188979
+Tel:+65-6339-3581/3588  Fax:+65-6339-5550
+
+ORGAN NEEDLE EUROPE GmbH
+Kesselsgracht 7, D-52146 Würselen, Germany
+Tel:+49 2405 4992 120  Fax:+49 2405 4992 125
+
+ORGAN NEEDLE EUROPE GmbH
+Kesselsgracht 7, D - 52146 Wuerselen, Germany
+Tel:+49 2405 4992 120  Fax:+49 2405 4992 125
+
+CÔNG TY TNHH THƯƠNG MẠI KIM MAY ORGAN VIỆT NAM
+Tầng 7,  Số 400 Đường Nguyễn Thị Thập, 
+Phường Tân Quy. Quận 7, Thành phố Hồ Chí Minh
+Tel: (84)-08-37718025   -    (84)-08-37718026  
+Fax:(84)-08-37718027
+
+ORGAN NEEDLE TRADING VIETNAM CO., LTD.
+7F., 400 Nguyen Thi Thap str., Tan Quy ward,District 7, 
+Ho Chi Minh City, Vietnam
+Tel:+84-8-3771-8025/8026  Fax:+84-8-3771-8027
+
+〒386-1436 長野県上田市前山1番地 
+
+Tel:0268-35-3615  Fax:0268-35-3623 
+www.organ-needles.com 
+E-mail: sales-dpt@organ-ndl.co.jp
+
+ORGAN NEEDLE CO., LTD. 
+1Maeyama, Ueda-shi, Nagano-ken 386-1436, Japan
+Tel:+81-268-35-3615 Fax:+81-268-35-3623
+www.organ-needles.com 
+E-mail: sales-dpt@organ-ndl.co.jp
+
+■東京営業所 
+〒110-0015 東京都台東区東上野3-16-1オルガンビル
+
+Tel:03-3833-1081  Fax:03-3835-7848 
+E-mail: tokyo@organ-ndl.co.jp
+Tokyo Office 
+Organ Bldg., 3-16-1 Higashiueno, Taito-ku, 
+Tokyo 110-0015, Japan
+Tel:+81-3-3833-1081  Fax:+81-3-3835-7848
+E-mail: tokyo@organ-ndl.co.jp
+
+■大阪営業所
+〒540-0012 大阪府大阪市中央区谷町1-4-2オルガンビル
+
+Tel:06-6941-9735  Fax:06-6943-6782
+E-mail: osaka@organ-ndl.co.jp
+Osaka Office
+Organ Bldg.,1-4-2 Tanimachi, Chuo-ku, Osaka-shi, 
+Osaka 540-0012, Japan
+Tel:+81-6-6941-9735  Fax:+81-6-6943-6782
+E-mail: osaka@organ-ndl.co.jp
+
+

@@ -1,0 +1,175 @@
+4-6. List of errors
+
+Error
+      Description of error                         Cause                                 Item to be checked
+code
+ E000 Execution of data         • In the case the machine head is
+      initialization (This is     changed.
+      not an error.)            • In the case the initialization operation is
+                                  executed.
+ E007 Motor overload            • In the case the machine head is
+                                  changed.
+ E009 Overtime of solenoid • In the case the machine head is locked. • Check whether the pulley is entangled
+      energization         • In the case of sewing extra-heavy             with thread.
+                             weight material that exceeds the            • Check whether the motor output
+                             guaranteed material thickness.                connector has loosened.
+                           • In the case the motor fails to rotate.      • Check whether the motor can be
+                           • In the case of the motor or driver failure. turned smoothly by hand.
+ E011 Media is not inserted • In the case no media is inserted.                 • Turn the power OFF and check for a
+                                                                                  media.
+ E012 Read error                • In the case data stored on the media          • Turn the power OFF and check for a
+                                  cannot be read.                                 media.
+ E013 Write error               • In the case data cannot be written on         • Turn the power OFF and check for a
+                                  the media.                                      media.
+ E014 Write protect             • In the case the media is placed in the        • Turn the power OFF and check for a
+                                  write-prohibition state.                        media.
+ E015 Format error              • In the case formatting of the media           • Turn the power OFF and check for a
+                                  cannot be carried out.                          media.
+ E016 External media over- • In the case the capacity of media is not           • Turn the power OFF and check for a
+      capacity               enough.                                              media.
+ E032 File compatibility        • In the case the file is not compatible.       • Turn the power OFF and check for a
+      error                                                                       media.
+ E071 Slip-off of the motor     • In the case the motor connector has           • Check for looseness and slip-off of
+      connector                   slipped off.                                    the motor output connector.
+                                • Motor current detection circuit has
+                                  broken.
+                                • In the case there is no current
+                                  feedback.
+ E072 Motor overload when • Overload state occurs while the thread
+      the thread trimmer    trimming operates.
+      operates
+ E081 Feed driving motor        • In the case the feed driving motor is         • Check whether the feed driving motor
+      lock                        locked.                                         operates smoothly.
+ E204 USB insertion             • In the case the sewing machine is             • Remove the USB thumb drive.
+                                  started up without removing the USB
+                                  thumb drive.
+ E220 Warning against           • When the predetermined number of              • Add grease to the specified points of
+      shortage of grease          stitches is reached.                            sewing machine and reset the error.
+ E221 Grease-shortage           • In the case the sewing machine                • Add grease to the specified points of
+      error                       cannot continue sewing since the                sewing machine and reset the error.
+                                  predetermined number of stitches is
+                                  reached.
+
+
+
+
+                                                         – 52 –
+Error
+      Description of error                     Cause                                 Item to be checked
+code
+E302 Head-tilt detection     • In the case the Tilt detection switch       • Check whether the machine head
+     error                     is turned ON when the power to the            is tilted before turning OFF the
+     (When the safety          sewing machine remains ON.                    power switch (The sewing machine
+     switch operates)                                                        operation is prohibited for the sake of
+                                                                             safety.)
+                                                                           • Check whether the head-tilt detection
+                                                                             switch cord is caught under the
+                                                                             machine head, etc.
+                                                                           • For the head-tilt detection switch
+                                                                             cord, check the cable of the INT PCB.
+E303 Meniscus sensor         • In the case the meniscus sensor signal      • Check whether the machine head
+     error                     cannot be detected                            model setting matches the actual
+                                                                             machine head.
+                                                                           • Check for a break in the motor
+                                                                             encoder connector.
+E704 Data failure (system- • In the case the system version does not • Re-write the system version to the
+     version mismatch)       match the machine head setting.           applicable one.
+E730 Encoder fault           • In the case the motor signal is not input • Check whether the motor signal
+E731 Motor hole sensor         properly.                                   connector (CN39) has loosened or
+     fault                                                                 slipped off.
+                                                                         • Check whether the motor signal cord
+                                                                           has broken by being caught under
+                                                                           the machine head.
+                                                                         • Check whether the insertion direction
+                                                                           of the motor encoder connector is
+                                                                           correct.
+E733 Reverse rotation of     • When the motor runs at a speed of           • Check whether the main shaft motor
+     motor                     500 sti/min. or more, the motor runs in       encoder wire connection is correct.
+                               the reverse direction of the indicated      • Check whether the main shaft motor
+                               direction of rotation.                        wire connection for power is correct.
+E811 Over-voltage            • In the case a voltage that is equal to or   • Check whether the supply voltage of
+                               more than the guaranteed voltage is           "rated supply voltage ±10 % or more"
+                               input.                                        is applied.
+                             • In the case a voltage of 200 V is applied   • Check whether the 100 V/200 V
+                               though the voltage is set to 100 V.           changeover connector is set correctly.
+                             • In the case a voltage of 220 V is input     In the above-described cases, the
+                               to the box of "JA: 120 V".                  power PCB has broken.
+                             • In the case a voltage of 400 V is applied
+                               to the box of "CE: 230 V".
+E813 Low voltage             • In the case a voltage that is equal to      • Check whether the supply voltage of
+                               or less than the guaranteed voltage is        "rated supply voltage -10 % or less"
+                               input                                         is applied.
+                             • In the case a voltage of 100 V is applied   • Check whether the 100 V/200 V
+                               though the voltage is set to 200 V            changeover connector is set correctly.
+                             • In he case a voltage of 120 V is input to   In the above-described cases, the
+                               the box of "JUS: 220 V"                     power PCB has broken.
+                             • In the case the internal circuit has
+                               broken due to the application of over-
+                               voltage
+E815 Regenerative            • In the case the regenerative resistor is    • Check whether the regenerative
+     resistor is not           not connected.                                resister is connected to the
+     connected                                                               regenerative resistor connector
+                                                                             (CN11).
+
+
+
+
+                                                     – 53 –
+Error
+      Description of error                      Cause                               Item to be checked
+code
+E903 85-V power supply        • In the case the 85-V voltage is not        • Check whether the motor is faulty
+     fault                      properly output.                           • Check the F2 fuse.
+E904 24-V power supply        • In the case the 24-V voltage is not
+     fault                      properly output.
+E910 The presser motor        • In the case the presser motor has failed • Check whether the presser setting is
+     origin retrieval error     to return to its origin.                   correct (memory switch No. 23).
+                                                                         • Check whether the presser motor
+                                                                           origin has been correctly adjusted.
+E912 Main shaft motor         • In the case the main shaft motor runs      • Check whether connection encoder
+     speed detection            at a speed that exceeds the assumed          wire of the main shaft motor is
+     error                      speed.                                       correct.
+                                                                           • Check whether connection of the
+                                                                             main shaft motor wire is correct.
+E915 Failure of               • In the case the operation panel            • Check whether CN38 of the CTL PCB
+     communication with         connector is not inserted properly.          or CN200 of the panel is connected
+     operation panel                                                         properly or whether the cable has
+                                                                             broken.
+E922 Main shaft control       • In the case the main shaft fails to
+     failure                    operate as assumed.
+E924 Motor driver fault       • In the case the motor driver has broken.
+E946 Machine-head       • In the case data cannot be written on            • Check whether the machine-head
+     EEPROM write error   the machine-head EEPROM.                           INT PCB is connected properly.
+E955 Electric current         • The electric current of the main shaft     • Check whether connection of the
+     sensor error               motor exceeds the assumed value.             main-shaft motor wire for power is
+                                                                             correct.
+E961 Pitch motor deviation • In the case the pitch motor fails to          • Check whether the pitch motor runs
+     error                   operate because of an excessive load.           smoothly.
+E962 Presser motor            • In the case the presser fails to operate   • Check whether the presser motor
+     deviation error            because of an excessive load.                runs smoothly.
+E971 Feed horizontal          • Pitch motor maloperation.
+     motor IPM over-
+     current protection
+E972 Feed horizontal          • In the case the pitch motor is applied     • Check whether the pitch motor runs
+     motor overload             with an excessive load.                      smoothly.
+E973 Feed vertical motor      • Feed driving motor maloperation.
+     IPM over-current
+     protection
+E974 Feed vertical motor      • In the case the feed driving motor is      • Check whether the feed driving motor
+     overload                   applied with an excessive load.              runs smoothly.
+E975 Presser motor            • Presser motor maloperation.
+     IPM over-current
+     protection
+E976 Presser horizontal       • In the case the presser motor is applied • Check whether the presser motor
+     motor overload             with an excessive load.                    runs smoothly.
+E985 Return-to-origin      • In the case the pitch motor has failed to • Check whether the origin of the pitch
+     error of pitch motor    return to its origin.                       motor has been adjusted properly.
+     or feed driving motor • In the case the feed driving motor has    • Check whether the origin of the feed
+                             failed to return to its origin.             driving motor has been adjusted
+                                                                         properly.
+
+
+
+
+                                                      – 54 –
+

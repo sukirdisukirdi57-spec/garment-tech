@@ -4,60 +4,202 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tambah Sistem Jarum | Garment Tech</title>
+
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
-            padding: 16px;
-            background: #f3f5f7;
-            color: #222;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #eef2f7;
+            color: #263548;
             line-height: 1.6;
         }
-        main {
-            max-width: 760px;
-            margin: auto;
-            background: white;
-            padding: 22px;
-            border-radius: 10px;
-            box-shadow: 0 2px 7px rgba(0,0,0,.08);
-        }
-        h1 { font-size: 24px; }
-        label { display: block; font-weight: bold; margin-bottom: 5px; }
-        .field { margin: 15px 0; }
-        input, select, textarea {
-            width: 100%;
-            box-sizing: border-box;
-            padding: 11px;
-            border: 1px solid #bbb;
-            border-radius: 6px;
-            font-size: 16px;
-            font-family: inherit;
-        }
-        textarea { min-height: 90px; }
-        button {
-            padding: 12px 18px;
-            border: 0;
-            border-radius: 6px;
-            background: #075bb5;
+
+        header {
+            padding: 28px 20px;
             color: white;
-            font-size: 16px;
+            text-align: center;
+            background: linear-gradient(135deg, #102d4f, #081525);
+            border-bottom: 5px solid #f28c28;
         }
+
+        header h1 {
+            margin: 0;
+            font-size: 25px;
+        }
+
+        header p {
+            margin: 6px 0 0;
+            color: #b9d5ef;
+            font-size: 14px;
+        }
+
+        main {
+            width: min(100% - 32px, 780px);
+            margin: 28px auto 40px;
+            padding: 28px;
+            background: #ffffff;
+            border: 1px solid #dce4ed;
+            border-top: 4px solid #f28c28;
+            border-radius: 14px;
+            box-shadow: 0 5px 18px rgba(16, 45, 79, .07);
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 15px;
+            color: #174b79;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .back-link:hover {
+            color: #f28c28;
+        }
+
+        h2 {
+            margin: 0 0 8px;
+            color: #173b63;
+            font-size: 23px;
+        }
+
+        .intro {
+            margin: 0 0 20px;
+            color: #64748b;
+        }
+
         .notice {
-            padding: 12px;
-            border-radius: 6px;
-            background: #eef5ff;
-            margin: 12px 0;
+            margin: 18px 0;
+            padding: 14px 16px;
+            color: #174b79;
+            background: #edf5fc;
+            border: 1px solid #c9dced;
+            border-left: 4px solid #2876b9;
+            border-radius: 8px;
         }
-        .error { background: #fff0f0; color: #8b1515; }
-        a { color: #075bb5; }
+
+        .notice.error {
+            color: #8b1515;
+            background: #fff1f1;
+            border-color: #f1caca;
+            border-left-color: #dc4545;
+        }
+
+        .field {
+            margin: 19px 0;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 7px;
+            color: #173b63;
+            font-weight: bold;
+        }
+
+        input,
+        select,
+        textarea {
+            display: block;
+            width: 100%;
+            min-height: 45px;
+            padding: 11px 13px;
+            color: #263548;
+            background: #f8fafc;
+            border: 1px solid #cbd5e1;
+            border-radius: 8px;
+            font: inherit;
+        }
+
+        textarea {
+            min-height: 110px;
+            resize: vertical;
+        }
+
+        input:focus,
+        select:focus,
+        textarea:focus {
+            outline: 2px solid rgba(242, 140, 40, .2);
+            border-color: #f28c28;
+            background: #ffffff;
+        }
+
+        .status {
+            margin: 22px 0;
+            padding: 12px 15px;
+            color: #76500e;
+            background: #fff8e8;
+            border: 1px solid #f2dfb5;
+            border-radius: 8px;
+        }
+
+        button {
+            width: 100%;
+            min-height: 48px;
+            padding: 12px 20px;
+            color: #ffffff;
+            background: #102d4f;
+            border: 0;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background .2s, color .2s;
+        }
+
+        button:hover {
+            color: #102d4f;
+            background: #f28c28;
+        }
+
+        footer {
+            padding: 18px;
+            color: #b9d5ef;
+            background: #081525;
+            text-align: center;
+            font-size: 13px;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                padding: 22px 14px;
+            }
+
+            header h1 {
+                font-size: 21px;
+            }
+
+            main {
+                width: calc(100% - 20px);
+                margin: 16px auto 25px;
+                padding: 18px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+        }
     </style>
 </head>
+
 <body>
+<header>
+    <h1>GARMENT TECH</h1>
+    <p>DATABASE MESIN JAHIT INDUSTRI</p>
+</header>
+
 <main>
-    <a href="/needle-systems">← Kembali ke katalog</a>
-    <h1>🪡 Tambah Sistem Jarum</h1>
-    <p>Masukkan data berdasarkan referensi yang dapat diperiksa.
-       Kode sistem wajib diisi.</p>
+    <a class="back-link" href="/needle-systems">← Kembali ke katalog</a>
+
+    <h2>🪡 Tambah Sistem Jarum</h2>
+
+    <p class="intro">
+        Masukkan data berdasarkan referensi yang dapat diperiksa.
+        Kode sistem wajib diisi.
+    </p>
 
     <div class="notice">
         Data yang ditambahkan otomatis berstatus
@@ -71,6 +213,7 @@
 
     <form method="post">
         <input type="hidden" name="_csrf_token" value="{{ csrf_token() }}">
+
         <div class="field">
             <label for="system_code">Kode sistem jarum *</label>
             <input id="system_code" name="system_code" required
@@ -131,9 +274,16 @@
                       placeholder="Bagian yang sudah diperiksa dan yang belum">{{ values.get('verification_notes', '') }}</textarea>
         </div>
 
-        <p><strong>Status:</strong> Belum diverifikasi</p>
-        <button type="submit">Simpan Sistem Jarum</button>
+        <div class="status">
+            <strong>Status:</strong> Belum diverifikasi
+        </div>
+
+        <button type="submit">💾 Simpan Sistem Jarum</button>
     </form>
 </main>
+
+<footer>
+    GARMENT TECH · DATABASE REFERENSI MESIN JAHIT INDUSTRI
+</footer>
 </body>
 </html>

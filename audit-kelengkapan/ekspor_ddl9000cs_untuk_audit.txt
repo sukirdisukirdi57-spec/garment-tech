@@ -1,0 +1,346 @@
+# Ekspor baca-saja — DDL-9000CS
+Status: data database, belum diverifikasi teknis.
+
+## ID 1415 — E000
+problem: Inisialisasi data (bukan error)
+symptoms: Operasi inisialisasi data; manual menyatakan ini bukan error.
+possible_cause: Kepala mesin diganti atau operasi inisialisasi dijalankan.
+solution: Manual menyatakan ini bukan error; tidak ada tindakan perbaikan khusus yang dicantumkan.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1416 — E007
+problem: Motor overload
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Manual menyebut penggantian kepala mesin.
+solution: Tidak ada item pemeriksaan yang tercantum pada baris ini.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1417 — E009
+problem: Solenoid energized terlalu lama
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Kepala mesin terkunci; bahan terlalu berat; motor tidak berputar; atau motor/driver bermasalah.
+solution: Manual: periksa pulley terlilit benang, konektor output motor longgar, dan apakah motor dapat diputar dengan lancar menggunakan tangan. Matikan daya dan lakukan pemeriksaan mekanis hanya jika aman.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1418 — E011
+problem: Media tidak terpasang
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Tidak ada media yang dimasukkan.
+solution: Manual: matikan daya dan periksa media.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1419 — E012
+problem: Kesalahan membaca data
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Data pada media tidak dapat dibaca.
+solution: Manual: matikan daya dan periksa media.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1420 — E013
+problem: Kesalahan menulis data
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Data tidak dapat ditulis ke media.
+solution: Manual: matikan daya dan periksa media.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1421 — E014
+problem: Media terlindungi dari penulisan
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Media berada dalam keadaan write-protect.
+solution: Manual: matikan daya dan periksa media.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1422 — E015
+problem: Kesalahan format media
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Media tidak dapat diformat.
+solution: Manual: matikan daya dan periksa media.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1423 — E016
+problem: Kapasitas media tidak mencukupi
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Kapasitas media tidak cukup.
+solution: Manual: matikan daya dan periksa media.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1424 — E032
+problem: Kesalahan kompatibilitas file
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: File tidak kompatibel.
+solution: Manual: matikan daya dan periksa media.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1425 — E071
+problem: Konektor motor terlepas
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Konektor motor terlepas, rangkaian deteksi arus rusak, atau umpan balik arus tidak tersedia.
+solution: Manual: periksa apakah konektor output motor longgar atau terlepas.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1426 — E072
+problem: Motor overload saat thread trimmer beroperasi
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Kondisi overload terjadi ketika pemotong benang bekerja.
+solution: Manual tidak mencantumkan item pemeriksaan pada baris ini.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1427 — E081
+problem: Motor penggerak feed terkunci
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Motor penggerak feed terkunci.
+solution: Manual: periksa apakah motor penggerak feed bekerja dengan lancar.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1428 — E204
+problem: USB masih terpasang
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Mesin dinyalakan tanpa melepas USB thumb drive.
+solution: Manual: lepaskan USB thumb drive.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1429 — E220
+problem: Peringatan kekurangan grease
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Jumlah jahitan yang telah ditentukan tercapai.
+solution: Manual: tambahkan grease pada titik yang ditentukan dan reset error sesuai petunjuk resmi.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1430 — E221
+problem: Error kekurangan grease
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Mesin tidak dapat melanjutkan jahitan karena jumlah jahitan yang ditentukan tercapai.
+solution: Manual: tambahkan grease pada titik yang ditentukan dan reset error sesuai petunjuk resmi.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1431 — E302
+problem: Error deteksi kemiringan kepala mesin
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Sakelar deteksi tilt aktif saat daya mesin masih menyala.
+solution: Manual: periksa apakah kepala mesin dimiringkan sebelum daya dimatikan; periksa kabel sakelar tilt yang terjepit dan kabel pada INT PCB. Periksa rangkaian internal hanya oleh teknisi kompeten.
+safety_notes: DRAF_PERLU_VERIFIKASI_TEKNIS. Manual menyatakan pengoperasian mesin dilarang ketika kondisi sakelar keselamatan ini aktif. Pastikan kondisi aman sebelum pemeriksaan. Isolasi sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pemeriksaan PCB dan rangkaian internal hanya oleh teknisi kompeten. Cocokkan varian mesin terlebih dahulu.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1432 — E303
+problem: Kesalahan sensor meniskus (meniscus sensor)
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Sinyal sensor meniskus tidak dapat dideteksi.
+solution: Manual: periksa kesesuaian pengaturan model kepala mesin dan konektor encoder motor yang mungkin putus.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1433 — E704
+problem: Kegagalan data / ketidakcocokan versi sistem
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Versi sistem tidak cocok dengan pengaturan kepala mesin.
+solution: Manual menyebut penulisan ulang versi sistem yang sesuai; lakukan hanya dengan prosedur servis resmi.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1434 — E730
+problem: Gangguan encoder
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Sinyal motor tidak masuk dengan benar.
+solution: Manual: periksa konektor sinyal motor CN39, kabel sinyal yang mungkin terjepit/putus, dan arah pemasangan konektor encoder.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1435 — E731
+problem: Gangguan sensor lubang motor
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Sinyal motor tidak masuk dengan benar.
+solution: Manual mencantumkan pemeriksaan konektor sinyal motor CN39, kabel sinyal, dan arah pemasangan konektor encoder.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1436 — E733
+problem: Motor berputar terbalik
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Pada kecepatan 500 sti/min atau lebih, motor berputar berlawanan dengan arah yang ditentukan.
+solution: Manual: periksa sambungan kabel encoder motor poros utama dan kabel daya motor poros utama.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1437 — E811
+problem: Tegangan berlebih
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Tegangan masukan mencapai atau melampaui batas yang dijamin. Manual juga menyebut ketidakcocokan konfigurasi, termasuk suplai 200 V pada konfigurasi 100 V, 220 V pada kotak JA:120 V, atau 400 V pada kotak CE:230 V.
+solution: Manual: teknisi kompeten memeriksa kesesuaian tegangan suplai dengan spesifikasi dan konektor pemilih 100 V/200 V. Jangan mengubah konfigurasi tegangan tanpa prosedur servis resmi.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1438 — E813
+problem: Tegangan rendah
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Tegangan masukan berada pada atau di bawah batas yang dijamin. Manual juga menyebut konfigurasi yang tidak sesuai, termasuk suplai 100 V pada konfigurasi 200 V atau 120 V pada kotak JUS:220 V, serta kemungkinan kerusakan rangkaian internal akibat tegangan berlebih.
+solution: Manual: teknisi kompeten memeriksa kesesuaian tegangan suplai dengan spesifikasi dan konektor pemilih 100 V/200 V. Jangan mengubah konfigurasi tegangan tanpa prosedur servis resmi.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1439 — E815
+problem: Resistor regeneratif tidak terhubung
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Resistor regeneratif tidak terhubung.
+solution: Manual: periksa sambungan resistor regeneratif pada konektor CN11. Matikan daya sebelum pemeriksaan.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1440 — E903
+problem: Gangguan catu daya 85 V
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Tegangan 85 V tidak keluar dengan benar.
+solution: Manual: periksa kemungkinan motor bermasalah dan sekring F2. Pemeriksaan kelistrikan oleh teknisi kompeten.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1441 — E904
+problem: Gangguan catu daya 24 V
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Tegangan 24 V tidak keluar dengan benar.
+solution: Manual tidak mencantumkan item pemeriksaan pada baris ini; serahkan pemeriksaan rangkaian kepada teknisi kompeten.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1442 — E910
+problem: Error pencarian titik asal motor presser
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Motor presser gagal kembali ke titik asal.
+solution: Manual: periksa pengaturan presser (memory switch No. 23) dan penyetelan titik asal motor presser.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1443 — E912
+problem: Error deteksi kecepatan motor poros utama
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Motor poros utama berjalan melebihi kecepatan yang diperkirakan.
+solution: Manual: periksa sambungan kabel encoder dan kabel motor poros utama.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1444 — E915
+problem: Gangguan komunikasi dengan panel operasi
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Konektor panel operasi tidak terpasang dengan benar.
+solution: Manual: periksa koneksi CN38 pada CTL PCB atau CN200 pada panel, serta kemungkinan kabel putus.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1445 — E922
+problem: Kegagalan kontrol poros utama
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Poros utama tidak beroperasi sebagaimana mestinya.
+solution: Manual tidak mencantumkan item pemeriksaan pada baris ini; perlu diagnosis teknisi kompeten.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1446 — E924
+problem: Gangguan driver motor
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Driver motor rusak.
+solution: Manual tidak mencantumkan item pemeriksaan pada baris ini; diagnosis dan penggantian oleh teknisi kompeten.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1447 — E946
+problem: Error penulisan EEPROM kepala mesin
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Data tidak dapat ditulis ke EEPROM kepala mesin.
+solution: Manual: periksa koneksi INT PCB kepala mesin.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1448 — E955
+problem: Error sensor arus listrik
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Arus motor poros utama melebihi nilai yang diperkirakan.
+solution: Manual: periksa sambungan kabel daya motor poros utama.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1449 — E961
+problem: Error deviasi motor pitch
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Motor pitch gagal bekerja akibat beban berlebih.
+solution: Manual: periksa apakah motor pitch bergerak dengan lancar.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1450 — E962
+problem: Error deviasi motor presser
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Presser gagal bekerja akibat beban berlebih.
+solution: Manual: periksa apakah motor presser bergerak dengan lancar.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1451 — E971
+problem: Proteksi arus berlebih IPM motor feed horizontal
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Operasi motor pitch tidak normal.
+solution: Manual tidak mencantumkan item pemeriksaan pada baris ini.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1452 — E972
+problem: Motor feed horizontal overload
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Motor pitch menerima beban berlebih.
+solution: Manual: periksa apakah motor pitch bergerak dengan lancar.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1453 — E973
+problem: Proteksi arus berlebih IPM motor feed vertikal
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Operasi motor penggerak feed tidak normal.
+solution: Manual tidak mencantumkan item pemeriksaan pada baris ini.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1454 — E974
+problem: Motor feed vertikal overload
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Motor penggerak feed menerima beban berlebih.
+solution: Manual: periksa apakah motor penggerak feed bergerak dengan lancar.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1455 — E975
+problem: Proteksi arus berlebih IPM motor presser
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Operasi motor presser tidak normal.
+solution: Manual tidak mencantumkan item pemeriksaan pada baris ini.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1456 — E976
+problem: Motor presser horizontal overload
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Motor presser menerima beban berlebih.
+solution: Manual: periksa apakah motor presser bergerak dengan lancar.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]
+
+## ID 1457 — E985
+problem: Error pengembalian ke titik asal motor pitch atau feed
+symptoms: Gejala yang tersedia pada kutipan adalah kondisi penyebab yang tercantum di manual; tidak ada gejala tambahan yang diasumsikan.
+possible_cause: Motor pitch atau motor penggerak feed gagal kembali ke titik asal.
+solution: Manual: periksa penyetelan titik asal motor pitch dan motor penggerak feed.
+safety_notes: Draf referensi manual. Cocokkan varian mesin terlebih dahulu. Matikan dan cabut sumber daya sebelum pemeriksaan fisik yang memerlukannya. Pekerjaan pada tegangan, PCB, motor, encoder, dan rangkaian internal hanya untuk teknisi kompeten. Jangan menjalankan mesin bila kondisi tidak aman.
+source: https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf (bagian 4-6, halaman cetak 52-54) | [DRAF_PERLU_VERIFIKASI_TEKNIS]

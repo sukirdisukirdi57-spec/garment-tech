@@ -1,0 +1,2 @@
+﻿local_part_id,local_catalog,part_number,local_part_name,status_awal,keputusan_audit,mekanisme_usulan,rujukan_katalog,catatan_auditor
+12279,46,SB1041001,PULLEY SPRING,KANDIDAT_PART_BARU,PERLU_VERIFIKASI_KATALOG,BELUM DITETAPKAN,Cocokkan dengan diagram dan daftar komponen resmi Brother BAS-311HN/326H; kecocokan submodel -03S belum terkonfirmasi.,"Nama menunjukkan pegas pulley, tetapi fungsi spesifik dan posisi pemasangan belum terkonfirmasi. Periksa diagram resmi dan pastikan kecocokan untuk submodel BAS-311HN-03S."

@@ -1,0 +1,27 @@
+RINGKASAN AUDIT BROTHER BAS-311HN-03S
+Machine ID: 227
+Total kandidat: 120
+Total katalog: 46
+
+JUMLAH PER KEPUTUSAN AUDIT:
+IDENTITAS_DIDUKUNG_KATALOG: 43
+PERLU_VERIFIKASI_KATALOG: 77
+
+JUMLAH PER MEKANISME USULAN:
+(BELUM DITETAPKAN): 6
+B - Upper shaft and needle bar mechanism: 12
+B - Upper shaft and needle bar mechanism (usulan): 5
+BELUM DITETAPKAN: 45
+Belum ditetapkan: 1
+C3 - Feed mechanism (usulan, belum dikonfirmasi untuk target): 1
+C5 - Feed mechanism: 8
+C5 - Feed mechanism (perlu konfirmasi konteks lokal): 1
+C5 - Feed mechanism (usulan): 6
+H - Bobbin winder mechanism: 12
+H - Bobbin winder mechanism (usulan): 9
+Q - Motor mechanism and LCD panel: 10
+Q - Motor mechanism and LCD panel (usulan): 4
+
+Catatan: keputusan audit bukan konfirmasi kecocokan teknis.
+Database tidak diubah.
+CSV master tidak diubah.

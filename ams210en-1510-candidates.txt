@@ -1,0 +1,66 @@
+ 40      #02   HX-0015000-0D   CABLE CLIP                         1
+  7      #02    400-36457       X_MOVEMENT_LOWER_COVER_ASM        2
+ 10      #02    400-36468       FEED_COVER_PLATE                  2
+ 11      #02    SM-7030450-SC   SCREW M3X0.5 L=3.5                4
+ 23      #02    400-36464       FEED_BASE_COVER                   2
+ 37      #02    400-39546       COVER_SUPPORT_R                   1
+ 38      #02    400-39547       COVER_SUPPORT_L                   1
+ 39      #02    B1132-223-C00   COVER BASE                        2
+ 42      #02    SM-6040602-TP   SCREW M4 L=6                      2
+ 44      #02    SM-1040801-SP   SCREW M4X0.7 L=8                  6
+ 45      #02    SM-6051002-TP   SCREW M5X0.8 L=10                 2
+ 49      #02    400-36465       FEED_COVER                        1
+ 50      #02    400-36467       FEED_COVER_STAY                   1
+ 51      #02    SM-6450610-TP   SCREW                             4
+ 52      #02    WP-0450801-SP   WASHER                            4
+ 53      #02    SL-9061291-SE   WASHER HEXAGONAL BOLT M6 L=12     4
+ 54      #02    SM-6041002-TP   SCREW M4 L=10                     6
+ 55      #02    WP-0450801-SP   WASHER                            6
+  9      #02    400-36471         PRESSURE_PLATE_SEET               1
+ 13      #02    400-36472         PRESSURE_PLATE_FITTING_SEET       1
+ 18      #02    400-36470         PRESSURE_PLATE                    1
+  32        #02        400-29411              THREAD_TENSION_2_ASM._H                                                          1
+ 17      #02   400-30933       NEEDLE_PLATE_H_ASM.               1
+  2      #02   400-77999       X-Y_TABLE_ASM_1510               1
+  5      #02   400-33145       X_FIXED_RACE                    (2)
+ 18      #02   400-33150       X_BALL_GAUGE_ASM                (2)
+ 29      #02   WP-0450846-SP   WASHER                          (2)
+  4      #02   400-78060       X_GUIDE_SHAFT_SUPPORT_A        1
+ 13      #02   400-38564       X GUIDE SHAFT                  1
+ 11      #02   400-71897         FEEDING_FRAME_1510                   1
+ 13      #02   401-78092         LOWER PLATE                          1
+ 53      #02   400-86372         RECEIVER_PLATE_RIGHT_ASM             1
+ 54      #02   400-86374         RECEIVER_PLATE_LEFT_ASM              1
+ 56      #02   SM-6050800-SP     SCREW M5 L=8                         4
+ 57      #02   WP-0550800-SP     WASHER 5.5X10X0.8                    4
+ 58      #02   SM-8050812-TP     SCREW M5X8                           2
+ 59      #02   NM-6050001-SD     NUT M5X0.8                           2
+ 58      #02   400-71897       FEEDING_FRAME_1510                  1
+ 60      #02   401-78092       LOWER_PLATE                         1
+ 33      #02   B1115-210-D00   HINGE RUBBER                   2
+ 34      #02   SM-6066002-TN   BOLT M6 L=60                   4
+ 41      #02   NM-6080001-SC   NUT M8X1.25                    1
+ 42      #02   SM-6086002-TP   SCREW                          1
+ 43      #02   WP-0851846-SC   WASHER 8.5X22.0X1.8            1
+ 44      #02   B8202-205-000   OIL MANAGEMENT                 1
+ 45      #02   B9121-012-000   OIL CAN                        1
+ 46      #02   SK-3311601-SE   WOOD SCREW D=3.1 L=16          2
+ 47      #02   WP-0651646-SC   WASHER                         4
+ 48      #02   NM-6060001-SC   NUT M6                         8
+ 49      #02   B1111-210-D00   BED HINGE                      2
+ 22        #02   CM-3004007-01   VOLTAGE CAUTION LABEL              1
+ 23        #02   BME-03200000    VOLTAGE INDICATION SEAL            1
+ 44        #02   400-86469       POWER CABLE 3P ASSY                1
+ 49        #02   CM-3001004-01   LABEL 3 (LARGE)                    1
+  2      #02    400-81562       MC-587 BOX B                             1
+ 43      #02    401-62838       FLT-CE PCB A ASSY                       (1)
+ 25        #02   400-00056       FLT-T PCB A ASS'Y           1
+  2      #02   GPK-470010AB       3-PEDAL ASM.                          1
+  3      #02   400-33875          PK47 RELAY CABLE ASM.                 1
+  2          #02    EA-9500B01-00        CABLE BAND                                                        1
+ 14          #02    HX-0015000-0D        CABLE CLIP                                                        1
+ 17          #02    229-32800            ACCESSORIE BAG                                                    1
+ 18          #02    PX-5000140-00        PLUG                                                              2
+  40     #02    PF-0205030-A0   REGULATOR                              (1)
+  42     #02    PJ-3010405-05   HALF UNION                             (1)
+  41     #02    400-89695         ONE-TOUCH CLAMP ASM.                  1

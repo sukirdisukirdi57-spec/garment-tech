@@ -1,0 +1,144 @@
+AMS-224EN4530R
+Computer-controlled Cycle Machine with Input Function (Full-rotary hook type)
+
+
+  This is the full-rotary sewing machine which
+  has been developed based on
+  the AMS-224EN Series.
+
+
+
+
+           450mm(X) × 300mm(Y)
+
+
+
+AMS-224EN-4530R /IP420F
+                                                                                  AMS-224EN-4530R
+
+
+
+
+The cycle machine, which has a wider                         Sewing area
+sewing area, achieves an improved seam quality,
+increased productivity and easier operation.
+The machine not only achieves higher productivity due to
+instantaneous increases/decreases in sewing speed at the
+beginning /end of sewing and increased speed of thread
+
+                                                                                              300mm
+trimming, but also achieves a flexible responsiveness to
+materials to promise enhanced seam quality due to JUKI's
+unique active tension and programmable intermediate                                   450mm
+presser.
+Full-rotary hook
+
+
+
+                                                             Hook cover open/close sensor
+                                                                            Thanks to the adoption of the
+                                                                            hook cover open/closesensor,
+                                                                            the hook cover will never be
+                                                                            left opened.
+                                                                            As a result, a malfunction that
+                                                                            the operator unintentionally
+                                                                            touch the hook during
+In addition to the semi-rotary hook type model which is                     operation.
+favorably accepted by users, the full-rotary hook type
+model is newly developed. The full-rotary hook contributes
+to the achievement of soft-texture beautifully-finished
+seams which are required for bags and leather products. In
+addition, the bobbin case opening lever is adjustable not
+only laterally but also longitudinally, thereby enabling
+accurate positioning of the bobbin case according to the
+needle count.
+  SPECIFICATIONS
+
+             Model name                                                                                                                                      AMS-224EN-HS4530R
+Application                                                                                                                                                Medium-to heavy-weight
+                                                                                                                                                           Monolithic feeding frame:
+Feeding frame type                                                                                                                                         (Pneumatic work clamp)
+Max. sewing speed                                                                                                              2,500sti/min* (stitch length 3mm or less)
+Sewing area                                                                                                                            450mm (X) ×300mm (Y)
+Settable stitch length                                                                                                               0.1 12.7mm (0.05mm step)
+Needle bar stroke                                                                                                                              41.2mm
+Lift of the feeding frame                                                                                                                     Max. 30mm
+Lift / Stroke of intermediate presser                                                                                Lifting amount : 20mm / Stroke : Standard 4mm (0 10mm)
+Variable lower position of the                                                                                                               Standard 0 3.5mm (max. 0 7.0mm)
+intermediate presser
+Change in height of the                                                                                       Stepless control by programming (controlled by a stepping motor)
+intermediate presser
+Needle thread tension                                                                                               Active tension (electronic thread tension control mechanism)
+Needle thread breakage                                                                                                                                         Provided as standard
+detecting device
+Needle thread clamp                                                                                        Stepping-motor driven clamping on the underside of the throat plate
+Prevention of the slip-off of thread                                                                                    Prevented by the needle thread clamp and active tension
+at the beginning of sewing
+                                                                                                                                                                       DP×17 (#18)
+Needle (at the time of delivery)                                                                                                                                     (135×17 Nm110)
+Thread                                                                                                                                                                        #50 #2
+Hook                                                                                                                                      Double-capacity shuttle hook
+Sewing machine motor                                                                                                                Compact AC servomotor (direct-drive system)
+Power requirement                                                                                                                       Single-phase, 3-phase 200 240V / 550VA
+Power consumption
+Compressed air / Air consumption                                                                                             0.5 0.55MPa (Max. 0.55MPa) / 1.8dm3 / min (ANR)
+"sti/min" stands for "Stitches per Minute."
+
+
+
+  WHEN YOU PLACE ORDERS
+  Please note when placing orders, that the model name should be written as follows:
+
+              Application              Code                              Feeding frame type                                          Code                         Subclass                  Code                              Power supply                          Code
+        Medium-to heavy-weight             H              Monolithic feeding frame (standard)                                            S                     Standard                     5000               3-phase                       200~240V                   D
+                                                          Double-stepped stroke feeding                                                                        Subclass                     5001~                                            200~240V                   K
+                                                                                                                                         B                                                                     Single-phase
+                                                          frame (Monolithic feeding frame)
+                                                                                                                                                                                                                                             CE 200~240V                N
+
+
+                                                                                                                                  Stitch type                  Code                                                                  Operation panel                Code
+                                                                                                                               Standard                            S                                                               Standard (IP420F)                    S
+
+
+
+
+          AM S224 E N                                                                               4530RSZ                                                                                                                        S
+                              Sewing area                         Code                        Option                  Code                                 Pedal switch                                    Code
+                       X: 450mm - Y: 300mm                       4530R                  Not provided                      Z               PK 3-pedal unit                                                      D
+                                                                                                                                          (PK47)
+                                                                                                                                                                                                                              "D" (PK 3-pedal unit) should be selected for the feeding
+                                                                                                                                          PK 2-pedal unit                                                      F
+                                                                                                                                                                                                                              frame type with the double-stepped stroke feeding frame (B).
+                                                                                                                                                                                                                              "F" (PK 2-pedal unit) should be selected for the feeding
+ To order, please contact your nearest JUKI distributor.                                                                                  (with a mechanical valve pedal)                                                     frame type with the monolithic feeding frame (S).
+
+
+
+  JUKI ECO PRODUCTS               The AMS-224EN4530R is an eco-friendly product which complies with JUKI ECO PRODUCTS standards for protecting the environment.
+
+                                      The sewing machine complies with the "Juki Group Green Procurement Guidelines" on the use of hazardous substances,
+                                      which is stricter than other restrictions, such as those of the RoHS Directive.
+                                   For details of JUKI ECO PRODUCTS, refer to: http://www.juki.co.jp/eco_e/index.html
+                                    The RoHS Directive is an EU Directive limiting the use of 6 hazardous substances (lead, hexavalent chromium, mercury, cadmium, PBB and PBDE) in electrical and electronic equipment.
+                                    The Juki Green Procurement Guideline is the voluntarily established criteria to eliminate not only the aforementioned six substances, but also other ones which also adversely affect the environment.
+                                                                                                                                                                                                                                               Registered Organization :                    Head Office
+                                                                                                                                                                                                                                               The Scope of the Registration : The activities of research,
+                                                                                                                                                                                                                                               development, design, sales, distribution, and maintenance
+                                                                                                                                                                                                                                               services of industrial sewing machines, household sewing
+                                                                                                                                                                                                                                               machines and industrial robots, etc., including sales and
+                                                                                                                                                                                                                                               maintenance services of data entry systems.
+
+
+
+
+                                                                  2-11-1, TSURUMAKI, TAMA-SHI,
+                                                                  TOKYO 206-8551, JAPAN
+                                                                  PHONE : (81) 42-357-2383
+                                                                  FAX : (81) 42-357-2274
+SEWING MACHINERY BUSINESS UNIT                                    http://www.juki.com
+ Specifications and appearance are subject to change without prior notice for improvement.
+ Read the instruction manual before putting the machine into service to ensure safety.
+ This catalogue prints with environment-friendly soyink on recycle paper.
+                                                                                                                                                                                                                                                       JUNE, 2016 Printed in Japan (TN)
+

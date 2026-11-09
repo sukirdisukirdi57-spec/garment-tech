@@ -34,7 +34,8 @@
         .spec-table tbody tr:nth-child(even) td {
             background-color: #f2f4f7;
         }
-\n        .spec-search {
+
+        .spec-search {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 15px;
@@ -222,6 +223,150 @@
             color: #222222 !important;
             color-scheme: light;
             border-color: #cbd5e1 !important;
+        }
+    </style>
+
+
+    <style>
+        /* GT SPECIFICATIONS INDUSTRIAL OVERRIDE V2 */
+
+        body:has(.spec-table) > header {
+            background: linear-gradient(135deg, #172b4d, #263f60) !important;
+            color: #ffffff !important;
+            border-bottom: 4px solid #f59e0b !important;
+        }
+
+        body:has(.spec-table) > header h1,
+        body:has(.spec-table) > header p {
+            color: #ffffff !important;
+        }
+
+        body:has(.spec-table) main section.welcome {
+            background: #ffffff !important;
+            background-image: none !important;
+            color: #263445 !important;
+            border: 1px solid #d8dee8 !important;
+            border-top: 4px solid #f59e0b !important;
+            border-radius: 14px !important;
+            box-shadow: 0 8px 24px rgba(23, 43, 77, 0.09) !important;
+        }
+
+        body:has(.spec-table) main section.welcome h2 {
+            color: #172b4d !important;
+        }
+
+        body:has(.spec-table) main section.welcome p,
+        body:has(.spec-table) main section.welcome strong,
+        body:has(.spec-table) main section.welcome label {
+            color: #334155 !important;
+        }
+
+        body:has(.spec-table) .spec-search input,
+        body:has(.spec-table) .spec-search select {
+            background: #ffffff !important;
+            color: #263445 !important;
+            border: 1px solid #cbd5e1 !important;
+            border-radius: 9px !important;
+        }
+
+        body:has(.spec-table) .spec-search input:focus,
+        body:has(.spec-table) .spec-search select:focus {
+            border-color: #f59e0b !important;
+            outline: 2px solid rgba(245, 158, 11, 0.2) !important;
+        }
+
+        body:has(.spec-table) .spec-actions .add-button {
+            background: linear-gradient(135deg, #f59e0b, #ea580c) !important;
+            color: #ffffff !important;
+            border: none !important;
+            border-radius: 9px !important;
+        }
+
+        body:has(.spec-table) .spec-actions .back-button {
+            background: #edf1f6 !important;
+            color: #263445 !important;
+            border: 1px solid #d8dee8 !important;
+            border-radius: 9px !important;
+        }
+
+        body:has(.spec-table) .spec-table th {
+            background: #203653 !important;
+            color: #ffffff !important;
+        }
+
+        body:has(.spec-table) .spec-table a {
+            color: #c2410c !important;
+        }
+    </style>
+
+
+    <style>
+        /* GT SPECIFICATIONS INITIAL PAGE FIX V3 */
+
+        body:has(.spec-search) > header {
+            background: linear-gradient(135deg, #172b4d, #263f60) !important;
+            color: #fff !important;
+            border-bottom: 4px solid #f59e0b !important;
+        }
+
+        body:has(.spec-search) > header h1,
+        body:has(.spec-search) > header p {
+            color: #fff !important;
+        }
+
+        body:has(.spec-search) main section.welcome {
+            background: #fff !important;
+            background-image: none !important;
+            color: #263445 !important;
+            border: 1px solid #d8dee8 !important;
+            border-top: 4px solid #f59e0b !important;
+            border-radius: 14px !important;
+            box-shadow: 0 8px 24px rgba(23,43,77,.09) !important;
+        }
+
+        body:has(.spec-search) main section.welcome h2 {
+            color: #172b4d !important;
+        }
+
+        body:has(.spec-search) main section.welcome p,
+        body:has(.spec-search) main section.welcome strong,
+        body:has(.spec-search) main section.welcome label {
+            color: #334155 !important;
+        }
+
+        body:has(.spec-search) .spec-search input,
+        body:has(.spec-search) .spec-search select {
+            background: #fff !important;
+            color: #263445 !important;
+            border: 1px solid #cbd5e1 !important;
+            border-radius: 9px !important;
+        }
+
+        body:has(.spec-search) .spec-search input:focus,
+        body:has(.spec-search) .spec-search select:focus {
+            border-color: #f59e0b !important;
+            outline: 2px solid rgba(245,158,11,.2) !important;
+        }
+
+        body:has(.spec-search) .spec-actions button.add-button {
+            background: linear-gradient(135deg,#f59e0b,#ea580c) !important;
+            color: #fff !important;
+            border: none !important;
+        }
+
+        body:has(.spec-search) .spec-actions a.back-button {
+            background: #edf1f6 !important;
+            color: #263445 !important;
+            border: 1px solid #d8dee8 !important;
+        }
+
+        body:has(.spec-search) .spec-table th {
+            background: #203653 !important;
+            color: #fff !important;
+        }
+
+        body:has(.spec-search) .spec-table a {
+            color: #c2410c !important;
         }
     </style>
 

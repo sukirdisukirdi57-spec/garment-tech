@@ -1,0 +1,3336 @@
+BAS-311HN                                        INSTRUCTION MANUAL
+
+BAS-326H
+
+           Please read this manual before using the machine.
+           Please keep this manual within easy reach for quick reference.
+
+
+DIRECT DRIVE
+PROGRAMMABLE ELECTRONIC PATTERN SEWER
+Thank you very much for buying a BROTHER sewing machine. Before using your new machine,
+please read the safety instructions below and the explanations given in the instruction manual.
+
+
+With industrial sewing machines, it is normal to carry out work while positioned directly in front of
+moving parts such as the needle and thread take-up lever, and consequently there is always a
+danger of injury that can be caused by these parts. Follow the instructions from training personnel
+and instructors regarding safe and correct operation before operating the machine so that you will
+know how to use it correctly.
+
+
+
+
+                                         BAS-311HN, BAS-326H
+                                       SAFETY INSTRUCTIONS
+[1] Safety indications and their meanings
+This instruction manual and the indications and symbols that are used on the machine itself are provided in order to ensure
+safe operation of this machine and to prevent accidents and injury to yourself or other people.
+The meanings of these indications and symbols are given below.
+
+Indications
+                                  The instructions which follow this term indicate situations where failure to follow the
+         DANGER                   instructions will result in death or serious injury.
+
+                                  The instructions which follow this term indicate situations where failure to follow the
+         WARNING                  instructions could result in death or serious injury.
+
+                                  The instructions which follow this term indicate situations where failure to follow the
+         CAUTION                  instructions may result in minor or moderate injury.
+
+
+Symbols
+
+
+           ･･････      This symbol (    ) indicates something that you should be careful of. The picture inside the triangle
+                       indicates the nature of the caution that must be taken.
+                       (For example, the symbol at left means “beware of injury”.)
+
+
+           ･･････      This symbol (    ) indicates something that you must not do.
+
+
+
+           ･･････      This symbol (     ) indicates something that you must do. The picture inside the circle indicates the
+                       nature of the thing that must be done.
+                       (For example, the symbol at left means “you must make the ground connection”.)
+
+
+
+
+                                                    BAS-311HN, BAS-326H                                                        i
+[2] Notes on safety
+
+                                                       DANGER
+     Wait at least 5 minutes after turning off the power switch and disconnecting the power cord from the wall outlet
+     before opening the control box cover. Touching areas where high voltages are present can result in severe injury.
+
+
+
+                                                      WARNING
+      Do not allow any liquids to get onto this sewing machine, otherwise fire, electric shocks or operating problems may
+      occur.
+      If any liquid gets inside the sewing machine (machine head or control box), immediately turn off the power and
+      disconnect the power plug from the electrical outlet, and then contact the place of purchase or a qualified
+      technician.
+
+
+
+                                                   CAUTION
+                                  Environmental requirements
+     Use the sewing machine in an area which is free from          The pneumatic delivery capability should be greater
+     sources of strong electrical noise such as electrical         than the requirements for the sewing machine's total
+     line noise or static electric noise.                          air consumption.
+     Sources of strong electrical noise may cause                  Insufficient pneumatic delivery capability may cause
+     problems with correct operation.                              problems with correct operation.
+     Any fluctuations in the power supply voltage should           The ambient temperature should be within the range
+     be within ±10% of the rated voltage for the machine.          of 5°C to 35°C during use.
+     Voltage fluctuations which are greater than this may          Temperatures which are lower or higher than this
+     cause problems with correct operation.                        may cause problems with correct operation.
+     The power supply capacity should be greater than the
+     requirements for the sewing machine's power                   The relative humidity should be within the range of
+     consumption.                                                  45% to 85% during use, and no dew formation should
+     Insufficient power supply capacity may cause                  occur in any devices.
+     problems with correct operation.                              Excessively dry or humid environments and dew
+                                                                   formation may cause problems with correct operation.
+     Do not connect anything to the USB port other than
+     the USB memory. If this is not observed, problems             In the event of an electrical storm, turn off the power
+     with operation may result.                                    and disconnect the power cord from the wall outlet.
+                                                                   Lightning may cause problems with correct operation.
+
+                                                  Installation
+     Machine installation should only be carried out by a          All cords should be secured at least 25 mm away
+     qualified technician.                                         from any moving parts. Furthermore, do not
+     Contact your Brother dealer or a qualified electrician        excessively bend the cords or secure them too firmly
+     for any electrical work that may need to be done.             with staples, otherwise there is the danger that fire or
+                                                                   electric shocks could occur.
+     The sewing machine weighs approximately 88 kg.
+     The installation should be carried out by three or            Install the safety covers to the machine head and
+     more people.                                                  motor.
+
+     Do not connect the power cord until installation is           If using a work table which has casters, the casters
+     complete. If the foot switch is depressed by mistake,         should be secured in such a way so that they cannot
+     the sewing machine might start operating and injury           move.
+     could result.                                                 Be sure to wear protective goggles and gloves when
+     Hold the machine head with both hands when tilting it         handling the lubricating oil and grease, so that they
+     back or returning it to its original position.                do not get into your eyes or onto your skin. If the oil
+     Furthermore, do not apply excessive force when                and grease get into your eyes or onto your skin,
+     tilting back the machine head. The sewing machine             inflammation can result.
+     may become unbalanced and fall down, and serious              Furthermore, do not drink or eat the lubricating oil or
+     injury or damage to the sewing machine may result.            grease. They may cause diarrhea or vomiting.
+                                                                   Keep the oil out of the reach of children.
+     Be sure to connect the ground. If the ground
+     connection is not secure, you run a high risk of
+     receiving a serious electric shock, and problems with
+     correct operation may also occur.
+
+
+
+
+ii                                               BAS-311HN, BAS-326H
+                                                CAUTION
+                                                  Sewing
+To prevent problems, do not use objects with sharp          If using a work table which has casters, the casters
+points to operate the LCD panel.                            should be secured in such a way so that they cannot
+                                                            move.
+This sewing machine should only be used by
+operators who have received the necessary training          Attach all safety devices before using the sewing
+in safe use beforehand.                                     machine. If the machine is used without these
+The sewing machine should not be used for any               devices attached, injury may result.
+applications other than sewing.                             Do not touch any of the moving parts or press any
+Be sure to wear protective goggles when using the           objects against the machine while sewing, as this
+machine.                                                    may result in personal injury or damage to the
+If goggles are not worn, there is the danger that if a      machine.
+needle breaks, parts of the broken needle may enter         If an error occurs in machine operation, or if abnormal
+your eyes and injury may result.                            noises or smells are noticed, immediately turn off the
+Turn off the power switch at the following times. If the    power switch. Then contact your nearest Brother
+foot switch is depressed by mistake, the sewing             dealer or a qualified technician.
+machine might start operating and injury could result.
+                                                            If the machine develops a problem, contact your
+• When replacing the bobbin and needle
+                                                            nearest Brother dealer or a qualified technician.
+• When not using the machine and when leaving the
+  machine unattended
+
+
+                                                 Cleaning
+Turn off the power switch before carrying out               Be sure to wear protective goggles and gloves when
+cleaning. If the foot switch is depressed by mistake,       handling the lubricating oil and grease, so that they
+the sewing machine might start operating and injury         do not get into your eyes or onto your skin. If the oil
+could result.                                               and grease get into your eyes or onto your skin,
+                                                            inflammation can result.
+                                                            Furthermore, do not drink or eat the lubricating oil or
+                                                            grease. They may cause diarrhea or vomiting.
+                                                            Keep the oil out of the reach of children.
+
+
+
+                              Maintenance and inspection
+Maintenance and inspection of the sewing machine            Hold the machine head with both hands when tilting it
+should only be carried out by a qualified technician.       back or returning it to its original position.
+Ask your Brother dealer or a qualified electrician to       Furthermore, do not apply excessive force when
+carry out any maintenance and inspection of the             tilting back the machine head. The sewing machine
+electrical system.                                          may become unbalanced and fall down, and serious
+                                                            injury or damage to the sewing machine may result.
+Turn off the power switch and disconnect the power
+cord before carrying out the following operations. If       If the power switch needs to be left on when carrying
+the foot switch is depressed by mistake, the sewing         out some adjustment, be extremely careful to observe
+machine might start operating and injury could result.      all safety precautions.
+• Inspection, adjustment and maintenance                    When replacing parts and installing optional
+• Replacing consumable parts such as the rotary             accessories, be sure to use only genuine Brother
+  hook                                                      parts.
+                                                            Brother will not be held responsible for any accidents
+Disconnect the air hoses from the air supply and wait
+                                                            or problems resulting from the use of non-genuine
+for the needle on the pressure gauge to drop to “0”
+                                                            parts.
+before carrying out inspection, adjustment and repair
+of any parts which use the pneumatic equipment.             If any safety devices have been removed, be
+                                                            absolutely sure to re-install them to their original
+                                                            positions and check that they operate correctly before
+                                                            using the machine.
+                                                            To prevent accidents and problems, do not modify
+                                                            the machine yourself.
+                                                            Brother will not be held responsible for any accidents
+                                                            or problems resulting from modifications made to the
+                                                            machine.
+
+
+
+                                             BAS-311HN, BAS-326H                                                  iii
+[3] Warning labels
+     The following warning labels appear on the sewing machine.
+     Please follow the instructions on the labels at all times when using the machine. If the labels have been removed or are
+     difficult to read, please contact your nearest Brother dealer.
+
+
+      1
+
+
+
+
+      2
+                                                             .
+
+
+
+
+                                                                                   *Safety devices
+                                                                                     Devices such as eye guard, finger guard,
+                                                                                     thread take-up cover, side cover,
+                                                                                     rear cover, solenoid cover, inner cover,
+                                                                                     outer cover, fixed cover and gas spring
+                                                                                     support cover
+
+
+
+
+      3              Be careful not to get your hand caught when tilting back
+                     the machine head and returning it to its original position.          8
+
+      4              Be sure to connect the ground.
+                     If the ground connection is not secure, you run a high
+                     risk of receiving a serious electric shock, and problems
+                     with correct operation may also occur.
+
+
+
+
+                     Direction of operation
+      5
+
+                     Be careful to avoid injury from moving parts.
+      6
+
+
+      7                       Do not hold, otherwise problems with
+                              operation or injury may occur.
+
+
+
+
+iv                                                     BAS-311HN, BAS-326H
+BAS-311HN                                                     BAS-326H
+
+
+                                                                                            Solenoid cover
+                             Solenoid cover
+                                                                              Inner cover L
+             Inner cover L                                                    Outer cover
+             Outer cover                                                      Fixed cover
+             Fixed cover
+                                                                   Rear cover
+    Rear cover
+
+
+
+
+                                                                                                             Side cover
+                                              Side cover
+
+
+
+
+                                                               Thread take-up cover
+Thread take-up cover
+
+
+
+
+                                                                   Eye guard
+     Eye guard
+
+
+
+
+                                                                        Finger guard
+       Finger guard
+
+                                                                        Inner cover R
+       Inner cover R
+                                                                        Outer cover
+       Outer cover
+                                                                        Fixed cover
+       Fixed cover
+
+
+
+
+                                                                             Gas spring support cover
+            Gas spring support cover
+
+
+
+                                                   3504B                                                           3505B
+
+
+
+
+                                                  BAS-311HN, BAS-326H                                                      v
+                                                                      CONTENTS
+
+
+1. NAMES OF MAJOR PARTS ................ 1                                      6. CLEANING ........................................... 33
+2. SPECIFICATIONS ................................ 2                            6-1. Cleaning the rotary hook...................................33
+                                                                                6-2. Cleaning the control box air inlet ports .............34
+3. INSTALLATION .................................... 3                          6-3. Draining the oil ..................................................34
+3-1. Table processing diagram ................................ 3                6-4. Cleaning the eye guard.....................................34
+3-2. Installing the control box................................... 4            6-5. Checking the needle .........................................34
+3-3. Installing the oil pan.......................................... 4         6-6. Lubrication.........................................................34
+3-4. Installing the machine head.............................. 5                6-7. Applying grease
+3-5. Installing the LCD panel ................................... 8                  (Feed mechanism BAS-311HN) .......................35
+3-6. Installing the two-pedal foot switch ................. 9
+                                                                                7. STANDARD ADJUSTMENTS .............. 37
+3-7. Connecting the cords........................................ 9
+                                                                                7-1. Checking the machine head switch ..................37
+3-8. Connecting the ground wire.............................. 13
+                                                                                7-2. Adjusting the sensitivity of the thread
+3-9. Connecting the power cord............................... 14
+                                                                                     breakage sensor ...............................................38
+3-10. Installing the cotton stand............................... 17
+                                                                                7-3. Thread take-up spring.......................................39
+3-11. Installing the pneumatic unit
+                                                                                7-4. Arm thread guide R...........................................39
+       (pneumatic work clamp specifications) ............. 18
+                                                                                7-5. Adjusting the needle bar height ........................40
+3-12. Installing the eye guard .................................. 19
+                                                                                7-6. Adjusting the needle and rotary hook timing.....40
+3-13. Installing the side cover and rear cover.......... 19
+                                                                                7-7. Adjusting the driver (needle guard) position .....41
+3-14. Lubrication ...................................................... 20
+                                                                                7-8. Adjusting the clearance between the
+3-15. Installing the machine head fixing bolt ........... 21
+                                                                                     needle and rotary hook tip ................................41
+3-16. Checking the machine head switch................ 21
+                                                                                7-9. Adjusting the shuttle race thread guide ............41
+4. PREPARATION BEFORE SEWING..... 22                                            7-10. Rotary hook lubrication amount ......................42
+4-1. Installing the needle.......................................... 22         7-11. Adjusting the position of the movable knife ....42
+4-2. Threading the upper thread .............................. 23               7-12. Replacing the movable and fixed knives ........44
+4-3. Winding the lower thread.................................. 25              7-13. Installing the feed plate ...................................45
+4-4. Installing the bobbin case ................................. 27            7-14. Adjusting the thread wiper ..............................45
+4-5. Thread tension.................................................. 28        7-15. Intermittent presser foot installation position ..46
+       4-5-1. Lower thread tension ........................... 28               7-16. Adjusting the intermittent presser foot ............46
+       4-5-2. Upper thread tension ........................... 29               7-17. Adjusting the work clamp lift amount ..............48
+         4-5-2-1. Upper thread tension                                          7-18. Adjusting the air pressure ...............................48
+                   (Medium-weight materials                                     7-19. Setting method for standard depression
+                   specifications <-03[]>,                                            strokes (foot switch)........................................49
+                   Heavy-weight materials                                       7-20. If processing the work clamps and the
+                   specifications <-05[]>) ................... 29                     feed plate to a shape that matches the
+         4-5-2-2. Upper thread tension                                                sewing pattern ................................................51
+                   (Seatbelt specifications <-07A>) ... 29
+                                                                                8. LIST OF ERROR CODES..................... 53
+4-6. Starting up ........................................................ 30
+                                                                                9. TROUBLESHOOTING.......................... 59
+5. SEWING................................................ 31
+5-1. Sewing .............................................................. 31
+5-2. Using the STOP switch..................................... 32
+
+
+
+
+                                                                    BAS-311HN, BAS-326H
+                                                                                         1. NAMES OF MAJOR PARTS
+
+
+1. NAMES OF MAJOR PARTS
+
+
+
+
+                           Two-pedal foot switch
+
+
+
+
+                                                                                                           3677B
+
+
+
+(1) Power switch                                             Safety devices:
+(2) Control box                                              (11) Finger guard
+(3) LCD panel                                                (12) Eye guard
+(4) Foot switch                                              (13) Thread take-up cover
+(5) Work clamp switch                                        (14) Rear cover
+(6) Start switch
+(7) STOP switch
+(8) Pulley
+(9) Cotton stand
+(10) Solenoid valve (pneumatic work clamp specifications)
+
+
+
+
+                                                   BAS-311HN, BAS-326H                                        1
+2. SPECIFICATIONS
+
+
+2. SPECIFICATIONS
+
+
+
+
+                                                                                                                     3580B
+
+
+
+
+ Sewing machine                                     Lock stitch pattern tacking sewing machine
+
+ Stitch formation                                            Single needle lock stitch
+
+ Max. sewing speed                                                 2,800 sti/min
+
+ Max. sewing area (XxY)              BAS-311HN: 150 x 100 mm                         BAS-326H: 220 x 100 mm
+
+ Feed mechanism                                         Intermittent feed, pulse motor drive
+
+ Stitch length                                                    0.05 − 12.7 mm
+
+ Maximum No. of stitches                                   20,000 stitches (per program)
+ No. of sewing data items
+                                                 999 (Internal memory, SD card, USB memory) (*1)
+ that can be stored
+                                        Motor-driven work clamp specifications: Pulse motor drive method
+                                         Pneumatic work clamp specifications: Pneumatic cylinder method
+ Work clamp lift method
+                                        Motor-driven work clamp specifications: Integrated-type work clamp
+                                         Pneumatic work clamp specifications: Separate-type work clamp
+                                               Motor-driven work clamp specifications: Max. 25 mm
+ Work clamp height
+                                                Pneumatic work clamp specifications: Max. 30 mm
+ Intermittent presser foot lift
+                                                                      22 mm
+ amount
+ Intermittent presser foot
+                                               2 − 4.5 mm, 4.5 − 10 mm or 0 (Default setting 3 mm)
+ stroke
+ Hook                                                      Double-capacity shuttle hook
+
+ Wiper device                                                  Standard equipment
+
+ Thread trimmer                                                Standard equipment
+
+ Cycle programs                                                         30
+
+ Motor                                                       550 W    AC servo motor
+
+                                              Machine head Approx. 88 kg, LCD panel Approx. 0.8 kg
+ Weights
+                                               Control box 9 kg (Differs depending on destination)
+                                           Single-phase 110V / 220V / 230V, 3-phase 220V / 380V / 400V
+ Power source
+                                  (For single-phase 110 V and three-phase 380 V/400 V, the trans box is required.)
+ Air pressure                                                   0.5 MPa 1.8 l/min.
+(*1) The number of data items and stitches that can be stored will vary depending on the number of stitches in each
+     program.
+     No guarantees of operation can be given for any media.
+
+
+
+
+2                                               BAS-311HN, BAS-326H
+                                                                                                                 3. INSTALLATION
+
+
+3. INSTALLATION
+                                                            CAUTION
+         Machine installation should only be carried out by a               All cords should be secured at least 25 mm away from
+         qualified technician.                                              any moving parts. Furthermore, do not excessively
+                                                                            bend the cords or secure them too firmly staples,
+         Contact your Brother dealer or a qualified electrician             otherwise there is the danger that fire or electric
+         for any electrical work that may need to be done.                  shocks could occur.
+         The sewing machine head weighs approximately                       Be sure to connect the ground. If the ground
+         88kg. The installation should be carried out by three or           connection is not secure, you run a high risk of
+         more people.                                                       receiving a serious electric shock, and problems with
+         Do not connect the power cord until installation is                correct operation may also occur.
+         complete.                                                          Install the safety covers to the machine head and
+         If the foot switch is depressed by mistake, the sewing             motor.
+         machine might start operating and injury could result.
+         Hold the machine head with both hands when tilting it
+         back or returning it to its original position.
+         Furthermore, do not apply excessive force when tilting
+         back the machine head. The sewing machine may
+         become unbalanced and fall down, and serious injury
+         or damage to the sewing machine may result.
+
+
+
+
+3-1. Table processing diagram
+• The thickness of the table should be at least 40 mm, and it should be strong enough to bear the weight and vibration of the
+  sewing machine.
+• Check that the control box is at least 10 mm away from the leg. If the control box and the leg are too close together, it may result
+  in incorrect sewing machine operation.
+
+
+
+
+                                                                                                                               3679B
+
+
+
+
+                                                       BAS-311HN, BAS-326H                                                        3
+3. INSTALLATION
+
+3-2. Installing the control box
+                                                                Remove the six screws (1), and then
+                                                                remove the control box cover (2).
+                                                                (3) Control box
+                                                                (4) Bolts [4 pcs.]
+                                                                (5) Plain washers [4 pcs.]
+                                                                (6) Spring washers [4 pcs.]
+                                                                (7) Nuts [8 pcs.]
+
+
+
+
+                                                        3033B
+
+                                                                (8) Power switch
+                                                                (9) Wood screws [2 pcs.]
+                                                                (10) Staples [4 pcs.]
+
+
+
+        Operator
+
+
+
+
+                                                        1841B
+
+
+
+3-3. Installing the oil pan
+                                                                (1) Oil pan
+                                                                (2) Nails [6 pcs.]
+                                                                (3) Waste oil tank
+
+
+
+
+                                                        3034B
+
+
+
+
+4                                 BAS-311HN, BAS-326H
+                                                                                    3. INSTALLATION
+
+3-4. Installing the machine head
+                                                             (1) Pins [2 pcs.]
+                                                             (2) Set screws [2 pcs.]
+                                                             (3) Hinge rubber assemblies [2 pcs.]
+                                                             Place the machine head gently on top of
+                                                             the oil pan.
+
+Pulse motor                                                  NOTE:
+                                                              • Be careful not to get the cords
+                                                                clamped between the machine head
+                                                                and the oil pan.
+                                                              • When holding the machine head, do
+                                                                not hold it by the pulse motor. This
+                                                                may cause problems with operation
+                                          Approx. 20 mm         of the pulse motor.
+
+
+   Approx. 20 mm
+
+
+
+
+                                                     3506B
+
+
+                                                             (4)   Hinge holders [2 pcs.]
+                                                             (5)   Bolts [4 pcs.]
+                                                             (6)   Plain washers [4 pcs.]
+                                                             (7)   Nuts [4 pcs.]
+                                                             (8)   Head rest
+                                                             (9)   Bolts with washer [4 pcs.]
+
+
+
+
+                                                     3230B
+
+
+
+
+                               BAS-311HN, BAS-326H                                                  5
+3. INSTALLATION
+
+
+                                                            (10) Auxiliary plate
+BAS-311HN
+                                                            (11) Bolts with washer [8 pcs.]
+                                                            Loosen the eight bolts with washer (11),
+               Needle plate
+                                                            and adjust so that the auxiliary plate (10)
+                                                            is 0 to 0.5 mm above the needle plate.
+                                                            NOTE:
+                                                             • Install the auxiliary plate (10) so that
+                                                               it is horizontal.
+                                                               If the auxiliary plate (10) is lower than
+                                                               the needle plate, the feed plate may
+                                                               get caught on the needle plate.
+
+
+
+
+                                                    3520B
+
+
+    BAS-326H
+
+           Needle plate
+
+
+
+
+                                                    3431B
+
+
+
+                                                            Move the work clamp arm all the way to
+                                                            the right when looking from the front of
+    Work clamp arm                                          the sewing machine (the direction of the
+                                                            arrow in the illustration), and then gently
+                                                            tilt back the machine head.
+                                                            NOTE:
+                                                             • Three or more people should tilt
+                                                               back the machine head, and it
+                                                               should be tilted gently while being
+                                                               held with both hands.
+                                                             • Be careful not to clamp any items
+                                                               such as screwdrivers under the
+                                                    3432B      cushion when tilting back the
+                                                               machine head.
+
+
+
+                                                            (12) Bobbin winder tension assembly
+                                                            (13) Set screw [1 pc.]
+
+
+
+
+                                                    3521B
+
+
+6                             BAS-311HN, BAS-326H
+                                                             3. INSTALLATION
+
+
+                                       (14) Gas spring holders [2 pcs.]
+                                       (15) Spacer
+                                       (16) Bolt
+                                       (17) Nut
+                                       (18) Gas spring
+                                       (19) Shaft collars [2 pcs.]
+                                       (20) Gas spring shaft D
+                     Be sure to        (21) Plain washers [2 pcs.]
+                     install so that   (22) Retaining rings E [2 pcs.]
+                     the side with     (23) Bolts [2 pcs.]
+                     “UP” on it is     (24) Plain washers (medium) [2 pcs.]
+                     facing upward.
+                                       (25) Plain washers (large) [2 pcs.]
+                                       (26) Spring washers [2 pcs.]
+                                       (27) Nuts [2 pcs.]
+                                       (28) Gas spring shaft U
+                                       (29) Retaining rings E [2 pcs.]
+                                       (30) Plain washers (small) [2 pcs.]
+                                       (31) Absorber setting plate
+                                       (32) Bolts with washer [2 pcs.]
+
+
+
+
+3534B
+
+
+
+                                       (33) Gas spring support cover
+                                       (34) Bolts with washer [6 pcs.]
+
+
+
+
+                               3535B
+
+
+
+
+        BAS-311HN, BAS-326H                                                   7
+3. INSTALLATION
+
+
+
+                                                              Gently return the machine head to its
+                                                              original position.
+
+                                                              1. Remove the two screws (35), and
+                                                                 then temporarily remove the machine
+                                                                 head switch assembly (36).
+                                                              2. Use the two screws (35) which were
+                                                                 removed to install the machine head
+                                                                 switch assembly (36) in the position
+                                                                 shown in the illustration.
+                                                              3. Check that the machine head switch
+                                                                 as turned on as shown in figure [A].
+
+                                                              * If the machine head switch is not
+                                                                turned on, adjust the installation
+                                                                position while referring to “3-16.
+                                                                Checking the machine head switch”.
+
+
+
+
+                                                      3536B
+
+
+
+
+3-5. Installing the LCD panel
+                                                              (1)   Cradle
+                                                              (2)   Rubber cushion
+                                                              (3)   Wood screws [4 pcs.]
+                                                              (4)   Setting plate
+                                                              (5)   Flat screws [4 pcs.]
+                                                              (6)   LCD panel
+                                                              (7)   Staples [2 pcs.]
+                                                              • Pass the cord of the LCD panel (8)
+                                                                through the table hole, and then insert
+                                                                it into the (PANEL) connector (9) on
+                                                                the side of the control box.
+                                                              • Tighten the four wood screws (3) so
+                                                                that the thickness of the rubber
+                                                                cushion (2) is 5 mm.
+
+
+
+
+                                                      3554B
+
+
+
+
+8                               BAS-311HN, BAS-326H
+                                                                                           3. INSTALLATION
+
+3-6. Installing the two-pedal foot switch
+                                            (1) Two-pedal foot switch
+                                            (2) Conversion harness
+
+                                            Connect the connector for the two-pedal foot switch (1) to the
+                                            conversion harness (2). Insert the conversion harness (2) into
+                                            the P15 (PEDAL) connector on the main P.C. board. (Refer to
+                                            "3-7. Connecting the cords".)
+                                            * Be sure to make the ground connection. (Refer to “3-8.
+                                               Connecting the ground wire”.)
+
+
+
+                                            <Two-pedal foot switch operating method>
+                                            When the work clamp switch (left) is depressed, both work
+                                            clamps are lowered, and when the start switch (right) is
+                                            depressed, the sewing machine starts sewing.
+                                            * The work clamp lowering method can be changed using
+                                               memory switch No. 002. (Refer to "2-2. List of memory
+                                               switch settings" in the "LCD Panel/Operation Panel"
+                                               Instruction Manual.)
+
+
+
+
+                                   3042B
+                                               Work clamp switch (2-step)
+                                                                            Start switch
+                                                                                                    4923Q
+
+
+
+3-7. Connecting the cords
+                                                                  1. Gently tilt back the machine head.
+                                                                  2. Pass the cord bundle through the hole
+                                                                     in the work table.
+                                                                  3. Loosen the two screws (1), and then
+                                                                     open the cord presser plate (2) in the
+                                                                     direction of the white arrow and pass
+                                                                     the cord bundle through the opening.
+                                                                  4. Securely connect the connectors as
+                                                                     indicated in the table.
+                                                                       (Continued on next page)
+
+                                                                  NOTE:
+                                                                  • Check that the connector is facing the
+                                                                    correct way, and then insert it firmly
+                                                                    until it locks into place.
+                                                                  • Secure the cables with cable ties and
+                                                                    cord clamps, while being careful not to
+                                                                    pull on the connector.
+
+
+
+
+                                                        3528B
+
+
+
+
+                                 BAS-311HN, BAS-326H                                                    9
+3. INSTALLATION
+
+
+
+     < Main P. C. board >
+
+
+
+
+                                                                                                        Lock the cord
+                                                                                                        clamp securely.
+
+
+
+
+                                                                                                     <Removal>
+
+
+
+
+                                                                                                       Press the tab.
+
+                                                                                                    <Securing>
+
+
+
+
+3542B
+
+
+
+                                                                          Connection location on   Cord clamps /
+                                    Connectors
+                                                                             main P. C. board       cable ties
+           X pulse motor encoder [5-pin] White                            P17 (X-ENC)                   (2)
+           Y pulse motor encoder [5-pin] Blue                             P18 (Y-ENC)                   (2)
+           Intermittent presser foot pulse motor encoder [5-pin] Black    P19 (P-ENC)                   (2)
+           Machine head switch [3-pin]                                    P14 (HEAD-SW)                 (2)
+           Conversion harness (two-pedal foot switch) [7-pin] White       P15 (PEDAL)                   (2)
+           Machine head memory [6-pin]                                    P16 (HEAD-M)                  (2)
+           Thread trimmer solenoid [6-pin]                                P2 (SOL1)                     (1)
+           Digital tension solenoid / Tension release solenoid [4-pin]    P3 (SOL2)                     (1)
+           X pulse motor [4-pin] White                                    P21 (XPM)                     (1)
+           Y pulse motor [4-pin] Blue                                     P22 (YPM)                     (1)
+           Work clamp pulse motor [4-pin] Black                           P23 (PPM)                     (1)
+           Home position sensor [12-pin] White                            P8 (SENSOR1)                (2) (3)
+           STOP switch [6-pin] White                                      P9 (HEAD)                   (2) (3)
+           Valve harness [12-pin] (pneumatic work clamp specifications)   P35 (EX-OUT1)               (2) (3)
+           Upper thread breakage detector [2-pin] White                   P36, P9(HEAD)               (2) (3)
+
+ NOTE: Route the X, Y and work clamp pulse motor harnesses so that they do not touch the power supply P.C. board at the
+       bottom of the control box.
+
+
+
+
+10                                                  BAS-311HN, BAS-326H
+                                                                                                    3. INSTALLATION
+
+
+
+< Motor P. C. board >
+
+
+
+
+                                                                     Lock the cord clamps
+                                                                     securely.
+
+
+
+
+3537B
+
+
+                                                                  Connection location on
+                                       Connectors                                                  Cord clamps
+                                                                    motor P. C. board
+                        Upper shaft motor [4-pin]                （UVW）                                  (4)
+                        Synchronizer [10-pin]                    P11（SYNC）                            (2) (3)
+
+
+
+
+                                                       5. Close the cord presser plate (6) in the direction of the white
+                                                          arrow, and secure it by tightening the two screws (5).
+                                                           NOTE:
+                                                             Close the cord presser plate (6) securely so that no
+                                                             foreign objects, insects or small animals can get inside the
+                                                             control box.
+                                                       6. Check that the cords do not get pulled, and then gently return
+                                                          the machine head to its original position.
+
+
+
+                                               3538B
+
+
+
+
+                                             BAS-311HN, BAS-326H                                                     11
+3. INSTALLATION
+
+
+
+
+     <LCD panel>
+
+
+
+
+                                   (PANEL)
+
+
+
+
+                              Connector           D-sub connector
+                       LCD panel [9-pin]     (PANEL)
+     3557B
+
+
+
+
+12                 BAS-311HN, BAS-326H
+                                                                                                                3. INSTALLATION
+
+3-8. Connecting the ground wire
+
+                                                            CAUTION
+         Be sure to connect the ground. If the ground connection is not secure, you run a high risk of receiving a serious electric
+         shock, and problems with correct operation may also occur.
+
+
+
+
+                                                                                                                             3529B
+
+(1) Ground wire from the machine head
+(2) Ground wires from two-pedal foot switch harnesses (2 wires)
+• Tighten the control box cover with the six screws. Check that the cords are not clamped by the cover at this time.
+NOTE: Make sure that the ground connections are secure in order to ensure safety.
+
+
+
+
+                                                      BAS-311HN, BAS-326H                                                        13
+3. INSTALLATION
+
+3-9. Connecting the power cord
+
+                                                           CAUTION
+      Be sure to connect the ground. If the ground connection is not secure, you run a high risk of receiving a serious electric
+      shock, and problems with correct operation may also occur.
+
+
+                                                                                       Connect cords that match the voltage
+                                                                                       specifications.
+
+                                                                                       < EU specifications＞
+                                                                                       (1) Filter box
+                                                                                       (2) Screws [4 pcs.]
+                                                                                       (3) Staples [6 pcs.]
+                                                                                       (4) Power cord
+
+
+                                                                                       1. Attach an appropriate switch and cable
+                                                                                          to the power cord (4). (The green and
+                                                                                          yellow wire is the ground wire.)
+                                                                                       2. Insert the power plug into a
+                                                                                          properly-grounded electrical outlet.
+                                                                                       NOTE:
+< Seen from underneath table >                                                         • Take care when tapping in the staples
+                                                                                         (3) to make sure that they do not pierce
+                                                                                         the cords.
+                                                                                       • Do not use extension cords, otherwise
+                                                                                         machine operation problems may
+                                                                                         result.
+
+                                       Control box
+
+                                                                    Leg
+
+
+
+
+                              Green and yellow wire (ground wire)
+                                                                               3665B
+
+
+
+
+14                                                   BAS-311HN, BAS-326H
+                                                                 3. INSTALLATION
+
+
+                                            <200 V system >
+                                            (1) Power switch
+                                            (2) Wood screws [2 pcs.]
+Operator
+
+
+
+
+                                    3146B
+
+
+                                    3638B   (3) 3-pin power supply connector
+                                            (4) Power cord
+                                            (5) Staples [5 pcs.]
+
+
+
+
+                                            1. Attach an appropriate plug to the
+                                               power cord (4). (The green and yellow
+                                               wire is the ground wire.)
+                                            2. Insert the power plug into a
+                                               properly-grounded electrical outlet.
+
+                                            NOTE:
+                                            • Take care when tapping in the staples
+                                              (5) to make sure that they do not pierce
+                                              the cords.
+                                            • Do not use extension cords, otherwise
+                                              machine operation problems may
+                                              result.
+
+                                            3. Use the six screws to tighten the cover
+                                               of the control box. Check that none of
+                                               the cords are being clamped by the
+                                               cover at this time.
+
+
+
+
+           Green and yellow wire
+           (ground wire)
+
+
+
+
+              BAS-311HN, BAS-326H                                                 15
+3. INSTALLATION
+
+
+                                                  <100 V / 400 V system >
+                                                  (1) Power switch
+                                                  (2) Wood screws [2 pcs.]
+      Operator
+
+
+
+
+                                          3146B
+
+
+                                          2348B   (3) Transformer box
+                                                  (4) Transformer box plates [2 pcs.]
+                                                  (5) Screws [with washer] [4 pcs.]
+                                                  (6) 3-pin power supply connector
+                                                  (7) Staples [6 pcs.]
+                                                  (8) Cord clamps [2 pcs.]
+                                                  (9) Power cord
+
+
+
+
+                                                  1. Attach an appropriate plug to the
+                                                     power cord (9). (The green and yellow
+                                                     wire is the ground wire.)
+                                                  2. Insert the power plug into a
+                                                     properly-grounded AC power supply.
+
+                                                  * The inside of the control box uses
+                                                    single-phase power.
+
+                                                  NOTE:
+                                                  • If the ground connection is not secure,
+                                                    electric shocks, operating errors or
+                                                    damage to electronic components such
+                                                    as P.C. boards may occur.
+                                                  • Take care when tapping in the staples
+                                                    (7) to make sure that they do not pierce
+                                                    the cords.
+                                                  • Do not use extension cords, otherwise
+                                                    machine operation problems may
+                                                    result.
+
+                                                  3. Use the six screws to tighten the cover
+                                                     of the control box. Check that none of
+                                                     the cords are being clamped by the
+                                                     cover at this time.
+
+
+
+
+                  Green and yellow wire
+                   (ground wire)
+                                          3658B
+
+
+
+
+16                BAS-311HN, BAS-326H
+                                                                                       3. INSTALLATION
+
+3-10. Installing the cotton stand
+                                                                  (1) Cotton stand
+
+                                                                  NOTE:
+                                                                   Securely tighten the nut (3) so that two
+                                                                   washers (2) are securely clamped so
+                                                                   that the cotton stand (1) does not
+                                                                   move.
+
+
+
+
+                                                          3640B
+
+
+
+
+                                    BAS-311HN, BAS-326H                                                 17
+3. INSTALLATION
+
+3-11. Installing the pneumatic unit (pneumatic work clamp specifications)
+                                                                                         Install underneath the work table.
+                                                                                         (1)   Solenoid valve assembly
+                                                                                         (2)   Washers [2 pcs.]
+                                                                                         (3)   Wood screws [2 pcs.]
+                                                                                         (4)   Rubber hose (OPTION PARTS)
+
+                                                                                         After installing the pneumatic unit, adjust
+                                                                                         the air pressure.
+                                                                                         (Refer to "7-18. Adjusting the air
+                                                                                         pressure".)
+
+                                                                                         NOTE:
+                                                                                          Make sure that the pneumatic unit
+                                                                                          does not touch the control box or the
+                                                                                          work table leg.
+
+
+
+
+                                                                                1904B
+
+
+
+ Connect each air tube to the position with the corresponding number.
+
+
+
+
+                                                            Cylinder R
+
+
+
+
+               Cylinder L
+
+
+
+
+                                                                          Upper knob
+
+                                                                          Lower knob
+
+
+
+
+                                                                         Manual button
+
+
+
+
+ <Adjusting the speed controller>
+ You can use the knob to adjust the lifting and dropping speeds for the work clamp.
+ The valve knobs should be adjusted so that the left and right sides of the work clamp operate at the same speed.
+ • When the upper knob is tightened, the lifting speed becomes slower. When it is loosened, the lifting speed becomes faster.
+ • When the lower knob is tightened, the lowering speed becomes slower. When it is loosened, the lowering speed becomes
+   faster.
+ You can operate the work clamp while the power is turned off by pressing the manual button.                         3235B    1905B
+
+
+
+
+18                                                  BAS-311HN, BAS-326H
+                                                                                                            3. INSTALLATION
+
+3-12. Installing the eye guard
+
+                                                        CAUTION
+     Attach all safety devices before using the sewing machine.
+     If the machine is used without these devices attached, injury may result.
+
+
+                                                                                     (1) Bolt (loosen)
+                                                                                     (2) Eye guard (tilt forward)
+                                                                                     (3) Eye guard assembly
+                                                                                     (4) Plain washers [2 pcs.]
+                                                                                     (5) Bolts [2 pcs.]
+
+                                                                                     After installing the eye guard assembly
+                                                                                     (3), return the eye guard (2) to its original
+                                                                                     angle, and then tighten the bolt (1) to
+                                                                                     secure it in place.
+
+
+
+
+                                                                             3048B
+
+
+3-13. Installing the side cover and rear cover
+                                                                                     (1) Side cover
+                                                                            3509B
+                                                                                     (2) Screws [4 pcs.]
+                                                                                     (3) Rear cover
+                                                                                     (4) Screws [4 pcs.]
+
+                                                                                     NOTE:
+                                                                                      Be careful not to clamp the cords when
+                                                                                      installing the side cover and the rear
+                                                                                      cover.
+
+
+
+
+                                                                            3510B
+
+
+
+
+                                                  BAS-311HN, BAS-326H                                                         19
+3. INSTALLATION
+
+3-14. Lubrication
+
+                                                                      CAUTION
+           Do not connect the power cord until lubrication is complete.
+           If the foot switch is depressed by mistake, the sewing machine might start operating and injury could result.
+           Be sure to wear protective goggles and gloves when handling the lubricating oil and grease, so that they do not get into
+           your eyes or onto your skin. If the oil and grease get into your eyes or onto your skin, inflammation can result.
+           Furthermore, do not drink or eat the lubricating oil or grease. They may cause diarrhea or vomiting.
+           Keep the oil out of the reach of children.
+
+The sewing machine should always be lubricated and the oil supply replenished before it is used for the first time, and also after
+long periods of non-use.
+Use only the lubricating oil <JX Nippon Oil & Energy Corporation Sewing Lube N10; VG10> specified by Brother.
+* If this type of lubricating oil is difficult to obtain, the recommended oil to use is <Exxon Mobil Essotex SM10; VG10>.
+
+                                                                                                         1. Fill the arm-side oil tank with oil.
+                                                                                                         2. Fill the bed-side oil tank with oil.
+                                                                                                         NOTE:
+                                                                                                            Be sure to fill the machine with oil
+                                                                                                            when the oil level is down to about
+                                                                                                            one-third full in the oil sight glass. If the
+                                                                                                            oil drops below the one-third level,
+                                                                                                            there is the danger that the machine
+                                                                                                            may seize during operation.
+
+
+
+
+                                                                                            3682B
+
+
+                                                                                                         3. Pour oil in through the two holes of
+                                                                                                            the shuttle race base assembly so
+                                                                                                            that the felt (1) is lightly moistened.
+                                                                                                            If it is difficult to add oil, you can also
+                                                                                                            remove the rubber plug (2) and pour
+                                                                                                            in the oil through the hole.
+                                                                                                         NOTE:
+                                                                                                            ・ The two pieces of felt (1) should
+                                                                                                                  normally project by 0 to 0.5 mm
+                                                                                                                  from the hook race. Be careful not
+                                                                                                                  to push in the felt (1) when
+                                                                                                                  lubricating.
+                                                                                                            ・ If there is no more oil on the felt
+                                                                                                                  (1) of the shuttle race base
+                                                                                            3539B                 assembly, problems with sewing
+                                                                                                                  may result.
+
+
+
+20                                                             BAS-311HN, BAS-326H
+                                                                                                             3. INSTALLATION
+
+3-15. Installing the machine head fixing bolt
+When transporting the sewing machine, secure the machine head to the table with the machine head fixing bolts.
+                                                                                       (1) Plain washers [2 pcs.]
+                                                                                       (2) Machine head fixing bolts [2 pcs.]
+
+                                                                                       NOTE:
+                                                                                        When operating the sewing machine,
+                                                                                        remove the machine head fixing bolts.
+
+
+
+
+                                                                              3570B
+
+
+
+
+3-16. Checking the machine head switch
+                                                                 1. Turn on the power.
+                                                                 2. Check that no error numbers appear.
+
+
+
+                                                                 <If error [E050], [E051] or [E055] is displayed>
+                                                                 If the machine head switch (1) is not turned on, error [E050],
+                                                                 [E051] or [E055] will occur.
+
+                                                                 Use the screw (2) to adjust the installation position of the
+                                                                 machine head switch as shown in the illustration.
+
+
+
+
+                                                       3054B
+
+
+
+
+                                                    BAS-311HN, BAS-326H                                                         21
+4. PREPARATION BEFORE SEWING
+
+
+4. PREPARATION BEFORE SEWING
+4-1. Installing the needle
+
+                                                         CAUTION
+     Turn off the power switch before installing the needle.
+     If the foot switch is depressed by mistake, the sewing machine might start operating and injury could result.
+
+                                                                  1. Loosen the set screw (1).
+                                                                  2. Insert the needle (2) in a straight line as far as it will go,
+                                                                     making sure that the long groove on the needle is at the
+                                                                     front, and then securely tighten the set screw (1).
+
+
+
+
+                                                        3057B
+
+
+
+
+22                                                 BAS-311HN, BAS-326H
+                                                                                          4. PREPARATION BEFORE SEWING
+
+4-2. Threading the upper thread
+Thread the upper thread correctly as shown in the illustration below.
+* When using threading mode for threading, the thread can be threaded more easily.
+   Refer to <Threading mode> (P. 24)
+
+
+  [If using cotton thread or spun thread]
+
+
+
+
+ 3559B
+
+
+                                                                              [If using synthetic thread]
+
+                                                                                   Use the optional needle cooler unit.
+
+
+
+
+                                                                                                            Thread the
+                                                                                                            upper thread
+
+
+
+
+                                                                                                              Needle cooler
+ 3059B                                                                                                                        3558B
+
+
+
+• Turn the machine pulley (2) and raise the thread take-up (3) to its highest position before threading the upper thread.
+  (This will make threading easier and it will prevent the thread from coming out at the sewing start.)
+• When threading the thread through the needle, allow a distance of approximately 42 mm between the needle hole and the end
+  of the thread.
+  If it is too long, the thread may become tangled, and if it is too short, the thread may pull out at the sewing start.
+• If you would like to adjust the sensitivity of the thread breakage sensor, refer to "7-2. Adjusting the sensitivity of the thread
+  breakage sensor".
+
+
+
+
+                                                     BAS-311HN, BAS-326H                                                          23
+4. PREPARATION BEFORE SEWING
+
+<Threading mode>
+Threading mode is safe because the sewing machine will not start even when the foot switch is depressed.
+ 1                                                                Turn on the power.
+
+
+
+
+                                                                                                                        3055B
+
+ 2                                                                Touch the Thread key on the screen.
+
+
+
+
+                                                                  • Work clamp will drop.
+                                                                  • The tension discs will open.
+
+
+
+
+ 3    Threading the thread.
+
+ 4    Ending threading mode                                       Touch the OK key on the screen.
+
+      The display will return to the previous screen.
+
+
+                                                                  • The work clamp will return to where it was before
+                                                                    threading mode was started.
+
+
+
+
+24                                                      BAS-311HN, BAS-326H
+                                                                                          4. PREPARATION BEFORE SEWING
+
+4-3. Winding the lower thread
+                                                             CAUTION
+        Do not touch any of the moving parts or press any objects against the machine while winding the lower thread, as this may
+        result in personal injury or damage to the machine.
+
+3443B                                                             1. Place the bobbin onto the bobbin winder shaft (1).
+                                                                  2. Thread the thread as shown in the illustration, wind the
+                                                                      thread around the bobbin several times, and then press the
+                                                                      bobbin presser arm (2).
+                                                                  3. Turn on the power.
+                                                                  4. Depress the foot switch to the second step.
+                                                                      (If using a two-pedal foot switch, lower the work clamp
+                                                                      before depressing the start switch.)
+                                                                      Home position detection will be carried out.
+                                                                  5. Touch the Wind key (4) on the screen.
+                                                                  6. The display will switch to the thread winding mode screen.
+                                                                  7. Check that the needle does not touch the work clamp, and
+                                                                      then depress the foot switch to the 2nd step.
+                                                                      (If using a two-pedal foot switch, lower the work clamp
+                                                                      before depressing the start switch.)
+                                                                  8. Keep depressing the foot switch until the lower thread stops
+                                                                      being wound onto the bobbin.
+                                                                  9. Once winding of the set amount of lower thread (80 - 90% of
+                                                                      the bobbin capacity) is completed, the bobbin presser arm
+                                                                      (2) will return automatically.
+                                                                  10. Remove the bobbin, hook the thread onto the knife (3), and
+                                                                      then pull the bobbin in the direction of the arrow to cut the
+                                                                      thread.
+                                                                  11. Touch the OK key (5) to return to the previous screen.
+
+
+
+
+                                                     3550B
+
+
+
+
+                                                     (4)
+
+
+
+
+                                                    (5)
+
+
+
+
+                                                     BAS-311HN, BAS-326H                                                       25
+4. PREPARATION BEFORE SEWING
+
+3683B
+                                           Adjusting the bobbin winding amount
+                                           Loosen the screw (6) and move the bobbin presser (7).
+
+
+
+
+                                           If the thread winds onto the bobbin unevenly
+                                           Loosen the set screw (8) and move the bobbin winder
+                                           tension assembly (9) up and down to adjust.
+                                           * For case A, move the bobbin winder tension assembly
+                                               (9) down, and for case B, move it upward.
+                               Case A
+
+
+
+
+                               Case B
+3684B
+
+
+
+
+26                               BAS-311HN, BAS-326H
+                                                                                         4. PREPARATION BEFORE SEWING
+
+4-4. Installing the bobbin case
+
+                                                          CAUTION
+        Turn off the power switch before installing the bobbin case.
+        If the foot switch is depressed by mistake, the sewing machine might start operating and injury could result.
+
+
+                                                                                                                        2534Q
+
+
+
+
+                                                                                                             30 mm
+
+
+
+
+3066B                                                                                                                   2535Q
+
+1. Pull the shuttle race cover (1) downward to open it.
+2. While holding the bobbin so that the thread winds to the right, insert the bobbin into the bobbin case.
+3. Pass the thread through the slot (2) and pull it out from the thread hole (3).
+4. Check that the bobbin turns in the direction of the arrow when the thread is pulled.
+5. Pass the thread through the lever thread hole (4), and then pull out approximately 30 mm of thread.
+6. Hold the latch on the bobbin case and insert the bobbin case into the rotary hook.
+
+
+
+
+                                                     BAS-311HN, BAS-326H                                                   27
+4. PREPARATION BEFORE SEWING
+
+4-5. Thread tension
+[Thread tension reference]
+                                   Medium-weight materials           Heavy-weight materials
+        Specifications                                                                                    Seatbelt (-07A)
+                                          (-03[])                           (-05[])
+        Upper thread                    #50 or similar                    #20 or similar                   #4 or similar
+
+        Lower thread                    #50 or similar                    #20 or similar                   #4 or similar
+  Upper thread tension (N)                 0.8 − 1.2                        1.4 − 1.8
+                                                                                                             1.2 − 2.0
+      [Tension value]                    [80 - 120]*1                     [140 - 180]*1
+  Lower thread tension (N)                                   0.2 − 0.3                                       1.0 − 1.5
+
+       Pre-tension (N)                    0.1 − 0.3                          0.1 − 0.6                       0.3 − 0.6
+
+           Needle                        DP x 5 #16                        DP x 17 #19                     DP x 17 #25
+
+     Normal sewing speed                2,000 sti/min                      2,000 sti/min                   1,300 sti/min
+*1 This is the tension value when the pretension is 0.1 N.
+
+
+4-5-1. Lower thread tension
+                                                                    Adjust the thread tension to the weakest possible tension by
+                                                                    turning the thread tension nut (1) until the bobbin case will
+                                                                    not drop by its own weight while the thread end coming out
+                                                                    of the bobbin case is held.
+
+
+                            Stronger
+                         Weaker
+
+
+
+
+                                                          2536Q
+
+
+
+
+28                                                      BAS-311HN, BAS-326H
+                                                                                4. PREPARATION BEFORE SEWING
+
+4-5-2. Upper thread tension
+4-5-2-1. Upper thread tension (Medium-weight materials specifications <-03[]>, Heavy-weight materials
+         specifications <-05[]>)
+
+                                                                             Use the digital tension to adjust the
+                                                                             tension as appropriate for the material
+                                                                             being sewn. (Refer to “Setting the
+                                                                             tension value” below.)
+                                                                             Turn the tension nut (1) (sub-tension) to
+                                                                             adjust so that the upper thread trailing
+                                                                             length is about 42 mm.
+
+
+
+                                                   Stronger
+                                             Weaker
+
+
+
+
+                                                                     3545B
+
+
+
+
+  [Sewing operation screen]
+
+
+                                                                             Setting the tension value
+                                                                             Touch the △ and ▽ keys (2) on the
+                                                                             sewing operation screen to increase or
+                                                                             decrease the Tension value.
+
+
+                                                                       (2)
+
+
+
+
+4-5-2-2. Upper thread tension (Seatbelt specifications <-07A>)
+                                                          1. Turn the tension nut (1) (main tension) to adjust the
+                                                             tension as appropriate for the material being sewn.
+                                                          2. Use the tension nut (2) (sub-tension) to adjust so that
+                                                             the upper thread trailing length after thread trimming is
+                                                             about 42 mm.
+
+
+
+
+                                       Stronger
+                                   Weaker
+
+
+
+
+                                  Stronger
+                              Weaker
+                                                3067B
+
+
+
+                                              BAS-311HN, BAS-326H                                                   29
+4. PREPARATION BEFORE SEWING
+
+4-6. Starting up
+                                          2979B
+                                                   Before turning on the power, check that the needle bar
+                                                   is at the needle up stop position.
+                                                   Turn the pulley (1) in the direction of the arrow until the
+                                                   ridge at the bottom of the thread take-up (2) is aligned with
+                                                   the index mark.
+
+
+
+
+                               Aligned
+
+
+
+
+3068B
+
+
+
+                                                   Turn on the power.
+                                                   If a program has been registered, the program number and
+                                                   a preview of the sewing pattern will be displayed.
+                                                   No programs are registered at the time of shipment from the
+                                                   factory, and so "---" is displayed as the program number
+                                                   (No.).
+                                                   For details on the sewing data reading method, refer to "3.
+                                                   USING STORAGE MEDIA" in the "LCD Panel/Operation
+                                                   Panel" Instruction Manual.
+
+
+
+
+30                                       BAS-311HN, BAS-326H
+                                                                                                                 5. SEWING
+
+
+5. SEWING
+                                                      WARNING
+       Do not allow any liquids to get onto this sewing machine, otherwise fire, electric shocks or operating problems may
+       occur.
+       If any liquid gets inside the sewing machine (machine head or control box), immediately turn off the power and
+       disconnect the power plug from the electrical outlet, and then contact the place of purchase or a qualified
+       technician.
+
+
+
+
+                                                       CAUTION
+       Turn off the power switch at the following times.
+       If the foot switch is depressed by mistake, the sewing machine might start operating and injury could result.
+        • When replacing the bobbin and needle
+        • When not using the machine and when leaving the machine unattended
+       Do not touch any of the moving parts or press any objects against the machine while sewing, as this may result in
+       personal injury or damage to the machine.
+
+
+5-1. Sewing
+                                                              1. Turn on the power.
+                                                              2. Touch the △ or ▽ key to select the number for the
+                                                                 program to be sewn.
+                                                                 * For details on reading sewing data from SD cards and
+                                                                    USB memory devices, refer to "3-4. Importing items of
+                                                                    sewing data separately in the "LCD Panel/Operation
+                                                                    Panel" Instruction Manual.
+                                                              3. Depress the foot switch to the 2nd step.
+                                                                 (If using a two-pedal foot switch, lower the work clamp
+                                                                 (2) before depressing the start switch (1).)
+                                                                 Home position detection will be carried out.
+                                                              4. Place the materials under the work clamp (2).
+                                                              5. Depress the foot switch to the 1st step.
+                                                                 (If using a two-pedal foot switch, depress the work
+                                                                 clamp switch (3).)
+  1st step
+                                                                 The work clamp (2) will be lowered.
+  2nd step                                                    6. Depress the foot switch to the 2nd step.
+                                                                 (If using a two-pedal foot switch, depress the start switch
+                                                                 (1).)
+                                                    4441Q
+                                                                 The sewing machine will start sewing.
+                                                              7. After sewing is completed, the thread trimmer will
+                                                    3551B        operate. And then the work clamp (2) will be raised.
+
+                                                                 Use a work clamp which will hold the material securely
+                                                                 so that it does not slip. If the material slips when using
+                                                                 the standard work clamp and feed plate, process them
+                                                                 so that the material does not slip.
+
+
+
+
+                                                   3552B
+
+
+
+
+                                                 BAS-311HN, BAS-326H                                                          31
+5. SEWING
+
+5-2. Using the STOP switch
+If you press the emergency stop switch (1) to during actual sewing, an error dialog box will be displayed and the sewing
+machine will immediately stop.
+                                                         3111B   <Clearing>
+                                                                 1. Touch the Reset key (2).
+                                                                    • The thread will be trimmed, and then the error dialog
+                                                                       box on the screen will disappear and the buzzer will
+                                                                       stop.
+                                                                 2. A dialog box asking you to confirm if you want to
+                                                                    continue sewing will be displayed.
+
+
+
+
+                                                                                    (3)                    (4)
+
+
+
+
+                                                (2)
+
+
+<Continuing sewing from a stopping point>
+If the thread breaks or the lower thread runs out during sewing, you can then continue sewing from the point where the
+thread broke or ran out.
+
+ 1                                                          Touch "Yes" (3) to return to the resewing standby screen.
+
+
+
+
+ 2
+                                                            Touch the               keys (5) and (6) on the screen to return
+                                                            to the position where sewing is to be resumed.
+
+                                                            When you touch the            key (5), the feed will move backward
+
+                         (5)       (6)                      by 1 stitch, and when you touch the           key (6), the feed will
+                                                            move forward by 1 stitch.
+
+ 3                                                          Depress the foot switch to the 2nd step.
+                                                            (If using a two-pedal foot switch, depress the start switch.)
+       2nd step                                             The sewing machine will start operating and sewing will start.
+
+                                                                                                                          4441Q
+
+<Returning to the sewing start position without continuing sewing>
+If you do not wish to continue sewing, touch "No" (4).
+・After home position detection is carried out, the mechanism will return to the sewing start position.
+
+
+
+
+32                                                    BAS-311HN, BAS-326H
+                                                                                                             6. CLEANING
+
+
+6. CLEANING
+                                                      CAUTION
+     Turn off the power switch before carrying out cleaning.
+     If the foot switch is depressed by mistake, the sewing machine might start operating and injury could result.
+     Be sure to wear protective goggles and gloves when handling the lubricating oil and grease, so that they do not get
+     into your eyes or onto your skin. If the oil and grease get into your eyes or onto your skin, inflammation can result.
+     Furthermore, do not drink or eat the lubricating oil or grease. They may cause diarrhea or vomiting.
+     Keep the oil out of the reach of children.
+
+
+6-1. Cleaning the rotary hook
+                                                    3114B
+                                                             1. Pull the shuttle race cover downward to open it, and then
+                                                                remove the bobbin case.
+
+
+
+
+                                                             2. Open the setting claw (1) in the direction indicated by the
+                                                                arrow, and then remove the shuttle race base (2) and the
+                                                                shuttle hook (3).
+
+
+
+
+                                                    3115B
+
+                                                             3. Clean all the dust and lint from around the driver (4), the
+                                                                top of the rotary hook thread guide and the shuttle race.
+
+
+
+
+                                                    3116B
+
+
+
+
+                                                 BAS-311HN, BAS-326H                                                     33
+6. CLEANING
+
+6-2. Cleaning the control box air inlet ports
+                                                                Use a vacuum cleaner to clean the filter in the air inlet ports
+                                                                (2) of the control box (1) at least once a month.
+
+
+
+
+                                                      2309B
+
+
+6-3. Draining the oil
+                                                                1. Remove and empty the waste oil tank (1) whenever it is
+                                                                   full.
+                                                                2. After emptying the waste oil tank (1), screw it back into
+                                                                   its original position.
+
+
+
+
+                                                       3117B
+
+
+6-4. Cleaning the eye guard
+                                                                Wipe the eye guard clean with a soft cloth.
+                                                                NOTE:
+                                                                  Do not use solvents such as kerosene or thinner to clean
+                                                                  the eye guard.
+
+
+
+
+                                                       3118B
+
+
+6-5. Checking the needle
+                                                                Always check that the tip of the needle is not broken and
+                                                                also that the needle is not bent before starting sewing.
+
+
+
+
+                                                       3119B
+
+
+6-6. Lubrication
+Lubricate the sewing machine while referring to "3-14. Lubrication".
+
+
+34                                                  BAS-311HN, BAS-326H
+                                                                                                             6. CLEANING
+
+6-7. Applying grease (Feed mechanism BAS-311HN)
+If you are frequently sewing heavy-weight materials, using the sewing machine for long periods or using the sewing machine
+in places where there is a lot of dust, it is recommended that you apply grease to maintain the performance of the feed
+mechanism.
+
+<Applying grease>
+Use Brother-specified “Grease unit (SB1275-101)”.
+Ask the place of purchase for details on obtaining these items.
+
+1. Using the tube
+                                                                                                                    3220B
+
+
+
+
+2. Removing the feed plate
+
+
+
+
+                                                                                                                   3602B
+
+
+Loosen the two bolts (1), and then remove the feed plate (2).
+
+NOTE:
+  Never loosen or remove any bolts other than the bolts which are securing the feed plate (2).
+
+
+
+
+                                                    BAS-311HN, BAS-326H                                                 35
+6. CLEANING
+
+3. Applying grease
+
+
+
+
+                                                             3561B                                                       3546B
+
+Push the work clamp arm (3) all the way to the rear edge, and then apply grease to groove A.
+
+
+
+
+                                                             3562B                                                       3225B
+
+Push the work clamp arm (3) all the way to the front edge, lift up the bellows (4), and then apply grease to groove B.
+
+
+
+4. Install the feed plate. (Refer to “7-13. Installing the feed plate”.)
+
+
+
+
+36                                                      BAS-311HN, BAS-326H
+                                                                                         7. STANDARD ADJUSTMENTS
+
+
+7. STANDARD ADJUSTMENTS
+                                                     CAUTION
+    Maintenance and inspection of the sewing machine               Hold the machine head with both hands when tilting it
+    should only be carried out by a qualified technician.          back or returning it to its original position.
+                                                                   In addition, do not apply excessive force when tilting
+    Ask your Brother dealer or a qualified electrician to          back the machine head. The sewing machine may
+    carry out any maintenance and inspection of the                become unbalanced and fall down, and serious injury
+    electrical system.                                             or damage to the sewing machine may result.
+
+    Turn off the power switch and disconnect the power             If the power switch needs to be left on when carrying
+    cord before carrying out the following operations.             out some adjustment, be extremely careful to
+    If the foot switch is depressed by mistake, the sewing         observe all safety precautions.
+    machine might start operating and injury could result.
+                                                                   If any safety devices have been removed, be
+    • Inspection, adjustment and maintenance                       absolutely sure to re-install them to their original
+    • Replacing consumable parts such as the rotary                positions and check that they operate correctly
+      hook                                                         before using the machine.
+
+
+7-1. Checking the machine head switch
+                                                             Check that the machine head switch is turned on as shown
+                                                             in the illustration.
+                                                             NOTE:
+                                                                 If the machine head switch is not turned on, errors
+                                                                 "E050", "E051" and "E055" will be generated.
+
+
+
+
+                                                  3547B
+
+
+
+
+                                                BAS-311HN, BAS-326H                                                    37
+7. STANDARD ADJUSTMENTS
+
+
+7-2. Adjusting the sensitivity of the thread breakage sensor
+                                         1. Open the cover (1) and remove the upper thread from
+                                            the photo sensor (2).
+                                         2. Turn the control (3) to the right <a> until the LED (4)
+                                            illuminates.
+                                         3. Turn the control (3) to the left <b> until the LED (4)
+                                            switches off.
+                                         4. Place the upper thread into the photo sensor (2), and
+                                            close the cover (1).
+
+                                         NOTE:
+                                         • Thread breakages may be difficult to detect depending on
+                                           the thickness of the thread and the type of material being
+                                           sewn. In such cases, turn the control (3) to adjust the
+                                           sensitivity, or change the number of stitches for judgment
+                                           of an upper thread breakage.
+                                           * Contact the place of purchase for information on
+                                             changing the number of stitches for judgment of an
+                                             upper thread breakage.
+                                         • If foreign objects get into the photo sensor (2), it will not
+                                           be possible to detect thread breakages. Clean inside the
+                                           photo sensor (2) to keep it free from dust and other
+                                           foreign particles.
+                                         • If applying silicone to the thread, apply the silicone
+                                           between the thread breakage detector and the thread
+                                           take-up. If silicone is applied to the thread before it passes
+                                           through the photo sensor (2), the sensor window inside
+                                3577B      the photo sensor (2) will become dirty and it will not be
+                                           possible to detect thread breakages.
+
+
+
+
+38                             BAS-311HN, BAS-326H
+                                                                                                  7. STANDARD ADJUSTMENTS
+
+7-3. Thread take-up spring
+                                   Medium-weight materials               Heavy-weight materials
+        Specifications                                                                                     Seatbelt (-07A)
+                                          (-03[])                               (-05[])
+   Thread take-up spring
+                                                                7 − 10                                           2−4
+       height (mm)
+   Thread take-up spring
+                                           0.2 − 0.5                           0.6 − 1.2                       1.0 − 1.4
+        tension (N)
+                                                                     <Thread take-up spring height>
+                                                                     Loosen the set screw (1) and turn the adjuster to adjust.
+                              Lower    Higher
+
+
+
+
+                                                           3548B
+
+
+                                                                     <Thread take-up spring tension>
+                                                                     1. Press the upper thread slightly above the tension
+                                                                         bracket (2) with a finger to stop the thread spooling out.
+                                                                     2. Pull the upper thread downward so that the thread
+                                                                         take-up spring (3) is extended to the same height as the
+                                                                         base of the thread guide arm (4), and then measure the
+                                                                         tension of the thread take-up spring (3).
+                                                                     3. Use a screwdriver to turn the tension stud (5) in order to
+                                                                         adjust the tension of the thread take-up spring (3).
+
+                                                         High
+
+
+
+
+                                                Low
+
+
+                                                            3641B
+
+NOTE:
+ If the thread tension spring is not adjusted correctly, the upper thread trailing length will be uneven after thread trimming.
+
+7-4. Arm thread guide R
+                                                                     The standard position of arm thread guide R (1) is when the
+                                                                     screw (2) is aligned with the index mark.
+                                                                     Loosen the screw (2) and move arm thread guide R (1) to
+                                                                     adjust.
+                         More thread                  Less thread    * When sewing heavy-weight material, move arm thread
+                                                                       guide R (1) to the left. (The thread take-up amount will
+                                                                       become greater.)
+                                                                     * When sewing light-weight material, move arm thread
+                                                                       guide R (1) to the right. (The thread take-up amount will
+                                                                       become smaller.)
+                                                  Index mark
+
+
+
+
+                                                           3123B
+
+
+
+
+                                                        BAS-311HN, BAS-326H                                                       39
+7. STANDARD ADJUSTMENTS
+
+7-5. Adjusting the needle bar height
+
+
+
+
+ 2552Q                                                                                                                    3124B
+
+Turn the pulley in the direction of the arrow to move the needle bar to the lowest position. Then remove the rubber plug (2),
+loosen the screw (3) and then move the needle bar up or down to adjust so that the second reference line from the bottom
+of the needle bar (reference line A) is aligned with the lower edge of the needle bar bush (1).
+* If using a DP X 5 needle, align with the highest reference line (reference line a).
+
+
+7-6. Adjusting the needle and rotary hook timing
+ 3359B                                                                                                                   3360B
+
+
+
+
+                                                                                    Center of the needle
+
+
+
+                                                                                                       Tip
+
+
+
+
+ 3059B                                                                                                                   0135Q
+
+
+1. Turn the pulley (1) in the direction of the arrow to raise the needle bar from the lowest position until the lowest reference
+   line on the needle bar (reference line B) is aligned with the lower edge of the needle bar bush (2).
+   * If using a DP X 5 needle, align with the reference line b which is the second reference line from the top.
+2. Loosen the bolt (3).
+3. Move the driver (4) sideways so that the tip of the rotary hook is aligned with the middle of the needle, and then tighten
+   the bolt (3).
+
+
+
+
+40                                                   BAS-311HN, BAS-326H
+                                                                                               7. STANDARD ADJUSTMENTS
+
+7-7. Adjusting the driver (needle guard) position
+          Center of the needle
+
+
+                              Tip
+
+
+
+
+ 0135Q                                                               2980B                                                3452B
+
+Turn the pulley in the direction of the arrow to align the tip of the rotary hook with the center of the needle, and then loosen
+the set screw (2) and adjust by moving the eccentric shaft (3) to adjust so that the driver (1) is touching the needle.
+The set screw (2) and the eccentric shaft (3) are on the right side of the bed at the rear.
+  NOTE:
+  If the driver (1) crosses the needle more than necessary, it will cause problems with the thread tension.
+  Furthermore, if it does not cross the needle at all, the tip of the rotary hook will interfere with the needle and skipped
+  stitches may occur.
+
+7-8. Adjusting the clearance between the needle and rotary hook tip
+
+
+                               0.01 − 0.08 mm
+                               (Seatbelt: 0.1 – 0.2 mm)
+
+
+
+
+ 0138Q                                                                                                                    3126B
+
+Turn the pulley in the direction of the arrow to align the tip of the rotary hook with the center of the needle, and then loosen
+the set screw (1) and turn the eccentric shaft (2) to adjust so that the clearance between the needle and the tip of the rotary
+hook is 0.01 to 0.08 mm.
+
+7-9. Adjusting the shuttle race thread guide
+
+
+
+
+                                                                                                                          3574Q
+
+Install the shuttle race thread guide (1) by pushing it in the direction of the arrow so that the needle groove is aligned with
+the center of the needle plate hole.
+  NOTE:
+  If the shuttle race thread guide (1) is in the wrong position, thread breakages, soiled thread or tangling of the thread may
+  occur.
+  The position of the shuttle race thread guide (1) is adjusted at the time of shipment from the factory. It should not be
+  changed if possible.
+
+
+
+                                                      BAS-311HN, BAS-326H                                                     41
+7. STANDARD ADJUSTMENTS
+
+7-10. Rotary hook lubrication amount
+                                                                 The optimum position is when the head of the set screw (1) is
+                                                                 aligned with the edge of the bed. The rotary hook lubrication
+                                                                 amount can be adjusted within three turns to the right from
+                                                                 that position.
+                                                                 • If the set screw (1) is turned clockwise, the lubrication
+                                                                   amount becomes smaller.
+         More oil     Less oil                                   • If the set screw (1) is turned counterclockwise, the
+                                                                   lubrication amount becomes greater.
+
+
+
+
+                             Aligned
+                                                        3127B
+
+
+
+7-11. Adjusting the position of the movable knife
+ 3059B                                                                                                                3355B 3350B
+
+
+
+
+                                                    <View from side of thread trimmer cam>
+
+
+
+
+                                                                                         Reverse position (position where driving
+                                                                                         lever is at its lowest point)
+
+ 3351B                                                                                                                        3352B
+
+
+1. Open the top cover and tilt back the machine head.
+2. Turn the pulley (1) by hand to move the needle bar to its lowest position.
+3. Loosen the nut (2), tighten the set screw (5) until the collar (3) touches the inside of the groove in the thread trimmer cam
+   (4), and then loosen the set screw (5) by approximately 1/4 of a turn.
+4. Tighten the nut (2), and then check that the collar (3) is not touching the inside of the groove in the thread trimmer cam (4).
+   In addition, push the driving lever (6) by hand toward the thread trimmer cam (4) until the collar (3) touches the groove of
+   the thread trimmer cam (4), and then check that the driving lever (6) returns smoothly to its original position when it is
+   released.
+5. Turn the pulley (1) by hand in the direction of the arrow to move the needle bar to its lowest position, and push the thread
+   trimming solenoid (7) as far as it will go.
+6. With the collar (3) inserted into the groove of the thread trimmer cam (4), turn the pulley (1) by hand to set the driving lever
+   (6) to the reverse position and so that the driving lever (6) is at its lowest point (when the thread take-up (8) is close to its
+   lowest position).
+
+
+
+
+42                                                    BAS-311HN, BAS-326H
+                                                                                             7. STANDARD ADJUSTMENTS
+
+
+
+
+3353B                                                                                                                 3354B
+
+
+
+
+                                                                                                                      3356B
+
+
+7. Loosen the two screws (9), and then remove the cover (10).
+8. Loosen the bolt (11).
+9. Move the movable knife connecting plate (13) back and forth to adjust so that the distance from the ridge on the right side
+   of the needle plate to the ridge on the movable knife (12) is 9.5 to 9.9 mm.
+10. After tightening the bolt (11), check the above position once more.
+     * Ignore the index mark on the needle plate.
+11. Replace the cover (10).
+12. Check that there is a gap of about 0 - 1 mm between the outside of the hole in the movable knife (12) and the ridge line
+     on the shuttle race thread guide (14).
+
+
+
+
+                                                   BAS-311HN, BAS-326H                                                     43
+7. STANDARD ADJUSTMENTS
+
+7-12. Replacing the movable and fixed knives
+
+
+
+
+                                                                                                                                              3342B
+
+1. Loosen the two bolts (1) and then remove the feed plate (2).
+2. Open the shuttle race cover, remove the two screws (3) and the two flat screws (4), and then remove the needle plate (5).
+3. Remove the movable knife (6) and the fixed knife (7).
+
+                                                    1.0 mm (Medium-weight material specifications <-03[]>,Heavy-weight material specifications <-05[]>)
+                                                    2.5 mm (Seatbelt specifications <-07A>)
+
+
+
+
+ 3262B                                                                                                                                        3263B
+
+
+4. Install the new fixed knife (7) in the position shown in the illustration.
+5. Apply grease to the outside of the collar (8) and to the shoulder screw (9), and then install the new movable knife (6)
+   together with the thrust washer (10) and the movable knife spacer (11).
+6. Check that the movable knife (6) and fixed knife (7) cut the thread cleanly. Replace the movable knife spacer with
+   accessory spacers (t=0.2, 0.3, 0.4) so that the knives trim the thread accurately.
+   * If the knife pressure is too weak and the thread is not completely cut, use a thinner movable knife spacer.
+   * If the knife pressure is too strong and the movable knife (6) turns stiffly, use a thicker movable knife spacer.
+7. Apply grease to the pin (12), place it into the movable knife connecting plate (13), and install it to the needle plate (5).
+8. Check that the needle is aligned with the center of the needle hole.
+
+
+
+
+44                                                  BAS-311HN, BAS-326H
+                                                                                                  7. STANDARD ADJUSTMENTS
+
+7-13. Installing the feed plate
+
+
+
+
+                                                                                        Index mark
+
+
+
+                                                                                                                         3563B
+
+
+NOTE:
+   Install the feed plate (1) so that the surface with the index mark (U) is facing upward.
+
+Place the rear edge of the feed plate (1) against the stepped part (A) of base plate Y (2) and use a 2 mm diameter pin (such
+as a DP needle) to align the hole in the feed plate (1) with the hole in base plate Y (2); then tighten the two bolts (3).
+
+
+
+
+7-14. Adjusting the thread wiper
+
+
+
+
+                                                                                                                Approx. 2 mm
+
+
+
+
+ 3136B                                                                     5008Q              Approx. 3 mm                5009Q
+
+
+1. Loosen the two screws (3) and shift the entire solenoid setting plate (4) up or down to adjust so that the thread wiper (2) is
+   15 mm in front of the needle center when the plunger (1) of the thread wiper solenoid is driven to the full stroke.
+2. Loosen the screw (5) and adjust the position of the thread wiper (2) so that the distance from the thread wiper to the tip of
+   the needle is approximately 2 mm and the tip of the thread wiper (2) is approximately 3 mm from the center of the needle
+   when the thread wiper (2) passes below the needle during operation.
+NOTE: Check that the thread wiper (2) does not touch the finger guard.
+
+
+
+
+                                                     BAS-311HN, BAS-326H                                                       45
+7. STANDARD ADJUSTMENTS
+
+7-15. Intermittent presser foot installation position
+                                                                  Install the intermittent presser foot (1) with the screw (2) so
+                                                                  that the distance from the bottom of the presser foot to the
+                                                                  top of the needle plate is 22 mm when the sewing machine
+                                                                  is stopped and the intermittent presser foot (1) is raised.
+
+
+
+
+                                                       5031Q
+
+
+
+
+7-16. Adjusting the intermittent presser foot
+The intermittent presser foot stroke can be adjusted to within 2 − 10 mm by adjusting the position of the stepping clamp
+connecting rod and changing the installation position of stepping clamp link.
+<Changing the installation position of stepping clamp link>
+
+
+
+
+3137B                                                                                                                      5011Q
+
+
+1. Remove the face plate.
+2. Remove the two screws (1) and the two shoulder screws (2), and then remove stepping clamp link (3).
+3. Change the installation position for stepping clamp link (3) to either A, B or C above.
+   If the position of the stepping clamp connecting rod is adjusted as described in the following at any one of the installation
+   positions, the adjustment range for the intermittent presser foot stroke will as given in the following table.
+
+           Installation position                                Intermittent presser foot stroke range
+
+                    A                                      2 − 4.5 mm
+
+
+                    B                                     4.5 − 10 mm
+
+
+                                         0 mm (Intermittent presser foot does not move
+                    C
+                                                         up and down)                                                     5012Q
+
+
+
+
+46                                                   BAS-311HN, BAS-326H
+                                                                                                 7. STANDARD ADJUSTMENTS
+
+<Stepping clamp connecting rod position adjustment>
+                                                                                                                              5014Q
+
+
+
+
+                                                                                                                 Index mark
+
+
+
+
+ 3138B                                                                                                                        5015Q
+
+
+1. Loosen the screw (1), and then open the cover (2).
+2. Loosen the nut (3), and then adjust the position of the stepping clamp connecting rod (4).
+   • When the stepping clamp connecting rod (4) is raised, the intermittent presser foot stroke will increase.
+   • When the stepping clamp connecting rod (4) is lowered, the intermittent presser foot stroke will decrease.
+Next, adjust the needle bar and intermittent presser foot timing.
+3. Turn the pulley in the direction of the arrow to raise the needle bar from the lowest position until the lowest reference line
+   on the needle bar (reference line B) is aligned with the lower edge of the needle bar bush (5).
+   (If using a DP x 5 needle, align with the second reference line from the top (reference line b).)
+4. Open the top cover and loosen the two set screws (6).
+5. Align the index marks of the stepping clamp cam (7) and the stepping clamp connecting rod (4), and then tighten the two
+   set screws (6).
+
+                                                                                                                     3139B    3511B
+ Check the following after changing the intermittent presser foot stroke.
+
+
+
+
+                              Needle plate
+
+
+  1. With the intermittent presser foot (1) lowered, turn the pulley in the direction of the arrow to move the intermittent
+     presser foot (1) to its lowest position.
+  2. Check that the presser foot (1) does not touch the needle plate and that the presser bar clamp (2) does not touch the
+     presser bar bush (3).
+  <If they are touching>
+  Remove the motor cover (4).
+  Loosen the nut (5), and turn the bolt (6) until it is pressing against the intermittent drive lever (7), and then adjust until
+  the two points mentioned above are not touching.
+
+
+
+
+                                                     BAS-311HN, BAS-326H                                                           47
+7. STANDARD ADJUSTMENTS
+
+7-17. Adjusting the work clamp lift amount
+<Motor-driven work clamp specifications>
+The LCD panel settings can be used to adjust the height to within 15 − 25 mm. (Refer to "1-5. Setting the work clamp lift
+amount" in the "LCD Panel/Operation Panel" Instruction Manual.)
+
+<Pneumatic work clamp specifications>
+The maximum lift amount for the work clamp is 30 mm above the surface of the needle plate.
+
+
+
+
+                                                                                                Max. 30 mm
+
+
+
+ 5018Q                                                                                                                  3143B
+
+1. Turn on the air, and then depress the work clamp switch (1) to raise the work clamp (2).
+2. Loosen the two bolts (4) of the work clamp arm lever (3), and move the work clamp arm lever (3) up or down to adjust.
+
+
+7-18. Adjusting the air pressure
+                                                               Lift up the handle (2) of the regulator (1) and then turn it to
+                                                               adjust the air pressure to 0.5 MPa.
+                                                               After adjustment is complete, push the handle (2)
+                                                               downward to lock it.
+
+                                                               If water has collected in the bottle of the regulator (1), turn
+                                                               the drain cock (3) in the direction indicated by an arrow to
+                                                               drain the water.
+
+                                                               NOTE:
+                                                               Open the air cock (4) slowly.
+
+
+
+
+                                                     1912B
+
+
+
+
+48                                                 BAS-311HN, BAS-326H
+                                                                                             7. STANDARD ADJUSTMENTS
+
+7-19. Setting method for standard depression strokes (foot switch)
+The following procedure sets the operating positions for the treadle depression strokes to the standard values.
+
+ 1    Signal setting entry                                                      If you touch the settings key on the home
+                                                                                screen, the display will change to the setting
+                                                                                menu screen.
+
+
+
+
+                                                                                If you select Swing Machine Adjustment"
+                                                                                from the setting menu screen, the display will
+                                                                                change to the Sewing Machine Adjustment
+                                                                                menu screen.
+
+
+
+
+                                                                                Select "Pedal Adjustment" from the Sewing
+                                                                                Machine Adjustment menu screen.
+
+
+
+
+ 2    Memorizing the maximum forward position                                   With the foot switch depressed all the way
+                                                                                forward, wait until the depression voltage
+                                                                                value stabilizes and then touch the OK key.
+
+
+
+
+                                            Depression voltage
+
+
+
+
+                                                    BAS-311HN, BAS-326H                                                    49
+7. STANDARD ADJUSTMENTS
+
+ 3   Memorizing the neutral position                             With your foot released from the foot switch,
+                                                                 wait until the depression voltage value
+                                                                 stabilizes and then touch the OK key.
+
+
+
+
+ 4   Memorizing the maximum backward position                    With the foot switch depressed all the way
+                                                                 backward, wait until the depression voltage
+                                                                 value stabilizes and then touch the OK key.
+
+
+
+
+ 5   Completion of setting                                      A finished message will be displayed.
+                                                                NOTE:
+                                                                If the foot switch operation is not carried out
+                                                                correctly, an error will be displayed. If this
+                                                                happens, repeat the operation from step 2.
+
+
+
+
+ 6   Turn off the power.
+
+
+
+
+50                                        BAS-311HN, BAS-326H
+                                                                                         7. STANDARD ADJUSTMENTS
+
+7-20. If processing the work clamps and the feed plate to a shape that
+        matches the sewing pattern
+Process the work clamps and feed plate which match the sewing pattern, while referring to the processing diagram below.
+* Values in ( ) are the recommended sizes when sewing using the maximum area (BAS-311HN: 150x100 mm, BAS-326H:
+  220x100 mm).
+
+
+ BAS-311HN
+ <Work clamp processing diagram>
+ Motor-driven work clamp specifications
+
+
+
+
+                                                                       Pneumatic work clamp specifications
+                                                                       The left and right work clamps are symmetrical.
+
+
+              Center of sewing area       [mm]
+
+
+
+
+ <Feed plate processing diagram>
+ Recommended thickness 1.5 mm
+
+
+
+
+                                                                              Center of sewing area
+                                                                                                              [mm]
+
+
+
+
+           Center of sewing area                      [mm]
+                                                                                                                  3159B
+
+
+
+
+                                                 BAS-311HN, BAS-326H                                                     51
+7. STANDARD ADJUSTMENTS
+
+
+  BAS-326H
+
+
+
+     <Work clamp processing diagram>
+     The left and right work clamps are symmetrical.
+
+
+
+
+                                                        Center of sewing area   3513B
+
+
+
+
+     <Feed plate processing diagram>
+     Recommended thickness 1.5 mm
+
+
+
+
+                                             Center of sewing area
+     [mm]                                                                       3519B
+
+
+
+
+52                                             BAS-311HN, BAS-326H
+                                                                                                8. LIST OF ERROR CODES
+
+
+8. LIST OF ERROR CODES
+                                                           DANGER
+         Wait at least 5 minutes after turning off the power switch and disconnecting the power cord from the wall outlet
+         before opening the control box cover. Touching areas where high voltages are present can result in severe injury.
+
+
+If a malfunction occurs with the sewing machine, a buzzer will sound and an error code will appear on the screen.
+Follow the remedy procedure to eliminate the cause of the problem.
+
+Switch-related errors
+  Code                                                 Cause of error and remedy
+           The STOP switch was pressed.
+  E010
+           Press the RESET key to clear the error.
+           The STOP switch was pressed.
+           Press the RESET key to clear the error.
+  E011
+           You can touch the                 keys on the LCD panel to move the feed in order to continue sewing.
+           The STOP switch was pressed.
+  E012     Press the RESET key to clear the error, and then depress the start switch to move the feed mechanism to the
+           home position.
+           The stop switch was still being pressed when the power was turned on, or there is a problem with the stop switch
+  E015     connection.
+           Turn off the power, and then check that connector P9 on the main P.C. board is properly connected.
+           Problem with the stop switch connection.
+  E016
+           Turn off the power, and then check that connector P9 on the main P.C. board is properly connected.
+           The start switch was pressed without the work clamp being lowered.
+  E020
+           First lower the work clamp.
+           Start switch was being depressed when power was turned on.
+           (For a foot switch, the foot switch was being depressed to the 2nd step.)
+  E025     Release the switch.
+           (For a foot switch, if E025 is not cleared even when the switch is released, readjust the depression stroke. Refer
+           to P.49 - P.50.)
+           Work clamp switch was being depressed when power was turned on.
+           (For a foot switch, the foot switch was being depressed to the 1st step.)
+  E035     Release the switch.
+           (For a foot switch, if E035 is not cleared even when the switch is released, readjust the depression stroke. Refer
+           to P.49 - P.50.)
+           Machine head tilting was detected after the power was turned on.
+  E050     Turn off the power, and then return the machine head to its original position.
+           Check that connector P14 on the main P.C. board is properly connected.
+           Machine head tilting was detected while the sewing machine was operating.
+  E051
+           Turn off the power, and then check that connector P14 on the main P.C. board is properly connected.
+           Machine head tilting was detected when the power was turned on.
+  E055     Turn off the power, and then return the machine head to its original position.
+           Check that connector P14 on the main P.C. board is properly connected.
+           Touch panel was being touched when power was turned on.
+  E064
+           Release the touch panel.
+           A key on the LCD panel was still being pressed when the power was turned on, or key is faulty.
+  E065
+           Release the key.
+
+
+
+
+                                                     BAS-311HN, BAS-326H                                                  53
+8. LIST OF ERROR CODES
+
+
+Motor-related errors
+ Code                                                   Cause of error and remedy
+           The needle bar is not stopped in the needle up stop position.
+  E110
+           Turn the pulley until the point where the error display disappears.
+           Upper shaft did not stop at the needle up stop position when the sewing machine stopped.
+  E111     Turn off the power, and then check that connectors P11 and P1 on the motor P.C. board and connector P6 on the
+           main P.C. board are properly inserted.
+           Thread trimming was not completed.
+  E121
+           Turn off the power, and then check if the cutting edges of the fixed knife and movable knife are damaged or worn.
+           Upper shaft motor stopped due to a problem, or synchronizer is faulty.
+           Turn off the power, and then turn the pulley and check if the sewing machine has locked up. Check that
+  E130
+           connectors P11 and P1 on the motor P.C. board, connector P6 on the main P.C. board and the 4-pin connector of
+           the upper shaft motor on the motor P.C. board are properly inserted.
+           Synchronizer is not connected correctly.
+  E131
+           Turn off the power, and then check that connector P11 on the motor P.C. board is properly connected.
+           Problem detected with upper shaft motor operation.
+  E132     Turn off the power, and then check that connectors P11 and P1 on the motor P.C. board, connector P6 on the
+           main P.C. board and the 4-pin connector of the upper shaft motor on the motor P.C. board are properly inserted.
+           Upper shaft motor stopping position is incorrect.
+  E133     Turn off the power, and then check that connectors P11 and P1 on the motor P.C. board, connector P6 on the
+           main P.C. board and the 4-pin connector of the upper shaft motor on the motor P.C. board are properly inserted.
+           Upper shaft motor is overheating, or temperature sensor is faulty.
+           Turn off the power, and then check the upper shaft motor.
+  E150
+           (When sewing data with a small number of stitches (15 stitches or less) is sewn repeatedly (short cycle
+           operation), the upper shaft motor may overheat and the “E150” error code may be generated.)
+
+
+
+
+54                                                 BAS-311HN, BAS-326H
+                                                                                            8. LIST OF ERROR CODES
+
+
+Feed mechanism-related errors
+  Code                                               Cause of error and remedy
+         X-feed motor home position cannot be detected. Problem with X-feed motor or poor X home position sensor
+         connection.
+  E200
+         Turn off the power, and then check that connectors P17, P21 and P8 on the main P.C. board are properly
+         connected.
+         X-feed motor stopped due to a problem.
+  E201   Turn off the power, and then check if there are any problems in the X-feed direction.
+         Turn off the power, and then check that connectors P17 and P21 on the main P.C. board are properly connected.
+         X-feed motor stopped due to a problem during sewing.
+  E204   Turn off the power, and then check if there are any problems in the X-feed direction.
+         Turn off the power, and then check that connectors P17 and P21 on the main P.C. board are properly connected.
+         X-feed motor stopped due to a problem while moving to the sewing start position.
+  E205   Turn off the power, and then check if there are any problems in the X-feed direction.
+         Turn off the power, and then check that connectors P17 and P21 on the main P.C. board are properly connected.
+         X-feed motor stopped due to a problem during test feeding.
+  E206   Turn off the power, and then check if there are any problems in the X-feed direction.
+         Turn off the power, and then check that connectors P17 and P21 on the main P.C. board are properly connected.
+         Y-feed motor home position cannot be detected. Problem with Y-feed motor or poor Y home position sensor
+         connection.
+  E210
+         Turn off the power, and then check that connectors P18, P22 and P8 on the main P.C. board are properly
+         connected.
+         Y-feed motor stopped due to a problem.
+  E211   Turn off the power, and then check if there are any problems in the Y-feed direction.
+         Turn off the power, and then check that connectors P18 and P22 on the main P.C. board are properly connected.
+         Y-feed motor stopped due to a problem during sewing.
+  E214   Turn off the power, and then check if there are any problems in the Y-feed direction.
+         Turn off the power, and then check that connectors P18 and P22 on the main P.C. board are properly connected.
+         Y-feed motor stopped due to a problem while moving to the sewing start position.
+  E215   Turn off the power, and then check if there are any problems in the Y-feed direction.
+         Turn off the power, and then check that connectors P18 and P22 on the main P.C. board are properly connected.
+         Y-feed motor stopped due to a problem during test feeding.
+  E216   Turn off the power, and then check if there are any problems in the Y-feed direction.
+         Turn off the power, and then check that connectors P18 and P22 on the main P.C. board are properly connected.
+         Feed motor stopped due to a problem.
+  E230   Reduce the sewing speed or change the operation settings to the settings for heavy-weight materials.
+         Ask the place of purchase for details on the setting method.
+
+
+
+Work clamp-related errors
+ Code                                              Cause of error and remedy
+         Work clamp home position cannot be detected. Problem with work clamp motor or poor work clamp home
+         position sensor connection.
+ E300
+         Turn off the power, and then check that connectors P19, P23 and P8 on the main P.C. board are properly
+         connected.
+         Work clamp raised or lowered position cannot be detected.
+ E301    Turn off the power, and then check if there are any problems in the work clamp vertical direction. Turn off the
+         power, and then check that connectors P19 and P23 on the main P.C. board are properly connected.
+
+
+
+
+                                                 BAS-311HN, BAS-326H                                                 55
+8. LIST OF ERROR CODES
+
+
+Communication and memory-related errors
+  Code                                              Cause of error and remedy
+        Communication error detected between the main P.C. board and the panel P.C. board when the power was
+        turned on.
+  E400  Turn off the power, and then check that connector P10 on the programmer main P.C. board inside the LCD panel
+        and the connector on the right side of the control box and connectors P2 and P3 on the motor P.C. board are
+        properly connected.
+        Communication error detected between the main P.C. board and the motor P.C. board when the power was
+        turned on.
+  E401  Turn off the power, and then check that connector P10 on the programmer main P.C. board inside the LCD panel
+        and the connector on the right side of the control box and connectors P2 and P3 on the motor P.C. board are
+        properly connected.
+        Communication error detected between the main P.C. board and the panel P.C. board.
+        Turn off the power, and then turn it back on again. Turn off the power, and then check that connector P10 on the
+  E410
+        programmer main P.C. board inside the LCD panel and the connector on the right side of the control box and
+        connectors P2 and P3 on the motor P.C. board are properly connected.
+        Communication error detected between the main P.C. board and the motor P.C. board.
+        Turn off the power, and then turn it back on again. Turn off the power, and then check that connector P10 on the
+  E411
+        programmer main P.C. board inside the LCD panel and the connector on the right side of the control box and
+        connectors P2 and P3 on the motor P.C. board are properly connected.
+        No storage media is inserted.
+  E420  Press the RESET key to clear the error.
+        Insert the storage media and then try again.
+        The program number is invalid or it has no corresponding data.
+  E421  Press the RESET key to clear the error.
+        Check that data for this program number is present on the storage media.
+        Error occurred while reading from storage media.
+        Check the data.
+  E422
+        Press the RESET key to clear the error.
+        Check the data in the storage media.
+        Insufficient space in storage media.
+  E424  Press the RESET key to clear the error.
+        Use different storage media.
+        Error occurred while writing to storage media.
+        Check the storage media. The card may be write-protected.
+  E425
+        Press the RESET key to clear the error.
+        Use the specified storage media.
+        The program containing the specified cycle program has been cleared.
+  E427
+        Press the RESET key to clear the error. Redo the cycle program.
+        Data cannot be backed up to the main P.C. board (flash memory).
+  E430
+        Turn off the power, and then turn it back on again.
+        Data cannot be backed up to the main P.C. board (EEPROM).
+  E440
+        Turn off the power, and then turn it back on again.
+        Model selection cannot be read from the machine head memory.
+  E450
+        Turn off the power, and then check that connector P16 on the main P.C. board is properly connected.
+        Machine head memory is not connected.
+        Turn off the power, and then check that connector P16 on the main P.C. board is properly connected.
+  E452
+        * If you press the RESET key to clear the error, you can restart the machine using the backup data in the
+          machine head memory.
+        Problem with data in machine head memory.
+  E453
+        Turn off the power, and then turn it back on again.
+        The program number is invalid or it has no corresponding data. Check that data for this program number is
+  E471
+        present in the internal memory.
+        Internal memory is full and copying is not possible.
+  E474
+        Press the RESET key to clear the error. Clear the sewing data.
+
+
+
+
+56                                               BAS-311HN, BAS-326H
+                                                                                                    8. LIST OF ERROR CODES
+
+
+Data editing-related errors
+  Code                                                   Cause of error and remedy
+           The enlargement ratio setting caused the sewing data to extend outside the sewing area.
+  E500     Set the enlargement ratio again.
+           Press the RESET key to clear the error.
+           The enlargement ratio caused the data pitch to exceed the maximum pitch of 12.7 mm.
+  E502
+           Press the RESET key to clear the error. Set the enlargement ratio again.
+           Error in sewing data.
+  E510     Press the RESET key to clear the error.
+           If an error occurs while reading or revising the sewing data, revise the data.
+           No end code has been input into pattern data.
+  E511
+           Press the RESET key to clear the error.
+           Number of stitches exceeds allowed maximum.
+  E512
+           Press the RESET key to clear the error.
+           Extended option output number already exists.
+  E520     Change the extended option output number.
+           If not using the extended option output, initialize the data to clear the extended option output data.
+           Memory switch file cannot be read correctly.
+  E581     The model for the data which was read does not match the model being written to.
+           Press the RESET key to clear the error. Read data for the same sewing machine model.
+           Memory switch versions do not match.
+  E582
+           Press the RESET key to clear the error. Read data for the same version.
+           User program versions do not match.
+  E583
+           Press the RESET key to clear the error. Read data for the same version.
+
+Device-related errors
+  Code                                                Cause of error and remedy
+           Upper thread breakage occurred. Thread the upper thread. Re-sewing is then possible.
+  E600
+           Turn off the power, and then check that connectors P9 and P36 on the main P.C. board are properly connected.
+           Problem with the lower thread detector.
+  E670
+           Turn off the power, and then check the lower thread detector.
+
+
+
+
+                                                     BAS-311HN, BAS-326H                                               57
+8. LIST OF ERROR CODES
+
+
+P.C. board-related errors
+  Code                                                 Cause of error and remedy
+           Abnormal rise in power supply voltage.
+  E700
+           Turn off the power, and then check the input voltage.
+           Abnormal rise in upper shaft motor drive voltage.
+  E701
+           Turn off the power, and then check the voltage.
+           Abnormal drop in power supply voltage.
+  E705
+           Turn off the power, and then check the input voltage.
+           Abnormal current detected in upper shaft motor.
+           Turn off the power, and then check if there are any problems with the sewing machine.
+  E710
+           Turn off the power, and then check that connectors P11 and P1 on the motor P.C. board, connector P6 on the
+           main P.C. board and the 4-pin connector of the upper shaft motor on the motor P.C. board are properly inserted.
+           Abnormal current detected in pulse motor.
+   E711
+           Turn off the power, and then check if there are any problems with the work clamp operation.
+           External error input (AIRSW) detected.
+  E730
+           Turn off the power, and then check the air pressure.
+
+Version updating-related errors
+  Code                                                 Cause of error and remedy
+          No main control program is present.
+  E860
+          Install the main control program.
+          No panel control program is present.
+  E870
+          Install the panel control program.
+          Version update requests cannot be received.
+  E880
+          Turn off the power, and then turn it back on again.
+          Version updating did not complete normally.
+  E881
+          Turn off the power, and then repeat the version update procedure.
+          No control program is present in the storage media.
+  E883
+          Check that the control program has been saved into the correct folder.
+          There is a problem with the control program.
+  E884
+          Write the correct file into the storage media.
+ E887～
+          Version updating could not be carried out. Turn off the power, and then turn it back on again.
+  E890
+
+
+If an error code that is not listed above appears or if carrying out the specified remedy does not solve the problem,
+contact the place of purchase.
+
+
+
+
+58                                                 BAS-311HN, BAS-326H
+                                                                                                     9. TROUBLESHOOTING
+
+
+9. TROUBLESHOOTING
+・ Please check the following points before calling for repairs or service.
+・ If the following remedies do not fix the problem, turn off the power and consult a qualified technician or the place of
+  purchase.
+
+
+                                                         CAUTION
+        Turn off the power switch and disconnect the power cord before carrying out these operations.
+        The machine may operate if the foot switch is depressed by mistake, which could result in injury.
+
+
+
+
+         Problem                              Cause                                     Remedy                    Reference
+
+                                                                        Check if the machine head switch cord
+                                                                        is disconnected.                            P. 10
+ Sewing machine does
+ not start when the                                                     Adjust the position of the machine head      P. 8
+ power is turned on and      Machine head switch does not work.         switch.                                     P. 37
+ the foot switch is
+                                                                        If the machine head switch is
+ depressed.
+                                                                        malfunctioning, replace it with a new
+                                                                        one.
+
+                             Air cock is closed.                        Open the air cock.                          P. 48
+
+ Work clamp does not                                                    Adjust the regulator so that the air
+                             Air pressure is too weak.                                                              P. 48
+ work.・Work clamp                                                       pressure is about 0.5 MPa.
+ * Pneumatic work clamp
+   specifications only                                                  Adjust the speed controller by
+                             Speed controller has been tightened
+                                                                        loosening it 4 turns from the               P. 18
+                             too far.
+                                                                        fully-tightened position.
+
+ Thread wiper does not
+                             Thread wiper setting is OFF.               Set the thread wiper setting to ON.           *
+ work.
+                             Work clamp arm lever position is
+                                                                        Adjust the position of the work clamp
+                             incorrect.                                                                             P. 48
+                                                                        arm lever.
+ Work clamp does not         *Pneumatic work clamp specifications
+ rise to the maximum         Work clamp arm assembly stopper
+ height.                     position is incorrect.                     Adjust the position of the work clamp
+                             *Motor-driven work clamp                   arm assembly stopper.
+                              specifications
+ Work clamp pressure is
+ too weak.                                                              Adjust the regulator so that the air
+                             Air pressure is too weak.                                                              P. 48
+ * Pneumatic work clamp                                                 pressure is about 0.5 MPa.
+   specifications only
+ Work clamp pressure is
+ not uniform at front and    Work clamp is tilted.                      Adjust the tilt of the work clamp.
+ back of work clamp.
+
+                                                                        Adjust the height of the thread wiper.      P. 45
+                             The thread wiper is obstructing the
+ Thread wiper does not       needle.                                    Adjust the operating stroke of the
+                                                                                                                    P. 45
+ operate correctly.                                                     thread wiper.
+                                                                        Adjust the operating stroke of the
+                             Thread wiper position is incorrect.                                                    P. 45
+                                                                        thread wiper.
+
+                                                                                                     (Continued on next page)
+* Refer to the “LCD Panel/Operation Panel” Instruction Manual.
+
+
+
+                                                     BAS-311HN, BAS-326H                                                    59
+9. TROUBLESHOOTING
+
+
+
+       Problem                              Cause                                      Remedy                      Reference
+
+Lower thread winds to     Height of bobbin winder tension              Adjust the height of the bobbin winder
+                                                                                                                     P. 26
+one side.                 assembly is incorrect.                       tension assembly.
+Lower thread winding                                                   Adjust the position of the bobbin
+                          Bobbin presser position is incorrect.                                                      P. 26
+amount is incorrect.                                                   presser.
+                                                                       Select a needle that is suitable for the
+                          Needle is too thick.                                                                       P. 28
+                                                                       sewing conditions.
+                                                                       When threading the thread through the
+                                                                       needle, allow a distance of
+                                                                                                                     P. 23
+                                                                       approximately 42 mm between the
+                          Upper thread trailing length is too short.   needle hole and the end of the thread.
+Thread unraveling at                                                   Adjust the sub-tension so that the
+sewing start.                                                          upper thread trailing length after thread     P. 29
+                                                                       trimming is approximately 42 mm.
+                          Amount of lower thread being fed out         Set the feeding amount to
+                                                                                                                     P. 27
+                          from bobbin is too small.                    approximately 30 mm.
+
+                          Sewing start speed is too fast.              Adjust the sewing start speed.                  *
+
+                          Rotary hook tip is missing.                  Replace the part.
+
+                          Needle is too thin.
+                                                                       Select a needle that is suitable for the
+                                                                                                                     P. 28
+                                                                       sewing conditions.
+                          Needle is too thick.
+
+                          Needle is bent.                              Replace the needle.                           P. 22
+
+                                                                       Install the needle so that it faces
+                          Needle is not installed correctly.                                                         P. 22
+                                                                       correctly.
+                          Needle and rotary hook tip are
+                                                                       Adjust the driver needle guard.               P. 41
+                          touching.
+Skipped stitches occur.
+                          Clearance between needle and rotary
+                                                                       Adjust the needle clearance.                  P. 41
+                          hook tip is too large.
+                          Needle and rotary hook timing is
+                                                                       Adjust the timing.                            P. 40
+                          incorrect.
+                                                                       Replace the needle hole plate with one
+                                                                       with a smaller needle diameter.
+                                                                       Use a thinner feed plate.
+                                                                       * Recommended thickness: 1.5 mm
+                          Material is flapping.                        Process the work clamps and the feed
+                                                                                                                     P. 51
+                                                                       plate into shapes that can hold the
+                                                                                                                     P. 52
+                                                                       material near the seam.
+                                                                       Adjust the intermittent height of the
+                                                                                                                       *
+                                                                       intermittent presser foot.
+
+                                                                                                     (Continued on next page)
+
+
+
+
+60                                                BAS-311HN, BAS-326H
+                                                                                                     9. TROUBLESHOOTING
+
+
+
+        Problem                              Cause                                    Remedy                      Reference
+
+                                                                      Select a thread which is suitable for the
+                           Thread is too thick for the needle.                                                      P. 28
+                                                                      needle.
+                                                                      Install the needle so that it faces
+                           Needle is not installed correctly.                                                       P. 22
+                                                                      correctly.
+
+                           Thread is not threaded correctly.          Thread the thread correctly.                  P. 23
+                           Damage or burring in parts such as the
+                                                                      Repair the respective part by buffing it.
+                           rotary hook, needle hole plate, needle
+Upper thread is                                                       Alternatively, replace the part.
+                           or thread path.
+breaking.
+                           Needle and rotary hook timing is
+                                                                      Adjust the timing.                            P. 40
+                           incorrect.
+
+                           Upper thread tension is too strong.        Reduce the upper thread tension.              P. 29
+
+                           Thread take-up spring tension is too       Reduce the tension of the thread
+                                                                                                                    P. 39
+                           strong.                                    take-up spring.
+                                                                      Use a needle cooler unit (optional).          P. 23
+                           Thread breaks due to heat.
+                                                                      Reduce the sewing speed.                        *
+                           Damage to the needle hole plate or         Repair the respective part by buffing it.
+Lower thread is            bobbin case.                               Alternatively, replace the part.
+breaking.
+                           Lower thread tension is too strong.        Reduce the lower thread tension.              P. 28
+
+                           Needle is bent.                            Replace the needle.                           P. 22
+
+                                                                      Select a needle that is suitable for the
+                           Needle is too thin.                                                                      P. 28
+                                                                      sewing conditions.
+
+                                                                      Adjust the driver needle guard.               P. 41
+                           Needle and rotary hook tip are
+Needle breaks.             touching.
+                                                                      Adjust the needle clearance.                  P. 41
+
+                           Needle and rotary hook timing is
+                                                                      Adjust the timing.                            P. 40
+                           incorrect.
+
+                           Feed timing is too slow.                   Advance the feed timing.
+
+                                                                      Replace the movable knife with a new
+                           Movable knife is blunt.                                                                  P. 44
+                                                                      one.
+                                                                      Sharpen the fixed knife or replace it
+                           Fixed knife is blunt.                                                                    P. 44
+                                                                      with a new one.
+
+Upper thread is not cut.                                              Adjust the timing.                            P. 40
+                           Movable knife is not picking up the
+                           upper thread.                              Adjust the standby position of the            P. 42
+                                                                      movable knife.                                P. 43
+                           Movable knife is not picking up the
+                           needle thread because the last stitch is   Refer to "Skipped stitches occur".            P. 60
+                           being skipped.
+
+Lower thread is not cut.   Lower thread tension is too weak.          Increase the lower thread tension.            P. 28
+
+                                                                                                     (Continued on next page)
+
+
+
+
+                                                   BAS-311HN, BAS-326H                                                      61
+9. TROUBLESHOOTING
+
+
+
+        Problem                              Cause                                        Remedy                      Reference
+
+                                                                          Select a needle that is suitable for the
+                            Needle is too thin.                                                                         P. 28
+                                                                          sewing conditions.
+                            Hole diameter in needle hole plate is         Replace the needle hole plate with one
+                            too small.                                    with a larger hole diameter.
+                                                                          Use a thicker feed plate.
+                            Feed plate is too thin.
+                                                                          *Recommended thickness: 1.5 mm
+                            Hole diameter of intermittent presser         Replace the intermittent presser foot
+                            foot is too small.                            with one with a larger hole diameter.
+                            Sliding parts of outer rotary hook and
+                                                                          Lubricate the felts for the sliding parts
+                            inner hook have little or no sewing                                                         P. 20
+                                                                          of the outer rotary hook and inner hook.
+Upper thread is not         machine oil.
+tight.                      Damage or burring in parts such as the
+                                                                          Repair the respective part by buffing it.
+                            rotary hook, needle hole plate, needle
+                                                                          Alternatively, replace the part.
+                            or thread path.
+
+                            Lower thread tension is too strong.           Reduce the lower thread tension.              P. 28
+
+                                                                          Increase the upper thread tension.
+                            Upper thread tension is too weak.             *Adjust the upper thread tension after        P. 29
+                                                                            adjusting the lower thread tension.
+                            Thread take-up spring tension is too          Increase the tension of the thread
+                                                                                                                        P. 39
+                            weak.                                         take-up spring.
+
+                            Feed timing is too fast.                      Retard the feed timing.
+
+                            Intermittent height of        intermittent    Adjust the intermittent height of the
+                                                                                                                          *
+                            presser foot is too low.                      intermittent presser foot.
+
+                                                                          Adjust the driver needle guard.               P. 41
+                            Needle and       rotary    hook   tip   are
+                            touching.
+                                                                          Adjust the needle clearance.                  P. 41
+                    0573M
+
+Lower thread is not
+                            Lower thread tension is too weak.             Increase the lower thread tension.            P. 28
+tight.
+                                                                          Reduce the upper thread tension.
+                            Upper thread tension is too strong.           *Adjust the upper thread tension after        P. 29
+                    0574M                                                   adjusting the lower thread tension.
+Poor seam finish on                                                       Adjust the sub-tension so that the
+underside of material at    Upper thread trailing length is too long.     upper thread trailing length after thread     P. 29
+the sewing start.                                                         trimming is approximately 42 mm.
+                                                                          Replace the movable knife with a new
+                            Movable knife is blunt.                                                                     P. 44
+                                                                          one.
+                                                                          Sharpen the fixed knife or replace it
+                            Fixed knife is blunt.                                                                       P. 44
+Upper thread trailing                                                     with a new one.
+length is irregular.
+                            Sub-tension is too weak.                      Adjust the sub-tension.                       P. 29
+
+                            Thread take-up spring tension is too          Increase the tension of the thread
+                                                                                                                        P. 39
+                            weak.                                         take-up spring.
+                                                                          If using a heavy work clamp and feed
+                                                                          plate, change the operation settings to
+                            Work clamp and feed plate are too
+Pattern is distorted.                                                     the settings for heavy-weight materials.
+                            heavy.
+                                                                          Ask the place of purchase for details on
+                                                                          the setting method.
+
+
+
+
+62                                                  BAS-311HN, BAS-326H
+                                               INSTRUCTION MANUAL
+
+
+
+
+* Please note that the contents of this manual may differ slightly from the actual product purchased as a result of product improvements.
+
+
+
+
+© 2015 Brother Industries, Ltd. All Rights Reserved.                                                           BAS-311HN, BAS-326H
+This is the original instructions.                                                                                     I5041049B E
+                                                                                                                       2015.08. B (1)
+

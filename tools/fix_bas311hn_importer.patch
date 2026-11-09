@@ -1,0 +1,55 @@
+--- tools/import_bas311hn_page29.py
++++ tools/import_bas311hn_page29.py
+@@
+APPROVED_STATUSES = {
+"VERIFIED",
+"VERIFIED_NOT_APPLICABLE",
+}
++KNOWN_STATUSES = APPROVED_STATUSES | {
+
++ "REVIEW_REQUIRED",
+
++ "VARIANT_OPTION_REVIEW",
+  +}
+  @@
+  ref = int(row["catalog_ref"])
+  refs.append(ref)
+
++    status = row["verification"].strip()
+
++    if status not in KNOWN_STATUSES:
+
++        stop(f"Ref {ref}: status tidak dikenal: {status!r}.")
+
++    if row["diagram_page"].strip() != str(PAGE):
+
+@@
+if doc[0] != MACHINE_ID:
+stop("Dokumen sumber bukan milik mesin ID 227.")
+
++ if doc[1] != "parts_catalog":
++    stop("Jenis dokumen sumber bukan parts_catalog.")
+  if doc[2] != SOURCE_URL:
+  @@
+
+-        + datetime.now().strftime("%Y%m%d-%H%M%S")
+
++        + datetime.now().strftime("%Y%m%d-%H%M%S-%f")
+
+@@
+
+-        relation_count = con.execute("""
+-            SELECT COUNT(*) FROM component_parts
+-            WHERE component_id=?
+-        """, (category_id,)).fetchone()[0]
+
++        placeholders = ",".join("?" for _ in inserted_ids)
++        relation_count = con.execute(
++            f"""
++            SELECT COUNT(*) FROM component_parts
++            WHERE component_id=?
++              AND part_id IN ({placeholders})
++            """,
++            (category_id, *inserted_ids),
++        ).fetchone()[0]
+

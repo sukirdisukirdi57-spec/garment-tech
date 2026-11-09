@@ -46,10 +46,12 @@
     <label for="component_id">3. Pilih Mekanisme / Bagian Mesin</label>
     <select id="component_id" name="component_id"
         {% if not machine_id %}disabled{% endif %}
-        onchange="this.form.submit()">
+        onchange="this.form.elements['search'].value=''; this.form.submit()">
         <option value="">-- Semua Mekanisme pada Mesin --</option>
-        {% for item in component_options %}
+{% for item in component_options %}
+        {% if not (machine_id == 227 and item['id'] in [530, 531, 532, 533]) %}
         <option value="{{ item['id'] }}" {% if component_id == item['id'] %}selected{% endif %}>{{ item['component_name'] }}{% if item['part_number'] %} — Part: {{ item['part_number'] }}{% endif %}</option>
+        {% endif %}
         {% endfor %}
     </select>
 
@@ -97,6 +99,12 @@
                             <td style="padding:8px 4px;white-space:nowrap;">{{ loop.index }}</td>
                             <td style="padding:8px 6px;white-space:nowrap;">
                                 <strong>{{ part["part_number"] }}</strong>
+                                {% if part["note"] and part["note"].startswith("#") %}
+                                <br>
+                                <small style="color:#64748b;">
+                                    Marker katalog: {{ part["note"] }}
+                                </small>
+                                {% endif %}
                             </td>
                             <td style="padding:10px;min-width:220px;white-space:normal;overflow-wrap:normal;word-break:normal;">{{ (part["part_name"] or "-") | replace("_", " ") }}</td>
                             <td style="padding:10px;">
@@ -126,6 +134,22 @@
                 <strong>Mekanisme:</strong>
                 {{ selected_mechanism["component_name"] if selected_mechanism else "Mekanisme terpilih" }}
             </p>
+
+            {% if selected_mechanism and selected_mechanism["image_path"] %}
+            <div style="margin: 14px 0;">
+                <a href="{{ url_for('static', filename=selected_mechanism['image_path']) }}"
+                   target="_blank">
+                    <img
+                        src="{{ url_for('static', filename=selected_mechanism['image_path']) }}"
+                        alt="{{ selected_mechanism['component_name'] }}"
+                        loading="lazy"
+                        decoding="async"
+                        style="display:block; width:100%; max-width:700px; max-height:500px; object-fit:contain; border-radius:10px;"
+                    >
+                </a>
+                <small>Diagram mekanisme — ketuk gambar untuk memperbesar.</small>
+            </div>
+            {% endif %}
 
             {% if mechanism_parts %}
             <div style="overflow-x:auto;">
@@ -179,7 +203,7 @@
             </p>
         </section>
 
-    {% elif components_data %}
+    {% elif components_data and not search %}
 
         {% for component in components_data %}
 
@@ -281,7 +305,7 @@
     </nav>
     {% endif %}
 
-    {% else %}
+    {% elif not search %}
 
         <section class="welcome">
             <h3>🔍 Tidak ada komponen</h3>

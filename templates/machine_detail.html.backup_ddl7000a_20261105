@@ -1,0 +1,1148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{ machine["brand_name"] or "Mesin" }} {{ machine["model"] }} | Spesifikasi & Troubleshooting Mesin Garment</title>
+<meta name="description" content="{{ machine['brand_name'] or 'Mesin' }} {{ machine['model'] }}{% if machine['type_name'] %} - {{ machine['type_name'] }}{% endif %}. Informasi spesifikasi, fungsi, komponen, troubleshooting, dan dokumentasi mesin jahit industri.">
+<link rel="canonical" href="{{ request.url }}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ machine['brand_name'] or 'Mesin' }} {{ machine['model'] }} | Garment Machine Tech Database">
+<meta property="og:description" content="Informasi teknis {{ machine['brand_name'] or 'mesin' }} {{ machine['model'] }}{% if machine['function'] %}: {{ machine['function'] }}{% endif %}.">
+<meta property="og:url" content="{{ request.url }}">
+
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<header>
+    <h1>🔎 DETAIL MESIN</h1>
+    <p>Garment Machine Tech Database</p>
+</header>
+
+<main>
+
+    <section class="machine-hero">
+
+        <div class="machine-hero-label">
+            🔎 DETAIL MESIN
+        </div>
+
+        <h2>
+            {{ machine["brand_name"] or "Merek belum ada" }}
+        </h2>
+
+        <div class="machine-model">
+            {{ machine["model"] }}
+        </div>
+
+        <div class="machine-meta">
+            <span>
+                ⚙️ {{ machine["type_name"] or "Jenis belum ditentukan" }}
+            </span>
+
+            <span>
+                🔧 {{ machine["function"] or "Fungsi belum ada" }}
+            </span>
+        </div>
+
+        <div class="machine-description">
+            <strong>Deskripsi Mesin</strong>
+            <p>
+                {{ machine["description"] or "Belum ada deskripsi" }}
+            </p>
+        </div>
+
+        {% if machine["notes"] %}
+        <div class="machine-description">
+            <strong>Catatan Mesin &amp; Referensi Varian</strong>
+            <p style="white-space: pre-wrap; overflow-wrap: anywhere;">{{ machine["notes"] }}</p>
+        </div>
+        {% endif %}
+
+    </section>
+
+    <section id="needle-compatibility">
+        <h2>🪡 Jarum dan Kecocokan Mesin</h2>
+        <div class="needle-compat-warning">
+            <strong>Perhatian: relasi bukan jaminan kecocokan.</strong>
+            <p>Periksa sistem jarum, varian pada pelat mesin, ukuran, bahan, titik jarum, dan manual resmi sebelum memilih jarum.</p>
+        </div>
+
+        {% if needle_compatibility_data %}
+            {% for item in needle_compatibility_data %}
+            <article class="machine-card">
+                <h3>{{ item["needle_brand"] or "Merek jarum belum diisi" }} — {{ item["needle_system"] or "Sistem belum diisi" }}</h3>
+                {% if item["manufacturer_size"] %}
+                <p><strong>Nomor produsen:</strong> {{ item["manufacturer_size"] }}</p>
+                {% endif %}
+                {% if item["size_nm_value"] is not none %}
+                <p><strong>Ukuran NM:</strong> {{ item["size_nm_value"]|int if item["size_nm_value"] == item["size_nm_value"]|int else item["size_nm_value"] }}</p>
+                {% elif item["size_nm"] %}
+                <p><strong>Ukuran:</strong> {{ item["size_nm"] }}</p>
+                {% endif %}
+                <p><strong>Status relasi:</strong> {{ item["compatibility_status"] or "Belum diverifikasi" }}</p>
+                {% if item["notes"] %}
+                <p><strong>Catatan:</strong> {{ item["notes"] }}</p>
+                {% endif %}
+                {% if item["source_url"] %}
+                <p><a href="{{ item["source_url"] }}" target="_blank" rel="noopener noreferrer">Buka referensi kompatibilitas</a></p>
+                {% endif %}
+                <p><a href="/needle/{{ item['needle_id'] }}">Lihat detail jarum</a></p>
+            </article>
+            {% endfor %}
+        {% else %}
+            <p>Belum ada relasi jarum yang tercatat untuk mesin ini.</p>
+        {% endif %}
+    </section>
+
+    <nav class="detail-nav">
+        <a href="#documents">📚 Dokumen</a>
+        <a href="#troubleshooting">🔧 Troubleshooting</a>
+        <a href="#official-alarms">🚨 Alarm Resmi</a>
+        <a href="#specifications">⚙️ Spesifikasi</a>
+        <a href="#components">🔩 Komponen</a>
+        <a href="#section27-catalog">📑 Section 27</a>
+        <a href="#parts-list">📦 Parts</a>
+        <a href="#technician-notes">📝 Catatan Teknisi</a>
+    </nav>
+
+    {% if session.get("admin_logged_in") and machine["brand_name"] == "JUKI" and machine["model"] == "DDL-8700" %}
+    <section>
+        <p>
+            <form method="POST"
+              action="/import-juki/{{ machine['id'] }}"
+              style="display:inline;">
+            <button type="submit" class="add-button">
+                🔄 Ambil Data Resmi JUKI
+            </button>
+        </form>
+        </p>
+        <p>
+            <small>
+                Mengambil spesifikasi DDL-8700 dari halaman resmi JUKI.
+            </small>
+        </p>
+    </section>
+    {% endif %}
+
+
+    <section id="documents">
+    <style>
+    #documents details.machine-card > summary,
+    #official-alarms details.machine-card > summary,
+    #components details.machine-card > summary {
+        cursor: pointer;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+        font-weight: 600;
+    }
+    #documents summary::-webkit-details-marker,
+    #official-alarms summary::-webkit-details-marker,
+    #components summary::-webkit-details-marker {
+        display: none;
+    }
+    #documents summary::after,
+    #official-alarms summary::after,
+    #components summary::after {
+        content: "＋";
+        margin-left: auto;
+        font-size: 1.1rem;
+    }
+    #documents details[open] > summary::after,
+    #official-alarms details[open] > summary::after,
+    #components details[open] > summary::after {
+        content: "−";
+    }
+    #documents .accordion-detail,
+    #official-alarms .accordion-detail,
+    #components .accordion-detail {
+        padding-top: 12px;
+    }
+    </style>
+
+    <h2>📚 Dokumen & Referensi</h2>
+
+    {% if documents %}
+        {% for document in documents %}
+        <details class="machine-card">
+            <summary>{{ document["title"] }}</summary>
+            <div class="accordion-detail">
+                {% if document["document_type"] %}
+                <p><strong>Jenis:</strong> {{ document["document_type"] }}</p>
+                {% endif %}
+
+                {% if document["notes"] %}
+                <p><strong>Keterangan:</strong><br>{{ document["notes"] }}</p>
+                {% endif %}
+
+                {% if document["source_url"] %}
+                <p>
+                    <a href="{{ document["source_url"] }}"
+                       target="_blank" rel="noopener noreferrer"
+                       class="add-button">🔗 Buka Dokumen</a>
+                </p>
+                {% endif %}
+
+                {% if document["local_file"] %}
+                <p>
+                    <a href="{{ url_for('local_file', filename=document['local_file']) }}"
+                       target="_blank" rel="noopener noreferrer"
+                       class="add-button">📄 Buka File Lokal</a>
+                </p>
+                {% endif %}
+            </div>
+        </details>
+        {% endfor %}
+    {% else %}
+        <p>Belum ada dokumen atau referensi.</p>
+    {% endif %}
+</section>
+
+
+    
+<style>
+#troubleshooting details.machine-card > summary,
+#specifications details.machine-card > summary {
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    font-weight: 600;
+}
+#troubleshooting details.machine-card > summary::-webkit-details-marker,
+#specifications details.machine-card > summary::-webkit-details-marker {
+    display: none;
+}
+#troubleshooting details.machine-card > summary::after,
+#specifications details.machine-card > summary::after {
+    content: "＋";
+    margin-left: auto;
+    font-size: 1.1rem;
+}
+#troubleshooting details.machine-card[open] > summary::after,
+#specifications details.machine-card[open] > summary::after {
+    content: "−";
+}
+#troubleshooting .accordion-detail,
+#specifications .accordion-detail {
+    padding-top: 12px;
+}
+</style>
+
+<section id="troubleshooting">
+    <h2>🔧 Troubleshooting Mesin</h2>
+    {% if troubleshooting_data %}
+        {% for item in troubleshooting_data %}
+        <details class="machine-card">
+            <summary>
+                <span>{{ item["problem"] }}</span>
+                {% if item["code"] %}
+                <span class="troubleshooting-code">
+                    Kode: {{ item["code"] }}
+                </span>
+                {% endif %}
+            </summary>
+            <div class="accordion-detail">
+                {% if item["symptoms"] %}
+                <p><strong>Gejala:</strong><br>{{ item["symptoms"] }}</p>
+                {% endif %}
+                {% if item["possible_cause"] %}
+                <p><strong>Kemungkinan Penyebab:</strong><br>{{ item["possible_cause"] }}</p>
+                {% endif %}
+                {% if item["solution"] %}
+                <p><strong>Solusi:</strong><br>{{ item["solution"] }}</p>
+                {% endif %}
+                {% if item["safety_notes"] %}
+                <p><strong>⚠️ Catatan Keselamatan:</strong><br>{{ item["safety_notes"] }}</p>
+                {% endif %}
+                {% if item["source"] %}
+                <p><strong>Sumber:</strong><br>{{ item["source"] }}</p>
+                {% endif %}
+            </div>
+        </details>
+        {% endfor %}
+    {% else %}
+        <p>Belum ada data troubleshooting untuk mesin ini.</p>
+    {% endif %}
+</section>
+
+<section id="official-alarms">
+    <h2>🚨 Alarm Resmi Mesin</h2>
+
+    {% if session.get("admin_logged_in") %}
+    <p class="official-alarm-add-action">
+        <a class="add-button" href="/admin/machine-alarms/add/{{ machine['id'] }}">
+            + Tambah Alarm Resmi
+        </a>
+    </p>
+    {% endif %}
+
+    {% if machine_alarms_data %}
+        {% for alarm in machine_alarms_data %}
+        <details class="machine-card">
+            <summary>
+                {{ alarm["alarm_code"] }} — {{ alarm["alarm_name"] }}
+            </summary>
+            <div class="accordion-detail">
+                {% if session.get("admin_logged_in") %}
+                <p>
+                    <a href="/admin/machine-alarms/{{ alarm['id'] }}/edit">Edit</a>
+                </p>
+                <form method="POST"
+                      action="/admin/machine-alarms/{{ alarm['id'] }}/delete"
+                      onsubmit="return confirm('Hapus alarm resmi ini?');">
+                    <input type="hidden" name="_csrf_token" value="{{ csrf_token() }}">
+                    <button type="submit">Hapus Alarm</button>
+                </form>
+                {% endif %}
+
+                {% if alarm["possible_cause"] %}
+                <p><strong>Kemungkinan penyebab:</strong><br>
+                    {{ alarm["possible_cause"] }}</p>
+                {% endif %}
+
+                {% if alarm["solution"] %}
+                <p><strong>Tindakan:</strong><br>
+                    {{ alarm["solution"] }}</p>
+                {% endif %}
+
+                <p>
+                    <strong>Referensi:</strong>
+                    {{ alarm["manual_title"] }},
+                    versi {{ alarm["manual_version"] }},
+                    {{ alarm["manual_chapter"] }},
+                    halaman {{ alarm["manual_page"] }}.
+                </p>
+
+                {% if alarm["source_url"] %}
+                <p>
+                    <a href="{{ alarm["source_url"] }}"
+                       target="_blank" rel="noopener noreferrer">
+                        Buka sumber manual
+                    </a>
+                </p>
+                {% endif %}
+            </div>
+        </details>
+        {% endfor %}
+    {% else %}
+        <p>Belum ada alarm resmi yang tercatat untuk mesin ini.</p>
+    {% endif %}
+</section>
+
+
+<section id="specifications">
+    <h2>⚙️ Spesifikasi</h2>
+    {% if session.get("admin_logged_in") %}
+    <p>
+        <a href="/add-specification/{{ machine['id'] }}" class="add-button">
+            ➕ Tambah Spesifikasi
+        </a>
+    </p>
+    {% endif %}
+
+    {% if specifications %}
+        {% for spec in specifications %}
+        <details class="machine-card">
+            <summary>
+                <span>{{ spec["specification"] }}</span>
+                <span>Nilai: {{ spec["value"] or "Belum ada nilai" }}</span>
+            </summary>
+            <div class="accordion-detail">
+                {% if spec["notes"] %}
+                <p><strong>Catatan:</strong><br>{{ spec["notes"] }}</p>
+                {% endif %}
+                {% if spec["description"] %}
+                <p><strong>Deskripsi:</strong><br>{{ spec["description"] }}</p>
+                {% endif %}
+
+                {% if session.get("admin_logged_in") %}
+                <p>
+                    <a href="/edit-specification/{{ spec['id'] }}"
+                       class="add-button">✏️ Edit</a>
+                    <form method="POST"
+                          action="/delete-specification/{{ spec['id'] }}"
+                          style="display:inline;"
+                          onsubmit="return confirm('Hapus spesifikasi ini?');">
+                        <button type="submit" class="add-button">
+                            🗑️ Hapus
+                        </button>
+                    </form>
+                </p>
+                {% endif %}
+            </div>
+        </details>
+        {% endfor %}
+    {% else %}
+        <p>Belum ada data spesifikasi.</p>
+    {% endif %}
+</section>
+
+
+
+    <section id="components">
+    <h2>🔩 Komponen</h2>
+
+    {% if session.get("admin_logged_in") %}
+    <p>
+        <a href="/add-component/{{ machine['id'] }}" class="add-button">
+            ➕ Tambah Komponen
+        </a>
+    </p>
+    {% endif %}
+
+    {% if components %}
+        {% for component in components %}
+        <details class="machine-card">
+            <summary>
+                {{ component["component_name"] }}
+                {% if component["part_number"] %}
+                — {{ component["part_number"] }}
+                {% endif %}
+            </summary>
+            <div class="accordion-detail">
+                {% if component["catalog_ref"] %}
+                <p><strong>📖 Ref. Katalog:</strong>
+                    {{ component["catalog_ref"] }}</p>
+                {% endif %}
+
+                {% if component["diagram_page"] %}
+                <p><strong>📄 Halaman Diagram:</strong>
+                    {{ component["diagram_page"] }}</p>
+                {% endif %}
+
+                {% if component["location"] %}
+                <p><strong>Lokasi:</strong>
+                    {{ component["location"] }}</p>
+                {% endif %}
+
+                {% if component["function"] %}
+                <p><strong>Fungsi:</strong><br>
+                    {{ component["function"] }}</p>
+                {% endif %}
+
+                {% if component["notes"] %}
+                <p><strong>Catatan:</strong><br>
+                    {{ component["notes"] }}</p>
+                {% endif %}
+
+                {% if machine["id"] == 43 %}
+                {% set page_catalog_parts = catalog_parts_by_page.get(component["diagram_page"], []) %}
+
+                {% if component["image_path"] %}
+                <div class="component-image">
+                    <button type="button"
+                            class="diagram-open machine43-diagram-open"
+                            data-diagram-src="{{ url_for('static', filename=component['image_path']) }}"
+                            aria-label="Perbesar diagram {{ component['component_name'] }}">
+                        <img
+                            src="{{ url_for('static', filename=component['image_path']) }}"
+                            alt="{{ component['component_name'] }}"
+                            loading="lazy">
+                        <span>🔍 Ketuk gambar untuk memperbesar</span>
+                    </button>
+                </div>
+                {% endif %}
+
+                {% if page_catalog_parts %}
+                <section class="component-info juki-catalog-parts">
+                    <h3>Daftar Spare Part — PDF {{ component["diagram_page"] }}</h3>
+                    <p>{{ page_catalog_parts|length }} kemunculan part dari katalog resmi JUKI.</p>
+                    <div class="component-subparts-wrapper">
+                        <table class="component-subparts">
+                            <thead>
+                                <tr>
+                                    <th>Ref.</th>
+                                    <th>Part Number</th>
+                                    <th>Part Name</th>
+                                    <th>Qty</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            {% for part in page_catalog_parts %}
+                                <tr>
+                                    <td>
+                                        {{ part["catalog_ref"] or "—" }}
+                                        {% if part["marker"] %}
+                                            <span>{{ part["marker"] }}</span>
+                                        {% endif %}
+                                    </td>
+                                    <td><strong>{{ part["part_number"] or "—" }}</strong></td>
+                                    <td>{{ part["part_name"] or "—" }}</td>
+                                    <td>{{ part["quantity_raw"] or "—" }}</td>
+                                </tr>
+                            {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+                {% endif %}
+                {% endif %}
+
+                {% set component_subparts = component_parts
+                    | selectattr("component_id", "equalto", component["id"])
+                    | list %}
+
+                {% if component_subparts %}
+                <div class="component-subparts">
+                    <strong>🔗 Relasi part:</strong>
+                    <ul>
+                        {% for subpart in component_subparts %}
+                        <li>
+                            <strong>{{ subpart["part_number"] or "—" }}</strong>
+                            — {{ subpart["part_name"] or "Nama part belum tersedia" }}
+
+                            {% if subpart["relation_type"] == "catalog_section" %}
+                            <small>(📖 Bagian katalog)</small>
+                            {% elif subpart["relation_type"] == "catalog_option" %}
+                            <small>(⚠️ Opsi katalog — verifikasi sebelum pemesanan)</small>
+                            {% elif subpart["relation_type"] %}
+                            <small>(Relasi: {{ subpart["relation_type"] }})</small>
+                            {% endif %}
+
+                            {% if subpart["relation_notes"] %}
+                            <div><small>{{ subpart["relation_notes"] }}</small></div>
+                            {% endif %}
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+
+                {% if session.get("admin_logged_in") %}
+                <p>
+                    <a href="/edit-component/{{ component['id'] }}"
+                       class="add-button">✏️ Edit</a>
+
+                    <form method="POST"
+                          action="/delete-component/{{ component['id'] }}"
+                          style="display:inline;"
+                          onsubmit="return confirm('Hapus komponen ini?');">
+                        <button type="submit" class="add-button">🗑️ Hapus</button>
+                    </form>
+                </p>
+                {% endif %}
+            </div>
+        </details>
+        {% endfor %}
+    {% else %}
+        <p>Belum ada data komponen.</p>
+    {% endif %}
+</section>
+
+
+    {% if machine["id"] == 44 and section27_parts %}
+    <section id="section27-catalog">
+        <h2>Section 27 — OPTIONAL PART COMPONENTS (3)</h2>
+        <p><strong>Source:</strong> PDF page 53 (printed page 52).</p>
+        <p><strong>Total catalog entries:</strong> {{ section27_parts|length }}</p>
+        <div style="overflow-x:auto;">
+            <table style="width:100%; border-collapse:collapse;">
+                <thead><tr><th>REF</th><th>Marker</th><th>Part Number</th><th>Part Name</th><th>Qty</th></tr></thead>
+                <tbody>
+                {% for item in section27_parts %}
+                    <tr>
+                        <td>{{ item["catalog_ref"] }}</td>
+                        <td>{{ item["marker"] }}</td>
+                        <td>{{ item["part_number"] }}</td>
+                        <td>{{ item["part_name"] }}</td>
+                        <td>{{ item["quantity_raw"] }}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        <p>Source: JUKI AMS-210EN Series PARTS LIST, PDF page 52.</p>
+    </section>
+    {% endif %}
+
+    <section id="parts-list">
+
+        <h2>📦 Parts List</h2>
+
+        {% if parts %}
+
+        <div class="machine-card">
+
+            <p>
+                <strong>Total Parts:</strong>
+                <span id="parts-total">{{ parts|length }}</span>
+            </p>
+
+            <p>
+                <label for="parts-search">
+                    🔎 <strong>Cari Part:</strong>
+                </label>
+                <input
+                    type="search"
+                    id="parts-search"
+                    placeholder="Nomor part atau nama part..."
+                    style="width:100%; padding:10px; margin-top:5px;"
+                >
+            </p>
+
+            <p>
+                <label for="parts-catalog">
+                    📖 <strong>Ref. Katalog:</strong>
+                </label>
+                <select
+                    id="parts-catalog"
+                    style="width:100%; padding:10px; margin-top:5px;"
+                >
+                    <option value="">Semua Ref. Katalog</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="parts-page">
+                    📄 <strong>Halaman Diagram:</strong>
+                </label>
+                <select
+                    id="parts-page"
+                    style="width:100%; padding:10px; margin-top:5px;"
+                >
+                    <option value="">Semua Halaman</option>
+                </select>
+            </p>
+
+            <p>
+                <strong>Hasil:</strong>
+                <span id="parts-result-count">{{ parts|length }}</span>
+            </p>
+
+        </div>
+
+        <div style="overflow-x:auto;">
+
+            <table id="parts-table"
+                   style="width:100%; border-collapse:collapse;">
+
+                <thead>
+                    <tr>
+                        <th style="padding:8px; text-align:left;">No</th>
+                        <th style="padding:8px; text-align:left;">Nomor Part</th>
+                        <th style="padding:8px; text-align:left;">Nama Part</th>
+                        <th style="padding:8px; text-align:center;">Qty</th>
+                        <th style="padding:8px; text-align:center;">Ref.</th>
+                        <th style="padding:8px; text-align:center;">Page</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+
+                    {% if machine["id"] == 4 %}
+                    {% set ddl_sections = {
+                        2: 'Frame & Miscellaneous Cover Components',
+                        4: 'Bobbin Winder Components',
+                        6: 'Main Shaft Components',
+                        8: 'Needle Bar, Upright Shaft & Hook Driving Shaft',
+                        10: 'Hand Lifter Components',
+                        12: 'Feed Mechanism Components',
+                        14: 'Thread Trimmer Components',
+                        15: 'Automatic Reverse Feed Components',
+                        16: 'Exclusive Parts Type NB',
+                        18: 'Oil Lubrication Components',
+                        20: 'Oil Reservoir Components',
+                        21: 'Accessories Parts Components',
+                        22: 'Thread Stand Components',
+                        23: 'PSC Unit'
+                    } %}
+                    {% set ddl_images = {
+                        2: 'section-01-frame_miscellaneous.png',
+                        4: 'section-02-bobbin_winder.png',
+                        6: 'section-03-main_shaft.png',
+                        8: 'section-04-needle_bar.png',
+                        10: 'section-05-hand_lifter.png',
+                        12: 'section-06-feed_mechanism.png',
+                        14: 'section-07-thread_trimmer.png',
+                        15: 'section-08-automatic_reverse.png',
+                        16: 'section-09-exclusive_parts_nb.png',
+                        18: 'section-10-oil_lubrication.png',
+                        20: 'section-11-oil_reservoir.png',
+                        21: 'section-12-accessories.png',
+                        22: 'section-13-thread_stand.png',
+                        23: 'section-14-psc_unit.png'
+                    } %}
+                    {% set ns = namespace(index=0) %}
+                    {% for page, section_parts in parts|groupby("diagram_page") %}
+                    {% set section_title = ddl_sections.get(page|int, "Section katalog") %}
+                    <tr class="ddl-section-row"
+                        data-section-page="{{ page }}"
+                        data-expanded="false">
+                        <td colspan="6" style="padding:10px; background:#eef3f8;">
+                            <button type="button" class="ddl-section-toggle"
+                                    aria-expanded="false"
+                                    style="width:100%; padding:10px; text-align:left; font-weight:bold;">
+                                ▶ Section {{ loop.index }} — {{ section_title }}
+                                ({{ section_parts|length }} part)
+                            </button>
+                        </td>
+                    </tr>
+                    <tr class="ddl-section-image-row"
+                        data-section-page="{{ page }}" style="display:none;">
+                        <td colspan="6" style="padding:12px; text-align:center;">
+                            <img src="{{ url_for('static', filename='images/mechanisms/juki/ddl7000a/' ~ ddl_images.get(page|int, '')) }}"
+                                 alt="Diagram {{ section_title }}"
+                                 loading="lazy"
+                                 style="display:block; max-width:100%; height:auto; margin:0 auto;">
+                        </td>
+                    </tr>
+                    {% for part in section_parts %}
+                    {% set ns.index = ns.index + 1 %}
+                    <tr class="part-row"
+                        data-section-page="{{ page }}"
+                        data-search="{{ part['part_number'] }} {{ part['part_name'] }}"
+                        data-catalog="{{ part['catalog_ref'] or '' }}"
+                        data-page="{{ part['diagram_page'] or '' }}"
+                        style="display:none;">
+                        <td style="padding:8px;">{{ ns.index }}</td>
+                        <td style="padding:8px;"><strong>{{ part["part_number"] }}</strong></td>
+                        <td style="padding:8px;">{{ part["part_name"] }}</td>
+                        <td style="padding:8px; text-align:center;">{{ part["quantity"] or "" }}</td>
+                        <td style="padding:8px; text-align:center;">{{ part["catalog_ref"] or "" }}</td>
+                        <td style="padding:8px; text-align:center;">{{ part["diagram_page"] or "" }}</td>
+                    </tr>
+                    {% endfor %}
+                    {% endfor %}
+                    {% else %}
+                    {% for part in parts %}
+                    <tr
+                        class="part-row"
+                        data-search="{{ part['part_number'] }} {{ part['part_name'] }}"
+                        data-catalog="{{ part['catalog_ref'] or '' }}"
+                        data-page="{{ part['diagram_page'] or '' }}"
+                    >
+
+                        <td style="padding:8px;">
+                            {{ loop.index }}
+                        </td>
+
+                        <td style="padding:8px;">
+                            <strong>{{ part["part_number"] }}</strong>
+                        </td>
+
+                        <td style="padding:8px;">
+                            {{ part["part_name"] }}
+                        </td>
+
+                        <td style="padding:8px; text-align:center;">
+                            {{ part["quantity"] or "" }}
+                        </td>
+
+                        <td style="padding:8px; text-align:center;">
+                            {{ part["catalog_ref"] or "" }}
+                        </td>
+
+                        <td style="padding:8px; text-align:center;">
+                            {{ part["diagram_page"] or "" }}
+                        </td>
+
+                    </tr>
+                    {% endfor %}
+                    {% endif %}
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+        <p id="parts-empty"
+           style="display:none;">
+            Tidak ada Parts yang sesuai dengan filter.
+        </p>
+
+        <script>
+        (function () {
+
+            const searchInput = document.getElementById("parts-search");
+            const catalogSelect = document.getElementById("parts-catalog");
+            const pageSelect = document.getElementById("parts-page");
+            const resultCount = document.getElementById("parts-result-count");
+            const emptyMessage = document.getElementById("parts-empty");
+            const rows = Array.from(
+                document.querySelectorAll("#parts-table .part-row")
+            );
+            const sectionHeaders = Array.from(
+                document.querySelectorAll("#parts-table .ddl-section-row")
+            );
+            const imageRows = Array.from(
+                document.querySelectorAll("#parts-table .ddl-section-image-row")
+            );
+            const sectionMap = new Map(
+                sectionHeaders.map(header => [header.dataset.sectionPage, header])
+            );
+
+            function addOptions(select, values, label) {
+                [...values]
+                    .sort(function(a, b) {
+                        return Number(a) - Number(b);
+                    })
+                    .forEach(function(value) {
+                        const option = document.createElement("option");
+                        option.value = value;
+                        option.textContent = label + " " + value;
+                        select.appendChild(option);
+                    });
+            }
+
+            const catalogs = new Set();
+            const pages = new Set();
+
+            rows.forEach(function(row) {
+                if (row.dataset.catalog) {
+                    catalogs.add(row.dataset.catalog);
+                }
+
+                if (row.dataset.page) {
+                    pages.add(row.dataset.page);
+                }
+            });
+
+            addOptions(catalogSelect, catalogs, "Ref.");
+            addOptions(pageSelect, pages, "Halaman");
+
+            function filterParts() {
+                const search = searchInput.value.trim().toLowerCase();
+                const catalog = catalogSelect.value;
+                const page = pageSelect.value;
+                const hasFilter = Boolean(search || catalog || page);
+                const matches = new Map();
+                let visible = 0;
+
+                rows.forEach(row => {
+                    const match =
+                        (!search || row.dataset.search.toLowerCase().includes(search)) &&
+                        (!catalog || row.dataset.catalog === catalog) &&
+                        (!page || row.dataset.page === page);
+                    matches.set(row, match);
+                    if (match) visible++;
+                });
+
+                sectionHeaders.forEach(header => {
+                    const sectionPage = header.dataset.sectionPage;
+                    const hasVisibleParts = rows.some(row =>
+                        row.dataset.sectionPage === sectionPage && matches.get(row)
+                    );
+
+                    if (hasFilter) {
+                        header.dataset.expanded = hasVisibleParts ? "true" : "false";
+                    }
+
+                    const expanded = header.dataset.expanded === "true";
+                    const button = header.querySelector(".ddl-section-toggle");
+                    button.setAttribute("aria-expanded", String(expanded));
+                    button.textContent =
+                        (expanded ? "▼ " : "▶ ") +
+                        button.textContent.replace(/^[▶▼] /, "");
+                    header.style.display =
+                        hasFilter && !hasVisibleParts ? "none" : "";
+                });
+
+                imageRows.forEach(imageRow => {
+                    const header = sectionMap.get(imageRow.dataset.sectionPage);
+                    imageRow.style.display =
+                        header && header.dataset.expanded === "true" ? "" : "none";
+                });
+
+                rows.forEach(row => {
+                    const header = sectionMap.get(row.dataset.sectionPage);
+                    const expanded = header && header.dataset.expanded === "true";
+                    row.style.display =
+                        matches.get(row) && expanded ? "" : "none";
+                });
+
+                resultCount.textContent = visible;
+                emptyMessage.style.display = visible === 0 ? "block" : "none";
+            }
+
+            searchInput.addEventListener(
+                "input",
+                filterParts
+            );
+
+            catalogSelect.addEventListener(
+                "change",
+                filterParts
+            );
+
+            pageSelect.addEventListener(
+                "change",
+                filterParts
+            );
+
+            sectionHeaders.forEach(header => {
+                const button = header.querySelector(".ddl-section-toggle");
+                button.addEventListener("click", function() {
+                    header.dataset.expanded =
+                        header.dataset.expanded === "true" ? "false" : "true";
+                    filterParts();
+                });
+            });
+
+            filterParts();
+
+        })();
+        </script>
+
+        {% else %}
+
+        <p>
+            Belum ada Parts List untuk mesin ini.
+        </p>
+
+        {% endif %}
+
+    </section>
+
+
+
+
+
+
+
+    <section id="technician-notes">
+
+        <h2>📝 Catatan Teknisi</h2>
+
+        <p>
+{% if session.get("admin_logged_in") %}
+            <a href="/add-technician-note/{{ machine['id'] }}" class="add-button">
+                ➕ Tambah Catatan Teknisi
+            </a>
+        </p>
+{% endif %}
+
+        {% if technician_notes %}
+
+            {% for note in technician_notes %}
+
+            <div class="machine-card">
+
+                {% if note["problem"] %}
+                <p>
+                    <strong>Masalah:</strong><br>
+                    {{ note["problem"] }}
+                </p>
+                {% endif %}
+
+                {% if note["diagnosis"] %}
+                <p>
+                    <strong>Diagnosis:</strong><br>
+                    {{ note["diagnosis"] }}
+                </p>
+                {% endif %}
+
+                {% if note["action_taken"] %}
+                <p>
+                    <strong>Tindakan:</strong><br>
+                    {{ note["action_taken"] }}
+                </p>
+                {% endif %}
+
+                {% if note["result"] %}
+                <p>
+                    <strong>Hasil:</strong><br>
+                    {{ note["result"] }}
+                </p>
+                {% endif %}
+
+                {% if note["technician"] %}
+                <p>
+                    <strong>Teknisi:</strong>
+                    {{ note["technician"] }}
+                </p>
+                {% endif %}
+
+                {% if note["created_at"] %}
+                <p>
+                    <strong>Waktu:</strong>
+                    {{ note["created_at"] }}
+                </p>
+                {% endif %}
+
+            </div>
+
+            {% endfor %}
+
+        {% else %}
+
+            <p>
+                Belum ada catatan teknisi.
+            </p>
+
+        {% endif %}
+
+    </section>
+
+
+    <section class="machine-bottom-navigation">
+
+        <a href="/" class="machine-bottom-button">
+            ← Kembali ke Database
+        </a>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>Garment Machine Tech Database — Local System</p>
+</footer>
+
+<!-- machine43-diagram-viewer -->
+<div id="machine43-diagram-viewer" class="diagram-viewer"
+     role="dialog" aria-modal="true"
+     aria-label="Diagram komponen JUKI AMS-210EN" hidden>
+  <div class="diagram-bar">
+    <span id="machine43-zoom-label">Zoom 100%</span>
+    <button type="button" data-act="out">−</button>
+    <button type="button" data-act="in">+</button>
+    <button type="button" data-act="reset">Reset</button>
+    <button type="button" data-act="close" aria-label="Tutup">✕</button>
+  </div>
+  <div id="machine43-diagram-stage" class="diagram-stage">
+    <img id="machine43-diagram-large" src=""
+         alt="Diagram komponen JUKI" draggable="false">
+  </div>
+  <p class="diagram-help">Cubit untuk zoom · Geser untuk melihat detail · Esc untuk menutup</p>
+</div>
+
+<script>
+(function () {
+  "use strict";
+  const viewer = document.getElementById("machine43-diagram-viewer");
+  const openers = document.querySelectorAll(".machine43-diagram-open");
+  const stage = document.getElementById("machine43-diagram-stage");
+  const img = document.getElementById("machine43-diagram-large");
+  const label = document.getElementById("machine43-zoom-label");
+  if (!viewer || !openers.length || !stage || !img || !label) return;
+
+  let s = 1, x = 0, y = 0, focusBefore;
+  let pts = new Map(), sx = 0, sy = 0, px = 0, py = 0;
+  let pinchD = 1, pinchS = 1, pinchMid = null;
+  const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
+  const distance = (a,b) => Math.hypot(a.x-b.x, a.y-b.y);
+  const middle = (a,b) => ({x:(a.x+b.x)/2, y:(a.y+b.y)/2});
+
+  function draw() {
+    img.style.transform = `translate(${x}px,${y}px) scale(${s})`;
+    img.style.cursor = s > 1 ? "grab" : "zoom-in";
+    label.textContent = "Zoom " + Math.round(s*100) + "%";
+  }
+  function reset() {
+    s=1; x=0; y=0; draw();
+  }
+  function zoom(next, cx, cy) {
+    const r=stage.getBoundingClientRect();
+    cx-=r.left+r.width/2; cy-=r.top+r.height/2;
+    next=clamp(next,1,6);
+    const ratio=next/s;
+    x=cx-(cx-x)*ratio; y=cy-(cy-y)*ratio; s=next;
+    if (s===1) { x=0; y=0; }
+    draw();
+  }
+  function close() {
+    viewer.hidden=true;
+    document.body.classList.remove("diagram-viewer-active");
+    pts.clear(); reset();
+    if (focusBefore) focusBefore.focus();
+  }
+
+  openers.forEach(opener => opener.addEventListener("click", () => {
+    focusBefore=document.activeElement;
+    img.src=opener.dataset.diagramSrc;
+    img.alt=opener.querySelector("img")?.alt || "Diagram komponen JUKI";
+    reset();
+    viewer.hidden=false;
+    document.body.classList.add("diagram-viewer-active");
+    viewer.querySelector('[data-act="close"]').focus();
+  }));
+
+  viewer.querySelectorAll("[data-act]").forEach(b => b.addEventListener("click", () => {
+    const a=b.dataset.act;
+    if (a==="close") close();
+    if (a==="reset") reset();
+    if (a==="in" || a==="out") {
+      const r=stage.getBoundingClientRect();
+      zoom(s*(a==="in"?1.25:0.8),r.left+r.width/2,r.top+r.height/2);
+    }
+  }));
+
+  viewer.addEventListener("click", e => {
+    if(e.target===viewer) close();
+  });
+  document.addEventListener("keydown", e => {
+    if(viewer.hidden) return;
+    if(e.key==="Escape") close();
+    if(e.key==="+" || e.key==="=") zoom(s*1.25,innerWidth/2,innerHeight/2);
+    if(e.key==="-") zoom(s*0.8,innerWidth/2,innerHeight/2);
+  });
+  stage.addEventListener("wheel", e => {
+    e.preventDefault();
+    zoom(s*(e.deltaY<0?1.12:1/1.12),e.clientX,e.clientY);
+  },{passive:false});
+
+  stage.addEventListener("pointerdown", e => {
+    if(e.pointerType==="mouse" && e.button!==0) return;
+    e.preventDefault();
+    stage.setPointerCapture(e.pointerId);
+    pts.set(e.pointerId,{x:e.clientX,y:e.clientY});
+    if(pts.size===1) {
+      sx=e.clientX; sy=e.clientY; px=x; py=y;
+    } else if(pts.size===2) {
+      const p=[...pts.values()];
+      pinchD=distance(p[0],p[1])||1;
+      pinchS=s; pinchMid=middle(p[0],p[1]);
+    }
+  });
+
+  stage.addEventListener("pointermove", e => {
+    if(!pts.has(e.pointerId)) return;
+    pts.set(e.pointerId,{x:e.clientX,y:e.clientY});
+    if(pts.size>=2) {
+      const p=[...pts.values()], d=distance(p[0],p[1])||1;
+      const m=middle(p[0],p[1]), r=stage.getBoundingClientRect();
+      const next=clamp(pinchS*d/(pinchD||1),1,6);
+      const ox=pinchMid.x-r.left-r.width/2;
+      const oy=pinchMid.y-r.top-r.height/2;
+      const nx=m.x-r.left-r.width/2, ny=m.y-r.top-r.height/2;
+      const ratio=next/s;
+      x=nx-(ox-x)*ratio; y=ny-(oy-y)*ratio; s=next;
+      pinchD=d; pinchS=s; pinchMid=m; draw();
+    } else if(s>1) {
+      x=px+e.clientX-sx; y=py+e.clientY-sy; draw();
+    }
+  });
+
+  function end(e) {
+    pts.delete(e.pointerId);
+    if(pts.size===1) {
+      const p=[...pts.values()][0];
+      sx=p.x; sy=p.y; px=x; py=y;
+    }
+  }
+  stage.addEventListener("pointerup",end);
+  stage.addEventListener("pointercancel",end);
+  stage.addEventListener("lostpointercapture",end);
+  draw();
+})();
+</script>
+<!-- end machine43-diagram-viewer -->
+
+
+</body>
+</html>

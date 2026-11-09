@@ -1,0 +1,6 @@
+motor overload with an excessive load. smoothly.
+E973 | Feed vertical motor |+ Feed driving motor maloperation.
+
+IPM over-current
+
+protection

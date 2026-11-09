@@ -1,0 +1,27 @@
+CATATAN VERIFIKASI MANUAL JUKI DDL-9000C SERIES
+Status: pemeriksaan parsial; belum merupakan persetujuan seluruh 43 entri.
+
+Sumber lokal:
+audit-kelengkapan/sumber/juki_ddl9000cs_instruction_eg.pdf
+audit-kelengkapan/sumber/juki_ddl9000cs_instruction_eg.txt
+
+Bukti pada teks manual:
+- E302, sekitar baris 2852-2861:
+  pemeriksaan posisi kepala mesin, kabel sakelar deteksi kemiringan,
+  dan kabel INT PCB tercantum.
+- E303, sekitar baris 2862-2866:
+  pemeriksaan kecocokan pengaturan model kepala mesin dan konektor
+  encoder motor yang mungkin putus tercantum.
+- E730/E731, sekitar baris 2869-2877:
+  pemeriksaan konektor sinyal motor CN39, kabel yang mungkin terjepit
+  di bawah kepala mesin, dan arah pemasangan konektor encoder tercantum.
+  Pembagian rincian antara E730 dan E731 perlu mempertahankan struktur
+  tabel asli dan tidak boleh diasumsikan sebagai prosedur terpisah.
+
+Batasan:
+- Konfirmasi cakupan varian mesin DDL-9000CS yang diaudit.
+- Kecocokan kode pada manual tidak otomatis membuktikan seluruh
+  diagnosis atau solusi di database benar.
+- Pemeriksaan listrik dan rangkaian internal harus mengikuti prosedur
+  resmi dan dilakukan oleh teknisi kompeten.
+- Database tidak diubah.

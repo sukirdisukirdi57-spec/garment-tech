@@ -1,0 +1,4 @@
+fault properly output. * Check the F2 fuse.
+= | e |
+fault properly output.
+E910 | The presser motor |+ In the case the presser motor has failed |+ Check whether the presser setting is

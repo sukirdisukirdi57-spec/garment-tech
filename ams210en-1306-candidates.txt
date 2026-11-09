@@ -1,0 +1,100 @@
+ 36      #01   CM-6001001-01   WEEE MARK LABEL S                  1
+  6      #01    400-25018       X MOVEMENT LOWER COVER ASM.       2
+  8      #01    400-25023       X MOVEMENT UPPER COVER R ASM.     1
+ 12      #01    400-25021       X MOVEMENT UPPER COVER L ASM.     1
+ 19      #01    B1123-210-000   Y DRIVE COVER                     1
+ 20      #01    B1124-210-000   Y FIXED COVER                     1
+ 21      #01    SM-1040870-TP   SCREW                             2
+ 22      #01    400-25031       FEED BASE COVER                   2
+ 33      #01    400-83740       NEEDLE_PLATE_SUPPORT_COVER_ASM    1
+ 35      #01    SM-1040801-SP   SCREW M4X0.7 L=8                  4
+ 75      #01    SM-4051055-SP   SCREW                             2
+ 29       #01    SB-3070002-0A     BEARING                           2
+ 30       #01    SB-3070002-0B     BEARING                           2
+ 31       #01    SB-3070002-0C     BEARING                           2
+ 32       #01    SB-3070002-0D     BEARING                           2
+ 15      #01   B1636-581-A00   NEEDLE BEARING A                  1
+ 16      #01   B1636-581-B00   NEEDLE BEARING B                  1
+ 17      #01   B1636-581-C00   NEEDLE BEARING                    1
+ 18      #01   B1636-581-D00   NEEDLE BEARING                    1
+ 63      #01   400-30628       SLIDE_BLOCK_A                     1
+ 64      #01   400-30629       SLIDE_BLOCK_B                     1
+ 65      #01   400-30630       SLIDE_BLOCK_C                     1
+ 17      #01    400-77936         PRESSURE_PLATE                    1
+ 33      #01   SB-3080010-0A   BEARING                            2
+ 34      #01   SB-3080010-0B   BEARING                            2
+ 35      #01   SB-3080010-0C   BEARING                            2
+ 36      #01   SB-3080010-0D   BEARING                            2
+  33        #01        400-10508              THREAD_TENSION_2_ASM.                                                            1
+  4      #01   235-17501       NEEDLE CAM ROLLER A               1
+  5      #01   235-17600       NEEDLE CAM ROLLER B               1
+  6      #01   235-17709       NEEDLE CAM ROLLER C               1
+  7      #01   235-17808       NEEDLE CAM ROLLER D               1
+ 20      #01   B2423-280-00D   MOVING KNIFE WASHER D            (1)
+ 21      #01   B2423-280-00C   MOVING KNIFE WASHER C            (1)
+ 22      #01   B2423-280-00A   MOVING KNIFE WASHER A            (1)
+ 23      #01   B2423-280-00B   MOVING KNIFE WASHER B            (1)
+  1      #01   400-78001       X-Y_TABLE_ASM_1306               1
+  4      #01   400-30945       X_FIXED_RACE                    (2)
+  7      #01   B2520-210-D0A   Y FIXED RACE RIGHT              (1)
+  9      #01   B2521-210-D00   Y BALL GAUGE                    (2)
+ 11      #01   B2522-210-D00   Y STOPPER                       (1)
+ 14      #01   B2520-210-D0B   Y FIXED RACE LEFT               (1)
+ 17      #01   B2508-210-DA0   X BALL GAUGE ASM.               (2)
+ 21      #01   B2527-210-000   BALL                           (30)
+  3      #01   400-78061       X_GUIDE_SHAFT_SUPPORT_B        1
+ 12      #01   400-36475       X_GUIDE_SHAFT                  1
+ 10      #01   400-23638         FEEDING FRAME                        1
+ 12      #01   401-78093         LOWER PLATE                          1
+ 34      #01   SM-6040800-SP     SCREW                                2
+ 35      #01   WP-0480856-SP     WASHER 4.8X8.4X0.8                   2
+ 49      #01   400-86376         RECEIVER_PLATE_RIGHT_ASM             1
+ 51      #01   400-86378         RECEIVER_PLATE_LEFT_ASM              1
+ 45      #01   400-86378       RECEIVER_PLATE_LEFT_ASM             1
+ 46      #01   SM-6040800-SP   SCREW                               2
+ 47      #01   WP-0480856-SP   WASHER 4.8X8.4X0.8                  2
+ 48      #01   400-86376       RECEIVER_PLATE_RIGHT_ASM            1
+ 51      #01   400-23639       2-STEP FEEDING FRAME                2
+ 59      #01   401-78093       LOWER PLATE                         1
+  1      #01   141-91951       T-STAND COMPL.                 1
+ 11      #01   SL-9082091-SE   WASHER HEXAGONAL BOLT        (10)
+ 13      #01   138-17754       Z-STAND PEDAL COMPL.          (1)
+ 14      #01   WP-0871602-SE   WASHER 8.7X18X1.6             (4)
+ 15      #01   WS-0861410-KR   SPRING WASHER 8.6X15X1.4      (2)
+ 16      #01   NM-6080721-SE   NUT M8                        (2)
+ 17      #01   111-59001       PEDAL SHAFT BRACKET           (2)
+ 18      #01   B8153-771-000   PEDAL CONNECTING ROD          (1)
+ 19      #01   D8113-555-B00   PEDAL BUSHING                 (2)
+ 20      #01   GPF-06080000    PEDAL ADJUSTING PLATE         (1)
+ 21      #01   GPF-060600A0    PEDAL COMPL.                  (1)
+ 22      #01   SM-9061203-SE   SCREW M6 L=12                 (2)
+ 23      #01   WP-0671016-SE   WASHER 6.7X13X1               (2)
+ 24      #01   WS-0621210-KR   SPRING WASHER 6.2X11.4X1.2    (2)
+ 25      #01   SM-9082023-SE   SCREW M8 L=20                 (2)
+ 26      #01   WP-0871602-SE   WASHER 8.7X18X1.6             (2)
+ 27      #01   111-59506       STRUT AUXILIARY PLATE         (2)
+ 28      #01   WS-0861410-KR   SPRING WASHER 8.6X15X1.4      (2)
+ 31      #01   SM-9086523-SE   HEXAGONAL BOLT                (2)
+ 20        #01   CM-3001004-01   LABEL 3 (LARGE)                    1
+ 21        #01   BME-01100000    VOLTAGE INDICATION SEAL            1
+ 42        #01   400-86468       POWER CABLE 1P PLUG ASSY           1
+ 43        #01   M9034-580-0A0   GROUND CORD ASM.                   1
+  1      #01    400-81561       MC-587 BOX A                             1
+ 19      #01    400-00056       FLT-T PCB A ASS'Y                       (1)
+ 32      #01    400-86465       POWER CORD 3P ASSY                      (1)
+ 23        #01   401-63025       REACTOR CORD ASSY           1
+ 29        #01   400-86466       POWER CORD JE ASSY          1
+ 44        #01   401-78385       TH MOTOR CABLE ASM CE       1
+ 45        #01   401-63061       AIR RELAY CABLE ASM         1
+ 46        #01   401-63063       EARTH CODE ASM              1
+ 61        #01   401-63020       X MOTOR CABLE ASM           1
+ 62        #01   401-63021       Y MOTOR CABLE ASM           1
+ 63        #01   401-63022       TT MOTOR CABLE ASM          1
+ 64        #01   401-63023       IP MOTOR CABLE ASM          1
+  1      #01   400-33831          PK78 PEDAL SWITCH ASM.                1
+ 20          #01    262-34005            VINYL COVER                                                       1
+  37     #01    GFU-01007000    SPRING                                 (1)
+  41     #01    PJ-3010405-05   HALF UNION                             (2)
+  26     #01    400-89692         ONE-TOUCH CLAMP ASM.                  1
+  1      #01   400-42352       MECHANICAL VALVE UNIT               1
+ 28      #01   400-89848       AIR UNIT ASM.                       1

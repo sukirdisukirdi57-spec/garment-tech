@@ -1,0 +1,1159 @@
+ENGLISH
+
+
+
+
+      MB-1373,1377
+  INSTRUCTION MANUAL
+                                                                   CONTENTS
+
+1. SPECIFICATIONS . .......................................................................................................... 1
+2. PREPARATION OF THE SEWING MACHINE................................................................. 1
+    2-1. Installation........................................................................................................................................... 1
+    2-2. Lubrication........................................................................................................................................... 2
+    2-3. Attaching the needle........................................................................................................................... 2
+    2-4. Attaching the needle bar cover. ........................................................................................................ 3
+    2-5. Attaching the button tray assembly.................................................................................................. 3
+    2-6. Threading the machine....................................................................................................................... 3
+3. ADJUSTMENT OF THE SAWING MACHINE.................................................................. 4
+    3-1. Thread tension adjustment........................................................................................................................ 4
+    3-2. Adjustment of the thread pull-off lever..................................................................................................... 4
+    3-3. Adjusting the tension lever................................................................................................................ 4
+    3-4. Adjusting the nipper........................................................................................................................... 5
+    3-5. Adjusting the thread tension guide on the face plate...................................................................... 5
+    3-6. Needle-to-looper relation..................................................................................................................................... 5
+    3-7. Position of the needle guide.............................................................................................................. 6
+    3-8. Height of the button clamp. ............................................................................................................... 6
+    3-9. Work pressing force........................................................................................................................... 6
+    3-10. Adjustment of the button clamp stop lever. ....................................................................................6
+    3-11. Timing of thread tension release..................................................................................................... 7
+    3-12. Setting for 2- or 4-hole buttons. ...................................................................................................... 7
+    3-13. Setting a number of stitches............................................................................................................ 8
+    3-14. Adjusting the position of the stop-motion. .................................................................................... 8
+    3-15. Adjusting the position of the moving knife.................................................................................... 9
+    3-16. Clearance between the button clamp lifting lever and the adjusting screw............................... 9
+    3-17. How to set the L-shaped lifting rod................................................................................................. 9
+    3-18. Knot-tying mechanisms................................................................................................................. 10
+         (1) Adjusting the knot-tying connecting plate. .................................................................................... 10
+         (2) Adjusting the knot-tying arm stopper. ........................................................................................... 10
+         (3) Adjusting the knot-tying notch....................................................................................................... 10
+         (4) Changeover of with/without knot-tying.......................................................................................... 11
+    3-19. Adjusting the thread tension controller No. 3.............................................................................. 12
+         (1) Assembly procedure..................................................................................................................... 12
+         (2) Adjustment.................................................................................................................................... 12
+4. MAINTENANCE, SUBCLASS MODELS AND ATTACHMENTS................................... 13
+    4-1. How to connect the metal fittings of the belt................................................................................. 13
+    4-2. Subclass models .............................................................................................................................. 13
+    4-3. Attachments. ..................................................................................................................................... 14
+         (1) Attachments for shank buttons (Pearl buttons) (Z033)................................................................. 15
+         (2) Attachment for the first process of wrapped-around buttons (Z041). ........................................... 15
+         (3) Attachment for the second process of wrapped-around buttons (Z035)....................................... 16
+         (4) Attachment for snaps (Z037)......................................................................................................... 16
+         (5) Attachment for metal buttons (Z038). ........................................................................................... 17
+    4-4. Motor pulley and belt........................................................................................................................ 17
+5. TROUBLES AND CORRECTIVE MEASURES.............................................................. 18
+1. SPECIFICATIONS
+
+                                 MB-1373                                         MB-1377
+Sewing speed                            Normal 1,300 sti/min (Max. 1,500 sti/min)
+Number of stitches                               8, 16 and 32 stitches
+Feed amount             Lateral feed 2.5 to 6.5mm                    Lateral feed 2.5 to 6.5mm
+                     Longitudinal feed 0, 2.5 to 6.5mm            Longitudinal feed 0, 2.5 to 4.5mm
+Button size                                           10 to 28 mm
+Needle used                          TQx1 #16 (#14 to #20) TQx7 #16 (#14 to #20)
+Lubricating oil                                JUKI New Defrix Oil No. 1
+Noise                - Equivalent continuous emission sound pressure level (LpA) at the workstation :
+                       A-weighted value of 84 dB; (Includes KpA = 2.5 dB); according to ISO 10821-
+                       C.6.3 -ISO 11204 GR2 at 1,300 sti/min.
+
+
+
+
+2. PREPARATION OF THE SEWING MACHINE
+
+2-1. Installation
+
+                                                                    Put rubber cushion 1 on the table,
+                                                                    place the machine head on the rubber
+                                 2
+                                                    5               cushion and fix it to the table using
+                                                                    screws 2, plain washers 3 and nuts
+                                         6
+                                                                    4. Attach “S” chain hook 6 and chain
+                                          7                         7 to stop motion trip lever 5.
+
+
+
+
+                                           1
+                                          3
+                                          4
+
+
+
+
+                                                ––
+2-2. Lubrication
+
+      WARNING :
+      To protect against possible personal injury due to abrupt start of the machine, be sure to start the
+      following work after turning the power off and ascertaining that the motor is at rest.
+
+
+                   4        5                                                    !5
+     1
+                   3
+                                                                                                            !7
+                                    8
+                                7
+                                            !1 !0   9
+         2
+                            6
+                                                                                !6
+                       !2
+
+                            !4
+                                        1) Open the side cover, and apply JUKI New Defrix Oil No. 1 to the
+                                           portions shown by the red marks 1 to !3 (8 : MB-1377 only).
+                                           (Apply approximately 1 cc of oil to the respective lubricating
+                                           places one to two times a week.)
+                                        2) Loosen connecting screw !4, tilt the machine head backward
+                                           and apply grease (JUKI designated grease) to crossed helical
+                                           gear !6 and worm gear !7.
+         !3                             3) Check, approximately once a week, that oil amount is sufficient
+                                           to reach the top of the oil felt placed inside the bed mounting
+                                           base. If the amount of oil is insufficient, add an adequate amount
+                                           of oil. At this time, also apply oil to crank rod !5.
+
+                                              2         [Caution at the time of lubricating]
+                                                        1. Take care not to allow speed slowing friction
+                                                           wheel 1 and friction plate 2 to be clogged with
+                                                           oil to prevent them from the deterioration of
+                                                    1
+                                                           retardation performance. In addition, when the
+                                                           components are clogged with oil, wipe the oil
+                                                           from them.
+                                                        2. Take care not to allow the machine belt to
+                                                           be clogged with oil to prevent it from the
+                                                           deterioration.
+
+
+
+
+2-3. Attaching the needle
+
+      WARNING :
+      To protect against possible personal injury due to abrupt start of the machine, be sure to start the
+      following work after turning the power off and ascertaining that the motor is at rest.
+
+                                                        ★ Use a standard needle of TQx1 #16.
+                                                        Loosen setscrew 1 and hold needle 2 with the long
+                                                        groove facing toward you. Then fully insert it into the
+                                    1
+                                                        hole in the needle bar, and tighten setscrew 1.
+         2
+
+
+
+
+                                                    ––
+  2-4. Attaching the needle bar cover
+
+             WARNING :
+             To protect against possible personal injury due to abrupt start of the machine, be sure to start the
+             following work after turning the power off and ascertaining that the motor is at rest.
+
+                                                             1) Loosen screw 2 and remove thread guide 3.
+                    4            3       1                   2) Place needle bar guard 1 under thread guide
+                                                                3 and attach thread guide 3 so that lever 4
+                                                                comes to the center of it at the start of the ma-
+                                                                chine.
+                                                             3) Fix the cover with screw 2.
+
+                           2
+
+
+
+
+  2-5. Attaching the button tray assembly
+                                                             Insert the posts of button tray 1 in hole on the right
+                                                             of the machine sub-base and tighten each setscrew
+                                                             2. If it is difficult for the operator to pick up the but-
+                                                             tons on the right side, change it to hole 3 on the left
+                                                  1          side.
+
+
+    3
+
+
+
+
+                            2
+
+
+  2-6. Threading the machine
+
+             WARNING :
+             To protect against possible personal injury due to abrupt start of the machine, be sure to start the
+             following work after turning the power off and ascertaining that the motor is at rest.
+
+
+                           !4
+                                                                                    2                         1
+         A                                            !0
+                                             !1                  7       5
+
+        !6
+
+
+              !7
+
+        !8                       !5
+
+                                         !3 !2             98        6       4          3
+              @0
+                            !9
+             @1
+
+
+Thread the machine head in the order of 1 to @1 as shown in the illustration given above. Then, pass the
+thread through the needle eye from the front for approximately 60 to 70 mm as you depress nipper releasing
+knurled thumb nut A.
+ * Standard needle is TQ X 1 #16.
+                                                           ––
+  3. ADJUSTMENT OF THE SAWING MACHINE
+
+  3-1. Thread tension adjustment
+
+                                                            Tension post No. 1 1 is used to adjust the thread
+                             2         1
+                                                            tension to sew on the button and a relatively low
+                                                            tension will be enough. Tension post No. 2 2 is
+                                                            used to adjust the thread tension applied to the root
+                                                            of the button sewing stitches. This tension must be
+                                                            determined according to the type of thread, fabric
+                                                            and thickness of the button and must be higher than
+                                                            that of tension post No. 1 1. Turn the tension nuts
+                                                            clockwise to increase or counterclockwise to reduce
+                                                            the thread tension.
+
+
+  3-2. Adjustment of the thread pull-off lever
+
+              WARNING :
+              To protect against possible personal injury due to abrupt start of the machine, be sure to start the
+              following work after turning the power off and ascertaining that the motor is at rest.
+
+
+
+                            1
+                                                                         A
+
+
+                                                                                                   At the time of X
+                                                                                                   stitching
+                                                                         B
+                      3                2
+
+
+
+To adjust the thread pull-off lever 1, insert a screwdriver through an opening in the machine arm side cover
+(left), loosen screw 2 and adjust the position of nipper bar block (rear) 3 to the left or the right. If the end of
+thread is drawn from arrow hole A in the button after sewing, change the position of nipper bar block (rear) 3
+to the left. Move the lever to the right when the thread end comes out from arrow hole B.
+
+
+  3-3. Adjusting the tension lever
+
+              WARNING :
+              To protect against possible personal injury due to abrupt start of the machine, be sure to start the
+              following work after turning the power off and ascertaining that the motor is at rest.
+
+
+                                        1                   1) When the machine is in the stop-motion state,
+              2             3
+                                                               loosen screw 1.
+                                                            2) Tighten setscrew 1 so that there is a clearance
+                                                               of 8 to 10 mm as a standard between the end of
+                                                               thread tension guide 3 and end of lever 4.
+
+ 8 to 10 mm
+                                                                     After the adjustment, make sure that the
+                                 4
+                                                                     thread path is within the slot as illustrated in
+                                                                     Fig. A when the machine starts.
+                        A                                            If the thread paths do not coincide with each
+                                                                     other, loosen screw 2 in the tension thread
+                                                                     guide and adjust it properly.
+
+
+
+
+                                                        ––
+  3-4. Adjusting the nipper
+
+          WARNING :
+          To protect against possible personal injury due to abrupt start of the machine, be sure to start the
+          following work after turning the power off and ascertaining that the motor is at rest.
+
+                                                                       1) Provide a 0.4 to 0.6 mm clearance
+                        1                                                 between nipper block 2 and nipper
+                                             4                            1 to prevent the nipper 1 from hold-
+                                                                          ing the thread while the machine is in
+  0.4 to 0.6 mm                                                           operation.
+                            2                                          2) Loosen screw 3 and move nipper bar
+                                                              3           block 4 to the right or the left.
+
+
+
+
+  3-5. Adjusting the thread tension guide on the face plate
+
+                                                           If the formation of seams at the start of sewing is
+                                                           failed and the seams are formed on the way even
+                    1                                      when the thread pull-off lever is adjusted, turn thumb
+                                                           nut 1 (double nut) to decrease the thread tension.
+
+
+
+
+  3-6. Needle-to-looper relation
+
+          WARNING :
+          To protect against possible personal injury due to abrupt start of the machine, be sure to start the
+          following work after turning the power off and ascertaining that the motor is at rest.
+
+
+
+
+                                            3
+                      TQx1
+                      TQx7
+ 1
+                                   A                                                    6      4
+                                            2          B
+                                                                         C
+                                  2
+                                                                                          5
+      2
+
+
+
+
+★ Adjust the needle-to-looper relation as follows :
+1) Depress the pedal fully forward, turn the needle driving pulley in the normal sewing direction by hand to
+   bring down the needle bar to the lowest position of its stroke and loosen screw 1.
+(Adjusting the needle bar height)                          (Looper position)
+2) Adjust the height of the needle bar using the top       3) Loosen screws 4 and turn by hand the needle driv-
+   two lines engraved on the needle bar 2 for the             ing pulley until lower line B of two lines aligns with
+   TQx1 needle and using the bottom two lines for             the bottom end face of needle bar bushing (lower) 3.
+   the TQx7 needle. Align the upper line A with the        4) By keeping the machine in this state, align looper blade
+   bottom end face of needle bar bushing (lower)              5 with the center of the needle and tighten screws 4.
+   3 and tighten screw 1. At this time, tighten the        5) Loosen screws 6 and provide a 0.01 to 0.1 mm
+   screw so that groove C of the needle faces the             clearance between the looper and the needle.
+   front.                                                     Tighten screws 6.
+
+                                                    ––
+3-7. Position of the needle guide
+
+      WARNING :
+      To protect against possible personal injury due to abrupt start of the machine, be sure to start the
+      following work after turning the power off and ascertaining that the motor is at rest.
+
+                                                    Loosen screw 2 and provide a 0.05 to 0.1 mm clear-
+               1
+      2                                             ance between the needle guide 1 and the needle
+                                                    by moving the needle guide 1 to the left or the right
+                                                    when the needle is in the lowest position.
+
+
+
+     0.05 to 0.1 mm
+
+
+
+3-8. Height of the button clamp
+
+      WARNING :
+      To protect against possible personal injury due to abrupt start of the machine, be sure to start the
+      following work after turning the power off and ascertaining that the motor is at rest.
+
+                       4                            1) The standard clearance A between the rear side
+                                                       of the bottom face of button clamp jaw lever 1
+                                                       and the top surface of feed plate 2 is 8 mm at
+                                                       the position where the machine has stopped after
+                             3                         sewing.
+     1
+ A                                                  2) To adjust the height of the button clamp unit,
+                                                       loosen screw 3 in the button clamp lifting hook
+                                                       and move button clamp lifting hook 4 up or
+                                                       down.
+      2
+
+3-9. Work pressing force
+
+      WARNING :
+      To protect against possible personal injury due to abrupt start of the machine, be sure to start the
+      following work after turning the power off and ascertaining that the motor is at rest.
+
+                                                    The standard work pressing force is by providing a
+             1
+                                                    28.5 to 29.5 mm between the top end of nut 1 and
+                                   28.5 to          the bottom end of pressure adjusting bar 2.
+                      2            29.5 mm          Turn nut 1 to adjust it.
+
+
+
+
+3-10. Adjustment of the button clamp stop lever
+
+      WARNING :
+      To protect against possible personal injury due to abrupt start of the machine, be sure to start the
+      following work after turning the power off and ascertaining that the motor is at rest.
+
+                                                    When clamp screw 1 is loosened in the state of
+                               1                    stop-motion, button clamp jaw levers 3 opens/clos-
+                                   2                es with button clamp stop lever 2. Set a button to
+                                                    the correct position and fix button clamp stop lever
+                                                    2 at the position where taking in and out of the but-
+                                                    ton is easily performed with clamp screw 1.
+
+
+                               3
+                                                ––
+  3-11. Timing of thread tension release
+                                              Turn the needle driving pulley as you draw the thread in the direc-
+                  B                           tion of arrow mark A and you will find a point at which the tension
+                                              discs on the tension post No. 2 release the thread. At this moment,
+                                              the standard distance from the top end of the needle bar bushing
+                                              (upper) to the top end of the needle bar is 44 to 47 mm (in case of
+     A                                        the needle of TQ X 7, 54 to 57 mm).
+                                              Perform the following adjustments especially when the undermen-
+                                              tioned troubles occur frequently.
+                             1                Loosen nut 1, insert the blade of a screwdriver to the top slot of
+                                              the tension post No. 2 and turn it in the direction of arrow mark B
+                                              to lower the height of the thread floating bar and in the opposite
+                                              direction to raise the height.
+
+                          Phenomenon                                   Height of thread floating bar
+ 1.When the stitch made on the wrong side of the                  Make the needle bar slightly higher.
+   workpiece is too loose ;
+ 2.When the thread is broken at the time of stop-motion ;         Make the needle bar slightly lower.
+ 3.When the thread is broken frequently ;                         Make the needle bar slightly lower.
+
+
+  3-12. Setting for 2- or 4-hole buttons
+
+             WARNING :
+             To protect against possible personal injury due to abrupt start of the machine, be sure to start the
+             following work after turning the power off and ascertaining that the motor is at rest.
+
+
+ MB-1377                                                                                Perform the adjustment after
+                                                                                        confirming that the sewing
+                                                                                        machine is located at the
+                                                  2                                     position of the stop-motion (refer
+                                                       3                                to "3-14. Adjusting the position
+                                                                                        of the stop-motion", p.8).
+
+                                                                               Measure the distance between two
+                                                                               holes in a button and set equally cross-
+                      1                           A                            wise and lengthwise feed regulators for
+         B    C       A                                                        4-hole buttons.
+
+[In case of MB-1373]                 [In case of MB-1377]
+★ Lengthwise feed                    ★ Lengthwise feed
+Push down lengthwise feed            Push down lengthwise feed adjusting lever 1 and set it to "0" for -2-hole
+adjusting lever 1 and set it to      buttons or a corresponding amount for 4-hole buttons by the respective
+                                     procedures below according to the sewing methods.
+“0” for 2-hole buttons or a cor-
+                                     X stitch : Set the lengthwise feed adjusting lever to the position corre-
+responding amount for 4-hole
+                                                sponding to the amount for the button within the range of A.
+buttons.
+                                     U-sharp stitch : Set the lengthwise feed adjusting lever to the position cor-
+★ Crosswise feed                                responding to the amount for button within the range of B.
+Loosen nut 2 and set sec-
+                                              When setting the lengthwise feed adjusting lever to the position of
+tion A of pointer 3 to a
+                                              C (outside of range of setting the lever), not only the sewing cannot
+corresponding amount. Then                    be performed but also trouble will be caused. Do not set the feed
+tighten nut 2.                                adjusting lever at the position of C.
+
+                                     ★ Crosswise feed
+                                     Loosen nut 2 and set section A of pointer 3 to a corresponding amount.
+                                     Then tighten nut 2.
+                                              Before operating the machine, ensure that the needle enters the
+                                              center of each hole in the button.
+
+
+                                                            ––
+  3-13. Setting a number of stitches
+
+          WARNING :
+          To protect against possible personal injury due to abrupt start of the machine, be sure to start the
+          following work after turning the power off and ascertaining that the motor is at rest.
+
+To change the number of stitches, open the left-hand side cover and change the number of stitches using
+stitch number adjusting screw 1 and stitch number adjusting lever 4 (optional).
+
+  � How to adjust 8 stitches
+  ★                                                     ★ How to adjust 16 stitches
+
+
+
+
+                                                                    1
+              1
+
+
+ To make 8 stitches, loosen stitch number adjusting     When stitch number adjusting screw 1 being set for
+ screw 1 and fix it to the position as shown in the     "8 stitches" has arrived at the left end, loosen stitch
+                                                        number adjusting screw 1 and fix it to the position
+ illustration.
+                                                        as shown in the illustration.
+
+  ★ How to adjust 32 stitches
+
+                                     4                  In the state of 16 stitches, stitch number adjusting
+                                                        gear roller 2 which is attached to the large gear 5
+                                                        comes to the lower side, assemble stitch number
+                                                3       adjusting lever 4 (supplied as accessories) using
+                                                5       hinge screw 3 (supplied as accessories).
+
+
+                              2
+
+
+  3-14. Adjusting the position of the stop-motion
+
+                                                        Adjust so that claw 1 of the stop-motion cam comes
+                          2                             in contact with stop-motion hook 2 when the sewing
+               1                                        machine completes the sewing and stops.
+                                                                 When replacing the motor pulley and
+                                                                 changing the sewing speed from 1,300 sti/
+                                                                 min to 1,500 sti/min, and vice versa, be sure
+                                                                 to re-adjust the position of the stop-motion.
+
+                                                               [Adjusting procedure]
+                                                               • When the stop-motion hook comes in
+                                                                 contact with the stop-motion cam and
+                                                                 rebounds, (When there is a clearance
+                                                    A            between claw 1 and stop-motion hook 2)
+                                                B
+                                            4                  loosen two stop-motion position adjusting
+                                                               screws 3, turn stop-motion adjusting cam 4
+                                                               in the direction of A, and fix stop-motion posi-
+                                                               tion adjusting screws 3.
+                                                               • When the stop-motion hook stops before it
+                                                                  comes in contact with the stop-motion cam claw
+                                                               Loosen two stop-motion position adjusting
+                                                               screws 3, turn stop-motion adjusting cam 4
+                      3
+                                                               in the direction of B, and fix stop-motion posi-
+                                                               tion adjusting screws 3.
+                                                    ––
+3-15. Adjusting the position of the moving knife
+
+        WARNING :
+        To protect against possible personal injury due to abrupt start of the machine, be sure to start the
+        following work after turning the power off and ascertaining that the motor is at rest.
+
+                                                      Adjust the position of the moving knife by means of
+                                                      thread trimming gauge 1 that comes with the unit as
+                                                      an accessory.
+                                                      When the presser has completely lifted at the stop-
+                             3                        motion position (refer to "3-14. Adjusting the posi-
+                                              1
+                                                      tion of the stop-motion", p.8), it is the standard
+                                                      that the clearance between thread trimming con-
+                                                      necting plate (front) 2 and the end face of the slit of
+    2          10 to 11 mm                            throat plate 3 is 10 to 11 mm.
+                                                      Tilt the sewing machine. Remove the oil shield of
+                                                      the bed. Loosen two nuts 4. Adjust the position of
+                         5       4                    the moving knife by moving connecting screw 5
+                                                      back and forth using the gauge you have inserted
+                                                      as a guide. When you loosen nuts 4, try to position
+                                                      thread trimmer connecting joint 6 so that it is nearly
+                                                      leveled.
+                        6
+
+
+
+                         If the moving knife is not correct (the distance between 2 and 3 is too short),
+    10.5mm               the yoke slide may interfere with the thread separating claw. In this case,
+                         adjust the clearance provided between thread trimmer connecting plate (front)
+                         2 and the end face of the slot in throat plate 3 to 11 to 12 mm using the "11.5
+                         mm" side of gauge 1.
+                         In the case the position of the moving knife is not correct (the distance be-
+                         tween 2 and 3 is too long), thread may remain on the wrong side of material.
+    11.5mm               To prevent this, adjust the aforementioned clearance to 10 to 11 mm using the
+                         "10.5 mm" side of the gauge.
+
+
+3-16. Clearance between the button clamp lifting lever and the adjusting screw
+
+                                                      Provide a 0.5 mm clearance between the end face of
+                                                      button clamp lifting lever 1 and adjusting screw 2
+                                                      at the stop-motion position (refer to "3-14 Adjusting
+                        0.5 mm                        the position of the stop-motion", p.8) and tighten
+                                                      with adjusting screw nut 3.
+
+                2      3         1
+
+
+
+3-17. How to set the L-shaped lifting rod
+
+                                                      Put moving knife push-back spring 2, stop-motion
+                                                      rubber cushion washer 3, stop-motion rubber cush-
+                                 6                    ion 4 and stop-motion rubber cushion washer 5, in
+                                                      this order, to L-shaped lifting rod 1. Make the jaw
+                                                      of the machine arm come into close contact with the
+           4                     5                    end face of the stop-motion rubber cushion washer
+                                                      at the stop-motion position (refer to "3-14 Adjusting
+           3                 2                        the position of the stop-motion", p.8) and set the
+                                                      L-shaped lifting rod without a play. Then tighten it
+                             1
+                                                      with screw 6.
+
+                                                  ––
+  3-18. Knot-tying mechanisms
+
+          WARNING :
+          To protect against possible personal injury due to abrupt start of the machine, be sure to start the
+          following work after turning the power off and ascertaining that the motor is at rest.
+
+(1) Adjusting the knot-tying connecting plate
+                                                           Loosen screws 1 and adjust so that a clearance of
+                                                           1 to 1.5 mm is provided between the needle 2 and
+                                                           the knot tying plate 3 when the roller of the knot-
+                                                           tying arm gets on the outmost periphery of the knot-
+                                                           tying notch.
+                                                             After the adjustment, ascertain that the needle
+                                                             does not come in contact with the knot-tying
+                                                             plate.
+
+
+                               2
+
+                                                   3
+
+
+
+                           m
+         1               m
+                     5
+                  1.
+             to
+         1
+
+
+
+(2) Adjusting the knot-tying arm stopper
+                                                           When starting the sewing machine and the roller of
+                                               1
+                                                           knot-tying arm does not come into contact with the
+                                                           knot-tying notch, loosen screws 3 and adjust with
+                                                           stopper 4 so that outside periphery 1 of the needle
+                                                           hole almost aligns with top end 2 of the knot-tying
+                                   2
+                                                           plate.
+
+                                       3
+                                               4
+
+
+
+
+(3) Adjusting the knot-tying notch
+                                                           Loosen screws 1 and adjust so that the roller of the
+                                                           knot-tying arm comes in contact with the knot-tying
+
+
+                     30 to 35 mm
+                                                           notch when the needle bar goes up at the fourteenth
+                                                           stitch as high as 30 to 35 mm (40 to 45 mm when a
+                                           1               TQ x 7 needle is used) above the needle bar upper
+                                                           bushing.
+                                                                   If two knot-tying notches are to be installed
+                                                                   (without crossover stitch), make the
+                                                                   aforementioned adjustment at the 6th and
+                                                                   14th stitches.
+
+
+                                                       – 10 –
+(4) Changeover of with/without knot-tying
+                                                To make “with knot-tying”, pull knot-tying changeover
+                                                knob 1 toward the front and place it to the position
+                                                in the figure.
+
+
+
+
+                    1
+
+
+
+
+                                                To make “without knot-tying”, pull knot-tying change-
+                                                over knob 1 toward the front and place it to the
+                                                position in the figure.
+
+
+
+
+      1
+
+
+
+
+                                            – 11 –
+  3-19. Adjusting the thread tension controller No. 3
+
+          WARNING :
+          To protect against possible personal injury due to abrupt start of the machine, be sure to start the
+          following work after turning the power off and ascertaining that the motor is at rest.
+
+                                                         Depending on the product to be sewn, the needle
+                                                         can pierce the thread of the previous stitch when it
+                                                         enters the same point twice during sewing (8th, 16th,
+                                                         24th and 32nd stitches). This results in thread trim-
+                                                         ming failure and thread breakage. (When the needle
+                                                         enters the same needle entry point as the previous
+                                                         stitch, the button clamp does not move. As a result,
+                                                         the thread is likely to slacken and the needle pierces
+                                                         the slackened part of the thread.)
+                                                         If the phenomenon where the thread gets hung up on
+                                                         the looper and does not leave there frequently occurs,
+                                                         use the thread tension controller No.3 (asm.) (part
+                                                         number: 40112426) for the thread take-up spring.
+                     Thread             Looper
+                                                                 In addition, the aforementioned trouble
+                                                                 can be prevented more effectively by the
+                                                                 use of a ball-point needle instead of the
+                                                                 current one.
+(1) Assembly procedure
+                                                                   Put the top end of thread take-up spring 1
+                1                                                  into the hole in the thread take-up spring
+          2
+                                                                   base 2.
+                                                                   Remove screw 4 from tension control-
+                       4                                           ler No. 3 mounting plate 3. Then, tighten
+                                                                   thread tension controller No.3 (asm.) 5 for
+            5                 3
+                                                                   the thread take-up spring with that screw.
+
+
+
+
+(2) Adjustment
+After the completion of assembly, check the following:
+                                                         1) Check the thread take-up amount
+                                                            Turn the handwheel by hand to carry out sewing.
+                                                            Adjust so that the thread is not slackened at the
+                                                            moment when the needle penetrates the material.
+                                                            Adjust by moving the spring to the left position
+                                                            counterclockwise that the thread is not slacked.
+                                                            If you turn the spring counterclockwise exces-
+                                                            sively, the thread take-up amount will be exces-
+                                                            sively increased, resulting in slip-off of the thread
+ × : The state where the thread is slackened                from the needle eyelet.
+
+                                                                 1. The thread is not tensed unless the
+                                                                    thread loop has been formed. Be sure
+                                                                    to check how the thread is tensed at
+                                                                    the 2nd stitch or later.
+                                                                 2. At the time of adjust-
+                                                                    ment, this hole is
+                                                                    used as a guide to
+                                                                    determine the best-
+                                                                    suited position.
+
+ ○ : The state where the thread is tensed
+
+
+                                                   – 12 –
+                                                                 2) Adjust the pressure of the thread tension control-
+                                                                    ler.
+                                                                      To allow the thread take-up spring to take effect,
+                                                                      adjust so that the pressure of the thread tension
+                                                                      controller plate is slightly decreased.
+                                                                      At this time, adjust so that the pressure of the
+                                                                      tension controller No. 2 is slightly increased. This
+                                                                      will effectively prevent the needle from piercing
+ Slightly lower than the standard adjustment
+                                                                      the thread of the previous stitch.
+
+ Slightly higher than the standard adjustment
+
+
+
+
+3) Correctly adjust the looper timing.
+   Thread loop may not be smoothly formed since the spring is adjusted so that the thread is not slackened
+   at the moment when the needle penetrates the material. Be sure to adjust the looper timing with accuracy
+   so as to operate the sewing machine smoothly.
+
+                 If the looper timing is excessively advanced, the looper may fail to catch the loop smoothly.
+
+
+
+
+  4. MAINTENANCE, SUBCLASS MODELS AND ATTACHMENTS
+
+  4-1. How to connect the metal fittings of the belt
+                                                                 Tighten connecting screws 1 of the belt so that the
+                                                                 screws protrude approximately 1.5 to 2 mm from the
+                                                                 reverse side as the standard.
+                                                                            1. When assembling the belt to the pulley
+                                                                               and rotating the motor after closing the
+                      1
+                                                                               side cover, confirm that the side cover
+                                                                               does not interfere with the metal fitting of
+
+
+    1.5 to 2mm
+                                                                               the belt.
+                                                                            2. Take care not to allow the belt to be
+                                                                               clogged with oil when assembling it.
+
+
+
+  4-2. Subclass models
+
+                       MB-1373                           MB-1373-11
+                   8, 16, 32 stitches                  8, 16, 32 stitches
+
+
+
+
+                                                            – 13 –
+4-3. Attachments
+
+          WARNING :
+          To protect against possible personal injury due to abrupt start of the machine, be sure to start the
+          following work after turning the power off and ascertaining that the motor is at rest.
+
+                                                            1) In order to install the attachment on the machine,
+                5                          1                   you may have to remove button clamp mecha-
+                                                               nism 1 or feed plate 2.
+                                                            2) Detach the snap ring from button clamp installing
+                                                               stud 3, and you will be able to remove button
+                                                               clamp mechanism assembly 1. Remove screw
+                                                               4, and you can remove feed plate 2.
+                                                                      The only feature that makes the difference
+                                      4         3                     between the attachment of MB-373NS and
+                                                                      that of MB-377NS is button clamp lifting
+                                                                      hook 5.
+                    2
+
+
+
+
+Use                                Flat buttons                          Shank buttons
+                                                                                                          Snaps
+                         Large-size           Medium-size                  General
+MB-1373
+                           Z201                 Z202                          Z033                         Z037
+MB-1377
+Schematic
+drawing                           A                    A
+
+                            B                    B
+
+Remarks             Button size :         Button size :         Button diameter : Less than 16 mm   Snap size :
+                    A : 3 to 6.5 mm       A : 3 to 5 mm         Shank size :                        A : 8 mm
+                    B : ø20 to ø28 mm     B : ø12 to ø20 mm     Thickness : 6 to 5 mm
+                                                                Width : 3 to 2.5 mm
+Use                           Wrapped-around buttons             Metal buttons
+                                                                                     Stay button          Labels
+                        First process      Second process           General
+MB-1373
+                           Z041                 Z035                 Z038             Z039                 Z044
+MB-1377
+Schematic
+drawing
+                                      A
+
+
+Remarks             Thread shank height                                           Common to         Stitch width :
+                    A : 5.5 mm                                                    Z041              3 to 6.5 mm
+
+
+
+
+                                                       – 14 –
+(1) Attachments for shank buttons (Pearl buttons) (Z033)
+
+            WARNING :
+            To protect against possible personal injury due to abrupt start of the machine, be sure to start the
+            following work after turning the power off and ascertaining that the motor is at rest.
+
+                                                            (INSTALLATION)
+                         9                                  Remove both the button clamp mechanism assem-
+           !6    8              4 @0 !0     !1
+                                                            bly and the feed plate from the machine and install
+                                !9                          attachment 1 in place. Loosen screws 3 and adjust
+                                                            button clamp bracket 4 to permit the needle to
+            !8
+                                                            come down in the middle of the needle slot in shank
+                                                            button adaptor 2. Attach button clamp feed plate 5
+           !3
+     !4                                                     using screws 7 in the way that it permits the needle
+                                                            to come down in the middle of the needle slot in feed
+      !5                                    1
+      2
+                                                            plate 6. Insert the top end of button clamp stud 8
+                                            3               into an opening in the jaw of the machine arm and
+       6
+                                    5
+                                        7                   fasten it by screw 9.
+                             !2!7
+
+(ADJUSTMENT AND OPERATION)
+1) Loosen screw !2, let feed plate 6 recede 0.5 to 1.0 mm from the left end of button clamp jaw lever 2
+   and retighten screw !2.
+2) Set a button in place, loosen screws !3 and !4 and align shank button holding clamp !5 with the center of
+   the button.
+3) Shank button holding clamp !5 must give proper pressure to the button so that the button stays steadily
+   in position while being sewn. Loosen a setscrew in thrust collar !6 and rotate the thrust collar until shank
+   button holding clamp !5 provides proper pressure.
+4) You may fix button clamp block !7 in a convenient position for operation.
+          1. When you fix the thrust collar, ensure that button clamp rotating shaft !8 does not play axially in its
+             bracket.
+          2. Adjust lifting hook @0 and stopper pin !1 so that L-shaped lifting rod roller !9 does not come in
+             contact with button clamp bracket 4.
+
+
+
+
+(2) Attachment for the first process of wrapped-around buttons (Z041)
+
+            WARNING :
+            To protect against possible personal injury due to abrupt start of the machine, be sure to start the
+            following work after turning the power off and ascertaining that the motor is at rest.
+
+
+                                    2                       (INSTALLATION)
+                                                            Attach wrapped-around button foot 1 to the ordinary
+                                                            button clamp jaw levers using screw 2 and guide
+                     3
+                                                            pin screw 3.
+                                                            Align foot 1 with the jaw levers so that they permit a
+                         1                                  button to rest in the middle.
+                                                            (ADJUSTMENT AND OPERATION)
+                                                            Adjustment and operation are almost same as those
+                                                            for the flat buttons, but you must adjust the thread
+                                                            pull-off lever to provide more amount of thread in
+                                                            order to make the thread loose below the button for
+                                                            thread shank formation. (refer to "�����
+                                                                                                3-2. Adjustment of
+                                                            the thread pull-off lever", p.4)
+
+
+
+
+                                                       – 15 –
+(3) Attachment for the second process of wrapped-around buttons (Z035)
+
+           WARNING :
+           To protect against possible personal injury due to abrupt start of the machine, be sure to start the
+           following work after turning the power off and ascertaining that the motor is at rest.
+
+                                                          (INSTALLATION)
+  (Z035)
+                                                          Remove the button clamp mechanism assembly, but-
+                                                          ton clamp pressure adjusting bar and feed plate from
+                                                          the machine and install attachment for the second
+                         5                                process of wrapped-around buttons 1. When you
+      4
+                     3                                    install a Z035 attachment, you must remove also the
+               2
+                                                          L-shaped lifting rod.
+                                                          Insert moving knife push-back spring 3, washer
+           8 6                                            4, cushion 5 and washer 4 in spring guide shaft
+  7                                                       2 in this order. Make certain that the stop-motion
+                                                          mechanism has completely engaged, and install the
+                                                          attachment assembly in place in the way that cush-
+                                                          ion 5 comes in close contact with the surface of the
+                 1                                        machine arm without play.
+
+(ADJUSTMENT AND OPERATION)
+1) Loosen screw 6 and adjust the thread shank length by moving guide (large) 7 and guide (small) 8 in
+   line with the point of needle entry.
+2) Set a button (tilt it slightly for easy insertion) and pass the thread as the arrow shows.
+3) Set the lengthwise feed to “0”.
+
+
+
+
+(4) Attachment for snaps (Z037)
+
+           WARNING :
+           To protect against possible personal injury due to abrupt start of the machine, be sure to start the
+           following work after turning the power off and ascertaining that the motor is at rest.
+
+                                                          (INSTALLATION)
+                                 3                        Remove the button clamp mechanism assembly
+                 2                                        and the feed plate. Set both the crosswise feed and
+                                                          lengthwise feed graduated plates to “4 mm”. Install
+                                                          snap clamp feed plate 1 in the way that the needle
+                                                          drops evenly at four corners of its square opening.
+                                                          Install snap attachment assembly 2 on the machine,
+                                                          place a snap on the snap clamp jaw levers and make
+      4                                                   sure that the needle drops accurately in each hole in
+                                                          the snap. If necessary. loosen hex head screws 3
+                                                          and adjust the position accurately. Lastly, make sure
+                                                          that the concave section on the bottom face of snap
+                                                          clamp slide guide 4 accurately matches the convex
+                                                          section on snap clamp feed plate 1.
+
+                         1
+
+
+
+
+                                                     – 16 –
+(5) Attachment for metal buttons (Z038)
+
+               WARNING :
+               To protect against possible personal injury due to abrupt start of the machine, be sure to start the
+               following work after turning the power off and ascertaining that the motor is at rest.
+
+                                                                 (INSTALLATION)
+        !4         8   9         4
+                                         !9                      Remove both the button clamp mechanism assem-
+                            !7                !8
+                                                                 bly and the feed plate from the machine and install
+              !6
+                                                                 attachment 1 in place. Loosen screws 3 and adjust
+                                                                 button clamp bracket 4 to permit the needle to
+        !1                                                       come down in the middle of the needle slot in metal
+   !2                                                            button adaptor 2. Attach button clamp feed plate 5
+    !3                                        1                  using screws 7 in the way that it permits the needle
+   2
+                                              3                  to come down in the middle of the needle slot in feed
+    6                                5
+                                         7                       plate 6. Insert the top end of button clamp stud 8
+                         !0 !5
+                                                                 into an opening in the jaw of the machine arm and
+                                                                 fasten it by screw 9.
+(ADJUSTMENT AND OPERATION)
+1) Loosen screw !0, let feed plate 6 recede 1.0 to 1.5 mm from the left end of button clamp jaw lever 2
+   and retighten screw !0.
+2) Set a button in place, loosen screws !1 and !2 and align metal button holding clamp !3 with the center of
+   the button.
+3) Metal button holding clamp !3 must give proper pressure to the button so that the button stays steadily
+   in position while being sewn. Loosen a setscrew in thrust collar !4 and rotate the thrust collar until metal
+   button holding clamp !3 provides proper pressure.
+4) You may fix button clamp block !5 in a convenient position for operation.
+             1. When you fix the thrust collar, ensure that button clamp rotating shaft !6 does not play axially in its
+                bracket.
+             2. Adjust lifting hook !9 and stopper pin !8 so that L-shaped liting rod roller !7 does not come in
+                contact with button clamp bracket 4.
+
+
+
+
+  4-4. Motor pulley and belt
+
+1) For this machine a single-phase or 3-phase 200 watts (1/4 HP) induction motor is used.
+2) Use a V belt.
+3) The sewing speed depends on the diameter of the motor pulley as listed below ;
+
+
+     Hz                      sti/min               Motor pulley part No.       mm
+
+
+                             1,500                      40038291                     ø 76
+        50
+                             1,300                      40038298                    ø 64.5
+
+                             1,500                      40038298                    ø 64.5
+        60
+                             1,300                      40042229                     ø 57
+
+
+★ The pulley of 50Hz and 1,300 sti/min is in common with that of 60Hz and 1,500 sti/min.
+★ The rotating direction of motor is counterclockwise when viewed from the motor pulley side.
+  Be careful not to rotate in reverse direction.
+★ When replacing the motor pulley and changing the sewing speed from 1,300 sti/min to 1,500 sti/min and
+  vice versa, be sure to re-adjust the position of the stop-motion. (Refer to "3-14. Adjusting the position
+  of the stop-motion", p.8.)
+
+                                                            – 17 –
+ 5. TROUBLES AND CORRECTIVE MEASURES
+
+        TROUBLES                                      CAUSES                                     CORRECTIVE MEASURES
+1. Thread breakage             1 The yoke slide does not move in the correct       ™ Adjust the timing of forward, backward and
+                                 way.                                                sideways of the yoke slide.
+                               2 The tension lever has been improperly adjusted. ™ Properly adjust the tension lever.
+                               3 The thread tension post No. 2 fails to release ™ Make the thread release timing slightly earlier.
+                                 the thread at correct timing.
+                               4 Lifting amount of the button clamp jaw unit is ™ Adjust the lifting amount of the button clamp jaw
+                                 excessive.                                        lever to 8 mm.
+                               5 The thread nipper catches the thread.           ™ Adjust the position of the nipper bar block.
+                                 The nipper has been improperly adjusted.
+                                 (The clearance is too small.)
+                               6 The needle does not enter the center of the     ™ Adjust the button clamp jaw lever holder.
+                                 holes in the button.
+                               7 The needle is too thick for the diameter of the ™ Replace the needle by a thinner one.
+                                 hole in the button.
+2. The machine forms a         1 The thread pull-off lever has been improperly ™ Adjust the thread tension guide on the face plate
+   seam after it has run         adjusted.                                         so that it provides a lower tension.
+   for a while instead of
+   forming it from the start   2 Tension of the thread tension guide on the        ™ Properly adjust the tension lever.
+                                 face plate is excessive.
+   of sewing.
+3. Buttons are not sewn        1 The yoke slide does not move in the correct       ™ Adjust the timing of the motion of the yoke slide at
+   tightly                       way.                                                each end.
+                               2 The thread tension post No. 2 fails to release    ™ Make the thread release timing slightly later.
+                                 the thread at correct timing.
+                               3 The thread tension post No. 2 does not give       ™ Tighten the tension nut of tension post No. 2.
+                                 sufficient tension.
+                               4 The needle does not enter the center of the       ™ Adjust the button clamp jaw lever holder.
+                                 holes in the button.
+                               5 The work pressing force is too high or too low.   ™ Adjust the work pressing force properly.
+4. The last back-tack stitch   1 The tension lever has been improperly adjusted. ™ Properly adjust the tension lever.
+   is poorly tensed.           2 Timing of the knot-tying plate is incorrect.      ™ Advance the timing of the knot-tying plate.
+                                                                                     (Adjustment of the knot-tying notch)
+                                3 The nipper has been improperly adjusted.         ™ Adjust the nipper with the nipper bar block.
+                                   (The clearance is too large.)
+5. The first stitch trails     The thread pull-off lever does not work properly.   ™ Adjust the thread pull-off lever by the nipper bar
+   relatively long thread                                                            block (rear).
+   from the right side of the
+   button.
+6. Thread trimming failure 1 The thread tension post No. 2 fails to release        ™ Make the thread release timing slightly later to
+   in the state of stop-        the thread at correct timing.                        give more tension to the stitches.
+   motion                     2 The needle hits the edge of the holes in the       ™ Adjust the button clamp jaw lever holder.
+                                button.
+                              3 The thread nipper fails to press the thread.       ™ Adjust the nipper bar block.
+
+                               4 The work pressing force is too high.              ™ Adjust the work pressing force by the pressure
+                                                                                     adjusting nut.
+7. Thread trimming failure     1 The moving knife does not separate the            ™ Adjust the position of the moving knife.
+                                 thread on the fabric with its separation nail.
+                               2 The needle does not enter the center of the       ™ Adjust the button clamp jaw lever holders.
+                                 holes in the button.
+                               3 The last stitch skips.                            ™ Adjust the looper.
+                               4 The moving knife thread separation nail is too ™ Adjust the height of the moving knife thread
+                                 high or too low.                                 separation nail.
+8. The needle thread is        1 The moving knife is set in wrong place.        ™ Adjust the position of the moving knife when the
+   cut in two places on the                                                       machine is in the stop-motion state.
+   wrong side of the fabric.   2 The moving knife thread separation nail is too ™ Adjust the height of the thread separation nail.
+                                 high or too low.
+9. Button trails too long      1 Timing of the moving knife motion is wrong.    ™ Adjust the position of the moving knife.
+   thread after thread                                                            when the machine is in the stop-motion state.
+   trimming.                   2 Lifting amount of the button clamp jaw unit is ™ Adjust the lifting amount of the button clamp jaw
+                                 excessive.                                       lever to 8 mm.
+10. Length of thread           1 Position of the moving knife is not correct.   ™ Adjust the position of the moving knife when the
+    remaining, after thread                                                       machine completes stop-motion. (10 to 11 mm)
+    trimming, on the wrong     2 Lifting amount of the button clamp jaw unit is ™ Adjust the lifting amount of the button clamp jaw
+    side of the material         excessive.                                       lever to 8 mm.
+    varies.
+
+
+
+                                                                 – 18 –
+

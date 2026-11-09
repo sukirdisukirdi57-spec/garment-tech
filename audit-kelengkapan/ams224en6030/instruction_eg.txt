@@ -1,0 +1,396 @@
+              AMS-224EN
+         INSTRUCTION MANUAL
+
+
+
+
+* "CompactFlash(TM)" is the registered trademark of SanDisk Corporation, U.S.A.
+
+
+
+
+                                        1
+                                                             CONTENTS
+
+I. MECHANICAL SECTION (WITH REGARD TO THE SEWING
+    MACHINE).............................................................................................. 1
+    1. SPECIFICATIONS.................................................................................................................. 1
+    2. CONFIGURATION.................................................................................................................. 2
+    3. INSTALLATION...................................................................................................................... 3
+        3-1. Installing the throat plate auxiliary cover................................................................... 3
+        3-2. Table position adjustment: Only for 6030................................................................... 4
+        3-3. Installing the panel. ...................................................................................................... 6
+          (1) Installing the IP-420. ................................................................................................................... 6
+          (2) Installing the IP-510. ................................................................................................................... 6
+       3-4. Installing the thread stand........................................................................................... 8
+       3-5. Installing the air hose................................................................................................... 9
+       3-6. Installing the eye protection cover. ............................................................................ 9
+       3-7. Changing the height of the table and stand............................................................. 10
+    4. PREPARATION OF THE SEWING MACHINE..................................................................... 11
+       4-1. Lubrication. ................................................................................................................. 11
+       4-2. Attaching the needle. ................................................................................................. 11
+       4-3. Threading the machine head..................................................................................... 12
+       4-4. Installing and removing the bobbin case................................................................. 12
+       4-5. Installing the bobbin................................................................................................... 12
+       4-6. Adjusting the thread tension..................................................................................... 13
+       4-7. Intermediate presser height....................................................................................... 13
+       4-8. Adjusting the thread take-up spring......................................................................... 14
+    5. OPERATION OF THE SEWING MACHINE......................................................................... 14
+       5-1. Sewing. ........................................................................................................................ 14
+       5-2. Needle thread clamp device. ..................................................................................... 15
+       5-3. How to use the plastic blank (supplied with the machine as an accessory). ....... 16
+
+II. OPERATION SECTION (WITH REGARD TO THE PANEL).........................................17
+    1. PREFACE............................................................................................................................. 17
+    2. WHEN USING IP.................................................................................................................. 22
+     2-1. Name of each section of IP........................................................................................... 22
+          (1) IP-420.......................................................................................................................................... 22
+          (2) IP-510.......................................................................................................................................... 23
+      2-2. Buttons to be used in common.................................................................................... 24
+      2-3. Basic operation of IP..................................................................................................... 25
+      2-4. LCD display section at the time of sewing shape selection. .................................... 27
+          (1) Sewing shape data input screen. ............................................................................................ 27
+          (2) Sewing screen........................................................................................................................... 29
+      2-5. Performing sewing shape selection............................................................................ 31
+      2-6. Changing item data....................................................................................................... 33
+      2-7. Checking pattern shape................................................................................................ 35
+      2-8. Performing modification of needle entry point. ......................................................... 36
+          (1) Editing the thread tension........................................................................................................ 36
+          (2) Editing the intermediate presser height. ................................................................................ 37
+      2-9. How to use temporary stop.......................................................................................... 38
+
+                                                                             ii
+    (1) To continue performing sewing from some point in sewing. ............................................... 38
+    (2) To perform re-sewing from the start........................................................................................ 39
+2-10. When setting of sewing product is difficult because of interruption of needle tip.40
+2-11. Winding bobbin thread. .............................................................................................. 41
+    (1) When performing winding bobbin thread while performing sewing.................................... 41
+    (2) When performing winding bobbin thread only. ..................................................................... 41
+2-12. Using counter.............................................................................................................. 42
+    (1) Setting procedure of the counter. ........................................................................................... 42
+    (2) Count-up releasing procedure................................................................................................. 44
+    (3) How to change the counter value during sewing. ................................................................. 44
+2-13. Performing new register of users’ pattern. .............................................................. 45
+2-14. Naming users’ pattern................................................................................................ 46
+2-15. Performing new register of pattern button............................................................... 47
+2-16. LCD display section at the time of pattern button selection.................................. 48
+    (1) Pattern button data input screen............................................................................................. 48
+    (2) Sewing screen........................................................................................................................... 50
+2-17. Performing pattern button No. selection.................................................................. 52
+    (1) Selection from the data input screen...................................................................................... 52
+    (2) Selection by means of the shortcut button. ........................................................................... 53
+2-18. Changing contents of pattern button. ...................................................................... 54
+2-19. Copying pattern button.............................................................................................. 55
+2-20. Changing sewing mode. ............................................................................................ 56
+2-21. LCD display section at the time of combination sewing. ....................................... 57
+    (1) Pattern input screen. ................................................................................................................ 57
+    (2) Sewing screen........................................................................................................................... 59
+2-22. Performing combination sewing................................................................................ 62
+    (1) Selection of combination data................................................................................................. 62
+    (2) Creating procedure of the combination data. ........................................................................ 63
+    (3) Deleting procedure of the combination data.......................................................................... 64
+    (4) Deleting procedure of the step of the combination data....................................................... 64
+    (5) Setting of the skip of steps. ..................................................................................................... 65
+2-23. Using the simple operation mode.............................................................................. 65
+2-24. LCD display when the simple operation is selected................................................ 66
+    (1) Data input screen (individual sewing)..................................................................................... 66
+    (2) Sewing screen (individual sewing).......................................................................................... 69
+    (3) Data input screen (combination sewing)................................................................................ 72
+    (4) Sewing screen (combination sewing)..................................................................................... 74
+2-25. Changing memory switch data. ................................................................................. 76
+2-26. Using information........................................................................................................ 77
+    (1) Observing the maintenance and inspection information...................................................... 77
+    (2) Releasing procedure of the warning....................................................................................... 78
+2-27. Using communication function.................................................................................. 79
+    (1) Handling possible data............................................................................................................. 79
+    (2) Performing communication by using the media.................................................................... 79
+    (3) Performing communication by using USB............................................................................. 80
+    (4) Take-in of the data..................................................................................................................... 81
+    (5) Taking in plural data together.................................................................................................. 83
+2-28. Performing formatting of the media. ......................................................................... 85
+2-29. Using 2-step stroke function...................................................................................... 86
+    (1) Setting of 2-step stroke function............................................................................................. 86
+
+
+                                                                   iii
+         (2) Setting of 2-step stroke position. ............................................................................................ 86
+         (3) Motion of 2-step stroke function. ............................................................................................ 88
+     2-30. Operation at the time of X/Y motor position slip...................................................... 90
+         (1) When the error is displayed during sewing............................................................................ 90
+         (2) When the error is displayed after end of sewing. .................................................................. 91
+         (3) When the rest switch is not displayed.................................................................................... 91
+   3. MEMORY SWITCH DATA LIST............................................................................................ 92
+      3-1. Data list........................................................................................................................ 92
+      3-2. Initial value list............................................................................................................ 98
+   4. ERROR CODE LIST........................................................................................................... 100
+   5. MESSAGE LIST................................................................................................................. 107
+
+III. MAINTENANCE OF SAWING MACHINE. ......................................... 110
+   1. MAINTENANCE. ................................................................................................................ 110
+      1-1. Adjusting the height of the needle bar (Changing the length of the needle)...... 110
+      1-2. Adjusting the needle-to-shuttle relation................................................................. 110
+      1-3. Adjusting the timing of main shaft and hook driving shaft.................................. 112
+      1-4. Adjusting the height of the feeding frame. ............................................................ 113
+      1-5. Adjusting the vertical stroke of the intermediate presser. ................................... 113
+      1-6. The moving knife and counter knife. ...................................................................... 113
+      1-7. Needle thread clamp device. ................................................................................... 114
+      1-8. Thread breakage detector plate . ............................................................................ 114
+      1-9. Draining waste oil..................................................................................................... 115
+     1-10. Amount of oil supplied to the hook. ....................................................................... 115
+     1-11. Replacing the fuse.................................................................................................... 115
+     1-12. Changing the voltage of 100 ⇔ 200V...................................................................... 116
+     1-13. Replenishing the designated places with grease.................................................. 117
+         (1) Points to be applied with JUKI Grease A.............................................................................. 118
+         (2) Points to be applied with JUKI Grease B.............................................................................. 119
+     1-14. Troubles and corrective measures (Sewing conditions). ..................................... 120
+   2. OPTIONAL. ........................................................................................................................ 122
+      2-1. Table of Needle hole guide....................................................................................... 122
+      2-2. Silicon oil tank . ........................................................................................................ 122
+      2-3. Bar code reader. ....................................................................................................... 123
+
+
+
+
+                                                                    iv
+I. MECHANICAL SECTION (WITH REGARD TO THE SEWING MACHINE)
+1. SPECIFICATIONS
+1    Sewing area                                        X (lateral) direction    Y (longitudinal) direction
+                                    AMS-224EN-4530 :            450 mm         ×      300 mm
+                                    AMS-224EN-6030 :            600 mm         ×      300 mm
+2    Max. sewing speed              2,500 sti/min (When sewing pitch is 3 mm or less)
+3    Settable stitch length         0.1 to 12.7 mm (Min. resolution : 0.05 mm)
+4    Feed motion of feeding frame   Intermittent feed (2-shaft drive by stepping motor)
+5    Needle bar stroke              41.2 mm
+6    Needle                         DP x 17
+7    Lift of feeding frame          Max. 30mm
+8    Intermediate presser stroke    4 mm (Standard) (0 to 10 mm)
+9    Lift of intermediate           20 mm
+     presser
+10   Intermediate presser           Standard 0 to 3.5 mm (Max. 0 to 7.0 mm)
+     DOWN position
+     variable
+11   Shuttle                        Double-capacity semi-rotary hook
+12   Lubricating oil                New Defrix Oil No. 2 (Supplied by oiler)
+13   Memory of pattern              • Main body : Max. 999 patterns (Max. 50,000 stitches/pattern)
+     data                           • External media : Max. 999 patterns (Max. 50,000 stitches/pattern)
+14   Temporary stop facility        Used to stop machine operation during a stitching cycle.
+15   Enlarging / Reducing           Allows a pattern to be enlarged or reduced on the X axis and Y axis independently
+     facility                       when sewing a pattern. Scale : 1% to 400% times (0.1% steps)
+16   Enlarging / Reducing           Pattern enlargement / reduction can be done by increasing / decreasing either stitch
+     method                         length or the number of stitches. (Increasing/decreasing stitch length only can be
+                                    performed when pattern button is selected.)
+17   Max. sewing speed              200 to 2,500 sti/min (Scale : 100 sti/min steps)
+     limitation
+18   Pattern selection              Pattern No. selection method
+     facility
+19   Bobbin thread counter          UP/DOWN method (0 to 9,999)
+20   Sewing counter                 UP/DOWN method (0 to 9,999)
+21   Memory back-up                 In case of a power interruption, the pattern being used will automatically be stored in
+                                    memory.
+22   2nd origin setting             Using jog keys, a 2nd origin (needle position after a sewing cycle) can be set in the
+     facility                       desired position within the sewing area. The set 2nd origin is also stored in memory.
+23   Sewing machine motor           Servo-motor
+24   Dimensions                     AMS-224EN-4530 : 1,703mm (W) x 1,370mm (L) x 1,200mm (H) (Excluding thread stand)
+                                    AMS-224EN-6030 : 1,923mm (W) x 1,370mm (L) x 1,200mm (H) (Excluding thread stand)
+25   Mass (gross mass)              AMS-224EN-4530 : 401 kg
+                                    AMS-224EN-6030 : 410 kg
+26   Power consumption              550 VA
+27   Operating temperature          5˚C to 35˚C
+     range
+28   Operating humidity range       35 % to 85 % (No dew condensation)
+29   Line voltage                   Rated voltage ±10% 50 / 60 Hz
+30   Air pressure used              AMS-224EN-4530 : 0.5 to 0.55 MPa (Max. 0.55 MPa)
+                                    AMS-224EN-6030 : 0.5 to 0.55 MPa (Max. 0.55 MPa)
+31   Air consumption                1.8 dm3 / min (ANR)
+32   Needle highest                 After the completion of sewing, the needle can be brought up to its highest position.
+     position stop facility
+33   Noise                          - Equivalent continuous emission sound pressure level (LpA) at the workstation :
+                                      A-weighted value of 83.5 dB ; (Includes KpA = 2.5 dB) ; according to ISO 10821- C.6.3
+                                      -ISO 11204 GR2 at 2,500 sti/min.
+                                    - Sound power level (LWA) :
+                                      A-weighted value of 92.5 dB ; (Includes KWA = 2.5 dB) ; according to ISO 10821- C.6.3
+                                      -ISO 3744 GR2 at 2,500 sti/min.
+
+                                                              –1–
+2. CONFIGURATION
+
+
+
+
+                                     ❶                                  ❻
+                     ❷
+
+
+        ❸
+
+
+
+
+❹
+                                                    ❼
+
+                                                                            ❾
+
+
+
+
+ ❺
+
+
+
+
+          
+                                                                 ❽
+
+
+
+
+                                                        Air regulator
+ ❶ Machine head
+ ❷ Wiper switch
+ ❸ Temporary stop switch
+ ❹ Feeding frame
+ ❺ Intermediate presser
+ ❻ Thread stand
+ ❼ Operation panel (IP)
+ ❽ Power switch
+   (also used as the emergency stop switch)
+ ❾ Control box
+  Foot pedal
+
+
+
+
+                                              –2–
+ 3. INSTALLATION
+
+  3-1. Installing the throat plate auxiliary cover
+
+           1. The throat plate auxiliary cover is very heavy and perform the installing work with two
+              persons or more.
+           2. The stay and the like are set to the throat plate auxiliary cover and the fitting screws and
+              washers to the bed are packed together with the accessories at the time of delivery.
+           3. When using the cover sheet supplied as accessories, paste it to the throat plate auxiliary
+              cover before installing.
+
+                                  
+                   
+
+                                          ❷
+
+                                                                                                    ❸
+
+                                                                                      ❽
+
+                                                                                ❷
+           ❶
+
+                   ❸
+
+
+
+
+                    ❸                                           ❼❾          ❼❾ ❼            ❾
+
+
+
+
+                                                                                                ❻
+
+
+
+
+                                       ❺ ❹                       ❹❺
+
+
+
+
+1) Move the cloth feed base to the rear and place throat plate auxiliary cover (asm.) ❸ from between
+    lower plate ❶ and throat plate ❷ .
+    At this time, be careful not to bend lower plate ❶ .
+2) Temporarily fix throat plate auxiliary cover (asm.) ❸ with throat plate auxiliary cover support set-
+    screws ❺ and washers ❹ .
+3) Temporarily fix throat plate auxiliary cover support ❻ to the machine bed with setscrews (M6) ❼ .
+4) Fix throat plate auxiliary cover (asm.) ❸ on the machine bed with two counter-sunk screws ❽ .
+5) Insert spacer  between cloth feed base cover  and throat plate auxiliary cover (asm.) ❸ and fix it
+    with setscrew  .
+6) 		Securely tighten setscrews ❼ .
+7) Fix throat plate auxiliary cover setscrew ❺ .
+8) Referring to the caution below, perform positioning of the throat plate auxiliary cover. When the po-
+    sitioning is not performed enough, perform the positioning after loosening once throat plate auxiliary
+    cover setscrew ❺ and throat plate auxiliary cover base setscrews ❾ .
+
+                                                   –3–
+                                                                           1. Fix the throat plate auxiliary
+                                                                              cover ❸ so that is higher
+                                             ❶                                than the throat plate ❷ (within
+                                                                              0.3 mm). When it is lower
+                                                       ❸
+                                                                              than the throat plate ❷ , nee-
+                                                                              dle breakage or the like due
+                                                                              to the defective feed will be
+                                                                              caused.
+                                                                           2. Confirm by putting a ruler or
+                                                                              the like that the throat plate
+                                                                              auxiliary cover ❸ is horizon-
+                 Within 0.3 mm ❸                              ❸               tally installed. If not, throat
+                                                                              plate auxiliary cover ❸ and
+                                                                              lower plate ❶ come in con-
+                                                                              tact partially with each other,
+       ❷
+                                                                              and abnormal worn-out will
+                                                                              be caused.
+
+
+
+
+  3-2. Table position adjustment: Only for 6030
+
+For the 6030, the table has been retracted from the normal position in the factory in prior to shipment.
+After unpacking, be sure to carry out the following steps 1) through 9).
+                 L                                                          Position adjustment for the
+                                                                            left table L is described as an
+                                                                            example. Adjust the position of
+                                                               R
+                                                                            the right table R in the similar
+                                                                            manner.
+
+
+
+
+                                                       [Accessories to be used]
+                 A                                     A: Table fixing bolt cover
+                                      B
+                                                          HX00326000B x 2
+                                                       B: Power switch setscrew
+                                                          SK3512001SE x 2
+                                                          (Four setscrews are used for the table of the
+                                                          machine for JE.)
+
+
+                                                       1) Remove screws ❶ and ❷ to remove the cover.
+                                                        * When removing screw ❷ , take care not to lose
+                                                          the nut secured on the underside of the table.
+
+
+
+       ❶
+       ❷
+
+
+
+
+                                                  –4–
+                                   2) Remove table fixing bolts ❸ which are mounted
+                                      at two locations of the table stand.
+
+
+
+
+        ❸
+                                   * The following steps 3) through 7) are the re-as-
+                                      sembly procedure of the table.
+                                   3) Shift the table to adjust so that it laterally pro-
+                                      trudes from the end of the table stand by 175
+                                      mm. For the longitudinal direction, also adjust so
+   

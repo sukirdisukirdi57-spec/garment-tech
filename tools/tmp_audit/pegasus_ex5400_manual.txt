@@ -1,0 +1,207 @@
+EX5400
+取扱説明書
+EX5400 Series: コンデンスステッチ機能付き
+オーバーロックミシン
+
+INSTRUCTIONS
+EX5400 Series: Overedges with condensed stitch capability
+
+BEDIENUNGSANLEITUNG
+EX5400er Baureihe: Überwendlichnä hmaschinen
+mit stichverdichtung smöglichkeit gebildet
+
+INSTRUCTIONS DE SERVICE
+Série EX5400: Surjeteuses-raseuses avec possiblé
+de rétrécissement des point
+
+INSTRUCCIONES PARA EL MANEJO
+Serie EX5400: Máquinas de sobrehilar con posibilidad de
+remate por condensación de puntada
+
+使用说明书
+EX5400 系列 : 带缝纫线迹功能
+包缝缝纫机
+はじめに
+
+このたびは、ペガサス EX5400 シリーズミシンをお買い
+上げいただき、ありがとうございます。
+
+ミシンをお使いになる前に、この説明書をよくお読みい
+ただき、末ながくご愛用くださいますようお願い致しま
+す。なお、この説明書にはミシンを効率的にご使用いた
+だくために、日常の点検事項と、安全に関する注意事項
+を載せています。
+
+日常のミシンの点検と同時に、皆様ご自身の安全にも十
+分ご配慮くださいますようお願い致します。
+
+お読みになった後、本書は、必要なときにすぐ取り出せ
+る場所に保管してください。
+
+
+INTRODUCTION
+
+Thank you very much for purchasing Pegasus EX5400
+Series machine.
+
+This instruction manual describes daily routine
+­maintenance and safety precautions to keep the machine
+ in the best possible conditions.
+
+Please study this manual very carefully before ­operating
+the machine.
+
+Keep this manual in a convenient place for quick
+reference when needed.
+
+
+BEDIENUNGSANLEITUNG
+
+Wir beglückwünschen Sie zum Kauf lhrer Pegasus-
+Maschine der Serie EX5400.
+
+Diese Betriebsanleitung beschreibt die täglichen
+Wartungsarbeiten und die Sicherheitsregeln, die
+unbedingt zu befolgen sind, um die Bedienungsperson
+und die Maschine vor Schaden zu bewahren.
+
+Bitte lesen Sie diese Betriebsanleitung sorgfältig durch,
+bevor Sie die Maschine in Betrieb nehmen.
+
+Diese Anleitung sollte an einem Ort aufbewahrt werden,
+an dem sie wenn notwendig schnell als Referenz benutzt
+werden kann.
+INSTRUCTIONS DE SERVICE
+
+Toutes nos félicitations pour l’acquisition d’une machine
+Pegasus de la série EX5400.
+
+Les présentes instructions décrivent les opérations
+d’entretien quotidiennes et les normes de sécurité à
+observer impérativement de manière à mettre l’opératrice
+et la machine à l’abri de tous dommages.
+
+C’est pourquoi nous vous prions de lire attentivement
+les présentes instructions de service avant de mettre la
+machine en marche.
+
+Conservez ce manual dans un endroit commaode
+pour pouvoir vous y référer rapidement lorsque c’est
+nécessaíre.
+
+INSTRUCCIONES PARA EL MANEJO
+
+Le felicitamos por la compra de su máquina Pegasus de
+la serie EX5400.
+
+En este manual de instrucciones de servicio se describen
+los trabajos de mantenimiento diarios y las normas de
+seguridad, que deberán cumplirse estrictamente, para
+de esa forma evitar daños en la máquina y lesiones de la
+persona que atienda la misma.
+
+Antes de poner la máquina en marcha, le rogamos
+estudie detenidamente estas instrucciones de servicio.
+
+Guarde este manual en un lugar conveniente para rápida
+referencia cuando sea necesario.
+
+使用说明书
+
+为您购买飞马牌 EX5400 系列缝纫机，我们表示衷心的
+感谢 !
+
+在使用缝纫机之前，请认真阅读此说明书。愿您自始
+至终爱护并使用敝公司的产品。
+另外，为使您的缝纫机高效率的使用，此说明书登载
+了有关日常中检查与安全的注意事项。
+
+在平时，除了对缝纫机进行检查之外，也请您多加注
+意自身的安全 , 做到安全使用。这是我们的心愿。
+
+本说明小册请阅读后还妥善保管，以便按需随时翻阅。
+                                                            目次                                                                                                                   CONTENTS
+
+注 記. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 1   Copyright . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  1
+指 令. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 1   Directives. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  1
+1. はじめに. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 2           1.Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  2
+2. 警告表示. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 3-4               2.Indications of dangers, warnings and cautions . . . . . . . 3-4
+3. 安全対策. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 5-6               3.Safety precautions. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5-6
+4. 各使用段階における注意事項. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 7-12                                                                 4.Notes for each procedure. . . . . . . . . . . . . . . . . . . . . . . 7-12
+5. 警告ラベルの貼り付け位置と安全保護装置. .  .  .  .  .  .  .  .  .  .  . 13                                                                                              5.Location of warning labels and safety devices. . . . . . . .  13
+6. 安全保護装置 . .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 14-15                               6.Protectors for safety. . . . . . . . . . . . . . . . . . . . . . . . . . . 14-15
+ミシンの据え付け . .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 16                                Sewing machine installation. . . . . . . . . . . . . . . . . . . . . . . .  16
+ミシンの回転方向 . .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 16                                Operating direction of the machine pulley. . . . . . . . . . . . .  16
+押え上げ用くさりの取り付け. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 16                                                          Placing the chain for the presser foot lift . . . . . . . . . . . . . .  16
+給油について. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 17-18                          Lubrication . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17-18
+HR 装置への給油 . .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 18                            Silicone oil for H.R. device. . . . . . . . . . . . . . . . . . . . . . . . .  18
+糸の通しかた. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 19                    Threading . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  19
+針の取り替え. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 20                    Replacing the needle . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  20
+糸調子の調節. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 20                    Adjusting the thread tension. . . . . . . . . . . . . . . . . . . . . . . .  20
+押え台の開閉のしかた. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 21                                           Opening/closing the presser bar . . . . . . . . . . . . . . . . . . . .  21
+押え圧力の調節. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 21                         Adjusting the presser foot pressure. . . . . . . . . . . . . . . . . .  21
+差動比の調節. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 22                    Adjusting the differential feed ratio. . . . . . . . . . . . . . . . . . .  22
+縫い目長さの調節 . .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 22                                Adjusting the stitch length . . . . . . . . . . . . . . . . . . . . . . . . .  22
+コンデンスステッチの調節. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 23                                                     Adjusting the condenced stitches . . . . . . . . . . . . . . . . . . .  23
+上メスの交換. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 24                    Replacing the upper knife. . . . . . . . . . . . . . . . . . . . . . . . . .  24
+下メスの交換. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 24                    Replacing the lower knife. . . . . . . . . . . . . . . . . . . . . . . . . .  24
+かがり巾の調節. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 25                         Adjusting overedge width. . . . . . . . . . . . . . . . . . . . . . . . . .  25
+メスの研ぎかた. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 25                         Sharpening the knives . . . . . . . . . . . . . . . . . . . . . . . . . . . .  25
+ミシンの掃除. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 26                    Cleaning the machine. . . . . . . . . . . . . . . . . . . . . . . . . . . . .  26
+油の交換. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 26          Oil replacement. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  26
+排油のしかた. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 26                    To drain the oil. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  26
+フィルタの点検と交換. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 27                                           Checking and replacing the filter. . . . . . . . . . . . . . . . . . . .  27
+針糸繰りの標準取付け位置と調節. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 28                                                                    Positioning and adjusting the needle thread take-up . . . .  28
+針糸道調整基準. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 28                         Adjusting the needle thread guides. . . . . . . . . . . . . . . . . .  28
+糸道標準取付位置 . .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 28                                Positioning the thread guide. . . . . . . . . . . . . . . . . . . . . . . . . .  28
+ルーパー糸繰りと糸道の標準取付位置と糸繰り出し量の調節 . .  .  .  .  .  .  . 29                                                                                                    Positioning the looper thread take-ups and the thread guide
+ルーパー糸繰りと糸道の標準取付位置寸法表. .  .  .  .  .  .  .  .  .  .  . 30                                                                                                Adjusting the amount of the looper thread supply. . . . . . . . . . . . . . .  29
+調整基準表. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 30               Standard positioning dimensions for the looper thread
+針番手対照表 / 標準使用針. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 30                                                   take-up and looper thread guides . . . . . . . . . . . . . . . . . . .  30
+仕様表. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 31     Adjustment dimensions . . . . . . . . . . . . . . . . . . . . . . . . . . .  30
+                                                                                                                                                        Comparison table of equivalent sizes / Standard needle. . . .  30
+                                                                                                                                                        Subclass specifications . . . . . . . . . . . . . . . . . . . . . . . . . . .  31
+                                                                                                                       TABLE DES
+                               INHALT
+                                                                                                                       MATIERÈS
+Copyright . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  33    Copyright . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  33
+Richtlinien. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  33   Directives. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  33
+1.Einführung. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  34      1.Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  34
+2.Gefahren-, Warn- und Vorsichtshinweise . . . . . . . . . . 35-36                           2.Avertissements et consignes. . . . . . . . . . . . . . . . . . . . 35-36
+3.Sicherheitshinweise. . . . . . . . . . . . . . . . . . . . . . . . . . . 37-38             3.Consignes de sécurité. . . . . . . . . . . . . . . . . . . . . . . . . 37-38
+4.Hinweise zu den einzelnen Vorgehensschritten. . . . . 39-44                                4.Remarques sur chaque opération. . . . . . . . . . . . . . . . 39-44
+5.Position von Warnschildern und Schutzvorrichtungen an der Maschine. . . . . . . . 45       5.Position des plaques d’avertissement et dispositifs de sécurité sur la machine. . . . . . . 45
+6.Schutzvorrichtungen. . . . . . . . . . . . . . . . . . . . . . . . . . 46-47               6.Dispositifs de sécurité. . . . . . . . . . . . . . . . . . . . . . . . . 46-47
+Aufstellen der Nähmaschine. . . . . . . . . . . . . . . . . . . . . . . .  48                Installation de la machine à coudre. . . . . . . . . . . . . . . . . .  48
+Drehrichtung des Maschinenrads . . . . . . . . . . . . . . . . . . .  48                     Sens de rotation du volant. . . . . . . . . . . . . . . . . . . . . . . . .  48
+Einhängen der Kette für die Presserfußlüftung . . . . . . . . .  48                          Accrocher la chaîne du relève-pied. . . . . . . . . . . . . . . . . .  48
+Schmierung. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 49-50        Lubrification. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 49-50
+Silikonöl für HR-Vorrichtung. . . . . . . . . . . . . . . . . . . . . . . .  50              Huile silicone pour dispositif HR. . . . . . . . . . . . . . . . . . . . .  50
+Einfädeln. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  51   Enfilage. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  51
+Nadelwechsel. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  52        Changement d’aiguille. . . . . . . . . . . . . . . . . . . . . . . . . . . .  52
+Einstellen der Nadelfadenspannung . . . . . . . . . . . . . . . . .  52                      Réglage de la tension du fil d’aiguille. . . . . . . . . . . . . . . . .  52
+Heraus-/Einklappen der Presserfußstange . . . . . . . . . . . .  53                          Escamoter/rabattre la barre presse-tissu. . . . . . . . . . . . . .  53
+Einstellen des Presserfußdrucks . . . . . . . . . . . . . . . . . . . .  53                  Réglage de la pression du pied presseur . . . . . . . . . . . . .  53
+Einstellen des Differentialtransportverhältnisses. . . . . . . .  54                         Réglage du rapport du différentiel. . . . . . . . . . . . . . . . . . .  54
+Stichlängeneinstellung. . . . . . . . . . . . . . . . . . . . . . . . . . . .  54            Réglage de la longueur de point . . . . . . . . . . . . . . . . . . . .  54
+Einstellung der Stichverdichtung. . . . . . . . . . . . . . . . . . . .  55                  Réglage du rétrécissement des points. . . . . . . . . . . . . . . .  55
+Auswechseln des Obermessers. . . . . . . . . . . . . . . . . . . . .  56                     Remplacement du couteau supérieur . . . . . . . . . . . . . . . .  56
+Auswechseln des Untermessers . . . . . . . . . . . . . . . . . . . .  56                     Remplacement du couteau inférieur . . . . . . . . . . . . . . . . .  56
+Einstellen der Nahtbreite . . . . . . . . . . . . . . . . . . . . . . . . . .  57            Réglage de la largeur de couture. . . . . . . . . . . . . . . . . . . .  57
+Schleifen der Messer . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  57           Affûtage des couteaux . . . . . . . . . . . . . . . . . . . . . . . . . . . .  57
+Reinigen der Maschine. . . . . . . . . . . . . . . . . . . . . . . . . . . .  58             Nettoyage de la machine. . . . . . . . . . . . . . . . . . . . . . . . . .  58
+Ölwechsel. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  58     Changement d’huile. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  58
+Ablassen des Öls . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  58         Evacuation de l’huile. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  58
+Filterkontrolle und –wechsel. . . . . . . . . . . . . . . . . . . . . . . .  59              Contrôle et remplacement du filtre. . . . . . . . . . . . . . . . . . .  59
+Positionieren und Einstellen des Fadengebers. . . . . . . . .  60                            Positionnement et réglage du releveur de fil.. . . . . . . . . . .  60
+Justieren der Nadelfadenführungen. . . . . . . . . . . . . . . . . .  60                     Réglage des guide-fil . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  60
+Positionieren der Fadenführungen. . . . . . . . . . . . . . . . . . .  60                    Positionnement des guide-fil . . . . . . . . . . . . . . . . . . . . . . .  60
+Positionieren des Greiferfadenziehers                                                        Positionnement du releveur de fil de boucleur et des
+und der -führungen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  61           guide-fil de boucleur . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  61
+Einstellen der Fadenmenge vom Greiferfadenzieher. . . . .  61                                Réglage du débit de fil du releveur de fil de boucleur. . . .  61
+Standardeinstellwerte für Greiferfadenzieher und                                             Valeurs de réglage standard pour les releveurs de fil de
+Greiferfadenführungen. . . . . . . . . . . . . . . . . . . . . . . . . . . .  62             boucleur et les guide-fil de boucleur. . . . . . . . . . . . . . . . . . . . . . 62
+Einstelltabelle . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  62    Tableau de réglage. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  62
+Nadelvergleichstabelle / Standardnadel . . . . . . . . . . . . . .  62                       Tableau de comparaison des aiguilles / Aiguille standard. . . . . . . 62
+Technische Daten für die Unterklassen der Baureihe. . . . . . . . . 63                       Caractéristiques techniques des sous-classes . . . . . . . . .  63
+
