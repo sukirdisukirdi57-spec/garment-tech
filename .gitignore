@@ -1,3 +1,7 @@
+# ============ Secrets & env ============
+.env
+.env.*
+
 # Python
 __pycache__/
 *.pyc
@@ -72,3 +76,33 @@ data/maica/*-bbox.html
 
 # Local app backups
 app-backup-*.py
+
+# ============ Tambahan: archive & extended backups ============
+database/_archive/
+database/*.backup*
+database/*.db.bak
+database/garment-stage*.db.bak
+
+# ============ Tambahan: venv & tools ============
+.venv/
+venv/
+.pytest_cache/
+tools/tmp_audit/
+tools/he800c_audit/
+release-staging/
+audit_tmp_*/
+audit_brother*/
+
+# ============ Tambahan: root scratch ============
+/*.pdf
+/*.png
+/*.jpg
+/*.txt
+/*.tsv
+/*.csv
+/*.zip
+/app-backup-*.py
+/app.p
+/app.py.backup*
+/parser_uam0*.py
+!.env.example
