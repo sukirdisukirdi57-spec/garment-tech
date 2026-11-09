@@ -106,3 +106,4 @@ audit_brother*/
 /app.py.backup*
 /parser_uam0*.py
 !.env.example
+database/*.bak-*
