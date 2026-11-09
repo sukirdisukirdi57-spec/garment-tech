@@ -75,8 +75,9 @@
 
         {% if needle_compatibility_data %}
             {% for item in needle_compatibility_data %}
-            <article class="machine-card">
-                <h3>{{ item["needle_brand"] or "Merek jarum belum diisi" }} — {{ item["needle_system"] or "Sistem belum diisi" }}</h3>
+            <details class="machine-card">
+                <summary>{{ item["needle_brand"] or "Merek jarum belum diisi" }} — {{ item["needle_system"] or "Sistem belum diisi" }}</summary>
+                <div class="accordion-detail">
                 {% if item["manufacturer_size"] %}
                 <p><strong>Nomor produsen:</strong> {{ item["manufacturer_size"] }}</p>
                 {% endif %}
@@ -93,7 +94,8 @@
                 <p><a href="{{ item["source_url"] }}" target="_blank" rel="noopener noreferrer">Buka referensi kompatibilitas</a></p>
                 {% endif %}
                 <p><a href="/needle/{{ item['needle_id'] }}">Lihat detail jarum</a></p>
-            </article>
+                </div>
+            </details>
             {% endfor %}
         {% else %}
             <p>Belum ada relasi jarum yang tercatat untuk mesin ini.</p>
@@ -133,6 +135,7 @@
 
     <section id="documents">
     <style>
+    #needle-compatibility details.machine-card > summary,
     #documents details.machine-card > summary,
     #official-alarms details.machine-card > summary,
     #components details.machine-card > summary {
@@ -145,11 +148,13 @@
         gap: 8px;
         font-weight: 600;
     }
+    #needle-compatibility summary::-webkit-details-marker,
     #documents summary::-webkit-details-marker,
     #official-alarms summary::-webkit-details-marker,
     #components summary::-webkit-details-marker {
         display: none;
     }
+    #needle-compatibility summary::after,
     #documents summary::after,
     #official-alarms summary::after,
     #components summary::after {
@@ -157,11 +162,13 @@
         margin-left: auto;
         font-size: 1.1rem;
     }
+    #needle-compatibility details[open] > summary::after,
     #documents details[open] > summary::after,
     #official-alarms details[open] > summary::after,
     #components details[open] > summary::after {
         content: "−";
     }
+    #needle-compatibility .accordion-detail,
     #documents .accordion-detail,
     #official-alarms .accordion-detail,
     #components .accordion-detail {
