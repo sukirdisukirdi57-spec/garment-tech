@@ -107,3 +107,7 @@ audit_brother*/
 /parser_uam0*.py
 !.env.example
 database/*.bak-*
+*.tar.gz
+*.zip
+*.tar.gz
+*.zip
