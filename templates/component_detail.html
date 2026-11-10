@@ -63,7 +63,8 @@
                     class="diagram-open"
                     aria-label="Perbesar diagram {{ component['component_name'] }}">
                 <img
-                    src="{{ url_for('static', filename=component['image_path']) }}"
+                    src="{{ component['image_path'] }}"
+                    onerror="this.style.display='none'"
                     alt="{{ component['component_name'] }}"
                     loading="lazy">
                 <span>🔍 Ketuk gambar untuk memperbesar</span>
@@ -1552,7 +1553,7 @@
   </div>
   <div id="diagram-stage" class="diagram-stage">
     <img id="diagram-large"
-         src="{{ url_for('static', filename=component['image_path']) }}"
+         src="{{ component['image_path'] }}"
          alt="{{ component['component_name'] }}" draggable="false">
   </div>
   <p class="diagram-help">Cubit untuk zoom · Geser untuk melihat detail · Esc untuk menutup</p>
