@@ -489,10 +489,10 @@
                     <div class="component-image">
                         <button type="button"
                                 class="diagram-open ddl7000a-diagram-open"
-                                data-diagram-src="{{ url_for('static', filename='images/mechanisms/juki/ddl7000a/' ~ ddl_images.get(page_number, '')) }}"
+                                data-diagram-src="{{ image_url('images/mechanisms/juki/ddl7000a/' ~ ddl_images.get(page_number, '')) }}"
                                 aria-label="Perbesar diagram {{ section_title }}">
                             <img
-                                src="{{ url_for('static', filename='images/mechanisms/juki/ddl7000a/' ~ ddl_images.get(page_number, '')) }}"
+                                src="{{ image_url('images/mechanisms/juki/ddl7000a/' ~ ddl_images.get(page_number, '')) }}"
                                 alt="Diagram {{ section_title }}"
                                 loading="lazy"
                                 style="display:block; max-width:100%; height:auto; margin:0 auto;">
@@ -752,9 +752,9 @@
                 <div class="component-image">
                     <button type="button"
                             class="diagram-open component-diagram-open"
-                            data-diagram-src="{{ url_for('static', filename=component['image_path']) }}"
+                            data-diagram-src="{{ image_url(component['image_path']) }}"
                             aria-label="Perbesar diagram {{ component['component_name'] }}">
-                        <img src="{{ url_for('static', filename=component['image_path']) }}"
+                        <img src="{{ image_url(component['image_path']) }}"
                              alt="{{ component['component_name'] }}"
                              loading="lazy">
                         <span>🔍 Ketuk gambar untuk memperbesar</span>
@@ -994,7 +994,7 @@
                     <tr class="ddl-section-image-row"
                         data-section-page="{{ page }}" style="display:none;">
                         <td colspan="6" style="padding:12px; text-align:center;">
-                            <img src="{{ url_for('static', filename='images/mechanisms/juki/ddl7000a/' ~ ddl_images.get(page|int, '')) }}"
+                            <img src="{{ image_url('images/mechanisms/juki/ddl7000a/' ~ ddl_images.get(page|int, '')) }}"
                                  alt="Diagram {{ section_title }}"
                                  loading="lazy"
                                  style="display:block; max-width:100%; height:auto; margin:0 auto;">

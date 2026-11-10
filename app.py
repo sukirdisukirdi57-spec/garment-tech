@@ -1,5 +1,5 @@
 from juki_importer import ambil_spesifikasi_ddl8700
-from flask import Response, Flask, render_template, request, redirect, send_file, session
+from flask import Response, Flask, render_template, request, redirect, send_file, session, url_for
 from werkzeug.utils import secure_filename
 from dotenv import load_dotenv
 import csv
@@ -10,6 +10,33 @@ import secrets
 import sqlite3
 
 app = Flask(__name__)
+
+# URL publik untuk diagram katalog yang disimpan di GitHub.
+IMAGE_BASE_URL = (
+    "https://raw.githubusercontent.com/"
+    "sukirdisukirdi57-spec/garment-tech-images/main/"
+)
+
+
+@app.template_global()
+def image_url(path):
+    if not path:
+        return ""
+
+    path = str(path).lstrip("/")
+
+    if path.startswith("images/mechanisms/"):
+        path = path[len("images/mechanisms/"):]
+
+    elif path.startswith("component_images/"):
+        pass
+
+    else:
+        return url_for("static", filename=path)
+
+    return IMAGE_BASE_URL + path
+
+
 load_dotenv()
 app.secret_key = os.getenv("SECRET_KEY")
 
